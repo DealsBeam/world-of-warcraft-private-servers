@@ -30,14 +30,19 @@ const rows = document.getElementById("rows");
 const empty = document.getElementById("empty");
 const count = document.getElementById("count");
 
+const nameHtml = s => s.url ? `<a class="server-link" href="${s.url}">${s.name}</a>` : s.name;
+
 function render() {
     const visible = SERVERS.filter(matches);
-    rows.innerHTML = visible.map(s => `
+    rows.innerHTML = visible.map(s => {
+        const rel = s.release ? ` <span class="tag">Release: ${s.release}</span>` : "";
+        return `
         <tr>
-            <td class="server-name">${s.name}${s.group && s.name.indexOf(s.group) === -1 ? ` <span class="tag-whitemane">${s.group}</span>` : ""}</td>
+            <td class="server-name">${nameHtml(s)}${s.group && s.name.indexOf(s.group) === -1 ? ` <span class="tag-whitemane">${s.group}</span>` : ""}</td>
             <td><span class="badge ${STATUS[s.status].cls}">${STATUS[s.status].label}</span></td>
-            <td>${s.details}${s.tag ? ` <span class="tag">${s.tag}</span>` : ""}</td>
-        </tr>`).join("");
+            <td>${s.details}${s.tag ? ` <span class="tag">${s.tag}</span>` : ""}${rel}</td>
+        </tr>`;
+    }).join("");
     empty.hidden = visible.length > 0;
     count.textContent = `${visible.length} of ${SERVERS.length} servers`;
 }
@@ -63,5 +68,16 @@ tagSel.addEventListener("change", e => {
     tag = e.target.value;
     render();
 });
+
+const scr = s => s.replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
+
+document.getElementById("news-list").innerHTML = NEWS.map(n =>
+    `<li><a href="${n.url}">${scr(n.title)}</a></li>`).join("");
+
+document.getElementById("guild-list").innerHTML = GUILDS.map(g =>
+    `<li><strong>${scr(g.name)}</strong> — ${scr(g.server)}${g.realm ? `, ${scr(g.realm)}` : ""} · ${scr(g.faction)}</li>`).join("");
+
+document.getElementById("link-list").innerHTML = LINKS.map(l =>
+    `<li><a href="${l.url}">${scr(l.title)}</a></li>`).join("");
 
 render();

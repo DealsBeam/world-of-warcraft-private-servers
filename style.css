@@ -119,6 +119,60 @@ select:focus-visible {
     margin: 0 0 8px 0;
 }
 
+.panel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 700px) {
+    .panel-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.panel {
+    background-color: #161e2e;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 16px 20px;
+}
+
+.panel h2 {
+    color: #f1f5f9;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 8px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1e293b;
+}
+
+.panel ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+}
+
+.panel li {
+    margin: 4px 0;
+}
+
+.hint {
+    color: #64748b;
+    font-size: 12px;
+    margin: 0 0 8px 0;
+}
+
+.server-link {
+    color: #f1f5f9;
+}
+
+.server-link:hover {
+    color: #f59e0b;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;

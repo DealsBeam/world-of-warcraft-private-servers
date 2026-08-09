@@ -36,6 +36,11 @@
 
     <p class="count" id="count"></p>
 
+    <section class="panel">
+        <h2>News</h2>
+        <ul id="news-list"></ul>
+    </section>
+
     <table>
         <thead>
             <tr>
@@ -48,6 +53,18 @@
     </table>
 
     <p class="empty" id="empty" hidden>No servers match your filters.</p>
+
+    <div class="panel-grid">
+        <section class="panel">
+            <h2>Active Guilds</h2>
+            <p class="hint">Type /who g-"Guild Name" to see who's online, whisper anyone for an invite, or ask in thread.</p>
+            <ul id="guild-list"></ul>
+        </section>
+        <section class="panel">
+            <h2>Mods &amp; Creations</h2>
+            <ul id="link-list"></ul>
+        </section>
+    </div>
 
     <div class="footer">
         List curated and formatted from Discord community updates. Statuses subject to change.
