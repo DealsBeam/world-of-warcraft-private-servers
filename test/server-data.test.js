@@ -17,10 +17,10 @@ for (const s of SERVERS) {
 const names = new Set(SERVERS.map(s => s.name));
 assert.strictEqual(names.size, SERVERS.length, "duplicate server names");
 
-assert.strictEqual(SERVERS.length, 36, "server count changed");
-assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 19);
-assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 12);
-assert.strictEqual(SERVERS.filter(s => s.status === "closed").length, 5);
+assert.strictEqual(SERVERS.length, 44, "server count changed");
+assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 25);
+assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 13);
+assert.strictEqual(SERVERS.filter(s => s.status === "closed").length, 6);
 
 for (const arr of [NEWS, GUILDS, LINKS]) {
     assert.ok(Array.isArray(arr) && arr.length > 0, "empty section");
@@ -45,12 +45,13 @@ function matches(s, { status = "all", tag = "all", search = "" } = {}) {
     return true;
 }
 
-assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable" })).length, 19);
-assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Cataclysm" })).length, 1);
-assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "WotLK" })).length, 5);
+assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable" })).length, 25);
+assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Cataclysm" })).length, 2);
+assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "WotLK" })).length, 9);
 assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Vanilla+" })).length, 9);
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "whitemane" })).length, 5);
 assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable", search: "whitemane" })).length, 2);
+assert.strictEqual(SERVERS.filter(s => matches(s, { search: "stormforge" })).length, 2);
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "does-not-exist" })).length, 0);
 
 console.log(`OK: ${SERVERS.length} servers, ${NEWS.length} news, ${GUILDS.length} guilds, ${LINKS.length} links — all checks passed`);
