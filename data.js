@@ -1,0 +1,31 @@
+const SERVERS = [
+  { name: "Project Epoch", status: "playable", details: "Active Development", tag: "", group: "" },
+  { name: "Ascension", status: "playable", details: "Classless WoW (Active Development)", tag: "Classless", group: "Ascension" },
+  { name: "Bronzebeard", status: "playable", details: "Ascension Vanilla+", tag: "Vanilla+", group: "Ascension" },
+  { name: "Conquest of Azeroth", status: "playable", details: "Ascension Vanilla+ Custom Classes", tag: "Vanilla+", group: "Ascension" },
+  { name: "Revelation WoW", status: "playable", details: "Beta Stage / In Development", tag: "", group: "" },
+  { name: "WallCraft", status: "playable", details: "Active Development", tag: "", group: "" },
+  { name: "Epsilon", status: "playable", details: "Active Development (RP/Sandbox)", tag: "", group: "" },
+  { name: "Chromiecraft", status: "playable", details: "Progressive Open-Source", tag: "", group: "" },
+  { name: "Anarchy 2.0", status: "playable", details: "Active Development", tag: "", group: "" },
+  { name: "Octo WoW", status: "playable", details: "Classic+ (C+)", tag: "Classic+", group: "" },
+  { name: "Cappybara WoW", status: "playable", details: "Chinese-based Classic+ (C+)", tag: "Classic+", group: "" },
+  { name: "Whitemane — Gilneas", status: "playable", details: "Cataclysm Expansion", tag: "Cataclysm", group: "Whitemane" },
+  { name: "Whitemane — Maelstrom", status: "playable", details: "Cataclysm Expansion", tag: "Cataclysm", group: "Whitemane" },
+  { name: "Azeroth at War", status: "dev", details: "Expected 2026", tag: "", group: "" },
+  { name: "Hour of Twilight", status: "dev", details: "Expected 2026", tag: "", group: "" },
+  { name: "Duskhaven", status: "dev", details: "Launch Date TBD", tag: "", group: "" },
+  { name: "Prophecy: Fall of Lordaeron", status: "dev", details: "Launch Date TBD", tag: "", group: "" },
+  { name: "Warsworn", status: "dev", details: "WoW MOBA Concept (Launch TBD)", tag: "MOBA", group: "" },
+  { name: "Whitemane — Frostmourne", status: "dev", details: "Wrath of the Lich King", tag: "WotLK", group: "Whitemane" },
+  { name: "Whitemane — Stormstout", status: "dev", details: "Mists of Pandaria", tag: "MoP", group: "Whitemane" },
+  { name: "Whitemane — Sunwell", status: "dev", details: "The Burning Crusade", tag: "TBC", group: "Whitemane" },
+  { name: "Turtle WoW", status: "closed", details: "Offline", tag: "", group: "" },
+  { name: "Stormforge (Mistblade)", status: "closed", details: "Season 3 Ended", tag: "", group: "Stormforge" },
+  { name: "Stormforge (Wrath)", status: "closed", details: "Season 1 Ended", tag: "", group: "Stormforge" },
+  { name: "Felmyst", status: "closed", details: "Offline", tag: "", group: "" },
+  { name: "Everlook", status: "closed", details: "Offline", tag: "", group: "" },
+  { name: "WORS (World of RuneScape)", status: "closed", details: "Project Discontinued", tag: "", group: "" }
+];
+
+if (typeof module !== "undefined") module.exports = SERVERS;

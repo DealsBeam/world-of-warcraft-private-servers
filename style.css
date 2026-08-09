@@ -1,0 +1,248 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0f141d;
+    color: #d1d5db;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+.header-banner {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border: 1px solid #334155;
+    border-left: 5px solid #f59e0b;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    color: #f8fafc;
+    font-size: 24px;
+    margin: 0 0 6px 0;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #94a3b8;
+    font-size: 14px;
+    margin: 0;
+}
+
+.meta-info {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #64748b;
+    border-top: 1px solid #1e293b;
+    padding-top: 8px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chip {
+    background-color: #161e2e;
+    color: #cbd5e1;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.chip:hover {
+    background-color: #1e293b;
+}
+
+.chip.active {
+    background-color: #f59e0b;
+    color: #0f141d;
+    border-color: #f59e0b;
+    font-weight: 600;
+}
+
+.chip:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 2px solid #f59e0b;
+    outline-offset: 2px;
+}
+
+.filters {
+    display: flex;
+    gap: 8px;
+}
+
+#search,
+#tag {
+    background-color: #161e2e;
+    color: #d1d5db;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 7px 12px;
+    font-size: 13px;
+}
+
+#search {
+    min-width: 220px;
+}
+
+#tag option {
+    background-color: #161e2e;
+}
+
+.count {
+    font-size: 12px;
+    color: #64748b;
+    margin: 0 0 8px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+    background-color: #161e2e;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #1e293b;
+}
+
+th {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    text-align: left;
+    padding: 10px 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #1e293b;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #121926;
+}
+
+.badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.badge-green {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge-yellow {
+    background-color: rgba(245, 158, 11, 0.15);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge-red {
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.server-name {
+    font-weight: 600;
+    color: #f1f5f9;
+}
+
+.tag-whitemane {
+    color: #a855f7;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #1e293b;
+    color: #94a3b8;
+    border: 1px solid #334155;
+    border-radius: 4px;
+    padding: 1px 7px;
+    font-size: 11px;
+    margin-left: 4px;
+}
+
+.empty {
+    color: #94a3b8;
+    padding: 24px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 12px;
+    border-top: 1px solid #1e293b;
+    font-size: 12px;
+    color: #64748b;
+    text-align: center;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+    .header-banner {
+        background: none;
+        border: 1px solid #000;
+        border-left-width: 5px;
+    }
+    .controls {
+        display: none;
+    }
+}

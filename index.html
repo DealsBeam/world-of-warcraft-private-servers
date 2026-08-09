@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World of Warcraft Private Server Status List</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>World of Warcraft Private Servers</h1>
+        <p class="subtitle">Comprehensive Status Tracker &amp; Development Directory</p>
+        <div class="meta-info">
+            Compiled from community updates by <strong>Malonze</strong> &bull; Updated: January 2026
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="chips" id="chips" role="group" aria-label="Filter by status">
+            <button class="chip active" data-status="all" aria-pressed="true">All</button>
+            <button class="chip" data-status="playable" aria-pressed="false">🟢 Playable</button>
+            <button class="chip" data-status="dev" aria-pressed="false">🟡 In Dev</button>
+            <button class="chip" data-status="closed" aria-pressed="false">🔴 Shut Down</button>
+        </div>
+
+        <div class="filters">
+            <label class="sr-only" for="search">Search servers</label>
+            <input type="search" id="search" placeholder="Search servers…" autocomplete="off">
+            <select id="tag" aria-label="Filter by type">
+                <option value="all">All types</option>
+            </select>
+        </div>
+    </div>
+
+    <p class="count" id="count"></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Server Name</th>
+                <th>Status</th>
+                <th>Type / Details</th>
+            </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+    </table>
+
+    <p class="empty" id="empty" hidden>No servers match your filters.</p>
+
+    <div class="footer">
+        List curated and formatted from Discord community updates. Statuses subject to change.
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
