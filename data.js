@@ -475,19 +475,6 @@ const HISTORY = [
       ]
     },
     {
-      id: "event-bfa-havencore-2026",
-      category: "core",
-      icon: "fa-solid fa-server",
-      date: "July 7, 2026",
-      title: "WoW Haven Announces BFA-HavenCore",
-      tag: "Core Emulators",
-      paragraphs: [
-          "Hex and the WoW Haven team officially announced their first major open-source project: HavenCore BFA. After months of maintaining the project, fixing core issues, improving scripts, and polishing gameplay, the repository was made fully open-source to the public.",
-          "Aiming to build one of the most complete and Blizzlike Battle for Azeroth emulators, the team established open collaboration while working toward launching a future polished BFA server, dedicating a special thanks to the WMC community for their ongoing support and motivation."
-      ],
-      githubRepo: "Hextv/BFA-HavenCore"
-    },
-    {
       id: "event-warcraftxl-2026",
       category: "tools",
       icon: "fa-solid fa-wand-magic-sparkles",
@@ -499,6 +486,17 @@ const HISTORY = [
           "Featuring simple drag-and-drop translation of modern file formats (M2, BLP, WMO, ADT, WDT, WDL), the project supports modern particle systems, ribbons, grass physics, and wind effects while utilizing an open module ecosystem inspired by AzerothCore."
       ],
       githubRepo: "WarcraftXL/wxl-core"
+    },
+    {
+      id: "event-unreal-azeroth-2026",
+      category: "tools",
+      date: "August 2026",
+      title: "Unreal Azeroth launches a from-scratch UE5 client",
+      tag: "Client Modding",
+      paragraphs: [
+          "Unreal Azeroth is a completely custom World of Warcraft client written from scratch in Unreal Engine 5. It is not a mod, a reshade, or an emulator patch, but a brand-new client built with proprietary in-house tooling that still speaks to 20-year-old vanilla-era servers.",
+          "Following a closed beta, the client launched in Legacy Mode in August 2026, with the full UE5 Modern Mode, an Android build, and native VR support on the roadmap. Its in-built anti-cheat and extended engine limits (larger quest logs, ultrawide, action queueing) mark it as the first large-scale from-scratch recreation of classic Azeroth in a modern engine."
+      ]
     }
 ];
 
