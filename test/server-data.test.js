@@ -1,4 +1,4 @@
-const { SERVERS, NEWS, GUILDS, LINKS } = require("../data.js");
+const { SERVERS, NEWS, GUILDS, LINKS, HISTORY } = require("../data.js");
 const assert = require("assert");
 
 const STATUSES = ["playable", "dev", "closed"];
@@ -35,6 +35,15 @@ for (const g of GUILDS) {
     assert.ok(g.name && g.server, `bad guild: ${JSON.stringify(g)}`);
 }
 
+assert.ok(HISTORY.length >= 30, "history too small");
+for (const h of HISTORY) {
+    assert.ok(h.id && h.title && h.date, `bad history event: ${JSON.stringify(h)}`);
+    assert.ok(["core", "web", "tools"].includes(h.category), `bad category on ${h.title}`);
+    assert.ok(Array.isArray(h.paragraphs) && h.paragraphs.length > 0, `bad paragraphs on ${h.title}`);
+    if (h.githubRepo) assert.ok(/^[\w.-]+\/[\w.-]+$/.test(h.githubRepo), `bad githubRepo on ${h.title}`);
+}
+assert.strictEqual(new Set(HISTORY.map(h => h.id)).size, HISTORY.length, "duplicate history ids");
+
 function matches(s, { status = "all", tag = "all", search = "" } = {}) {
     if (status !== "all" && s.status !== status) return false;
     if (tag !== "all" && s.tag !== tag) return false;
@@ -54,4 +63,4 @@ assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable", search: 
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "stormforge" })).length, 2);
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "does-not-exist" })).length, 0);
 
-console.log(`OK: ${SERVERS.length} servers, ${NEWS.length} news, ${GUILDS.length} guilds, ${LINKS.length} links — all checks passed`);
+console.log(`OK: ${SERVERS.length} servers, ${NEWS.length} news, ${GUILDS.length} guilds, ${LINKS.length} links, ${HISTORY.length} history events — all checks passed`);

@@ -4,70 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>World of Warcraft Private Server Status List</title>
+    <meta name="description" content="Comprehensive tracker of World of Warcraft private servers, emulation history, news, guilds, and modding resources.">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="header-banner">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="header-banner">
         <h1>World of Warcraft Private Servers</h1>
-        <p class="subtitle">Comprehensive Status Tracker &amp; Development Directory</p>
+        <p class="subtitle">Comprehensive Status Tracker, Emulation History &amp; Development Directory</p>
         <div class="meta-info">
-            Compiled from community updates by <strong>Malonze</strong> &bull; Updated: January 2026
+            Compiled from community updates by <strong>Malonze</strong>
         </div>
-    </div>
+    </header>
 
-    <div class="controls">
-        <div class="chips" id="chips" role="group" aria-label="Filter by status">
-            <button class="chip active" data-status="all" aria-pressed="true">All</button>
-            <button class="chip" data-status="playable" aria-pressed="false">🟢 Playable</button>
-            <button class="chip" data-status="dev" aria-pressed="false">🟡 In Dev</button>
-            <button class="chip" data-status="closed" aria-pressed="false">🔴 Shut Down</button>
-        </div>
+    <nav class="tabs" role="tablist" aria-label="Site sections">
+        <button class="tab active" data-tab="servers" role="tab" aria-selected="true">Servers</button>
+        <button class="tab" data-tab="history" role="tab" aria-selected="false">History</button>
+        <button class="tab" data-tab="links" role="tab" aria-selected="false">News &amp; Links</button>
+    </nav>
 
-        <div class="filters">
-            <label class="sr-only" for="search">Search servers</label>
-            <input type="search" id="search" placeholder="Search servers…" autocomplete="off">
-            <select id="tag" aria-label="Filter by type">
-                <option value="all">All types</option>
-            </select>
-        </div>
-    </div>
+    <main id="main-content">
 
-    <p class="count" id="count"></p>
+        <section id="view-servers" class="view active" role="tabpanel">
+            <div class="stat-strip" id="stat-strip" aria-label="Server status counts"></div>
 
-    <section class="panel">
-        <h2>News</h2>
-        <ul id="news-list"></ul>
-    </section>
+            <div class="controls">
+                <div class="chips" id="chips" role="group" aria-label="Filter by status">
+                    <button class="chip active" data-status="all" aria-pressed="true">All</button>
+                    <button class="chip" data-status="playable" aria-pressed="false">🟢 Playable</button>
+                    <button class="chip" data-status="dev" aria-pressed="false">🟡 In Dev</button>
+                    <button class="chip" data-status="closed" aria-pressed="false">🔴 Shut Down</button>
+                </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Server Name</th>
-                <th>Status</th>
-                <th>Type / Details</th>
-            </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-    </table>
+                <div class="filters">
+                    <label class="sr-only" for="search">Search servers</label>
+                    <input type="search" id="search" placeholder="Search servers…" autocomplete="off">
+                    <select id="tag" aria-label="Filter by type">
+                        <option value="all">All types</option>
+                    </select>
+                </div>
+            </div>
 
-    <p class="empty" id="empty" hidden>No servers match your filters.</p>
-
-    <div class="panel-grid">
-        <section class="panel">
-            <h2>Active Guilds</h2>
-            <p class="hint">Type /who g-"Guild Name" to see who's online, whisper anyone for an invite, or ask in thread.</p>
-            <ul id="guild-list"></ul>
+            <p class="count" id="count"></p>
+            <p class="empty" id="empty" hidden>No servers match your filters.</p>
+            <div class="cards" id="cards"></div>
         </section>
-        <section class="panel">
-            <h2>Mods &amp; Creations</h2>
-            <ul id="link-list"></ul>
+
+        <section id="view-history" class="view" role="tabpanel" hidden>
+            <div class="history-toolbar">
+                <label class="sr-only" for="history-search">Search history</label>
+                <input type="search" id="history-search" placeholder="Search history events…" autocomplete="off">
+                <div class="filter-row" id="history-filters">
+                    <button class="chip active" data-hcat="all" aria-pressed="true">All</button>
+                </div>
+            </div>
+            <p class="history-note">Emulation &amp; modding history archive data by
+                <a href="https://github.com/Hextv/source-azeroth">Source Azeroth</a>.</p>
+            <div class="timeline" id="timeline"></div>
         </section>
-    </div>
+
+        <section id="view-links" class="view" role="tabpanel" hidden>
+            <div class="panel-grid">
+                <section class="panel">
+                    <h2>News</h2>
+                    <ul id="news-list"></ul>
+                </section>
+                <section class="panel">
+                    <h2>Active Guilds</h2>
+                    <p class="hint">Type /who g-"Guild Name" to see who's online, whisper anyone for an invite, or ask in thread.</p>
+                    <ul id="guild-list"></ul>
+                </section>
+            </div>
+            <section class="panel">
+                <h2>Mods &amp; Creations</h2>
+                <ul id="link-list"></ul>
+            </section>
+        </section>
+
+    </main>
 
     <div class="footer">
         List curated and formatted from Discord community updates. Statuses subject to change.
+        History archive by <a href="https://github.com/Hextv/source-azeroth">Source Azeroth</a>.
     </div>
 
     <script src="data.js"></script>
