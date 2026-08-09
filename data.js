@@ -60,7 +60,9 @@ const GUILDS = [
 
 const LINKS = [
   { title: "Mods, Tutorials, Singleplayer & /wpsg/ Creations", url: "https://pastebin.com/StKbZ90j" },
-  { title: "EQWOW (Everquest + WoW)", url: "https://github.com/NathanHandley/EQWOWConverter" }
+  { title: "EQWOW (Everquest + WoW)", url: "https://github.com/NathanHandley/EQWOWConverter" },
+  { title: "WoWee - open-source WoW client (C++/Vulkan, Vanilla/TBC/WotLK)", url: "https://github.com/Kelsidavis/WoWee" },
+  { title: "benilla - from-scratch 1.12.1 client (Rust + Bevy)", url: "https://github.com/samwhosung/benilla" }
 ];
 
 if (typeof module !== "undefined") module.exports = { SERVERS, NEWS, GUILDS, LINKS };
