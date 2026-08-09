@@ -63,8 +63,7 @@ const LINKS = [
   { title: "EQWOW (Everquest + WoW)", url: "https://github.com/NathanHandley/EQWOWConverter" },
   { title: "WoWee - open-source WoW client (C++/Vulkan, Vanilla/TBC/WotLK)", url: "https://github.com/Kelsidavis/WoWee" },
   { title: "benilla - from-scratch 1.12.1 client (Rust + Bevy)", url: "https://github.com/samwhosung/benilla" },
-  { title: "WoW Emulation - preserves & tools for WoW clients (Rust)", url: "https://github.com/wowemulation-dev" },
-  { title: "Source Azeroth - emulation & modding history archive", url: "https://github.com/Hextv/source-azeroth" }
+  { title: "WoW Emulation - preserves & tools for WoW clients (Rust)", url: "https://github.com/wowemulation-dev" }
 ];
 
 const HISTORY = [
@@ -500,19 +499,6 @@ const HISTORY = [
           "Featuring simple drag-and-drop translation of modern file formats (M2, BLP, WMO, ADT, WDT, WDL), the project supports modern particle systems, ribbons, grass physics, and wind effects while utilizing an open module ecosystem inspired by AzerothCore."
       ],
       githubRepo: "WarcraftXL/wxl-core"
-    },
-    {
-      id: "event-sourceazeroth-release-2026",
-      category: "web",
-      icon: "fa-solid fa-book-journal-whills",
-      date: "July 25, 2026",
-      title: "The Release of SourceAzeroth",
-      tag: "Community Archive",
-      paragraphs: [
-          "SourceAzeroth was created by Hex from the WoW Haven community to document and preserve the rich history of World of Warcraft emulation, custom core development, and community tools.",
-          "As the modding scene continues to evolve, keeping track of major milestones, framework shifts, and client tools becomes vital. The platform serves as a collaborative, open-source knowledge base and interactive timeline for the entire emulation community."
-      ],
-      githubRepo: "Hextv/source-azeroth"
     }
 ];
 
