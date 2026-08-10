@@ -48,6 +48,7 @@ const SERVERS = [
 const NEWS = [
   { title: "Turtle WoW permanently shut down after Blizzard C&D (May 2026)", url: "https://www.pcgamesn.com/world-of-warcraft/turtle-wow-shuts-down" },
   { title: "Blizzard v. Turtle WoW: consent judgment and permanent injunction (Apr 13, 2026)", url: "https://www.courtlistener.com/docket/71235075/blizzard-entertainment-inc-v-turtle-wow/" },
+  { title: "Turtle WoW 1.17.1/1.17.2 source leak (May 2026)", url: "https://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-emulator-servers/wow-emu-general-releases/1104823-turtle-wow-leak-1-17-1-1-17-2-source-repack-client-full-working.html" },
   { title: "Stormforge shut down after Blizzard C&D (May 2026)", url: "https://www.pcgamesn.com/world-of-warcraft/stormforge-shut-down" },
   { title: "Unreal Azeroth official release August 15", url: "https://unrealazeroth.ru" },
   { title: "Ascension accelerated content timeline for CoA and S10", url: "https://ascension.gg/en/timeline" },
@@ -64,6 +65,8 @@ const LINKS = [
   { title: "WoWee - open-source WoW client (C++/Vulkan, Vanilla/TBC/WotLK)", url: "https://github.com/Kelsidavis/WoWee" },
   { title: "benilla - from-scratch 1.12.1 client (Rust + Bevy)", url: "https://github.com/samwhosung/benilla" },
   { title: "WoW Emulation - preserves & tools for WoW clients (Rust)", url: "https://github.com/wowemulation-dev" },
+  { title: "tavern - Rust Battle.net account services, preserves retired Classic builds", url: "https://github.com/wowemulation-dev/tavern" },
+  { title: "protobuf-decompiler - rebuilds .proto files from client reflection metadata", url: "https://github.com/wowemulation-dev/protobuf-decompiler" },
   { title: "WoTLK Modding Wiki - guides for learning WotLK modding", url: "https://wotlkdev.github.io/wiki/" },
   { title: "Playerbots - AzerothCore module for player-like bots", url: "https://github.com/mod-playerbots/mod-playerbots" },
   { title: "Emberveil - Vanilla WoW 1.12.1 client rebuilt in Unreal Engine 5", url: "https://emberveil.org/" },
