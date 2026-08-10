@@ -64,6 +64,8 @@ const LINKS = [
   { title: "WoWee - open-source WoW client (C++/Vulkan, Vanilla/TBC/WotLK)", url: "https://github.com/Kelsidavis/WoWee" },
   { title: "benilla - from-scratch 1.12.1 client (Rust + Bevy)", url: "https://github.com/samwhosung/benilla" },
   { title: "WoW Emulation - preserves & tools for WoW clients (Rust)", url: "https://github.com/wowemulation-dev" },
+  { title: "WoTLK Modding Wiki - guides for learning WotLK modding", url: "https://wotlkdev.github.io/wiki/" },
+  { title: "Playerbots - AzerothCore module for player-like bots", url: "https://github.com/mod-playerbots/mod-playerbots" },
   { title: "Emberveil - Vanilla WoW 1.12.1 client rebuilt in Unreal Engine 5", url: "https://emberveil.org/" },
   { title: "Unreal Azeroth - from-scratch UE5 client with Legacy Mode", url: "https://unrealazeroth.ru" },
   { title: "WarcraftXL - modular modding framework for the 3.3.5a client", url: "https://github.com/WarcraftXL/wxl-core" },
