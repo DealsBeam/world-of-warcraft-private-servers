@@ -1,4 +1,7 @@
-const { SERVERS, NEWS, LINKS, HISTORY } = require("../data.js");
+const SERVERS = require("../src/_data/servers.js");
+const NEWS = require("../src/_data/news.js");
+const LINKS = require("../src/_data/links.js");
+const HISTORY = require("../src/_data/history.js");
 const assert = require("assert");
 
 const STATUSES = ["playable", "dev", "closed"];
