@@ -47,19 +47,24 @@
     --text: #3a362c;
     --text-strong: #1c1912;
     --muted: #6b6452;
-    --dim: #847c66;
+    --dim: #6f6854;
     --accent: #85600f;
     --green: #1c7c45;
-    --green-soft: #4cbf77;
+    --green-soft: #2f9d5b;
     --yellow: #8a6d12;
     --red: #c0392b;
-    --red-soft: #e08a78;
+    --red-soft: #d06a55;
+    --on-gold: #ffffff;
     --tint-bg: 12%;
     --tint-bd: 40%;
 }
 
+[data-theme="light"] ::placeholder {
+    color: var(--dim);
+}
+
 [data-theme="light"] h1 {
-    background: linear-gradient(135deg, #7c5f10, #b58c1e, #85600f);
+    background: linear-gradient(135deg, #7c5f10, #a87f18, #85600f);
     filter: drop-shadow(0 1px 0 rgba(255, 255, 255, 0.7));
 }
 
