@@ -18,8 +18,8 @@ const names = new Set(SERVERS.map(s => s.name));
 assert.strictEqual(names.size, SERVERS.length, "duplicate server names");
 
 assert.strictEqual(SERVERS.length, 44, "server count changed");
-assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 25);
-assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 13);
+assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 24);
+assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 14);
 assert.strictEqual(SERVERS.filter(s => s.status === "closed").length, 6);
 
 for (const arr of [NEWS, LINKS]) {
@@ -51,10 +51,10 @@ function matches(s, { status = "all", tag = "all", search = "" } = {}) {
     return true;
 }
 
-assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable" })).length, 25);
+assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable" })).length, 24);
 assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Cataclysm" })).length, 2);
 assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "WotLK" })).length, 9);
-assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Vanilla+" })).length, 9);
+assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Vanilla+" })).length, 10);
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "whitemane" })).length, 5);
 assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable", search: "whitemane" })).length, 2);
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "stormforge" })).length, 2);

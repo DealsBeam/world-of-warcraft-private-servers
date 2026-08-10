@@ -1,6 +1,6 @@
 const SERVERS = [
   { name: "Ascension", status: "playable", details: "Classless WoW (Vanilla+, Classless, Custom Classes/CoA, Epoch)", tag: "Classless", group: "Ascension", url: "https://ascension.gg/en" },
-  { name: "Project Epoch", status: "playable", details: "Active Development", tag: "", group: "" },
+  { name: "Project Epoch: Reborn", status: "dev", details: "Classic+ closed testing, community revival", tag: "Vanilla+", group: "", url: "https://project-epoch.org/", release: "TBD" },
   { name: "Bronzebeard", status: "playable", details: "Ascension Vanilla+", tag: "Vanilla+", group: "Ascension" },
   { name: "Conquest of Azeroth", status: "playable", details: "Ascension Vanilla+ Custom Classes", tag: "Vanilla+", group: "Ascension" },
   { name: "Revelation WoW", status: "playable", details: "Beta Stage / In Development", tag: "", group: "" },
@@ -76,7 +76,8 @@ const LINKS = [
   { title: "AdtV - ADT viewer (no conversion)", url: "https://github.com/Hextv/AdtV" },
   { title: "BlpV - BLP image viewer", url: "https://github.com/Hextv/BlpV" },
   { title: "ListM - listfile merger", url: "https://github.com/Hextv/ListM" },
-  { title: "wxl-itemdbc-ditcher - WXL module that drops the Item.dbc dependency", url: "https://github.com/Hextv/wxl-itemdbc-ditcher" }
+  { title: "wxl-itemdbc-ditcher - WXL module that drops the Item.dbc dependency", url: "https://github.com/Hextv/wxl-itemdbc-ditcher" },
+  { title: "Project Reforged - HD visual overhaul for 1.12 and 3.3.5 clients", url: "https://projectreforged.github.io/" }
 ];
 
 const HISTORY = [
