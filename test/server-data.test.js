@@ -20,6 +20,10 @@ for (const s of SERVERS) {
 const names = new Set(SERVERS.map(s => s.name));
 assert.strictEqual(names.size, SERVERS.length, "duplicate server names");
 
+const slugify = s => String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+const slugs = SERVERS.map(s => slugify(s.name));
+assert.strictEqual(new Set(slugs).size, slugs.length, `slug collision: ${slugs.filter((v, i) => slugs.indexOf(v) !== i).join(", ")}`);
+
 assert.strictEqual(SERVERS.length, 44, "server count changed");
 assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 24);
 assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 14);
