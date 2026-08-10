@@ -332,14 +332,7 @@ button:focus-visible {
     background-color: rgba(168, 85, 247, 0.1);
 }
 
-/* ---------- panels (news/guilds/links) ---------- */
-
-.panel-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin-bottom: 16px;
-}
+/* ---------- panels (news/links) ---------- */
 
 .panel {
     background-color: var(--panel);
@@ -366,12 +359,6 @@ button:focus-visible {
 
 .panel li {
     margin: 5px 0;
-}
-
-.hint {
-    color: var(--dim);
-    font-size: 12.5px;
-    margin: 0 0 8px 0;
 }
 
 /* ---------- history timeline ---------- */
@@ -501,9 +488,6 @@ button:focus-visible {
 /* ---------- responsive ---------- */
 
 @media (max-width: 700px) {
-    .panel-grid {
-        grid-template-columns: 1fr;
-    }
     .stat-strip {
         grid-template-columns: repeat(2, 1fr);
     }

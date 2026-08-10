@@ -193,13 +193,10 @@ document.getElementById("history-search").addEventListener("input", e => {
 renderStats();
 renderHistory();
 
-/* ---------- news / guilds / links ---------- */
+/* ---------- news / links ---------- */
 
 document.getElementById("news-list").innerHTML = NEWS.map(n =>
     `<li><a href="${n.url}">${scr(n.title)}</a></li>`).join("");
-
-document.getElementById("guild-list").innerHTML = GUILDS.map(g =>
-    `<li><strong>${scr(g.name)}</strong> — ${scr(g.server)}${g.realm ? `, ${scr(g.realm)}` : ""} · ${scr(g.faction)}</li>`).join("");
 
 document.getElementById("link-list").innerHTML = LINKS.map(l =>
     `<li><a href="${l.url}">${scr(l.title)}</a></li>`).join("");

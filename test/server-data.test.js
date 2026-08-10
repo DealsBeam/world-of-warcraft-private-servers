@@ -1,4 +1,4 @@
-const { SERVERS, NEWS, GUILDS, LINKS, HISTORY } = require("../data.js");
+const { SERVERS, NEWS, LINKS, HISTORY } = require("../data.js");
 const assert = require("assert");
 
 const STATUSES = ["playable", "dev", "closed"];
@@ -22,7 +22,7 @@ assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 25);
 assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 13);
 assert.strictEqual(SERVERS.filter(s => s.status === "closed").length, 6);
 
-for (const arr of [NEWS, GUILDS, LINKS]) {
+for (const arr of [NEWS, LINKS]) {
     assert.ok(Array.isArray(arr) && arr.length > 0, "empty section");
 }
 for (const n of NEWS) {
@@ -30,9 +30,6 @@ for (const n of NEWS) {
 }
 for (const l of LINKS) {
     assert.ok(l.title && /^https?:\/\//.test(l.url), `bad link: ${JSON.stringify(l)}`);
-}
-for (const g of GUILDS) {
-    assert.ok(g.name && g.server, `bad guild: ${JSON.stringify(g)}`);
 }
 
 assert.ok(HISTORY.length >= 30, "history too small");
@@ -63,4 +60,4 @@ assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable", search: 
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "stormforge" })).length, 2);
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "does-not-exist" })).length, 0);
 
-console.log(`OK: ${SERVERS.length} servers, ${NEWS.length} news, ${GUILDS.length} guilds, ${LINKS.length} links, ${HISTORY.length} history events — all checks passed`);
+console.log(`OK: ${SERVERS.length} servers, ${NEWS.length} news, ${LINKS.length} links, ${HISTORY.length} history events — all checks passed`);
