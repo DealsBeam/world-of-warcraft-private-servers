@@ -10,6 +10,15 @@ const HTYPE = {
     tools: { label: "Development Tools", icon: "wrench" }
 };
 
+/* tag -> era bucket; tag doubles as type, so map non-expansion tags to an era */
+const ERA = {
+    "Vanilla": "Vanilla", "TBC": "TBC", "WotLK": "WotLK", "Cataclysm": "Cataclysm",
+    "MoP": "MoP", "Legion": "Legion", "TWW": "TWW",
+    "Vanilla+": "Vanilla", "Classless": "Vanilla",
+    "Multi": "Multi", "MOBA": "Other", "": "Other"
+};
+const ERA_ORDER = ["Vanilla", "TBC", "WotLK", "Cataclysm", "MoP", "Legion", "TWW", "Multi", "Other"];
+
 const scr = s => s.replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 
 /* ---------- tabs ---------- */
@@ -83,20 +92,32 @@ const count = document.getElementById("count");
 
 const nameHtml = s => s.url ? `<a class="server-link" href="${s.url}">${scr(s.name)}</a>` : scr(s.name);
 
+const cardHtml = s => {
+    const group = s.group && s.name.indexOf(s.group) === -1 ? ` <span class="tag tag-group">${scr(s.group)}</span>` : "";
+    const rel = s.release ? ` <span class="tag">Release: ${scr(s.release)}</span>` : "";
+    return `
+    <article class="card">
+        <div class="card-head">
+            <span class="server-name">${nameHtml(s)}${group}</span>
+            <span class="badge ${STATUS[s.status].cls}">${STATUS[s.status].label}</span>
+        </div>
+        <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${rel}</div>
+    </article>`;
+};
+
 function renderServers() {
     const visible = SERVERS.filter(matches);
-    cards.innerHTML = visible.map(s => {
-        const group = s.group && s.name.indexOf(s.group) === -1 ? ` <span class="tag tag-group">${scr(s.group)}</span>` : "";
-        const rel = s.release ? ` <span class="tag">Release: ${scr(s.release)}</span>` : "";
-        return `
-        <article class="card">
-            <div class="card-head">
-                <span class="server-name">${nameHtml(s)}${group}</span>
-                <span class="badge ${STATUS[s.status].cls}">${STATUS[s.status].label}</span>
-            </div>
-            <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${rel}</div>
-        </article>`;
-    }).join("");
+    const groups = {};
+    visible.forEach(s => {
+        const era = ERA[s.tag] || "Other";
+        (groups[era] = groups[era] || []).push(s);
+    });
+    const order = ERA_ORDER.filter(e => groups[e])
+        .concat(Object.keys(groups).filter(e => ERA_ORDER.indexOf(e) === -1));
+    cards.innerHTML = order.map(era =>
+        `<h2 class="era-title">${scr(era)}<span class="era-count">${groups[era].length}</span></h2>` +
+        groups[era].map(cardHtml).join("")
+    ).join("");
     empty.hidden = visible.length > 0;
     count.textContent = `${visible.length} of ${SERVERS.length} servers`;
 }

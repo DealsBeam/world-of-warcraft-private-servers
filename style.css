@@ -351,6 +351,48 @@ button:focus-visible {
     margin-bottom: 16px;
 }
 
+.era-title {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 26px 0 2px 0;
+    font-family: var(--font-h);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--gold);
+}
+
+.era-title:first-child {
+    margin-top: 0;
+}
+
+.era-title::before,
+.era-title::after {
+    content: '';
+    height: 1px;
+    flex: 1;
+    background: linear-gradient(90deg, transparent, var(--border-2), transparent);
+}
+
+.era-title::after {
+    flex: 0 0 26px;
+}
+
+.era-count {
+    display: inline-block;
+    min-width: 20px;
+    padding: 1px 6px;
+    text-align: center;
+    border: 1px solid var(--border-2);
+    color: var(--gold-bright);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
 .card {
     background-color: var(--panel);
     border: 1px solid var(--border);
