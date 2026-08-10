@@ -222,6 +222,26 @@ document.getElementById("news-list").innerHTML = NEWS.map(n =>
 document.getElementById("link-list").innerHTML = LINKS.map(l =>
     `<li><a href="${l.url}">${scr(l.title)}</a></li>`).join("");
 
+/* ---------- theme toggle ---------- */
+
+const themeBtn = document.getElementById("theme-toggle");
+
+function setTheme(t) {
+    document.documentElement.setAttribute("data-theme", t);
+    const dark = t === "dark";
+    themeBtn.textContent = dark ? "☀" : "☾";
+    themeBtn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+    themeBtn.setAttribute("aria-pressed", !dark);
+}
+
+themeBtn.addEventListener("click", () => {
+    const next = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+    try { localStorage.setItem("theme", next); } catch (e) {}
+    setTheme(next);
+});
+
+setTheme(document.documentElement.getAttribute("data-theme") || "dark");
+
 /* ---------- initial tab + render ---------- */
 
 const initial = location.hash.replace("#", "") || "servers";

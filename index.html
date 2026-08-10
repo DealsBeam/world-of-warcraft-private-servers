@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>World of Warcraft Private Server Status List</title>
     <meta name="description" content="Comprehensive tracker of World of Warcraft private servers, emulation history, news, and modding resources.">
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+                document.documentElement.setAttribute("data-theme", t);
+            } catch (e) {}
+        })();
+    </script>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +29,7 @@
         <div class="meta-info">
             Compiled from community updates
         </div>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" title="Toggle theme"></button>
     </header>
 
     <nav class="tabs" role="tablist" aria-label="Site sections">

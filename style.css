@@ -3,6 +3,7 @@
 }
 
 :root {
+    color-scheme: dark;
     --bg: #050505;
     --panel: #0d0d0e;
     --panel-2: #121213;
@@ -11,6 +12,7 @@
     --gold: #c49a28;
     --gold-bright: #e4c05a;
     --gold-dim: #7a5e18;
+    --gold-hover: #f8e68a;
     --ice: #aad4ee;
     --text: #c8c0b0;
     --text-strong: #f1ead8;
@@ -21,8 +23,55 @@
     --font-h: 'Cinzel', serif;
     --font-b: 'Crimson Pro', Georgia, serif;
     --green: #6fcf97;
+    --green-soft: #a8e6c0;
     --yellow: #e4c05a;
     --red: #e0705f;
+    --red-soft: #ef9a8a;
+    --tint-green: rgba(111, 207, 151, 0.08);
+    --tint-green-b: rgba(111, 207, 151, 0.3);
+    --tint-yellow: rgba(228, 192, 90, 0.08);
+    --tint-yellow-b: rgba(228, 192, 90, 0.3);
+    --tint-red: rgba(224, 112, 95, 0.08);
+    --tint-red-b: rgba(224, 112, 95, 0.3);
+    --tint-ice: rgba(170, 212, 238, 0.07);
+    --tint-ice-b: rgba(170, 212, 238, 0.3);
+}
+
+[data-theme="light"] {
+    color-scheme: light;
+    --bg: #f2ecdd;
+    --panel: #fbf7ec;
+    --panel-2: #f3ecd9;
+    --border: rgba(122, 94, 24, 0.18);
+    --border-2: rgba(122, 94, 24, 0.38);
+    --gold: #85600f;
+    --gold-bright: #7c5f10;
+    --gold-dim: #6b550f;
+    --gold-hover: #5d4408;
+    --ice: #2e6e9e;
+    --text: #3a362c;
+    --text-strong: #1c1912;
+    --muted: #6b6452;
+    --dim: #847c66;
+    --accent: #85600f;
+    --green: #1c7c45;
+    --green-soft: #4cbf77;
+    --yellow: #8a6d12;
+    --red: #c0392b;
+    --red-soft: #e08a78;
+    --tint-green: rgba(28, 124, 69, 0.12);
+    --tint-green-b: rgba(28, 124, 69, 0.4);
+    --tint-yellow: rgba(138, 109, 18, 0.12);
+    --tint-yellow-b: rgba(138, 109, 18, 0.4);
+    --tint-red: rgba(192, 57, 43, 0.1);
+    --tint-red-b: rgba(192, 57, 43, 0.4);
+    --tint-ice: rgba(46, 110, 158, 0.1);
+    --tint-ice-b: rgba(46, 110, 158, 0.4);
+}
+
+[data-theme="light"] h1 {
+    background: linear-gradient(135deg, #7c5f10, #b58c1e, #85600f);
+    filter: drop-shadow(0 1px 0 rgba(255, 255, 255, 0.7));
 }
 
 html {
@@ -62,7 +111,7 @@ a {
 }
 
 a:hover {
-    color: #f8e68a;
+    color: var(--gold-hover);
     text-decoration: underline;
 }
 
@@ -148,6 +197,31 @@ h1 {
     color: var(--dim);
 }
 
+.theme-toggle {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: none;
+    border: 1px solid var(--border-2);
+    border-radius: 100px;
+    color: var(--gold-bright);
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.theme-toggle:hover {
+    color: var(--gold-hover);
+    border-color: var(--gold);
+    box-shadow: 0 0 12px rgba(196, 154, 40, 0.25);
+}
+
 /* ---------- tabs ---------- */
 
 .tabs {
@@ -227,7 +301,7 @@ h1 {
 }
 
 .stat-green .stat-num {
-    background: linear-gradient(135deg, #a8e6c0, var(--green));
+    background: linear-gradient(135deg, var(--green-soft), var(--green));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -241,7 +315,7 @@ h1 {
 }
 
 .stat-red .stat-num {
-    background: linear-gradient(135deg, #ef9a8a, var(--red));
+    background: linear-gradient(135deg, var(--red-soft), var(--red));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -457,21 +531,21 @@ a.server-link:hover {
 }
 
 .badge-green {
-    background-color: rgba(111, 207, 151, 0.08);
+    background-color: var(--tint-green);
     color: var(--green);
-    border-color: rgba(111, 207, 151, 0.3);
+    border-color: var(--tint-green-b);
 }
 
 .badge-yellow {
-    background-color: rgba(228, 192, 90, 0.08);
+    background-color: var(--tint-yellow);
     color: var(--yellow);
-    border-color: rgba(228, 192, 90, 0.3);
+    border-color: var(--tint-yellow-b);
 }
 
 .badge-red {
-    background-color: rgba(224, 112, 95, 0.08);
+    background-color: var(--tint-red);
     color: var(--red);
-    border-color: rgba(224, 112, 95, 0.3);
+    border-color: var(--tint-red-b);
 }
 
 .tag {
@@ -487,8 +561,8 @@ a.server-link:hover {
 
 .tag-group {
     color: var(--ice);
-    border-color: rgba(170, 212, 238, 0.3);
-    background-color: rgba(170, 212, 238, 0.07);
+    border-color: var(--tint-ice-b);
+    background-color: var(--tint-ice);
 }
 
 /* ---------- panels (news/links) ---------- */
@@ -701,6 +775,10 @@ a.server-link:hover {
     }
     .header-banner {
         padding: 40px 18px 36px;
+    }
+    .theme-toggle {
+        top: 12px;
+        right: 12px;
     }
 }
 
