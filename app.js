@@ -242,6 +242,24 @@ themeBtn.addEventListener("click", () => {
 
 setTheme(document.documentElement.getAttribute("data-theme") || "dark");
 
+/* ---------- keyboard shortcuts ---------- */
+
+document.addEventListener("keydown", e => {
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
+    const tabBtns = [...document.querySelectorAll(".tab")];
+    const idx = ["1", "2", "3"].indexOf(e.key);
+    if (idx !== -1 && !typing) {
+        showTab(tabBtns[idx].dataset.tab);
+    } else if (e.key === "/" && !typing) {
+        e.preventDefault();
+        showTab("servers");
+        document.getElementById("search").focus();
+    } else if ((e.key === "t" || e.key === "T") && !typing) {
+        themeBtn.click();
+    }
+});
+
 /* ---------- initial tab + render ---------- */
 
 const initial = location.hash.replace("#", "") || "servers";
