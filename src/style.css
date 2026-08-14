@@ -18,7 +18,7 @@
     --text: #c8c0b0;
     --text-strong: #f1ead8;
     --muted: #8f887a;
-    --dim: #7a7566;
+    --dim: #887f70;
     --accent: #c49a28;
     --font-d: 'Cinzel Decorative', serif;
     --font-h: 'Cinzel', serif;
@@ -270,23 +270,36 @@ h1 {
     right: 22px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 38px;
-    height: 38px;
-    background: none;
+    gap: 2px;
+    padding: 3px;
+    background: var(--panel-2);
     border: 1px solid var(--border-2);
     border-radius: 100px;
-    color: var(--gold-bright);
-    font-size: 1rem;
-    line-height: 1;
-    cursor: pointer;
-    transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.theme-toggle:hover {
+.theme-toggle button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-radius: 100px;
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.theme-toggle button:hover {
     color: var(--gold-hover);
-    border-color: var(--gold);
-    box-shadow: 0 0 12px rgba(196, 154, 40, 0.25);
+}
+
+.theme-toggle button[aria-pressed="true"] {
+    color: var(--gold-bright);
+    background: color-mix(in oklab, var(--gold) var(--tint-bg), transparent);
 }
 
 /* ---------- tabs ---------- */

@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/style.css");
     eleventyConfig.addPassthroughCopy("src/app.js");
+    eleventyConfig.addPassthroughCopy("src/theme.js");
     eleventyConfig.addPassthroughCopy("src/favicon.svg");
 
     eleventyConfig.addFilter("slugify", s => String(s)

@@ -226,26 +226,6 @@ document.getElementById("news-list").innerHTML = NEWS.map(n =>
 document.getElementById("link-list").innerHTML = LINKS.map(l =>
     `<li><a href="${scr(l.url)}" target="_blank" rel="noopener">${scr(l.title)}</a></li>`).join("");
 
-/* ---------- theme toggle ---------- */
-
-const themeBtn = document.getElementById("theme-toggle");
-
-function setTheme(t) {
-    document.documentElement.setAttribute("data-theme", t);
-    const dark = t === "dark";
-    themeBtn.textContent = dark ? "☀" : "☾";
-    themeBtn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
-    themeBtn.setAttribute("aria-pressed", !dark);
-}
-
-themeBtn.addEventListener("click", () => {
-    const next = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
-    try { localStorage.setItem("theme", next); } catch (e) {}
-    setTheme(next);
-});
-
-setTheme(document.documentElement.getAttribute("data-theme") || "dark");
-
 /* ---------- keyboard shortcuts ---------- */
 
 document.addEventListener("keydown", e => {
@@ -260,7 +240,11 @@ document.addEventListener("keydown", e => {
         showTab("servers");
         document.getElementById("search").focus();
     } else if ((e.key === "t" || e.key === "T") && !typing) {
-        themeBtn.click();
+        const order = ["light", "system", "dark"];
+        const active = [...document.querySelectorAll("[data-theme-choice]")]
+            .find(b => b.getAttribute("aria-pressed") === "true");
+        const next = order[(order.indexOf(active ? active.dataset.themeChoice : "system") + 1) % order.length];
+        document.querySelector(`[data-theme-choice="${next}"]`).click();
     }
 });
 

@@ -30,7 +30,11 @@
         <div class="meta-info">
             Compiled from community updates
         </div>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" title="Toggle theme"></button>
+        <div class="theme-toggle" role="group" aria-label="Theme">
+            <button type="button" data-theme-choice="light" aria-pressed="false" title="Light theme">☀</button>
+            <button type="button" data-theme-choice="system" aria-pressed="false" title="System theme">⚙</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="false" title="Dark theme">☾</button>
+        </div>
         <nav class="site-nav">
             <a href="/news/">News</a>
             <a href="/classic-plus/">Classic+ Tracker</a>
@@ -101,6 +105,7 @@
     </div>
 
     <script src="data.js"></script>
+    <script src="theme.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
