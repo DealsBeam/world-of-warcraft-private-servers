@@ -2,6 +2,7 @@ const SERVERS = require("../src/_data/servers.js");
 const LINKS = require("../src/_data/links.js");
 const HISTORY = require("../src/_data/history.js");
 const CLASSPLUS_ENTRIES = require("../src/_data/classicplus.js").entries;
+const CLASSPLUS_LATEST = require("../src/_data/classicplus.js").latest;
 const assert = require("assert");
 const fs = require("fs");
 const path = require("path");
@@ -72,6 +73,11 @@ for (const e of CLASSPLUS_ENTRIES) {
 }
 assert.strictEqual(new Set(CLASSPLUS_ENTRIES.map(e => e.title)).size, CLASSPLUS_ENTRIES.length, "duplicate classicplus titles");
 for (const c of CP_CATS) assert.ok(CLASSPLUS_ENTRIES.filter(e => e.category === c).length >= 5, `category ${c} too thin`);
+
+const CP_DATES = CLASSPLUS_ENTRIES.map(e => e.date).sort();
+assert.strictEqual(CLASSPLUS_LATEST.date, CP_DATES[CP_DATES.length - 1], "latest date mismatch");
+assert.ok(Number.isInteger(CLASSPLUS_LATEST.daysAgo) && CLASSPLUS_LATEST.daysAgo >= 0, "bad daysAgo");
+assert.ok(CLASSPLUS_LATEST.daysAgo <= Math.floor((Date.now() - Date.parse(CP_DATES[0])) / 86400000), "daysAgo exceeds range");
 
 function matches(s, { status = "all", tag = "all", search = "" } = {}) {
     if (status !== "all" && s.status !== status) return false;

@@ -212,5 +212,11 @@ module.exports = {
         news: entries.filter(e => e.category === "news").length,
         leak: entries.filter(e => e.category === "leak").length,
         rumor: entries.filter(e => e.category === "rumor").length
-    }
+    },
+    latest: (() => {
+        const dates = entries.map(e => e.date).sort();
+        const latest = dates[dates.length - 1];
+        const days = Math.floor((Date.now() - Date.parse(latest)) / 86400000);
+        return { date: latest, daysAgo: days };
+    })()
 };
