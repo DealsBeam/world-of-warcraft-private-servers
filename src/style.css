@@ -18,7 +18,7 @@
     --text: #c8c0b0;
     --text-strong: #f1ead8;
     --muted: #8f887a;
-    --dim: #6b665c;
+    --dim: #7a7566;
     --accent: #c49a28;
     --font-d: 'Cinzel Decorative', serif;
     --font-h: 'Cinzel', serif;
@@ -176,6 +176,7 @@ h1 {
     font-size: clamp(1.5rem, 4vw, 2.6rem);
     line-height: 1.15;
     margin: 0 0 14px 0;
+    text-wrap: balance;
     background: linear-gradient(135deg, var(--gold-bright) 0%, #f8e68a 45%, var(--gold) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -197,6 +198,70 @@ h1 {
     font-size: 13px;
     font-style: italic;
     color: var(--dim);
+}
+
+.site-nav {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.site-nav a {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gold-bright);
+    background: var(--panel);
+    border: 1px solid var(--border-2);
+    border-radius: 100px;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.site-nav a:hover {
+    color: var(--gold-hover);
+    border-color: var(--gold);
+}
+
+.guide-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.guide-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.guide-list li:last-child {
+    border-bottom: 0;
+}
+
+.guide-list a {
+    color: var(--gold-bright);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.guide-list a:hover {
+    color: var(--gold-hover);
+}
+
+.guide-source {
+    margin-top: 24px;
+    font-size: 13px;
+    font-style: italic;
+    color: var(--dim);
+}
+
+.guide-source a {
+    color: var(--gold-bright);
 }
 
 .theme-toggle {
@@ -505,6 +570,13 @@ a.server-link:hover {
     text-shadow: 0 0 14px rgba(196, 154, 40, 0.5);
 }
 
+.card-site {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .card-details {
     font-size: 14px;
     color: var(--muted);
@@ -605,6 +677,58 @@ a.server-link:hover {
     color: var(--gold-dim);
 }
 
+/* ---------- news list (/news/) ---------- */
+
+.news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    box-shadow: var(--panel-shadow);
+    padding: 6px 26px;
+}
+
+.news-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.news-list li:last-child {
+    border-bottom: 0;
+}
+
+.news-list time {
+    font-family: var(--font-h);
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--gold);
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+
+.news-list a {
+    font-size: 15px;
+}
+
+/* ---------- browser surfaces ---------- */
+
+::selection {
+    background: color-mix(in oklab, var(--gold) 30%, transparent);
+}
+
+input,
+select,
+textarea {
+    caret-color: var(--gold);
+}
+
 /* ---------- history timeline ---------- */
 
 .history-toolbar {
@@ -668,10 +792,13 @@ a.server-link:hover {
     border: 1px solid var(--gold-bright);
     transform: rotate(45deg);
     box-shadow: 0 0 12px rgba(196, 154, 40, 0.3);
+    display: none;
 }
 
 .timeline-marker svg {
-    display: none;
+    display: block;
+    color: var(--gold-bright);
+    filter: drop-shadow(0 0 8px rgba(196, 154, 40, 0.4));
 }
 
 .timeline-body {
@@ -797,7 +924,7 @@ a.server-link:hover {
     body::after {
         display: none;
     }
-    .tabs, .controls, .skip-link {
+    .tabs, .controls, .skip-link, .theme-toggle {
         display: none;
     }
 }

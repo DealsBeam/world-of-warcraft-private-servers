@@ -6,6 +6,7 @@
     <title>{% if title %}{{ title }}{% else %}World of Warcraft Private Server Status List{% endif %}</title>
     <meta name="description" content="{{ description }}">
     <link rel="canonical" href="{{ canonical }}">
+    <link rel="alternate" type="application/rss+xml" title="World of Warcraft Private Server News" href="https://wowprivateservers.vercel.app/feed.xml">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:description" content="{{ description }}">
@@ -32,6 +33,12 @@
         <h1>{{ hero }}</h1>
         <p class="subtitle">{{ subtitle }}</p>
         <div class="meta-info">Comprehensive Status Tracker, Emulation History &amp; Development Directory</div>
+        <nav class="site-nav">
+            <a href="/">Home</a>
+            <a href="/news/">News</a>
+            <a href="/classic-plus/">Classic+ Tracker</a>
+            <a href="/guides/octowow/">OctoWoW Guide</a>
+        </nav>
     </header>
 
     <main id="main-content">

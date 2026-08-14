@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>World of Warcraft Private Server Status List</title>
     <meta name="description" content="Comprehensive tracker of World of Warcraft private servers, emulation history, news, and modding resources.">
+    <link rel="alternate" type="application/rss+xml" title="World of Warcraft Private Server News" href="https://wowprivateservers.vercel.app/feed.xml">
     <script>
         (function () {
             try {
@@ -30,6 +31,11 @@
             Compiled from community updates
         </div>
         <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" title="Toggle theme"></button>
+        <nav class="site-nav">
+            <a href="/news/">News</a>
+            <a href="/classic-plus/">Classic+ Tracker</a>
+            <a href="/guides/octowow/">OctoWoW Guide</a>
+        </nav>
     </header>
 
     <nav class="tabs" role="tablist" aria-label="Site sections">
@@ -69,10 +75,11 @@
             <div class="history-toolbar">
                 <label class="sr-only" for="history-search">Search history</label>
                 <input type="search" id="history-search" placeholder="Search history events…" autocomplete="off">
-                <div class="filter-row" id="history-filters">
-                    <button class="chip active" data-hcat="all" aria-pressed="true">All</button>
-                </div>
+            <div class="filter-row" id="history-filters">
+                <button class="chip active" data-hcat="all" aria-pressed="true">All</button>
             </div>
+            </div>
+            <p class="empty" id="history-empty" hidden>No history events match your filters.</p>
             <div class="timeline" id="timeline"></div>
         </section>
 

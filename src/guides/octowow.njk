@@ -1,0 +1,44 @@
+---
+layout: base.njk
+permalink: /guides/octowow/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "OctoWoW Setup Guide — World of Warcraft Private Servers"
+    canonical: "https://wowprivateservers.vercel.app/guides/octowow/"
+    hero: "OctoWoW Setup Guide"
+    subtitle: "Modern 1.12 client tools, addons &amp; resources"
+    description: "Setup guide for OctoWoW — the modern 1.12/Turtle WoW client: essential tools, essential addons, and recommended addons."
+---
+<p><a href="/news/">← All news</a></p>
+
+<section class="panel">
+    <h2>About {{ octowow.name }}</h2>
+    <p>{{ octowow.name }} is a modern 1.12 World of Warcraft client built for Turtle WoW and Vanilla+ servers. <a href="{{ octowow.signup }}" target="_blank" rel="noopener">Sign up</a> and grab the latest release, then set up with the tools and addons below.</p>
+</section>
+
+<section class="panel">
+    <h2>Essential Tools</h2>
+    <ul class="guide-list">
+    {% for t in octowow.tools %}
+        <li><a href="{{ t.url }}" target="_blank" rel="noopener">{{ t.name }}</a> — {{ t.desc }}</li>
+    {% endfor %}
+    </ul>
+</section>
+
+<section class="panel">
+    <h2>Essential Addons</h2>
+    <ul class="guide-list">
+    {% for a in octowow.essential %}
+        <li><a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.name }}</a> — {{ a.desc }}</li>
+    {% endfor %}
+    </ul>
+</section>
+
+<section class="panel">
+    <h2>Recommended Addons</h2>
+    <ul class="guide-list">
+    {% for a in octowow.recommended %}
+        <li><a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.name }}</a> — {{ a.desc }}</li>
+    {% endfor %}
+    </ul>
+</section>

@@ -1,0 +1,50 @@
+---
+layout: base.njk
+permalink: /classic-plus/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "WoW Classic+ Tracker — Leaks, Rumors & News"
+    canonical: "https://wowprivateservers.vercel.app/classic-plus/"
+    hero: "WoW Classic+ Tracker"
+    subtitle: "Leaks, rumors & news on Project Camelot"
+    description: "Live tracker of World of Warcraft Classic+ leaks, rumors and confirmed news — Project Camelot, Titan Reforged, the 4chan leak, and the BlizzCon 2026 reveal."
+---
+<p><a href="/news/">← All news</a></p>
+
+<section class="panel">
+    <h2>What is Classic+?</h2>
+    <p>Classic+ is the community's term for a new expansion of WoW Classic — new zones, raids, classes and systems layered on the Vanilla world instead of a re-release. Blizzard's China-only <strong>Titan Reforged</strong> (level-80 Vanilla/TBC/Wrath merge) is widely read as the working prototype, and datamined store licenses point to an internal project codenamed <strong>Project Camelot</strong>, expected to be revealed at <a href="https://blizzcon.com" target="_blank" rel="noopener">BlizzCon 2026</a> (Sept 12-13, Anaheim).</p>
+</section>
+
+<section class="panel">
+    <h2>Status Snapshot</h2>
+    <p><span class="badge badge-green">Confirmed</span> {{ classicplus.counts.news }} news items · <span class="badge badge-yellow">Leaked</span> {{ classicplus.counts.leak }} leaks · <span class="badge badge-red">Rumored</span> {{ classicplus.counts.rumor }} rumors</p>
+    <p class="meta-info">Nothing is official until Blizzard says so. Leaks and rumors are labeled as such.</p>
+</section>
+
+<section class="panel">
+    <h2>Confirmed News</h2>
+    <ul class="news-list">
+    {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "news" %}
+        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-green">News</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span><br>{{ e.summary }}</li>
+    {% endif %}{% endfor %}
+    </ul>
+</section>
+
+<section class="panel">
+    <h2>Leaks</h2>
+    <ul class="news-list">
+    {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "leak" %}
+        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-yellow">Leak</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span><br>{{ e.summary }}</li>
+    {% endif %}{% endfor %}
+    </ul>
+</section>
+
+<section class="panel">
+    <h2>Rumors</h2>
+    <ul class="news-list">
+    {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "rumor" %}
+        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-red">Rumor</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span><br>{{ e.summary }}</li>
+    {% endif %}{% endfor %}
+    </ul>
+</section>

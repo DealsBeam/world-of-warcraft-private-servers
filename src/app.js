@@ -21,6 +21,9 @@ const ERA_ORDER = ["Vanilla", "TBC", "WotLK", "Cataclysm", "MoP", "Legion", "TWW
 
 const scr = s => s.replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 
+const slugify = s => String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+
 /* ---------- tabs ---------- */
 
 const tabs = document.querySelectorAll(".tab");
@@ -90,18 +93,17 @@ const cards = document.getElementById("cards");
 const empty = document.getElementById("empty");
 const count = document.getElementById("count");
 
-const nameHtml = s => s.url ? `<a class="server-link" href="${s.url}">${scr(s.name)}</a>` : scr(s.name);
-
 const cardHtml = s => {
     const group = s.group && s.name.indexOf(s.group) === -1 ? ` <span class="tag tag-group">${scr(s.group)}</span>` : "";
     const rel = s.release ? ` <span class="tag">Release: ${scr(s.release)}</span>` : "";
     return `
     <article class="card">
         <div class="card-head">
-            <span class="server-name">${nameHtml(s)}${group}</span>
+            <span class="server-name"><a class="server-link" href="/servers/${slugify(s.name)}/">${scr(s.name)}</a>${group}</span>
             <span class="badge ${STATUS[s.status].cls}">${STATUS[s.status].label}</span>
         </div>
         <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${rel}</div>
+        ${s.url ? `<a class="card-site" href="${scr(s.url)}" target="_blank" rel="noopener">Official site ↗</a>` : ""}
     </article>`;
 };
 
@@ -177,12 +179,13 @@ function renderHistory() {
         return true;
     });
     const tl = document.getElementById("timeline");
+    const histEmpty = document.getElementById("history-empty");
     tl.innerHTML = visible.map(h => {
         const icon = HTYPE[h.category] ? HTYPE[h.category].icon : "leaf";
-        const repo = h.githubRepo ? `<div class="timeline-repo"><a href="https://github.com/${scr(h.githubRepo)}">${scr(h.githubRepo)}</a></div>` : "";
+        const repo = h.githubRepo ? `<div class="timeline-repo"><a href="https://github.com/${scr(h.githubRepo)}" target="_blank" rel="noopener">${scr(h.githubRepo)}</a></div>` : "";
         return `
         <div class="timeline-item" data-cat="${h.category}">
-            <div class="timeline-marker" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="${ICONS[icon]}"/></svg></div>
+            <div class="timeline-marker" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="${ICONS[icon]}"/></svg></div>
             <div class="timeline-body">
                 <div class="timeline-date">${scr(h.date)}</div>
                 <h3>${scr(h.title)}</h3>
@@ -192,6 +195,7 @@ function renderHistory() {
             </div>
         </div>`;
     }).join("");
+    if (histEmpty) histEmpty.hidden = visible.length > 0;
 }
 
 historyTools.addEventListener("click", e => {
@@ -217,10 +221,10 @@ renderHistory();
 /* ---------- news / links ---------- */
 
 document.getElementById("news-list").innerHTML = NEWS.map(n =>
-    `<li><a href="${n.url}">${scr(n.title)}</a></li>`).join("");
+    `<li><a href="${scr(n.url)}" target="_blank" rel="noopener">${scr(n.title)}</a></li>`).join("");
 
 document.getElementById("link-list").innerHTML = LINKS.map(l =>
-    `<li><a href="${l.url}">${scr(l.title)}</a></li>`).join("");
+    `<li><a href="${scr(l.url)}" target="_blank" rel="noopener">${scr(l.title)}</a></li>`).join("");
 
 /* ---------- theme toggle ---------- */
 

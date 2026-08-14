@@ -5,7 +5,13 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>https://wowprivateservers.vercel.app/</loc></url>
+    <url><loc>https://wowprivateservers.vercel.app/news/</loc></url>
+    <url><loc>https://wowprivateservers.vercel.app/classic-plus/</loc></url>
+    <url><loc>https://wowprivateservers.vercel.app/guides/octowow/</loc></url>
 {% for s in servers %}
     <url><loc>https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/</loc></url>
+{% endfor %}
+{% for n in collections.news %}
+    <url><loc>https://wowprivateservers.vercel.app{{ n.url }}</loc></url>
 {% endfor %}
 </urlset>

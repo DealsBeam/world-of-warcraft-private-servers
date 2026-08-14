@@ -17,6 +17,19 @@ module.exports = function (eleventyConfig) {
         });
     });
 
+    const toDate = d => d instanceof Date ? d : new Date(d + "T00:00:00Z");
+
+    eleventyConfig.addFilter("formatDate", d => toDate(d).toLocaleDateString("en-US", {
+        month: "long", day: "numeric", year: "numeric", timeZone: "UTC"
+    }));
+
+    eleventyConfig.addFilter("rssDate", d => toDate(d).toUTCString());
+
+    eleventyConfig.addCollection("news", collectionApi =>
+        collectionApi.getFilteredByGlob("src/news/*.md")
+            .filter(p => !p.data.draft)
+            .sort((a, b) => a.date - b.date));
+
     return {
         dir: { input: "src", output: "_site" }
     };

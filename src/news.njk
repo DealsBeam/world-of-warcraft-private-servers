@@ -1,0 +1,16 @@
+---
+layout: base.njk
+permalink: /news/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "News — World of Warcraft Private Servers"
+    canonical: "https://wowprivateservers.vercel.app/news/"
+    hero: "News"
+    subtitle: "Private server news &amp; updates"
+    description: "News and updates on the World of Warcraft private server scene."
+---
+<ul class="news-list">
+{% for n in collections.news | reverse %}
+    <li><time>{{ n.date | formatDate }}</time><a href="{{ n.data.link or n.url }}"{% if n.data.link %} target="_blank" rel="noopener"{% endif %}>{{ n.data.title }}</a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,8 @@
+---
+layout: base.njk
+---
+<p><a href="/news/">← All news</a></p>
+<article class="panel news-post">
+    {{ content | safe }}
+    {% if link %}<p><a href="{{ link }}">Read the original ↗</a></p>{% endif %}
+</article>
