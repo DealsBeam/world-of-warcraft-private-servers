@@ -37,7 +37,8 @@ const entries = [
         "title": "Encrypted 'Classic 1.60' Builds Hit the CDN",
         "summary": "Roughly 29 encrypted 'Classic 1.60' builds began appearing on Blizzard's CDN from late October 2025 — verifiable technical traces that Blizzard is actively building a new Classic patch.",
         "source": "kami-labs.fr",
-        "url": "https://www.kami-labs.fr/guides/wow-classic-plus-blizzcon-2026/"
+        "url": "https://www.kami-labs.fr/guides/wow-classic-plus-blizzcon-2026/",
+        "discuss": "https://www.reddit.com/r/classicwow/comments/1of9bfe/mysterious_new_vanilla_patch_1600_found_on/"
     },
     {
         "date": "2025-10-30",
@@ -45,7 +46,8 @@ const entries = [
         "title": "'Infinite Classic+' 4chan Leak",
         "summary": "An anonymous 4chan post detailed a seasonal-model Classic+ with a battle pass, a new 'Spellblade' class and new zones. The community exploded; Blizzard stayed silent, confirming nothing.",
         "source": "boostmatch.gg",
-        "url": "https://boostmatch.gg/blog/classic-plus-leaks-2026"
+        "url": "https://boostmatch.gg/blog/classic-plus-leaks-2026",
+        "discuss": "https://www.reddit.com/r/classicwow/comments/1ojpsp6/do_you_think_this_is_accurate/"
     },
     {
         "date": "2025-11-18",
@@ -85,7 +87,8 @@ const entries = [
         "title": "Project Camelot Datamined",
         "summary": "Dataminer Stiven_SRB found 'World of Warcraft: Camelot' Heroic and Epic store licenses on Blizzard's servers, using the same bundle framework as Midnight. Patch 1.60 is described as the mainline Camelot patch.",
         "source": "eurogamer.net",
-        "url": "https://www.eurogamer.net/world-of-warcraft-classic-plus-camelot-datamine"
+        "url": "https://www.eurogamer.net/world-of-warcraft-classic-plus-camelot-datamine",
+        "discuss": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uw712o/world_of_warcraft_project_camelot_classic_datamine/"
     },
     {
         "date": "2026-06-18",
@@ -93,7 +96,8 @@ const entries = [
         "title": "Internal Roadmap Screenshot Leaks",
         "summary": "A leaked internal roadmap (screenshot via GottaSmokeEmAll) showed Camelot launching fall 2026, a Warcraft Chronicles RTS in 2028 and an Arthas ARPG in 2029.",
         "source": "notebookcheck.net",
-        "url": "https://www.notebookcheck.net/World-of-Warcraft-Classic-Plus-leaks-and-rumors-Collected-news-on-Project-Camelot-etc.html"
+        "url": "https://www.notebookcheck.net/World-of-Warcraft-Classic-Plus-leaks-and-rumors-Collected-news-on-Project-Camelot-etc.html",
+        "discuss": "https://www.reddit.com/r/classicwow/comments/1ud2ksc/proof_of_the_franchise_slate_picture_being_posted/"
     },
     {
         "date": "2026-06-20",
@@ -157,7 +161,8 @@ const entries = [
         "title": "IronSeer Alternate-Timeline Leak",
         "summary": "MMO-Champion's IronSeer leaked an alternate-timeline Classic+: Scarlet Crusade zone, faction-locked Deadmines/Ragefire Chasm as first raids, Scarlet Monastery raid, Stratholme raid with Death Knights, and Blackwing Lair with Molten Core downgraded to a dungeon.",
         "source": "mmo-champion.com",
-        "url": "https://www.mmo-champion.com/content/"
+        "url": "https://www.mmo-champion.com/content/",
+        "discuss": "https://www.reddit.com/r/classicwow/comments/1urvldv/classic_leaks"
     },
     {
         "date": "2026-07-15",

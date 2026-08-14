@@ -23,10 +23,15 @@ eleventyComputed:
 </section>
 
 <section class="panel">
+    <h2>What the Community Wants</h2>
+    <p>Beyond the leaks, the community's own voice on Classic+ is being collected and ranked. <a href="https://wowclassic.plus/survey/results" target="_blank" rel="noopener">wowclassic.plus</a> has gathered 300,000+ survey responses across 57 questions spanning The World, The Player and The Systems — see what the community actually wants (community project, not Blizzard).</p>
+</section>
+
+<section class="panel">
     <h2>Confirmed News</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "news" %}
-        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-green">News</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span><br>{{ e.summary }}</li>
+        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-green">News</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
     {% endif %}{% endfor %}
     </ul>
 </section>
@@ -35,7 +40,7 @@ eleventyComputed:
     <h2>Leaks</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "leak" %}
-        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-yellow">Leak</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span><br>{{ e.summary }}</li>
+        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-yellow">Leak</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
     {% endif %}{% endfor %}
     </ul>
 </section>
@@ -44,7 +49,7 @@ eleventyComputed:
     <h2>Rumors</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "rumor" %}
-        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-red">Rumor</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span><br>{{ e.summary }}</li>
+        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-red">Rumor</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
     {% endif %}{% endfor %}
     </ul>
 </section>

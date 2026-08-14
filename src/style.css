@@ -732,6 +732,18 @@ a.server-link:hover {
     font-size: 15px;
 }
 
+.news-list .discuss-link {
+    font-size: 0.78rem;
+    white-space: nowrap;
+    color: var(--dim);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+}
+
+.news-list .discuss-link:hover {
+    color: var(--gold);
+}
+
 /* ---------- browser surfaces ---------- */
 
 ::selection {

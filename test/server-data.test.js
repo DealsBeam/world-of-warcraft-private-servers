@@ -68,6 +68,7 @@ for (const e of CLASSPLUS_ENTRIES) {
     assert.ok(CP_CATS.includes(e.category), `bad category in classicplus: ${e.category}`);
     assert.ok(e.title && e.summary && e.url, `missing field in classicplus: ${JSON.stringify(e)}`);
     assert.ok(/^https?:\/\//.test(e.url), `bad url in classicplus: ${e.url}`);
+    if (e.discuss) assert.ok(/^https?:\/\//.test(e.discuss), `bad discuss in classicplus: ${e.discuss}`);
 }
 assert.strictEqual(new Set(CLASSPLUS_ENTRIES.map(e => e.title)).size, CLASSPLUS_ENTRIES.length, "duplicate classicplus titles");
 for (const c of CP_CATS) assert.ok(CLASSPLUS_ENTRIES.filter(e => e.category === c).length >= 5, `category ${c} too thin`);
