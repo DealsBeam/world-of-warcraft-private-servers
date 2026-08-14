@@ -137,6 +137,8 @@ a:hover {
 
 .header-banner {
     position: relative;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 56px 32px 46px;
     margin-bottom: 30px;
@@ -265,13 +267,13 @@ h1 {
 }
 
 .theme-toggle {
-    position: absolute;
-    top: 18px;
-    right: 22px;
+    align-self: flex-end;
+    order: -1;
     display: flex;
     align-items: center;
     gap: 2px;
     padding: 3px;
+    margin-bottom: 14px;
     background: var(--panel-2);
     border: 1px solid var(--border-2);
     border-radius: 100px;
@@ -922,10 +924,6 @@ textarea {
     }
     .header-banner {
         padding: 40px 18px 36px;
-    }
-    .theme-toggle {
-        top: 12px;
-        right: 12px;
     }
 }
 
