@@ -197,6 +197,38 @@ const entries = [
         "url": "https://massivelyop.com/2026/08/12/wow-classic-plus-announcement-fears/"
     },
     {
+        "date": "2026-07-29",
+        "category": "leak",
+        "title": "Lordaeron Tabards Datamined",
+        "summary": "Dataminer Stiven shared two textures appearing to be separate Alliance and Horde versions of a Lordaeron tabard, fueling theories of revised faction rewards or a fresh Classic-era setting.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/project-camelot-lordaeron-tabards-classic-plus-leak/"
+    },
+    {
+        "date": "2026-08-01",
+        "category": "news",
+        "title": "Camelot Testing Expands",
+        "summary": "On July 31 the encrypted 1.60 build was updated from 1.60.0.69014 to 1.60.0.69075, then appeared on a second internal environment (WOW Dev Five) just over an hour later — expanded internal QA, but no beta or PTR confirmation.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/wow-classic-plus-project-camelot-testing-expands/"
+    },
+    {
+        "date": "2026-08-07",
+        "category": "news",
+        "title": "Camelot Bumps to 1.60.1",
+        "summary": "Patch-tracker data detected build 1.60.1.69141 on WoW Dev 2, replacing 1.60.0.69075 — the first 1.60.1 instance. The point-zero to point-one jump may mean a second development branch beyond the initial launch build.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/project-camelot-patch-1-60-1-classic-plus-update/"
+    },
+    {
+        "date": "2026-08-15",
+        "category": "leak",
+        "title": "Dwarf Shamans & Skyborne Rewards",
+        "summary": "Dataminer Stiven found encrypted promotional rewards tied to Camelot: a Dwarf Bear mount, a Skyborne Cat mount with four colors, two Shen'dorei-themed transmog sets and housing decor. The Dwarf theme has Wildhammer precedent for Dwarf Shamans, though the assets could also be a separate Retail promotion.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/classic-plus-dwarf-shamans-project-camelot-clues/"
+    },
+    {
         "date": "2026-08-14",
         "category": "news",
         "title": "BlizzCon 2026 Set — Reveal Expected",
