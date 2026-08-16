@@ -1,5 +1,17 @@
 module.exports = [
     {
+        "title": "Tortoise-WoW - community restoration of the 1.18.1 Turtle-WoW patch, with solo-play additions",
+        "url": "https://github.com/Penqle/tortoise-wow"
+    },
+    {
+        "title": "Unreal Open Azeroth - local interop layer bridging the UE5 Azeroth client to 1.12 servers",
+        "url": "https://github.com/iThorgrim/Unreal-Open-Azeroth"
+    },
+    {
+        "title": "wow-mobile - WoW 3.3.5a on Android (Winlator fork with ConsolePortLK touch controls)",
+        "url": "https://github.com/marcocastignoli/wow-mobile"
+    },
+    {
         "title": "Mods, Tutorials, Singleplayer & /wpsg/ Creations",
         "url": "https://pastebin.com/StKbZ90j"
     },

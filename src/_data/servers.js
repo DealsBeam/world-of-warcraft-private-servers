@@ -1,5 +1,13 @@
 module.exports = [
     {
+        "name": "Greyhaven",
+        "status": "playable",
+        "details": "Progressive Vanilla 1.12.1, staged content, community votes, no pay-to-win",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://playgreyhaven.com/"
+    },
+    {
         "name": "Ascension",
         "status": "playable",
         "details": "Classless WoW (Vanilla+, Classless, Custom Classes/CoA, Epoch)",
