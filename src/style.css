@@ -67,6 +67,8 @@
 
 [data-theme="light"] h1 {
     background: linear-gradient(135deg, #7c5f10, #a87f18, #85600f);
+    -webkit-background-clip: text;
+    background-clip: text;
     filter: drop-shadow(0 1px 0 rgba(255, 255, 255, 0.7));
 }
 
