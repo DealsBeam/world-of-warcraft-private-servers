@@ -226,7 +226,6 @@ module.exports = [
         "details": "Turtle+",
         "tag": "Vanilla+",
         "group": "",
-        "url": "https://emberveil.org/",
         "release": "Aug 15"
     },
     {

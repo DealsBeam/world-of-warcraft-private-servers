@@ -59,7 +59,7 @@ eleventyComputed:
 <section class="panel cp-span-half">
     <h2>Status Snapshot</h2>
     <p><span class="badge badge-green">Confirmed</span> {{ classicplus.counts.news }} news items · <span class="badge badge-yellow">Leaked</span> {{ classicplus.counts.leak }} leaks · <span class="badge badge-red">Rumored</span> {{ classicplus.counts.rumor }} rumors</p>
-    <p class="meta-info">Last entry: {{ classicplus.latest.date }}{% if classicplus.latest.daysAgo > 0 %} · {{ classicplus.latest.daysAgo }} days ago{% else %} · today{% endif %}. Nothing is official until Blizzard says so. Leaks and rumors are labeled as such.</p>
+    <p class="meta-info">Last entry: {{ classicplus.latest.date }}{% if classicplus.latest.daysAgo > 0 %} · {{ classicplus.latest.daysAgo }} day{{ "s" if classicplus.latest.daysAgo != 1 }} ago{% else %} · today{% endif %}. Nothing is official until Blizzard says so. Leaks and rumors are labeled as such.</p>
 </section>
 
 <section class="panel cp-span-half">

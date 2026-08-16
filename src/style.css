@@ -820,6 +820,7 @@ a.server-link:hover {
 
 .news-list li {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     gap: 14px;
     padding: 13px 0;
