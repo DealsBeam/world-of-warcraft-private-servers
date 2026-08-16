@@ -17,6 +17,38 @@ eleventyComputed:
 </section>
 
 <section class="panel">
+    <h2>What We Know About Project Camelot</h2>
+    <p>All evidence is not equal. Here is what has actually been observed versus what remains theory.</p>
+    <h3>Observed — datamined & tracked</h3>
+    <ul class="plain-list">
+        <li>Project Camelot naming in Blizzard's backend information</li>
+        <li>An encrypted WoW 1.60 development branch</li>
+        <li>Heroic and Epic licensing references</li>
+        <li>Updates across multiple development environments</li>
+        <li>A brief vendor-environment appearance</li>
+        <li>Development advancing to Patch 1.60.1</li>
+        <li>Encrypted promotional assets under investigation</li>
+    </ul>
+    <h3>Interpretation — what the activity may indicate</h3>
+    <ul class="plain-list">
+        <li>Camelot is receiving continued development</li>
+        <li>Blizzard is maintaining more than one test branch</li>
+        <li>The project may involve a substantial WoW product</li>
+        <li>Some development activity may relate to Classic infrastructure</li>
+    </ul>
+    <h3>Unconfirmed — rumors & community theories</h3>
+    <ul class="plain-list">
+        <li>Project Camelot is WoW Classic Plus</li>
+        <li>Dwarf Shamans will become playable</li>
+        <li>Shen'dorei or Skyborne Elves are a new race</li>
+        <li>The game will remain permanently at level 60</li>
+        <li>A beta or BlizzCon demo is imminent</li>
+        <li>Any rumored release date or feature list</li>
+    </ul>
+    <p class="meta-info">Compiled from <a href="https://quissy.tv/" target="_blank" rel="noopener">QuissyTV's Camelot evidence tracker</a>.</p>
+</section>
+
+<section class="panel">
     <h2>Status Snapshot</h2>
     <p><span class="badge badge-green">Confirmed</span> {{ classicplus.counts.news }} news items · <span class="badge badge-yellow">Leaked</span> {{ classicplus.counts.leak }} leaks · <span class="badge badge-red">Rumored</span> {{ classicplus.counts.rumor }} rumors</p>
     <p class="meta-info">Last entry: {{ classicplus.latest.date }}{% if classicplus.latest.daysAgo > 0 %} · {{ classicplus.latest.daysAgo }} days ago{% else %} · today{% endif %}. Nothing is official until Blizzard says so. Leaks and rumors are labeled as such.</p>
