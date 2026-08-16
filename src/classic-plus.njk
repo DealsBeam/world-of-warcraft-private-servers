@@ -11,12 +11,20 @@ eleventyComputed:
 ---
 <p><a href="/news/">← All news</a></p>
 
-<section class="panel">
+<div class="cp-grid">
+
+<section class="panel cp-intro cp-span-full">
     <h2>What is Classic+?</h2>
     <p>Classic+ is the community's term for a new expansion of WoW Classic — new zones, raids, classes and systems layered on the Vanilla world instead of a re-release. Blizzard's China-only <strong>Titan Reforged</strong> (level-80 Vanilla/TBC/Wrath merge) is widely read as the working prototype, and datamined store licenses point to an internal project codenamed <strong>Project Camelot</strong>, expected to be revealed at <a href="https://blizzcon.com" target="_blank" rel="noopener">BlizzCon 2026</a> (Sept 12-13, Anaheim).</p>
 </section>
 
-<section class="panel">
+<section class="panel cp-countdown cp-span-full" aria-label="BlizzCon 2026 countdown">
+    <span class="cd-title">BlizzCon 2026</span>
+    <span class="cd-when">Sept 12–13 · Anaheim — a Classic+ reveal is widely expected</span>
+    <span class="cd-num" data-countdown="2026-09-12T17:00:00Z"></span>
+</section>
+
+<section class="panel cp-span-full">
     <h2>What We Know About Project Camelot</h2>
     <p>All evidence is not equal. Here is what has actually been observed versus what remains theory.</p>
     <h3>Observed — datamined & tracked</h3>
@@ -48,13 +56,13 @@ eleventyComputed:
     <p class="meta-info">Compiled from <a href="https://quissy.tv/" target="_blank" rel="noopener">QuissyTV's Camelot evidence tracker</a>.</p>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-half">
     <h2>Status Snapshot</h2>
     <p><span class="badge badge-green">Confirmed</span> {{ classicplus.counts.news }} news items · <span class="badge badge-yellow">Leaked</span> {{ classicplus.counts.leak }} leaks · <span class="badge badge-red">Rumored</span> {{ classicplus.counts.rumor }} rumors</p>
     <p class="meta-info">Last entry: {{ classicplus.latest.date }}{% if classicplus.latest.daysAgo > 0 %} · {{ classicplus.latest.daysAgo }} days ago{% else %} · today{% endif %}. Nothing is official until Blizzard says so. Leaks and rumors are labeled as such.</p>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-half">
     <h2>Project Camelot Status</h2>
     <ul class="plain-list">
         <li>Officially announced: <strong>No</strong></li>
@@ -69,7 +77,7 @@ eleventyComputed:
     <p class="meta-info">Status last reviewed by QuissyTV on August 15, 2026.</p>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-full">
     <h2>Project Camelot Timeline</h2>
     <ul class="news-list">
         <li><time>Oct 2025</time> Encrypted WoW 1.60 activity begins appearing on Blizzard's internal infrastructure.</li>
@@ -84,7 +92,7 @@ eleventyComputed:
 </section>
 
 {% if cdnwatch.ok %}
-<section class="panel">
+<section class="panel cp-span-full">
     <h2>Blizzard CDN Build Watch</h2>
     <p><span class="badge badge-yellow">Internal</span> Encrypted build {{ cdnwatch.current }} on <a href="https://blizztrack.com/view/wowdev2?type=versions" target="_blank" rel="noopener">BlizzTrack</a> · detected {{ cdnwatch.updated }} by the <a href="https://x.com/algalon_ghost" target="_blank" rel="noopener">algalon_ghost</a> build bot. This is Blizzard's own CDN, not a leak — a new build here means real internal progress on Project Camelot.</p>
     <p class="meta-info">Recent build bumps:</p>
@@ -96,42 +104,50 @@ eleventyComputed:
 </section>
 {% endif %}
 
-<section class="panel">
+<section class="panel cp-span-half">
     <h2>What the Community Wants</h2>
     <p>Beyond the leaks, the community's own voice on Classic+ is being collected and ranked. <a href="https://wowclassic.plus/survey/results" target="_blank" rel="noopener">wowclassic.plus</a> has gathered 300,000+ survey responses across 57 questions spanning The World, The Player and The Systems — see what the community actually wants (community project, not Blizzard).</p>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-full">
     <h2>What Could Classic+ Include?</h2>
     <p>No official Classic+ features have been announced. These are the major design questions being discussed by Classic players.</p>
-    <h3>The World</h3>
-    <ul class="plain-list">
-        <li>New old-world zones and questlines</li>
-        <li>Unfinished Vanilla locations</li>
-        <li>New dungeons and level-60 raids</li>
-        <li>Expanded faction stories</li>
-        <li>Additional class quests</li>
-    </ul>
-    <h3>The Player</h3>
-    <ul class="plain-list">
-        <li>New races or race/class combinations</li>
-        <li>Class tuning and new abilities</li>
-        <li>Level-cap and progression decisions</li>
-        <li>Professions and itemization</li>
-        <li>Preserving faction and class identity</li>
-    </ul>
-    <h3>The Systems</h3>
-    <ul class="plain-list">
-        <li>Heroic dungeons</li>
-        <li>World buffs and raid sizes</li>
-        <li>Dungeon Finder and summoning stones</li>
-        <li>Guild banks, achievements or transmog</li>
-        <li>Permanent versus seasonal realms</li>
-    </ul>
+    <div class="cp-cols">
+        <div>
+            <h3>The World</h3>
+            <ul class="plain-list">
+                <li>New old-world zones and questlines</li>
+                <li>Unfinished Vanilla locations</li>
+                <li>New dungeons and level-60 raids</li>
+                <li>Expanded faction stories</li>
+                <li>Additional class quests</li>
+            </ul>
+        </div>
+        <div>
+            <h3>The Player</h3>
+            <ul class="plain-list">
+                <li>New races or race/class combinations</li>
+                <li>Class tuning and new abilities</li>
+                <li>Level-cap and progression decisions</li>
+                <li>Professions and itemization</li>
+                <li>Preserving faction and class identity</li>
+            </ul>
+        </div>
+        <div>
+            <h3>The Systems</h3>
+            <ul class="plain-list">
+                <li>Heroic dungeons</li>
+                <li>World buffs and raid sizes</li>
+                <li>Dungeon Finder and summoning stones</li>
+                <li>Guild banks, achievements or transmog</li>
+                <li>Permanent versus seasonal realms</li>
+            </ul>
+        </div>
+    </div>
     <p class="meta-info">Design questions compiled from <a href="https://quissy.tv/" target="_blank" rel="noopener">QuissyTV's Classic+ coverage</a>, inspired by <a href="https://wowclassic.plus/home" target="_blank" rel="noopener">The Classic+ Project</a>.</p>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-full">
     <h2>Classic+ FAQ</h2>
     <ul class="plain-list">
         <li><strong>What is WoW Classic Plus?</strong> The community name for a potential Classic WoW that keeps the original foundation while adding new content, progression or systems. No official product named "Classic Plus" exists.</li>
@@ -164,7 +180,7 @@ eleventyComputed:
 }
 </script>
 
-<section class="panel">
+<section class="panel cp-span-full">
     <h2>Confirmed News</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "news" %}
@@ -173,7 +189,7 @@ eleventyComputed:
     </ul>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-full">
     <h2>Leaks</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "leak" %}
@@ -182,7 +198,7 @@ eleventyComputed:
     </ul>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-full">
     <h2>Rumors</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "rumor" %}
@@ -190,3 +206,22 @@ eleventyComputed:
     {% endif %}{% endfor %}
     </ul>
 </section>
+
+</div>
+
+<script>
+(function () {
+    var el = document.querySelector("[data-countdown]");
+    if (!el) return;
+    var target = new Date(el.dataset.countdown).getTime();
+    function tick() {
+        var diff = target - Date.now();
+        if (diff <= 0) { el.textContent = "This week"; return; }
+        var d = Math.floor(diff / 86400000);
+        var h = Math.floor((diff % 86400000) / 3600000);
+        el.textContent = "in " + d + "d " + h + "h";
+    }
+    tick();
+    setInterval(tick, 3600000);
+})();
+</script>
