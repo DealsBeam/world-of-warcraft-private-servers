@@ -330,14 +330,14 @@ module.exports = [
         "name": "Felmyst",
         "status": "closed",
         "details": "Offline",
-        "tag": "",
+        "tag": "TBC",
         "group": ""
     },
     {
         "name": "Everlook",
         "status": "closed",
         "details": "Offline",
-        "tag": "",
+        "tag": "Vanilla",
         "group": ""
     },
     {
