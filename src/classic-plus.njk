@@ -22,6 +22,19 @@ eleventyComputed:
     <p class="meta-info">Last entry: {{ classicplus.latest.date }}{% if classicplus.latest.daysAgo > 0 %} · {{ classicplus.latest.daysAgo }} days ago{% else %} · today{% endif %}. Nothing is official until Blizzard says so. Leaks and rumors are labeled as such.</p>
 </section>
 
+{% if cdnwatch.ok %}
+<section class="panel">
+    <h2>Blizzard CDN Build Watch</h2>
+    <p><span class="badge badge-yellow">Internal</span> Encrypted build {{ cdnwatch.current }} on <a href="https://blizztrack.com/view/wowdev2?type=versions" target="_blank" rel="noopener">BlizzTrack</a> · detected {{ cdnwatch.updated }} by the <a href="https://x.com/algalon_ghost" target="_blank" rel="noopener">algalon_ghost</a> build bot. This is Blizzard's own CDN, not a leak — a new build here means real internal progress on Project Camelot.</p>
+    <p class="meta-info">Recent build bumps:</p>
+    <ul class="news-list">
+    {% for h in cdnwatch.history %}
+        <li><time>{{ h.date | formatDate }}</time> <span class="tag">{{ h.version }}</span></li>
+    {% endfor %}
+    </ul>
+</section>
+{% endif %}
+
 <section class="panel">
     <h2>What the Community Wants</h2>
     <p>Beyond the leaks, the community's own voice on Classic+ is being collected and ranked. <a href="https://wowclassic.plus/survey/results" target="_blank" rel="noopener">wowclassic.plus</a> has gathered 300,000+ survey responses across 57 questions spanning The World, The Player and The Systems — see what the community actually wants (community project, not Blizzard).</p>

@@ -3,6 +3,7 @@ const LINKS = require("../src/_data/links.js");
 const HISTORY = require("../src/_data/history.js");
 const CLASSPLUS_ENTRIES = require("../src/_data/classicplus.js").entries;
 const CLASSPLUS_LATEST = require("../src/_data/classicplus.js").latest;
+const CDNWATCH = require("../src/_data/cdnwatch.js");
 const assert = require("assert");
 const fs = require("fs");
 const path = require("path");
@@ -99,3 +100,14 @@ assert.strictEqual(SERVERS.filter(s => matches(s, { search: "stormforge" })).len
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "does-not-exist" })).length, 0);
 
 console.log(`OK: ${SERVERS.length} servers, ${newsFiles.length} news, ${LINKS.length} links, ${HISTORY.length} history events, ${CLASSPLUS_ENTRIES.length} classicplus — all checks passed`);
+
+(async () => {
+    const w = await CDNWATCH();
+    assert.ok(w.tact === "wowdev2", `bad tact: ${w.tact}`);
+    if (w.ok) {
+        assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(w.current), `bad current version: ${w.current}`);
+        assert.ok(Array.isArray(w.history) && w.history.length >= 5, "cdn history too thin");
+        for (const h of w.history) assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(h.version), `bad history version: ${h.version}`);
+    }
+    console.log(`CDN watch: ${w.ok ? "live" : "offline"}${w.ok ? " — " + w.current + " (" + w.history.length + " bumps)" : " — " + w.error}`);
+})();
