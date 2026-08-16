@@ -69,10 +69,12 @@ function renderStats() {
 
 const tags = [...new Set(SERVERS.map(s => s.tag).filter(Boolean))].sort();
 const tagSel = document.getElementById("tag");
-for (const t of tags) {
-    const opt = document.createElement("option");
-    opt.value = opt.textContent = t;
-    tagSel.appendChild(opt);
+if (tagSel.options.length <= 1) {
+    for (const t of tags) {
+        const opt = document.createElement("option");
+        opt.value = opt.textContent = t;
+        tagSel.appendChild(opt);
+    }
 }
 
 let status = "all";
@@ -150,13 +152,15 @@ tagSel.addEventListener("change", e => {
 
 const historyTools = document.getElementById("history-filters");
 const hCats = [...new Set(HISTORY.map(h => h.category))];
-for (const c of hCats) {
-    const btn = document.createElement("button");
-    btn.className = "chip";
-    btn.dataset.hcat = c;
-    btn.setAttribute("aria-pressed", "false");
-    btn.textContent = HTYPE[c].label;
-    historyTools.appendChild(btn);
+if (!historyTools.querySelector(".chip[data-hcat]")) {
+    for (const c of hCats) {
+        const btn = document.createElement("button");
+        btn.className = "chip";
+        btn.dataset.hcat = c;
+        btn.setAttribute("aria-pressed", "false");
+        btn.textContent = HTYPE[c].label;
+        historyTools.appendChild(btn);
+    }
 }
 
 const ICONS = {

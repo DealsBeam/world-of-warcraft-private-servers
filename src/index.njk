@@ -1,0 +1,167 @@
+---
+layout: null
+permalink: /
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World of Warcraft Private Server Status List</title>
+    <meta name="description" content="Comprehensive tracker of World of Warcraft private servers, emulation history, news, and modding resources.">
+    <link rel="alternate" type="application/rss+xml" title="World of Warcraft Private Server News" href="https://wowprivateservers.vercel.app/feed.xml">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="World of Warcraft Private Server Status List">
+    <meta property="og:description" content="Comprehensive tracker of World of Warcraft private servers, emulation history, news, and modding resources.">
+    <meta property="og:url" content="https://wowprivateservers.vercel.app/">
+    <meta property="og:image" content="https://wowprivateservers.vercel.app/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+                document.documentElement.setAttribute("data-theme", t);
+            } catch (e) {}
+        })();
+    </script>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="header-banner">
+        <h1>World of Warcraft Private Servers</h1>
+        <p class="subtitle">Comprehensive Status Tracker, Emulation History &amp; Development Directory</p>
+        <div class="meta-info">
+            Compiled from community updates
+        </div>
+        <div class="theme-toggle" role="group" aria-label="Theme">
+            <button type="button" data-theme-choice="light" aria-pressed="false" title="Light theme">☀</button>
+            <button type="button" data-theme-choice="system" aria-pressed="false" title="System theme">⚙</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="false" title="Dark theme">☾</button>
+        </div>
+        <nav class="site-nav">
+            <a href="/news/">News</a>
+            <a href="/classic-plus/">Classic+ Tracker</a>
+            <a href="/guides/octowow/">OctoWoW Guide</a>
+        </nav>
+    </header>
+
+    {% set statusLabel = { "playable": ["Playable", "badge-green"], "dev": ["In-Development", "badge-yellow"], "closed": ["Shut Down", "badge-red"] } %}
+    {% set eraMap = { "Vanilla": "Vanilla", "TBC": "TBC", "WotLK": "WotLK", "Cataclysm": "Cataclysm", "MoP": "MoP", "Legion": "Legion", "TWW": "TWW", "Vanilla+": "Vanilla", "Classless": "Vanilla", "Multi": "Multi", "MOBA": "Other", "": "Other" } %}
+    {% set eraOrder = ["Vanilla", "TBC", "WotLK", "Cataclysm", "MoP", "Legion", "TWW", "Multi", "Other"] %}
+    {% set iconPath = { "server": "M3 3h18v4H3zM3 10h18v4H3zM3 17h18v4H3zM7 5h.01M7 12h.01M7 19h.01", "globe": "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z", "wrench": "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z", "leaf": "M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10zM2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" } %}
+    {% set htype = { "core": ["Core Emulators", "server"], "web": ["Web & Analytics", "globe"], "tools": ["Development Tools", "wrench"] } %}
+
+    <nav class="tabs" role="tablist" aria-label="Site sections">
+        <button class="tab active" data-tab="servers" role="tab" aria-selected="true">Servers</button>
+        <button class="tab" data-tab="history" role="tab" aria-selected="false">History</button>
+        <button class="tab" data-tab="links" role="tab" aria-selected="false">News &amp; Links</button>
+    </nav>
+
+    <main id="main-content">
+
+        <section id="view-servers" class="view active" role="tabpanel">
+            <div class="stat-strip" id="stat-strip" aria-label="Server status counts">
+                <div class="stat"><span class="stat-num">{{ servers.length }}</span><span class="stat-label">Tracked servers</span></div>
+                <div class="stat stat-green"><span class="stat-num">{{ servers | countByStatus("playable") }}</span><span class="stat-label">Playable</span></div>
+                <div class="stat stat-yellow"><span class="stat-num">{{ servers | countByStatus("dev") }}</span><span class="stat-label">In development</span></div>
+                <div class="stat stat-red"><span class="stat-num">{{ servers | countByStatus("closed") }}</span><span class="stat-label">Shut down</span></div>
+            </div>
+
+            <div class="controls">
+                <div class="chips" id="chips" role="group" aria-label="Filter by status">
+                    <button class="chip active" data-status="all" aria-pressed="true">All</button>
+                    <button class="chip" data-status="playable" aria-pressed="false">🟢 Playable</button>
+                    <button class="chip" data-status="dev" aria-pressed="false">🟡 In Dev</button>
+                    <button class="chip" data-status="closed" aria-pressed="false">🔴 Shut Down</button>
+                </div>
+
+                <div class="filters">
+                    <label class="sr-only" for="search">Search servers</label>
+                    <input type="search" id="search" placeholder="Search servers…" autocomplete="off">
+                    <select id="tag" aria-label="Filter by type">
+                        <option value="all">All types</option>
+                        {% for t in servers | uniqueTags %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
+                    </select>
+                </div>
+            </div>
+
+            <p class="count" id="count">{{ servers.length }} of {{ servers.length }} servers</p>
+            <p class="empty" id="empty" hidden>No servers match your filters.</p>
+            <div class="cards" id="cards">
+                {% for g in servers | groupByEra %}
+                <h2 class="era-title">{{ g.era }}<span class="era-count">{{ g.servers.length }}</span></h2>
+                {% for s in g.servers %}
+                {% set lbl = statusLabel[s.status] or ["Unknown", ""] %}
+                <article class="card">
+                    <div class="card-head">
+                        <span class="server-name"><a class="server-link" href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a>{% if s.group and s.name.indexOf(s.group) === -1 %} <span class="tag tag-group">{{ s.group }}</span>{% endif %}</span>
+                        <span class="badge {{ lbl[1] }}">{{ lbl[0] }}</span>
+                    </div>
+                    <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}</div>
+                    {% if s.url %}<a class="card-site" href="{{ s.url }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}
+                </article>
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </section>
+
+        <section id="view-history" class="view" role="tabpanel" hidden>
+            <div class="history-toolbar">
+                <label class="sr-only" for="history-search">Search history</label>
+                <input type="search" id="history-search" placeholder="Search history events…" autocomplete="off">
+                <div class="filter-row" id="history-filters">
+                    <button class="chip active" data-hcat="all" aria-pressed="true">All</button>
+                    {% for c in history | uniqueCategories %}{% set ht = htype[c] or ["", "leaf"] %}<button class="chip" data-hcat="{{ c }}" aria-pressed="false">{{ ht[0] }}</button>{% endfor %}
+                </div>
+            </div>
+            <p class="empty" id="history-empty" hidden>No history events match your filters.</p>
+            <div class="timeline" id="timeline">
+                {% for h in history %}
+                {% set ht = htype[h.category] or ["", "leaf"] %}
+                <div class="timeline-item" data-cat="{{ h.category }}">
+                    <div class="timeline-marker" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="{{ iconPath[ht[1]] }}"/></svg></div>
+                    <div class="timeline-body">
+                        <div class="timeline-date">{{ h.date }}</div>
+                        <h3>{{ h.title }}</h3>
+                        {% if h.tag %} <span class="tag">{{ h.tag }}</span>{% endif %}
+                        {% for p in h.paragraphs %}<p>{{ p }}</p>{% endfor %}
+                        {% if h.githubRepo %}<div class="timeline-repo"><a href="https://github.com/{{ h.githubRepo }}" target="_blank" rel="noopener">{{ h.githubRepo }}</a></div>{% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section id="view-links" class="view" role="tabpanel" hidden>
+            <section class="panel">
+                <h2>News</h2>
+                <ul id="news-list">
+                    {% for n in collections.news | reverse %}<li><a href="{{ n.data.link or n.url }}"{% if n.data.link %} target="_blank" rel="noopener"{% endif %}>{{ n.data.title }}</a></li>{% endfor %}
+                </ul>
+            </section>
+            <section class="panel">
+                <h2>Mods &amp; Creations</h2>
+                <ul id="link-list">
+                    {% for l in links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a></li>{% endfor %}
+                </ul>
+            </section>
+        </section>
+
+    </main>
+
+    <div class="footer">
+        List curated and formatted from Discord community updates. Statuses subject to change.
+    </div>
+
+    <script src="data.js"></script>
+    <script src="theme.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

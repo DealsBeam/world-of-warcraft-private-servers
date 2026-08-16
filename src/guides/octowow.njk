@@ -11,12 +11,14 @@ eleventyComputed:
 ---
 <p><a href="/news/">← All news</a></p>
 
-<section class="panel">
+<div class="cp-grid">
+
+<section class="panel cp-span-full">
     <h2>About {{ octowow.name }}</h2>
     <p>{{ octowow.name }} is a modern 1.12 World of Warcraft client built for Turtle WoW and Vanilla+ servers. <a href="{{ octowow.signup }}" target="_blank" rel="noopener">Sign up</a> and grab the latest release, then set up with the tools and addons below.</p>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-half">
     <h2>Essential Tools</h2>
     <ul class="guide-list">
     {% for t in octowow.tools %}
@@ -25,7 +27,7 @@ eleventyComputed:
     </ul>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-half">
     <h2>Essential Addons</h2>
     <ul class="guide-list">
     {% for a in octowow.essential %}
@@ -34,7 +36,7 @@ eleventyComputed:
     </ul>
 </section>
 
-<section class="panel">
+<section class="panel cp-span-full">
     <h2>Recommended Addons</h2>
     <ul class="guide-list">
     {% for a in octowow.recommended %}
@@ -42,3 +44,5 @@ eleventyComputed:
     {% endfor %}
     </ul>
 </section>
+
+</div>
