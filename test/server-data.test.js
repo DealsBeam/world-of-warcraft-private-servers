@@ -99,6 +99,23 @@ assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable", search: 
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "stormforge" })).length, 2);
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "does-not-exist" })).length, 0);
 
+const css = fs.readFileSync(path.join(__dirname, "../src/style.css"), "utf8");
+const blocks = css.split(/\}/).filter(b => b.trim() && b.includes("{"));
+const baseSel = sel => sel.trim().split(/\s+/).pop();
+const textFillSels = new Set(
+    blocks.filter(b => /-webkit-text-fill-color:\s*transparent/.test(b))
+        .map(b => baseSel(b.split("{")[0]))
+);
+for (const b of blocks) {
+    const [selRaw, body] = b.split("{");
+    if (!body) continue;
+    if (!/background:\s/.test(body)) continue;
+    if (/background-clip:\s*text/.test(body)) continue;
+    const sel = baseSel(selRaw);
+    assert.ok(!textFillSels.has(sel),
+        `CSS: "${selRaw}" sets background shorthand but not background-clip: text while "${sel}" uses transparent text-fill — glyphs invisible`);
+}
+
 console.log(`OK: ${SERVERS.length} servers, ${newsFiles.length} news, ${LINKS.length} links, ${HISTORY.length} history events, ${CLASSPLUS_ENTRIES.length} classicplus — all checks passed`);
 
 (async () => {
