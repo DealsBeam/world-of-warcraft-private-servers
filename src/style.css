@@ -801,6 +801,38 @@ a.server-link:hover {
     margin: 7px 0;
 }
 
+/* ---------- out of bounds radio ---------- */
+
+.radio-sub {
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    color: var(--muted);
+    font-style: italic;
+}
+
+.radio-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.radio-now {
+    font-size: 14px;
+    color: var(--text-strong);
+    font-family: var(--font-h);
+}
+
+.radio-now.off {
+    color: var(--dim);
+    font-style: italic;
+}
+
+.radio-links {
+    margin: 12px 0 0 0;
+    font-size: 13px;
+}
+
 .panel li::marker {
     color: var(--gold-dim);
 }
