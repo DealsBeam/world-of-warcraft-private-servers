@@ -28,9 +28,9 @@ const slugify = s => String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-
 const slugs = SERVERS.map(s => slugify(s.name));
 assert.strictEqual(new Set(slugs).size, slugs.length, `slug collision: ${slugs.filter((v, i) => slugs.indexOf(v) !== i).join(", ")}`);
 
-assert.strictEqual(SERVERS.length, 46, "server count changed");
+assert.strictEqual(SERVERS.length, 47, "server count changed");
 assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 26);
-assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 14);
+assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 15);
 assert.strictEqual(SERVERS.filter(s => s.status === "closed").length, 6);
 
 const newsDir = path.join(__dirname, "../src/news");

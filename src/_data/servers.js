@@ -1,5 +1,14 @@
 module.exports = [
     {
+        "name": "SandWorlds",
+        "status": "dev",
+        "details": "Brazilian community Vanilla 1.12.1, low latency, class balancing, classic preservation",
+        "tag": "Vanilla",
+        "group": "",
+        "release": "Aug 21",
+        "url": "https://sandworlds.com/"
+    },
+    {
         "name": "Eternal Gaming",
         "status": "playable",
         "details": "Blizzlike WotLK 3.3.5a, no pay-to-win, Ulduar/T8 phase-2 start, crossfaction, open-source core",
