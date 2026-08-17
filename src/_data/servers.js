@@ -1,5 +1,13 @@
 module.exports = [
     {
+        "name": "Eternal Gaming",
+        "status": "playable",
+        "details": "Blizzlike WotLK 3.3.5a, no pay-to-win, Ulduar/T8 phase-2 start, crossfaction, open-source core",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://eternalgaming.site/"
+    },
+    {
         "name": "Greyhaven",
         "status": "playable",
         "details": "Progressive Vanilla 1.12.1, staged content, community votes, no pay-to-win",

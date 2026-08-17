@@ -1,5 +1,13 @@
 module.exports = [
     {
+        "title": "BFA-HavenCore - open-source WoW 8.3.7 (Battle for Azeroth) server emulator",
+        "url": "https://github.com/Hextv/BFA-HavenCore"
+    },
+    {
+        "title": "EG-Source - open-source WotLK 3.3.5a server core powering Eternal Gaming",
+        "url": "https://github.com/ccrs/EG-Source"
+    },
+    {
         "title": "SuperUI-Core - VMaNGOS fork with persistent world bots for MangosSuperUI",
         "url": "https://github.com/Yafrovon/SuperUI-Core"
     },
