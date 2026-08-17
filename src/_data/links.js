@@ -1,5 +1,9 @@
 module.exports = [
     {
+        "title": "SuperUI-Core - VMaNGOS fork with persistent world bots for MangosSuperUI",
+        "url": "https://github.com/Yafrovon/SuperUI-Core"
+    },
+    {
         "title": "Tortoise-WoW - community restoration of the 1.18.1 Turtle-WoW patch, with solo-play additions",
         "url": "https://github.com/Penqle/tortoise-wow"
     },
