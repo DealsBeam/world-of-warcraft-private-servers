@@ -1,5 +1,41 @@
 module.exports = [
     {
+        "title": "AzerothCore - open-source WotLK 3.3.5a server emulator",
+        "url": "https://www.azerothcore.org"
+    },
+    {
+        "title": "SoloCraft - WoW with player bots (single-player)",
+        "url": "https://solocraft.org/"
+    },
+    {
+        "title": "Microbot - WoW with player bots (single-player)",
+        "url": "https://microbot-wow.net/"
+    },
+    {
+        "title": "SPP-Classics CMaNGOS - Single Player Project releases for Vanilla/TBC/WotLK",
+        "url": "https://github.com/celguar/spp-classics-cmangos/releases"
+    },
+    {
+        "title": "wagoarchive - /wpsg/ Legion WeakAuras and ElvUI profile archive",
+        "url": "https://wagoarchive.neocities.org/"
+    },
+    {
+        "title": "Warperia - WoW addons",
+        "url": "https://warperia.com/"
+    },
+    {
+        "title": "wowmodding.net - modding tools and files (free registration)",
+        "url": "https://www.wowmodding.net/"
+    },
+    {
+        "title": "Wiki for Dummies - modding guide",
+        "url": "https://pastebin.com/xG3yU0yx"
+    },
+    {
+        "title": "Synastria - WoW Wuxia cultivation sim",
+        "url": "https://synastria.org/"
+    },
+    {
         "title": "BFA-HavenCore - open-source WoW 8.3.7 (Battle for Azeroth) server emulator",
         "url": "https://github.com/Hextv/BFA-HavenCore"
     },
