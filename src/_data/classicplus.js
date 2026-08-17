@@ -224,7 +224,15 @@ const entries = [
         "date": "2026-08-15",
         "category": "leak",
         "title": "Dwarf Shamans & Skyborne Rewards",
-        "summary": "Dataminer Stiven found encrypted promotional rewards tied to Camelot: a Dwarf Bear mount, a Skyborne Cat mount with four colors, two Shen'dorei-themed transmog sets and housing decor. The Dwarf theme has Wildhammer precedent for Dwarf Shamans, though the assets could also be a separate Retail promotion.",
+        "summary": "Dataminer Stiven found encrypted promotional rewards tied to Camelot: a Dwarf Bear mount, a Skyborne Cat mount with four color variations (separate Classic and Retail models, the Classic one lower-polygon), two Shen'dorei-themed transmog sets, a 3D Adventurer cape, a Shen'dorei Windwell toy, two tabards and five Skyborne housing pieces. Rexxar, Misha and Huffer rewards may belong to the same promotion. The Dwarf theme has Wildhammer precedent for Dwarf Shamans, though the assets could also be a separate Retail promotion.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/classic-plus-dwarf-shamans-project-camelot-clues/"
+    },
+    {
+        "date": "2026-08-14",
+        "category": "rumor",
+        "title": "WoW Dev Five Build Eyed as BlizzCon Demo",
+        "summary": "On August 14 WoW Dev Five jumped from 1.60.0.69075 to 1.60.0.69322, and WoW Dev Two hit 1.60.1.69328 less than a day later. Dataminer Stiven suggests the separate 1.60.0 line on Dev Five may be stabilized for a BlizzCon 2026 playable demo while 1.60.1 continues active development on Dev Two. No demo realm or playable client has been confirmed.",
         "source": "quissy.tv",
         "url": "https://quissy.tv/classic-plus-dwarf-shamans-project-camelot-clues/"
     },
