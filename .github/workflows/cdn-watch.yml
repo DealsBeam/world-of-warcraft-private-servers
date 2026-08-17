@@ -1,0 +1,29 @@
+name: cdn-watch
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/check-cdn.js
+      - name: Commit and push on change
+        run: |
+          git config user.name "cdn-watch"
+          git config user.email "cdn-watch@users.noreply.github.com"
+          if git diff --quiet cdn-last.json; then
+            echo "No change"
+          else
+            git add cdn-last.json
+            git commit -m "cdn-watch: refresh build data"
+            git push
+          fi
