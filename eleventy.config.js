@@ -12,9 +12,12 @@ module.exports = function (eleventyConfig) {
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, ""));
 
-    eleventyConfig.addFilter("relatedHistory", (events, server) => {
+    eleventyConfig.addFilter("relatedHistory", (events, server, slug) => {
         const qs = [server.name, server.group].filter(Boolean).map(s => s.toLowerCase());
         return events.filter(h => {
+            if (h.relatedServers && h.relatedServers.length) {
+                return h.relatedServers.includes(slug);
+            }
             const hay = (h.title + " " + h.tag + " " + h.paragraphs.join(" ")).toLowerCase();
             return qs.some(q => hay.includes(q));
         });

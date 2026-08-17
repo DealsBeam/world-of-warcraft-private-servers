@@ -377,6 +377,7 @@ module.exports = [
         "date": "September 2024",
         "title": "The Turtle WoW Core & Git Repository Leak",
         "tag": "Source Leak",
+        "relatedServers": ["turtle-wow", "octo-wow", "capybara-wow", "ravencraft", "caverns-of-time"],
         "paragraphs": [
             "In September 2024, a historically significant leak occurred when a comprehensive Git repository dump containing Turtle WoW's proprietary server-side and client-side code (up to version 1.17) was published online and heavily mirrored across GitHub and RaGEZONE.",
             "The leak effectively democratized years of custom \"Classic+\" development, enabling other developers to spin up rival variants and allowing players to run offline single-player repacks. Concurrently, security advisories warned the community that certain client patching systems and Warden anti-cheat vulnerabilities in the leaked files could be manipulated to execute remote code payloads."
@@ -389,6 +390,7 @@ module.exports = [
         "date": "May 14, 2026",
         "title": "The Shutdown of Stormforge",
         "tag": "Legal Milestone",
+        "relatedServers": ["tauri", "stormforge-mistblade", "stormforge-wrath", "helios", "apollo-ii", "perseus"],
         "paragraphs": [
             "Stormforge officially shut down on May 14, 2026, following direct legal intervention from Blizzard Entertainment. Occurring in tandem with the massive Turtle WoW legal crackdown, the closure ended over four years of highly regarded emulation services.",
             "Formed as a landmark merger between the Tauri and Atlantiss development teams, Stormforge combined Tauri's industry-leading Mists of Pandaria (MoP) core architecture with Atlantiss's highly optimized The Burning Crusade (TBC) framework, widely recognized by the community for achieving some of the highest scripting quality in the scene."
@@ -401,6 +403,7 @@ module.exports = [
         "date": "May 15, 2026",
         "title": "The Shutdown of Turtle WoW",
         "tag": "Legal Milestone",
+        "relatedServers": ["turtle-wow"],
         "paragraphs": [
             "The popular custom \"Classic+\" private server Turtle WoW officially shut down on May 15, 2026, concluding nearly eight years of operation after a major federal copyright infringement lawsuit in California (Blizzard Entertainment, Inc. v. Turtle Wow).",
             "The lawsuit uniquely escalated by leveraging the RICO Act against individual developers and community managers while aggressively subpoenaing Discord, hosts, and payment processors. After the court ruled in Blizzard's favor on April 13, 2026, Turtle WoW agreed to a binding permanent injunction and permanently closed its servers."
@@ -425,9 +428,75 @@ module.exports = [
         "date": "August 2026",
         "title": "Unreal Azeroth launches a from-scratch UE5 client",
         "tag": "Client Modding",
+        "relatedServers": ["emberveil"],
         "paragraphs": [
             "Unreal Azeroth is a completely custom World of Warcraft client written from scratch in Unreal Engine 5. It is not a mod, a reshade, or an emulator patch, but a brand-new client built with proprietary in-house tooling that still speaks to 20-year-old vanilla-era servers.",
             "Following a closed beta, the client launched in Legacy Mode in August 2026, with the full UE5 Modern Mode, an Android build, and native VR support on the roadmap. Its in-built anti-cheat and extended engine limits (larger quest logs, ultrawide, action queueing) mark it as the first large-scale from-scratch recreation of classic Azeroth in a modern engine."
+        ]
+    },
+    {
+        "id": "event-felmyst-cd-2017",
+        "category": "core",
+        "icon": "fa-solid fa-gavel",
+        "date": "July 2017",
+        "title": "The Rise and Fall of Felmyst",
+        "tag": "Legal Milestone",
+        "relatedServers": ["felmyst"],
+        "paragraphs": [
+            "Felmyst was developed over nearly four years by a single developer, Gummy52, as a high-quality recreation of The Burning Crusade (patch 2.4.3). It launched in July 2017 and received a Blizzard cease-and-desist within five hours, shutting down the same day.",
+            "The takedown was so swift that the project never saw a full open launch, cementing Felmyst as one of the shortest-lived and most notorious TBC projects in the scene."
+        ]
+    },
+    {
+        "id": "event-everlook-launch-2022",
+        "category": "core",
+        "icon": "fa-solid fa-flag",
+        "date": "November 2022",
+        "title": "Everlook Launches as a Vanilla Progressive Realm",
+        "tag": "Community Hubs",
+        "relatedServers": ["everlook"],
+        "paragraphs": [
+            "Everlook launched on November 11, 2022 as a Vanilla 1.12.1 progressive PvP realm in the Nostalrius and Light's Hope lineage, growing a large community on a largely blizzlike 1x experience.",
+            "The realm's rapid rise highlighted the continued demand for faithful progressive Vanilla even years after the closures of Nostalrius and Light's Hope."
+        ]
+    },
+    {
+        "id": "event-warmane-molten-2015",
+        "category": "web",
+        "icon": "fa-solid fa-rotate",
+        "date": "2015",
+        "title": "Molten-WoW Rebrands as Warmane",
+        "tag": "Community Hubs",
+        "relatedServers": ["warmane"],
+        "paragraphs": [
+            "Warmane traces its roots to Molten-WoW, one of the oldest and largest WotLK communities, which rebranded as Warmane in 2015 following a merger with the Arena Tournament realm and its development team.",
+            "Under the Warmane banner the project consolidated Molten's population and infrastructure, growing into one of the most popular WotLK servers in the world."
+        ]
+    },
+    {
+        "id": "event-ascension-rico-2026",
+        "category": "web",
+        "icon": "fa-solid fa-scale-balanced",
+        "date": "June 2026",
+        "title": "Blizzard Files RICO Lawsuit Against Ascension",
+        "tag": "Legal Milestone",
+        "relatedServers": ["ascension", "bronzebeard", "conquest-of-azeroth"],
+        "paragraphs": [
+            "In June 2026 Blizzard filed a federal lawsuit against Ascension's founder and team, leveraging RICO allegations similar to those used in other major cases, over the classless-WoW project's custom launcher and infrastructure.",
+            "Ascension, which claimed over a million registered players, continued operating while the case moved through federal court."
+        ]
+    },
+    {
+        "id": "event-emberveil-launch-2026",
+        "category": "core",
+        "icon": "fa-solid fa-gamepad",
+        "date": "August 2026",
+        "title": "Emberveil Launches on a UE5 Vanilla Client",
+        "tag": "Client Modding",
+        "relatedServers": ["emberveil"],
+        "paragraphs": [
+            "Emberveil launched as a Vanilla 1.12.1 realm rebuilt inside a custom Unreal Engine 5 client — the first live realm on the from-scratch Unreal Azeroth client, opening on August 15, 2026.",
+            "The realm's launch showcased the UE5 Vanilla experience at full scale, combining a modern client with faithful classic gameplay and a dedicated launch-day community event."
         ]
     }
 ];

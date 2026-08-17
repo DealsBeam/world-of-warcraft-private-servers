@@ -13,7 +13,7 @@ eleventyComputed:
     hero: "{{ server.name }}"
     subtitle: "World of Warcraft Private Server Status"
 ---
-{% set related = history | relatedHistory(server) %}
+{% set related = history | relatedHistory(server, server.name | slugify) %}
 {% if server.status == "playable" %}{% set badge = "badge-green" %}{% set statusLabel = "Playable" %}
 {% elif server.status == "dev" %}{% set badge = "badge-yellow" %}{% set statusLabel = "In-Development" %}
 {% else %}{% set badge = "badge-red" %}{% set statusLabel = "Shut Down" %}{% endif %}
