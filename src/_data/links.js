@@ -218,5 +218,9 @@ module.exports = [
     {
         "title": "wago.tools - online file browser for WoW build data",
         "url": "https://wago.tools"
+    },
+    {
+        "title": "Humanizer - agent skill that removes signs of AI-generated writing from text",
+        "url": "https://github.com/blader/humanizer"
     }
 ];
