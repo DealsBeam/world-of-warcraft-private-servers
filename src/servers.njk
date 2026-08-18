@@ -31,6 +31,7 @@ eleventyComputed:
             {% if server.tag %}<span class="tag">{{ server.tag }}</span>{% endif %}
             {% if server.group %}<span class="tag tag-group">{{ server.group }}</span>{% endif %}
             {% if server.release %}<span class="tag">Release: {{ server.release }}</span>{% endif %}
+            {% if server.updated %}<span class="tag">Last checked: {{ server.updated | formatDate }}</span>{% endif %}
         </p>
         {% if server.url %}<p><a href="{{ server.url }}" target="_blank" rel="noopener">Visit official site ↗</a></p>{% endif %}
     </div>

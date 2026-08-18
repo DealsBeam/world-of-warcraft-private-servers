@@ -1,0 +1,32 @@
+---
+layout: base.njk
+pagination:
+    data: eras
+    size: 1
+    alias: eraGroup
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    permalink: "/{{ eraGroup.era | lower | slugify }}/"
+    title: "{{ eraGroup.era }} Servers — World of Warcraft Private Servers"
+    description: "Curated list of {{ eraGroup.era }} World of Warcraft private servers with current status."
+    canonical: "https://wowprivateservers.vercel.app/{{ eraGroup.era | lower | slugify }}/"
+    hero: "{{ eraGroup.era }} Servers"
+    subtitle: "World of Warcraft Private Server Status"
+---
+<p><a href="/">← All servers</a></p>
+
+<div class="cards">
+{% for s in eraGroup.servers %}
+{% set lbl = { "playable": ["Playable", "badge-green"], "dev": ["In-Development", "badge-yellow"], "closed": ["Shut Down", "badge-red"] }[s.status] or ["Unknown", ""] %}
+<article class="card">
+    <div class="card-head">
+        <span class="server-name"><a class="server-link" href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a>{% if s.group and s.name.indexOf(s.group) === -1 %} <span class="tag tag-group">{{ s.group }}</span>{% endif %}</span>
+        <span class="badge {{ lbl[1] }}">{{ lbl[0] }}</span>
+    </div>
+    <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}</div>
+    {% if s.url %}<a class="card-site" href="{{ s.url }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}
+</article>
+{% endfor %}
+</div>
+
+<p class="meta-info">List reviewed {{ site.reviewed }}. Statuses subject to change.</p>

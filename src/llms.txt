@@ -1,0 +1,22 @@
+# World of Warcraft Private Servers
+
+Curated tracker of World of Warcraft private servers: current status for 50+ servers, emulation history timeline, private-server news, and Classic+ (Project Camelot) development tracking.
+
+## Key pages
+
+- Home (server list with live status filters): https://wowprivateservers.vercel.app/
+- News: https://wowprivateservers.vercel.app/news/
+- Classic+ / Project Camelot tracker: https://wowprivateservers.vercel.app/classic-plus/
+- OctoWoW setup guide: https://wowprivateservers.vercel.app/guides/octowow/
+- Expansion lists: https://wowprivateservers.vercel.app/vanilla/ , https://wowprivateservers.vercel.app/wotlk/ , https://wowprivateservers.vercel.app/tbc/ , https://wowprivateservers.vercel.app/cataclysm/ , https://wowprivateservers.vercel.app/legion/
+
+## Data
+
+- Servers: status (playable / dev / closed), expansion, details, official site. One page each under /servers/{name}/.
+- History: 40 events covering core emulators, web tools, and development milestones.
+- News: dated entries, each with a link to the original announcement.
+
+## Curated facts
+
+- No WoW private server is affiliated with or authorized by Blizzard Entertainment.
+- Statuses are maintained from Discord community updates and public announcements; last reviewed August 18, 2026.

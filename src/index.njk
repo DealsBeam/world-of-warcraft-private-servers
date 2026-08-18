@@ -29,9 +29,6 @@ permalink: /
         })();
     </script>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -49,7 +46,7 @@ permalink: /
         <h1>World of Warcraft Private Servers</h1>
         <p class="subtitle">Comprehensive Status Tracker, Emulation History &amp; Development Directory</p>
         <div class="meta-info">
-            Compiled from community updates
+            Compiled from community updates · last reviewed {{ site.reviewed }}
         </div>
         <div class="theme-toggle" role="group" aria-label="Theme">
             <button type="button" data-theme-choice="light" aria-pressed="false" title="Light theme">☀</button>
@@ -86,6 +83,18 @@ permalink: /
                 <div class="stat stat-red"><span class="stat-num">{{ servers | countByStatus("closed") }}</span><span class="stat-label">Shut down</span></div>
             </div>
 
+            {% set recent = servers | selectattr("updated") | sort(attribute="updated", reverse=true) | list %}
+            {% if recent | length %}
+            <section class="panel recent-panel">
+                <h2>Recently updated</h2>
+                <ul class="recent-list">
+                    {% for s in recent | take(6) %}
+                    <li><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a> <span class="tag">{{ s.updated | formatDate }}</span></li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
             <div class="controls">
                 <div class="chips" id="chips" role="group" aria-label="Filter by status">
                     <button class="chip active" data-status="all" aria-pressed="true">All</button>
@@ -109,7 +118,7 @@ permalink: /
             <p class="empty" id="empty" hidden>No servers match your filters.</p>
             <div class="cards" id="cards">
                 {% for g in servers | groupByEra %}
-                <h2 class="era-title">{{ g.era }}<span class="era-count">{{ g.servers.length }}</span></h2>
+                <h2 class="era-title"><a href="/{{ g.era | lower | slugify }}/">{{ g.era }}</a><span class="era-count">{{ g.servers.length }}</span></h2>
                 {% for s in g.servers %}
                 {% set lbl = statusLabel[s.status] or ["Unknown", ""] %}
                 <article class="card">
@@ -167,6 +176,11 @@ permalink: /
             </section>
         </section>
 
+        <section class="panel about-panel">
+            <h2>How this list works</h2>
+            <p>Every server, status and date here is curated and formatted from Discord community updates and public announcements — nothing is automated guesswork. Playable status means the server is open to players; In-Development means a public release is still ahead. Statuses are subject to change and were last reviewed {{ site.reviewed }}. We are not affiliated with Blizzard Entertainment, and WoW private servers exist outside of it.</p>
+        </section>
+
     </main>
 
     <div class="footer">
@@ -180,6 +194,18 @@ permalink: /
         List curated and formatted from Discord community updates. Statuses subject to change.
     </div>
 
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "World of Warcraft Private Servers",
+        "itemListElement": [
+        {% for s in servers %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": "{{ s.name }}", "url": "https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/" }{{ "," if not loop.last }}
+        {% endfor %}
+        ]
+    }
+    </script>
     <script src="data.js"></script>
     <script src="theme.js"></script>
     <script src="radio.js"></script>

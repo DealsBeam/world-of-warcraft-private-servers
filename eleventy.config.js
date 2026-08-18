@@ -6,9 +6,12 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/favicon.svg");
     eleventyConfig.addPassthroughCopy("src/og.png");
     eleventyConfig.addPassthroughCopy("src/robots.txt");
+    eleventyConfig.addPassthroughCopy("src/llms.txt");
+    eleventyConfig.addPassthroughCopy("src/fonts");
 
-    eleventyConfig.addFilter("slugify", s => String(s)
-        .toLowerCase()
+    eleventyConfig.addFilter("take", (arr, n) => (arr || []).slice(0, n));
+
+    eleventyConfig.addFilter("slugify", s => String(s)        .toLowerCase()
         .normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, ""));

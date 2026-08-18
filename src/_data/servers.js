@@ -5,7 +5,8 @@ module.exports = [
         "details": "Brazilian Turtle 1.17.2-derived Vanilla+, crossfaction, 13 custom zones, class reworks",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://sandworlds.com/"
+        "url": "https://sandworlds.com/",
+        "updated": "2026-08-18"
     },
     {
         "name": "Eternal Gaming",
@@ -89,7 +90,8 @@ module.exports = [
         "details": "Turtle 1.18.1 restored Jul 2026, 3 realms (N'Zoth PvE / C'Thun HC / Y'Shaarj PvP), phased raids 2026-27",
         "tag": "Vanilla+",
         "group": "",
-        "url": "https://octowow.st"
+        "url": "https://octowow.st",
+        "updated": "2026-07-01"
     },
     {
         "name": "Capybara WoW",
@@ -97,7 +99,8 @@ module.exports = [
         "details": "Turtle 1.18.1, run by ex-Turtle SEA admins, 2 realms, ~10k online",
         "tag": "Vanilla+",
         "group": "",
-        "url": "https://capycraft.io"
+        "url": "https://capycraft.io",
+        "updated": "2026-08-01"
     },
     {
         "name": "Whitemane — Gilneas",
@@ -249,7 +252,8 @@ module.exports = [
         "status": "playable",
         "details": "Turtle+, launched Aug 15",
         "tag": "Vanilla+",
-        "group": ""
+        "group": "",
+        "updated": "2026-08-18"
     },
     {
         "name": "Project Legacy",
@@ -257,14 +261,16 @@ module.exports = [
         "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes",
         "tag": "Vanilla+",
         "group": "",
-        "url": "https://projectlegacy.pro/"
+        "url": "https://projectlegacy.pro/",
+        "updated": "2026-08-18"
     },
     {
         "name": "Incursion-WoW",
         "status": "playable",
         "details": "Instant-60 Vanilla->WotLK progressive, reworked MC/Onyxia and endgame dungeons, 500+ rebalanced items",
         "tag": "Vanilla+",
-        "group": ""
+        "group": "",
+        "updated": "2026-08-18"
     },
     {
         "name": "Project Astral",
@@ -272,14 +278,16 @@ module.exports = [
         "details": "WotLK 3.3.5a, crossfaction, EU",
         "tag": "WotLK",
         "group": "",
-        "url": "https://playastral.io"
+        "url": "https://playastral.io",
+        "updated": "2026-08-18"
     },
     {
         "name": "Eternyum",
         "status": "playable",
         "details": "Progressive WotLK 3.3.5a, Romanian",
         "tag": "WotLK",
-        "group": ""
+        "group": "",
+        "updated": "2026-08-18"
     },
     {
         "name": "Hellgarve",
@@ -287,7 +295,8 @@ module.exports = [
         "details": "Legion solocraft, artifacts, 1-3x XP",
         "tag": "Legion",
         "group": "",
-        "url": "https://wowhellgarve.com/legion/en/"
+        "url": "https://wowhellgarve.com/legion/en/",
+        "updated": "2026-08-18"
     },
     {
         "name": "Ravencraft",
