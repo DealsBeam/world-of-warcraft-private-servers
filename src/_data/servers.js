@@ -1,11 +1,10 @@
 module.exports = [
     {
         "name": "SandWorlds",
-        "status": "dev",
-        "details": "Brazilian community Vanilla 1.12.1, low latency, class balancing, classic preservation",
+        "status": "playable",
+        "details": "Brazilian Turtle 1.17.2-derived Vanilla+, crossfaction, 13 custom zones, class reworks",
         "tag": "Vanilla",
         "group": "",
-        "release": "Aug 21",
         "url": "https://sandworlds.com/"
     },
     {
@@ -87,7 +86,7 @@ module.exports = [
     {
         "name": "Octo WoW",
         "status": "playable",
-        "details": "Turtle 1.17.2-derived Vanilla+, restoring content toward 1.18.1",
+        "details": "Turtle 1.18.1 restored Jul 2026, 3 realms (N'Zoth PvE / C'Thun HC / Y'Shaarj PvP), phased raids 2026-27",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://octowow.st"
@@ -95,7 +94,7 @@ module.exports = [
     {
         "name": "Capybara WoW",
         "status": "playable",
-        "details": "Chinese continuation of the Turtle-style Vanilla+ world (CapyCraft)",
+        "details": "Turtle 1.18.1, run by ex-Turtle SEA admins, 2 realms, ~10k online",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://capycraft.io"
@@ -247,11 +246,48 @@ module.exports = [
     },
     {
         "name": "Caverns of Time",
-        "status": "dev",
-        "details": "Turtle+",
+        "status": "playable",
+        "details": "Turtle+, launched Aug 15",
+        "tag": "Vanilla+",
+        "group": ""
+    },
+    {
+        "name": "Project Legacy",
+        "status": "playable",
+        "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes",
         "tag": "Vanilla+",
         "group": "",
-        "release": "Aug 15"
+        "url": "https://projectlegacy.pro/"
+    },
+    {
+        "name": "Incursion-WoW",
+        "status": "playable",
+        "details": "Instant-60 Vanilla->WotLK progressive, reworked MC/Onyxia and endgame dungeons, 500+ rebalanced items",
+        "tag": "Vanilla+",
+        "group": ""
+    },
+    {
+        "name": "Project Astral",
+        "status": "playable",
+        "details": "WotLK 3.3.5a, crossfaction, EU",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://playastral.io"
+    },
+    {
+        "name": "Eternyum",
+        "status": "playable",
+        "details": "Progressive WotLK 3.3.5a, Romanian",
+        "tag": "WotLK",
+        "group": ""
+    },
+    {
+        "name": "Hellgarve",
+        "status": "playable",
+        "details": "Legion solocraft, artifacts, 1-3x XP",
+        "tag": "Legion",
+        "group": "",
+        "url": "https://wowhellgarve.com/legion/en/"
     },
     {
         "name": "Ravencraft",
