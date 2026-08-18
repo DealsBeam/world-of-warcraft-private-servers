@@ -37,7 +37,7 @@ const entries = [
         "title": "Encrypted 'Classic 1.60' Builds Hit the CDN",
         "summary": "Roughly 29 encrypted 'Classic 1.60' builds began appearing on Blizzard's CDN from late October 2025 — verifiable technical traces that Blizzard is actively building a new Classic patch.",
         "source": "kami-labs.fr",
-        "url": "https://www.kami-labs.fr/wow-classic/wow-classic-plus-blizzcon-2026/",
+        "url": "https://kami-labs.fr/en/wow-classic/wow-classic-plus-blizzcon-2026/",
         "discuss": "https://www.reddit.com/r/classicwow/comments/1of9bfe/mysterious_new_vanilla_patch_1600_found_on/"
     },
     {
