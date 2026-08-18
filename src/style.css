@@ -175,6 +175,47 @@ a:hover {
     background: linear-gradient(90deg, transparent, var(--gold), transparent);
 }
 
+.header-banner > * {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-art {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.hero-art .ha-mount {
+    fill: rgba(196, 154, 40, 0.07);
+}
+
+.hero-art .ha-mount-back {
+    fill: rgba(196, 154, 40, 0.05);
+}
+
+.hero-art .ha-keep {
+    fill: rgba(196, 154, 40, 0.10);
+}
+
+.hero-art .ha-glow {
+    fill: none;
+    stroke: rgba(196, 154, 40, 0.35);
+    stroke-width: 1.5;
+}
+
+[data-theme="light"] .hero-art .ha-mount { fill: rgba(122, 94, 24, 0.09); }
+[data-theme="light"] .hero-art .ha-mount-back { fill: rgba(122, 94, 24, 0.06); }
+[data-theme="light"] .hero-art .ha-keep { fill: rgba(122, 94, 24, 0.12); }
+[data-theme="light"] .hero-art .ha-glow { stroke: rgba(122, 94, 24, 0.30); }
+
+@media (max-width: 720px) {
+    .hero-art { opacity: 0.55; }
+}
+
 h1 {
     font-family: var(--font-d);
     font-size: clamp(1.5rem, 4vw, 2.6rem);
@@ -641,6 +682,72 @@ a.server-link:hover {
     border-color: color-mix(in oklab, var(--red) var(--tint-bd), transparent);
 }
 
+.cat-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 11px 3px 9px;
+    border-radius: 100px;
+    font-family: var(--font-h);
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.cat-chip svg {
+    flex: 0 0 auto;
+}
+
+.cat-chip-news {
+    background: linear-gradient(135deg, color-mix(in oklab, var(--green) var(--tint-bg), transparent), color-mix(in oklab, var(--green) 26%, transparent));
+    color: var(--green);
+    border: 1px solid color-mix(in oklab, var(--green) var(--tint-bd), transparent);
+}
+
+.cat-chip-leak {
+    background: linear-gradient(135deg, color-mix(in oklab, var(--yellow) var(--tint-bg), transparent), color-mix(in oklab, var(--yellow) 26%, transparent));
+    color: var(--yellow);
+    border: 1px solid color-mix(in oklab, var(--yellow) var(--tint-bd), transparent);
+}
+
+.cat-chip-rumor {
+    background: linear-gradient(135deg, color-mix(in oklab, var(--red) var(--tint-bg), transparent), color-mix(in oklab, var(--red) 26%, transparent));
+    color: var(--red);
+    border: 1px solid color-mix(in oklab, var(--red) var(--tint-bd), transparent);
+}
+
+.cat-chip-plain {
+    background: linear-gradient(135deg, color-mix(in oklab, var(--gold) var(--tint-bg), transparent), color-mix(in oklab, var(--gold) 22%, transparent));
+    color: var(--gold-bright);
+    border: 1px solid color-mix(in oklab, var(--gold) var(--tint-bd), transparent);
+}
+
+.news-list .cat-chip {
+    margin-top: 1px;
+}
+
+.news-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    color: var(--gold-bright);
+    background: linear-gradient(135deg, color-mix(in oklab, var(--gold) var(--tint-bg), transparent), color-mix(in oklab, var(--gold) 22%, transparent));
+    border: 1px solid color-mix(in oklab, var(--gold) var(--tint-bd), transparent);
+}
+
+.news-list li .news-chip {
+    align-self: center;
+}
+
+.news-list li:has(.news-chip) { align-items: center; }
+
 .tag {
     display: inline-block;
     background-color: var(--panel-2);
@@ -865,6 +972,23 @@ a.server-link:hover {
     border-radius: 2px;
     box-shadow: var(--panel-shadow);
     padding: 6px 26px;
+}
+
+#news-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#news-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+#news-list li:last-child {
+    border-bottom: 0;
 }
 
 .news-list li {

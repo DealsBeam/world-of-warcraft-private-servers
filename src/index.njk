@@ -39,6 +39,13 @@ permalink: /
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="header-banner">
+        <svg class="hero-art" viewBox="0 0 1040 240" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+            <path class="ha-mount-back" d="M0 210 L180 70 L330 200 L480 90 L640 210 L820 110 L1040 220 L1040 240 L0 240 Z"/>
+            <path class="ha-mount" d="M0 240 L220 120 L380 230 L560 130 L760 240 L900 170 L1040 235 L1040 240 L0 240 Z"/>
+            <path class="ha-keep" d="M470 240 L470 170 L500 170 L500 150 L540 150 L540 170 L570 170 L570 240 Z M505 150 L505 120 L510 118 L510 150 Z M530 150 L530 118 L535 120 L535 150 Z"/>
+            <circle class="ha-glow" cx="870" cy="70" r="46"/>
+            <circle class="ha-glow" cx="870" cy="70" r="70"/>
+        </svg>
         <h1>World of Warcraft Private Servers</h1>
         <p class="subtitle">Comprehensive Status Tracker, Emulation History &amp; Development Directory</p>
         <div class="meta-info">
@@ -149,7 +156,7 @@ permalink: /
             <section class="panel">
                 <h2>News</h2>
                 <ul id="news-list">
-                    {% for n in collections.news | reverse %}<li><a href="{{ n.data.link or n.url }}"{% if n.data.link %} target="_blank" rel="noopener"{% endif %}>{{ n.data.title }}</a></li>{% endfor %}
+                    {% for n in collections.news | reverse %}<li><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="{{ n.data.link or n.url }}"{% if n.data.link %} target="_blank" rel="noopener"{% endif %}>{{ n.data.title }}</a></li>{% endfor %}
                 </ul>
             </section>
             <section class="panel">

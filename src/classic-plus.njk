@@ -212,7 +212,7 @@ eleventyComputed:
     <h2>Confirmed News</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "news" %}
-        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-green">News</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
+        <li><time>{{ e.date | formatDate }}</time><span class="cat-chip cat-chip-news" aria-hidden="true"><svg viewBox="0 0 24 24" width="11" height="11"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>News</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
     {% endif %}{% endfor %}
     </ul>
 </section>
@@ -221,7 +221,7 @@ eleventyComputed:
     <h2>Leaks</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "leak" %}
-        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-yellow">Leak</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
+        <li><time>{{ e.date | formatDate }}</time><span class="cat-chip cat-chip-leak" aria-hidden="true"><svg viewBox="0 0 24 24" width="11" height="11"><path fill="currentColor" d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>Leak</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
     {% endif %}{% endfor %}
     </ul>
 </section>
@@ -230,7 +230,7 @@ eleventyComputed:
     <h2>Rumors</h2>
     <ul class="news-list">
     {% for e in classicplus.entries | sort(attribute="date", reverse=true) %}{% if e.category == "rumor" %}
-        <li><time>{{ e.date | formatDate }}</time><span class="badge badge-red">Rumor</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
+        <li><time>{{ e.date | formatDate }}</time><span class="cat-chip cat-chip-rumor" aria-hidden="true"><svg viewBox="0 0 24 24" width="11" height="11"><path fill="currentColor" d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3M12 17h.01"/></svg>Rumor</span> <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="tag">{{ e.source }}</span>{% if e.discuss %} <a class="discuss-link" href="{{ e.discuss }}" target="_blank" rel="noopener">Discuss ↗</a>{% endif %}<br>{{ e.summary }}</li>
     {% endif %}{% endfor %}
     </ul>
 </section>
