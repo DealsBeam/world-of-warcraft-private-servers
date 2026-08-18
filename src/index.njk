@@ -90,7 +90,8 @@ permalink: /
                 <div class="filters">
                     <label class="sr-only" for="search">Search servers</label>
                     <input type="search" id="search" placeholder="Search servers…" autocomplete="off">
-                    <select id="tag" aria-label="Filter by type">
+                    <label class="sr-only" for="tag">Filter by type</label>
+                    <select id="tag">
                         <option value="all">All types</option>
                         {% for t in servers | uniqueTags %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
                     </select>

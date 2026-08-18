@@ -240,7 +240,7 @@ module.exports = [
             "Noggit emerged as the premier open-source world builder and map editor for the World of Warcraft client. Built by dedicated community reverse-engineers, it unlocked the ability to manipulate the game's ADT map files.",
             "It allowed modders to sculpt terrain, paint textures, place WMOs and M2s (3D models), and completely overhaul the physical world of Azeroth, cementing itself as the backbone of custom client-side modding."
         ],
-        "githubRepo": "wowdev/noggit"
+        "githubRepo": "noggit3/Noggit3"
     },
     {
         "id": "event-mangos-origins-2005",

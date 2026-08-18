@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/radio.js");
     eleventyConfig.addPassthroughCopy("src/favicon.svg");
     eleventyConfig.addPassthroughCopy("src/og.png");
+    eleventyConfig.addPassthroughCopy("src/robots.txt");
 
     eleventyConfig.addFilter("slugify", s => String(s)
         .toLowerCase()

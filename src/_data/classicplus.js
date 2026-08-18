@@ -13,7 +13,7 @@ const entries = [
         "title": "Season of Discovery Announced",
         "summary": "Blizzard's experimental seasonal Vanilla with rune-based class changes. It was the community's first taste of modernized Classic, though it never became Classic+.",
         "source": "wowhead.com",
-        "url": "https://www.wowhead.com/classic/guide/season-of-discovery"
+        "url": "https://www.wowhead.com/classic/guide/classic-plus-overview"
     },
     {
         "date": "2025-07-17",
@@ -21,7 +21,7 @@ const entries = [
         "title": "Titan Reforged Revealed (China)",
         "summary": "Revealed at the WoW 20th anniversary CN event: a China-exclusive project merging Vanilla, TBC and Wrath at a level-80 endgame — effectively the first full Classic+ style release.",
         "source": "wowhead.com",
-        "url": "https://www.wowhead.com/news/wow-titan-reforged"
+        "url": "https://www.wowhead.com/wotlk/news/chinas-titan-reforged-server-releases-november-18th-tier-set-redesign-379090"
     },
     {
         "date": "2025-08-12",
@@ -37,7 +37,7 @@ const entries = [
         "title": "Encrypted 'Classic 1.60' Builds Hit the CDN",
         "summary": "Roughly 29 encrypted 'Classic 1.60' builds began appearing on Blizzard's CDN from late October 2025 — verifiable technical traces that Blizzard is actively building a new Classic patch.",
         "source": "kami-labs.fr",
-        "url": "https://www.kami-labs.fr/guides/wow-classic-plus-blizzcon-2026/",
+        "url": "https://www.kami-labs.fr/wow-classic/wow-classic-plus-blizzcon-2026/",
         "discuss": "https://www.reddit.com/r/classicwow/comments/1of9bfe/mysterious_new_vanilla_patch_1600_found_on/"
     },
     {
@@ -55,7 +55,7 @@ const entries = [
         "title": "Titan Reforged Launches to Millions",
         "summary": "Titan Reforged went live in China with account-wide progression, 25-man rescaled raids, upgradeable legendaries and player-driven unlocks — reportedly 2.4M+ players at peak.",
         "source": "wowhead.com",
-        "url": "https://www.wowhead.com/news/wow-titan-reforged-launch"
+        "url": "https://www.wowhead.com/wotlk/news/chinas-titan-reforged-server-releases-november-18th-tier-set-redesign-379090"
     },
     {
         "date": "2025-12-19",
@@ -63,7 +63,7 @@ const entries = [
         "title": "Blizzard Teases 'Long-Term Future' of Classic",
         "summary": "The 2025 year-in-review promised Blizzard is 'cooking on the long-term future of WoW Classic' — with a deliberate row of plus signs in the graphic.",
         "source": "wowhead.com",
-        "url": "https://www.wowhead.com/news/classic-2025-year-in-review"
+        "url": "https://www.wowhead.com/classic/news/did-blizzard-just-drop-another-hint-for-classic-379737"
     },
     {
         "date": "2026-01-29",
@@ -71,15 +71,15 @@ const entries = [
         "title": "State of Azeroth Tease",
         "summary": "At the State of Azeroth presentation, Holly Longdale said 'all Classic players have a lot to look forward to', with the Classic future promised after The Black Temple at BlizzCon 2026.",
         "source": "wowhead.com",
-        "url": "https://www.wowhead.com/news/state-of-azeroth-classic"
+        "url": "https://www.wowhead.com/news/tune-into-the-state-of-azeroth-blizzard-presentation-liveblog-380185"
     },
     {
         "date": "2026-05-11",
         "category": "news",
         "title": "NDA Creator Summit at Blizzard HQ",
         "summary": "Streamers Xaryu, Sodapoppin and Esfand were flown to Blizzard Irvine for a secret NDA'd event widely assumed to preview the Classic+ announcement.",
-        "source": "allusanewshub.com",
-        "url": "https://allusanewshub.com/news/classic-plus-might-actually-be-real/"
+        "source": "escapistmagazine.com",
+        "url": "https://www.escapistmagazine.com/news-wow-classic-content-creators-head-to-blizzard-hq-for-undisclosed-3-day-event-teasing-classic-again/"
     },
     {
         "date": "2026-06-16",
@@ -87,7 +87,7 @@ const entries = [
         "title": "Project Camelot Datamined",
         "summary": "Dataminer Stiven_SRB found 'World of Warcraft: Camelot' Heroic and Epic store licenses on Blizzard's servers, using the same bundle framework as Midnight. Patch 1.60 is described as the mainline Camelot patch.",
         "source": "eurogamer.net",
-        "url": "https://www.eurogamer.net/world-of-warcraft-classic-plus-camelot-datamine",
+        "url": "https://www.eurogamer.net/world-of-warcraft-classic-camelot-datamine",
         "discuss": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uw712o/world_of_warcraft_project_camelot_classic_datamine/"
     },
     {
@@ -178,7 +178,7 @@ const entries = [
         "title": "Death Knights & Karazhan Raid Leak",
         "summary": "New leak points to a playable Death Knight class and a Karazhan raid before Naxxramas. Flagged by Icy Veins as plausible but entirely unconfirmed by Blizzard.",
         "source": "happygamer.com",
-        "url": "https://www.happygamer.com/wow-classic-plus-leak-death-knights-karazhan/"
+        "url": "https://www.happygamer.com/wow-classic-plus-leak-death-knights-karazhan-raid-158985/"
     },
     {
         "date": "2026-08-01",
@@ -194,7 +194,7 @@ const entries = [
         "title": "Community Backlash Fears",
         "summary": "MassivelyOP asks whether the announcement will anger the community — so much Classic news arriving so fast risks whiplash over what was 'just a re-release'.",
         "source": "massivelyop.com",
-        "url": "https://massivelyop.com/2026/08/12/wow-classic-plus-announcement-fears/"
+        "url": "https://massivelyop.com/2026/08/12/casually-classic-will-the-wow-classic-plus-announcement-anger-the-community-no-matter-what/"
     },
     {
         "date": "2026-07-29",
