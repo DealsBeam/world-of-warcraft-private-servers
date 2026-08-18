@@ -16,6 +16,10 @@ module.exports = [
         "url": "https://github.com/celguar/spp-classics-cmangos/releases"
     },
     {
+        "title": "Azeroth Platform Progression - patch data for Classic/TBC/WotLK progression stacks",
+        "url": "https://github.com/Fero-Fero/Azeroth-Platform-Progression"
+    },
+    {
         "title": "wagoarchive - /wpsg/ Legion WeakAuras and ElvUI profile archive",
         "url": "https://wagoarchive.neocities.org/"
     },
