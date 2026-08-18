@@ -56,6 +56,42 @@ module.exports = [
         "url": "https://github.com/Penqle/tortoise-wow"
     },
     {
+        "title": "Shyalya - Tortoise-WoW fork with PlayerBots — run the 1.18.1 world populated with bots",
+        "url": "https://github.com/Shyalya/tortoise-wow"
+    },
+    {
+        "title": "Nescabir - tortoise-docker - Docker packaging for Shyalya's Tortoise-WoW + PlayerBots fork",
+        "url": "https://github.com/Nescabir/tortoise-docker"
+    },
+    {
+        "title": "kasperfriend - tortoise-docker - Tortoise-WoW + PlayerBots Docker rebuild, any-CPU near-zero-command setup",
+        "url": "https://github.com/kasperfriend/tortoise-docker"
+    },
+    {
+        "title": "Dad's MMO Lab - offline MMO private servers on Steam Deck — guides and Docker scripts for WoW, RuneScape, MapleStory and more",
+        "url": "https://github.com/DadsMmoLab/dads-mmo-lab"
+    },
+    {
+        "title": "Tortoise DB Viewer - Tortoise WoW database viewer — items, NPCs, drops, quests, crafting",
+        "url": "https://github.com/Xian55/tortoise-db-viewer"
+    },
+    {
+        "title": "Warband - Vanilla-compatible UI for controlling PlayerBots — roster, bags, groups, raid fill",
+        "url": "https://github.com/Shyalya/warband"
+    },
+    {
+        "title": "TortoiseGMManager - in-game UI for Tortoise WoW GM commands",
+        "url": "https://github.com/tortoise-wow-stack/TortoiseGMManager"
+    },
+    {
+        "title": "TortoiseWoWServer - Dockerized Tortoise-WoW stack with PlayerBots and integrated database viewer",
+        "url": "https://github.com/tortoise-wow-stack/TortoiseWoWServer"
+    },
+    {
+        "title": "TortoiseWoWKnowledgeBase - documentation for Tortoise WoW core, PlayerBots and architecture",
+        "url": "https://github.com/tortoise-wow-stack/TortoiseWoWKnowledgeBase"
+    },
+    {
         "title": "Unreal Open Azeroth - local interop layer bridging the UE5 Azeroth client to 1.12 servers",
         "url": "https://github.com/iThorgrim/Unreal-Open-Azeroth"
     },

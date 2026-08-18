@@ -87,7 +87,7 @@ module.exports = [
     {
         "name": "Octo WoW",
         "status": "playable",
-        "details": "Turtle WoW clone, Vanilla+",
+        "details": "Turtle 1.17.2-derived Vanilla+, restoring content toward 1.18.1",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://octowow.st"
@@ -95,7 +95,7 @@ module.exports = [
     {
         "name": "Capybara WoW",
         "status": "playable",
-        "details": "Chinese Turtle clone, Vanilla+",
+        "details": "Chinese continuation of the Turtle-style Vanilla+ world (CapyCraft)",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://capycraft.io"
@@ -256,7 +256,7 @@ module.exports = [
     {
         "name": "Ravencraft",
         "status": "dev",
-        "details": "Turtle clone",
+        "details": "Turtle 1.18.1 continuation by former project contributors",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://ravencraft.io/",
