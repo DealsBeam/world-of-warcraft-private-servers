@@ -28,8 +28,8 @@ const slugify = s => String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-
 const slugs = SERVERS.map(s => slugify(s.name));
 assert.strictEqual(new Set(slugs).size, slugs.length, `slug collision: ${slugs.filter((v, i) => slugs.indexOf(v) !== i).join(", ")}`);
 
-assert.strictEqual(SERVERS.length, 52, "server count changed");
-assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 34);
+assert.strictEqual(SERVERS.length, 53, "server count changed");
+assert.strictEqual(SERVERS.filter(s => s.status === "playable").length, 35);
 assert.strictEqual(SERVERS.filter(s => s.status === "dev").length, 12);
 assert.strictEqual(SERVERS.filter(s => s.status === "closed").length, 6);
 
@@ -90,9 +90,9 @@ function matches(s, { status = "all", tag = "all", search = "" } = {}) {
     return true;
 }
 
-assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable" })).length, 34);
+assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable" })).length, 35);
 assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Cataclysm" })).length, 3);
-assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "WotLK" })).length, 11);
+assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "WotLK" })).length, 12);
 assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Vanilla+" })).length, 12);
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "whitemane" })).length, 5);
 assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable", search: "whitemane" })).length, 2);

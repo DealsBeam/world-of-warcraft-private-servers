@@ -281,6 +281,14 @@ module.exports = [
         "updated": "2026-08-18"
     },
     {
+        "name": "OnlyFunsWoW",
+        "status": "playable",
+        "details": "Soloable WotLK 3.3.5a, scaled dungeons/raids, custom content",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://onlyfunswow.com/"
+    },
+    {
         "name": "Eternyum",
         "status": "playable",
         "details": "Progressive WotLK 3.3.5a, Romanian",

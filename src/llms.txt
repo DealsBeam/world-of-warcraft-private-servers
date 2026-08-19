@@ -1,6 +1,6 @@
 # World of Warcraft Private Servers
 
-Curated tracker of World of Warcraft private servers: current status for 52 servers, emulation history timeline, private-server news, and Classic+ (Project Camelot) development tracking.
+Curated tracker of World of Warcraft private servers: current status for 53 servers, emulation history timeline, private-server news, and Classic+ (Project Camelot) development tracking.
 
 ## Key pages
 
