@@ -14,9 +14,8 @@ eleventyComputed:
     subtitle: "World of Warcraft Private Server Status"
 ---
 {% set related = history | relatedHistory(server, server.name | slugify) %}
-{% if server.status == "playable" %}{% set badge = "badge-green" %}{% set statusLabel = "Playable" %}
-{% elif server.status == "dev" %}{% set badge = "badge-yellow" %}{% set statusLabel = "In-Development" %}
-{% else %}{% set badge = "badge-red" %}{% set statusLabel = "Shut Down" %}{% endif %}
+{% set st = vocab.STATUS[server.status] or { label: "Unknown", cls: "" } %}
+{% set badge = st.cls %}{% set statusLabel = st.label %}
 
 <p><a href="/">← All servers</a></p>
 

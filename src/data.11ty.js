@@ -1,6 +1,7 @@
 const SERVERS = require("./_data/servers.js");
 const LINKS = require("./_data/links.js");
 const HISTORY = require("./_data/history.js");
+const { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus } = require("./_data/vocab.js");
 
 // Generates _site/data.js so app.js sees the same global consts as before.
 // SERVERS/LINKS/HISTORY come from src/_data/*.js; NEWS is derived from the
@@ -18,6 +19,7 @@ module.exports = {
             `const NEWS = ${JSON.stringify(news)};`,
             `const LINKS = ${JSON.stringify(LINKS)};`,
             `const HISTORY = ${JSON.stringify(HISTORY)};`,
+            `const VOCAB = { STATUS: ${JSON.stringify(STATUS)}, HTYPE: ${JSON.stringify(HTYPE)}, ERA: ${JSON.stringify(ERA)}, ERA_ORDER: ${JSON.stringify(ERA_ORDER)}, ICONS: ${JSON.stringify(ICONS)}, slugify: ${slugify.toString()}, matches: ${matches.toString()}, groupByEra: ${groupByEra.toString()}, countByStatus: ${countByStatus.toString()} };`,
             ""
         ].join("\n\n");
     }

@@ -4,6 +4,7 @@ const HISTORY = require("../src/_data/history.js");
 const CLASSPLUS_ENTRIES = require("../src/_data/classicplus.js").entries;
 const CLASSPLUS_LATEST = require("../src/_data/classicplus.js").latest;
 const CDNWATCH = require("../src/_data/cdnwatch.js");
+const { slugify, matches } = require("../src/_data/vocab.js");
 const assert = require("assert");
 const fs = require("fs");
 const path = require("path");
@@ -24,7 +25,6 @@ for (const s of SERVERS) {
 const names = new Set(SERVERS.map(s => s.name));
 assert.strictEqual(names.size, SERVERS.length, "duplicate server names");
 
-const slugify = s => String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 const slugs = SERVERS.map(s => slugify(s.name));
 assert.strictEqual(new Set(slugs).size, slugs.length, `slug collision: ${slugs.filter((v, i) => slugs.indexOf(v) !== i).join(", ")}`);
 
@@ -79,16 +79,6 @@ const CP_DATES = CLASSPLUS_ENTRIES.map(e => e.date).sort();
 assert.strictEqual(CLASSPLUS_LATEST.date, CP_DATES[CP_DATES.length - 1], "latest date mismatch");
 assert.ok(Number.isInteger(CLASSPLUS_LATEST.daysAgo) && CLASSPLUS_LATEST.daysAgo >= 0, "bad daysAgo");
 assert.ok(CLASSPLUS_LATEST.daysAgo <= Math.floor((Date.now() - Date.parse(CP_DATES[0])) / 86400000), "daysAgo exceeds range");
-
-function matches(s, { status = "all", tag = "all", search = "" } = {}) {
-    if (status !== "all" && s.status !== status) return false;
-    if (tag !== "all" && s.tag !== tag) return false;
-    if (search) {
-        const hay = (s.name + " " + s.details + " " + s.group + " " + s.tag).toLowerCase();
-        if (!hay.includes(search.toLowerCase())) return false;
-    }
-    return true;
-}
 
 assert.strictEqual(SERVERS.filter(s => matches(s, { status: "playable" })).length, 35);
 assert.strictEqual(SERVERS.filter(s => matches(s, { tag: "Cataclysm" })).length, 3);

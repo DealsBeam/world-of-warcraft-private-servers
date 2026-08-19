@@ -17,11 +17,11 @@ eleventyComputed:
 
 <div class="cards">
 {% for s in eraGroup.servers %}
-{% set lbl = { "playable": ["Playable", "badge-green"], "dev": ["In-Development", "badge-yellow"], "closed": ["Shut Down", "badge-red"] }[s.status] or ["Unknown", ""] %}
+{% set lbl = vocab.STATUS[s.status] or { label: "Unknown", cls: "" } %}
 <article class="card">
     <div class="card-head">
         <span class="server-name"><a class="server-link" href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a>{% if s.group and s.name.indexOf(s.group) === -1 %} <span class="tag tag-group">{{ s.group }}</span>{% endif %}</span>
-        <span class="badge {{ lbl[1] }}">{{ lbl[0] }}</span>
+        <span class="badge {{ lbl.cls }}">{{ lbl.label }}</span>
     </div>
     <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}</div>
     {% if s.url %}<a class="card-site" href="{{ s.url }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}

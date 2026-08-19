@@ -41,7 +41,7 @@
         </svg>
         <h1>{{ hero }}</h1>
         <p class="subtitle">{{ subtitle }}</p>
-        <div class="meta-info">Comprehensive Status Tracker, Emulation History &amp; Development Directory</div>
+        <div class="meta-info">{{ metaInfo or "Comprehensive Status Tracker, Emulation History &amp; Development Directory" }}</div>
         <div class="theme-toggle" role="group" aria-label="Theme">
             <button type="button" data-theme-choice="light" aria-pressed="false" title="Light theme">☀</button>
             <button type="button" data-theme-choice="system" aria-pressed="false" title="System theme">⚙</button>
@@ -73,6 +73,7 @@
 
     <script src="/theme.js"></script>
     <script src="/radio.js"></script>
+    {% for s in extraScripts %}<script src="{{ s }}"></script>{% endfor %}
 
 </body>
 </html>
