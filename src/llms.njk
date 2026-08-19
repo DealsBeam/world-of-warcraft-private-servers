@@ -1,6 +1,10 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
 # World of Warcraft Private Servers
 
-Curated tracker of World of Warcraft private servers: current status for 53 servers, emulation history timeline, private-server news, and Classic+ (Project Camelot) development tracking.
+Curated tracker of World of Warcraft private servers: current status for {{ servers.length }} servers, emulation history timeline, private-server news, and Classic+ (Project Camelot) development tracking.
 
 ## Key pages
 
@@ -14,10 +18,10 @@ Curated tracker of World of Warcraft private servers: current status for 53 serv
 ## Data
 
 - Servers: status (playable / dev / closed), expansion, details, official site. One page each under /servers/{name}/.
-- History: 41 events covering core emulators, web tools, and development milestones.
+- History: {{ history.length }} events covering core emulators, web tools, and development milestones.
 - News: dated entries, each with a link to the original announcement.
 
 ## Curated facts
 
 - No WoW private server is affiliated with or authorized by Blizzard Entertainment.
-- Statuses are maintained from Discord community updates and public announcements; last reviewed August 18, 2026.
+- Statuses are maintained from Discord community updates and public announcements; last reviewed {{ site.reviewed }}.

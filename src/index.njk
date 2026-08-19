@@ -12,9 +12,7 @@ extraScripts:
     - /data.js
     - /app.js
 ---
-    {% set statusLabel = { "playable": [vocab.STATUS.playable.label, vocab.STATUS.playable.cls], "dev": [vocab.STATUS.dev.label, vocab.STATUS.dev.cls], "closed": [vocab.STATUS.closed.label, vocab.STATUS.closed.cls] } %}
-    {% set eraMap = vocab.ERA %}
-    {% set eraOrder = vocab.ERA_ORDER %}
+{% from "card.njk" import card %}
     {% set iconPath = vocab.ICONS %}
     {% set htype = { "core": [vocab.HTYPE.core.label, vocab.HTYPE.core.icon], "web": [vocab.HTYPE.web.label, vocab.HTYPE.web.icon], "tools": [vocab.HTYPE.tools.label, vocab.HTYPE.tools.icon] } %}
 
@@ -69,15 +67,7 @@ extraScripts:
             {% for g in servers | groupByEra %}
             <h2 class="era-title"><a href="/{{ g.era | lower | slugify }}/">{{ g.era }}</a><span class="era-count">{{ g.servers.length }}</span></h2>
             {% for s in g.servers %}
-            {% set lbl = statusLabel[s.status] or ["Unknown", ""] %}
-            <article class="card">
-                <div class="card-head">
-                    <span class="server-name"><a class="server-link" href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a>{% if s.group and s.name.indexOf(s.group) === -1 %} <span class="tag tag-group">{{ s.group }}</span>{% endif %}</span>
-                    <span class="badge {{ lbl[1] }}">{{ lbl[0] }}</span>
-                </div>
-                <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}</div>
-                {% if s.url %}<a class="card-site" href="{{ s.url }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}
-            </article>
+            {{ card(s) }}
             {% endfor %}
             {% endfor %}
         </div>

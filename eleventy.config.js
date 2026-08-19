@@ -8,7 +8,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/favicon.svg");
     eleventyConfig.addPassthroughCopy("src/og.png");
     eleventyConfig.addPassthroughCopy("src/robots.txt");
-    eleventyConfig.addPassthroughCopy("src/llms.txt");
     eleventyConfig.addPassthroughCopy("src/fonts");
 
     eleventyConfig.addFilter("take", (arr, n) => (arr || []).slice(0, n));
