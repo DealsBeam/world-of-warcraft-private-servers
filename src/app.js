@@ -186,7 +186,7 @@ renderHistory();
 /* ---------- news / links ---------- */
 
 document.getElementById("news-list").innerHTML = NEWS.map(n =>
-    `<li><a href="${scr(n.url)}" target="_blank" rel="noopener">${scr(n.title)}</a></li>`).join("");
+    `<li><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="${scr(n.url)}">${scr(n.title)}</a>${n.link ? ` <a class="news-original" href="${scr(n.link)}" target="_blank" rel="noopener">original ↗</a>` : ""}</li>`).join("");
 
 document.getElementById("link-list").innerHTML = LINKS.map(l =>
     `<li><a href="${scr(l.url)}" target="_blank" rel="noopener">${scr(l.title)}</a></li>`).join("");

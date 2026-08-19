@@ -823,6 +823,18 @@ a.server-link:hover {
 
 .news-list li:has(.news-chip) { align-items: center; }
 
+.news-original {
+    color: var(--muted);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+}
+
+.news-original:hover {
+    color: var(--text-strong);
+}
+
 .tag {
     display: inline-block;
     background-color: var(--panel-2);
