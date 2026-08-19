@@ -240,9 +240,17 @@ const entries = [
         "date": "2026-08-14",
         "category": "news",
         "title": "BlizzCon 2026 Set — Reveal Expected",
-        "summary": "BlizzCon 2026 is confirmed for September 12-13 in Anaheim. With Longdale's promise on the table and Camelot datamined, a Classic+ reveal is widely expected on stage.",
+        "summary": "BlizzCon 2026 runs September 12-13 in Anaheim, with badge pickup from Friday September 11. The Opening Ceremony and main-stage panels stream free on official Blizzard YouTube and Twitch feeds, with the ceremony traditionally kicking off around 11 AM Pacific on Saturday. The show includes the WoW Arena World Championship, Mythic Dungeon International, the Blizzard Classic Cup and Saturday-evening Community Night and Darkmoon Faire. With Longdale's promise on the table and Camelot datamined, a Classic+ reveal is widely expected on stage.",
         "source": "blizzard.com",
         "url": "https://blizzcon.com"
+    },
+    {
+        "date": "2026-08-18",
+        "category": "news",
+        "title": "Black Temple Opens August 27 — On-Ramp to the Reveal",
+        "summary": "Blizzard confirmed the Burning Crusade Anniversary Phase 3 launch for August 27: Black Temple and the Battle for Mount Hyjal, Arena Season 3, Netherwing and epic gems. It is the exact milestone Longdale named — clarity on Classic's future comes 'after The Black Temple, at BlizzCon 2026', landing two weeks before the show.",
+        "source": "blizzard.com",
+        "url": "https://worldofwarcraft.blizzard.com/en-us/news/24291476"
     }
 ];
 
