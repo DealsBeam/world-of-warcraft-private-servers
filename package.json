@@ -4,7 +4,7 @@
   "private": true,
   "description": "World of Warcraft private server status tracker",
   "scripts": {
-    "build": "eleventy",
+    "build": "eleventy && node scripts/smoke.js",
     "serve": "eleventy --serve",
     "test": "node test/server-data.test.js"
   },

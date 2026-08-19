@@ -74,7 +74,7 @@ eleventyComputed:
         <li>Confirmed as Classic+: <strong>No</strong> — leading community theory</li>
         <li>Associated branch: <strong>Encrypted WoW Patch 1.60</strong></li>
         <li>Latest tracked branches: 1.60.0 and 1.60.1</li>
-        <li>Latest reported builds: 1.60.0.69322 (wowdev5) and 1.60.1.69328 (wowdev2)</li>
+        <li>Latest reported builds: 1.60.0.69322 (wowdev5){% if cdnwatch.ok %} and {{ cdnwatch.current }} (wowdev2){% endif %}</li>
         <li>Public alpha or beta: None announced</li>
         <li>BlizzCon 2026 demo: Possible, unconfirmed — Dev Five line may be stabilized for it</li>
         <li>Confirmed release date: None</li>
@@ -183,7 +183,7 @@ eleventyComputed:
         <li><strong>Is Camelot confirmed as Classic+?</strong> No — it is the leading community theory, but Blizzard has not confirmed the connection.</li>
         <li><strong>What is the mysterious Patch 1.60 build?</strong> An encrypted WoW development branch on Blizzard infrastructure. The version number does not reveal its content or release model.</li>
         <li><strong>Does Patch 1.60.1 prove a beta or release date?</strong> No. It confirms continued development on a point-one branch beyond 1.60.0 — nothing more.</li>
-        <li><strong>Is Camelot still being developed?</strong> Yes — build updates on both 1.60.0 and 1.60.1 branches as of August 15, 2026, though the builds remain encrypted.</li>
+        <li><strong>Is Camelot still being developed?</strong> Yes — build updates on both 1.60.0 and 1.60.1 branches as of {% if cdnwatch.ok %}{{ cdnwatch.updated }}{% else %}August 15, 2026{% endif %}, though the builds remain encrypted.</li>
         <li><strong>Will Classic+ stay at level 60?</strong> Unconfirmed. Many players favor a permanent level-60 endgame, but Patch 1.60 does not prove that design.</li>
         <li><strong>Permanent or seasonal?</strong> Unannounced. It could be a long-term branch, another experimental season, or a different kind of WoW product.</li>
         <li><strong>How would Classic+ differ from Season of Discovery?</strong> SoD is a seasonal Classic with altered progression and new abilities; Classic+ is imagined as a broader, possibly permanent expansion of the original game.</li>
