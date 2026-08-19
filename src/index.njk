@@ -108,6 +108,13 @@ extraScripts:
             </ul>
         </section>
         <section class="panel">
+            <h2>From the blog</h2>
+            <ul class="news-list">
+                {% for p in collections.blog | reverse | take(3) %}<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>{% endfor %}
+            </ul>
+            <p><a href="/blog/">All posts →</a></p>
+        </section>
+        <section class="panel">
             <h2>Mods &amp; Creations</h2>
             <ul id="link-list">
                 {% for l in links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a></li>{% endfor %}
