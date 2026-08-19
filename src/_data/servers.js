@@ -113,10 +113,10 @@ module.exports = [
     {
         "name": "Whitemane — Maelstrom",
         "status": "playable",
-        "details": "WotLK client, Vanilla-WotLK progressive",
-        "tag": "WotLK",
+        "details": "Cataclysm 4.3.4, x3/x2 rates, PvP",
+        "tag": "Cataclysm",
         "group": "Whitemane",
-        "url": "https://maelstrom.millenium-servers.com"
+        "url": "https://maelstrom.whitemane.gg"
     },
     {
         "name": "Tauri",
@@ -240,12 +240,11 @@ module.exports = [
     },
     {
         "name": "Emberveil",
-        "status": "dev",
-        "details": "Vanilla UE5",
+        "status": "playable",
+        "details": "Vanilla UE5, opened Aug 15 2026",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://emberveil.org/",
-        "release": "TBD"
+        "url": "https://emberveil.org/"
     },
     {
         "name": "Caverns of Time",
