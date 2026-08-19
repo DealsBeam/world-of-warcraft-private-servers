@@ -48,6 +48,11 @@ module.exports = function (eleventyConfig) {
             .filter(p => !p.data.draft)
             .sort((a, b) => a.date - b.date));
 
+    eleventyConfig.addCollection("blog", collectionApi =>
+        collectionApi.getFilteredByGlob("src/blog/*.md")
+            .filter(p => !p.data.draft)
+            .sort((a, b) => a.date - b.date));
+
     return {
         dir: { input: "src", output: "_site" }
     };

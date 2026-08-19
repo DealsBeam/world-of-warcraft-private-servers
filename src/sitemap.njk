@@ -6,6 +6,7 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>https://wowprivateservers.vercel.app/</loc></url>
     <url><loc>https://wowprivateservers.vercel.app/news/</loc></url>
+    <url><loc>https://wowprivateservers.vercel.app/blog/</loc></url>
     <url><loc>https://wowprivateservers.vercel.app/classic-plus/</loc></url>
     <url><loc>https://wowprivateservers.vercel.app/guides/octowow/</loc></url>
     <url><loc>https://wowprivateservers.vercel.app/radio/</loc></url>
@@ -17,5 +18,8 @@ eleventyExcludeFromCollections: true
 {% endfor %}
 {% for n in collections.news %}
     <url><loc>https://wowprivateservers.vercel.app{{ n.url }}</loc></url>
+{% endfor %}
+{% for p in collections.blog %}
+    <url><loc>https://wowprivateservers.vercel.app{{ p.url }}</loc></url>
 {% endfor %}
 </urlset>

@@ -19,5 +19,14 @@ eleventyExcludeFromCollections: true
             <description>{{ n.templateContent | striptags | truncate(500) | e }}</description>
         </item>
         {% endfor %}
+        {% for p in collections.blog | reverse %}
+        <item>
+            <title>{{ p.data.title | e }}</title>
+            <link>https://wowprivateservers.vercel.app{{ p.url }}</link>
+            <guid>https://wowprivateservers.vercel.app{{ p.url }}</guid>
+            <pubDate>{{ p.date | rssDate }}</pubDate>
+            <description>{{ p.templateContent | striptags | truncate(500) | e }}</description>
+        </item>
+        {% endfor %}
     </channel>
 </rss>

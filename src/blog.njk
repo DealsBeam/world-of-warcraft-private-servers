@@ -1,0 +1,17 @@
+---
+layout: base.njk
+permalink: /blog/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "Blog — World of Warcraft Private Servers"
+    canonical: "https://wowprivateservers.vercel.app/blog/"
+    hero: "Blog"
+    subtitle: "Guides, explainers &amp; scene deep-dives"
+    description: "In-depth articles on World of Warcraft private servers: server roundups, Classic+ explainers, setup guides, and the emulation scene's biggest stories."
+---
+<ul class="news-list">
+{% for p in collections.blog | reverse %}
+    <li><time>{{ p.date | formatDate }}</time>{% if p.data.category %} <span class="tag">{{ p.data.category }}</span>{% endif %}<a href="{{ p.url }}">{{ p.data.title }}</a></li>
+{% endfor %}
+</ul>
+<p class="meta-info">Original articles written in-house. For short, sourced news updates see <a href="/news/">the news index</a>.</p>

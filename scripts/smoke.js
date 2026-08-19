@@ -10,6 +10,7 @@ const has = p => assert.ok(fs.existsSync(path.join(out, p)), `missing built page
 
 has("index.html");
 has("news/index.html");
+has("blog/index.html");
 has("classic-plus/index.html");
 has("guides/octowow/index.html");
 has("radio/index.html");
@@ -26,5 +27,10 @@ has("og.png");
 has("robots.txt");
 
 for (const s of SERVERS) has(`servers/${slugify(s.name)}/index.html`);
+
+for (const f of fs.readdirSync(path.join(__dirname, "../src/blog"))) {
+    if (!f.endsWith(".md")) continue;
+    has(`blog/${f.replace(/\.md$/, "")}/index.html`);
+}
 
 console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core assets)`);
