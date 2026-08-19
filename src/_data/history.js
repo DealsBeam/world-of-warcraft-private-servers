@@ -461,6 +461,19 @@ module.exports = [
         ]
     },
     {
+        "id": "event-everlook-radio-reborn-2026",
+        "category": "core",
+        "icon": "fa-solid fa-radio",
+        "date": "May 2026",
+        "title": "Turtle WoW's In-Game Radio Outlives the Server",
+        "tag": "Community Hubs",
+        "relatedServers": ["turtle-wow"],
+        "paragraphs": [
+            "Everlook Broadcasting Co., Turtle WoW's in-game radio station tuned via the minimap, kept broadcasting after the server shut down on May 15, 2026. The team rebranded as Out of Bounds Entertainment — 'Your Gaming Radio Station. From the old Everlook Broadcasting Co. team' — and continued streaming around the clock.",
+            "The in-game minimap tuner died with the server, but the station itself became one of the few pieces of the private-server community to outlive its home realm."
+        ]
+    },
+    {
         "id": "event-warmane-molten-2015",
         "category": "web",
         "icon": "fa-solid fa-rotate",
