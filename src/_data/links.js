@@ -204,6 +204,10 @@ module.exports = [
         "url": "https://github.com/rebasedkon/octo-updater"
     },
     {
+        "title": "Sparus - cross-platform game launcher (Tauri) for installing and updating game clients",
+        "url": "https://github.com/Ludea/Sparus"
+    },
+    {
         "title": "SuperApi - required dependency for SuperWoW functionality",
         "url": "https://github.com/balakethelock/SuperApi"
     },
