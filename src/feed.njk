@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
         <description>News and updates on the World of Warcraft private server scene.</description>
         <language>en-us</language>
         <atom:link href="https://wowprivateservers.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
-        {% for n in collections.news | reverse %}
+        {% for n in collections.news | reverse %}{% if not n.data.archived %}
         <item>
             <title>{{ n.data.title | e }}</title>
             <link>{{ n.data.link or ("https://wowprivateservers.vercel.app" + n.url) }}</link>
@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
             <pubDate>{{ n.date | rssDate }}</pubDate>
             <description>{{ n.templateContent | striptags | truncate(500) | e }}</description>
         </item>
-        {% endfor %}
+        {% endif %}{% endfor %}
         {% for p in collections.blog | reverse %}
         <item>
             <title>{{ p.data.title | e }}</title>
