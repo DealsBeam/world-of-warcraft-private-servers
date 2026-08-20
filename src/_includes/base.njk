@@ -62,18 +62,10 @@
     </main>
 
     <div class="footer">
-        <div class="radio-strip">
-            <audio id="radio-audio" preload="none" src="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3"></audio>
-            <span class="radio-title"><a href="/radio/">Out of Bounds Radio</a><span class="radio-sub"> — formerly Everlook Broadcasting Co.</span></span>
-            <button type="button" class="chip radio-btn" id="radio-btn" aria-pressed="false">▶ Play</button>
-            <span class="radio-now" id="radio-now">Checking stream…</span>
-            <span class="radio-links"><a href="https://www.outofbounds.live/" target="_blank" rel="noopener">outofbounds.live ↗</a></span>
-        </div>
         Listed servers are unlicensed third-party projects. We are not affiliated with Blizzard Entertainment, and linking does not imply endorsement. List curated and formatted from Discord community updates. Statuses subject to change · last reviewed {{ site.reviewed }}.
     </div>
 
     <script src="/theme.js"></script>
-    <script src="/radio.js"></script>
     {% for s in extraScripts %}<script src="{{ s }}"></script>{% endfor %}
 
 </body>

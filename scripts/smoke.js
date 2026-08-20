@@ -21,7 +21,6 @@ has("data.js");
 has("style.css");
 has("app.js");
 has("theme.js");
-has("radio.js");
 has("favicon.svg");
 has("og.png");
 has("robots.txt");
