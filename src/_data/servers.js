@@ -415,5 +415,14 @@ module.exports = [
         "details": "Project Discontinued",
         "tag": "",
         "group": ""
+    },
+    {
+        "name": "Azeroth Universe",
+        "status": "playable",
+        "details": "WotLK 3.3.9a, Cataclysm Azeroth + Pandaria content, max level 90, 31 races, custom classes, mythic+, Eluna Lua",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://azeroth-universe.eu/en",
+        "updated": "2026-08-20"
     }
 ];
