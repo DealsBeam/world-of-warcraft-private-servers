@@ -16,6 +16,14 @@ const entries = [
         "url": "https://www.wowhead.com/classic/guide/classic-plus-overview"
     },
     {
+        "date": "2025-05-27",
+        "category": "news",
+        "title": "Season of Discovery Ends — Next Major Classic Project Begins",
+        "summary": "Days after the Scarlet Enclave update, the Classic team marked the end of Season of Discovery's active development and confirmed work on a new major Classic project — the first official word that a successor was in the works.",
+        "source": "wowhead.com",
+        "url": "https://www.wowhead.com/classic/news/the-end-of-season-of-discovery-work-on-next-major-wow-classic-project-begins-377063"
+    },
+    {
         "date": "2025-07-17",
         "category": "news",
         "title": "Titan Reforged Revealed (China)",
