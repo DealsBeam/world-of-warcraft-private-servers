@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: Credits & Attribution — World of Warcraft Private Servers
+description: Icon and graphic credits for this site.
+permalink: /attribution/
+hero: Credits & Attribution
+subtitle: Icon and graphic licensing
+metaInfo: Icons are used under the Creative Commons Attribution 3.0 license
+---
+<p><a href="/">← All servers</a></p>
+
+<section class="panel">
+    <h2>Server &amp; era icons</h2>
+    <p>Server emblems and era artwork on this site use icons from <a href="https://game-icons.net" target="_blank" rel="noopener">game-icons.net</a>, provided under the <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">Creative Commons Attribution 3.0</a> license. Icons used and their authors:</p>
+    <ul>
+        {% for name, author in icons.ICON_AUTHORS | dictsort %}<li>{{ name }} — by {{ author }} via game-icons.net</li>{% endfor %}
+    </ul>
+</section>
+
+<p class="meta-info">Era medallions, hero scenes and glyphs are original vector artwork generated for this site and require no attribution.</p>

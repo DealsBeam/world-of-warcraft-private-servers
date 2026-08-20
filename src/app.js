@@ -1,4 +1,7 @@
-const { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus } = VOCAB;
+const { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, ICONPATHS, ICONVIEW, ERA_ICON, SERVER_ICON, slugify, matches, groupByEra, countByStatus } = VOCAB;
+
+const eraIcon = era => ERA_ICON[era] || "question";
+const iconFor = (name, tag) => SERVER_ICON[name] || ERA_ICON[ERA[tag] || "Other"] || "question";
 
 const scr = s => s.replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 
@@ -66,10 +69,15 @@ const count = document.getElementById("count");
 const cardHtml = s => {
     const group = s.group && s.name.indexOf(s.group) === -1 ? ` <span class="tag tag-group">${scr(s.group)}</span>` : "";
     const rel = s.release ? ` <span class="tag">Release: ${scr(s.release)}</span>` : "";
+    const ic = iconFor(s.name, s.tag);
+    const vb = ICONVIEW[ic] || "0 0 512 512";
     return `
     <article class="card">
         <div class="card-head">
-            <span class="server-name"><a class="server-link" href="/servers/${slugify(s.name)}/">${scr(s.name)}</a>${group}</span>
+            <span class="card-head-left">
+                <span class="card-emblem emblem-${slugify(ERA[s.tag] || "Other")}" aria-hidden="true"><svg viewBox="${vb}"><path d="${ICONPATHS[ic]}"/></svg></span>
+                <span class="server-name"><a class="server-link" href="/servers/${slugify(s.name)}/">${scr(s.name)}</a>${group}</span>
+            </span>
             <span class="badge ${STATUS[s.status].cls}">${STATUS[s.status].label}</span>
         </div>
         <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${rel}</div>

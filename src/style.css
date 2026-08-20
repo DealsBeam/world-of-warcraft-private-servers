@@ -1380,10 +1380,20 @@ textarea {
 }
 
 .era-header {
+    position: relative;
+    border: 1px solid color-mix(in oklab, var(--era, var(--gold-dim)) 28%, transparent);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 0 16px 0;
+}
+
+.era-header-inner {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     gap: 16px;
-    margin: 0 0 16px 0;
+    padding: 22px 20px;
 }
 
 .era-header .medallion {
@@ -1401,6 +1411,44 @@ textarea {
     color: var(--muted);
 }
 
+.era-scene {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.es-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.es-bg .es-ridge { fill: color-mix(in oklab, var(--era, var(--gold-dim)) 9%, transparent); }
+.es-bg .es-peaks { fill: color-mix(in oklab, var(--era, var(--gold-dim)) 15%, transparent); }
+.es-bg .es-keep { fill: color-mix(in oklab, var(--era, var(--gold-dim)) 22%, transparent); }
+.es-bg .es-glow { fill: color-mix(in oklab, var(--era, var(--gold-dim)) 14%, transparent); }
+
+.es-ic {
+    position: absolute;
+    right: 12px;
+    bottom: -4px;
+    width: 108px;
+    height: 108px;
+    fill: color-mix(in oklab, var(--era, var(--gold-dim)) 13%, transparent);
+}
+
+.scene-vanilla { --era: var(--era-vanilla); }
+.scene-tbc { --era: var(--era-tbc); }
+.scene-wotlk { --era: var(--era-wotlk); }
+.scene-cataclysm { --era: var(--era-cataclysm); }
+.scene-mop { --era: var(--era-mop); }
+.scene-legion { --era: var(--era-legion); }
+.scene-tww { --era: var(--era-tww); }
+.scene-multi { --era: var(--era-multi); }
+.scene-other { --era: var(--era-other); }
+
 .card-emblem {
     width: 34px;
     height: 34px;
@@ -1409,15 +1457,19 @@ textarea {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--font-h);
-    font-weight: 700;
-    font-size: 15px;
     color: var(--emblem-c);
     background:
         radial-gradient(circle at 30% 28%, color-mix(in oklab, var(--emblem-c) 38%, transparent), transparent 62%),
         color-mix(in oklab, var(--emblem-c) 22%, var(--panel));
     border: 1px solid color-mix(in oklab, var(--emblem-c) 55%, transparent);
     line-height: 1;
+}
+
+.card-emblem svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    display: block;
 }
 
 .emblem-vanilla { --emblem-c: var(--era-vanilla); }

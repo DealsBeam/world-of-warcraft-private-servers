@@ -1,0 +1,13 @@
+{% macro eraScene(era) %}
+{% set g = era | lower | slugify %}
+{% set ic = icons.eraIcon(era) %}
+<div class="era-scene scene-{{ g }}" aria-hidden="true">
+    <svg class="es-bg" viewBox="0 0 1040 170" preserveAspectRatio="xMidYMax slice">
+        <path class="es-ridge" d="M0 150 L120 40 L260 140 L420 55 L580 145 L760 75 L900 140 L1040 90 L1040 170 L0 170 Z"/>
+        <path class="es-peaks" d="M0 170 L180 80 L330 160 L500 95 L680 170 L820 130 L1040 165 L1040 170 L0 170 Z"/>
+        <path class="es-keep" d="M470 170 L470 108 L500 108 L500 90 L540 90 L540 108 L570 108 L570 170 Z M505 90 L505 64 L510 62 L510 90 Z M530 90 L530 62 L535 64 L535 90 Z"/>
+        <circle class="es-glow" cx="870" cy="50" r="40"/>
+    </svg>
+    <svg class="es-ic" viewBox="{{ icons.viewFor(ic) }}"><path d="{{ icons.pathFor(ic) }}"/></svg>
+</div>
+{% endmacro %}

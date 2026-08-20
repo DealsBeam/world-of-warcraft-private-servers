@@ -1,10 +1,11 @@
 {% macro card(s) %}
 {% set st = vocab.STATUS[s.status] or { label: "Unknown", cls: "" } %}
 {% set era = vocab.ERA[s.tag] or "Other" %}
+{% set ic = icons.iconFor(s.name, s.tag) %}
 <article class="card">
     <div class="card-head">
         <span class="card-head-left">
-            <span class="card-emblem emblem-{{ era | lower | slugify }}" aria-hidden="true">{{ s.name | first | upper }}</span>
+            <span class="card-emblem emblem-{{ era | lower | slugify }}" aria-hidden="true"><svg viewBox="{{ icons.viewFor(ic) }}"><path d="{{ icons.pathFor(ic) }}"/></svg></span>
             <span class="server-name"><a class="server-link" href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a>{% if s.group and s.name.indexOf(s.group) === -1 %} <span class="tag tag-group">{{ s.group }}</span>{% endif %}</span>
         </span>
         <span class="badge {{ st.cls }}">{{ st.label }}</span>
