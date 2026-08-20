@@ -258,5 +258,9 @@ module.exports = [
     {
         "title": "wago.tools - online file browser for WoW build data",
         "url": "https://wago.tools"
+    },
+    {
+        "title": "OpenWoW - from-scratch WotLK 3.3.5a client reimplementation (AGPL, no game code)",
+        "url": "https://github.com/rkabachenko/OpenWow-snapshot"
     }
 ];
