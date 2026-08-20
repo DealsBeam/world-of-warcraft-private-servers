@@ -1,8 +1,12 @@
 {% macro card(s) %}
 {% set st = vocab.STATUS[s.status] or { label: "Unknown", cls: "" } %}
+{% set era = vocab.ERA[s.tag] or "Other" %}
 <article class="card">
     <div class="card-head">
-        <span class="server-name"><a class="server-link" href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a>{% if s.group and s.name.indexOf(s.group) === -1 %} <span class="tag tag-group">{{ s.group }}</span>{% endif %}</span>
+        <span class="card-head-left">
+            <span class="card-emblem emblem-{{ era | lower | slugify }}" aria-hidden="true">{{ s.name | first | upper }}</span>
+            <span class="server-name"><a class="server-link" href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a>{% if s.group and s.name.indexOf(s.group) === -1 %} <span class="tag tag-group">{{ s.group }}</span>{% endif %}</span>
+        </span>
         <span class="badge {{ st.cls }}">{{ st.label }}</span>
     </div>
     <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}</div>

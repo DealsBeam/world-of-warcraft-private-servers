@@ -2,6 +2,11 @@
 layout: base.njk
 ---
 <p><a href="/blog/">← All posts</a></p>
+{% from "medallion.njk" import blogMedallion %}
+<div class="blog-post-header">
+    {{ blogMedallion(category) }}
+    {% if category %}<span class="blog-cat">{{ category }}</span>{% endif %}
+</div>
 <article class="panel news-post">
     {{ content | safe }}
 </article>

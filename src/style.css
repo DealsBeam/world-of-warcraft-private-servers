@@ -71,6 +71,18 @@
     --on-gold: #080500;
     --tint-bg: 8%;
     --tint-bd: 30%;
+    --era-vanilla: #c49a28;
+    --era-tbc: #8f7bff;
+    --era-wotlk: #6ec3f5;
+    --era-cataclysm: #ff7a4d;
+    --era-mop: #3fae9a;
+    --era-legion: #6fc76a;
+    --era-tww: #4fa3e8;
+    --era-multi: #b56bd8;
+    --era-other: #9a917f;
+    --era-blog-explainers: #6ec3f5;
+    --era-blog-guides: #e4c05a;
+    --era-blog-post-mortems: #e0705f;
 }
 
 [data-theme="light"] {
@@ -99,6 +111,18 @@
     --on-gold: #ffffff;
     --tint-bg: 12%;
     --tint-bd: 40%;
+    --era-vanilla: #85600f;
+    --era-tbc: #5a4bd0;
+    --era-wotlk: #2e6e9e;
+    --era-cataclysm: #c94f27;
+    --era-mop: #2b7d6f;
+    --era-legion: #2f7d2b;
+    --era-tww: #2b6ea8;
+    --era-multi: #8a4aa3;
+    --era-other: #6b6452;
+    --era-blog-explainers: #2e6e9e;
+    --era-blog-guides: #7c5f10;
+    --era-blog-post-mortems: #b23b2c;
 }
 
 [data-theme="light"] ::placeholder {
@@ -689,6 +713,13 @@ button:focus-visible {
     justify-content: space-between;
     gap: 10px;
     margin-bottom: 8px;
+}
+
+.card-head-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
 }
 
 .server-name {
@@ -1308,4 +1339,191 @@ textarea {
     .tabs, .controls, .skip-link, .theme-toggle {
         display: none;
     }
+}
+
+/* ---------- medallions & emblems ---------- */
+
+.medallion {
+    width: 32px;
+    height: 32px;
+    flex: 0 0 auto;
+    display: block;
+    --era: var(--gold);
+}
+
+.med-ring {
+    fill: color-mix(in oklab, var(--era) 16%, transparent);
+    stroke: color-mix(in oklab, var(--era) 55%, transparent);
+    stroke-width: 1.3;
+}
+
+.med-glyph {
+    color: var(--era);
+}
+
+.med-vanilla { --era: var(--era-vanilla); }
+.med-tbc { --era: var(--era-tbc); }
+.med-wotlk { --era: var(--era-wotlk); }
+.med-cataclysm { --era: var(--era-cataclysm); }
+.med-mop { --era: var(--era-mop); }
+.med-legion { --era: var(--era-legion); }
+.med-tww { --era: var(--era-tww); }
+.med-multi { --era: var(--era-multi); }
+.med-other { --era: var(--era-other); }
+.med-blog-explainers { --era: var(--era-blog-explainers); }
+.med-blog-guides { --era: var(--era-blog-guides); }
+.med-blog-post-mortems { --era: var(--era-blog-post-mortems); }
+
+.era-title .medallion {
+    width: 24px;
+    height: 24px;
+}
+
+.era-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 0 16px 0;
+}
+
+.era-header .medallion {
+    width: 56px;
+    height: 56px;
+}
+
+.era-header h2 {
+    margin: 0;
+}
+
+.era-header p {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.card-emblem {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-h);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--emblem-c);
+    background:
+        radial-gradient(circle at 30% 28%, color-mix(in oklab, var(--emblem-c) 38%, transparent), transparent 62%),
+        color-mix(in oklab, var(--emblem-c) 22%, var(--panel));
+    border: 1px solid color-mix(in oklab, var(--emblem-c) 55%, transparent);
+    line-height: 1;
+}
+
+.emblem-vanilla { --emblem-c: var(--era-vanilla); }
+.emblem-tbc { --emblem-c: var(--era-tbc); }
+.emblem-wotlk { --emblem-c: var(--era-wotlk); }
+.emblem-cataclysm { --emblem-c: var(--era-cataclysm); }
+.emblem-mop { --emblem-c: var(--era-mop); }
+.emblem-legion { --emblem-c: var(--era-legion); }
+.emblem-tww { --emblem-c: var(--era-tww); }
+.emblem-multi { --emblem-c: var(--era-multi); }
+.emblem-other { --emblem-c: var(--era-other); }
+
+/* ---------- blog grid ---------- */
+
+.blog-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 14px;
+}
+
+.blog-card {
+    background-color: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    box-shadow: var(--panel-shadow);
+    padding: 16px 18px;
+    transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease, background-color 0.3s ease;
+}
+
+.blog-card:hover {
+    border-color: var(--border-2);
+    transform: translateY(-2px);
+    box-shadow: 0 0 26px rgba(196, 154, 40, 0.09);
+}
+
+.blog-card-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.blog-card-head .medallion {
+    width: 42px;
+    height: 42px;
+}
+
+.blog-card-head .blog-cat {
+    font-family: var(--font-h);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+}
+
+.blog-card-head time {
+    margin-left: auto;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.blog-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.blog-card h3 a {
+    color: var(--text-strong);
+    text-decoration: none;
+}
+
+.blog-card h3 a:hover {
+    color: var(--gold-hover);
+}
+
+.blog-card p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.blog-post-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+.blog-post-header .medallion {
+    width: 48px;
+    height: 48px;
+}
+
+.blog-post-header .blog-cat {
+    font-family: var(--font-h);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
 }

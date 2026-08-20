@@ -12,7 +12,8 @@ extraScripts:
     - /data.js
     - /app.js
 ---
-{% from "card.njk" import card %}
+{% from "card.njk" import card with context %}
+{% from "medallion.njk" import eraMedallion %}
     {% set iconPath = vocab.ICONS %}
     {% set htype = { "core": [vocab.HTYPE.core.label, vocab.HTYPE.core.icon], "web": [vocab.HTYPE.web.label, vocab.HTYPE.web.icon], "tools": [vocab.HTYPE.tools.label, vocab.HTYPE.tools.icon] } %}
 
@@ -65,7 +66,7 @@ extraScripts:
         <p class="empty" id="empty" hidden>No servers match your filters.</p>
         <div class="cards" id="cards">
             {% for g in servers | groupByEra %}
-            <h2 class="era-title"><a href="/{{ g.era | lower | slugify }}/">{{ g.era }}</a><span class="era-count">{{ g.servers.length }}</span></h2>
+            <h2 class="era-title">{{ eraMedallion(g.era) }}<a href="/{{ g.era | lower | slugify }}/">{{ g.era }}</a><span class="era-count">{{ g.servers.length }}</span></h2>
             {% for s in g.servers %}
             {{ card(s) }}
             {% endfor %}

@@ -9,9 +9,18 @@ eleventyComputed:
     subtitle: "Guides, explainers &amp; scene deep-dives"
     description: "In-depth articles on World of Warcraft private servers: server roundups, Classic+ explainers, setup guides, and the emulation scene's biggest stories."
 ---
-<ul class="news-list">
+{% from "medallion.njk" import blogMedallion %}
+<ul class="blog-grid">
 {% for p in collections.blog | reverse %}
-    <li><time>{{ p.date | formatDate }}</time>{% if p.data.category %} <span class="tag">{{ p.data.category }}</span>{% endif %}<a href="{{ p.url }}">{{ p.data.title }}</a></li>
+    <li class="blog-card">
+        <div class="blog-card-head">
+            {{ blogMedallion(p.data.category) }}
+            {% if p.data.category %}<span class="blog-cat">{{ p.data.category }}</span>{% endif %}
+            <time>{{ p.date | formatDate }}</time>
+        </div>
+        <h3><a href="{{ p.url }}">{{ p.data.title }}</a></h3>
+        <p>{{ p.data.description }}</p>
+    </li>
 {% endfor %}
 </ul>
 <p class="meta-info">Original articles written in-house. For short, sourced news updates see <a href="/news/">the news index</a>.</p>

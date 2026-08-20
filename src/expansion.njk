@@ -15,7 +15,16 @@ eleventyComputed:
 ---
 <p><a href="/">← All servers</a></p>
 
-{% from "card.njk" import card %}
+{% from "card.njk" import card with context %}
+{% from "medallion.njk" import eraMedallion %}
+
+<div class="era-header">
+    {{ eraMedallion(eraGroup.era) }}
+    <div>
+        <h2>{{ eraGroup.era }}</h2>
+        <p>{{ eraGroup.servers.length }} tracked server{{ "s" if eraGroup.servers.length != 1 }} · status reviewed {{ site.reviewed }}</p>
+    </div>
+</div>
 
 <div class="cards">
 {% for s in eraGroup.servers %}
