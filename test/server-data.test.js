@@ -10,12 +10,16 @@ const fs = require("fs");
 const path = require("path");
 
 const STATUSES = ["playable", "dev", "closed"];
+const TAGS = ["Vanilla", "Vanilla+", "TBC", "WotLK", "Cataclysm", "MoP", "Legion", "TWW", "Multi", "Classless", "MOBA", ""];
+const TODAY = new Date().toISOString().slice(0, 10);
 
 for (const s of SERVERS) {
     assert.ok(typeof s.name === "string" && s.name.length, `missing name: ${JSON.stringify(s)}`);
     assert.ok(STATUSES.includes(s.status), `bad status on ${s.name}: ${s.status}`);
-    assert.ok(typeof s.details === "string", `missing details on ${s.name}`);
-    if (s.url) assert.ok(/^https?:\/\//.test(s.url), `bad url on ${s.name}: ${s.url}`);
+    assert.ok(typeof s.details === "string" && s.details.length, `missing details on ${s.name}`);
+    if (s.url) assert.ok(/^https:\/\//.test(s.url), `bad url on ${s.name}: ${s.url}`);
+    assert.ok(TAGS.includes(s.tag), `bad tag on ${s.name}: ${JSON.stringify(s.tag)}`);
+    if (s.updated) assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(s.updated) && s.updated <= TODAY, `bad updated date on ${s.name}: ${s.updated}`);
     if (s.release) {
         assert.strictEqual(s.status, "dev", `release set on non-dev ${s.name}`);
         assert.ok(typeof s.release === "string" && s.release.length, `bad release on ${s.name}`);
@@ -48,6 +52,7 @@ for (const f of newsFiles) {
     const link = fm.match(/^link:\s*["']?([^\s"']+)/m);
     assert.ok(title, `missing title in ${f}`);
     assert.ok(date, `bad date in ${f}: ${fm.match(/^date:\s*([^\n]+)/m)?.[1]}`);
+    assert.ok(date[1] <= TODAY, `future date in ${f}: ${date[1]}`);
     assert.ok(fm.includes("draft: true") || link, `non-draft post missing link in ${f}`);
     if (link) assert.ok(/^https?:\/\//.test(link[1]), `bad link in ${f}: ${link[1]}`);
 }
