@@ -40,6 +40,10 @@ module.exports = [
         "url": "https://synastria.org/"
     },
     {
+        "title": "Private Server Hub - server listings, news, small server vote leaderboard",
+        "url": "https://www.privateserverhub.com/"
+    },
+    {
         "title": "BFA-HavenCore - open-source WoW 8.3.7 (Battle for Azeroth) server emulator",
         "url": "https://github.com/Hextv/BFA-HavenCore"
     },

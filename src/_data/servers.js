@@ -424,5 +424,113 @@ module.exports = [
         "group": "",
         "url": "https://azeroth-universe.eu/en",
         "updated": "2026-08-20"
+    },
+    {
+        "name": "Ashen WoW",
+        "status": "playable",
+        "details": "Blizzlike Vanilla 1.12.1, 2-year progressive, x1 rates, no P2W, launched Sept 2025",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://ashen-wow.space/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "Dalaran-WoW",
+        "status": "playable",
+        "details": "12-year veteran WotLK 3.3.5a, x1 progressive, pre-nerf encounters, pop 100-200",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://dalaran-wow.com/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "Rising Gods - Back2Basics",
+        "status": "playable",
+        "details": "18-year German TBC, unique PvX system, pop 70-100",
+        "tag": "TBC",
+        "group": "",
+        "url": "https://back2basics-wow.eu/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "Classic Plus - Ashbringer",
+        "status": "playable",
+        "details": "SoD-style on 3.3.5a, lvl 25 cap, custom map Mythia, 277 runes, pop 0-100",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://wow.classic-plus.com/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "Adventure WoW",
+        "status": "playable",
+        "details": "Solo/casual AzerothCore WotLK, 2x talent pts, boosted QOL, pop 0-50",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://warcraft.wabsite.games/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "Feenix",
+        "status": "playable",
+        "details": "Progressive Vanilla x6 blizzlike, launched Mar 2025",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://feenixwow.com/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "Galaxyofdrone WoW",
+        "status": "playable",
+        "details": "WotLK+ with PlayerBots (40 bots), solo-friendly, x5 rates, pop 0-100",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://galaxyofdrone.com/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "GryffinWow",
+        "status": "playable",
+        "details": "Fresh Vanilla x1 progressive, launched Apr 2025, good reviews, pop 0-10",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://gryffinwow.com/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "HellscreamWoW - Garrosh",
+        "status": "playable",
+        "details": "WotLK custom heroic classic dungeons, scaled raids, x1-x3 rates, pop 30-50",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://hellscreamwow.com/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "Origins WoW Asia",
+        "status": "playable",
+        "details": "SEA-hosted (Singapore) Vanilla x1 progressive, launched 2025, pop 0-50",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://originswow.asia/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "Titans League",
+        "status": "playable",
+        "details": "Unique WotLK lvl 19 twink server, all content scaled to 19, pop 10-30",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://titans-league.org/",
+        "updated": "2026-08-20"
+    },
+    {
+        "name": "True Azeroth",
+        "status": "playable",
+        "details": "Fresh Vanilla x1 blizzlike PvP, launched Jul 2025, community-driven, pop 0-50",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://true-azeroth.site/",
+        "updated": "2026-08-20"
     }
 ];
