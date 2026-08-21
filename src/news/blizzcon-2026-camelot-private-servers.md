@@ -6,7 +6,7 @@ link: "https://blizzcon.com"
 
 BlizzCon 2026 is three weeks away — September 12–13 at the Anaheim Convention Center, the first full-format show since 2023. The opening ceremony and main panels stream free, and Blizzard is selling a World of Warcraft BlizzCon Bundle (mount, transmog ensemble, housing decor) for the occasion. But the real story is what might get announced: after a year of datamines, NDAs, and leaks, all signs point to Blizzard finally revealing its long-rumored Classic+ project — codename **Project Camelot** — and quite possibly Wrath of the Lich King Anniversary realms alongside it.
 
-Here's where things stand, and what it means for the private server ecosystem we track.
+Here's where things stand, and what it means for the private server ecosystem we track. Full evidence tracker lives on our [Classic+ hub](/classic-plus/).
 
 ## The Project Camelot evidence, recapped
 
