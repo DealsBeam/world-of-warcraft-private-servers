@@ -533,5 +533,14 @@ module.exports = [
         "group": "",
         "url": "https://true-azeroth.site/",
         "updated": "2026-08-20"
+    },
+    {
+        "name": "Warlords of Azeroth",
+        "status": "playable",
+        "details": "Fresh full-loot Vanilla 3.3.5a, lvl 60 cap, zone risk tiers, guild territory control, no factions, no cash shop",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://warlords-of-azeroth.com/",
+        "updated": "2026-08-21"
     }
 ];
