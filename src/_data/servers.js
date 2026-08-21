@@ -153,10 +153,11 @@ module.exports = [
     {
         "name": "Triumvirate-WoW",
         "status": "playable",
-        "details": "WotLK funserver",
+        "details": "WotLK lvl-60 endgame, 1-3x XP, Mythic+ dungeons, world bosses; Phase 2 Aug 22 brings ICC, Mythic+ Season 2, Artifact Weapons and Prestige",
         "tag": "WotLK",
         "group": "",
-        "url": "https://triumvirate-wow.com"
+        "url": "https://triumvirate-wow.com/",
+        "updated": "2026-08-21"
     },
     {
         "name": "Kronos V",
@@ -257,11 +258,11 @@ module.exports = [
     {
         "name": "Project Legacy",
         "status": "playable",
-        "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes",
+        "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://projectlegacy.pro/",
-        "updated": "2026-08-18"
+        "updated": "2026-08-21"
     },
     {
         "name": "Incursion-WoW",
@@ -274,11 +275,11 @@ module.exports = [
     {
         "name": "Project Astral",
         "status": "playable",
-        "details": "WotLK 3.3.5a, crossfaction, EU",
+        "details": "WotLK 3.3.5a PvE, crossfaction, EU; open beta Sep 4 with full raid progression MC to Ruby Sanctum, reworked Astraltree (1300 nodes), 130+ Astralgems",
         "tag": "WotLK",
         "group": "",
-        "url": "https://playastral.io",
-        "updated": "2026-08-18"
+        "url": "https://playastral.io/",
+        "updated": "2026-08-21"
     },
     {
         "name": "OnlyFunsWoW",
@@ -550,6 +551,24 @@ module.exports = [
         "tag": "Vanilla+",
         "group": "",
         "url": "https://lunaticptr.com/",
+        "updated": "2026-08-21"
+    },
+    {
+        "name": "Maelstrom (Millenium)",
+        "status": "playable",
+        "details": "Progressive WotLK 3.3.5a, phased leveling with selectable XP up to x3, mostly blizzlike; Phase 5 live Aug 21, lvl 60 cap Aug 29, NA/EU/OCE",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://maelstrom.millenium-servers.com/",
+        "updated": "2026-08-21"
+    },
+    {
+        "name": "Warstorm",
+        "status": "playable",
+        "details": "Solo WotLK since Sep 2025, ~200 pop, blizzlike NPC stats, AI PlayerBots that execute raid strategies (ICC25 HC capable), dungeon finder, 1-5x XP, transmog",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://warstorm.org/",
         "updated": "2026-08-21"
     }
 ];
