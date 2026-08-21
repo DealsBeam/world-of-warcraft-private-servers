@@ -542,5 +542,14 @@ module.exports = [
         "group": "",
         "url": "https://warlords-of-azeroth.com/",
         "updated": "2026-08-21"
+    },
+    {
+        "name": "LunaticPTR",
+        "status": "playable",
+        "details": "Turtle-derived Level One Lunatic Challenge realm — zero XP, lvl 1 endgame, 10-man dungeon raids, restored Frostmane Hollow",
+        "tag": "Vanilla+",
+        "group": "",
+        "url": "https://lunaticptr.com/",
+        "updated": "2026-08-21"
     }
 ];

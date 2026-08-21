@@ -96,6 +96,14 @@ module.exports = [
         "url": "https://github.com/tortoise-wow-stack/TortoiseWoWKnowledgeBase"
     },
     {
+        "title": "Ryac TW Steamdeck UI - Console Port UI for Tortoise WoW on Steam Deck",
+        "url": "https://github.com/Ryac1/Ryac_TW_Steamdeck_UI"
+    },
+    {
+        "title": "ConsoleExperienceClassic - Vanilla Console Port addon, gamepad-friendly setup",
+        "url": "https://github.com/pepordev/ConsoleExperienceClassic"
+    },
+    {
         "title": "Unreal Open Azeroth - local interop layer bridging the UE5 Azeroth client to 1.12 servers",
         "url": "https://github.com/iThorgrim/Unreal-Open-Azeroth"
     },
