@@ -17,11 +17,13 @@ const excerpt = raw => {
 
 module.exports = {
     layout: "blog.njk",
+    author: "WoW Tracker Editorial",
     eleventyComputed: {
         canonical: data => `https://wowprivateservers.vercel.app${data.page.url}`,
         hero: data => data.title,
         subtitle: data => fmt(data.date),
         description: data => data.summary || excerpt(fs.readFileSync(data.page.inputPath, "utf8")),
-        permalink: data => data.draft ? false : data.page.filePathStem + "/"
+        permalink: data => data.draft ? false : data.page.filePathStem + "/",
+        isoDate: data => new Date(data.date).toISOString()
     }
 };

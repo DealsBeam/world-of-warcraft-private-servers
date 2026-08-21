@@ -8,5 +8,19 @@ layout: base.njk
     {% if category %}<span class="blog-cat">{{ category }}</span>{% endif %}
 </div>
 <article class="panel news-post">
+    <p class="meta-info">By {{ author }} · <time datetime="{{ isoDate }}">{{ subtitle }}</time></p>
     {{ content | safe }}
 </article>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ title | escape }}",
+    "description": "{{ description | escape }}",
+    "datePublished": "{{ isoDate }}",
+    "author": {"@type": "Organization", "name": "{{ author | escape }}"},
+    "publisher": {"@type": "Organization", "name": "WoW Private Servers Tracker"},
+    "mainEntityOfPage": "{{ canonical }}",
+    "image": "https://wowprivateservers.vercel.app/og.png"
+}
+</script>
