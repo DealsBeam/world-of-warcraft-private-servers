@@ -33,4 +33,16 @@ for (const f of fs.readdirSync(path.join(__dirname, "../src/blog"))) {
     has(`blog/${f.replace(/\.md$/, "")}/index.html`);
 }
 
+const sitemap = fs.readFileSync(path.join(out, "sitemap.xml"), "utf8");
+const EXEMPT = ["attribution", "404", "llms"];
+const pageDirs = [];
+for (const entry of fs.readdirSync(out, { withFileTypes: true })) {
+    if (entry.isDirectory() && !EXEMPT.some(e => entry.name.startsWith(e)) && fs.existsSync(path.join(out, entry.name, "index.html"))) {
+        pageDirs.push(`${entry.name}/`);
+    }
+}
+for (const d of pageDirs) {
+    assert.ok(sitemap.includes(`https://wowprivateservers.vercel.app/${d}`), `page missing from sitemap.xml: /${d}`);
+}
+
 console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core assets)`);

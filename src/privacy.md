@@ -25,9 +25,11 @@ Your light/dark theme choice is stored in your browser's `localStorage`. It neve
 
 We do not set any cookies. None for tracking, none for preferences, none at all.
 
-## Hosting logs
+## Hosting logs and anonymous page counts
 
 Like every website, our host (Vercel) processes standard technical request data — IP address, user agent, requested URL — in server logs for security and operation. This happens at the hosting layer, outside our control and inaccessible to us as personal profiles. Vercel's own practices are described in [Vercel's privacy policy](https://vercel.com/legal/privacy-policy).
+
+We also count anonymous, aggregate page views through our host's Web Analytics — no cookies, no cross-site tracking, no personal data, nothing that identifies a visitor. It tells us which pages get read; it cannot tell us who you are.
 
 ## External links
 
