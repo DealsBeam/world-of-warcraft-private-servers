@@ -308,13 +308,12 @@ module.exports = [
     },
     {
         "name": "Ravencraft",
-        "status": "dev",
-        "details": "Turtle 1.18.1 continuation by former project contributors; account creation open, realm Medivh launches Aug 22",
+        "status": "playable",
+        "details": "Turtle 1.18.1 continuation by former project contributors; realm Medivh launched Aug 22, launch event running through Aug 29",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://ravencraft.io/",
-        "release": "Aug 22",
-        "updated": "2026-08-21"
+        "updated": "2026-08-22"
     },
     {
         "name": "Whitemane — Frostmourne",
