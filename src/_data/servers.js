@@ -145,10 +145,11 @@ module.exports = [
     {
         "name": "Vanilla+",
         "status": "playable",
-        "details": "Vanilla+, PVP",
+        "details": "Custom-talent Vanilla+ PvP since 2023, rebalanced classes, reworked dungeons/bosses/BGs, weekly raids, ~60-80 weekdays peaking ~200 weekends",
         "tag": "Vanilla+",
         "group": "",
-        "url": "https://vanillaplus.org"
+        "url": "https://vanillaplus.org/",
+        "updated": "2026-08-22"
     },
     {
         "name": "Triumvirate-WoW",
