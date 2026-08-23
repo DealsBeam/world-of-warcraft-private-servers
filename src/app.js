@@ -36,13 +36,13 @@ tabs.forEach(t => t.addEventListener("click", () => showTab(t.dataset.tab)));
 const statStrip = document.getElementById("stat-strip");
 
 function renderStats() {
-    const counts = { playable: 0, dev: 0, closed: 0 };
+    const counts = { playable: 0, dev: 0, dead: 0 };
     SERVERS.forEach(s => counts[s.status]++);
     const rows = [
         { label: "Tracked servers", n: SERVERS.length, cls: "" },
         { label: "Playable", n: counts.playable, cls: "stat-green" },
         { label: "In development", n: counts.dev, cls: "stat-yellow" },
-        { label: "Shut down", n: counts.closed, cls: "stat-red" }
+        { label: "Dead", n: counts.dead, cls: "stat-red" }
     ];
     statStrip.innerHTML = rows.map(r =>
         `<div class="stat${r.cls ? " " + r.cls : ""}"><span class="stat-num">${r.n}</span><span class="stat-label">${r.label}</span></div>`).join("");
@@ -60,7 +60,17 @@ if (tagSel.options.length <= 1) {
 
 let status = "all";
 let tag = "all";
+let pop = "all";
 let search = "";
+
+try {
+    const saved = JSON.parse(localStorage.getItem("wowfilters") || "{}");
+    status = ["all", "playable", "dev", "dead"].includes(saved.status) ? saved.status : "all";
+    tag = saved.tag || "all";
+    pop = ["all", "large", "medium", "small", "tiny", "unknown"].includes(saved.pop) ? saved.pop : "all";
+    search = saved.search || "";
+} catch (e) {}
+const saveFilters = () => localStorage.setItem("wowfilters", JSON.stringify({ status, tag, pop, search }));
 
 const cards = document.getElementById("cards");
 const empty = document.getElementById("empty");
@@ -69,10 +79,11 @@ const count = document.getElementById("count");
 const cardHtml = s => {
     const group = s.group && s.name.indexOf(s.group) === -1 ? ` <span class="tag tag-group">${scr(s.group)}</span>` : "";
     const rel = s.release ? ` <span class="tag">Release: ${scr(s.release)}</span>` : "";
+    const down = s.shutdown ? ` <span class="tag tag-dead">Down ${scr(s.shutdown)}${s.shutdownReason ? " · " + scr(s.shutdownReason) : ""}</span>` : "";
     const ic = iconFor(s.name, s.tag);
     const vb = ICONVIEW[ic] || "0 0 512 512";
     return `
-    <article class="card">
+    <article class="card${s.status === "dead" ? " card-dead" : ""}">
         <div class="card-head">
             <span class="card-head-left">
                 <span class="card-emblem emblem-${slugify(ERA[s.tag] || "Other")}" aria-hidden="true"><svg viewBox="${vb}"><path d="${ICONPATHS[ic]}"/></svg></span>
@@ -80,13 +91,13 @@ const cardHtml = s => {
             </span>
             <span class="badge ${STATUS[s.status].cls}">${STATUS[s.status].label}</span>
         </div>
-        <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${rel}</div>
+        <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${rel}${down}</div>
         ${s.url ? `<a class="card-site" href="${scr(s.url)}" target="_blank" rel="noopener">Official site ↗</a>` : ""}
     </article>`;
 };
 
 function renderServers() {
-    const visible = SERVERS.filter(s => matches(s, { status, tag, search }));
+    const visible = SERVERS.filter(s => matches(s, { status, tag, pop, search }));
     const groups = {};
     visible.forEach(s => {
         const era = ERA[s.tag] || "Other";
@@ -111,18 +122,42 @@ document.getElementById("chips").addEventListener("click", e => {
         c.classList.toggle("active", on);
         c.setAttribute("aria-pressed", on);
     });
+    saveFilters();
     renderServers();
 });
 
 document.getElementById("search").addEventListener("input", e => {
     search = e.target.value.trim().toLowerCase();
+    saveFilters();
     renderServers();
 });
 
 tagSel.addEventListener("change", e => {
     tag = e.target.value;
+    saveFilters();
     renderServers();
 });
+
+const popSel = document.getElementById("pop");
+popSel.addEventListener("change", e => {
+    pop = e.target.value;
+    saveFilters();
+    renderServers();
+});
+
+/* restore saved filter state into controls */
+const chipForStatus = document.querySelector(`#chips .chip[data-status="${status}"]`);
+if (chipForStatus) {
+    document.querySelectorAll("#chips .chip").forEach(c => {
+        const on = c === chipForStatus;
+        c.classList.toggle("active", on);
+        c.setAttribute("aria-pressed", on);
+    });
+}
+if (tag !== "all" && [...tagSel.options].some(o => o.value === tag)) tagSel.value = tag;
+if (pop !== "all") popSel.value = pop;
+const searchInput = document.getElementById("search");
+if (search) searchInput.value = search;
 
 /* ---------- history timeline ---------- */
 

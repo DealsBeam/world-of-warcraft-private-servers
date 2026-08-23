@@ -1,8 +1,10 @@
 const STATUS = {
     playable: { label: "Playable", cls: "badge-green" },
     dev: { label: "In-Development", cls: "badge-yellow" },
-    closed: { label: "Shut Down", cls: "badge-red" }
+    dead: { label: "Dead", cls: "badge-red" }
 };
+
+const POPTIER = ["large", "medium", "small", "tiny", "unknown"];
 
 const HTYPE = {
     core: { label: "Core Emulators", icon: "server" },
@@ -28,9 +30,10 @@ const ICONS = {
 const slugify = s => String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-const matches = (s, { status = "all", tag = "all", search = "" } = {}) => {
+const matches = (s, { status = "all", tag = "all", pop = "all", search = "" } = {}) => {
     if (status !== "all" && s.status !== status) return false;
     if (tag !== "all" && s.tag !== tag) return false;
+    if (pop !== "all" && (s.popTier || "unknown") !== pop) return false;
     if (search) {
         const hay = (s.name + " " + s.details + " " + s.group + " " + s.tag).toLowerCase();
         if (!hay.includes(search.toLowerCase())) return false;
@@ -50,4 +53,4 @@ const groupByEra = servers => {
 
 const countByStatus = (servers, status) => servers.filter(s => s.status === status).length;
 
-module.exports = { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus };
+module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus };

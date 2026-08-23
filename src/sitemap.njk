@@ -17,7 +17,9 @@ eleventyExcludeFromCollections: true
     <url><loc>https://wowprivateservers.vercel.app/{{ e | lower }}/</loc></url>
 {% endfor %}
 {% for s in servers %}
+    {% if s.status !== "dead" %}
     <url><loc>https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/</loc></url>
+    {% endif %}
 {% endfor %}
 {% for n in collections.news %}
     <url><loc>https://wowprivateservers.vercel.app{{ n.url }}</loc></url>

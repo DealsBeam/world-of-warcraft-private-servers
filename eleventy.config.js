@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/theme.js");
     eleventyConfig.addPassthroughCopy("src/radio.js");
     eleventyConfig.addPassthroughCopy("src/favicon.svg");
+    eleventyConfig.addPassthroughCopy("src/manifest.webmanifest");
     eleventyConfig.addPassthroughCopy("src/og.png");
     eleventyConfig.addPassthroughCopy("src/robots.txt");
     eleventyConfig.addPassthroughCopy("src/fonts");

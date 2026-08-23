@@ -2,7 +2,7 @@
 {% set st = vocab.STATUS[s.status] or { label: "Unknown", cls: "" } %}
 {% set era = vocab.ERA[s.tag] or "Other" %}
 {% set ic = icons.iconFor(s.name, s.tag) %}
-<article class="card">
+<article class="card{% if s.status === 'dead' %} card-dead{% endif %}">
     <div class="card-head">
         <span class="card-head-left">
             <span class="card-emblem emblem-{{ era | lower | slugify }}" aria-hidden="true"><svg viewBox="{{ icons.viewFor(ic) }}"><path d="{{ icons.pathFor(ic) }}"/></svg></span>
@@ -10,7 +10,7 @@
         </span>
         <span class="badge {{ st.cls }}">{{ st.label }}</span>
     </div>
-    <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}</div>
+    <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}{% if s.shutdown %} <span class="tag tag-dead">Down {{ s.shutdown }}{% if s.shutdownReason %} · {{ s.shutdownReason }}{% endif %}</span>{% endif %}</div>
     {% if s.url %}<a class="card-site" href="{{ s.url }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}
 </article>
 {% endmacro %}

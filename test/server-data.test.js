@@ -9,7 +9,8 @@ const assert = require("assert");
 const fs = require("fs");
 const path = require("path");
 
-const STATUSES = ["playable", "dev", "closed"];
+const STATUSES = ["playable", "dev", "dead"];
+const POPTIERS = ["large", "medium", "small", "tiny", "unknown"];
 const TAGS = ["Vanilla", "Vanilla+", "TBC", "WotLK", "Cataclysm", "MoP", "Legion", "TWW", "Multi", "Classless", "MOBA", ""];
 const TODAY = new Date().toISOString().slice(0, 10);
 
@@ -24,6 +25,16 @@ for (const s of SERVERS) {
         assert.strictEqual(s.status, "dev", `release set on non-dev ${s.name}`);
         assert.ok(typeof s.release === "string" && s.release.length, `bad release on ${s.name}`);
     }
+    assert.ok(POPTIERS.includes(s.popTier || "unknown"), `bad popTier on ${s.name}: ${JSON.stringify(s.popTier)}`);
+    if (s.status === "dead") {
+        assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(s.shutdown || ""), `dead server missing valid shutdown date: ${s.name}`);
+        assert.ok(s.shutdown <= TODAY, `future shutdown date on ${s.name}: ${s.shutdown}`);
+        assert.ok(["C&D", "abandoned"].includes(s.shutdownReason), `bad shutdownReason on ${s.name}: ${JSON.stringify(s.shutdownReason)}`);
+        assert.ok(!s.url, `dead server should not link a site: ${s.name}`);
+        assert.ok(!s.release, `dead server should not have release: ${s.name}`);
+    } else {
+        assert.ok(!s.shutdown && !s.shutdownReason, `non-dead server has shutdown fields: ${s.name}`);
+    }
 }
 
 const names = new Set(SERVERS.map(s => s.name));
@@ -36,8 +47,7 @@ assert.ok(SERVERS.length >= 40, "server list unexpectedly small");
 const byStatus = {};
 for (const s of SERVERS) byStatus[s.status] = (byStatus[s.status] || 0) + 1;
 for (const st of STATUSES) assert.ok(byStatus[st] > 0, `no servers with status ${st}`);
-assert.strictEqual(byStatus.playable + byStatus.dev + byStatus.closed, SERVERS.length, "status counts don't sum to total");
-for (const s of SERVERS) if (s.status === "closed") assert.ok(!s.url, `closed server should not link a site: ${s.name}`);
+assert.strictEqual(byStatus.playable + byStatus.dev + byStatus.dead, SERVERS.length, "status counts don't sum to total");
 
 const newsDir = path.join(__dirname, "../src/news");
 const newsFiles = fs.readdirSync(newsDir).filter(f => f.endsWith(".md"));
@@ -134,6 +144,10 @@ assert.ok(SERVERS.filter(s => matches(s, { tag: "Vanilla+" })).length >= 8, "Van
 assert.ok(SERVERS.filter(s => matches(s, { search: "whitemane" })).length >= 4, "search broken");
 assert.ok(SERVERS.filter(s => matches(s, { status: "playable", search: "whitemane" })).length >= 1, "combined filter broken");
 assert.strictEqual(SERVERS.filter(s => matches(s, { search: "does-not-exist" })).length, 0);
+assert.ok(SERVERS.filter(s => matches(s, { pop: "large" })).length >= 3, "popTier large filter broken");
+assert.ok(SERVERS.filter(s => matches(s, { pop: "unknown" })).length > 0, "popTier unknown filter broken");
+assert.strictEqual(SERVERS.filter(s => matches(s, { pop: "all" })).length, SERVERS.length, "popTier all filter broken");
+assert.ok(SERVERS.filter(s => s.status === "dead").length >= 3, "dead audit lost servers");
 
 const css = fs.readFileSync(path.join(__dirname, "../src/style.css"), "utf8");
 const blocks = css.split(/\}/).filter(b => b.trim() && b.includes("{"));

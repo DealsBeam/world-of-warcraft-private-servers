@@ -1,0 +1,13 @@
+{
+    "name": "WoW Private Server Status List",
+    "short_name": "WoW Servers",
+    "description": "Comprehensive tracker of World of Warcraft private servers, emulation history, news, and modding resources.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#050505",
+    "theme_color": "#c49a28",
+    "icons": [
+        { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+        { "src": "/og.png", "sizes": "1200x630", "type": "image/png" }
+    ]
+}

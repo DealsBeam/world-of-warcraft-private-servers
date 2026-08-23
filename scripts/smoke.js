@@ -30,6 +30,8 @@ for (const s of SERVERS) has(`servers/${slugify(s.name)}/index.html`);
 
 for (const f of fs.readdirSync(path.join(__dirname, "../src/blog"))) {
     if (!f.endsWith(".md")) continue;
+    const fm = fs.readFileSync(path.join(__dirname, "../src/blog", f), "utf8").match(/^---\n([\s\S]*?)\n---/)?.[1] || "";
+    if (fm.includes("draft: true")) continue;
     has(`blog/${f.replace(/\.md$/, "")}/index.html`);
 }
 

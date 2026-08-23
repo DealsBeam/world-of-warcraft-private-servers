@@ -28,7 +28,7 @@ extraScripts:
             <div class="stat"><span class="stat-num">{{ servers.length }}</span><span class="stat-label">Tracked servers</span></div>
             <div class="stat stat-green"><span class="stat-num">{{ servers | countByStatus("playable") }}</span><span class="stat-label">Playable</span></div>
             <div class="stat stat-yellow"><span class="stat-num">{{ servers | countByStatus("dev") }}</span><span class="stat-label">In development</span></div>
-            <div class="stat stat-red"><span class="stat-num">{{ servers | countByStatus("closed") }}</span><span class="stat-label">Shut down</span></div>
+            <div class="stat stat-red"><span class="stat-num">{{ servers | countByStatus("dead") }}</span><span class="stat-label">Dead</span></div>
         </div>
 
         {% set recent = servers | selectattr("updated") | sort(attribute="updated", reverse=true) | list %}
@@ -48,7 +48,7 @@ extraScripts:
                 <button class="chip active" data-status="all" aria-pressed="true">All</button>
                 <button class="chip" data-status="playable" aria-pressed="false">🟢 Playable</button>
                 <button class="chip" data-status="dev" aria-pressed="false">🟡 In Dev</button>
-                <button class="chip" data-status="closed" aria-pressed="false">🔴 Shut Down</button>
+                <button class="chip" data-status="dead" aria-pressed="false">💀 Dead</button>
             </div>
 
             <div class="filters">
@@ -58,6 +58,15 @@ extraScripts:
                 <select id="tag">
                     <option value="all">All types</option>
                     {% for t in servers | uniqueTags %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
+                </select>
+                <label class="sr-only" for="pop">Filter by population</label>
+                <select id="pop">
+                    <option value="all">All populations</option>
+                    <option value="large">Large</option>
+                    <option value="medium">Medium</option>
+                    <option value="small">Small</option>
+                    <option value="tiny">Tiny</option>
+                    <option value="unknown">Unknown</option>
                 </select>
             </div>
         </div>
