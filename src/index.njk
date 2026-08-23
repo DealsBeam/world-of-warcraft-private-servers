@@ -96,7 +96,7 @@ extraScripts:
         <div class="timeline" id="timeline">
             {% for h in history %}
             {% set ht = htype[h.category] or ["", "leaf"] %}
-            <div class="timeline-item" data-cat="{{ h.category }}">
+            <div class="timeline-item" data-cat="{{ h.category }}" id="{{ h.id }}">
                 <div class="timeline-marker" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="{{ iconPath[ht[1]] }}"/></svg></div>
                 <div class="timeline-body">
                     <div class="timeline-date">{{ h.date }}</div>

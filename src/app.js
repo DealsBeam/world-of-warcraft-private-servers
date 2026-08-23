@@ -80,6 +80,7 @@ const cardHtml = s => {
     const group = s.group && s.name.indexOf(s.group) === -1 ? ` <span class="tag tag-group">${scr(s.group)}</span>` : "";
     const rel = s.release ? ` <span class="tag">Release: ${scr(s.release)}</span>` : "";
     const down = s.shutdown ? ` <span class="tag tag-dead">Down ${scr(s.shutdown)}${s.shutdownReason ? " · " + scr(s.shutdownReason) : ""}</span>` : "";
+    const pop = s.popTier && s.popTier !== "unknown" ? ` <span class="tag tag-pop">${scr(s.popTier.charAt(0).toUpperCase() + s.popTier.slice(1))}</span>` : "";
     const ic = iconFor(s.name, s.tag);
     const vb = ICONVIEW[ic] || "0 0 512 512";
     return `
@@ -91,7 +92,7 @@ const cardHtml = s => {
             </span>
             <span class="badge ${STATUS[s.status].cls}">${STATUS[s.status].label}</span>
         </div>
-        <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${rel}${down}</div>
+        <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${pop}${rel}${down}</div>
         ${s.url ? `<a class="card-site" href="${scr(s.url)}" target="_blank" rel="noopener">Official site ↗</a>` : ""}
     </article>`;
 };
@@ -192,7 +193,7 @@ function renderHistory() {
         const icon = HTYPE[h.category] ? HTYPE[h.category].icon : "leaf";
         const repo = h.githubRepo ? `<div class="timeline-repo"><a href="https://github.com/${scr(h.githubRepo)}" target="_blank" rel="noopener">${scr(h.githubRepo)}</a></div>` : "";
         return `
-        <div class="timeline-item" data-cat="${h.category}">
+        <div class="timeline-item" data-cat="${h.category}" id="${h.id}">
             <div class="timeline-marker" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="${ICONS[icon]}"/></svg></div>
             <div class="timeline-body">
                 <div class="timeline-date">${scr(h.date)}</div>
@@ -265,4 +266,28 @@ if (valid) {
     showTab(initial);
 } else {
     showTab("servers");
+}
+
+/* ---------- history deep linking ---------- */
+function scrollToHistoryEvent(id) {
+    const el = document.getElementById(id);
+    if (el) {
+        showTab("history");
+        setTimeout(() => {
+            el.scrollIntoView({ behavior: "smooth", block: "center" });
+            el.style.outline = "2px solid var(--accent)";
+            setTimeout(() => el.style.outline = "", 2000);
+        }, 50);
+    }
+}
+
+window.addEventListener("hashchange", () => {
+    const hash = location.hash.replace("#", "");
+    if (HISTORY.some(h => h.id === hash)) {
+        scrollToHistoryEvent(hash);
+    }
+});
+
+if (location.hash && HISTORY.some(h => h.id === location.hash.slice(1))) {
+    scrollToHistoryEvent(location.hash.slice(1));
 }

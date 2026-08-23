@@ -836,6 +836,11 @@ a.server-link:hover {
     color: var(--red);
 }
 
+.tag-pop {
+    border-color: color-mix(in oklab, var(--accent) var(--tint-bd), transparent);
+    color: var(--accent);
+}
+
 .cat-chip {
     display: inline-flex;
     align-items: center;
