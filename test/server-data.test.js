@@ -57,6 +57,46 @@ for (const f of newsFiles) {
     if (link) assert.ok(/^https?:\/\//.test(link[1]), `bad link in ${f}: ${link[1]}`);
 }
 
+// BOUNDARY RULE — read before writing:
+// "About something that happened → news. Something people will still search in six months → blog."
+// Cross-section duplicate guard:
+const titleWords = s => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").split(/\s+/).filter(Boolean);
+const similarity = (a, b) => {
+    const sa = new Set(titleWords(a));
+    const sb = new Set(titleWords(b));
+    const inter = [...sa].filter(x => sb.has(x)).length;
+    const union = new Set([...sa, ...sb]).size;
+    return inter / union;
+};
+
+const titles = [];
+for (const f of newsFiles) {
+    const fm = fs.readFileSync(path.join(newsDir, f), "utf8").match(/^---\n([\s\S]*?)\n---/)?.[1];
+    if (fm && !fm.includes("draft: true")) {
+        const t = fm.match(/^title:\s*["']?([^"'\n]+)/m)?.[1];
+        if (t) titles.push({title: t, source: "news"});
+    }
+}
+const blogDir = path.join(__dirname, "../src/blog");
+for (const f of fs.readdirSync(blogDir)) {
+    if (!f.endsWith(".md")) continue;
+    const fm = fs.readFileSync(path.join(blogDir, f), "utf8").match(/^---\n([\s\S]*?)\n---/)?.[1];
+    if (fm && !fm.includes("draft: true")) {
+        const t = fm.match(/^title:\s*["']?([^"'\n]+)/m)?.[1];
+        if (t) titles.push({title: t, source: "blog"});
+    }
+}
+
+for (let i = 0; i < titles.length; i++) {
+    for (let j = i + 1; j < titles.length; j++) {
+        if (titles[i].source === titles[j].source) continue;
+        const sim = similarity(titles[i].title, titles[j].title);
+        if (sim >= 0.6) {
+            assert.fail(`Near-duplicate titles across sections (sim ${sim.toFixed(2)}): "${titles[i].title}" (${titles[i].source}) vs "${titles[j].title}" (${titles[j].source})`);
+        }
+    }
+}
+
 for (const l of LINKS) {
     assert.ok(l.title && /^https?:\/\//.test(l.url), `bad link: ${JSON.stringify(l)}`);
 }
