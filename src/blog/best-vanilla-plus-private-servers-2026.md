@@ -7,7 +7,7 @@ summary: "Vanilla+ — classic WoW with custom content on top — is the most ac
 
 Vanilla+ is the idea that made [Classic Plus](/blog/what-is-wow-classic-plus/) a living genre before Blizzard ever confirmed a product: original World of Warcraft's foundation, with new content layered on top — custom zones, classes, rebalanced items, new quests. After [Turtle WoW shut down in May 2026](/blog/turtle-wow-shutdown-explained/), the Vanilla+ scene split into a family of projects, and several are thriving.
 
-Here's the Vanilla+ landscape as of August 2026. Live status for everything below is on [the tracker](/).
+Here's the Vanilla+ landscape as of August 2026, ordered roughly by who each project suits best. Live status for everything below is on [the tracker](/).
 
 ## The Turtle WoW successors
 
@@ -15,7 +15,7 @@ Turtle WoW's code survived its shutdown — the 2024 source leak meant the scene
 
 - **[Octo WoW](/servers/octo-wow/)** — the biggest of the bunch. Restored the Turtle 1.18.1 client in July 2026 with three realms (N'Zoth PvE, C'Thun hardcore, Y'Shaarj PvP) and phased raids running through 2026-27. Also the home of the [modern OctoWoW client](/guides/octowow/).
 - **[Capybara WoW](/servers/capybara-wow/)** — run by ex-Turtle SEA admins, two realms, roughly 10k online. The largest population among the Turtle successors right now.
-- **[Ravencraft](/servers/ravencraft/)** — a Turtle 1.18.1 continuation by former project contributors, launching **August 22**. [More on the launch](/news/ravencraft-launch/).
+- **[Ravencraft](/servers/ravencraft/)** — a Turtle 1.18.1 continuation by former project contributors, **launched August 22** — the heir apparent for Turtle loyalists who want to start fresh alongside everyone else. [More on the launch](/news/ravencraft-launch/).
 - **[Caverns of Time](/servers/caverns-of-time/)** — a Turtle+ variant that opened August 15.
 
 ## Independent Vanilla+
@@ -35,7 +35,7 @@ Ascension runs its own Vanilla+ seasons alongside its classless mainline — see
 
 1. **Turtle lineage = polish, but check population.** Octo WoW, Capybara, and RavenCraft all run refined 1.17/1.18 code — but a freshly launched realm needs players. Capybara's ~10k online makes it the safest large bet today.
 2. **Independent projects differ in spirit.** Project Legacy (VMaNGOS, solo-friendly modes) and Incursion-WoW (instant-60, rebalanced endgame) are for people who want Vanilla+ without the Turtle lineage.
-3. **Launch timing matters.** RavenCraft (Aug 22) and Caverns of Time (Aug 15) are new — good for launch-week communities, volatile long-term.
+3. **Launch timing matters.** RavenCraft (launched Aug 22) and Caverns of Time (Aug 15) are new — good for launch-week communities, volatile long-term. If you missed a launch window, Capybara's established population beats a fresh economy you'll never catch up in.
 4. **Watch for the legal overhang.** Vanilla+ servers inherit the risks the [Turtle shutdown](/blog/blizzard-2026-private-server-crackdown/) exposed. A popular Vanilla+ realm is a visible target.
 
 For the live status of every Vanilla+ realm, see [the tracker](/). New launches land there the week they open.
