@@ -24,6 +24,7 @@ module.exports = {
         subtitle: data => fmt(data.date),
         description: data => data.summary || excerpt(fs.readFileSync(data.page.inputPath, "utf8")),
         permalink: data => data.draft ? false : data.page.filePathStem + "/",
+        eleventyExcludeFromCollections: data => !!data.draft,
         isoDate: data => new Date(data.date).toISOString()
     }
 };

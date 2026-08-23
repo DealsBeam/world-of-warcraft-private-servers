@@ -52,7 +52,7 @@ for (const f of newsFiles) {
     const link = fm.match(/^link:\s*["']?([^\s"']+)/m);
     assert.ok(title, `missing title in ${f}`);
     assert.ok(date, `bad date in ${f}: ${fm.match(/^date:\s*([^\n]+)/m)?.[1]}`);
-    assert.ok(date[1] <= TODAY, `future date in ${f}: ${date[1]}`);
+    assert.ok(date[1] <= TODAY || fm.includes("draft: true"), `future date in ${f}: ${date[1]}`);
     assert.ok(fm.includes("draft: true") || link, `non-draft post missing link in ${f}`);
     if (link) assert.ok(/^https?:\/\//.test(link[1]), `bad link in ${f}: ${link[1]}`);
 }
