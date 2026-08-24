@@ -2,7 +2,7 @@
 {% set st = vocab.STATUS[s.status] or { label: "Unknown", cls: "" } %}
 {% set era = vocab.ERA[s.tag] or "Other" %}
 {% set ic = icons.iconFor(s.name, s.tag) %}
-<article class="card{% if s.status === 'dead' %} card-dead{% endif %}">
+<article class="card card-st-{{ s.status }}{% if s.status === 'dead' %} card-dead{% endif %}">
     <div class="card-head">
         <span class="card-head-left">
             <span class="card-emblem emblem-{{ era | lower | slugify }}" aria-hidden="true"><svg viewBox="{{ icons.viewFor(ic) }}"><path d="{{ icons.pathFor(ic) }}"/></svg></span>

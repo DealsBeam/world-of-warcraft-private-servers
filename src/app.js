@@ -45,7 +45,19 @@ function renderStats() {
         { label: "Dead", n: counts.dead, cls: "stat-red" }
     ];
     statStrip.innerHTML = rows.map(r =>
-        `<div class="stat${r.cls ? " " + r.cls : ""}"><span class="stat-num">${r.n}</span><span class="stat-label">${r.label}</span></div>`).join("");
+        `<div class="stat${r.cls ? " " + r.cls : ""}"><span class="stat-num">0</span><span class="stat-label">${r.label}</span></div>`).join("");
+    const nums = [...statStrip.querySelectorAll(".stat-num")];
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        rows.forEach((r, i) => { nums[i].textContent = r.n; });
+        return;
+    }
+    const t0 = performance.now(), dur = 700;
+    (function tick(now) {
+        const p = Math.min((now - t0) / dur, 1);
+        const ease = 1 - Math.pow(1 - p, 3);
+        rows.forEach((r, i) => { nums[i].textContent = Math.round(r.n * ease); });
+        if (p < 1) requestAnimationFrame(tick);
+    })(t0);
 }
 
 const tags = [...new Set(SERVERS.map(s => s.tag).filter(Boolean))].sort();
@@ -84,7 +96,7 @@ const cardHtml = s => {
     const ic = iconFor(s.name, s.tag);
     const vb = ICONVIEW[ic] || "0 0 512 512";
     return `
-    <article class="card${s.status === "dead" ? " card-dead" : ""}">
+    <article class="card card-st-${s.status}${s.status === "dead" ? " card-dead" : ""}">
         <div class="card-head">
             <span class="card-head-left">
                 <span class="card-emblem emblem-${slugify(ERA[s.tag] || "Other")}" aria-hidden="true"><svg viewBox="${vb}"><path d="${ICONPATHS[ic]}"/></svg></span>

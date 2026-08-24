@@ -19,7 +19,7 @@ eleventyComputed:
 
 <p><a href="/">← All servers</a></p>
 
-<article class="card server-detail{% if server.status === 'dead' %} card-dead{% endif %}">
+<article class="card server-detail card-st-{{ server.status }}{% if server.status === 'dead' %} card-dead{% endif %}">
     <div class="card-head">
         <span class="server-name">{{ server.name }}</span>
         <span class="badge {{ badge }}">{{ statusLabel }}</span>
