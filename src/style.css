@@ -1040,7 +1040,8 @@ a.server-link:hover {
 
 .cp-intro {
     grid-column: 1 / -1;
-    background:
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"),
         linear-gradient(180deg, rgba(196, 154, 40, 0.06), transparent 70%),
         var(--panel);
     border-color: var(--border-2);
@@ -1054,10 +1055,19 @@ a.server-link:hover {
     justify-content: space-between;
     gap: 16px;
     flex-wrap: wrap;
-    background:
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"),
         linear-gradient(90deg, rgba(196, 154, 40, 0.10), transparent 60%),
         var(--panel);
     border-color: var(--border-2);
+}
+
+.cp-deep-dives,
+.cp-timeline,
+.cp-news {
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"),
+        linear-gradient(180deg, var(--panel-2), var(--panel));
 }
 
 .cp-countdown .cd-title {
@@ -1288,9 +1298,18 @@ textarea {
     display: block;
     color: var(--gold-bright);
     filter: drop-shadow(0 0 8px rgba(196, 154, 40, 0.4));
+    transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.timeline-body:hover .timeline-marker svg {
+    filter: drop-shadow(0 0 16px rgba(196, 154, 40, 0.7));
+    transform: scale(1.15);
 }
 
 .timeline-body {
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"),
+        linear-gradient(180deg, var(--panel-2), var(--panel));
     background-color: var(--panel);
     border: 1px solid var(--border);
     border-radius: 2px;

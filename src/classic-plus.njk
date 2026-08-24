@@ -61,7 +61,7 @@ eleventyComputed:
     <p class="meta-info">Compiled from public leaks, rumors, and CDN monitoring.</p>
 </section>
 
-<section class="panel cp-span-half">
+<section class="panel cp-news cp-span-half">
     <h2>Status Snapshot</h2>
     <p><span class="badge badge-green">Confirmed</span> {{ classicplus.counts.news }} news items · <span class="badge badge-yellow">Leaked</span> {{ classicplus.counts.leak }} leaks · <span class="badge badge-red">Rumored</span> {{ classicplus.counts.rumor }} rumors</p>
     <p class="meta-info">Last entry: {{ classicplus.latest.date }}{% if classicplus.latest.daysAgo > 0 %} · {{ classicplus.latest.daysAgo }} day{{ "s" if classicplus.latest.daysAgo != 1 }} ago{% else %} · today{% endif %}. Nothing is official until Blizzard says so. Leaks and rumors are labeled as such.</p>
@@ -95,7 +95,7 @@ eleventyComputed:
     <p class="meta-info">Season of Discovery is the closest thing to a Classic+ prototype; demand for a permanent version is exactly the gap Classic+ would fill.</p>
 </section>
 
-<section class="panel cp-span-full">
+<section class="panel cp-timeline cp-span-full">
     <h2>Project Camelot Timeline</h2>
     <ul class="news-list">
         <li><time>Oct 2025</time> Encrypted WoW 1.60 activity begins appearing on Blizzard's internal infrastructure — trackers have since logged 29 encrypted builds on the branch.</li>
@@ -177,6 +177,18 @@ eleventyComputed:
     </div>
     <p class="meta-info">Design questions compiled from ongoing community discussion and surveys.</p>
 </section>
+
+{% set deepDiveStubs = collections.blog | filterBlogByTag("deep-dive") %}
+{% if deepDiveStubs.length > 0 %}
+<section class="panel cp-deep-dives cp-span-full">
+    <h2>Deep Dives</h2>
+    <ul class="plain-list">
+    {% for p in deepDiveStubs %}
+        <li><a href="{{ p.url }}">{{ p.data.title }}</a> — {{ p.data.excerpt or 'In progress' }}</li>
+    {% endfor %}
+    </ul>
+</section>
+{% endif %}
 
 <section class="panel cp-span-full">
     <h2>Wrath of the Lich King Anniversary: The Sibling Reveal</h2>

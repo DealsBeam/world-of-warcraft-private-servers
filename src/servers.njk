@@ -19,6 +19,18 @@ eleventyComputed:
 
 <p><a href="/">← All servers</a></p>
 
+<div class="server-hero" style="position: relative; height: 120px; margin-bottom: 20px; border-top: 1px solid var(--border-2); border-bottom: 1px solid var(--border); background: radial-gradient(ellipse 60% 90% at 50% 0%, rgba(196, 154, 40, 0.13), transparent 70%), linear-gradient(180deg, rgba(196, 154, 40, 0.05), transparent 55%);">
+    <svg class="hero-art" viewBox="0 0 800 200" preserveAspectRatio="xMidYMid slice" style="width: 100%; height: 100%; pointer-events: none;">
+        <defs>
+            <linearGradient id="mountGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="rgba(196,154,40,0.10)" />
+                <stop offset="100%" stop-color="rgba(196,154,40,0.02)" />
+            </linearGradient>
+        </defs>
+        <path class="ha-mount" d="M0,200 Q200,20 400,80 T800,200 V200 H0 Z" fill="url(#mountGrad)" />
+    </svg>
+</div>
+
 <article class="card server-detail card-st-{{ server.status }}{% if server.status === 'dead' %} card-dead{% endif %}">
     <div class="card-head">
         <span class="server-name">{{ server.name }}</span>

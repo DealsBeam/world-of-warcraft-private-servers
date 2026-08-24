@@ -1,5 +1,7 @@
 module.exports = function (eleventyConfig) {
-    const { slugify, groupByEra, countByStatus } = require("./src/_data/vocab.js");
+    const { slugify, groupByEra, countByStatus, uniqueTags } = require("./src/_data/vocab.js");
+
+const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag));
 
     eleventyConfig.addPassthroughCopy("src/style.css");
     eleventyConfig.addPassthroughCopy("src/app.js");
@@ -43,6 +45,8 @@ module.exports = function (eleventyConfig) {
     }));
 
     eleventyConfig.addFilter("rssDate", d => toDate(d).toUTCString());
+
+    eleventyConfig.addFilter("filterBlogByTag", filterBlogByTag);
 
     eleventyConfig.addCollection("news", collectionApi =>
         collectionApi.getFilteredByGlob("src/news/*.md")

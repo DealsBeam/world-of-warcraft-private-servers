@@ -53,4 +53,6 @@ const groupByEra = servers => {
 
 const countByStatus = (servers, status) => servers.filter(s => s.status === status).length;
 
-module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus };
+const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag));
+
+module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag };
