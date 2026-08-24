@@ -11,6 +11,5 @@
         <span class="badge {{ st.cls }}">{{ st.label }}</span>
     </div>
     <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.popTier and s.popTier != "unknown" %} <span class="tag tag-pop">{{ s.popTier | capitalize }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}{% if s.shutdown %} <span class="tag tag-dead">Down {{ s.shutdown }}{% if s.shutdownReason %} · {{ s.shutdownReason }}{% endif %}</span>{% endif %}</div>
-    {% if s.url %}<a class="card-site" href="{{ s.url }}" target="_blank" rel="noopener">Official site ↗</a>{% endif %}
 </article>
 {% endmacro %}

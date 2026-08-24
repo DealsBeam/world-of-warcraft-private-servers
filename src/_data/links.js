@@ -4,14 +4,6 @@ module.exports = [
         "url": "https://www.azerothcore.org"
     },
     {
-        "title": "SoloCraft - WoW with player bots (single-player)",
-        "url": "https://solocraft.org/"
-    },
-    {
-        "title": "Microbot - WoW with player bots (single-player)",
-        "url": "https://microbot-wow.net/"
-    },
-    {
         "title": "SPP-Classics CMaNGOS - Single Player Project releases for Vanilla/TBC/WotLK",
         "url": "https://github.com/celguar/spp-classics-cmangos/releases"
     },
@@ -34,14 +26,6 @@ module.exports = [
     {
         "title": "Wiki for Dummies - modding guide",
         "url": "https://pastebin.com/xG3yU0yx"
-    },
-    {
-        "title": "Synastria - WoW Wuxia cultivation sim",
-        "url": "https://synastria.org/"
-    },
-    {
-        "title": "Private Server Hub - server listings, news, small server vote leaderboard",
-        "url": "https://www.privateserverhub.com/"
     },
     {
         "title": "BFA-HavenCore - open-source WoW 8.3.7 (Battle for Azeroth) server emulator",

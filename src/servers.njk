@@ -47,7 +47,6 @@ eleventyComputed:
             {% if server.updated %}<span class="tag">Last checked: {{ server.updated | formatDate }}</span>{% endif %}
             {% if server.name == "Chromiecraft" %} <span class="tag"><a href="https://www.chromiecraft.com/apps/players-status-progress/" target="_blank" rel="noopener">Population graphs ↗</a></span>{% endif %}
         </p>
-        {% if server.url %}<p><a href="{{ server.url }}" target="_blank" rel="noopener">Visit official site ↗</a></p>{% endif %}
     </div>
 </article>
 
