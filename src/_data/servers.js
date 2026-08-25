@@ -314,14 +314,14 @@ module.exports = [
         "popTier": "unknown"
     },
     {
-        "name": "Project Astral",
+"name": "Project Astral",
         "status": "playable",
-        "details": "WotLK 3.3.5a PvE, crossfaction, EU; open beta Sep 4 with full raid progression MC to Ruby Sanctum, reworked Astraltree (1300 nodes), 130+ Astralgems",
+        "details": "WotLK, 84 Discord online",
         "tag": "WotLK",
         "group": "",
         "url": "https://playastral.io/",
-        "updated": "2026-08-21",
-        "popTier": "unknown"
+        "updated": "2026-08-24",
+        "popTier": "tiny"
     },
     {
         "name": "OnlyFunsWoW",
