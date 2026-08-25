@@ -662,5 +662,124 @@ module.exports = [
         "url": "https://www.grimfallwow.com/",
         "updated": "2026-08-24",
         "popTier": "unknown"
+    },
+    {
+        "name": "uWoW",
+        "status": "playable",
+        "details": "Legion 7.3.5 network running since 2009, longest-lived Legion server, ~3.3k Discord online",
+        "tag": "Legion",
+        "group": "",
+        "url": "https://uwow.biz/",
+        "updated": "2026-08-24",
+        "popTier": "medium"
+    },
+    {
+        "name": "Atlantiss",
+        "status": "playable",
+        "details": "Cata 4.3.4 flagship of the Tauri/Atlantiss network relaunch Feb 2026, also MoP 5.4.8 and TBC 2.4.3 realms, ~1.2k Discord online",
+        "tag": "Cataclysm",
+        "group": "",
+        "url": "https://atlantiss.org/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "WoW-Mania",
+        "status": "playable",
+        "details": "Blizzlike WotLK 3.3.5a veteran running since 2015, ~600 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://www.wow-mania.com/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "ThunderWoW",
+        "status": "playable",
+        "details": "Spanish/LATAM WotLK 3.3.5a PvP realm in beta since Jun 23 2026, Oraculo in-client AI NPC assistant, ~50 online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://www.thunderwow.com.ar/",
+        "updated": "2026-08-24",
+        "popTier": "tiny"
+    },
+    {
+        "name": "NycterMoon",
+        "status": "playable",
+        "details": "Vanilla 1.12.1 PvE x1 on VMaNGOS core since 2022, hireable AI Companions from innkeepers, pop 0-100",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://nyctermoonwow.net/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "Valanior",
+        "status": "playable",
+        "details": "Custom modernization of the Vanilla 1.12 foundation, ~1.3k Discord online",
+        "tag": "Vanilla+",
+        "group": "",
+        "url": "https://valanior.com/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "TrueWoW",
+        "status": "playable",
+        "details": "Blizzlike PvE WotLK 3.3.5a x1 (optional 3x XP) since 2010, ~200 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://truewow.org/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "Moonwell",
+        "status": "playable",
+        "details": "Enhanced TBC 2.4.3 x100 XP veteran since 2011, fresh realm Nov 2025 peaked 3k+, ~180 Discord online",
+        "tag": "TBC",
+        "group": "",
+        "url": "https://moonwell.su/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "Stonetavern",
+        "status": "playable",
+        "details": "Strictly authentic Vanilla 1.12 Elwynn PvE x1 launched May 2026, no custom content or shop, crossfaction, ~150 Discord online",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://stonetavern.app/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "AmberWoW",
+        "status": "playable",
+        "details": "Instant-60 fun/haste WotLK 3.3.5a with custom Cata-through-BFA gear, maps, races and instances, ~150 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://amber-wow.com/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "Stormgarde",
+        "status": "playable",
+        "details": "Solo-friendly WotLK 3.3.5 with Playerbot AI companion system since Feb 2020, ~130 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://stormgarde.org/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "ThoriumWoW",
+        "status": "playable",
+        "details": "Long-running custom WotLK 3.3.5a fun server, ~105 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "updated": "2026-08-24",
+        "popTier": "small"
     }
 ]
