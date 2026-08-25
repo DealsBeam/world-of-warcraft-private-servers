@@ -652,5 +652,15 @@ module.exports = [
         "url": "https://warstorm.org/",
         "updated": "2026-08-21",
         "popTier": "small"
+    },
+    {
+        "name": "GrimfallWoW",
+        "status": "playable",
+        "details": "Classless Vanilla+ at 60 (Wildcard random ability rolls, scaled Vanilla/TBC/WotLK/Cata content as evergreen endgame, 10+ custom races, prestige, unrestricted transmog); open beta since Mar 27 2026",
+        "tag": "Classless",
+        "group": "",
+        "url": "https://www.grimfallwow.com/",
+        "updated": "2026-08-24",
+        "popTier": "unknown"
     }
 ]
