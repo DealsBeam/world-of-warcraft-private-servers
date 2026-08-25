@@ -781,5 +781,103 @@ module.exports = [
         "group": "",
         "updated": "2026-08-24",
         "popTier": "small"
+    },
+    {
+        "name": "Elysium Project",
+        "status": "playable",
+        "details": "Community-run Vanilla 1.12.1 launched Jun 27 2026, 18.8k Discord members, ~980 online",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://elysium-project.org/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "UltimoWoW",
+        "status": "playable",
+        "details": "Spanish/LATAM WotLK 3.3.5a veteran, cross-faction + flexible rates, ~890 Discord online, est. 2-5k peak concurrent",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://ultimowow.com/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "ArgusWoW",
+        "status": "playable",
+        "details": "Legion 7.3.5 on dedicated German hardware, x100/x3/x1 realms, 5 raid tiers, ~1.9k Discord online",
+        "tag": "Legion",
+        "group": "",
+        "url": "https://arguswow.com/",
+        "updated": "2026-08-24",
+        "popTier": "medium"
+    },
+    {
+        "name": "UnlimitedWoW",
+        "status": "playable",
+        "details": "WotLK 3.3.5a custom funserver, instant lvl 255, custom Tier 1-15 gear ladder, Season 11, ~720 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://unlimited-wow.com/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "FreedomWoW",
+        "status": "playable",
+        "details": "Ukrainian WotLK 3.3.5a x5, Blizzlike + QoL, proceeds to UA Armed Forces, ~670 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "SoloCraft",
+        "status": "playable",
+        "details": "Vanilla 1.12.1/1.14 solo-friendly with PartyBots + BattleBots AI companions, ~1.7k Discord online",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://solocraft.org/",
+        "updated": "2026-08-24",
+        "popTier": "small"
+    },
+    {
+        "name": "TranscendWoW",
+        "status": "playable",
+        "details": "WotLK 3.3.5a high-stats fun realm, cross-faction, custom content, ~285 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "updated": "2026-08-24",
+        "popTier": "tiny"
+    },
+    {
+        "name": "WowSulvus",
+        "status": "playable",
+        "details": "Custom WotLK 3.3.5a with 24/7 events, custom shirts/NPCs/raids/armor/mounts, ~155 Discord online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://web.wowsulvus.com/",
+        "updated": "2026-08-24",
+        "popTier": "tiny"
+    },
+    {
+        "name": "WOW-COLOMBIA",
+        "status": "playable",
+        "details": "Latin American Cataclysm 4.3.4 + Vanilla 1.12.1 since 2007, Spanish, seasonal Arena, ~150 Discord online",
+        "tag": "Cataclysm",
+        "group": "",
+        "url": "https://www.wow-colombia.com/",
+        "updated": "2026-08-24",
+        "popTier": "tiny"
+    },
+    {
+        "name": "WarSages",
+        "status": "playable",
+        "details": "Spanish Cataclysm 4.3.4 Blizzlike Dragon Soul era, Magma Front zone Jul 2025, 28k+ Discord, ~125 online",
+        "tag": "Cataclysm",
+        "group": "",
+        "url": "https://warsages.com/",
+        "updated": "2026-08-24",
+        "popTier": "small"
     }
 ]
