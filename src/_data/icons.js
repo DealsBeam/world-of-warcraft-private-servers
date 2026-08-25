@@ -37,7 +37,15 @@ const SERVER_ICON = {
     "Ravencraft": "raven",
     "Duskhaven": "werewolf",
     "Warsworn": "war-axe",
-    "Conquest of Azeroth": "crown"
+    "Conquest of Azeroth": "crown",
+    "RetroWoW": "mountain",
+    "BloodWoW (TBC)": "magic-portal",
+    "Tirisgarde": "magic-portal",
+    "LegionPlus": "eclipse-flare",
+    "Project Alterac": "frostfire",
+    "Felsong": "eclipse-flare",
+    "Dragonborn WoW": "bolt",
+    "Luntares": "bolt"
 };
 
 const eraIcon = era => ERA_ICON[era] || "question";

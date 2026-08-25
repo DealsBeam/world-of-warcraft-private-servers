@@ -906,5 +906,85 @@ module.exports = [
         "url": "https://warsages.com/",
         "updated": "2026-08-24",
         "popTier": "small"
+    },
+    {
+        "name": "RetroWoW",
+        "status": "playable",
+        "details": "Vanilla 1.12.1 funserver since 2015, instant-60 option, starter gear, bypasses leveling, well-maintained",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://retro-wow.org/",
+        "updated": "2026-08-25",
+        "popTier": "small"
+    },
+    {
+        "name": "BloodWoW (TBC)",
+        "status": "playable",
+        "details": "TBC 2.4.3, x15 rates, BattleBots, crossfaction, 64 Discord online",
+        "tag": "TBC",
+        "group": "",
+        "url": "https://bloodwow.com/",
+        "updated": "2026-08-25",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Tirisgarde",
+        "status": "playable",
+        "details": "TBC 2.4.3, instant-70, custom PvP events, 50 Discord online",
+        "tag": "TBC",
+        "group": "",
+        "url": "https://tirisgarde.org/news",
+        "updated": "2026-08-25",
+        "popTier": "tiny"
+    },
+    {
+        "name": "LegionPlus",
+        "status": "playable",
+        "details": "Legion 7.x, fated raids, custom bosses, hardcore, allied races, timewalking, 173 Discord online",
+        "tag": "Legion",
+        "group": "",
+        "url": "https://legionplus.biz/",
+        "updated": "2026-08-25",
+        "popTier": "small"
+    },
+    {
+        "name": "Project Alterac",
+        "status": "playable",
+        "details": "Progressive WotLK 3.3.5a, Phase 3 launched Aug 8 (level 40 cap), active community",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://alterac.gg/",
+        "updated": "2026-08-25",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Felsong",
+        "status": "playable",
+        "details": "Legion, launched Spring 2025, estimated 50-200 pop",
+        "tag": "Legion",
+        "group": "",
+        "url": "https://felsong.gg/en/",
+        "updated": "2026-08-25",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Dragonborn WoW",
+        "status": "playable",
+        "details": "Dragonflight, launched Feb 2026, estimated 100-500 pop, active updates",
+        "tag": "TWW",
+        "group": "",
+        "url": "https://www.dragonbornwow.com/",
+        "updated": "2026-08-25",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Luntares",
+        "status": "dev",
+        "details": "Midnight (next retail expansion), in beta",
+        "tag": "TWW",
+        "group": "",
+        "url": "https://luntares.com/en",
+        "updated": "2026-08-25",
+        "popTier": "unknown"
     }
 ]
