@@ -16,7 +16,8 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://eternalgaming.site/",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Greyhaven",
@@ -53,7 +54,8 @@ module.exports = [
         "details": "Ascension Vanilla+",
         "tag": "Vanilla+",
         "group": "Ascension",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Conquest of Azeroth",
@@ -61,29 +63,30 @@ module.exports = [
         "details": "Ascension Vanilla+ Custom Classes",
         "tag": "Vanilla+",
         "group": "Ascension",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Revelation WoW",
-        "status": "playable",
+        "status": "dev",
         "details": "Beta Stage / In Development",
-        "tag": "",
+        "tag": "Vanilla+",
         "group": "",
         "popTier": "unknown"
     },
     {
         "name": "Epsilon",
-        "status": "playable",
+        "status": "dev",
         "details": "Active Development (RP/Sandbox)",
-        "tag": "",
+        "tag": "Vanilla+",
         "group": "",
         "popTier": "unknown"
     },
     {
         "name": "Anarchy 2.0",
-        "status": "playable",
+        "status": "dev",
         "details": "Active Development",
-        "tag": "",
+        "tag": "Vanilla+",
         "group": "",
         "popTier": "unknown"
     },
@@ -104,8 +107,8 @@ module.exports = [
         "tag": "Vanilla+",
         "group": "",
         "url": "https://octowow.st",
-        "updated": "2026-07-01",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Capybara WoW",
@@ -144,7 +147,8 @@ module.exports = [
         "tag": "Legion",
         "group": "",
         "url": "https://tauriwow.com",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Faebright",
@@ -153,7 +157,8 @@ module.exports = [
         "tag": "TBC",
         "group": "",
         "url": "https://www.faebright.online",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Warmane",
@@ -171,8 +176,8 @@ module.exports = [
         "tag": "Vanilla+",
         "group": "",
         "url": "https://vanillaplus.org/",
-        "updated": "2026-08-22",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Triumvirate-WoW",
@@ -181,8 +186,8 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://triumvirate-wow.com/",
-        "updated": "2026-08-22",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Kronos V",
@@ -191,7 +196,8 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://www.kronos-wow.com",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Firestorm",
@@ -227,7 +233,8 @@ module.exports = [
         "tag": "MoP",
         "group": "TwinStar",
         "url": "https://helios-wow.com",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Apollo II",
@@ -236,7 +243,8 @@ module.exports = [
         "tag": "Cataclysm",
         "group": "TwinStar",
         "url": "https://twinstar-wow.com",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Sunwell.pl",
@@ -245,7 +253,8 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://sunwell.pl",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "TheraWoW",
@@ -254,7 +263,8 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://therawow.com",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Turtle WoW",
@@ -283,15 +293,15 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://emberveil.org/",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
-        "name": "Caverns of Time",
-        "status": "playable",
-        "details": "Turtle+, launched Aug 15",
-        "tag": "Vanilla+",
+        "name": "Everwood WoW",
+        "status": "dev",
+        "details": "Classless Vanilla+ (formerly Caverns of Time), no launch date, custom classes & talent system",
+        "tag": "Classless",
         "group": "",
-        "updated": "2026-08-18",
         "popTier": "unknown"
     },
     {
@@ -310,8 +320,8 @@ module.exports = [
         "details": "Instant-60 Vanilla->WotLK progressive, reworked MC/Onyxia and endgame dungeons, 500+ rebalanced items",
         "tag": "Vanilla+",
         "group": "",
-        "updated": "2026-08-18",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
 "name": "Project Astral",
@@ -330,7 +340,8 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://onlyfunswow.com/",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Eternyum",
@@ -338,8 +349,8 @@ module.exports = [
         "details": "Progressive WotLK 3.3.5a, Romanian",
         "tag": "WotLK",
         "group": "",
-        "updated": "2026-08-18",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Hellgarve",
@@ -348,8 +359,8 @@ module.exports = [
         "tag": "Legion",
         "group": "",
         "url": "https://wowhellgarve.com/legion/en/",
-        "updated": "2026-08-18",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Ravencraft",
@@ -358,8 +369,8 @@ module.exports = [
         "tag": "Vanilla+",
         "group": "",
         "url": "https://ravencraft.io/",
-        "updated": "2026-08-22",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Whitemane \u2014 Frostmourne",
@@ -496,8 +507,18 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://azeroth-universe.eu/en",
-        "updated": "2026-08-20",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Azerotica",
+        "status": "playable",
+        "details": "ERP-PvE WotLK private server, cross-faction grouping/trading/questing/dungeons, adult roleplay focus",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://azerotica.net/",
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Ashen WoW",
@@ -506,8 +527,8 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://ashen-wow.space/",
-        "updated": "2026-08-20",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Dalaran-WoW",
@@ -556,8 +577,8 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://feenixwow.com/",
-        "updated": "2026-08-20",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Galaxyofdrone WoW",
@@ -619,25 +640,25 @@ module.exports = [
         "updated": "2026-08-20",
         "popTier": "tiny"
     },
-    {
+{
         "name": "Warlords of Azeroth",
         "status": "playable",
-        "details": "Fresh full-loot Vanilla 3.3.5a, lvl 60 cap, zone risk tiers, guild territory control, no factions, no cash shop",
+        "details": "Blizzlike Vanilla 1.12.1 PvP, cross-faction BGs",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://warlords-of-azeroth.com/",
-        "updated": "2026-08-21",
-        "popTier": "unknown"
+        "url": "https://warlords-of-azeroth.net/",
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "LunaticPTR",
         "status": "playable",
-        "details": "Turtle-derived Level One Lunatic Challenge realm \u2014 zero XP, lvl 1 endgame, 10-man dungeon raids, restored Frostmane Hollow",
+        "details": "Turtle-derived Level One Lunatic Challenge realm — zero XP, lvl 1 endgame, 10-man dungeon raids, restored Frostmane Hollow",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://lunaticptr.com/",
-        "updated": "2026-08-21",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "Maelstrom (Millenium)",
@@ -646,8 +667,8 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://maelstrom.millenium-servers.com/",
-        "updated": "2026-08-21",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "small"
     },
     {
         "name": "Warstorm",
@@ -666,8 +687,8 @@ module.exports = [
         "tag": "Classless",
         "group": "",
         "url": "https://www.grimfallwow.com/",
-        "updated": "2026-08-24",
-        "popTier": "unknown"
+        "updated": "2026-08-25",
+        "popTier": "tiny"
     },
     {
         "name": "uWoW",

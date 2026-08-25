@@ -31,7 +31,7 @@ const SERVER_ICON = {
     "Project Epoch: Reborn": "dungeon-gate",
     "WORS (World of RuneScape)": "rune-stone",
     "Chromiecraft": "hourglass",
-    "Caverns of Time": "ancient-ruins",
+    "Everwood WoW": "ancient-ruins",
     "Everlook": "snowflake-1",
     "Felmyst": "nested-eclipses",
     "Ravencraft": "raven",
