@@ -365,7 +365,7 @@ module.exports = [
     {
         "name": "Ravencraft",
         "status": "playable",
-        "details": "Turtle 1.18.1 continuation by former project contributors; realm Medivh launched Aug 22, launch event running through Aug 29",
+        "details": "Turtle 1.18.1 continuation by former project contributors; realm Medivh launched Aug 22, launch event running through Aug 29. Official launcher: IchaLaunch (addon/mod management)",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://ravencraft.io/",
@@ -386,7 +386,7 @@ module.exports = [
         "name": "Duskhaven",
         "status": "dev",
         "details": "Launch Date TBD",
-        "tag": "",
+        "tag": "Vanilla+",
         "group": "",
         "url": "https://duskhaven.net",
         "popTier": "unknown"
@@ -404,7 +404,7 @@ module.exports = [
         "name": "Azeroth at War",
         "status": "dev",
         "details": "Expected 2026",
-        "tag": "",
+        "tag": "WotLK",
         "group": "",
         "popTier": "unknown"
     },
@@ -412,7 +412,7 @@ module.exports = [
         "name": "Hour of Twilight",
         "status": "dev",
         "details": "Expected 2026",
-        "tag": "",
+        "tag": "Cataclysm",
         "group": "",
         "popTier": "unknown"
     },
@@ -420,7 +420,7 @@ module.exports = [
         "name": "Prophecy: Fall of Lordaeron",
         "status": "dev",
         "details": "Launch Date TBD",
-        "tag": "",
+        "tag": "Vanilla+",
         "group": "",
         "popTier": "unknown"
     },
