@@ -32,4 +32,4 @@ Warmane's approach is "blizzlike" — slow, deliberate, with gold squishes and i
 
 - [Triumvirate Phase 2: ICC went live Aug 22](/servers/triumvirate-wow/) — our tracker shows Phase 2 live
 - [Classic+ Hub: Wrath Anniversary timeline](/classic-plus/) — BlizzCon 2026 watch
-- [Warmane forum announcement](https://forum.warmane.com/showthread.php?t=487437) — official source
+- Warmane forum announcement — official source

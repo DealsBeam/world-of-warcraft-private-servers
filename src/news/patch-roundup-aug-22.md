@@ -12,7 +12,7 @@ The HD visual-overhaul mod for the 3.3.5 client released v1.3.0 on August 21 wit
 
 ## Project Legacy — Patch 1.12.4 this Wednesday
 
-The independent Vanilla+ project confirmed 1.12.4 launches **August 26 at 8:00 PM UK time**. The patch brings Guild Banks (low tab costs so new guilds aren't priced out), a five-round scripted Gadgetzan arena challenge for levels 45–50 with blue-quality rewards, and talent inspection. World Discoveries was honestly held back — the team won't ship copy-pasted filler. Details tracked at [Project Legacy](/servers/project-legacy/). → [projectlegacy.pro/news.php](https://projectlegacy.pro/news.php)
+The independent Vanilla+ project confirmed 1.12.4 launches **August 26 at 8:00 PM UK time**. The patch brings Guild Banks (low tab costs so new guilds aren't priced out), a five-round scripted Gadgetzan arena challenge for levels 45–50 with blue-quality rewards, and talent inspection. World Discoveries was honestly held back — the team won't ship copy-pasted filler. Details tracked at [Project Legacy](/servers/project-legacy/).
 
 ## BlizzCon watch: 21 days out
 

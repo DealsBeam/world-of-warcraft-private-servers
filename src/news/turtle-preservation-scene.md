@@ -12,7 +12,7 @@ When Turtle WoW shut down in May, most coverage focused on the servers going dar
 
 ## Live continuations
 
-The server-side split we covered in [the successor wave](/news/turtle-wow-successor-wave/) keeps growing. [Capybara WoW](/servers/capybara-wow/) carries the largest ex-Turtle population; [Octo WoW](/servers/octo-wow/) restored the 1.17.2-era core toward 1.18.1 with its own development on top; [RavenCraft](/servers/ravencraft/) is the former-contributors' continuation of 1.18.1; [Caverns of Time](/servers/caverns-of-time/) runs Turtle+; and **[LunaticPTR](https://lunaticptr.com/)** preserves something narrower and stranger — the Level One Lunatic Challenge, a zero-XP endgame with 10-man dungeon raids, restored Frostmane Hollow content and community-designed loot tables, updated as recently as August 18.
+The server-side split we covered in [the successor wave](/news/turtle-wow-successor-wave/) keeps growing. [Capybara WoW](/servers/capybara-wow/) carries the largest ex-Turtle population; [Octo WoW](/servers/octo-wow/) restored the 1.17.2-era core toward 1.18.1 with its own development on top; [RavenCraft](/servers/ravencraft/) is the former-contributors' continuation of 1.18.1; [Caverns of Time](/servers/caverns-of-time/) runs Turtle+; and **LunaticPTR** preserves something narrower and stranger — the Level One Lunatic Challenge, a zero-XP endgame with 10-man dungeon raids, restored Frostmane Hollow content and community-designed loot tables, updated as recently as August 18.
 
 ## Self-hosting
 
