@@ -1,13 +1,13 @@
 module.exports = [
     {
-        "name": "SandWorlds",
+"name": "SandWorlds",
         "status": "playable",
-        "details": "Brazilian Turtle 1.17.2-derived Vanilla+, crossfaction, 13 custom zones, class reworks",
+        "details": "Vanilla PVP, 213 Discord online",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://sandworlds.com/",
-        "updated": "2026-08-18",
-        "popTier": "unknown"
+        "url": "https://www.sandworlds.gg",
+        "updated": "2026-08-24",
+        "popTier": "small"
     },
     {
         "name": "Eternal Gaming",
@@ -21,11 +21,12 @@ module.exports = [
     {
         "name": "Greyhaven",
         "status": "playable",
-        "details": "Progressive Vanilla 1.12.1, staged content, community votes, no pay-to-win",
+        "details": "Progressive Vanilla 1.12.1, staged content, community votes, no pay-to-win, 118 Discord online",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://playgreyhaven.com/",
-        "popTier": "unknown"
+        "url": "https://www.playgreyhaven.com/",
+        "updated": "2026-08-24",
+        "popTier": "small"
     },
     {
         "name": "Ascension",
@@ -87,13 +88,14 @@ module.exports = [
         "popTier": "unknown"
     },
     {
-        "name": "Chromiecraft",
+"name": "Chromiecraft",
         "status": "playable",
-        "details": "PVE, WotLK progressive",
+        "details": "Unique non-profit WotLK on AzerothCore, hyper-progressive phased releases, all fixes upstreamed, 3.3k+ Discord online",
         "tag": "WotLK",
         "group": "",
-        "url": "https://www.chromiecraft.com/en",
-        "popTier": "unknown"
+        "url": "https://www.chromiecraft.com/",
+        "updated": "2026-08-24",
+        "popTier": "large"
     },
     {
         "name": "Octo WoW",
@@ -118,20 +120,22 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Gilneas",
         "status": "playable",
-        "details": "Cataclysm Expansion",
+        "details": "Cataclysm 4.3.4 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
         "tag": "Cataclysm",
         "group": "Whitemane",
-        "url": "https://gilneas.whitemane.gg/en",
-        "popTier": "unknown"
+        "url": "https://whitemane.org/",
+        "updated": "2026-08-24",
+        "popTier": "large"
     },
     {
         "name": "Whitemane \u2014 Maelstrom",
         "status": "playable",
-        "details": "Cataclysm 4.3.4, x3/x2 rates, PvP",
+        "details": "Cataclysm 4.3.4 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
         "tag": "Cataclysm",
         "group": "Whitemane",
-        "url": "https://maelstrom.whitemane.gg",
-        "popTier": "unknown"
+        "url": "https://whitemane.org/",
+        "updated": "2026-08-24",
+        "popTier": "large"
     },
     {
         "name": "Tauri",
@@ -293,12 +297,12 @@ module.exports = [
     {
         "name": "Project Legacy",
         "status": "playable",
-        "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection",
+        "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection, 71 Discord online",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://projectlegacy.pro/",
-        "updated": "2026-08-21",
-        "popTier": "unknown"
+        "updated": "2026-08-24",
+        "popTier": "tiny"
     },
     {
         "name": "Incursion-WoW",
@@ -360,12 +364,12 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Frostmourne",
         "status": "dev",
-        "details": "WotLK+",
+        "details": "WotLK 3.3.5a realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP — launches Sep 9 2026",
         "tag": "WotLK",
         "group": "Whitemane",
-        "url": "https://frostmourne.whitemane.gg/en",
+        "url": "https://whitemane.org/",
         "release": "Sep 9",
-        "popTier": "unknown"
+        "popTier": "large"
     },
     {
         "name": "Duskhaven",
@@ -420,18 +424,20 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Stormstout",
         "status": "dev",
-        "details": "Mists of Pandaria",
+        "details": "MoP 5.4.8 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
         "tag": "MoP",
         "group": "Whitemane",
-        "popTier": "unknown"
+        "url": "https://whitemane.org/",
+        "popTier": "large"
     },
     {
         "name": "Whitemane \u2014 Sunwell",
         "status": "dev",
-        "details": "The Burning Crusade",
+        "details": "TBC 2.4.3 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
         "tag": "TBC",
         "group": "Whitemane",
-        "popTier": "unknown"
+        "url": "https://whitemane.org/",
+        "popTier": "large"
     },
     {
         "name": "Stormforge (Mistblade)",
