@@ -4,12 +4,12 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url><loc>https://wowprivateservers.vercel.app/</loc></url>
-    <url><loc>https://wowprivateservers.vercel.app/news/</loc></url>
-    <url><loc>https://wowprivateservers.vercel.app/blog/</loc></url>
-    <url><loc>https://wowprivateservers.vercel.app/classic-plus/</loc></url>
-    <url><loc>https://wowprivateservers.vercel.app/guides/octowow/</loc></url>
-    <url><loc>https://wowprivateservers.vercel.app/radio/</loc></url>
+    <url><loc>https://wowprivateservers.vercel.app/</loc><lastmod>2026-08-26</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/news/</loc><lastmod>2026-08-26</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/blog/</loc><lastmod>2026-08-26</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/classic-plus/</loc><lastmod>2026-08-26</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/guides/octowow/</loc><lastmod>2026-08-26</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/radio/</loc><lastmod>2026-08-26</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/disclaimer/</loc></url>
     <url><loc>https://wowprivateservers.vercel.app/privacy/</loc></url>
     <url><loc>https://wowprivateservers.vercel.app/terms/</loc></url>
@@ -18,13 +18,13 @@ eleventyExcludeFromCollections: true
 {% endfor %}
 {% for s in servers %}
     {% if s.status !== "dead" %}
-    <url><loc>https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/</loc></url>
+    <url><loc>https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/</loc>{% if s.updated %}<lastmod>{{ s.updated }}</lastmod>{% endif %}</url>
     {% endif %}
 {% endfor %}
 {% for n in collections.news %}
-    <url><loc>https://wowprivateservers.vercel.app{{ n.url }}</loc></url>
+    <url><loc>https://wowprivateservers.vercel.app{{ n.url }}</loc><lastmod>{{ n.date | isoDate }}</lastmod></url>
 {% endfor %}
 {% for p in collections.blog %}
-    <url><loc>https://wowprivateservers.vercel.app{{ p.url }}</loc></url>
+    <url><loc>https://wowprivateservers.vercel.app{{ p.url }}</loc><lastmod>{{ p.date | isoDate }}</lastmod></url>
 {% endfor %}
 </urlset>

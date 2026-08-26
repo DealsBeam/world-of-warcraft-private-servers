@@ -46,6 +46,8 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
 
     eleventyConfig.addFilter("rssDate", d => toDate(d).toUTCString());
 
+    eleventyConfig.addFilter("isoDate", d => toDate(d).toISOString().slice(0, 10));
+
     eleventyConfig.addFilter("filterBlogByTag", filterBlogByTag);
 
     eleventyConfig.addCollection("news", collectionApi =>
