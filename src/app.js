@@ -235,9 +235,14 @@ historyTools.addEventListener("click", e => {
     renderHistory();
 });
 
+let hsearchTimer;
 document.getElementById("history-search").addEventListener("input", e => {
-    hsearch = e.target.value.trim().toLowerCase();
-    renderHistory();
+    clearTimeout(hsearchTimer);
+    const v = e.target.value;
+    hsearchTimer = setTimeout(() => {
+        hsearch = v.trim().toLowerCase();
+        renderHistory();
+    }, 150);
 });
 
 renderStats();
@@ -276,12 +281,16 @@ document.addEventListener("keydown", e => {
 /* ---------- initial tab + render ---------- */
 
 const initial = location.hash.replace("#", "") || "servers";
-const valid = [...tabs].some(t => t.dataset.tab === initial);
-if (valid) {
-    history.replaceState(null, "", "#" + initial);
-    showTab(initial);
+if (initial && HISTORY.some(h => h.id === initial)) {
+    scrollToHistoryEvent(initial);
 } else {
-    showTab("servers");
+    const valid = [...tabs].some(t => t.dataset.tab === initial);
+    if (valid) {
+        history.replaceState(null, "", "#" + initial);
+        showTab(initial);
+    } else {
+        showTab("servers");
+    }
 }
 
 /* ---------- history deep linking ---------- */

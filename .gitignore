@@ -3,3 +3,4 @@ _site/
 .cache/
 lighthouse-*.json
 baseline-dark-*.png
+serve.log

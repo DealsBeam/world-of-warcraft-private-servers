@@ -173,7 +173,8 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://www.warmane.com",
-        "popTier": "large"
+        "popTier": "large",
+        "updated": "2026-08-30"
     },
     {
         "name": "Vanilla+",
@@ -212,7 +213,8 @@ module.exports = [
         "tag": "TWW",
         "group": "",
         "url": "https://firestorm-servers.com",
-        "popTier": "large"
+        "popTier": "large",
+        "updated": "2026-08-30"
     },
     {
         "name": "Sirus",
@@ -221,7 +223,8 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://sirus.su",
-        "popTier": "large"
+        "popTier": "large",
+        "updated": "2026-08-30"
     },
     {
         "name": "WoW Circle",
@@ -230,7 +233,8 @@ module.exports = [
         "tag": "Multi",
         "group": "",
         "url": "https://wowcircle.net",
-        "popTier": "large"
+        "popTier": "large",
+        "updated": "2026-08-30"
     },
     {
         "name": "Helios",
@@ -683,7 +687,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://warstorm.org/",
-        "updated": "2026-08-21",
+        "updated": "2026-08-30",
         "popTier": "small"
     },
     {

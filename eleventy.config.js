@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
     const { slugify, groupByEra, countByStatus, uniqueTags } = require("./src/_data/vocab.js");
 
-const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag));
+const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag) || p.data.category === tag);
 
     eleventyConfig.addPassthroughCopy("src/style.css");
     eleventyConfig.addPassthroughCopy("src/app.js");

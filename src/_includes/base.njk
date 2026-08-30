@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if title %}{{ title }}{% else %}World of Warcraft Private Server Status List{% endif %}</title>
-    <meta name="description" content="{{ description }}">
-    <link rel="canonical" href="{{ canonical }}">
+    <meta name="description" content="{{ description or 'Comprehensive tracker of World of Warcraft private servers, emulation history, news, and modding resources.' | escape }}">
+    <meta property="og:site_name" content="WoW Private Servers">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="{{ canonical or 'https://wowprivateservers.vercel.app' + page.url }}">
     <link rel="alternate" type="application/rss+xml" title="World of Warcraft Private Server News" href="https://wowprivateservers.vercel.app/feed.xml">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ title }}">
@@ -25,6 +27,7 @@
         })();
     </script>
     <link rel="preload" href="/fonts/cinzel.woff2" as="font" type="font/woff2" crossorigin>
+    {% if heroImage %}<link rel="preload" href="{{ heroImage }}" as="image" fetchpriority="high">{% endif %}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="stylesheet" href="/style.css">
@@ -34,7 +37,7 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="header-banner{% if heroImage %} has-photo{% endif %}">
-        {% if heroImage %}<img class="hero-photo" src="{{ heroImage }}" alt="" loading="eager" width="1920" height="400">{% endif %}
+        {% if heroImage %}<img class="hero-photo" src="{{ heroImage }}" alt="" loading="eager" fetchpriority="high" width="1920" height="400">{% endif %}
         <svg class="hero-art" viewBox="0 0 1040 240" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
             <path class="ha-mount-back" d="M0 210 L180 70 L330 200 L480 90 L640 210 L820 110 L1040 220 L1040 240 L0 240 Z"/>
             <path class="ha-mount" d="M0 240 L220 120 L380 230 L560 130 L760 240 L900 170 L1040 235 L1040 240 L0 240 Z"/>
@@ -46,17 +49,17 @@
         <p class="subtitle">{{ subtitle }}</p>
         <div class="meta-info">{{ metaInfo or "Comprehensive Status Tracker, Emulation History &amp; Development Directory" }}</div>
         <div class="theme-toggle" role="group" aria-label="Theme">
-            <button type="button" data-theme-choice="light" aria-pressed="false" title="Light theme">☀</button>
-            <button type="button" data-theme-choice="system" aria-pressed="false" title="System theme">⚙</button>
-            <button type="button" data-theme-choice="dark" aria-pressed="false" title="Dark theme">☾</button>
+            <button type="button" data-theme-choice="light" aria-pressed="false" aria-label="Light theme" title="Light theme">☀</button>
+            <button type="button" data-theme-choice="system" aria-pressed="false" aria-label="System theme" title="System theme">⚙</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="false" aria-label="Dark theme" title="Dark theme">☾</button>
         </div>
-        <nav class="site-nav">
-            <a href="/">Home</a>
-            <a href="/news/">News</a>
-            <a href="/classic-plus/">Classic+ Tracker</a>
-            <a href="/guides/octowow/">OctoWoW Guide</a>
-            <a href="/blog/">Blog</a>
-            <a href="/radio/">Radio</a>
+        <nav class="site-nav" aria-label="Site sections">
+            <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
+            <a href="/news/" {% if page.url and "/news/" in page.url %}aria-current="page"{% endif %}>News</a>
+            <a href="/classic-plus/" {% if page.url == "/classic-plus/" %}aria-current="page"{% endif %}>Classic+ Tracker</a>
+            <a href="/guides/octowow/" {% if page.url and "/guides/" in page.url %}aria-current="page"{% endif %}>OctoWoW Guide</a>
+            <a href="/blog/" {% if page.url and "/blog/" in page.url %}aria-current="page"{% endif %}>Blog</a>
+            <a href="/radio/" {% if page.url == "/radio/" %}aria-current="page"{% endif %}>Radio</a>
         </nav>
     </header>
 

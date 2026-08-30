@@ -72,8 +72,8 @@ extraScripts:
             </div>
         </div>
 
-        <p class="count" id="count">{{ servers.length }} of {{ servers.length }} servers</p>
-        <p class="empty" id="empty" hidden>No servers match your filters.</p>
+        <p class="count" id="count" aria-live="polite" aria-atomic="true">{{ servers.length }} of {{ servers.length }} servers</p>
+        <p class="empty" id="empty" hidden role="status">No servers match your filters.</p>
         <div class="cards" id="cards">
             {% for g in servers | groupByEra %}
             <h2 class="era-title">{{ eraMedallion(g.era) }}<a href="/{{ g.era | lower | slugify }}/">{{ g.era }}</a><span class="era-count">{{ g.servers.length }}</span></h2>
@@ -93,7 +93,7 @@ extraScripts:
                 {% for c in history | uniqueCategories %}{% set ht = htype[c] or ["", "leaf"] %}<button class="chip" data-hcat="{{ c }}" aria-pressed="false">{{ ht[0] }}</button>{% endfor %}
             </div>
         </div>
-        <p class="empty" id="history-empty" hidden>No history events match your filters.</p>
+        <p class="empty" id="history-empty" hidden role="status">No history events match your filters.</p>
         <div class="timeline" id="timeline">
             {% for h in history %}
             {% set ht = htype[h.category] or ["", "leaf"] %}
