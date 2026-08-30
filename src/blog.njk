@@ -12,7 +12,9 @@ eleventyComputed:
 {% from "medallion.njk" import blogMedallion %}
 <ul class="blog-grid">
 {% for p in collections.blog | reverse %}
+    {% set idx = loop.index0 % 8 + 1 %}
     <li class="blog-card">
+        <img class="card-thumb" src="/images/card-{{ idx }}.jpeg" alt="" loading="lazy" width="800" height="440">
         <div class="blog-card-head">
             {{ blogMedallion(p.data.category) }}
             {% if p.data.category %}<span class="blog-cat">{{ p.data.category }}</span>{% endif %}

@@ -1,6 +1,7 @@
 ---
 title: "Chromiecraft — the non-profit WotLK that upstreams everything"
 date: 2026-08-26
+heroImage: /images/hero-7.jpeg
 category: "deep-dive"
 summary: "The only large WotLK server where all code fixes go back to the open-source emulator. Here's how its non-profit model actually works."
 ---

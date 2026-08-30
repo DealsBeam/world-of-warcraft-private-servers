@@ -1,6 +1,7 @@
 ---
 title: "What is WoW Classic Plus? Project Camelot, Explained"
 date: 2026-08-19
+heroImage: /images/hero-8.jpeg
 category: explainers
 summary: "Classic Plus is the community's name for an imagined expansion of original World of Warcraft — and Project Camelot is the closest thing to evidence one exists. Here's what's known, what's rumored, and what isn't."
 ---

@@ -1,6 +1,7 @@
 ---
 title: "WotLK Anniversary vs private WotLK: where should you play Wrath in 2027?"
 date: 2026-08-26
+heroImage: /images/hero-2.jpeg
 category: "comparison"
 summary: "Blizzard will almost certainly announce a Wrath of the Lich King Anniversary edition at BlizzCon. Here's how it compares to the private WotLK scene that's already running."
 ---

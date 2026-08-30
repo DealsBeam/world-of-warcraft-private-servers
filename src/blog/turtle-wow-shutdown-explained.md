@@ -1,6 +1,7 @@
 ---
 title: "Turtle WoW Shut Down — What Happened and What Came Next"
 date: 2026-08-19
+heroImage: /images/hero-6.jpeg
 category: post-mortems
 summary: "Turtle WoW ran for nearly eight years as the most popular custom Classic+ realm. In May 2026 it closed after a federal copyright lawsuit. Here's how it ended, and where the community went."
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Playerbot Architecture, Explained"
 date: 2026-08-23
+heroImage: /images/hero-2.jpeg
 category: explainers
 summary: "How mod-playerbots and AI-driven bots work under the hood — from scripted rotations to Warstorm's strategy-executing raid bots — and why they're the quiet engine of the solo-server boom."
 draft: true

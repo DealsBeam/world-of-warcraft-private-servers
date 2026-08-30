@@ -1,6 +1,7 @@
 ---
 title: "Turtle WoW successors ranked: who inherited the exodus"
 date: 2026-08-26
+heroImage: /images/hero-5.jpeg
 category: "deep-dive"
 summary: "Turtle WoW shut down May 15 under Blizzard C&D. Three months later, five projects are competing for its players — here's how they stack up."
 ---

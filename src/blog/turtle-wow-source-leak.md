@@ -1,6 +1,7 @@
 ---
 title: "The Turtle WoW Source Leak — How One Leak Became a Genre"
 date: 2026-08-19
+heroImage: /images/hero-7.jpeg
 category: explainers
 summary: "In September 2024, Turtle WoW's proprietary code — server core and client, up to version 1.17 — leaked to the internet. Two years later, that leak defines the Vanilla+ scene: it's why Turtle's shutdown didn't end Classic+ play."
 ---

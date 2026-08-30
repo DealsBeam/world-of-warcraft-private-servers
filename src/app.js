@@ -138,10 +138,15 @@ document.getElementById("chips").addEventListener("click", e => {
     renderServers();
 });
 
+let searchTimer;
 document.getElementById("search").addEventListener("input", e => {
-    search = e.target.value.trim().toLowerCase();
-    saveFilters();
-    renderServers();
+    clearTimeout(searchTimer);
+    const v = e.target.value;
+    searchTimer = setTimeout(() => {
+        search = v.trim().toLowerCase();
+        saveFilters();
+        renderServers();
+    }, 150);
 });
 
 tagSel.addEventListener("change", e => {

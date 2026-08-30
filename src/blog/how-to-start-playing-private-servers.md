@@ -1,6 +1,7 @@
 ---
 title: "How to Start Playing on WoW Private Servers"
 date: 2026-08-19
+heroImage: /images/hero-1.jpeg
 category: guides
 summary: "New to private servers? Here's the setup in plain terms: client, realmlist, what's risky, and how to pick a realm that won't vanish next month."
 ---

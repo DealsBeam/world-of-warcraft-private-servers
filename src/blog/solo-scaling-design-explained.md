@@ -1,6 +1,7 @@
 ---
 title: "Solo Scaling Design, Explained"
 date: 2026-08-23
+heroImage: /images/hero-4.jpeg
 category: explainers
 summary: "Why solo-friendly servers — TheraWoW, OnlyFunsWoW, Hellgarve, Warstorm — scale dungeons and raids for one player, what it breaks, and why AI playerbots changed the design space."
 draft: true

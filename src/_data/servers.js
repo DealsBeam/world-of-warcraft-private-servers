@@ -117,7 +117,7 @@ module.exports = [
         "tag": "Vanilla+",
         "group": "",
         "url": "https://capycraft.io",
-        "updated": "2026-08-01",
+        "updated": "2026-08-30",
         "popTier": "large"
     },
     {
@@ -537,7 +537,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://dalaran-wow.com/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "small"
     },
     {
@@ -547,7 +547,7 @@ module.exports = [
         "tag": "TBC",
         "group": "",
         "url": "https://back2basics-wow.eu/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "small"
     },
     {
@@ -557,7 +557,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://wow.classic-plus.com/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "small"
     },
     {
@@ -567,7 +567,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://warcraft.wabsite.games/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "tiny"
     },
     {
@@ -587,7 +587,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://galaxyofdrone.com/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "small"
     },
     {
@@ -597,7 +597,7 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://gryffinwow.com/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "tiny"
     },
     {
@@ -607,7 +607,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://hellscreamwow.com/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "tiny"
     },
     {
@@ -617,7 +617,7 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://originswow.asia/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "tiny"
     },
     {
@@ -627,7 +627,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://titans-league.org/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "tiny"
     },
     {
@@ -637,7 +637,7 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://true-azeroth.site/",
-        "updated": "2026-08-20",
+        "updated": "2026-08-30",
         "popTier": "tiny"
     },
 {

@@ -1,6 +1,7 @@
 ---
 title: "Best Vanilla+ Private Servers in 2026"
 date: 2026-08-19
+heroImage: /images/hero-4.jpeg
 category: guides
 summary: "Vanilla+ — classic WoW with custom content on top — is the most active corner of the scene in 2026. Here are the Vanilla+ realms worth playing, from the Turtle WoW successors to independent takes."
 ---

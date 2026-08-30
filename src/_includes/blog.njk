@@ -3,6 +3,7 @@ layout: base.njk
 ---
 <p><a href="/blog/">← All posts</a></p>
 {% from "medallion.njk" import blogMedallion %}
+{% if heroImage %}<img class="post-hero" src="{{ heroImage }}" alt="" loading="eager" width="800" height="440">{% endif %}
 <div class="blog-post-header">
     {{ blogMedallion(category) }}
     {% if category %}<span class="blog-cat">{{ category }}</span>{% endif %}

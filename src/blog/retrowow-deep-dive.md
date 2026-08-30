@@ -1,6 +1,7 @@
 ---
 title: "RetroWoW — the 10-year instant-60 survivor"
 date: 2026-08-25
+heroImage: /images/hero-3.jpeg
 category: "deep-dive"
 description: "How a Vanilla funserver running since 2015 carved out a niche with instant-60, and why it's still here when dozens of larger projects have shut down."
 ---

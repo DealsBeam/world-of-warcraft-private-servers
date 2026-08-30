@@ -1,6 +1,7 @@
 ---
 title: "Blizzard's 2026 Private Server Crackdown, Explained"
 date: 2026-08-19
+heroImage: /images/hero-6.jpeg
 category: explainers
 summary: "2026 was the year Blizzard's legal strategy against private servers changed. Cease-and-desists became federal lawsuits, and RICO allegations entered the picture. Here's what happened, in order."
 ---

@@ -12,6 +12,7 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
     eleventyConfig.addPassthroughCopy("src/og.png");
     eleventyConfig.addPassthroughCopy("src/robots.txt");
     eleventyConfig.addPassthroughCopy("src/fonts");
+    eleventyConfig.addPassthroughCopy("src/images");
 
     eleventyConfig.addFilter("take", (arr, n) => (arr || []).slice(0, n));
 

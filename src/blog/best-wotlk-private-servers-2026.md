@@ -1,6 +1,7 @@
 ---
 title: "Best WotLK Private Servers in 2026"
 date: 2026-08-19
+heroImage: /images/hero-5.jpeg
 category: guides
 summary: "Wrath of the Lich King remains the most crowded private-server expansion. Here are the WotLK 3.3.5a realms worth playing in 2026 — blizzlike, high-rate, soloable, and progressive."
 ---

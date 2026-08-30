@@ -1,6 +1,7 @@
 ---
 title: "Whitemane Network Explained — Four Realms, Four Eras"
 date: 2026-08-19
+heroImage: /images/hero-1.jpeg
 category: explainers
 summary: "Whitemane is one of the few private-server networks running multiple expansions at once — Cataclysm live today, WotLK+ and MoP and TBC in development. Here's what each realm is and where the network is headed."
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Ascension's Classless WoW, Explained"
 date: 2026-08-19
+heroImage: /images/hero-3.jpeg
 category: explainers
 summary: "Ascension strips classes out of WoW entirely — you build a character from any abilities you want, no class restrictions. It claimed over a million registered players, runs multiple seasons, and is currently fighting a Blizzard RICO lawsuit."
 ---

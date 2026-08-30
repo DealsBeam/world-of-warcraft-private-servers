@@ -259,6 +259,22 @@ const entries = [
         "summary": "Blizzard confirmed the Burning Crusade Anniversary Phase 3 launch for August 27: Black Temple and the Battle for Mount Hyjal, Arena Season 3, Netherwing and epic gems. It is the exact milestone Longdale named — clarity on Classic's future comes 'after The Black Temple, at BlizzCon 2026', landing two weeks before the show.",
         "source": "blizzard.com",
         "url": "https://worldofwarcraft.blizzard.com/en-us/news/24291476"
+    },
+    {
+        "date": "2026-08-27",
+        "category": "news",
+        "title": "Black Temple Phase 3 Live — Final Milestone Before BlizzCon",
+        "summary": "Burning Crusade Anniversary Phase 3 went live on schedule: Black Temple, Battle for Mount Hyjal, Arena Season 3, Netherwing dailies and epic gems now playable. With this launch complete, Longdale's promised 'clarity after Black Temple' now points directly to the BlizzCon 2026 reveal in two weeks.",
+        "source": "blizzard.com",
+        "url": "https://worldofwarcraft.blizzard.com/en-us/news/24291476"
+    },
+    {
+        "date": "2026-08-29",
+        "category": "news",
+        "title": "Camelot Hits 1.60.1.69609 — Latest Encrypted Build",
+        "summary": "The encrypted Classic 1.60.1 build bumped to 1.60.1.69609 on WoW Dev 2 (Aug 29), continuing the steady climb from 69407 on Aug 20. No PTR yet — internal QA only — but the cadence holds two weeks out from BlizzCon.",
+        "source": "kami-labs.fr",
+        "url": "https://kami-labs.fr/en/wow-classic/wow-classic-plus-blizzcon-2026/"
     }
 ];
 
