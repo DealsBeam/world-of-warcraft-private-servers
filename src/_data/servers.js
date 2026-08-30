@@ -32,7 +32,7 @@ module.exports = [
     {
         "name": "Ascension",
         "status": "dead",
-        "details": "Shut down Sep 4, 2026 - Blizzard C&D (mutual agreement, RICO settlement)",
+        "details": "Classless hub — Area 52 free-pick, Elune Seasonal (Wildcard/Draft), Bronzebeard Warcraft Reborn, Conquest of Azeroth 21 custom classes — all realms shut down Sep 4, 2026 - Blizzard C&D (mutual agreement, RICO 8:26-cv-01506)",
         "tag": "Classless",
         "group": "Ascension",
         "popTier": "unknown",
@@ -53,7 +53,7 @@ module.exports = [
     {
         "name": "Bronzebeard",
         "status": "dead",
-        "details": "Shut down Sep 4, 2026 - Blizzard C&D (Ascension network)",
+        "details": "Warcraft Reborn — OG 9 classes + Mystic Enchantments — shut down Sep 4, 2026 as part of Ascension network (Blizzard C&D)",
         "tag": "Vanilla+",
         "group": "Ascension",
         "popTier": "unknown",
@@ -64,8 +64,30 @@ module.exports = [
     {
         "name": "Conquest of Azeroth",
         "status": "dead",
-        "details": "Shut down Sep 4, 2026 - Blizzard C&D (Ascension network)",
+        "details": "21 custom lore-derived classes ×3 specs (Alpha) — shut down Sep 4, 2026 as part of Ascension network (Blizzard C&D)",
         "tag": "Vanilla+",
+        "group": "Ascension",
+        "popTier": "unknown",
+        "shutdown": "2026-09-04",
+        "shutdownReason": "C&D",
+        "updated": "2026-08-30"
+    },
+    {
+        "name": "Area 52",
+        "status": "dead",
+        "details": "Classless free-pick — Area 52, Mystic Enchantments, High Risk PvP, Hardcore — shut down Sep 4, 2026 as part of Ascension network (Blizzard C&D)",
+        "tag": "Classless",
+        "group": "Ascension",
+        "popTier": "unknown",
+        "shutdown": "2026-09-04",
+        "shutdownReason": "C&D",
+        "updated": "2026-08-30"
+    },
+    {
+        "name": "Elune",
+        "status": "dead",
+        "details": "Seasonal — Wildcard random abilities, Draft Mode — shut down Sep 4, 2026 as part of Ascension network (Blizzard C&D)",
+        "tag": "Classless",
         "group": "Ascension",
         "popTier": "unknown",
         "shutdown": "2026-09-04",

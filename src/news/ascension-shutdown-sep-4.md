@@ -8,7 +8,7 @@ All of Ascension's emulated WoW realms will shut down on **September 4, 2026 at 
 
 > "It has been almost 10 years since Ascension emulated WoW realms began, and the final chapter of this particular journey is coming to an end," Dutch wrote. "All of Ascension's emulated WoW realms will shut down on September 4, 2026 at 10:00 PM" Eastern. Support stays active to the last day, remaining timeline content still releases this week, then all WoW-related material comes off the website and social channels as development shifts to "something new, unrelated to WoW or any Blizzard game."
 
-Tracked: [Ascension](/servers/ascension/), [Bronzebeard](/servers/bronzebeard/), [Conquest of Azeroth](/servers/conquest-of-azeroth/) — now marked dead (C&D, Sep 4). The launcher, website and socials will be repurposed for the next project.
+Tracked: [Ascension](/servers/ascension/) hub and all 4 live realms — [Area 52](/servers/area-52/) (Classless free-pick), [Elune](/servers/elune/) (Seasonal Wildcard/Draft), [Bronzebeard](/servers/bronzebeard/) (Warcraft Reborn) and [Conquest of Azeroth](/servers/conquest-of-azeroth/) (21 custom classes) — now marked dead (C&D, Sep 4, per Quissy). The launcher, website and socials will be repurposed for the next project.
 
 ## From RICO suit to settlement in 11 weeks
 

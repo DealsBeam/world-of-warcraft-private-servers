@@ -544,6 +544,8 @@ module.exports = [
         "tag": "Legal Milestone",
         "relatedServers": [
             "ascension",
+            "area-52",
+            "elune",
             "bronzebeard",
             "conquest-of-azeroth"
         ],
@@ -604,11 +606,13 @@ module.exports = [
         "tag": "Legal Milestone",
         "relatedServers": [
             "ascension",
+            "area-52",
+            "elune",
             "bronzebeard",
             "conquest-of-azeroth"
         ],
         "paragraphs": [
-            "On August 29, 2026 project lead Dutch announced on Discord that all of Ascension's emulated WoW realms will shut down on September 4, 2026 at 7:00 PM Pacific under a mutual agreement with Blizzard, following the June 12 RICO lawsuit (8:26-cv-01506 C.D. Cal). Support remains active through the final day, remaining timeline content will still release, then all WoW-related material will be removed from the website and social channels as development shifts to a new non-WoW project.",
+            "On August 29, 2026 project lead Dutch announced on Discord that all of Ascension's emulated WoW realms — Area 52 (Classless free-pick), Elune (Seasonal Wildcard/Draft), Bronzebeard (Warcraft Reborn) and Conquest of Azeroth (21 custom classes) — will shut down on September 4, 2026 at 7:00 PM Pacific under a mutual agreement with Blizzard, following the June 12 RICO lawsuit (8:26-cv-01506 C.D. Cal). Support remains active through the final day, remaining timeline content will still release, then all WoW-related material will be removed from the website and social channels as development shifts to a new non-WoW project.",
             "The shutdown completes Blizzard's 2026 sweep of the largest custom Classic servers — Turtle WoW (May 15 consent judgment), Stormforge (May) and now the 10-year classless network that claimed over a million registered players — landing eight days before BlizzCon 2026 where a Classic+ reveal is widely expected."
         ]
     }
