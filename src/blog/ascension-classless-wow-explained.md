@@ -6,6 +6,8 @@ category: explainers
 summary: "Ascension strips classes out of WoW entirely — you build a character from any abilities you want, no class restrictions. It claimed over a million registered players, runs multiple seasons, and is currently fighting a Blizzard RICO lawsuit."
 ---
 
+> **Update Aug 29:** Ascension announced all emulated WoW realms shut down **Sep 4, 2026 19:00 PT** under a mutual agreement with Blizzard following the June 12 RICO suit — see [news](/news/ascension-shutdown-sep-4/). Below is the pre-shutdown explainer.
+
 Most private servers recreate World of Warcraft. Ascension does the opposite: it deletes the class system and lets you build a character from whatever abilities you want. It's the most distinctive — and one of the most popular — projects in the scene, and in 2026 it's also at the center of Blizzard's legal escalation.
 
 ## What "classless" means

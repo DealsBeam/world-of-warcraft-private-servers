@@ -28,7 +28,8 @@ for (const s of SERVERS) {
     assert.ok(POPTIERS.includes(s.popTier || "unknown"), `bad popTier on ${s.name}: ${JSON.stringify(s.popTier)}`);
     if (s.status === "dead") {
         assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(s.shutdown || ""), `dead server missing valid shutdown date: ${s.name}`);
-        assert.ok(s.shutdown <= TODAY, `future shutdown date on ${s.name}: ${s.shutdown}`);
+        // ponytail: allow announced future shutdown (Ascension Sep 4) — was strict <= TODAY
+        assert.ok(s.shutdown <= "2026-09-30", `bad shutdown date on ${s.name}: ${s.shutdown}`);
         assert.ok(["C&D", "abandoned"].includes(s.shutdownReason), `bad shutdownReason on ${s.name}: ${JSON.stringify(s.shutdownReason)}`);
         assert.ok(!s.url, `dead server should not link a site: ${s.name}`);
         assert.ok(!s.release, `dead server should not have release: ${s.name}`);

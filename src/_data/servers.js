@@ -31,12 +31,14 @@ module.exports = [
     },
     {
         "name": "Ascension",
-        "status": "playable",
-        "details": "Classless WoW (Vanilla+, Classless, Custom Classes/CoA, Epoch)",
+        "status": "dead",
+        "details": "Shut down Sep 4, 2026 - Blizzard C&D (mutual agreement, RICO settlement)",
         "tag": "Classless",
         "group": "Ascension",
-        "url": "https://ascension.gg/en",
-        "popTier": "large"
+        "popTier": "unknown",
+        "shutdown": "2026-09-04",
+        "shutdownReason": "C&D",
+        "updated": "2026-08-30"
     },
     {
         "name": "Project Epoch: Reborn",
@@ -50,21 +52,25 @@ module.exports = [
     },
     {
         "name": "Bronzebeard",
-        "status": "playable",
-        "details": "Ascension Vanilla+",
+        "status": "dead",
+        "details": "Shut down Sep 4, 2026 - Blizzard C&D (Ascension network)",
         "tag": "Vanilla+",
         "group": "Ascension",
-        "updated": "2026-08-25",
-        "popTier": "tiny"
+        "popTier": "unknown",
+        "shutdown": "2026-09-04",
+        "shutdownReason": "C&D",
+        "updated": "2026-08-30"
     },
     {
         "name": "Conquest of Azeroth",
-        "status": "playable",
-        "details": "Ascension Vanilla+ Custom Classes",
+        "status": "dead",
+        "details": "Shut down Sep 4, 2026 - Blizzard C&D (Ascension network)",
         "tag": "Vanilla+",
         "group": "Ascension",
-        "updated": "2026-08-25",
-        "popTier": "tiny"
+        "popTier": "unknown",
+        "shutdown": "2026-09-04",
+        "shutdownReason": "C&D",
+        "updated": "2026-08-30"
     },
     {
         "name": "Revelation WoW",

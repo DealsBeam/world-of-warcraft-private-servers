@@ -269,12 +269,36 @@ const entries = [
         "url": "https://worldofwarcraft.blizzard.com/en-us/news/24291476"
     },
     {
+        "date": "2026-08-27",
+        "category": "news",
+        "title": "WoW Armory Adds Classic Game Versions",
+        "summary": "Blizzard's official WoW Armory was updated to support Classic game versions (highlighted by Joardee Aug 27), letting the web infrastructure distinguish Classic realms and characters instead of routing everything through modern WoW. Useful on its own for era/anniversary realms, it also makes it easier to accommodate another Classic version in the future — though Blizzard has not tied the change to Project Camelot.",
+        "source": "wowhead.com",
+        "url": "https://www.wowhead.com/classic/news/wow-armory-now-updated-to-include-classic-wow-382670"
+    },
+    {
+        "date": "2026-08-28",
+        "category": "news",
+        "title": "Camelot Advances Twice on Dev 2 — 69407→69555",
+        "summary": "Algalon (Ghostopheles tracker) recorded WoW Dev 2 advancing from 1.60.1.69407 to 1.60.1.69555 at 01:27 UTC Aug 28 — the first of three encrypted updates in ~25 hours across two internal branches. Parallel activity continued on Dev 5 the same morning.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/project-camelot-builds-wow-classic-armory/"
+    },
+    {
+        "date": "2026-08-28",
+        "category": "news",
+        "title": "Camelot Dev 5 Moves to 69606 — Parallel Branch Active",
+        "summary": "Hours later at 08:15 UTC Aug 28, WoW Dev 5 jumped from 1.60.0.69439 to 1.60.0.69606 while staying on 1.60.0. Two encrypted branches now advancing in parallel — Dev 2 on 1.60.1, Dev 5 on 1.60.0 — seen as possible BlizzCon show-realm stabilization (per Stiven) but unconfirmed.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/project-camelot-builds-wow-classic-armory/"
+    },
+    {
         "date": "2026-08-29",
         "category": "news",
-        "title": "Camelot Hits 1.60.1.69609 — Latest Encrypted Build",
-        "summary": "The encrypted Classic 1.60.1 build bumped to 1.60.1.69609 on WoW Dev 2 (Aug 29), continuing the steady climb from 69407 on Aug 20. No PTR yet — internal QA only — but the cadence holds two weeks out from BlizzCon.",
-        "source": "kami-labs.fr",
-        "url": "https://kami-labs.fr/en/wow-classic/wow-classic-plus-blizzcon-2026/"
+        "title": "Camelot Hits 1.60.1.69609 — Three Builds in 25 Hours",
+        "summary": "WoW Dev 2 advanced again at 02:16 UTC Aug 29 from 1.60.1.69555 to 1.60.1.69609 — the third encrypted update in under 25 hours. Counts as steady internal QA, not a content reveal: builds remain encrypted, no zones/classes/dates exposed, and no PTR yet, two weeks out from BlizzCon.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/project-camelot-builds-wow-classic-armory/"
     }
 ];
 
