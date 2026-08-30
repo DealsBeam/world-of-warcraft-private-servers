@@ -1,5 +1,17 @@
 module.exports = [
     {
+        "id": "event-warhammer-pitch-1994",
+        "category": "web",
+        "icon": "fa-solid fa-shield-halved",
+        "date": "1993 - 1994",
+        "title": "Warcraft Pitched as Warhammer — License Falls Through",
+        "tag": "Blizzard Roots",
+        "paragraphs": [
+            "Warcraft: Orcs & Humans was originally pitched as a licensed Warhammer game. After talks with Games Workshop stalled, Blizzard built its own IP — keeping the fantasy strategy core but creating Azeroth instead of the Old World.",
+            "The episode became the first clear example of Blizzard's second-mover pattern: observe a proven tabletop world, rebuild it with polish and accessibility, and own the refined version."
+        ]
+    },
+    {
         "id": "event-alpha-leak-2003",
         "category": "core",
         "icon": "fa-solid fa-user-ninja",
@@ -96,42 +108,6 @@ module.exports = [
         ]
     },
     {
-        "id": "event-blizzhackers-era-2005",
-        "category": "web",
-        "icon": "fa-solid fa-users",
-        "date": "2005 - Onward",
-        "title": "The Blizzhackers Migration",
-        "tag": "Community Hubs",
-        "paragraphs": [
-            "Following the shutdown of GotWoW.Net, the dispersed modding community sought refuge at Blizzhackers.com, an established site for hacking older Blizzard titles.",
-            "Internal hosting conflicts later caused a schism, splitting the community into two competing domains (.us and .ws), though it remained the central hub for WoW emulation discussions for years."
-        ]
-    },
-    {
-        "id": "event-nox-wowwow-2005",
-        "category": "core",
-        "icon": "fa-solid fa-laptop-code",
-        "date": "2005 - 2006",
-        "title": "NOX & The Rise of WoWWoW",
-        "tag": "Dark Ages",
-        "paragraphs": [
-            "Kolie introduced 'NOX', a highly ambitious C# server featuring on-the-fly script compiling. Before its disappearance, Kolie released the crucial WOWSRP6 authentication library to the public.",
-            "Dr.Nexus utilized this library to launch 'WoWWoW', a massive C# project that reached beta stages by late 2005. Despite developer drama and sudden disappearances, WoWWoW laid significant groundwork for C# emulation."
-        ]
-    },
-    {
-        "id": "event-openwow-crackdown-2006",
-        "category": "core",
-        "icon": "fa-solid fa-shield-halved",
-        "date": "2006",
-        "title": "OpenWOW & The Second Crackdown",
-        "tag": "Legal Milestone",
-        "paragraphs": [
-            "M4rku5, Joker, and Power2All formed 'OpenWOW', attempting to completely rewrite the Team Python core into a stable, open-source C++ framework. A merger with WOWD was planned to combine their superior core with WOWD's features.",
-            "Before the merge could happen, Blizzard launched a second wave of aggressive legal actions. Lawyers visited developers' homes, forcing the team to sign strict non-disclosure agreements, effectively terminating OpenWOW."
-        ]
-    },
-    {
         "id": "event-wddg-blackstorm-2005",
         "category": "core",
         "icon": "fa-solid fa-fire",
@@ -141,6 +117,18 @@ module.exports = [
         "paragraphs": [
             "As the community sought a comprehensive database for WoWEmu, two major groups emerged: WDDG and Blackstorm. Blackstorm, starting slightly earlier, peaked at 68 active members directly contributing to the database before transferring leadership and ultimately dissolving.",
             "WDDG, led by RaymerJacques, rapidly grew but became a polarizing force in the community. Their ambitions to launch their own 'Ludmilla' emulator eventually sparked massive drama and infighting across the scene."
+        ]
+    },
+    {
+        "id": "event-blizzhackers-era-2005",
+        "category": "web",
+        "icon": "fa-solid fa-users",
+        "date": "2005 - Onward",
+        "title": "The Blizzhackers Migration",
+        "tag": "Community Hubs",
+        "paragraphs": [
+            "Following the shutdown of GotWoW.Net, the dispersed modding community sought refuge at Blizzhackers.com, an established site for hacking older Blizzard titles.",
+            "Internal hosting conflicts later caused a schism, splitting the community into two competing domains (.us and .ws), though it remained the central hub for WoW emulation discussions for years."
         ]
     },
     {
@@ -168,6 +156,44 @@ module.exports = [
         ]
     },
     {
+        "id": "event-nox-wowwow-2005",
+        "category": "core",
+        "icon": "fa-solid fa-laptop-code",
+        "date": "2005 - 2006",
+        "title": "NOX & The Rise of WoWWoW",
+        "tag": "Dark Ages",
+        "paragraphs": [
+            "Kolie introduced 'NOX', a highly ambitious C# server featuring on-the-fly script compiling. Before its disappearance, Kolie released the crucial WOWSRP6 authentication library to the public.",
+            "Dr.Nexus utilized this library to launch 'WoWWoW', a massive C# project that reached beta stages by late 2005. Despite developer drama and sudden disappearances, WoWWoW laid significant groundwork for C# emulation."
+        ]
+    },
+    {
+        "id": "event-mangos-2005",
+        "category": "core",
+        "icon": "fa-solid fa-server",
+        "date": "August 2005",
+        "title": "The Birth of MaNGOS",
+        "tag": "Core Emulators",
+        "paragraphs": [
+            "MaNGOS (Massive Network Game Object Server) was formally announced as a public open-source project by theLuda. It became the grandfather of modern WoW emulation, giving the community a full-featured Authentication and World content server daemon.",
+            "Almost all major C++ WoW emulators today, including TrinityCore, CMaNGOS, and AzerothCore, trace their lineage directly back to this foundational project and its early open-source ethos."
+        ],
+        "githubRepo": "mangos/mangos"
+    },
+    {
+        "id": "event-mangos-origins-2005",
+        "category": "core",
+        "icon": "fa-solid fa-leaf",
+        "date": "August 2005",
+        "title": "The True Origins of MaNGOS",
+        "tag": "Core Emulators",
+        "paragraphs": [
+            "MaNGOS was born from the leaked WOWD source code. Kronos, chance, and theLuda originally created a project named 'WOWSP' (WOW Single Player) to divert Blizzard's attention from Ludmilla. To avoid copyright issues, the team voted to rename it to MaNGOS on August 28, 2005.",
+            "With a strict policy against including copyrighted client data to remain legal under European law, MaNGOS attracted top developers like sioully, mmcs, and captnoord, evolving from a distraction into a massively successful open-source framework."
+        ],
+        "githubRepo": "cmangos/mangos-classic"
+    },
+    {
         "id": "event-pandoras-box-2006",
         "category": "core",
         "icon": "fa-solid fa-box-open",
@@ -192,6 +218,18 @@ module.exports = [
         ]
     },
     {
+        "id": "event-openwow-crackdown-2006",
+        "category": "core",
+        "icon": "fa-solid fa-shield-halved",
+        "date": "2006",
+        "title": "OpenWOW & The Second Crackdown",
+        "tag": "Legal Milestone",
+        "paragraphs": [
+            "M4rku5, Joker, and Power2All formed 'OpenWOW', attempting to completely rewrite the Team Python core into a stable, open-source C++ framework. A merger with WOWD was planned to combine their superior core with WOWD's features.",
+            "Before the merge could happen, Blizzard launched a second wave of aggressive legal actions. Lawyers visited developers' homes, forcing the team to sign strict non-disclosure agreements, effectively terminating OpenWOW."
+        ]
+    },
+    {
         "id": "event-third-crackdown-2006",
         "category": "web",
         "icon": "fa-solid fa-scale-balanced",
@@ -202,71 +240,6 @@ module.exports = [
             "Blizzard escalated their legal pursuit, deploying investigators (including Forensic Investigations Technology and Vivendi representatives) directly to developers' homes, including PavkaM and RaymerJacques in South Africa.",
             "The targeted physical intimidation forced the definitive retirement of several key figures and severely crippled the WDDG team. Warnings circulated that prominent open-source projects like MaNGOS and WoWWoW were next on the target list."
         ]
-    },
-    {
-        "id": "event-mangos-2005",
-        "category": "core",
-        "icon": "fa-solid fa-server",
-        "date": "August 2005",
-        "title": "The Birth of MaNGOS",
-        "tag": "Core Emulators",
-        "paragraphs": [
-            "MaNGOS (Massive Network Game Object Server) was formally announced as a public open-source project by theLuda. It became the grandfather of modern WoW emulation, giving the community a full-featured Authentication and World content server daemon.",
-            "Almost all major C++ WoW emulators today, including TrinityCore, CMaNGOS, and AzerothCore, trace their lineage directly back to this foundational project and its early open-source ethos."
-        ],
-        "githubRepo": "mangos/mangos"
-    },
-    {
-        "id": "event-trinitycore-2008",
-        "category": "core",
-        "icon": "fa-brands fa-github",
-        "date": "2008",
-        "title": "TrinityCore Fork & Standardization",
-        "tag": "Core Emulators",
-        "paragraphs": [
-            "TrinityCore was formed as a major fork from MaNGOS. Driven by the community's desire for different architectural decisions and faster development cycles, the project rapidly gained traction.",
-            "It went on to become the absolute industry standard for 3.3.5a (Wrath of the Lich King) emulation, serving as the base for thousands of servers and heavily dictating the future of C++ WoW development."
-        ],
-        "githubRepo": "TrinityCore/TrinityCore"
-    },
-    {
-        "id": "event-noggit-era",
-        "category": "tools",
-        "icon": "fa-solid fa-map",
-        "date": "Mid 2000s - 2010s",
-        "title": "Noggit & Custom Map Editing",
-        "tag": "Development Tools",
-        "paragraphs": [
-            "Noggit emerged as the premier open-source world builder and map editor for the World of Warcraft client. Built by dedicated community reverse-engineers, it unlocked the ability to manipulate the game's ADT map files.",
-            "It allowed modders to sculpt terrain, paint textures, place WMOs and M2s (3D models), and completely overhaul the physical world of Azeroth, cementing itself as the backbone of custom client-side modding."
-        ],
-        "githubRepo": "noggit3/Noggit3"
-    },
-    {
-        "id": "event-mangos-origins-2005",
-        "category": "core",
-        "icon": "fa-solid fa-leaf",
-        "date": "August 2005",
-        "title": "The True Origins of MaNGOS",
-        "tag": "Core Emulators",
-        "paragraphs": [
-            "MaNGOS was born from the leaked WOWD source code. Kronos, chance, and theLuda originally created a project named 'WOWSP' (WOW Single Player) to divert Blizzard's attention from Ludmilla. To avoid copyright issues, the team voted to rename it to MaNGOS on August 28, 2005.",
-            "With a strict policy against including copyrighted client data to remain legal under European law, MaNGOS attracted top developers like sioully, mmcs, and captnoord, evolving from a distraction into a massively successful open-source framework."
-        ],
-        "githubRepo": "cmangos/mangos-classic"
-    },
-    {
-        "id": "event-udb-modb-sdb",
-        "category": "tools",
-        "icon": "fa-solid fa-database",
-        "date": "2006 - 2007",
-        "title": "MoDB, SDB, and the Birth of UDB",
-        "tag": "Databases",
-        "paragraphs": [
-            "As MaNGOS refused to host database content for legal reasons, external projects like MoDB (MaNGOS Owns DB) and SDB stepped up. MoDB started from the 'Cindy' and 'PeachDB' bases, focusing heavily on adapting core mechanics alongside data.",
-            "To prevent fragmented efforts and hostility, developers from both MoDB and SDB (including Neo2003, Brian, and Cyrex) negotiated a merger. This resulted in the Unified Database (UDB), which became the premier database for MaNGOS."
-        ],
-        "githubRepo": "cmangos/classic-db"
     },
     {
         "id": "event-minor-emus-2006",
@@ -293,6 +266,32 @@ module.exports = [
         ]
     },
     {
+        "id": "event-wcell-foundations",
+        "category": "core",
+        "icon": "fa-brands fa-windows",
+        "date": "2006 - 2007",
+        "title": "WCell & The C# Revolution",
+        "tag": "Core Emulators",
+        "paragraphs": [
+            "Built entirely from the ground up in C#, WCell began development three years into WOWD's lifespan. The core team initially consisted of mgX, Craigen, biceps, and tobz, later joined by key figures like Ralek (who masterfully disassembled the WoW client) and Domi as project leader.",
+            "WCell 0.5 was the last major versioned release before the team transitioned to a continuous improvement model. Although barely playable in its infancy, it established a highly modular foundation distinctly separate from the dominant C++ emulators."
+        ],
+        "githubRepo": "WCell/WCell"
+    },
+    {
+        "id": "event-udb-modb-sdb",
+        "category": "tools",
+        "icon": "fa-solid fa-database",
+        "date": "2006 - 2007",
+        "title": "MoDB, SDB, and the Birth of UDB",
+        "tag": "Databases",
+        "paragraphs": [
+            "As MaNGOS refused to host database content for legal reasons, external projects like MoDB (MaNGOS Owns DB) and SDB stepped up. MoDB started from the 'Cindy' and 'PeachDB' bases, focusing heavily on adapting core mechanics alongside data.",
+            "To prevent fragmented efforts and hostility, developers from both MoDB and SDB (including Neo2003, Brian, and Cyrex) negotiated a merger. This resulted in the Unified Database (UDB), which became the premier database for MaNGOS."
+        ],
+        "githubRepo": "cmangos/classic-db"
+    },
+    {
         "id": "event-antrix-ascent-2007",
         "category": "core",
         "icon": "fa-solid fa-fire-flame-curved",
@@ -304,6 +303,19 @@ module.exports = [
             "Due to donation controversies and internal drama, Antrix was later rebranded as 'Ascent'. The community eventually fractured further into massive spin-offs like ArcEmu, Open Ascent, and AspireCore."
         ],
         "githubRepo": "arcemu/arcemu"
+    },
+    {
+        "id": "event-trinitycore-2008",
+        "category": "core",
+        "icon": "fa-brands fa-github",
+        "date": "2008",
+        "title": "TrinityCore Fork & Standardization",
+        "tag": "Core Emulators",
+        "paragraphs": [
+            "TrinityCore was formed as a major fork from MaNGOS. Driven by the community's desire for different architectural decisions and faster development cycles, the project rapidly gained traction.",
+            "It went on to become the absolute industry standard for 3.3.5a (Wrath of the Lich King) emulation, serving as the base for thousands of servers and heavily dictating the future of C++ WoW development."
+        ],
+        "githubRepo": "TrinityCore/TrinityCore"
     },
     {
         "id": "event-trinity-schism-2008",
@@ -319,19 +331,6 @@ module.exports = [
         "githubRepo": "TrinityCore/TrinityCore"
     },
     {
-        "id": "event-wcell-foundations",
-        "category": "core",
-        "icon": "fa-brands fa-windows",
-        "date": "2006 - 2007",
-        "title": "WCell & The C# Revolution",
-        "tag": "Core Emulators",
-        "paragraphs": [
-            "Built entirely from the ground up in C#, WCell began development three years into WOWD's lifespan. The core team initially consisted of mgX, Craigen, biceps, and tobz, later joined by key figures like Ralek (who masterfully disassembled the WoW client) and Domi as project leader.",
-            "WCell 0.5 was the last major versioned release before the team transitioned to a continuous improvement model. Although barely playable in its infancy, it established a highly modular foundation distinctly separate from the dominant C++ emulators."
-        ],
-        "githubRepo": "WCell/WCell"
-    },
-    {
         "id": "event-wcell-innovations-2009",
         "category": "core",
         "icon": "fa-solid fa-server",
@@ -343,6 +342,61 @@ module.exports = [
             "The project also introduced powerful, overlooked tools like the Packet Analyzer. However, progress was severely derailed in early 2009 when a catastrophic hardware failure at their hosting facility destroyed the team's wiki and forums, temporarily throwing the community into disarray."
         ],
         "githubRepo": "WCell/WCell"
+    },
+    {
+        "id": "event-noggit-era",
+        "category": "tools",
+        "icon": "fa-solid fa-map",
+        "date": "Mid 2000s - 2010s",
+        "title": "Noggit & Custom Map Editing",
+        "tag": "Development Tools",
+        "paragraphs": [
+            "Noggit emerged as the premier open-source world builder and map editor for the World of Warcraft client. Built by dedicated community reverse-engineers, it unlocked the ability to manipulate the game's ADT map files.",
+            "It allowed modders to sculpt terrain, paint textures, place WMOs and M2s (3D models), and completely overhaul the physical world of Azeroth, cementing itself as the backbone of custom client-side modding."
+        ],
+        "githubRepo": "noggit3/Noggit3"
+    },
+    {
+        "id": "event-titan-cancel-2014",
+        "category": "web",
+        "icon": "fa-solid fa-bomb",
+        "date": "May 2014",
+        "title": "Project Titan Cancelled — Overwatch Rises From Its Remains",
+        "tag": "Blizzard History",
+        "paragraphs": [
+            "After roughly seven years in development (from ~2007) and a public disclosure in 2011, Blizzard's next-gen MMO Titan was formally cancelled in May 2014 after the team 'couldn't find the fun.' The project had chased pure invention from internal prestige rather than external proof.",
+            "Assets and lessons from Titan were reborn as Overwatch, announced November 2014. The failure closed Blizzard's rock-star era and set the stage for the studio's later return to disciplined second-mover execution with Classic+."
+        ]
+    },
+    {
+        "id": "event-warmane-molten-2015",
+        "category": "web",
+        "icon": "fa-solid fa-rotate",
+        "date": "2015",
+        "title": "Molten-WoW Rebrands as Warmane",
+        "tag": "Community Hubs",
+        "relatedServers": [
+            "warmane"
+        ],
+        "paragraphs": [
+            "Warmane traces its roots to Molten-WoW, one of the oldest and largest WotLK communities, which rebranded as Warmane in 2015 following a merger with the Arena Tournament realm and its development team.",
+            "Under the Warmane banner the project consolidated Molten's population and infrastructure, growing into one of the most popular WotLK servers in the world."
+        ]
+    },
+    {
+        "id": "event-nostalrius-shutdown-2016",
+        "category": "web",
+        "icon": "fa-solid fa-gavel",
+        "date": "April 10, 2016",
+        "title": "Nostalrius Shuts Down After Blizzard C&D",
+        "tag": "Legal Milestone",
+        "relatedServers": [
+            "everlook"
+        ],
+        "paragraphs": [
+            "The high-profile Vanilla progressive realm Nostalrius received a Blizzard cease-and-desist and shut down on April 10, 2016, ending the most visible attempt to preserve original World of Warcraft at scale.",
+            "The shutdown sparked a global player campaign that directly led to Blizzard's official Classic initiative — an 18-month arc from private-server closure to BlizzCon announcement."
+        ]
     },
     {
         "id": "event-azerothcore-release-2016",
@@ -358,6 +412,33 @@ module.exports = [
         "githubRepo": "azerothcore/azerothcore-wotlk"
     },
     {
+        "id": "event-felmyst-cd-2017",
+        "category": "core",
+        "icon": "fa-solid fa-gavel",
+        "date": "July 2017",
+        "title": "The Rise and Fall of Felmyst",
+        "tag": "Legal Milestone",
+        "relatedServers": [
+            "felmyst"
+        ],
+        "paragraphs": [
+            "Felmyst was developed over nearly four years by a single developer, Gummy52, as a high-quality recreation of The Burning Crusade (patch 2.4.3). It launched in July 2017 and received a Blizzard cease-and-desist within five hours, shutting down the same day.",
+            "The takedown was so swift that the project never saw a full open launch, cementing Felmyst as one of the shortest-lived and most notorious TBC projects in the scene."
+        ]
+    },
+    {
+        "id": "event-wow-classic-announce-2017",
+        "category": "web",
+        "icon": "fa-solid fa-flag",
+        "date": "November 3, 2017",
+        "title": "Blizzard Announces WoW Classic at BlizzCon",
+        "tag": "Blizzard History",
+        "paragraphs": [
+            "At BlizzCon 2017 Blizzard announced World of Warcraft Classic, an official recreation of original WoW — the direct institutional answer to years of private-server demand validated by Nostalrius, Elysium and others.",
+            "The announcement recast private servers from competitors to proving grounds. Classic's later progression through to Mists of Pandaria and its seasonal experiments left the 'living Classic' question open — the gap private Vanilla+ projects would spend the next eight years filling until the 2025-2026 sweep."
+        ]
+    },
+    {
         "id": "event-tswow-release-2020",
         "category": "tools",
         "icon": "fa-brands fa-js",
@@ -371,13 +452,34 @@ module.exports = [
         "githubRepo": "tswow/tswow"
     },
     {
+        "id": "event-everlook-launch-2022",
+        "category": "core",
+        "icon": "fa-solid fa-flag",
+        "date": "November 2022",
+        "title": "Everlook Launches as a Vanilla Progressive Realm",
+        "tag": "Community Hubs",
+        "relatedServers": [
+            "everlook"
+        ],
+        "paragraphs": [
+            "Everlook launched on November 11, 2022 as a Vanilla 1.12.1 progressive PvP realm in the Nostalrius and Light's Hope lineage, growing a large community on a largely blizzlike 1x experience.",
+            "The realm's rapid rise highlighted the continued demand for faithful progressive Vanilla even years after the closures of Nostalrius and Light's Hope."
+        ]
+    },
+    {
         "id": "event-turtle-wow-leak-2024",
         "category": "core",
         "icon": "fa-solid fa-unlock-keyhole",
         "date": "September 2024",
         "title": "The Turtle WoW Core & Git Repository Leak",
         "tag": "Source Leak",
-        "relatedServers": ["turtle-wow", "octo-wow", "capybara-wow", "ravencraft", "caverns-of-time"],
+        "relatedServers": [
+            "turtle-wow",
+            "octo-wow",
+            "capybara-wow",
+            "ravencraft",
+            "everwood-wow"
+        ],
         "paragraphs": [
             "In September 2024, a historically significant leak occurred when a comprehensive Git repository dump containing Turtle WoW's proprietary server-side and client-side code (up to version 1.17) was published online and heavily mirrored across GitHub and RaGEZONE.",
             "The leak effectively democratized years of custom \"Classic+\" development, enabling other developers to spin up rival variants and allowing players to run offline single-player repacks. Concurrently, security advisories warned the community that certain client patching systems and Warden anti-cheat vulnerabilities in the leaked files could be manipulated to execute remote code payloads."
@@ -390,7 +492,14 @@ module.exports = [
         "date": "May 14, 2026",
         "title": "The Shutdown of Stormforge",
         "tag": "Legal Milestone",
-        "relatedServers": ["tauri", "stormforge-mistblade", "stormforge-wrath", "helios", "apollo-ii", "perseus"],
+        "relatedServers": [
+            "tauri",
+            "stormforge-mistblade",
+            "stormforge-wrath",
+            "helios",
+            "apollo-ii",
+            "perseus"
+        ],
         "paragraphs": [
             "Stormforge officially shut down on May 14, 2026, following direct legal intervention from Blizzard Entertainment. Occurring in tandem with the massive Turtle WoW legal crackdown, the closure ended over four years of highly regarded emulation services.",
             "Formed as a landmark merger between the Tauri and Atlantiss development teams, Stormforge combined Tauri's industry-leading Mists of Pandaria (MoP) core architecture with Atlantiss's highly optimized The Burning Crusade (TBC) framework, widely recognized by the community for achieving some of the highest scripting quality in the scene."
@@ -403,10 +512,44 @@ module.exports = [
         "date": "May 15, 2026",
         "title": "The Shutdown of Turtle WoW",
         "tag": "Legal Milestone",
-        "relatedServers": ["turtle-wow"],
+        "relatedServers": [
+            "turtle-wow"
+        ],
         "paragraphs": [
             "The popular custom \"Classic+\" private server Turtle WoW officially shut down on May 15, 2026, concluding nearly eight years of operation after a major federal copyright infringement lawsuit in California (Blizzard Entertainment, Inc. v. Turtle Wow).",
             "The lawsuit uniquely escalated by leveraging the RICO Act against individual developers and community managers while aggressively subpoenaing Discord, hosts, and payment processors. After the court ruled in Blizzard's favor on April 13, 2026, Turtle WoW agreed to a binding permanent injunction and permanently closed its servers."
+        ]
+    },
+    {
+        "id": "event-everlook-radio-reborn-2026",
+        "category": "core",
+        "icon": "fa-solid fa-radio",
+        "date": "May 2026",
+        "title": "Turtle WoW's In-Game Radio Outlives the Server",
+        "tag": "Community Hubs",
+        "relatedServers": [
+            "turtle-wow"
+        ],
+        "paragraphs": [
+            "Everlook Broadcasting Co., Turtle WoW's in-game radio station tuned via the minimap, kept broadcasting after the server shut down on May 15, 2026. The team rebranded as Out of Bounds Entertainment — 'Your Gaming Radio Station. From the old Everlook Broadcasting Co. team' — and continued streaming around the clock.",
+            "The in-game minimap tuner died with the server, but the station itself became one of the few pieces of the private-server community to outlive its home realm."
+        ]
+    },
+    {
+        "id": "event-ascension-rico-2026",
+        "category": "web",
+        "icon": "fa-solid fa-scale-balanced",
+        "date": "June 2026",
+        "title": "Blizzard Files RICO Lawsuit Against Ascension",
+        "tag": "Legal Milestone",
+        "relatedServers": [
+            "ascension",
+            "bronzebeard",
+            "conquest-of-azeroth"
+        ],
+        "paragraphs": [
+            "In June 2026 Blizzard filed a federal lawsuit against Ascension's founder and team, leveraging RICO allegations similar to those used in other major cases, over the classless-WoW project's custom launcher and infrastructure.",
+            "Ascension, which claimed over a million registered players, continued operating while the case moved through federal court."
         ]
     },
     {
@@ -425,78 +568,16 @@ module.exports = [
     {
         "id": "event-unreal-azeroth-2026",
         "category": "tools",
+        "icon": "fa-solid fa-cube",
         "date": "August 2026",
         "title": "Unreal Azeroth launches a from-scratch UE5 client",
         "tag": "Client Modding",
-        "relatedServers": ["emberveil"],
+        "relatedServers": [
+            "emberveil"
+        ],
         "paragraphs": [
             "Unreal Azeroth is a completely custom World of Warcraft client written from scratch in Unreal Engine 5. It is not a mod, a reshade, or an emulator patch, but a brand-new client built with proprietary in-house tooling that still speaks to 20-year-old vanilla-era servers.",
             "Following a closed beta, the client launched in Legacy Mode in August 2026, with the full UE5 Modern Mode, an Android build, and native VR support on the roadmap. Its in-built anti-cheat and extended engine limits (larger quest logs, ultrawide, action queueing) mark it as the first large-scale from-scratch recreation of classic Azeroth in a modern engine."
-        ]
-    },
-    {
-        "id": "event-felmyst-cd-2017",
-        "category": "core",
-        "icon": "fa-solid fa-gavel",
-        "date": "July 2017",
-        "title": "The Rise and Fall of Felmyst",
-        "tag": "Legal Milestone",
-        "relatedServers": ["felmyst"],
-        "paragraphs": [
-            "Felmyst was developed over nearly four years by a single developer, Gummy52, as a high-quality recreation of The Burning Crusade (patch 2.4.3). It launched in July 2017 and received a Blizzard cease-and-desist within five hours, shutting down the same day.",
-            "The takedown was so swift that the project never saw a full open launch, cementing Felmyst as one of the shortest-lived and most notorious TBC projects in the scene."
-        ]
-    },
-    {
-        "id": "event-everlook-launch-2022",
-        "category": "core",
-        "icon": "fa-solid fa-flag",
-        "date": "November 2022",
-        "title": "Everlook Launches as a Vanilla Progressive Realm",
-        "tag": "Community Hubs",
-        "relatedServers": ["everlook"],
-        "paragraphs": [
-            "Everlook launched on November 11, 2022 as a Vanilla 1.12.1 progressive PvP realm in the Nostalrius and Light's Hope lineage, growing a large community on a largely blizzlike 1x experience.",
-            "The realm's rapid rise highlighted the continued demand for faithful progressive Vanilla even years after the closures of Nostalrius and Light's Hope."
-        ]
-    },
-    {
-        "id": "event-everlook-radio-reborn-2026",
-        "category": "core",
-        "icon": "fa-solid fa-radio",
-        "date": "May 2026",
-        "title": "Turtle WoW's In-Game Radio Outlives the Server",
-        "tag": "Community Hubs",
-        "relatedServers": ["turtle-wow"],
-        "paragraphs": [
-            "Everlook Broadcasting Co., Turtle WoW's in-game radio station tuned via the minimap, kept broadcasting after the server shut down on May 15, 2026. The team rebranded as Out of Bounds Entertainment — 'Your Gaming Radio Station. From the old Everlook Broadcasting Co. team' — and continued streaming around the clock.",
-            "The in-game minimap tuner died with the server, but the station itself became one of the few pieces of the private-server community to outlive its home realm."
-        ]
-    },
-    {
-        "id": "event-warmane-molten-2015",
-        "category": "web",
-        "icon": "fa-solid fa-rotate",
-        "date": "2015",
-        "title": "Molten-WoW Rebrands as Warmane",
-        "tag": "Community Hubs",
-        "relatedServers": ["warmane"],
-        "paragraphs": [
-            "Warmane traces its roots to Molten-WoW, one of the oldest and largest WotLK communities, which rebranded as Warmane in 2015 following a merger with the Arena Tournament realm and its development team.",
-            "Under the Warmane banner the project consolidated Molten's population and infrastructure, growing into one of the most popular WotLK servers in the world."
-        ]
-    },
-    {
-        "id": "event-ascension-rico-2026",
-        "category": "web",
-        "icon": "fa-solid fa-scale-balanced",
-        "date": "June 2026",
-        "title": "Blizzard Files RICO Lawsuit Against Ascension",
-        "tag": "Legal Milestone",
-        "relatedServers": ["ascension", "bronzebeard", "conquest-of-azeroth"],
-        "paragraphs": [
-            "In June 2026 Blizzard filed a federal lawsuit against Ascension's founder and team, leveraging RICO allegations similar to those used in other major cases, over the classless-WoW project's custom launcher and infrastructure.",
-            "Ascension, which claimed over a million registered players, continued operating while the case moved through federal court."
         ]
     },
     {
@@ -506,7 +587,9 @@ module.exports = [
         "date": "August 2026",
         "title": "Emberveil Launches on a UE5 Vanilla Client",
         "tag": "Client Modding",
-        "relatedServers": ["emberveil"],
+        "relatedServers": [
+            "emberveil"
+        ],
         "paragraphs": [
             "Emberveil launched as a Vanilla 1.12.1 realm rebuilt inside a custom Unreal Engine 5 client — the first live realm on the from-scratch Unreal Azeroth client, opening on August 15, 2026.",
             "The realm's launch showcased the UE5 Vanilla experience at full scale, combining a modern client with faithful classic gameplay and a dedicated launch-day community event."
@@ -519,7 +602,11 @@ module.exports = [
         "date": "September 4, 2026",
         "title": "Project Ascension Shuts Down Under Blizzard Agreement",
         "tag": "Legal Milestone",
-        "relatedServers": ["ascension", "bronzebeard", "conquest-of-azeroth"],
+        "relatedServers": [
+            "ascension",
+            "bronzebeard",
+            "conquest-of-azeroth"
+        ],
         "paragraphs": [
             "On August 29, 2026 project lead Dutch announced on Discord that all of Ascension's emulated WoW realms will shut down on September 4, 2026 at 7:00 PM Pacific under a mutual agreement with Blizzard, following the June 12 RICO lawsuit (8:26-cv-01506 C.D. Cal). Support remains active through the final day, remaining timeline content will still release, then all WoW-related material will be removed from the website and social channels as development shifts to a new non-WoW project.",
             "The shutdown completes Blizzard's 2026 sweep of the largest custom Classic servers — Turtle WoW (May 15 consent judgment), Stormforge (May) and now the 10-year classless network that claimed over a million registered players — landing eight days before BlizzCon 2026 where a Classic+ reveal is widely expected."
