@@ -13,11 +13,10 @@ module.exports = async () => {
     try {
         const cur = await get(`/manifest/${TACT}/versions`);
         const seqns = await get(`/manifest/${TACT}/seqn/?file=versions&limit=9`);
-        const history = [];
-        for (const s of seqns.results) {
+        const history = await Promise.all(seqns.results.map(async s => {
             const v = await get(`/manifest/${TACT}/versions?seqn=${s.seqn}`);
-            history.push({ seqn: s.seqn, date: s.created_at.slice(0, 10), version: v.data[0].version_name });
-        }
+            return { seqn: s.seqn, date: s.created_at.slice(0, 10), version: v.data[0].version_name };
+        }));
         return {
             ok: true,
             tact: TACT,

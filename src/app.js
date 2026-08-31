@@ -4,6 +4,7 @@ const eraIcon = era => ERA_ICON[era] || "question";
 const iconFor = (name, tag) => SERVER_ICON[name] || ERA_ICON[ERA[tag] || "Other"] || "question";
 
 const scr = s => s.replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
+const safeUrl = u => typeof u === "string" && (/^https:\/\//.test(u) || u.startsWith("/")) ? u : "#";
 
 /* ---------- tabs ---------- */
 
@@ -78,11 +79,12 @@ let search = "";
 try {
     const saved = JSON.parse(localStorage.getItem("wowfilters") || "{}");
     status = ["all", "playable", "dev", "dead"].includes(saved.status) ? saved.status : "all";
-    tag = saved.tag || "all";
+    const allowedTags = new Set([...new Set(SERVERS.map(s => s.tag).filter(Boolean)), "all"]);
+    tag = allowedTags.has(saved.tag) ? saved.tag : "all";
     pop = ["all", "large", "medium", "small", "tiny", "unknown"].includes(saved.pop) ? saved.pop : "all";
-    search = saved.search || "";
+    search = typeof saved.search === "string" ? saved.search : "";
 } catch (e) {}
-const saveFilters = () => localStorage.setItem("wowfilters", JSON.stringify({ status, tag, pop, search }));
+const saveFilters = () => { try { localStorage.setItem("wowfilters", JSON.stringify({ status, tag, pop, search })); } catch (e) {} };
 
 const cards = document.getElementById("cards");
 const empty = document.getElementById("empty");
@@ -97,13 +99,13 @@ const cardHtml = s => {
     const ic = iconFor(s.name, s.tag);
     const vb = ICONVIEW[ic] || "0 0 512 512";
     return `
-    <article class="card card-st-${s.status}${s.status === "dead" ? " card-dead" : ""}">
+    <article class="card card-st-${["playable","dev","dead"].includes(s.status)?s.status:"unknown"}${s.status === "dead" ? " card-dead" : ""}">
         <div class="card-head">
             <span class="card-head-left">
                 <span class="card-emblem emblem-${slugify(ERA[s.tag] || "Other")}" aria-hidden="true"><svg viewBox="${vb}"><path d="${ICONPATHS[ic]}"/></svg></span>
                 <span class="server-name"><a class="server-link" href="/servers/${slugify(s.name)}/">${scr(s.name)}</a>${group}</span>
             </span>
-            <span class="badge ${STATUS[s.status].cls}">${STATUS[s.status].label}</span>
+            <span class="badge ${(STATUS[s.status]||{cls:"",label:scr(s.status)}).cls}">${(STATUS[s.status]||{cls:"",label:scr(s.status)}).label}</span>
         </div>
         <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${pop}${rel}${down}${visit}</div>
     </article>`;
@@ -187,7 +189,7 @@ if (!historyTools.querySelector(".chip[data-hcat]")) {
         btn.className = "chip";
         btn.dataset.hcat = c;
         btn.setAttribute("aria-pressed", "false");
-        btn.textContent = HTYPE[c].label;
+        btn.textContent = (HTYPE[c]||{label:c}).label;
         historyTools.appendChild(btn);
     }
 }
@@ -208,9 +210,9 @@ function renderHistory() {
     const histEmpty = document.getElementById("history-empty");
     tl.innerHTML = visible.map(h => {
         const icon = HTYPE[h.category] ? HTYPE[h.category].icon : "leaf";
-        const repo = h.githubRepo ? `<div class="timeline-repo"><a href="https://github.com/${scr(h.githubRepo)}" target="_blank" rel="noopener">${scr(h.githubRepo)}</a></div>` : "";
+        const repo = h.githubRepo ? `<div class="timeline-repo"><a href="https://github.com/${scr(h.githubRepo)}" target="_blank" rel="noopener noreferrer">${scr(h.githubRepo)}</a></div>` : "";
         return `
-        <div class="timeline-item" data-cat="${h.category}" id="${h.id}">
+        <div class="timeline-item" data-cat="${scr(h.category)}" id="${scr(h.id)}">
             <div class="timeline-marker" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="${ICONS[icon]}"/></svg></div>
             <div class="timeline-body">
                 <div class="timeline-date">${scr(h.date)}</div>
@@ -252,10 +254,10 @@ renderHistory();
 /* ---------- news / links ---------- */
 
 document.getElementById("news-list").innerHTML = NEWS.map(n =>
-    `<li><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="${scr(n.url)}">${scr(n.title)}</a></li>`).join("");
+    `<li><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="${scr(safeUrl(n.url))}">${scr(n.title)}</a></li>`).join("");
 
 document.getElementById("link-list").innerHTML = LINKS.map(l =>
-    `<li><a href="${scr(l.url)}" target="_blank" rel="noopener">${scr(l.title)}</a></li>`).join("");
+    `<li><a href="${scr(safeUrl(l.url))}" target="_blank" rel="noopener noreferrer">${scr(l.title)}</a></li>`).join("");
 
 /* ---------- keyboard shortcuts ---------- */
 
@@ -265,7 +267,8 @@ document.addEventListener("keydown", e => {
     const tabBtns = [...document.querySelectorAll(".tab")];
     const idx = ["1", "2", "3"].indexOf(e.key);
     if (idx !== -1 && !typing) {
-        showTab(tabBtns[idx].dataset.tab);
+        const tb = tabBtns[idx];
+        if (tb) showTab(tb.dataset.tab);
     } else if (e.key === "/" && !typing) {
         e.preventDefault();
         showTab("servers");
@@ -275,13 +278,13 @@ document.addEventListener("keydown", e => {
         const active = [...document.querySelectorAll("[data-theme-choice]")]
             .find(b => b.getAttribute("aria-pressed") === "true");
         const next = order[(order.indexOf(active ? active.dataset.themeChoice : "system") + 1) % order.length];
-        document.querySelector(`[data-theme-choice="${next}"]`).click();
+        document.querySelector(`[data-theme-choice="${next}"]`)?.click();
     }
 });
 
 /* ---------- initial tab + render ---------- */
 
-const initial = location.hash.replace("#", "") || "servers";
+const initial = location.hash.slice(1) || "servers";
 if (initial && HISTORY.some(h => h.id === initial)) {
     scrollToHistoryEvent(initial);
 } else {
@@ -299,6 +302,7 @@ function scrollToHistoryEvent(id) {
     const el = document.getElementById(id);
     if (el) {
         showTab("history");
+        history.replaceState(null, "", "#" + id);
         setTimeout(() => {
             el.scrollIntoView({ behavior: "smooth", block: "center" });
             el.style.outline = "2px solid var(--accent)";
@@ -308,9 +312,11 @@ function scrollToHistoryEvent(id) {
 }
 
 window.addEventListener("hashchange", () => {
-    const hash = location.hash.replace("#", "");
+    const hash = location.hash.slice(1);
     if (HISTORY.some(h => h.id === hash)) {
         scrollToHistoryEvent(hash);
+    } else if ([...tabs].some(t => t.dataset.tab === hash)) {
+        showTab(hash);
     }
 });
 
