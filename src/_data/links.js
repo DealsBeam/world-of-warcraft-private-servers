@@ -188,6 +188,10 @@ module.exports = [
         "url": "https://github.com/mangosfour/Server"
     },
     {
+        "title": "DestinyCore — Legion 7.3.5.26972 TrinityCore fork with PlayerBots (C++20, GPL-2.0)",
+        "url": "https://github.com/slash-design/DestinyCore"
+    },
+    {
         "title": "open-realm — WC3-primary C/MIT engine reimpl (WoW/SC2 exploratory, tools mpqtool/maptool)",
         "url": "https://github.com/corepunch/open-realm"
     },
