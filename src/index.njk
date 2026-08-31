@@ -145,7 +145,7 @@ extraScripts:
         "name": "World of Warcraft Private Servers",
         "itemListElement": [
         {% for s in servers %}
-        { "@type": "ListItem", "position": {{ loop.index }}, "name": "{{ s.name }}", "url": "https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/" }{{ "," if not loop.last }}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ s.name | dump | safe }}, "url": "https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/" }{{ "," if not loop.last }}
         {% endfor %}
         ]
     }

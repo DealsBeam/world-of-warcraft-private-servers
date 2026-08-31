@@ -16,12 +16,12 @@ layout: base.njk
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": "{{ title | escape }}",
-    "description": "{{ description | escape }}",
-    "datePublished": "{{ isoDate }}",
-    "author": {"@type": "Organization", "name": "{{ author | escape }}"},
+    "headline": {{ title | dump | safe }},
+    "description": {{ description | dump | safe }},
+    "datePublished": {{ isoDate | dump | safe }},
+    "author": {"@type": "Organization", "name": {{ author | dump | safe }}},
     "publisher": {"@type": "Organization", "name": "WoW Private Servers Tracker"},
-    "mainEntityOfPage": "{{ canonical }}",
+    "mainEntityOfPage": {{ canonical | dump | safe }},
     "image": "https://wowprivateservers.vercel.app/og.png"
 }
 </script>
