@@ -827,14 +827,14 @@ a.server-link:hover {
 
 .radio-now {
     font-size: 13px;
-    color: var(--text-dim);
+    color: var(--muted);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .radio-now.off {
-    color: var(--danger);
+    color: var(--red);
 }
 
 .radio-links {

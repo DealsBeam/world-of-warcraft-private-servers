@@ -17,8 +17,10 @@
     buttons.forEach(btn => {
         btn.addEventListener("click", () => {
             if (audio.paused) {
-                audio.play().catch(() => {});
-                setButtons(true);
+                audio.play().then(() => setButtons(true)).catch(() => {
+                    setButtons(false);
+                    nows.forEach(n => { n.textContent = "Playback blocked — tap Play again"; n.classList.add("off"); });
+                });
             } else {
                 audio.pause();
                 setButtons(false);
@@ -27,6 +29,10 @@
     });
 
     audio.addEventListener("pause", () => setButtons(false));
+    audio.addEventListener("error", () => {
+        setButtons(false);
+        nows.forEach(n => { n.textContent = "Stream error — retry Play or use direct link above"; n.classList.add("off"); });
+    });
 
     async function tick() {
         try {
