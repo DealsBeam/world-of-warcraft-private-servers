@@ -231,12 +231,12 @@ module.exports = [
     {
         "name": "Firestorm",
         "status": "playable",
-        "details": "The War Within (Dornogal) + legacy realms, 2.5-4k online",
+        "details": "TWW (Dornogal) + BFA: Reforged (launches Aug 31 11:00 CEST, >3600 queued, Plunderforged Bay, Felsong→Firestorm merge) + legacy realms, 2.5-4k online",
         "tag": "TWW",
         "group": "",
         "url": "https://firestorm-servers.com",
         "popTier": "large",
-        "updated": "2026-08-30"
+        "updated": "2026-08-31"
     },
     {
         "name": "Sirus",

@@ -8,6 +8,14 @@ module.exports = [
         "url": "https://github.com/CypherCore/CypherCore"
     },
     {
+        "title": "Eluna — Lua engine for AzerothCore/TrinityCore/MaNGOS (GPL-3.0, Lua 5.2 hooks)",
+        "url": "https://github.com/ElunaLuaEngine/Eluna"
+    },
+    {
+        "title": "Eluna Scripts — catalogue of Lua scripts for Eluna (AzerothCore/TrinityCore)",
+        "url": "https://elunascripts.github.io/"
+    },
+    {
         "title": "SPP-Classics CMaNGOS - Single Player Project releases for Vanilla/TBC/WotLK",
         "url": "https://github.com/celguar/spp-classics-cmangos/releases"
     },
