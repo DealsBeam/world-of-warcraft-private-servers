@@ -172,6 +172,10 @@ module.exports = [
         "url": "https://github.com/mangosfour/Server"
     },
     {
+        "title": "open-realm — WC3-primary C/MIT engine reimpl (WoW/SC2 exploratory, tools mpqtool/maptool)",
+        "url": "https://github.com/corepunch/open-realm"
+    },
+    {
         "title": "wowlib - C++26 library for reading/writing WoW client files, Python-bound via welder",
         "url": "https://github.com/skarndev/wowlib"
     },
@@ -258,5 +262,9 @@ module.exports = [
     {
         "title": "OpenWoW - from-scratch WotLK 3.3.5a client reimplementation (AGPL, no game code)",
         "url": "https://github.com/rkabachenko/OpenWow-snapshot"
+    },
+    {
+        "title": "Warcraft: Guardians of Azeroth 2 — CK3 total conversion (Azeroth map, not WoW server, requires Crusader Kings 3)",
+        "url": "https://github.com/Warcraft-GoA-Development-Team/Warcraft-Guardians-of-Azeroth-2"
     }
 ];
