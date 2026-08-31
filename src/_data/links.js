@@ -4,6 +4,10 @@ module.exports = [
         "url": "https://www.azerothcore.org"
     },
     {
+        "title": "CypherCore — C# port of TrinityCore (retail 12.1, .NET 8, GPL-3.0, reuses TDB/extractors)",
+        "url": "https://github.com/CypherCore/CypherCore"
+    },
+    {
         "title": "SPP-Classics CMaNGOS - Single Player Project releases for Vanilla/TBC/WotLK",
         "url": "https://github.com/celguar/spp-classics-cmangos/releases"
     },
@@ -28,8 +32,12 @@ module.exports = [
         "url": "https://pastebin.com/xG3yU0yx"
     },
     {
+        "title": "SahtoutCMS — AzerothCore WotLK 3.3.5 CMS (PHP/MIT, voting/shop/armory, SRP6)",
+        "url": "https://github.com/blodyiheb/SahtoutCMS"
+    },
+    {
         "title": "BFA-HavenCore - open-source WoW 8.3.7 (Battle for Azeroth) server emulator",
-        "url": "https://github.com/Hextv/BFA-HavenCore"
+        "url": "https://github.com/HavenWoW/BFA-HavenCore"
     },
     {
         "title": "EG-Source - open-source WotLK 3.3.5a server core powering Eternal Gaming",
@@ -206,6 +214,10 @@ module.exports = [
     {
         "title": "Sparus - cross-platform game launcher (Tauri) for installing and updating game clients",
         "url": "https://github.com/Ludea/Sparus"
+    },
+    {
+        "title": "Game-Launcher — modern WoW launcher (TLS cert, custom CDN, MIT, supports Mainline/Classic/Anniversary/Titan)",
+        "url": "https://github.com/Burralis/Game-Launcher"
     },
     {
         "title": "SuperApi - required dependency for SuperWoW functionality",
