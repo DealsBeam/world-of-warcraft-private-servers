@@ -73,11 +73,12 @@
     </div>
 
     <script src="/theme.js"></script>
-    <script>
-        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-    </script>
-    <script defer src="/_vercel/insights/script.js"></script>
     {% for s in extraScripts %}<script src="{{ s }}"></script>{% endfor %}
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script type="module">
+        import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@2/+esm';
+        inject();
+    </script>
 
 </body>
 </html>
