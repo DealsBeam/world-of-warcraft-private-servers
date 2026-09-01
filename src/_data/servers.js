@@ -339,12 +339,12 @@ module.exports = [
     {
         "name": "Project Legacy",
         "status": "playable",
-        "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection, 71 Discord online",
+        "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection. Open beta — 1,000+ accounts, 1,700+ characters, 14,400+ hours played, highest concurrent since launch, Murky companion reward for open-beta accounts",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://projectlegacy.pro/",
-        "updated": "2026-08-24",
-        "popTier": "tiny"
+        "updated": "2026-09-01",
+        "popTier": "small"
     },
     {
         "name": "Incursion-WoW",
@@ -374,6 +374,27 @@ module.exports = [
         "url": "https://www.elwynnkeep.com/",
         "updated": "2026-08-31",
         "popTier": "tiny"
+    },
+    {
+        "name": "Centurion — Legionnaire+",
+        "status": "playable",
+        "details": "Instant-60 Vanilla-1.12 mechanics on 3.3.5 client — Vanilla ranks/CC/cast times via the WotLK engine, custom PvP balance, full collision, factionless quest support, opt-in hardcore and transmog, no paywall",
+        "tag": "Vanilla+",
+        "group": "Centurion",
+        "url": "https://centurionpvp.com/",
+        "updated": "2026-09-01",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Centurion — Barracks+",
+        "status": "dev",
+        "details": "PvE sister to Legionnaire+ — same Vanilla-1.12-in-3.3.5 client core, no-bind loot, world PvP via playerbots, warmode flagging, open beta",
+        "tag": "Vanilla+",
+        "group": "Centurion",
+        "url": "https://centurionpvp.com/",
+        "release": "Open beta",
+        "updated": "2026-09-01",
+        "popTier": "unknown"
     },
     {
         "name": "OnlyFunsWoW",
