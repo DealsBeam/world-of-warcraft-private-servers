@@ -1,7 +1,6 @@
 ---
 title: "Black Temple live; Camelot at 69609; tracker at 102 servers; BlizzCon 13 days out"
 date: 2026-08-30
-link: "https://wowprivateservers.vercel.app/classic-plus/"
 ---
 
 Four updates before BlizzCon.
@@ -12,7 +11,7 @@ Burning Crusade Anniversary Phase 3 went live on schedule: Black Temple, Hyjal S
 
 ## Project Camelot — 1.60.1.69609 (Aug 29)
 
-The encrypted 1.60.1 branch bumped from 69407 (Aug 20) to 69609 (Aug 29) on WoW Dev 2, with intermediate 69555 builds on Aug 28. The steady cadence holds two weeks out — internal QA only, no PTR yet. Live via our [CDN watcher](https://blizztrack.com/view/wowdev2?type=versions).
+The encrypted 1.60.1 branch bumped from 69407 (Aug 20) to 69609 (Aug 29) on WoW Dev 2, with intermediate 69555 builds on Aug 28. The steady cadence holds two weeks out — internal QA only, no PTR yet. Live via our CDN watcher.
 
 ## Tracker now 102 servers
 

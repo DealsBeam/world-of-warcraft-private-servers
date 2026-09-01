@@ -1,7 +1,6 @@
 ---
 title: "Patch roundup: Legacy 1.12.4, Astral beta, Triumvirate Phase 2, Maelstrom Phase 5, Warstorm emerges"
 date: 2026-08-21
-link: "https://triumvirate-wow.com/"
 ---
 
 Five tracked servers made news this week — three shipping major content updates, one announcing its beta date, and one solo-focused realm stepping out of the shadows. All are live on the [tracker](/) now.

@@ -1,7 +1,6 @@
 ---
 title: "Modern QoL is coming to classic cores — the private server trend of 2026"
 date: 2026-08-21
-link: "https://therawow.com"
 ---
 
 The line between "old WoW" and "modern WoW" is blurring on private servers. The most interesting projects of 2026 are not re-creating 2004 more faithfully — they are porting retail's best quality-of-life systems onto classic cores, and players are voting with their subscriptions by canceling them.

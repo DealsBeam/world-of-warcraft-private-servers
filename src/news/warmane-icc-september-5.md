@@ -1,7 +1,6 @@
 ---
 title: "Warmane Onyxia: Icecrown Citadel releases September 5"
 date: 2026-08-23
-link: "https://forum.warmane.com/showthread.php?t=487437"
 ---
 
 Warmane has confirmed the date: **Icecrown Citadel opens on Onyxia realm September 5 at 14:00 UTC**. The Frozen Throne awaits — the final raid of Wrath of the Lich King arrives after a phased rollout that began with Molten Core and Zul'Aman on July 25, followed by Gruul's Lair on August 8.

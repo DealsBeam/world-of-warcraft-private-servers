@@ -1,10 +1,9 @@
 ---
 title: "Camelot watch: no new build Aug 30 — why 3 builds in 25h still reveal nothing"
 date: 2026-08-30
-link: "https://quissy.tv/project-camelot-builds-wow-classic-armory/"
 ---
 
-No new Project Camelot build on Aug 30 — `1.60.1.69609` (Aug 29 02:16 UTC) remains the tip. Our watcher still polls `wowdev2` via [Blizztrack](https://blizztrack.com/view/wowdev2?type=versions) and `cdn-last.json` is synced at `69609`.
+No new Project Camelot build on Aug 30 — `1.60.1.69609` (Aug 29 02:16 UTC) remains the tip. Our watcher still polls `wowdev2` via Blizztrack and `cdn-last.json` is synced at `69609`.
 
 The 25-hour surge still matters, but not for the reasons most posts imply.
 

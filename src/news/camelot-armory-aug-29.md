@@ -1,7 +1,6 @@
 ---
 title: "Three Camelot builds in 25 hours + WoW Armory adds Classic — Aug 28-29 surge"
 date: 2026-08-29
-link: "https://quissy.tv/project-camelot-builds-wow-classic-armory/"
 ---
 
 Two infrastructure signals in one window.
@@ -34,4 +33,4 @@ Useful on its own for era/anniversary populations. It would also make it easier 
 
 **Unconfirmed:** whether Camelot is Classic Plus, whether Armory was built for Camelot, any BlizzCon reveal/demo, any content in the builds, any alpha/beta/release date.
 
-Tracker: [Classic+ hub](/classic-plus/) timeline and Status Snapshot now through Aug 29 (69609). CDN: [BlizzTrack wowdev2](https://blizztrack.com/view/wowdev2?type=versions).
+Tracker: [Classic+ hub](/classic-plus/) timeline and Status Snapshot now through Aug 29 (69609). CDN: BlizzTrack wowdev2.

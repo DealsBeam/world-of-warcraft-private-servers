@@ -1,7 +1,6 @@
 ---
 title: "BlizzCon 2026 predictions: what to expect from the Classic+ reveal"
 date: 2026-08-26
-link: "https://news.blizzard.com/en-us/article/blizzcon-2026"
 summary: "Eighteen months of leaks point to one stage in Anaheim. Our scorecard of what Project Camelot will — and won't — show on September 12."
 ---
 

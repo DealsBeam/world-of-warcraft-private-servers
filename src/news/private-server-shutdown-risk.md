@@ -1,7 +1,6 @@
 ---
 title: "Will your private server survive? Reading shutdown risk in 2026"
 date: 2026-08-21
-link: "https://www.wowhead.com/classic/news/blizzard-wins-injunction-against-turtlewow-private-server-ordered-to-cease-and-381192"
 ---
 
 Every WoW private server player knows the feeling: you find a great community, invest six months into a character, and then one morning the launcher won't connect. In 2025–2026 that story repeated at a scale the scene had never seen — Turtle WoW, Stormforge, Project Epoch, Everlook, and possibly Project Ascension next. The servers didn't die of population loss or bad code. They were shut down by Blizzard's lawyers.

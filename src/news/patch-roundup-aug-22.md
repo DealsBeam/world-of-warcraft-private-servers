@@ -1,14 +1,13 @@
 ---
 title: "Patch roundup: Reforged WotLK v1.3.0 hits Faebright compat, Legacy 1.12.4 imminent"
 date: 2026-08-22
-link: "https://projectreforged.github.io/wotlk/"
 ---
 
 Two quick tracker-adjacent updates before the weekend.
 
 ## Project Reforged — WotLK v1.3.0 adds Faebright compatibility
 
-The HD visual-overhaul mod for the 3.3.5 client released v1.3.0 on August 21 with a dedicated compatibility patch for **Faebright** (tracked: [Faebright](/servers/faebright/)). The patch covers player/NPC models, buildings, creature textures, and Westfall foliage — meaning the mod now works out of the box on that realm without manual load-order juggling. Vanilla branch remains at v5.5.2 (June 24). → [projectreforged.github.io/wotlk/](https://projectreforged.github.io/wotlk/)
+The HD visual-overhaul mod for the 3.3.5 client released v1.3.0 on August 21 with a dedicated compatibility patch for **Faebright** (tracked: [Faebright](/servers/faebright/)). The patch covers player/NPC models, buildings, creature textures, and Westfall foliage — meaning the mod now works out of the box on that realm without manual load-order juggling. Vanilla branch remains at v5.5.2 (June 24). → projectreforged.github.io/wotlk/
 
 ## Project Legacy — Patch 1.12.4 this Wednesday
 

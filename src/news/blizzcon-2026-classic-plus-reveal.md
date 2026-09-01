@@ -1,7 +1,6 @@
 ---
 title: "Classic+ revealed at BlizzCon 2026: everything Blizzard announced"
 date: 2026-09-12
-link: "https://blizzcon.com"
 draft: true
 ---
 <!--

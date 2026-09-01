@@ -1,7 +1,6 @@
 ---
 title: "Project Ascension to shut down Sep 4 under Blizzard agreement — 10-year classless network ends 8 days before BlizzCon"
 date: 2026-08-29
-link: "https://massivelyop.com/2026/08/29/project-ascension-world-of-warcraft-emulator-is-shutting-down-following-apparent-blizzard-lawsuit-settlement/"
 ---
 
 All of Ascension's emulated WoW realms will shut down on **September 4, 2026 at 7:00 PM Pacific** (10:00 PM Eastern / Sep 5 02:00 UTC) under a mutual agreement with Blizzard. Project lead Dutch posted the notice on Discord August 29.
@@ -22,4 +21,4 @@ Ascension wasn't a blizzlike realm. Its hook was classless free-pick builds, cus
 
 The comparison to 2016 (Blizzard shuts Nostalrius → announces Classic at BlizzCon 2017) is unavoidable but not a promise. Holly Longdale already teased Classic's future on the State of Azeroth stage in January and got cut off mid-sentence — the staged blackout was deliberate. With Black Temple live Aug 27 and the 1.60 Camelot branches advancing to 69609 this week, the timing reads as house-clearing before a Classic+ reveal. It could also just be BlizzCon-adjacent housekeeping.
 
-Further coverage: [PCGamesN](https://www.pcgamesn.com/world-of-warcraft/project-ascension-shut-down) and [GameFragger](https://gamefragger.com/pc/warcraft/blizzards-private-server-sweep-claims-project-ascension-days-before-blizzcon-a29688). Prior suit coverage: [Blizzard's RICO suit against Ascension](/news/blizzard-rico-ascension/).
+Further coverage: PCGamesN and GameFragger. Prior suit coverage: [Blizzard's RICO suit against Ascension](/news/blizzard-rico-ascension/).

@@ -1,7 +1,6 @@
 ---
 title: "Warlords of Azeroth launches: full-loot Vanilla where Stranglethorn bites"
 date: 2026-08-21
-link: "https://warlords-of-azeroth.com/"
 ---
 
 A new Vanilla server launched today with a ruleset built on a contrarian bet: while most of the private scene races to add convenience, **Warlords of Azeroth** removes safety instead. The fresh AzerothCore realm — 3.3.5a, hard-capped at level 60, no Death Knights, no factions — divides the entire map into three colour-coded risk tiers. Die in a Safe zone and you lose nothing; die in Dangerous zones (most of the levelling world) and you drop your carried gold; die in Highly Dangerous zones like Stranglethorn, the Plaguelands or Silithus and your killer loots a chest containing your gold *and your gear*.

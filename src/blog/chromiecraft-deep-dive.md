@@ -17,7 +17,7 @@ That's the hook. Here's how it plays out in practice.
 | **Expansion** | WotLK 3.3.5a |
 | **Core** | AzerothCore (custom fork) |
 | **Type** | Non-profit, hyper-progressive |
-| **Website** | [chromiecraft.com](https://www.chromiecraft.com/) |
+| **Website** | chromiecraft.com |
 | **Discord** | 3.3k+ online |
 | **Population tier** | Large |
 | **Tag** | WotLK |

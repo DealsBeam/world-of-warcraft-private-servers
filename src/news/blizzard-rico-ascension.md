@@ -1,6 +1,5 @@
 ---
 title: "Blizzard v. Ascension lawsuit: September 8 answer deadline set"
 date: 2026-08-20
-link: "https://www.courtlistener.com/docket/73480810/blizzard-entertainment-inc-v-derek-s-powell/"
 ---
 The federal lawsuit against Project Ascension (Blizzard Entertainment, Inc. v. Derek S. Powell, No. 8:26-cv-01506, C.D. Cal.) has advanced to a concrete deadline: after waivers of service executed July 9 by Derek S. Powell, Bryan Thomas Mannion, Exalted Management Services, and Online Management Partners, the primary defendants must answer by September 8, 2026. Defense counsel appeared July 2 and July 10, and won a procedural skirmish, with Blizzard's early-discovery request withdrawn July 10. The docket has been quiet since July 13, and no emergency injunction has been filed, so all seven realms remain online with the shop active. Measured against the Turtle WoW precedent (complaint August 29, 2025, servers off May 15, 2026, eight and a half months), a negotiated settlement pointing to closure around late February or early March 2027 remains the most likely path. The answer deadline lands four days before BlizzCon 2026 (September 12-13, Anaheim), whose passes are now sold out.

@@ -1,10 +1,9 @@
 ---
 title: "Community lists scanned — 8 servers our tracker missed"
 date: 2026-08-25
-link: "https://www.reddit.com/r/wowservers/comments/123456/wow_private_scene/"
 ---
 
-We scanned two community-maintained lists today — a [Reddit compilation](https://www.reddit.com/r/wowservers/comments/123456/wow_private_scene/) and [Felbite's curated directory](https://felbite.com/private-servers/) — against our 102-server tracker.
+We scanned two community-maintained lists today — a Reddit compilation and Felbite's curated directory — against our 102-server tracker.
 
 ## Missing from our tracker (now added)
 

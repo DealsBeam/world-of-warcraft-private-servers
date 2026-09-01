@@ -1,7 +1,6 @@
 ---
 title: "Blizzard ports modern UI to Classic Era: Edit Mode and 41-yard nameplates go retro"
 date: 2026-08-21
-link: "https://www.warcrafttavern.com/wow-classic/news/"
 ---
 
 Blizzard quietly shipped one of the more telling updates of the year to its oldest game versions: **Edit Mode and 41-yard nameplates are now live on Classic Era, Hardcore and Season of Discovery**. The rollout completed in late July, and it's worth pausing on — because both features have a history that runs straight through the private server scene.

@@ -1,7 +1,6 @@
 ---
 title: "Black Temple opens on TBC Anniversary August 27"
 date: 2026-08-21
-link: "https://worldofwarcraft.com/en-us/news/24291476"
 ---
 
 Blizzard has confirmed the date: **Black Temple arrives on Burning Crusade Anniversary realms August 27**. Illidan Stormrage's fortress — the most iconic raid of the TBC era — opens its gates next Thursday, pushing official Classic players into the expansion's endgame stretch.

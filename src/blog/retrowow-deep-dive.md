@@ -17,7 +17,7 @@ Launched January 2015, RetroWoW is a 1.12.1 funserver with a defining feature: *
 | **Expansion** | Vanilla 1.12.1 |
 | **Type** | Funserver / Instant-60 |
 | **Launch** | January 2015 |
-| **Website** | [retro-wow.org](https://retro-wow.org/) |
+| **Website** | retro-wow.org |
 | **Population tier** | Small (est. few hundred active) |
 | **Tag** | Vanilla |
 

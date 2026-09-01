@@ -1,7 +1,6 @@
 ---
 title: "Tracker expands to 83 servers: Legion and Cataclysm coverage arrives"
 date: 2026-08-24
-link: "https://wowprivateservers.vercel.app/"
 ---
 
 The tracker grew from 71 to 83 servers this week after a scene-wide gap sweep — and for the first time it covers the **Legion** and **Cataclysm** private server eras, which had no entries at all despite hosting some of the scene's largest communities.

@@ -32,7 +32,7 @@ Restored in July with three realms split by playstyle (N'Zoth PvE / C'Thun Hardc
 
 **[Tracked: Ravencraft](/servers/ravencraft/) · Turtle 1.18.1 · Medivh launched Aug 22 · small**
 
-Built by former Turtle contributors, launched August 22 with a launch event running through August 29, and ships with [IchaLaunch](https://github.com/brutaliccus/IchaLaunch) — a proper launcher with addon and mod management. Credibility is its currency: these are the people who maintained Turtle.
+Built by former Turtle contributors, launched August 22 with a launch event running through August 29, and ships with IchaLaunch — a proper launcher with addon and mod management. Credibility is its currency: these are the people who maintained Turtle.
 
 **Strengths:** Institutional knowledge; tooling polish no competitor matches.
 **Risks:** Single realm; needs sustained content cadence to hold the launch spike.

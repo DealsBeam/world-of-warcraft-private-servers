@@ -1,7 +1,6 @@
 ---
 title: "Project Legacy 1.12.4 live; tracker at 93 servers; BlizzCon 19 days out"
 date: 2026-08-25
-link: "https://projectlegacy.pro/"
 ---
 
 Three updates.

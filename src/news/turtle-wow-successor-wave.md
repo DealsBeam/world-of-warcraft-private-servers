@@ -1,7 +1,6 @@
 ---
 title: "Where Turtle WoW players went: the successor wave of 2026"
 date: 2026-08-21
-link: "https://ravencraft.io/"
 ---
 
 When Turtle WoW went offline on May 15, 2026, it took one of the largest Vanilla+ communities with it — roughly eight years of custom content, a playerbase in the tens of thousands, and the most ambitious fan expansion Blizzard's lawyers had ever targeted. Three months later, the scene it left behind is not smaller. It is splintered, busy, and growing: server trackers have logged around twenty new World of Warcraft private servers in the past thirty days alone, many of them explicitly pitched at displaced Turtle players.

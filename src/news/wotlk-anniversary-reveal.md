@@ -1,7 +1,6 @@
 ---
 title: "WotLK Anniversary: release date, realms and features"
 date: 2026-09-12
-link: "https://worldofwarcraft.com"
 draft: true
 ---
 <!--
