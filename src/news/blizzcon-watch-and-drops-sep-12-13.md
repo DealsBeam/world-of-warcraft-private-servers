@@ -8,7 +8,7 @@ Blizzard's Sep 1 "Is Nearly Here" and "Know Before You Go" posts locked the view
 
 ## How to watch without a badge
 
-The Opening Ceremony and the main-stage panels will stream free on Blizzard's official YouTube and Twitch feeds. The ceremony traditionally opens around 11 AM Pacific on Saturday. The full programming schedule, viewership guide and floor map dropped alongside today's update, with the arena world championship, mythic dungeon international, the classic cup and the Saturday-evening community night and darkmoon faire also listed as on-site.
+The Opening Ceremony and the main-stage panels will stream free on Blizzard's official YouTube and Twitch feeds. The ceremony traditionally opens around 11 AM Pacific on Saturday. The full venue is Anaheim Convention Center (800 W Katella Ave, Anaheim, CA 92802), with badge pickup from Sep 11. The programming schedule, viewership guide and floor map dropped alongside today's update, with the arena world championship, mythic dungeon international, the classic cup and the Saturday-evening community night and darkmoon faire also listed as on-site.
 
 For Classic, the watch guide matters more than the floor map, because the Classic future reveal — the [Project Camelot](/classic-plus/) thread we track here, build 69638 on Sep 1 — is expected on the main stage, not in a hallway. If you are not in Anaheim, the free stream is the only stream that matters.
 
