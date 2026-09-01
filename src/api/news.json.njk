@@ -1,0 +1,8 @@
+---
+permalink: /api/news.json
+eleventyExcludeFromCollections: true
+---
+[
+{% for n in collections.news %}{ "title": {{ n.data.title | dump | safe }}, "date": "{{ n.date | isoDate }}", "url": "https://wowprivateservers.vercel.app{{ n.url }}", "summary": {{ (n.data.summary or "") | dump | safe }} }{{ "," if not loop.last }}
+{% endfor %}
+]

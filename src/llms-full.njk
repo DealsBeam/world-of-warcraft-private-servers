@@ -1,0 +1,46 @@
+---
+permalink: /llms-full.txt
+eleventyExcludeFromCollections: true
+---
+# World of Warcraft Private Servers — Full Text Dump
+
+Generated {{ site.reviewed }}. Tracker: {{ servers.length }} servers, {{ history.length }} history events, {{ collections.news.length }} news, {{ collections.blog.length }} blog, Classic+ {{ classicplus.entries.length }} entries. Not affiliated with Blizzard. Source: https://wowprivateservers.vercel.app/
+
+## Servers ({{ servers.length }})
+
+| name | status | tag | popTier | updated | url | details |
+|---|---|---|---|---|---|---|
+{% for s in servers %}| {{ s.name }} | {{ s.status }} | {{ s.tag }} | {{ s.popTier or "unknown" }} | {{ s.updated or s.shutdown or "" }} | {{ s.url or "" }} | {{ s.details | replace("\n", " ") | replace("|", "/") }} |
+{% endfor %}
+
+## Server pages
+
+{% for s in servers %}- https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/
+{% endfor %}
+
+## History ({{ history.length }})
+
+{% for h in history %}- {{ h.date }} — {{ h.title }} ({{ h.category }}) — {{ h.paragraphs | join(" ") | truncate(180) }}
+{% endfor %}
+
+## News
+
+{% for n in collections.news | reverse %}- {{ n.date | isoDate }} — {{ n.data.title }} — https://wowprivateservers.vercel.app{{ n.url }}
+  {{ n.templateContent | striptags | replace("\n", " ") | truncate(280) }}
+{% endfor %}
+
+## Blog
+
+{% for p in collections.blog | reverse %}- {{ p.date | isoDate }} — {{ p.data.title }} — https://wowprivateservers.vercel.app{{ p.url }}
+  {{ p.templateContent | striptags | replace("\n", " ") | truncate(280) }}
+{% endfor %}
+
+## Classic+ entries ({{ classicplus.entries.length }})
+
+{% for e in classicplus.entries | sort(attribute="date") %}- {{ e.date }} — {{ e.category }} — {{ e.title }} — {{ e.summary | truncate(160) }}
+{% endfor %}
+
+## Links ({{ links.length }}) — Mods & Creations directory
+
+{% for l in links %}- {{ l.title }} — {{ l.url }}
+{% endfor %}

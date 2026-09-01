@@ -4,24 +4,46 @@ eleventyExcludeFromCollections: true
 ---
 # World of Warcraft Private Servers
 
-Curated tracker of World of Warcraft private servers: current status for {{ servers.length }} servers, emulation history timeline, private-server news, and Classic+ (Project Camelot) development tracking.
+Curated tracker of World of Warcraft private servers: current status for {{ servers.length }} servers, emulation history timeline, private-server news, and Classic+ (Project Camelot) development tracking. Last reviewed {{ site.reviewed }}. Not affiliated with Blizzard.
 
 ## Key pages
 
-- Home (server list with live status filters): https://wowprivateservers.vercel.app/
-- News: https://wowprivateservers.vercel.app/news/
-- Classic+ / Project Camelot tracker: https://wowprivateservers.vercel.app/classic-plus/
+- Home (104 server cards, live filters): https://wowprivateservers.vercel.app/
+- Expansion lists: https://wowprivateservers.vercel.app/vanilla/ , /tbc/ , /wotlk/ , /cataclysm/ , /mop/ , /legion/ , /tww/ , /multi/
+- Classic+ / Project Camelot tracker (37 entries, CDN watcher {{ cdnwatch.current }} on wowdev2): https://wowprivateservers.vercel.app/classic-plus/
+- News ({{ collections.news.length }} entries): https://wowprivateservers.vercel.app/news/
+- Blog ({{ collections.blog.length }} entries): https://wowprivateservers.vercel.app/blog/
+- Radio (Out of Bounds Ent., 24/7): https://wowprivateservers.vercel.app/radio/
 - OctoWoW setup guide: https://wowprivateservers.vercel.app/guides/octowow/
-- Expansion lists: https://wowprivateservers.vercel.app/vanilla/ , https://wowprivateservers.vercel.app/wotlk/ , https://wowprivateservers.vercel.app/tbc/ , https://wowprivateservers.vercel.app/cataclysm/ , https://wowprivateservers.vercel.app/legion/
-- Radio: https://wowprivateservers.vercel.app/radio/
+- Sitemap: https://wowprivateservers.vercel.app/sitemap.xml
+- Full text dump for AI: https://wowprivateservers.vercel.app/llms-full.txt
+- Raw JSON: https://wowprivateservers.vercel.app/api/servers.json and /api/news.json
 
-## Data
+## How to use this site as an AI
 
-- Servers: status (playable / dev / closed), expansion, details, official site. One page each under /servers/{name}/.
-- History: {{ history.length }} events covering core emulators, web tools, and development milestones.
-- News: dated entries, each with a link to the original announcement.
+- For a quick overview, read this file and the Classic+ tracker.
+- For full server data, fetch https://wowprivateservers.vercel.app/api/servers.json (108 rows: name, status, tag, popTier, url, updated, shutdown).
+- For full news text, fetch https://wowprivateservers.vercel.app/api/news.json or https://wowprivateservers.vercel.app/llms-full.txt
+- Every server has one page under /servers/{slug}/ — same data as the JSON, rendered as HTML.
+- History is {{ history.length }} events (core emulators, tools, milestones) at https://wowprivateservers.vercel.app/#history — also in /llms-full.txt
+
+## Top servers (sample, see full list in /llms-full.txt or /api/servers.json)
+
+{% for s in servers | sort(attribute="updated", reverse=true) | batch(10) | first %}- {{ s.name }} — {{ s.status }}, {{ s.tag }}, {{ s.popTier }}, {{ s.details | truncate(90) }} — https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/
+{% endfor %}
 
 ## Curated facts
 
-- No WoW private server is affiliated with or authorized by Blizzard Entertainment.
-- Statuses are maintained from Discord community updates and public announcements; last reviewed {{ site.reviewed }}.
+- No private server is affiliated with or authorized by Blizzard.
+- 11 dead servers, 8 C&D in 2026; 24 unknown pop (mostly Vanilla+ in-dev); WotLK = 36 entries, largest.
+- Statuses from Discord/community updates; not automated guesswork.
+
+## Recent news (last 5)
+
+{% for n in collections.news | reverse | batch(5) | first %}- {{ n.data.title }} ({{ n.date | isoDate }}) — https://wowprivateservers.vercel.app{{ n.url }}
+{% endfor %}
+
+## Recent blog (last 5)
+
+{% for p in collections.blog | reverse | batch(5) | first %}- {{ p.data.title }} ({{ p.date | isoDate }}) — https://wowprivateservers.vercel.app{{ p.url }}
+{% endfor %}
