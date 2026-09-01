@@ -17,7 +17,7 @@ Not a pet, not a `/follow` macro, not a stat multiplier. A playerbot is a full A
 | Layer | What it does | Where you see it |
 |---|---|---|
 | **mod-playerbots (AzerothCore)** | Core module + DB `playerbots` table, chat commands `bot add/remove`, `AHbot`, `RandomBot` manager | `Warband` UI (roster/bags/groups), `Playerbots` GitHub (`mod-playerbots/mod-playerbots`) |
-| **Warband** | Vanilla-compatible UI for controlling bots — roster, bags, groups, raid fill | `https://github.com/Shyalya/warband` — Vanilla PartyBots/BattleBots |
+| **Warband** | Vanilla-compatible UI for controlling bots — roster, bags, groups, raid fill | Shyalya/warband — Vanilla PartyBots/BattleBots |
 | **AI tiers** | Rotation → role → encounter strategy | Tier 1: spell priority (Frostbolt > Fireball), Tier 2: tank/heal/dps role, Tier 3: *execute* ICC strat (Warstorm ICC25 HC) |
 | **Communication** | `WorldPacket` handling, `Eluna`/`AzerothCore` hooks, `Chat`/`Group` packets | Bots queue for dungeon finder like players |
 
