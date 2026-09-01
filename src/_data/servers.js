@@ -1049,5 +1049,15 @@ module.exports = [
         "url": "https://luntares.com/en",
         "updated": "2026-08-25",
         "popTier": "unknown"
+    },
+    {
+        "name": "Old Man Warcraft",
+        "status": "playable",
+        "details": "Custom WotLK 3.3.5a for adults — 1.5x, per-char Vanilla→WotLK to tier 18, bots/scale for solo/small groups, LLM chat, Mythic+, Nemesis, solo 3v3/1v1, guild villages",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://www.oldmanwarcraft.com",
+        "updated": "2026-09-01",
+        "popTier": "small"
     }
 ]
