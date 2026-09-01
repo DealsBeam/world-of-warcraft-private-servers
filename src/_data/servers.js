@@ -356,13 +356,23 @@ module.exports = [
         "popTier": "tiny"
     },
     {
-"name": "Project Astral",
+        "name": "Project Astral",
         "status": "playable",
         "details": "WotLK, 84 Discord online",
         "tag": "WotLK",
         "group": "",
         "url": "https://playastral.io/",
         "updated": "2026-08-24",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Elwynnkeep",
+        "status": "playable",
+        "details": "Blizzlike WotLK 3.3.5a on AzerothCore, no custom content, 1x, no shop, no P2W, weekly upstream sync, solo dev, 0 online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://www.elwynnkeep.com/",
+        "updated": "2026-08-31",
         "popTier": "tiny"
     },
     {
