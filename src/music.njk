@@ -1,0 +1,72 @@
+---
+layout: base.njk
+permalink: /music/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "Music — Azeroth Ambience"
+    canonical: "https://wowprivateservers.vercel.app/music/"
+    hero: "Music"
+    subtitle: "Azeroth Ambience — WoW music & ambience, pick a playlist and listen"
+    description: "Curated WoW music and ambience from The Azeroth Ambience (8.76k subs, 276 videos) — pick an expansion or a mix and listen. All via YouTube, no login, no ads on our side."
+---
+<section class="panel">
+    <h2>Azeroth Ambience — pick a playlist</h2>
+    <p>Curated by <strong>The Azeroth Ambience</strong> (8.76k subs, 276 videos) — the YouTube + YouTube Music channel at <code>UCIgRnXbPGUSfRvoc5M4qK1g / @TheAzerothAmbience</code>. All Expansions, Vanilla → Midnight, plus mixes and dungeons. YouTube embed, native controls, autoplay inside playlist. No login on our side.</p>
+
+    <div class="music-controls" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0">
+        <label for="pl">Playlist</label>
+        <select id="pl" style="min-width:280px;max-width:100%;padding:8px 10px;border:1px solid var(--border);background:var(--bg);color:var(--fg);border-radius:8px">
+            <option value="PLdi00J2VPi894WXz5nC12B5wGQJz3RdbG">All Music & Ambience 🌳 — 191</option>
+            <option value="PLdi00J2VPi8_atFpzWdkcFuDB1nhy1T0G">Vanilla Retail 🌲 — 54</option>
+            <option value="PLdi00J2VPi89qaaB-UkB6VVlh3UKwd63V">Classic ☘️ — 39</option>
+            <option value="PLdi00J2VPi89crjkpBmQOKd4DKtF5Evv-">TBC 🍂 — 32</option>
+            <option value="PLdi00J2VPi89qTzWjXJ9Lb3yeBROWelHd">Wrath ❄️ — 24</option>
+            <option value="PLdi00J2VPi89WBU8Lw-seHWuQM7FJ8Pug">Ultimate Mixes 🌳 — 19</option>
+            <option value="PLdi00J2VPi8-Lc4_ldzMIkVwQ_vWSn9nd">Legion 🔮 — 17</option>
+            <option value="PLdi00J2VPi89GNlVi3M21A8S-avwyUXjW">Dragonflight 🐉 — 13</option>
+            <option value="PLdi00J2VPi89lzUABgoQaiuMg3iRjdJbD">Shadowlands 🦋 — 11</option>
+            <option value="PLdi00J2VPi88_vIWlw51-MEND3UAMTzlS">Dungeons & Raids — 10</option>
+            <option value="PLdi00J2VPi8_TzGYg1w8m_sIu_06zDMUO">Cataclysm 🏜️ — 10</option>
+            <option value="PLdi00J2VPi8-Fl29c79kGft3ycwUrFwG6">MoP 🎋 — 9</option>
+            <option value="PLdi00J2VPi8-NauJTCD51f2_qaBQSe87L">Battle for Azeroth 🦜 — 9</option>
+            <option value="PLdi00J2VPi88v1BAhk5LRNxSLQuvw_3AL">Warlords 🌋 — 8</option>
+            <option value="PLdi00J2VPi89BbiADwnZ__I7BAxSeT-M7">Midnight 💜 — 5</option>
+            <option value="PLdi00J2VPi88sBlMIrMbmJY9qWvS8Gg-X">Skycraft Skyrim & WoW — 5</option>
+            <option value="PLdi00J2VPi8-NPUqIBqdZ8RGl1TeYjR5d">Special Themes ⛄️ — 4</option>
+            <option value="PLdi00J2VPi88lfBIJydcxidv-wtTNlE3G">War Within 🪨 — 4</option>
+            <option value="PLdi00J2VPi89bmQMyZkbdzwPg0eI0y8la">Skyrim ⚔️ — 2</option>
+        </select>
+        <span class="meta-info" id="pl-meta">191 videos — All</span>
+    </div>
+
+    <div style="position:relative;padding-top:56.25%;background:#000;border-radius:12px;overflow:hidden">
+        <iframe id="yt" style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/videoseries?list=PLdi00J2VPi894WXz5nC12B5wGQJz3RdbG" title="Azeroth Ambience player" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+
+    <p class="meta-info" style="margin-top:10px">Source: <a href="https://www.youtube.com/@TheAzerothAmbience/playlists" target="_blank" rel="noopener">youtube.com/@TheAzerothAmbience/playlists</a> · Music channel: <a href="https://music.youtube.com/channel/UCIgRnXbPGUSfRvoc5M4qK1g" target="_blank" rel="noopener">music.youtube.com/channel/UCIgRnXbPGUSfRvoc5M4qK1g</a> — YouTube embed, native controls, autoplay next inside playlist. No API key, no login.</p>
+</section>
+
+<section class="panel">
+    <h2>How it works</h2>
+    <ul class="plain-list">
+        <li>Pick a playlist → player swaps <code>list=</code> — YouTube handles the queue.</li>
+        <li>Use YouTube's own next/prev, shuffle, fullscreen, volume — same as on youtube.com.</li>
+        <li>Want just one video? Open any playlist on YouTube, copy the video URL, replace the iframe <code>src</code> with <code>https://www.youtube.com/embed/VIDEO_ID</code>.</li>
+        <li>Tip: All (191) is the jukebox; Classic/Wrath/TBC are the era picks your readers ask for most.</li>
+    </ul>
+    <p class="meta-info">If a playlist shows empty, the channel may have made it private — pick All or Classic as fallback. No data stored on our side.</p>
+</section>
+
+<script>
+(function(){
+  var sel=document.getElementById('pl'), meta=document.getElementById('pl-meta'), yt=document.getElementById('yt');
+  function upd(){
+    var opt=sel.options[sel.selectedIndex], id=opt.value, txt=opt.textContent;
+    yt.src='https://www.youtube.com/embed/videoseries?list='+id;
+    var m=txt.match(/—\s*(\d+)/); if(meta) meta.textContent=(m?m[1]:'')+' videos — '+txt.split('—')[0].trim();
+    try{localStorage.setItem('music_pl',id);}catch(e){}
+  }
+  sel.addEventListener('change', upd);
+  try{var saved=localStorage.getItem('music_pl'); if(saved){ for(var i=0;i<sel.options.length;i++) if(sel.options[i].value===saved){ sel.selectedIndex=i; break; } upd(); }}catch(e){}
+})();
+</script>
