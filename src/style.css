@@ -1712,7 +1712,8 @@ textarea {
 }
 
 .news-post img {
-    max-width: 100%;
+    max-width: 720px;
+    width: 100%;
     height: auto;
     display: block;
     margin: 18px auto;
