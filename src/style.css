@@ -1710,3 +1710,12 @@ textarea {
     text-transform: uppercase;
     color: var(--gold);
 }
+
+.news-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 18px auto;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
