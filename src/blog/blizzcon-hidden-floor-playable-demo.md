@@ -7,7 +7,14 @@ summary: "BlizzCon's Sep 1 'Know Before You Go' post published the programming s
 
 BlizzCon's Sep 1 "Know Before You Go" post did two things at once: it published the schedule and it published a map that is not a map.
 
-Two images went up — `BC26_FullSchedule_16x9_Day1 REV.png` and `Day2 REV.png` — with the line "Times and programming are subject to change. After Opening Ceremony, check back here or visit `blizzcon.com/schedule` to see the full updated schedule." One image went up for the floor — `BC26_MAP_FINAL_831.png` — with the line "Here's a first look at the BlizzCon show floor map, but a **few areas are still under wraps. Check back here and on `blizzcon.com/floor-map` after Opening Ceremony when all will be revealed!**"
+![BlizzCon 2026 Day 1 Schedule](https://bnetcmsus-a.akamaihd.net/cms/gallery/tv/TV8YAXMS7WYL1788227248483.png)
+*Day 1 — Sep 12 — Opening Ceremony at 10:30 PDT, then check back after for the full updated schedule.*
+
+![BlizzCon 2026 Day 2 Schedule](https://bnetcmsus-a.akamaihd.net/cms/gallery/md/MD55AZNNHIEF1788227283315.png)
+*Day 2 — Sep 13 — "Times and programming are subject to change. After Opening Ceremony, check back here or visit blizzcon.com/schedule to see the full updated schedule."*
+
+![BlizzCon 2026 Floor Map — a few areas still under wraps](https://bnetcmsus-a.akamaihd.net/cms/gallery/mw/MW1J6WF0V7T41788217357398.png)
+*Floor map — Hall D Opening Ceremony, Hall E Registration, North Hall Merch, but a few areas still under wraps. Check back after Opening Ceremony when all will be revealed!* — the gray is the tell.
 
 Every other detail on the page is published: Anaheim Convention Center (800 W Katella Ave), Hall D Opening Ceremony (doors 9:00, start 10:30 PDT, first-come), Hall E Registration (Sep 11 13:00-21:00, Sep 12-13 07:00-18:00), North Hall 1st Floor Merch (walkthrough shop, cashless, click-and-collect Sep 8), North Hall 2nd Floor Darkmoon Faire and After Hours (BRB band), Arena Plaza Murloc March Sep 13 11:45 emerald green, South Hall 2nd floor Inclusion Nexus, Community Night Sep 12 4:45-7pm Hall D, esports (AWC, MDI, Classic Cup, Overwatch World Cup, Hearthstone Masters), viewership rewards, Digital Bundles through Sep 28.
 
