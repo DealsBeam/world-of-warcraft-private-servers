@@ -182,13 +182,13 @@ eleventyComputed:
     <p class="meta-info">Design questions compiled from ongoing community discussion and surveys.</p>
 </section>
 
-{% set deepDiveStubs = collections.blog | filterBlogByTag("deep-dive") %}
+{% set deepDiveStubs = collections.blog | filterBlogByTag("deep-dive") | selectattr("data.excerpt") %}
 {% if deepDiveStubs.length > 0 %}
 <section class="panel cp-deep-dives cp-span-full">
     <h2>Deep Dives</h2>
     <ul class="plain-list">
     {% for p in deepDiveStubs %}
-        <li><a href="{{ p.url }}">{{ p.data.title }}</a> — {{ p.data.excerpt or 'In progress' }}</li>
+        <li><a href="{{ p.url }}">{{ p.data.title }}</a> — {{ p.data.excerpt }}</li>
     {% endfor %}
     </ul>
 </section>
