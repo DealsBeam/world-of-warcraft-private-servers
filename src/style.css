@@ -1501,6 +1501,12 @@ textarea {
 .med-blog-explainers { --era: var(--era-blog-explainers); }
 .med-blog-guides { --era: var(--era-blog-guides); }
 .med-blog-post-mortems { --era: var(--era-blog-post-mortems); }
+.med-blog-analysis { --era: var(--era-blog-explainers); }
+.med-blog-opinion { --era: var(--era-blog-guides); }
+.med-blog-community { --era: var(--era-blog-explainers); }
+.med-blog-comparison { --era: var(--era-blog-guides); }
+.med-blog-deep-dive { --era: var(--era-blog-explainers); }
+.med-blog-news { --era: var(--era-blog-explainers); }
 
 .era-title .medallion {
     width: 24px;
@@ -1647,8 +1653,8 @@ textarea {
 }
 
 .blog-card-head .medallion {
-    width: 42px;
-    height: 42px;
+    width: 32px;
+    height: 32px;
 }
 
 .blog-card-head .blog-cat {
