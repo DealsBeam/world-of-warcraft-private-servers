@@ -32,6 +32,22 @@ extraScripts:
             <div class="stat stat-red"><span class="stat-num">{{ servers | countByStatus("dead") }}</span><span class="stat-label">Dead</span></div>
         </div>
 
+        <section class="panel" style="border:1px solid var(--border);background:linear-gradient(180deg, rgba(196,154,40,0.08), transparent 60%)">
+            <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
+                <img src="/images/hero-3.jpeg" alt="" width="96" height="64" style="object-fit:cover;border-radius:8px;flex:0 0 auto">
+                <div>
+                    <h2 style="margin:0;font-size:1.05rem">⭐ Featured Creator — Malonze Gaming</h2>
+                    <p class="meta-info" style="margin:4px 0 8px">1.74k subs, 592 videos — WoW private servers (Ascension, Turtle, Octo, Epoch) + Malonze Productions Cosplay (174, leather armor, Metrocon 2019 pet dragon award). He reviewed our tracker 13 days ago.</p>
+                    <p style="margin:0;display:flex;gap:8px;flex-wrap:wrap">
+                        <a class="chip active" href="/creators/malonze-gaming/">View feature →</a>
+                        <a class="chip" href="https://www.youtube.com/@MalonzeGaming" target="_blank" rel="noopener">YouTube Gaming</a>
+                        <a class="chip" href="https://www.youtube.com/@malonzeproductionscosplay3673" target="_blank" rel="noopener">Cosplay</a>
+                        <a class="chip" href="https://www.etsy.com/shop/MalonzeProductions" target="_blank" rel="noopener">Etsy Shop</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
         {% set recent = servers | selectattr("updated") | sort(attribute="updated", reverse=true) | list %}
         {% if recent | length %}
         <section class="panel recent-panel">
