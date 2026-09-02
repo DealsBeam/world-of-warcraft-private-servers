@@ -5,15 +5,23 @@ category: analysis
 summary: "300,000 responses across 57 questions, three buckets — The World, The Player, The Systems — and one tracker with 107 servers. This is not another 'what do you want?' list. It is what the survey says players want versus what the private scene has actually shipped."
 ---
 
-The biggest number in the Classic Plus conversation is not a build string. It is 300,000 — the survey responses collected across 57 questions at wowclassic dot plus, sorted into three buckets the community now uses as shorthand: **The World**, **The Player**, **The Systems**. The survey does not speak for Blizzard and it does not ship a product. But with BlizzCon 12 days out and every leaker's "most requested" list reading from the same leak, the survey is the closest thing to a census the scene has.
+The biggest number in Classic Plus is not a build string. It is 300,000.
 
-This post is not another census rehash. Our tracker has 107 servers, 46 history events and 37 Classic Plus entries. Put the wishlist next to the inventory and you get a gap map: what the survey says players want that the private scene — even the most ambitious corner of it, Vanilla+ — has not built yet.
+That is the survey responses at wowclassic dot plus. 57 questions, three buckets: **The World**, **The Player**, **The Systems**.
+
+The survey does not speak for Blizzard. It does not ship a product. But with BlizzCon 12 days out, it is the closest census the scene has.
+
+This is not a census rehash. Our tracker has 107 servers, 46 history events, 37 Classic Plus entries.
+
+Put the wishlist next to the inventory and you get a gap map. What the survey wants that Vanilla+ has not built.
 
 ## How to read this
 
-Each table = one bucket. Each row = one request that ranks high in the survey's category. The two right columns = how many tracked servers ship it now, and what that means for a hypothetical official Classic Plus reveal on Sept 12.
+Each table = one bucket. Each row = one high-ranked request.
 
-We write with no outbound links. The survey is named, not linked. The tracker is the receipt.
+Two right columns = how many tracked servers ship it now, and what it means for a Sep 12 reveal.
+
+We name the survey, not link it. The tracker is the receipt.
 
 ## The World — where to go
 
@@ -27,7 +35,13 @@ We write with no outbound links. The survey is named, not linked. The tracker is
 | New dungeon at 60 | 10- and 20-man both polled, 10-man leads | 3 partial. Project Legacy's custom Guardian of Hyjal and related world bosses are the only live custom endgame that is not a rescaled old raid. The rest are scaled old dungeons, not new ones. | Medium. |
 | New raid at 60 | 20-man preferred over 40, but both requested | 1-2 partial. Legacy's refreshed 25-player raids, a couple of Turtle-derived custom-boss packs. Nothing in 2026 has shipped a live original raid instance with a full loot table. | Large. |
 
-**Read:** The World bucket is the one the survey and the leak thread agree on most, and it is also the one the private scene has delivered least. Private Vanilla+ in 2026 is 18 entries, 8 playable, 7 in dev, 3 dead, 10 of 18 unknown population. That column has not shipped a new zone, despite being the column whose identity is "new content in the old world." If Classic Plus opens with Mount Hyjal and one new 20-man on stage, the private gap is a two-year lead the official product can take in one patch.
+**Read:** The World bucket is where survey and leak thread agree most.
+
+It is also where private has delivered least. Vanilla+ in 2026 is 18 entries, 8 playable, 7 in dev, 3 dead, 10 unknown.
+
+That column has not shipped a new zone, despite being "new content in the old world."
+
+If Classic Plus opens with Hyjal and one new 20-man, the private gap is a two-year lead the official product can take in one patch.
 
 ## The Player — who to be
 
@@ -40,7 +54,11 @@ We write with no outbound links. The survey is named, not linked. The tracker is
 | Level cap | "Stay 60 forever" vs "raise to 70/80" — 60 holds a narrow lead | 0 raise. Every tracked Vanilla/Vanilla+ live stays 60. Only TWW/MoP/Legion rows raise. | No gap if 60 is the answer; large gap if Plus raises. Watch the level on Sept 12. |
 | Professions — new recipes, not new profession | Mid-rank | 2-3 partial. Legacy has new crafted tiers, a couple of progressive Vanilla rows add select recipes. No full profession rework live. | Medium. |
 
-**Read:** The Player bucket is where private servers move fastest, because a new talent or a new spell is cheaper to ship than a new zone. Even there, the single most popular ask — one new race/class combo that is lore-light, like Dwarf Shaman — is 0 for 107. That tells you private Classic+ has been conservative where the survey is permissive.
+**Read:** The Player bucket is where private moves fastest. A new talent or spell is cheaper than a new zone.
+
+Even there, the top ask — one lore-light race/class like Dwarf Shaman — is 0 for 107.
+
+That says private Classic+ has been conservative where the survey is permissive.
 
 ## The Systems — how to play
 
@@ -53,16 +71,32 @@ We write with no outbound links. The survey is named, not linked. The tracker is
 | Achievements / transmog | Mid, but divisive — Classic purists split hard | Achievements 0, transmog 4-5 live (Old Man Warcraft, Warstorm, Valanior and others). The survey's most controversial row is the one private servers already decided: transmog yes for QoL, achievements mostly no. | Mixed. |
 | Pet battles, housing | Bottom — explicitly rejected | 0. Also rejected by the survey. No gap. | None. At least everyone agrees. |
 
-**Read:** Systems is the bucket where the survey and the tracker overlap most. Cross-faction is done. Guild banks just barely. Heroic dungeons — the single most wanted — is 0 for 107 at Classic scope, which is also the gap an official reveal can fill most cleanly with one toggle.
+**Read:** Systems is where survey and tracker overlap most.
+
+Cross-faction is done. Guild banks just barely. Heroic — the single most wanted — is 0 for 107 at Classic scope.
+
+That gap is the one an official reveal can fill most cleanly with one toggle.
 
 ## What the gap map says before BlizzCon
 
-Three lines:
+**1. Biggest asks are geography.** Hyjal, Uldum, Gilneas, Quel'Thalas, Silithus, new 60 raid — 7 of 7 unshipped live.
 
-**1. The biggest asks are geography.** Mount Hyjal, Uldum, Gilneas, Quel'Thalas, Silithus, a new 60 raid — 7 of 7 are unshipped on the live tracker. No private server has a playable zone that survives the "would I run this on Classic+" test at the same fidelity as Black Temple on Anniversary. If Classic Plus opens with one new zone, the gap is a mic drop.
+No private server has a playable zone that survives the "would I run this on Classic+" test at Black Temple fidelity.
 
-**2. The easiest asks are not shipped.** Dwarf Shaman is lore, a trainer and a quest. Heroic dungeons are a toggle and a loot table. Both are top-5 requests and both are 0. That is not a technical limit; it is a choice private teams made to keep Classic looking like Classic. An official team does not face that constraint.
+If Classic Plus opens with one new zone, the gap is a mic drop.
 
-**3. Where private does move — talents, cross-faction, transmog — it moves first.** Those are the systems your 107 already live. If Classic Plus ships those three, it will feel like a catch-up, not a reveal. The reveal will be Hyjal, heroic, and whatever level number is in the corner of the trailer.
+**2. Easiest asks are not shipped.** Dwarf Shaman is lore, a trainer and a quest.
 
-Twelve days out, that is the gap. 300,000 votes want Hyjal and a new class table. 107 servers have the class table half-built and Hyjal not at all. Watch Sept 12 for which column moves first.
+Heroic is a toggle and a loot table. Both top-5, both 0.
+
+Not a technical limit. A choice to keep Classic looking like Classic. Official does not face that constraint.
+
+**3. Where private moves — talents, cross-faction, transmog — it moves first.**
+
+Those systems your 107 already live. If Classic Plus ships those three, it feels like catch-up, not reveal.
+
+The reveal will be Hyjal, heroic, and the level number in the trailer corner.
+
+Twelve days out, that is the gap. 300k votes want Hyjal and a new class table.
+
+107 servers have the class table half-built and Hyjal not at all. Watch Sep 12 for which column moves first.
