@@ -1057,7 +1057,17 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://www.oldmanwarcraft.com",
-        "updated": "2026-09-01",
+        "updated": "2026-09-02",
+        "popTier": "small"
+    },
+    {
+        "name": "Felskorn",
+        "status": "playable",
+        "details": "Vanilla content on WotLK 3.3.5a, level 60, Corruption/Powers, Random Enchants (800+), Awakened Items, Prestige, cross-faction, solo friendly, relaunch Sep 1 2026",
+        "tag": "Vanilla+",
+        "group": "",
+        "url": "https://felskorn.com/",
+        "updated": "2026-09-02",
         "popTier": "small"
     }
 ]
