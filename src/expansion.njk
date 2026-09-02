@@ -30,6 +30,13 @@ eleventyComputed:
     </div>
 </div>
 
+{% if expansionIntros[eraGroup.era] %}
+<section class="expansion-intro" style="max-width: 75ch; line-height: 1.6; margin: 1.5rem 0;">
+{{ expansionIntros[eraGroup.era] | safe }}
+<p class="meta-info">Guide category: guides · updated 2026-09-02 · <a href="/">tracker</a> · <a href="/servers/">servers</a></p>
+</section>
+{% endif %}
+
 <div class="cards">
 {% for s in eraGroup.servers %}
 {{ card(s) }}

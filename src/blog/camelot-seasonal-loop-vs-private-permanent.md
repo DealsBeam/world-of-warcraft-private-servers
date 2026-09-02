@@ -1,7 +1,6 @@
 ---
 title: "Camelot's rumored seasonal loop — why private servers don't reset"
-date: 2026-09-03
-draft: true
+date: 2026-09-02
 category: analysis
 summary: "Frosty's Sep 1 leak says Classic Plus will run a 24-month seasonal content cycle as a premium box purchase. Private servers do the opposite: permanent worlds that never reset. Here is why seasonal stops pop decay, why private won't do it, and what the gap means for Sep 12."
 ---

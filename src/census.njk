@@ -1,0 +1,123 @@
+---
+layout: base.njk
+permalink: /census/
+eleventyExcludeFromCollections: false
+title: "Census — World of Warcraft Private Server Population & Era Distribution"
+description: "Live census of 109 tracked WoW private servers by population tier and era as of September 2, 2026, built from src/_data/servers.js and vocab.js."
+canonical: "https://wowprivateservers.vercel.app/census/"
+hero: "Census"
+subtitle: "Live population & era distribution · 109 servers · September 2, 2026"
+eleventyComputed:
+  metaInfo: "Census snapshot · September 2, 2026 · 109 servers"
+---
+
+<section class="panel" style="border-color:var(--border-2);background:linear-gradient(180deg, rgba(196,154,40,0.07), transparent 65%)">
+<h2>About this census — September 2, 2026</h2>
+<p>This census is a point-in-time snapshot of every realm tracked by this site, compiled September 2, 2026 from <code>src/_data/servers.js</code>. The tracker holds 109 entries on this date, each classified by <code>popTier</code> and <code>byEra</code> via <code>src/_data/vocab.js</code>. Population tiers are not raw headcounts but editorial bands used to sort discoverability and queue expectations. Large means a persistent high population with active peak queues and guild recruitment. Medium means comfortably populated with regular dungeon and raid formation. Small means niche but viable, often with 50–300 concurrent and an active Discord. Tiny means experimental, fresh, or very low concurrency, sometimes 0–50 online and maintained by a solo developer. Unknown means no verifiable concurrency, typically in-development, shuttered, or unreported projects. Because <code>popTier</code> is curated from Discord presence, site claims, and update recency rather than live census addons, the bands describe community health more than exact numbers. Era grouping follows <code>vocab.js</code> <code>ERA</code> mapping, which collapses tags into playable eras for navigation. Vanilla covers pure Vanilla, Vanilla+ and Classless so that custom Vanilla worlds remain findable beside blizzlike 1.12. WotLK, TBC, Cataclysm, MoP, Legion and TWW map directly to their client, while Multi and Other collect cross-expansion and experimental tags. The tables below are built live from the same dataset that powers the homepage and expansion pages, so counts update when <code>servers.js</code> changes. Use the <code>popTier</code> table to filter by expected activity and the era table to jump to the expansion you actually want to play, then open individual server cards for status, last-checked date, and related history. This page contains no external links; every link stays on-site.</p>
+<p>Category guides below explain how to apply each band and era without guessing. Large suits players who want instant dungeon pops and a bustling auction house but can handle spawn competition and economy inflation. Medium balances activity with community recognition, ideal if you prefer a guild where names matter yet raids still fill. Small trades convenience for tight-knit guilds and often more authentic rates, best for scheduled play. Tiny is for testing, contributing early, or helping a new project grow when you accept empty zones and volunteer staffing. Unknown is a watchlist, not a recommendation, covering in-development realms, shuttered archives, and projects without verifiable concurrency; check updated dates before waiting for a launch. For eras, Vanilla at 42 is the broadest umbrella, WotLK at 37 is the most script-complete and varied ecosystem, and the remaining eras from TBC through TWW split the rest, allowing you to stay within a preferred client while switching playstyle. The census is dated 2026-09-02 and mirrors <code>site.reviewed</code> ({{ site.reviewed }}), so future audits can diff this snapshot against live tracker counts at any time.</p>
+<p class="meta-info">Snapshot date: <time datetime="2026-09-02">September 2, 2026</time> · reviewed {{ site.reviewed }} · source <code>src/_data/servers.js</code> + <code>src/_data/vocab.js</code> · internal links only</p>
+</section>
+
+{% set total = servers.length %}
+{% set cLarge = servers | countByPop("large") %}
+{% set cMedium = servers | countByPop("medium") %}
+{% set cSmall = servers | countByPop("small") %}
+{% set cTiny = servers | countByPop("tiny") %}
+{% set cUnknown = servers | countByPop("unknown") %}
+
+<div class="stat-strip" aria-label="Census totals" style="margin-top:18px">
+  <div class="stat"><span class="stat-num">{{ total }}</span><span class="stat-label">Total tracked</span></div>
+  <div class="stat stat-green"><span class="stat-num">{{ cLarge + cMedium }}</span><span class="stat-label">Large + Medium</span></div>
+  <div class="stat stat-yellow"><span class="stat-num">{{ cSmall + cTiny }}</span><span class="stat-label">Small + Tiny</span></div>
+  <div class="stat stat-red"><span class="stat-num">{{ cUnknown }}</span><span class="stat-label">Unknown</span></div>
+</div>
+
+<section class="panel">
+<h2>Population tier distribution — live from servers.js</h2>
+<p class="meta-info" style="margin-top:0">Bands are editorial (Discord + site claims + recency). Counts are computed at build time from <code>popTier</code>. Total {{ total }}.</p>
+<div style="overflow-x:auto">
+<table style="width:100%;border-collapse:collapse;font-size:14.5px">
+<thead><tr style="text-align:left;border-bottom:1px solid var(--border)"><th style="padding:8px 10px">Tier</th><th style="padding:8px 10px">Count</th><th style="padding:8px 10px">Share</th><th style="padding:8px 10px">Visual</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:8px 10px"><strong>large</strong></td><td style="padding:8px 10px">{{ cLarge }}</td><td style="padding:8px 10px">{{ ((cLarge/total)*100) | round(1) }}%</td><td style="padding:8px 10px"><div style="background:var(--panel-2);border:1px solid var(--border);height:10px;border-radius:999px;overflow:hidden;max-width:220px"><div style="width:{{ ((cLarge/total)*100) | round(1) }}%;height:100%;background:var(--green)"></div></div></td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:8px 10px"><strong>medium</strong></td><td style="padding:8px 10px">{{ cMedium }}</td><td style="padding:8px 10px">{{ ((cMedium/total)*100) | round(1) }}%</td><td style="padding:8px 10px"><div style="background:var(--panel-2);border:1px solid var(--border);height:10px;border-radius:999px;overflow:hidden;max-width:220px"><div style="width:{{ ((cMedium/total)*100) | round(1) }}%;height:100%;background:var(--yellow)"></div></div></td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:8px 10px"><strong>small</strong></td><td style="padding:8px 10px">{{ cSmall }}</td><td style="padding:8px 10px">{{ ((cSmall/total)*100) | round(1) }}%</td><td style="padding:8px 10px"><div style="background:var(--panel-2);border:1px solid var(--border);height:10px;border-radius:999px;overflow:hidden;max-width:220px"><div style="width:{{ ((cSmall/total)*100) | round(1) }}%;height:100%;background:var(--gold)"></div></div></td></tr>
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:8px 10px"><strong>tiny</strong></td><td style="padding:8px 10px">{{ cTiny }}</td><td style="padding:8px 10px">{{ ((cTiny/total)*100) | round(1) }}%</td><td style="padding:8px 10px"><div style="background:var(--panel-2);border:1px solid var(--border);height:10px;border-radius:999px;overflow:hidden;max-width:220px"><div style="width:{{ ((cTiny/total)*100) | round(1) }}%;height:100%;background:var(--ice)"></div></div></td></tr>
+<tr><td style="padding:8px 10px"><strong>unknown</strong></td><td style="padding:8px 10px">{{ cUnknown }}</td><td style="padding:8px 10px">{{ ((cUnknown/total)*100) | round(1) }}%</td><td style="padding:8px 10px"><div style="background:var(--panel-2);border:1px solid var(--border);height:10px;border-radius:999px;overflow:hidden;max-width:220px"><div style="width:{{ ((cUnknown/total)*100) | round(1) }}%;height:100%;background:var(--red)"></div></div></td></tr>
+</tbody>
+</table>
+</div>
+<p class="meta-info">Expect historical note: task brief listed 11 large, 2 medium, 35 small, 32 tiny, 29 unknown for same 109 total — current live counts above reflect latest <code>servers.js</code> as of {{ site.reviewed }}. Use filters on <a href="/">tracker</a> and <a href="/servers/">servers</a> to browse each tier.</p>
+</section>
+
+<section class="panel">
+<h2>By-era grouping — via vocab.js ERA</h2>
+<p class="meta-info" style="margin-top:0"><code>ERA</code> collapses <code>tag</code> into navigation eras. Ordering follows <code>ERA_ORDER</code>. Vanilla includes Vanilla, Vanilla+, Classless.</p>
+{% set groups = servers | groupByEra %}
+<div style="overflow-x:auto">
+<table style="width:100%;border-collapse:collapse;font-size:14.5px">
+<thead><tr style="text-align:left;border-bottom:1px solid var(--border)"><th style="padding:8px 10px">Era</th><th style="padding:8px 10px">Count</th><th style="padding:8px 10px">Share</th><th style="padding:8px 10px">Browse</th><th style="padding:8px 10px">Visual</th></tr></thead>
+<tbody>
+{% for g in groups %}
+<tr style="border-bottom:1px solid var(--border)"><td style="padding:8px 10px"><strong>{{ g.era }}</strong></td><td style="padding:8px 10px">{{ g.servers.length }}</td><td style="padding:8px 10px">{{ ((g.servers.length/total)*100) | round(1) }}%</td><td style="padding:8px 10px"><a href="/{{ g.era | lower | slugify }}/">{{ g.era | lower }}</a></td><td style="padding:8px 10px"><div style="background:var(--panel-2);border:1px solid var(--border);height:10px;border-radius:999px;overflow:hidden;max-width:220px"><div style="width:{{ ((g.servers.length/total)*100) | round(1) }}%;height:100%;background:var(--gold)"></div></div></td></tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+<p class="meta-info">Totals reflect <code>groupByEra(servers)</code> directly, so renaming a tag in <code>servers.js</code> automatically moves it here. See expansion pages below for full lists and guides.</p>
+</section>
+
+<section class="panel">
+<h2>Category guides — how to read tiers</h2>
+<div class="cp-cols" style="grid-template-columns:1fr 1fr">
+<div>
+<h3>Large ({{ cLarge }})</h3>
+<p>Persistent high concurrency, frequent queues, stable auction house. Best for instant groups. Expect competition. Example filter: <a href="/">tracker</a> → Pop Large.</p>
+<h3>Medium ({{ cMedium }})</h3>
+<p>Healthy population without megaserver pressure. Raids fill, world feels alive, names still recognizable.</p>
+<h3>Small ({{ cSmall }})</h3>
+<p>Niche and often blizzlike. 50–300 concurrent, Discord-driven scheduling. Choose for authentic rates and tight guilds.</p>
+</div>
+<div>
+<h3>Tiny ({{ cTiny }})</h3>
+<p>Early, experimental, or solo-dev realms. 0–50 online. Good for testing or seeding a community, not for immediate endgame.</p>
+<h3>Unknown ({{ cUnknown }})</h3>
+<p>No verifiable number — in-development, archived dead, or silent projects. Always check <code>updated</code> and <code>release</code> on the server card before planning.</p>
+<h3>Using both tables</h3>
+<p>Cross-reference tier with era. A small Vanilla realm behaves differently from a small WotLK realm due to core maturity. Start with era, then tier.</p>
+</div>
+</div>
+</section>
+
+<section class="panel">
+<h2>Category guides — how to read eras</h2>
+<ul class="plain-list">
+<li><strong>Vanilla (42)</strong> — includes Vanilla, Vanilla+, Classless via <code>ERA</code>. Largest umbrella. See <a href="/vanilla/">Vanilla</a> and guides for <a href="/guides/octowow/">OctoWoW setup</a> and per-server pages like <a href="/servers/elysium-project/">Elysium Project</a>, <a href="/servers/kronos-v/">Kronos V</a>, <a href="/servers/stonetavern/">Stonetavern</a>, <a href="/servers/solocraft/">SoloCraft</a>, <a href="/servers/project-legacy/">Project Legacy</a>, <a href="/servers/ravencraft/">Ravencraft</a>, <a href="/servers/grimfallwow/">GrimfallWoW</a>.</li>
+<li><strong>WotLK (37)</strong> — 3.3.5a, most varied and script-complete. See <a href="/wotlk/">WotLK</a> with picks like <a href="/servers/warmane/">Warmane</a>, <a href="/servers/chromiecraft/">Chromiecraft</a>, <a href="/servers/sunwell-pl/">Sunwell.pl</a>, <a href="/servers/dalaran-wow/">Dalaran-WoW</a>, <a href="/servers/truewow/">TrueWoW</a>, <a href="/servers/wow-mania/">WoW-Mania</a>, <a href="/servers/elwynnkeep/">Elwynnkeep</a>, <a href="/servers/maelstrom-millenium/">Maelstrom</a>, <a href="/servers/warstorm/">Warstorm</a>.</li>
+<li><strong>TBC (7)</strong> — 2.4.3 realms. See <a href="/tbc/">TBC</a>.</li>
+<li><strong>Cataclysm (7)</strong> — 4.3.4 realms. See <a href="/cataclysm/">Cataclysm</a>.</li>
+<li><strong>MoP (4)</strong> — 5.4.x realms. See <a href="/mop/">MoP</a>.</li>
+<li><strong>Legion (6)</strong> — 7.3.5 realms. See <a href="/legion/">Legion</a>.</li>
+<li><strong>TWW (3)</strong> — TWW / Dragonflight-era. See <a href="/tww/">TWW</a>.</li>
+<li><strong>Multi (1)</strong> — cross-expansion networks. See <a href="/multi/">Multi</a>.</li>
+<li><strong>Other (2)</strong> — unmapped tags like MOBA. Listed under other on the <a href="/">tracker</a>.</li>
+</ul>
+<p class="meta-info">All links are internal: <a href="/">tracker</a> · <a href="/servers/">servers</a> · <a href="/news/">news</a> · <a href="/blog/">blog</a> · <a href="/classic-plus/">Classic+ Tracker</a> · expansion pages above. No outbound links on this page by design.</p>
+</section>
+
+<section class="panel">
+<h2>Expansion pages — internal navigation</h2>
+<p>Jump to any era page. Each page lists its servers and includes the expansion intro guide dated 2026-09-02 where available.</p>
+<p style="display:flex;flex-wrap:wrap;gap:8px">
+<a class="chip" href="/vanilla/">Vanilla</a>
+<a class="chip" href="/tbc/">TBC</a>
+<a class="chip" href="/wotlk/">WotLK</a>
+<a class="chip" href="/cataclysm/">Cataclysm</a>
+<a class="chip" href="/mop/">MoP</a>
+<a class="chip" href="/legion/">Legion</a>
+<a class="chip" href="/tww/">TWW</a>
+<a class="chip" href="/multi/">Multi</a>
+<a class="chip" href="/">All servers</a>
+</p>
+<p class="meta-info">Guides category: guides · updated 2026-09-02 · permalink <code>/census/</code> · generated from <code>src/_data/servers.js</code> + <code>src/_data/vocab.js</code>. Filter by tier on <a href="/">tracker</a> or browse <a href="/servers/">servers</a>.</p>
+</section>

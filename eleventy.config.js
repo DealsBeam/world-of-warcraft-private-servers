@@ -32,6 +32,7 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
     eleventyConfig.addFilter("groupByEra", groupByEra);
 
     eleventyConfig.addFilter("countByStatus", countByStatus);
+    eleventyConfig.addFilter("countByPop", (servers, tier) => servers.filter(s => (s.popTier || "unknown") === tier).length);
 
     eleventyConfig.addFilter("uniqueTags", servers =>
         [...new Set(servers.map(s => s.tag).filter(Boolean))].sort());
