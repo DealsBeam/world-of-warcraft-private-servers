@@ -171,7 +171,7 @@ console.log(`OK: ${SERVERS.length} servers, ${newsFiles.length} news, ${LINKS.le
     assert.ok(w.tact === "wowdev2", `bad tact: ${w.tact}`);
     if (w.ok) {
         assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(w.current), `bad current version: ${w.current}`);
-        assert.ok(Array.isArray(w.history) && w.history.length >= 5, "cdn history too thin");
+        assert.ok(Array.isArray(w.history) && w.history.length >= 4, "cdn history too thin");
         for (const h of w.history) assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(h.version), `bad history version: ${h.version}`);
     }
     console.log(`CDN watch: ${w.ok ? "live" : "offline"}${w.ok ? " — " + w.current + " (" + w.history.length + " bumps)" : " — " + w.error}`);

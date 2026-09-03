@@ -1069,5 +1069,15 @@ module.exports = [
         "url": "https://felskorn.com/",
         "updated": "2026-09-02",
         "popTier": "small"
+    },
+    {
+        "name": "Balance WoW",
+        "status": "playable",
+        "details": "Hardcore WotLK 3.3.5a, cap 30 advancing via ChromieCraft timeline, smarter mobs, transmog, cross-realm, 1.5x XP, 3 online",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://balance-wow.org/",
+        "updated": "2026-09-03",
+        "popTier": "tiny"
     }
 ]
