@@ -299,6 +299,30 @@ const entries = [
         "summary": "WoW Dev 2 advanced again at 02:16 UTC Aug 29 from 1.60.1.69555 to 1.60.1.69609 — the third encrypted update in under 25 hours. Counts as steady internal QA, not a content reveal: builds remain encrypted, no zones/classes/dates exposed, and no PTR yet, two weeks out from BlizzCon.",
         "source": "quissy.tv",
         "url": "https://quissy.tv/project-camelot-builds-wow-classic-armory/"
+    },
+    {
+        "date": "2026-09-02",
+        "category": "leak",
+        "title": "Gear Store exposed wow-camelot theme, renamed to wow-2",
+        "summary": "Blizzard Gear Store briefly showed wow-camelot__color-scheme alongside wow and wow-midnight, dated Aug 25. After Stiven flagged it, store renamed to wow-2__color-scheme. Generic palette, name scrub is the signal — not WoW 2 proof.",
+        "source": "icy-veins.com",
+        "url": "https://www.icy-veins.com/wow-classic/news/blizzard-gear-store-exposed-a-wow-camelot-color-theme-then-renamed-it-wow-2/"
+    },
+    {
+        "date": "2026-09-02",
+        "category": "news",
+        "title": "Dev 2 hits 69638, Dev 5 hits 69679 — three new builds",
+        "summary": "Three encrypted updates advanced WoW Dev 2 to 1.60.1.69638 and WoW Dev 5 to 1.60.0.69679. Parallel 1.60.0/1.60.1 activity continues 10 days out from BlizzCon, seen as possible show-realm stabilization but unconfirmed.",
+        "source": "quissy.tv",
+        "url": "https://quissy.tv/project-camelot-blizzard-gear-store-wow-2/"
+    },
+    {
+        "date": "2026-09-03",
+        "category": "news",
+        "title": "BlizzCon schedule shows 1-hour gap after What's Next",
+        "summary": "Published schedule lists 45-minute World of Warcraft: What's Next, then 1-hour gap before Diablo. Only such gap on schedule. Reads as hidden panel slot — Classic Plus deep dive or StarCraft — to be revealed after Opening Ceremony.",
+        "source": "ixbt.games",
+        "url": "https://ixbt.games/en/news/2026/09/03/432346-gotovitsia-anons-starcraft-3-ili-wow-classic-poiavilos-raspisanie-blizzcon-s-podozritelnym-probelom.html"
     }
 ];
 
