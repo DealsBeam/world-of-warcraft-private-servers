@@ -1648,13 +1648,15 @@ textarea {
 .blog-card-head {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     margin-bottom: 10px;
+    line-height: 1;
 }
 
 .blog-card-head .medallion {
     width: 32px;
     height: 32px;
+    flex-shrink: 0;
 }
 
 .blog-card-head .blog-cat {
@@ -1664,12 +1666,18 @@ textarea {
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--gold);
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
 }
 
 .blog-card-head time {
     margin-left: auto;
     font-size: 13px;
     color: var(--muted);
+    line-height: 1;
+    align-self: center;
+    white-space: nowrap;
 }
 
 .blog-card h3 {
