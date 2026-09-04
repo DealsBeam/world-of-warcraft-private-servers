@@ -26,6 +26,10 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
         const seen = new Set((posts || []).map(p => gameOf((p || {}).data || {})));
         return GAMES.filter(g => seen.has(g));
     });
+    eleventyConfig.addFilter("byGame", (posts, game) => (posts || []).filter(p => {
+        const d = (p || {}).data || {};
+        return !d.archived && gameOf(d) === game;
+    }));
 
     eleventyConfig.addFilter("lastDays", (posts, n) => {
         const cut = Date.now() - (Number(n) || 2) * 86400000;

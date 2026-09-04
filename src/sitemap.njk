@@ -16,6 +16,9 @@ eleventyExcludeFromCollections: true
     <url><loc>https://wowprivateservers.vercel.app/shop/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/disclaimer/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/contact/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
+    {% for g in vocab.GAMES %}
+    <url><loc>https://wowprivateservers.vercel.app/category/{{ g }}/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
+{% endfor %}
     <url><loc>https://wowprivateservers.vercel.app/privacy/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/terms/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     {% for e in vocab.ERA_ORDER %}

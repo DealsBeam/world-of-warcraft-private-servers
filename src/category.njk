@@ -1,0 +1,46 @@
+---
+layout: base.njk
+eleventyExcludeFromCollections: true
+pagination:
+    data: vocab.GAMES
+    size: 1
+    alias: game
+permalink: "/category/{{ game }}/"
+eleventyComputed:
+    title: "{{ game | gameLabel }} — WoW Private Servers Tracker"
+    canonical: "https://wowprivateservers.vercel.app/category/{{ game }}/"
+    hero: "{{ game | gameLabel }}"
+    subtitle: "News &amp; analysis"
+    description: "All {{ game | gameLabel }} posts from the WoW Private Servers Tracker — news and analysis through the preservation lens."
+---
+{% set newsItems = collections.news | byGame(game) %}
+{% set blogItems = collections.blog | byGame(game) %}
+{% if newsItems.length %}
+<h2 class="section-title">News</h2>
+<ul class="news-list">
+{% for n in newsItems | reverse %}
+    <li><time>{{ n.date | formatDate }}</time><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="{{ n.url }}">{{ n.data.title }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if blogItems.length %}
+<h2 class="section-title">Analysis</h2>
+<ul class="blog-grid">
+{% for p in blogItems | reverse %}
+    {% set idx = loop.index0 % 8 + 1 %}
+    <li class="blog-card">
+        <img class="card-thumb" src="{{ p.data.image or ('/images/card-' + idx + '.jpeg') }}" alt="" loading="lazy" width="800" height="440">
+        <div class="blog-card-head">
+            {% if p.data.category %}<span class="blog-cat">{{ p.data.category }}</span>{% endif %}
+            <time>{{ p.date | formatDate }}</time>
+        </div>
+        <h3><a href="{{ p.url }}">{{ p.data.title }}</a></h3>
+        <p>{{ p.data.description }}</p>
+    </li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if not newsItems.length and not blogItems.length %}
+<div class="empty"><div class="big">Nothing here yet</div>Coverage lands as the thread develops.</div>
+{% endif %}
+<p class="meta-info"><a href="/news/">All news</a> · <a href="/blog/">All posts</a></p>
