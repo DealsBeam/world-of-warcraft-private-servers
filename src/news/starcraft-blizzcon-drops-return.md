@@ -1,28 +1,27 @@
 ---
 title: "StarCraft Twitch drops return for BlizzCon 2026 — first carrot in years"
 date: 2026-09-04
-draft: true
 game: sc
+summary: "StarCraft gets BlizzCon drops: 10-day XP boost for one hour watched. Filler, not cosmetics — cheap heat timed to the ARG week."
 ---
 <!--
-SOURCES (name only per house rule): Blizzard Watch "All of the Twitch Drops from BlizzCon 2026" (Sep 4, Eric O'Dea — all six franchises, incl starcraft tag); Blizzard "Get the Drop" post (Sep 1).
-WATCH: exact SC drop contents unconfirmed at press time — verify against Blizzard drop post before flipping live. If SC drops turn out generic (icons/sprays), say so.
--->
+SOURCES (name only per house rule): Blizzard Watch "All of the Twitch Drops from BlizzCon 2026" (Sep 4, Eric O'Dea); Blizzard "Get the Drop" post (Sep 1, via WoW Weekly).
+>
 
-Blizzard sells StarCraft attention for the first time in years. The BlizzCon 2026 drop list covers all six franchises — and StarCraft is on it.
+StarCraft drops are back for BlizzCon. First official carrot in years. It is filler — and that tells you plenty.
 
 ## TL;DR
 
-TODO voice: six franchises, StarCraft included. First official SC carrot in years. Lands same week as ARG.
+StarCraft gets drops: 10-day XP boost for one hour watched, Sep 12-13. Filler, not cosmetics. Cheap heat timed to ARG week.
 
 ## What we know
 
-TODO voice: Blizzard Watch Sep 4 roundup (Eric O'Dea) lists drops across Warcraft, WoW, Overwatch, Hearthstone, Heroes, StarCraft. Link Battle.net before window. Exact SC contents TBD — verify.
+Blizzard Watch Sep 4 roundup (Eric O'Dea) lists all six franchises. StarCraft slot: watch one hour on StarCraft Twitch, get 10-day XP boost. Compare: WoW gets Tender + mount + decor, Overwatch gets 16 hours of skins, Diablo gets weapons. StarCraft gets XP boost. That gap is the story.
 
 ## Why it matters
 
-TODO voice: ARG points to shooter reveal Sep 12. Drops monetize the attention spike. Watch whether SC drops are real cosmetics or filler — tells how serious the push is.
+ARG points to shooter reveal Sep 12. Drops monetize the attention spike. Filler rewards mean Blizzard wants eyeballs, not players — yet. Real cosmetics would mean serious push. XP boost means cheap heat. Noted.
 
 ## What's next
 
-Flip live when SC drop contents confirm. Link FAQ + reveal skeleton.
+Reveal skeleton flips live Sep 12 if shooter shows. FAQ updates to fact either way.

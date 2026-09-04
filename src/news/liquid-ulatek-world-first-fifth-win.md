@@ -1,28 +1,26 @@
 ---
 title: "Liquid takes Mythic Ula'tek world first — fifth race win in a row"
 date: 2026-09-04
-draft: true
+summary: "Liquid kills Mythic Ula'tek in 307 pulls after thinking they'd lose. Echo half hour later. Method still grinding third."
 ---
 <!--
-SOURCES: Blizzard Watch "Mythic Ula'tek is dead!" (Sep 3, Elizabeth Harper); Icy Veins homepage (Liquid Ula'tek world first, 5th race win in a row).
-WATCH: Echo second-place margin unconfirmed — verify before flipping live. Method placement unknown.
-BORDERLINE per coverage rule: RWF is Method's home turf. Keep only if BlizzCon angle holds (race ends 9 days before AWC/MDI finals on same stage).
--->
+SOURCES: Blizzard Watch "Mythic Ula'tek is dead!" (Sep 3, Elizabeth Harper); Icy Veins (5th straight win confirm).
+>
 
-The Venomous Abyss race is over. Liquid killed Mythic Ula'tek first — fifth raid tier win in a row — with Echo close behind on a dramatic final day.
+Liquid wins again. Fifth straight. Echo nearly stole it at the end.
 
 ## TL;DR
 
-TODO voice: Liquid wins again. Fifth straight. Echo nearly stole it. Race done 9 days before BlizzCon.
+Liquid kills Mythic Ula'tek first in 307 pulls. Echo second half hour later in 335. Method sits third at 11.7%. Race done 9 days before BlizzCon.
 
 ## What happened
 
-TODO voice: Blizzard Watch Sep 3 (Elizabeth Harper) — Liquid started the day behind Echo, closed it out. Week 2 recap (Cory Taylor) had all three top guilds on the final boss.
+Blizzard Watch Sep 3 (Elizabeth Harper): Liquid started the day behind — Echo best 3.68%, Liquid best 32%. GM Maximum said he thought they lose this one. Then a venom-pool cheese (stand in venom, dodge waves by pathing) got nerfed mid-race by Blizzard, no penalty for past kills. Liquid went 15.59% to dead in four pulls. Echo answered half hour later.
 
 ## Why it matters here
 
-TODO voice: AWC/MDI finals hit the same BlizzCon stage Sep 12-13. RWF ending early clears the runway. Tuning narrative (nerfs all race long) feeds the Classic+ "developers listen" debate — keep one line max.
+AWC/MDI finals hit the same BlizzCon stage Sep 12-13. Race ending early clears the runway. One line on tuning: nerfs all race long, mid-race mechanic kill included. Developers listen — Classic+ crowd takes notes. One post, no race blog. Method owns that turf.
 
 ## What's next
 
-Flip live when Echo margin + Method placement confirm. One post, no race blog.
+Method vs ZhongZhou for third. Nothing for tracker unless tuning spills into Classic talk.
