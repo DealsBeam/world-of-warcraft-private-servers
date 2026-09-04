@@ -10,11 +10,17 @@ TL;DR
 - Nexon deal reported Sep 2 via Chosun, plus Dan Hay shooter and Unreal hire.
 - Same 1-hour gap after What's Next that Classic Plus needs. Opening Sep 12 10:30 PDT.
 
-Something is glitching on the StarCraft site. Four outlets reported it Sep 3 — Gamespot, GamesRadar, IGN and PC Gamer — all within hours.
+Something is glitching on the StarCraft site. Five outlets reported it Sep 3-4 — Gamespot, GamesRadar, IGN, PC Gamer and Wowhead — all within hours.
 
 The glitch sits on the Remastered marketing copy. Images twitch, text flashes. Not a normal web error. Designed static.
 
 It was flagged on Bluesky by John Carson. The page still sells 2017 Remastered. The effect is new — Wayback Aug 23 shows clean.
+
+Console holds 8 hidden messages — medical reports, Cargo Manifest, access without credentials, Lunar Mining Complex on Roxara, secret Theta Squadron, over a dozen unidentified lifeforms, year 2575 about 70 years after Legacy of the Void.
+
+Reddit calls it an ARG start, with a Day 1 lore dive already up. Effect worsens over time — signal coming through, not a one-off.
+
+BlizzCon map shows a StarCraft II and Remastered Demo section. Odd to demo an old game — unless the demo is new.
 
 StarCraft has been dormant since Remastered 2017. Last original was StarCraft 2 in 2010, expansions through 2015. Ghost was announced 2002, cancelled 2014.
 
