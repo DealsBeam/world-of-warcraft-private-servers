@@ -17,13 +17,13 @@ The map is not complete. Gray areas stay hidden until after the ceremony.
 
 That caption is the reveal. It points to something playable on site.
 
-![BlizzCon 2026 Day 1 Schedule](https://bnetcmsus-a.akamaihd.net/cms/gallery/tv/TV8YAXMS7WYL1788227248483.png)
+<img src="https://bnetcmsus-a.akamaihd.net/cms/gallery/tv/TV8YAXMS7WYL1788227248483.png" alt="BlizzCon 2026 Day 1 Schedule" width="3840" height="2160" loading="lazy" decoding="async">
 *Day 1 is Sep 12. Opening Ceremony starts 10:30 PDT in Hall D.*
 
-![BlizzCon 2026 Day 2 Schedule](https://bnetcmsus-a.akamaihd.net/cms/gallery/md/MD55AZNNHIEF1788227283315.png)
+<img src="https://bnetcmsus-a.akamaihd.net/cms/gallery/md/MD55AZNNHIEF1788227283315.png" alt="BlizzCon 2026 Day 2 Schedule" width="3840" height="2160" loading="lazy" decoding="async">
 *Day 2 is Sep 13. Check the official schedule page after the ceremony.*
 
-![BlizzCon 2026 Floor Map with hidden areas](https://bnetcmsus-a.akamaihd.net/cms/gallery/mw/MW1J6WF0V7T41788217357398.png)
+<img src="https://bnetcmsus-a.akamaihd.net/cms/gallery/mw/MW1J6WF0V7T41788217357398.png" alt="BlizzCon 2026 Floor Map with hidden areas" width="3840" height="1674" loading="lazy" decoding="async">
 *Floor map shows Hall D, Hall E and merch. Gray zones open after ceremony.*
 
 Every other detail is public: venue, doors, merch, parties and esports.
