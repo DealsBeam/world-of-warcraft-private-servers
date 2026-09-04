@@ -4,3 +4,4 @@ _site/
 lighthouse-*.json
 baseline-dark-*.png
 serve.log
+.planning/
