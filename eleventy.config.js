@@ -4,13 +4,14 @@ module.exports = function (eleventyConfig) {
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag) || p.data.category === tag);
 
     eleventyConfig.addPassthroughCopy("src/style.css");
+    eleventyConfig.addPassthroughCopy("src/robots.txt");
+    eleventyConfig.addPassthroughCopy("src/82ff48e2b0f1ba3cf1d95140192a5b90.txt");
     eleventyConfig.addPassthroughCopy("src/app.js");
     eleventyConfig.addPassthroughCopy("src/theme.js");
     eleventyConfig.addPassthroughCopy("src/radio.js");
     eleventyConfig.addPassthroughCopy("src/favicon.svg");
     eleventyConfig.addPassthroughCopy("src/manifest.webmanifest");
     eleventyConfig.addPassthroughCopy("src/og.png");
-    eleventyConfig.addPassthroughCopy("src/robots.txt");
     eleventyConfig.addPassthroughCopy("src/fonts");
     eleventyConfig.addPassthroughCopy("src/images");
 
@@ -49,6 +50,12 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
     eleventyConfig.addFilter("rssDate", d => toDate(d).toUTCString());
 
     eleventyConfig.addFilter("isoDate", d => toDate(d).toISOString().slice(0, 10));
+
+    eleventyConfig.addFilter("daysAgo", d => {
+        const then = toDate(d).getTime();
+        const now = Date.now();
+        return Math.max(0, Math.floor((now - then) / 86400000));
+    });
 
     eleventyConfig.addFilter("filterBlogByTag", filterBlogByTag);
 

@@ -34,15 +34,12 @@ extraScripts:
 
         <section class="panel" style="border:1px solid var(--border);background:linear-gradient(180deg, rgba(196,154,40,0.08), transparent 60%)">
             <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
-                <img src="/images/hero-3.jpeg" alt="" width="96" height="64" style="object-fit:cover;border-radius:8px;flex:0 0 auto">
+                <img src="{{ featured.image }}" alt="" width="96" height="64" style="object-fit:cover;border-radius:8px;flex:0 0 auto">
                 <div>
-                    <h2 style="margin:0;font-size:1.05rem">⭐ Featured Creator — Malonze Gaming</h2>
-                    <p class="meta-info" style="margin:4px 0 8px">1.74k subs, 592 videos — WoW private servers (Ascension, Turtle, Octo, Epoch) + Malonze Productions Cosplay (174, leather armor, Metrocon 2019 pet dragon award). He reviewed our tracker 13 days ago.</p>
+                    <h2 style="margin:0;font-size:1.05rem">⭐ {{ featured.heading }}</h2>
+                    <p class="meta-info" style="margin:4px 0 8px">{{ featured.blurb }} He reviewed our tracker {{ featured.review.date | daysAgo }} days ago.</p>
                     <p style="margin:0;display:flex;gap:8px;flex-wrap:wrap">
-                        <a class="chip active" href="/creators/malonze-gaming/">View feature →</a>
-                        <a class="chip" href="https://www.youtube.com/@MalonzeGaming" target="_blank" rel="noopener">YouTube Gaming</a>
-                        <a class="chip" href="https://www.youtube.com/@malonzeproductionscosplay3673" target="_blank" rel="noopener">Cosplay</a>
-                        <a class="chip" href="https://www.etsy.com/shop/MalonzeProductions" target="_blank" rel="noopener">Etsy Shop</a>
+                        {% for l in featured.links %}<a class="chip{% if loop.first %} active{% endif %}" href="{{ l.url }}"{% if l.external %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>{% endfor %}
                     </p>
                 </div>
             </div>
