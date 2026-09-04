@@ -60,6 +60,15 @@ const GAME_LABELS = { wow: "WoW", sc: "StarCraft", diablo: "Diablo", overwatch: 
 const gameOf = d => GAMES.includes(d && d.game) ? d.game : "wow";
 const gameLabel = g => GAME_LABELS[g] || g;
 
+// Deterministic share-card image per post: djb2 hash of title over 8 cards.
+// Stable across builds, no rasterizer, no new deps. Frontmatter `image` wins.
+const cardFor = key => {
+    const s = String(key || "home");
+    let h = 5381;
+    for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
+    return "/images/card-" + (h % 8 + 1) + ".jpeg";
+};
+
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag));
 
-module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag, GAMES, GAME_LABELS, gameOf, gameLabel };
+module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag, GAMES, GAME_LABELS, gameOf, gameLabel, cardFor };

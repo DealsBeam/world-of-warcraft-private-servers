@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-    const { slugify, groupByEra, countByStatus, uniqueTags, gameOf, gameLabel, GAMES } = require("./src/_data/vocab.js");
+    const { slugify, groupByEra, countByStatus, uniqueTags, gameOf, gameLabel, GAMES, cardFor } = require("./src/_data/vocab.js");
 
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag) || p.data.category === tag);
 
@@ -35,6 +35,7 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
         const cut = Date.now() - (Number(n) || 2) * 86400000;
         return (posts || []).filter(p => p.date && new Date(p.date).getTime() >= cut);
     });
+    eleventyConfig.addFilter("ogCard", title => cardFor(title));
 
     eleventyConfig.addFilter("relatedHistory", (events, server, slug) => {
         const qs = [server.name, server.group].filter(Boolean).map(s => s.toLowerCase());
