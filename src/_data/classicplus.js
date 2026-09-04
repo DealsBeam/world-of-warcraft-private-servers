@@ -331,6 +331,14 @@ const entries = [
         "summary": "12.1.5 PTR has DefaultForeverBindings.wtf with legacy bars and TOGGLELEGACYSYSTEM, no housing/ping. ResetEra insider says Warcraft is Forever. warcraftforever.com re-reg Sep 2 via Cloudflare, not MarkMonitor. Name could be final Classic+ title — or coincidence.",
         "source": "icy-veins.com",
         "url": "https://www.icy-veins.com/wow-classic/news/warcraft-forever-this-name-is-suddenly-everywhere/"
+    },
+    {
+        "date": "2026-08-27",
+        "category": "rumor",
+        "title": "Alleged BlizzCon schedule lists Infantry, Fables, Chronicles",
+        "summary": "Anonymous 4chan image via r/blizzcon lists StarCraft Infantry after Opening Ceremony, Northrend TLT look, Diablo What's Next, Warcraft Fables deep dive as Classic+, plus Chronicles RTS meet team. Too perfect mix of hopes — no build, no license, uncorroborated.",
+        "source": "icy-veins.com",
+        "url": "https://www.icy-veins.com/wow/news/alleged-blizzcon-2026-schedule-lists-starcraft-infantry-warcraft-fables-and-warcraft-chronicles/"
     }
 ];
 
