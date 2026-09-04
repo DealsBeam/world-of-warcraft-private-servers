@@ -1,14 +1,14 @@
 ---
 title: "How to watch BlizzCon 2026 and earn WoW drops — Sep 12-13, free stream, Twitch and YouTube"
 date: 2026-09-01
-summary: "Blizzard confirmed the free stream and the Twitch and YouTube drop window for BlizzCon 2026. Opening ceremony and main-stage panels are free on YouTube and Twitch, with WoW drops on any eligible stream Sep 12 at 9:30 AM PDT through Sep 13. Here is how to watch without a badge and what to watch for if you care about Classic."
+summary: "Blizzard confirmed the free stream and the Twitch and YouTube drop window for BlizzCon 2026, then itemized the bucket (Trader's Tender, Grrgle decor, Quilt mount, banner) with Twitch running to Sep 27. Opening ceremony and main-stage panels are free on YouTube and Twitch. Here is how to watch without a badge and what to watch for if you care about Classic."
 ---
 
 Blizzard's Sep 1 "Is Nearly Here" and "Know Before You Go" posts locked the viewing plan for BlizzCon 2026 — September 12-13 in Anaheim, badge pickup from September 11 — and the drop window that goes with it.
 
 ## How to watch without a badge
 
-The Opening Ceremony and the main-stage panels will stream free on Blizzard's official YouTube and Twitch feeds. The ceremony traditionally opens around 11 AM Pacific on Saturday. The full venue is Anaheim Convention Center (800 W Katella Ave, Anaheim, CA 92802), with badge pickup from Sep 11. The programming schedule, viewership guide and floor map dropped alongside today's update, with the arena world championship, mythic dungeon international, the classic cup and the Saturday-evening community night and darkmoon faire also listed as on-site.
+The Opening Ceremony and the main-stage panels will stream free on Blizzard's official YouTube and Twitch feeds. The ceremony traditionally opens around 11 AM Pacific on Saturday. The full venue is Anaheim Convention Center (800 W Katella Ave, Anaheim, CA 92802), with badge pickup from Sep 11. The programming schedule, viewership guide and floor map dropped alongside today's update, with the arena world championship, mythic dungeon international, the classic cup and the Saturday-evening community night and darkmoon faire also listed as on-site. Per the Sep 4 Weekly, the AWC and MDI Grand Finals return to the BlizzCon stage for the first time since 2019, with a combined **$600,000** prize pool across Sep 12-13.
 
 For Classic, the watch guide matters more than the floor map, because the Classic future reveal — the [Project Camelot](/classic-plus/) thread we track here, build 69638 on Sep 1 — is expected on the main stage, not in a hallway. If you are not in Anaheim, the free stream is the only stream that matters.
 
@@ -16,7 +16,7 @@ For Classic, the watch guide matters more than the floor map, because the Classi
 
 "Get the Drop on New Rewards During BlizzCon 2026" — the other Sep 1 post — sets the window: watch any eligible World of Warcraft stream on Twitch or on the official World of Warcraft YouTube channel from **September 12 at 9:30 AM PDT until September 13 at 7:00 PM PDT** to claim a bucket of rewards.
 
-Sep 12 09:30 PDT is 16:30 UTC. Sep 13 19:00 PDT is Sep 14 02:00 UTC. The bucket is not itemized in the drop post beyond "a bucket full of rewards" — historically that means a pet, a toy, a transmog set and a title, sometimes a mount, spread across watch time tiers. Link your Battle.net to Twitch and to YouTube before the window opens; drops do not retroactively grant for time watched while unlinked.
+The Sep 4 WoW Weekly extends and itemizes it. Twitch: **Sep 12 17:30 BST through Sep 27 18:00 BST** (17:30 BST = 09:30 PDT, matches the Sep 1 start; Sep 27 18:00 BST = 10:00 PDT). YouTube: **Sep 12 17:30 PDT through Sep 14 03:00 PDT** on the official Warcraft channel. The bucket is now itemized: **200 Trader's Tender, Cuddly Blue Grrgle housing decor, Fluffy Comfy Flying Quilt mount, Venomous champion's Illustrious Banner**. Attending in person? Link your BlizzCon pass to Battle.net no later than **Sep 18** — same linkage rule as remote, no retroactive grants for time watched while unlinked.
 
 For private-server players who do not have an active retail sub, the same linkage rule applies. You need a Battle.net account with a WoW license of any kind to claim — Starter Edition is enough for most drop buckets — and the claim is per Battle.net account, not per server.
 

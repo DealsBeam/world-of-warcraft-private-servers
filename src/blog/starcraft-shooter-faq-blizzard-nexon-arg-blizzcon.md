@@ -5,86 +5,86 @@ category: analysis
 summary: "Shooter yes, StarCraft 3 no, Nexon build separate. ARG live, BlizzCon Sep 12 opening slot. Sources ranked, misinfo cut."
 ---
 
+People complain and spread misinformation due to sudden amount of news and rumours. So i made that FAQ. Thanks to my English you can notice it's not AI, so it's less misinformed.
+
 ## TL;DR
 
-- TODO voice: shooter yes, SC3 no, Nexon separate, ARG live
+- Shooter yes, StarCraft 3 no, Nexon build separate.
 - Blizzard TPS in UE5, Terrans + Zerg, set 2575. Nexon shooter separate project.
-- BlizzCon opens Sep 12. Shooter likely in opening ceremony window. RSL + Classic Cup run day two.
+- ARG live, BlizzCon opens Sep 12. Shooter likely in opening ceremony window. RSL + Classic Cup run day two.
 
 ## What is happening?
 
-TODO voice: ARG for unannounced game started, so reveal close.
+The ARG for the new unannounced game has started, so we are close to it.
 
-- 14 occupants detected at start (ARG characters, not dev headcount).
+How many workers will be at the start? 14 occupants detected. (Occupants = ARG characters waking up, not dev headcount.)
+
 - Transmissions: https://starcraft-arg.vercel.app/transmissions/01 (thanks JarlMarx)
 - Lore dive day 1: https://www.reddit.com/r/starcraft/comments/1w6l3py/lore_dive_on_the_preblizzcon_arg_day_1/ (Subsourian)
+- Press mirror: MassivelyOP covered the glitch + ARG on Sep 4 (https://massivelyop.com/2026/09/04/starcrafts-website-is-glitching-possibly-as-a-preamble-to-a-big-blizzcon-announcement/), via Wowhead's hidden-messages find. Note: MOP frames it as Blizzard + Nexon together. This FAQ says separate builds — see table below.
 
 ## What will it be? What it is NOT?
 
-TODO voice: SHOOTER. NOT RTS, NOT STARCRAFT 3, NOT MOBILE, NOT FROM NEXON.
+It's the SHOOTER! It is NOT AN RTS, NOT STARCRAFT 3, NOT A MOBILE GAME, NOT FROM NEXON.
 
 ## Source ladder (most credible first)
 
-TODO voice: rank each claim, keep receipts.
+First of all, the sources that we have:
 
-- Jason Schreier — book on Blizzard + business reporting, CEO interview. Most credible. Book says StarCraft-universe shooter incubated.
-- Jez Corden — unofficial Xbox voice. Said StarCraft isn't dead (2023). Seen game. Solid on Xbox/Microsoft, weaker elsewhere.
-- Job listings — UE5, shooter roles. Treat as deceitful possible. Thin.
-- ARG live right now. Strong signal timing, weak signal content.
+- Jason Schreier - wrote a book about Blizzard and several articles about them, focusing on the bussiness side. He is the most credible video gaming journalist right now and the most credible source on what is happening at Blizzard. In his book he stated the the shooter set in the StarCraft Universe is being incubated. Lately he visited Blizzard and got an interview with their CEO.
+- Jez Corden - basically a "leaker", who is an unofficial spokeperson for XBOX. Said that StarCraft isn't dead in 2023, while being drunk. Also seen the game. He is less credible than Schreier, but solid when it comes to XBOX an Microsoft.
+- Job listings at Blizzard - could be deceitful on purpose.
+- The ARG game happening right now. Strong signal on timing, weak signal on content.
 
 ## Why would Blizzard make shooter?
 
-TODO voice: business breakdown, keep link.
-
-- Interview: www.youtube.com/watch?v=psmaSABMiH0 (Schreier breaks business side)
-- TLDR: focus existing franchises, more content inside them. CEO Johanna Faries remade bonuses/salaries so devs not scared of less profitable projects. RTS judged unprofitable, no pitches greenlit.
+Here is him breaking down the bussiness side www.youtube.com/watch?v=psmaSABMiH0 - the interview with Schreier. TLDR: Blizzard wants to concentrate on the existing franchizes and produce more content in them. Johanna Fairies (current CEO of Blizzard) remade the structure of bonuses and salaries the way developers wouldn't be scared to work on a less profitable projects. Blizzard thinks that RTSes aren't profitable anymore and none of the pitches were greenlit.
 
 ## What leaks exist?
 
-- Untitled Blizzard game: https://starcraft.fandom.com/wiki/Untitled_StarCraft_game_(Blizzard_Entertainment))
-- Untitled Nexon game: https://starcraft.fandom.com/wiki/Untitled_StarCraft_game_(Nexon))
+- Untitled Blizzard game: https://starcraft.fandom.com/wiki/Untitled_StarCraft_game_(Blizzard_Entertainment)
+- Untitled Nexon game: https://starcraft.fandom.com/wiki/Untitled_StarCraft_game_(Nexon)
 
 ## Blizzard shooter vs Nexon shooter (separate builds)
 
-TODO voice: table, no merge.
+Do not merge these. Two builds, two teams.
 
 Blizzard build:
 - TPS, not cartoonish, Terrans + Zerg (via Corden)
 - UE5 (via listings)
-- In development since Odyssey cancelled 2023 (Odyssey = UE5 survival, cancelled over netcode)
-- Set 2575, ~70 years after SC2
-- Do NOT count on Destiny-like (walked back)
+- In development since The Odyssey was cancelled, so since 2023. The Odyssey was a survival game made in UE5. It was cancelled due to bad netcode.
+- Set in 2575, almost 70 years after SC2.
+- Edit: Don't count on it being Destiny-like. (Walked back.)
 
 Nexon build:
-- Nothing to do with upcoming Blizzard shooter (publishing maybe exception)
-- Separate StarCraft shooter in development at Nexon
-- Lead: Choi Jun-ho, ex Brood War UMS mapmaker. Guess only: UMS past + Overwatch Rush package deal hints smaller top-down PvP. Flag as speculation.
+- Nothing with the upcoming shooter from Blizzard (might do publishing tho). They are developing another separate StarCraft shooter.
+- TlDR: The lead is Choi Jun-ho who is a former mapmaker for Brood War. My personal speculations: the fact that the lead made an UMS map for Brood War and the deal came in package with Overwatch Rush suggest it might be a smaller top-down PvP shooter.
 
 Thin pile, one line each:
-- Listings words spotted: FPSRPG, open-world AAA, online, multi-season arcs. Unconfirmed.
-- Vehicles: probably suits, not vehicles.
-- Leads rumored: Dan Hay (Far Cry), Drew Murray (Sunset Overdrive 1-2, Resistance, Spider-Man 2). Flag rumor.
+- Job listings suggest it might be anything. The words FPSRPG, open-world AAA shooter, online, multi-season story arcs were spotted. Unconfirmed.
+- There are vehicles, but that probably meant space-suits.
+- The devs: a new team was assembled for the project from newcomers and remnants of the team that worked on the Odyssey. Dan Hay is rumoured to be the lead, he worked on Far Cry. Drew Murray is another important dev, he was a game director for Sunset Overdrive 1-2, some Resistance games and Spider-man 2. Flag rumor.
 
 ## StarCraft 3 / RTS future?
 
-TODO voice: no reports SC3 in development. Options sparse.
+There are no reports or suggestions that StarCraft 3 is in a development, but there are some options. Not a lot of them include Blizzard.
 
-- Relic making Age of Empires 5 on UE5 (via Corden), open to StarCraft 3 talks after. Thin.
-- Translations yesterday: Nexon might want SC3. Likely slop article. Flag.
-- Warcraft chronicles RTS leak (anthology, not serious). Signals slight RTS interest only.
+- According to Jez Corden, Relic is currently trying to make Age of Empires 5 on Unreal Engine 5. They are interested to talk about StarCraft 3 after that. Thin.
+- Translations of the article yesterday suggest that Nexon might be interested in StarCraft 3 as well. High possibility it's just a slop article. Flag.
+- There is a leak for the future of Warcraft which includes Warcraft chronicles (RTS). It's probably some anthology and nothing serious. That indicates that Blizzard is still interested in the RTS genre a little bit.
 
 ## What will be at BlizzCon? What to watch? Who is there?
 
-TODO voice: dates, slots, brackets. Verify all.
+Blizzcon starts on september 12. The announcement will be at the opening ceremony. There is the window for an announced project on the main stage between two panels for WoW and Diablo. However, the game might be only announced and we know that they will announce several games and projects. The ARG suggests the shooter will be announced, we don't know if there will be something else or not.
 
-- BlizzCon starts September 12. Announcement at opening ceremony. Window for announced project on main stage between WoW and Diablo panels. ARG points to shooter. More games possible, unknown.
-- Official stream opening ceremony. Day two: RSL finals + Classic Cup. RSL final: Serral vs Rogue. Classic Cup: Idra vs MC, Boxer vs Nal_rA. (verify brackets/spelling)
-- Attending: Artosis + Tasteless for RSL, assume Serral + Rogue. Giant Grant Games. Subsourian. Janitor + Intern panel.
+What to watch? There will be an official stream of the opening ceremony. On the second day there will be the finals of the RSL and classic cup for StarCraft. RSL finals: Serral vs Rogue. Classic Cup: Idra vs MC and Boxer vs Nal_rA. (Brackets unconfirmed at press time — verify before match day.)
+
+Who will be at Blizzcon? Artosis and Tasteless are coming for RSL, i assume Serral and Rogue too. Giant Grant Games will be there. Subsourian will be there too. The Janitor and the Intern will have their own panel.
 
 ## Patch?
 
-TODO voice: one line. Might land after BlizzCon.
+Might be after the Blizzcon.
 
 ## What it means for private scene
 
-TODO: 3 lines min. Emu/modding angle, why tracker covers this. Without this section, off-brand.
+Tracker editorial: a Blizzard shooter does not touch WoW private servers directly, but it moves the whole Blizzard emu scene. New official shooters pull modders and reverse-engineers toward the new title, which historically drains emulator contributor pools for months after launch. If the 2575 setting ships with new lore tooling, expect fan remakes and custom-map energy (the same UMS roots Choi Jun-ho came from) to spill back into StarCraft and Warcraft 3 custom scenes. We cover it here because scene health is what this tracker tracks — same reason we run the [Classic+ hub](/classic-plus/) and the census. If a reveal lands Sep 12, this FAQ updates to fact.

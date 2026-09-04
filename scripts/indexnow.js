@@ -17,8 +17,8 @@ fetch("https://api.indexnow.org/IndexNow", {
         urlList
     })
 }).then(async r => {
-    console.log(r.status === 200 ? `OK: submitted ${urlList.length} URL(s)` : `FAILED: HTTP ${r.status} ${await r.text()}`);
-    process.exit(r.status === 200 ? 0 : 1);
+    console.log(r.status === 200 || r.status === 202 ? `OK: submitted ${urlList.length} URL(s) (HTTP ${r.status})` : `FAILED: HTTP ${r.status} ${await r.text()}`);
+    process.exit(r.status === 200 || r.status === 202 ? 0 : 1);
 }).catch(e => {
     console.log("FAILED: " + e.message);
     process.exit(1);
