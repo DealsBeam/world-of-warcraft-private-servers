@@ -1087,7 +1087,27 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://balance-wow.org/",
-        "updated": "2026-09-03",
+        "updated": "2026-09-04",
         "popTier": "tiny"
+    },
+    {
+        "name": "Starfall WoW",
+        "status": "playable",
+        "details": "Progressive Cata 4.3.4 with custom Mythic+ — 15 affixes, keystones +15, 3 seasons, Blizzlike, transmog legendaries, 1-5x, Solo LFG, no P2W",
+        "tag": "Cataclysm",
+        "group": "",
+        "url": "https://starfall-wow.com",
+        "updated": "2026-09-04",
+        "popTier": "tiny"
+    },
+    {
+        "name": "IceDNicco",
+        "status": "playable",
+        "details": "WotLK 3.3.5a 10x with launcher, Dragonflight/Legion models, HD textures, own Mythic+ Wrath, bots + solo LFG, cross-faction, transmog, store",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://wow.icednicco.online",
+        "updated": "2026-09-04",
+        "popTier": "large"
     }
 ]
