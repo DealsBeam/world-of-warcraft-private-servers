@@ -34,7 +34,7 @@ extraScripts:
 
         <section class="panel" style="border:1px solid var(--border);background:linear-gradient(180deg, rgba(196,154,40,0.08), transparent 60%)">
             <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
-                <img src="{{ featured.image }}" alt="" width="96" height="64" style="object-fit:cover;border-radius:8px;flex:0 0 auto">
+                <img src="{{ featured.image }}" alt="" decoding="async" width="96" height="64" style="object-fit:cover;border-radius:8px;flex:0 0 auto">
                 <div>
                     <h2 style="margin:0;font-size:1.05rem">⭐ {{ featured.heading }}</h2>
                     <p class="meta-info" style="margin:4px 0 8px">{{ featured.blurb }} He reviewed our tracker {{ featured.review.date | daysAgo }} days ago.</p>

@@ -24,7 +24,7 @@ eleventyComputed:
     {% set idx = loop.index0 % 8 + 1 %}
     {% set g = p.data | gameOf %}
     <li class="blog-card" data-game="{{ g }}">
-        <img class="card-thumb" src="{{ p.data.image or ('/images/card-' + idx + '.jpeg') }}" alt="" loading="lazy" width="800" height="440">
+        <img class="card-thumb" src="{{ p.data.image or ('/images/card-' + idx + '.jpeg') }}" alt="" loading="lazy" decoding="async" width="800" height="440">
         <div class="blog-card-head">
             {{ blogMedallion(p.data.category) }}
             {% if p.data.category %}<span class="blog-cat">{{ p.data.category }}</span>{% endif %}
