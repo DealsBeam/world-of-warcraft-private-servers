@@ -1,51 +1,127 @@
 ---
-title: "Warcraft Forever — bindings file, ResetEra line and a re-registered domain"
+title: "Classic Plus Name Leak: Warcraft Forever Triple Signal"
 date: 2026-09-03
 category: analysis
-summary: "Three signals point to Warcraft Forever as a possible final name for Classic+: DefaultForeverBindings.wtf in 12.1.5 PTR, a ResetEra insider line, and warcraftforever.com re-registered Sep 2. Strongest is the file, weakest is the domain. None confirm Camelot's public title."
+summary: "Classic Plus may be called Warcraft Forever. PTR bindings file, insider line and Sep 2 domain form three legs. Read which signal holds the most weight now."
 ---
 
-A new name entered the Classic Plus conversation on Sep 3: Warcraft Forever.
+## TL;DR
 
-Three signals arrived together. One is technical. One is social. One is a domain record. None confirm Camelot's public title, but together they are the first naming leak with more than one leg.
+- DefaultForeverBindings.wtf file in 12.1.5 PTR uses legacy bars, no housing.
+- Sep 2 domain re-register plus insider line form two weaker legs via Cloudflare Registrar redacted.
+- Sep 12 Opening Ceremony title card confirms if Forever names Classic Plus in Hall D.
 
-## The file — strongest
+A new Classic Plus name entered talk on Sep 3: Warcraft Forever.
 
-In the 12.1.5 PTR client, dataminer Stiven found `DefaultForeverBindings.wtf` — a keybinding file that favors legacy-style action-bar and combat controls.
+Three signals arrived together. One is technical and two are softer.
 
-It includes a variable called `TOGGLELEGACYSYSTEM` and omits modern features like housing and ping bindings.
+One file, one forum line and one domain record form the case.
 
-Marlamin added the file to the community listfile for discovery. That step matters: it means the file is real, in the client, and now trackable.
+None confirm Camelot as the public title. Together they rank as a lead.
 
-What it could mean: a stripped-back WoW mode for consoles, a Classic-related project, or an internal test profile. What it confirms: Blizzard uses the term Forever internally somewhere.
+## The file: strongest leg
 
-Legacy bars plus no housing is Classic-shaped, not retail-shaped. That is why this leg carries the most weight.
+Dataminer Stiven found DefaultForeverBindings in the 12.1.5 PTR client.
 
-## The ResetEra line — medium
+It favors legacy-style action bars and combat controls throughout.
 
-Shortly before the PTR datamine, a ResetEra thread on Xbox Game Studios revolved around Warcraft projects. Poster lolilolailo, regarded as a Microsoft insider, replied with “Warcraft is Forever.”
+It carries a variable named TOGGLELEGACYSYSTEM for old behavior.
 
-Single line, no files, no build. Insider reputation is real — mainstream Korean reporting works the same way — but without technical evidence it stays medium confidence.
+It omits modern housing and ping bindings found in retail profiles.
 
-It is intriguing correspondence with the PTR file, not corroboration of it.
+Marlamin added the file to the community listfile for tracking.
 
-## The domain — weakest
+That step proves the file is real, present and now searchable.
 
-Warcraftforever.com was registered on Sep 2, 2026 via Cloudflare Registrar, redacted. It existed as early as 2002 and hosted an unrelated merch site in 2021.
+It could mean a slim mode, a Classic project or an internal test.
 
-Blizzard usually uses MarkMonitor for core domains, not Cloudflare. That weakens the link. A re-registered old merch domain via Cloudflare could be anyone — defensive, speculative, or unrelated.
+It confirms Blizzard uses Forever internally somewhere in builds.
 
-Treat the domain as the most speculative leg. Interesting that it re-registered Sep 2, one day before the PTR file surfaced, but timing is not ownership.
+Legacy bars without housing look Classic-shaped, not retail-shaped.
+
+That shape is why this leg carries the most weight today.
+
+## The forum line: medium leg
+
+Before the datamine, a forum thread covered Xbox studio projects.
+
+Poster lolilolailo replied with a short line: Warcraft is Forever.
+
+The account has a past record on Microsoft-side calls.
+
+One line brings no files, no builds and no screenshots.
+
+Insider reputation adds interest but cannot replace evidence.
+
+Treat it as correspondence with the PTR file, not proof of it.
+
+Two legs pointing one way still need a third leg to stand.
+
+That is why this signal stays medium confidence for now.
+
+## The domain: weakest leg
+
+Warcraftforever.com re-registered on Sep 2 through a redacted record.
+
+The name dates to 2002 and hosted merch pages around 2021.
+
+Blizzard core domains usually use MarkMonitor, not Cloudflare Registrar.
+
+That mismatch weakens any direct ownership claim a lot.
+
+A re-registered merch name could be defensive or speculative.
+
+Timing one day before the PTR file is notable but not ownership.
+
+Treat the domain as the weakest leg of the three by far.
+
+Interesting timing alone does not name a game or studio.
 
 ## What it means for Camelot
 
-If Camelot is the codename, Forever could be the title. That fits Blizzard's Feb 2025 language about “laying foundations for Warcraft's next 20 years — and beyond” and Longdale's line about the IP being underutilized with a bigger vision than an MMORPG.
+If Camelot is the codename, Forever could be the public title.
 
-Our [leak roundup](/blog/blizzcon-2026-leak-roundup/) already ranks Camelot (builds + licenses) above D2R Act VI, StarCraft Nexon and Chronicles. Forever slots into that ranking as a naming leak, not a build leak — below 69638, above HotS 2.
+That fits Feb 2025 talk of foundations for the next 20 years.
 
-Watch BlizzCon Sep 12 for the title card, not the CSS. The Gear Store `wow-camelot` to `wow-2` rename showed names change. Forever could change too.
+It also fits Longdale language on a wider vision than one mode.
 
-Until then, three legs, one strong, one medium, one weak. No confirmation.
+Our [leak roundup](/blog/blizzcon-2026-leak-roundup/) ranks Camelot above weaker threads.
+
+Forever slots in as a naming leak, not a build leak, for now.
+
+It sits below build 69638 and above low-confidence sequel talk.
+
+Watch BlizzCon Sep 12 for the title card, not style files.
+
+Store renames already showed names can shift before showtime.
+
+Until then: one strong leg, one medium leg and one weak leg.
+
+No confirmation yet.
 
 ![Warcraft Forever bindings and domain clues](https://static.icy-veins.com/wp/wp-content/uploads/2026/09/U4O5XJH31QO81700011655314.webp)
-*Triple signal: PTR bindings file, ResetEra line, Sep 2 domain re-register. File is strongest.*
+*Triple signal: PTR bindings file, forum line, Sep 2 domain move. File leads.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Warcraft Forever leak?",
+      "acceptedAnswer": {"@type": "Answer", "text": "It links a PTR bindings file, a forum insider line, and a Sep 2 domain move. Together they suggest Forever as a possible Classic Plus title."}
+    },
+    {
+      "@type": "Question",
+      "name": "Which Forever signal is strongest?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The PTR bindings file is strongest because it is verifiable client data. It uses legacy bars and omits modern housing bindings."}
+    },
+    {
+      "@type": "Question",
+      "name": "When will the Forever name be confirmed?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Only the Sep 12 Opening Ceremony title card can confirm it. Until then it stays a ranked naming leak."}
+    }
+  ]
+}
+</script>

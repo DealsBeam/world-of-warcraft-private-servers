@@ -1,102 +1,127 @@
 ---
-title: "The 300k-vote Classic Plus wishlist — and the 107-server gap where the top requests don't exist yet"
+title: "Classic Plus Wishlist Gap: 300K Votes Against 110 Servers"
 date: 2026-09-01
 category: analysis
-summary: "300,000 responses across 57 questions, three buckets — The World, The Player, The Systems — and one tracker with 107 servers. This is not another 'what do you want?' list. It is what the survey says players want versus what the private scene has actually shipped."
+summary: "Classic Plus wishlist counts 300K votes across 57 questions vs 110 tracked servers. Hyjal, heroics and Dwarf Shaman lead the gap. Read the full gap map now."
 ---
 
-The biggest number in Classic Plus is not a build string. It is 300,000.
+## TL;DR
 
-That is the survey responses at wowclassic dot plus. 57 questions, three buckets: **The World**, **The Player**, **The Systems**.
+- 300K votes across 57 questions in three buckets rank Hyjal highest.
+- 110 tracked servers ship zero full Hyjal zones and zero Classic heroics.
+- Sep 12 Opening Ceremony in Anaheim decides which gap Classic Plus fills first, live from Hall D.
 
-The survey does not speak for Blizzard. It does not ship a product. But with BlizzCon 12 days out, it is the closest census the scene has.
+The biggest Classic Plus number is not a build. It is 300,000 votes.
 
-This is not a census rehash. Our tracker has 107 servers, 46 history events, 37 Classic Plus entries.
+The survey spans 57 questions in three buckets: World, Player, Systems.
 
-Put the wishlist next to the inventory and you get a gap map. What the survey wants that Vanilla+ has not built.
+It speaks for players, not Blizzard. With Sep 12 close, it is the best census.
+
+Our tracker covers 110 servers with Classic Plus entries and history events.
+
+Put the wishlist next to that inventory and a gap map appears fast.
 
 ## How to read this
 
-Each table = one bucket. Each row = one high-ranked request.
+Each section below maps one survey bucket to live server supply.
 
-Two right columns = how many tracked servers ship it now, and what it means for a Sep 12 reveal.
+Left side is the top request. Right side is how many ship it now.
 
-We name the survey, not link it. The tracker is the receipt.
+We name the survey without linking out. The tracker is the receipt.
 
-## The World — where to go
+## The World: where to go
 
-| Request | Survey signal | Tracked servers that ship it | Gap |
-|---|---|---|---|
-| Mount Hyjal | Top zone, consistent #1 | 0 live. Turtle had a proto, no current Vanilla+ realm ships a full Hyjal at 60. | Large. The most wanted zone is the one no private server has made playable at Classic scope. |
-| Uldum | Top 5 zone | 0. Some TBC private projects have an Uldum object set, not a quested zone. | Large. |
-| Gilneas | Top 5 zone | 0. Only incomplete Cata backports on modern-client projects, not Vanilla-side playable. | Large. |
-| Pirate islands near Booty Bay | Top 10 zone | 0. No tracked server ships an original Booty Bay island chain. | Large. |
-| Ruins of Quel'Thalas / expanded Silithus | Top 10 zones | Partial. One or two Vanilla+ projects tease Quel'Thalas assets, no live zone. Silithus expanded only as a respawn tweak, not new geography. | Medium. |
-| New dungeon at 60 | 10- and 20-man both polled, 10-man leads | 3 partial. Project Legacy's custom Guardian of Hyjal and related world bosses are the only live custom endgame that is not a rescaled old raid. The rest are scaled old dungeons, not new ones. | Medium. |
-| New raid at 60 | 20-man preferred over 40, but both requested | 1-2 partial. Legacy's refreshed 25-player raids, a couple of Turtle-derived custom-boss packs. Nothing in 2026 has shipped a live original raid instance with a full loot table. | Large. |
+- Mount Hyjal is the top zone ask. Zero live servers ship a full Hyjal at 60.
+- Uldum ranks top five. Zero tracked servers ship it as a quested zone.
+- Gilneas ranks top five. Only incomplete backports exist, none playable Classic-side.
+- Pirate isles near Booty Bay rank top ten. No server ships an island chain.
+- QuelThalas and Silithus rank top ten. Only asset teases exist, no live zone.
+- New level 60 dungeon is wanted, 10-man leads. Three servers ship partial customs.
+- New level 60 raid is wanted, 20-man leads. One or two ship partial boss packs.
 
-**Read:** The World bucket is where survey and leak thread agree most.
+The World bucket is where survey and leak chatter agree most.
 
-It is also where private has delivered least. Vanilla+ in 2026 is 18 entries, 8 playable, 7 in dev, 3 dead, 10 unknown.
+It is also where private servers delivered least so far this year.
 
-That column has not shipped a new zone, despite being "new content in the old world."
+No Vanilla+ realm has shipped a new zone at Classic scope yet.
 
-If Classic Plus opens with Hyjal and one new 20-man, the private gap is a two-year lead the official product can take in one patch.
+If Classic Plus opens with Hyjal plus one 20-man, it takes the lead at once.
 
-## The Player — who to be
+## The Player: who to be
 
-| Request | Survey signal | Tracked servers that ship it | Gap |
-|---|---|---|---|
-| Dwarf Shaman | Top race/class combo, Wildhammer lore | 0 Classic-era live. No tracked Vanilla or Vanilla+ realm ships Dwarf Shaman at trainer. The Aug 15 datamine inferred it from a Dwarf Bear mount, not a spell table. | Large. See our [Dwarf Shamans piece](/blog/dwarf-shamans-would-it-break-classic/) — easy Wildhammer case, zero live. |
-| Tauren Paladin / Undead Shaman (mirror requests) | Also top 5 | 0. Same. | Large. |
-| High Elf / Ogre / Naga (new race) | Top 5 new race | 0 Classic-bound. The only live "new race" in tracker are WotLK custom rows (Sirus, Azeroth Universe) on a 3.3.5 client with 31 races — not Classic. | Large. |
-| Class tuning — new abilities vs pure 1.12 | Split, but "new abilities via runes/talent rework" leads | 4-5 live. Vanilla+ andCenturion rows ship it (Legacy talent reworks, Centurion's rebalanced 1.12-in-3.3.5 trees, Turtle-derived custom talents on Capybara/Octo/Valanior). | Small. This is the one the private scene does ship, unevenly. |
-| Level cap | "Stay 60 forever" vs "raise to 70/80" — 60 holds a narrow lead | 0 raise. Every tracked Vanilla/Vanilla+ live stays 60. Only TWW/MoP/Legion rows raise. | No gap if 60 is the answer; large gap if Plus raises. Watch the level on Sept 12. |
-| Professions — new recipes, not new profession | Mid-rank | 2-3 partial. Legacy has new crafted tiers, a couple of progressive Vanilla rows add select recipes. No full profession rework live. | Medium. |
+- Dwarf Shaman is the top combo ask. Zero Classic-era servers ship it live.
+- See our [Dwarf Shamans piece](/blog/dwarf-shamans-would-it-break-classic/) for the Wildhammer case.
+- Tauren Paladin and Undead Shaman also rank high. Zero servers ship them.
+- High Elf, Ogre and Naga rank high. Only WotLK custom rows ship new races.
+- Class tuning splits voters. Four or five live rows ship talent reworks.
+- Level cap splits 60 forever versus 70 or 80. Every Vanilla row stays at 60.
+- Professions want recipes, not new skills. Two or three rows ship partial tiers.
 
-**Read:** The Player bucket is where private moves fastest. A new talent or spell is cheaper than a new zone.
+The Player bucket is where private servers move fastest each patch.
 
-Even there, the top ask — one lore-light race/class like Dwarf Shaman — is 0 for 107.
+A new talent costs less than a new zone to design and test.
 
-That says private Classic+ has been conservative where the survey is permissive.
+Even so, the top ask of Dwarf Shaman is zero for 110 live.
 
-## The Systems — how to play
+That shows private Classic+ stayed conservative where voters feel bold.
 
-| Request | Survey signal | Tracked servers that ship it | Gap |
-|---|---|---|---|
-| Heroic dungeons | Top system, clear #1 | 0 at Classic scope. No tracked Vanilla or Vanilla+ live ships a Heroic toggle for Classic dungeons. WotLK custom rows do (M+). | Large. The most wanted system is the one most private Classic projects chose not to ship. |
-| Cross-realm / cross-faction play | Top 5 | 8 live. This is the one system the tracker does ship: Legacy, Warstorm, SoloCraft, Valanior and others are cross-faction, cross-realm is common via account banks and shared guilds. | No gap. Already standard. |
-| Seasonal world events | Top 5 | 2 live. SoD taught the pattern; private Vanilla+ mostly does not do seasonal events, but a couple of live rows run event bosses and rotating spawns. | Medium. |
-| Guild banks | Mid-high | 1 live. Project Legacy shipped guild banks Aug 26 (ranked permissions, transaction logs). No other tracked Vanilla+ live currently lists them. | Medium. One live proves it, few ship it. |
-| Achievements / transmog | Mid, but divisive — Classic purists split hard | Achievements 0, transmog 4-5 live (Old Man Warcraft, Warstorm, Valanior and others). The survey's most controversial row is the one private servers already decided: transmog yes for QoL, achievements mostly no. | Mixed. |
-| Pet battles, housing | Bottom — explicitly rejected | 0. Also rejected by the survey. No gap. | None. At least everyone agrees. |
+## The Systems: how to play
 
-**Read:** Systems is where survey and tracker overlap most.
+- Heroic dungeons are the top system ask. Zero Classic-scope servers ship one.
+- Cross-realm and cross-faction rank high. Eight live rows already ship it.
+- Seasonal events rank high. Two live rows run event bosses or spawns.
+- Guild banks rank mid-high. [Project Legacy](/servers/project-legacy/) shipped them Aug 26.
+- Transmog divides purists. Four or five rows ship it, achievements stay rare.
+- Pet battles and housing rank bottom. Voters and servers both reject them.
 
-Cross-faction is done. Guild banks just barely. Heroic — the single most wanted — is 0 for 107 at Classic scope.
+Systems is where survey wishes and tracker supply overlap most.
 
-That gap is the one an official reveal can fill most cleanly with one toggle.
+Cross-faction is done. Guild banks have one live proof. Heroics sit at zero.
 
-## What the gap map says before BlizzCon
+That zero is the cleanest win an official Sep 12 reveal can claim.
 
-**1. Biggest asks are geography.** Hyjal, Uldum, Gilneas, Quel'Thalas, Silithus, new 60 raid — 7 of 7 unshipped live.
+## What the gap says before BlizzCon
 
-No private server has a playable zone that survives the "would I run this on Classic+" test at Black Temple fidelity.
+Biggest asks are geography. Hyjal, Uldum, Gilneas and a new raid sit unshipped.
 
-If Classic Plus opens with one new zone, the gap is a mic drop.
+No private zone yet passes a Classic Plus fidelity test at raid scale.
 
-**2. Easiest asks are not shipped.** Dwarf Shaman is lore, a trainer and a quest.
+Easiest asks are also unshipped. Dwarf Shaman needs a trainer and quests.
 
-Heroic is a toggle and a loot table. Both top-5, both 0.
+Heroics need a toggle plus a loot table. Both poll top five, both sit zero.
 
-Not a technical limit. A choice to keep Classic looking like Classic. Official does not face that constraint.
+That looks like a choice to keep Classic looking classic, not a tech limit.
 
-**3. Where private moves — talents, cross-faction, transmog — it moves first.**
+Where private moves first is talents, cross-faction and transmog systems.
 
-Those systems your 107 already live. If Classic Plus ships those three, it feels like catch-up, not reveal.
+If Sep 12 ships those three, it reads as catch-up rather than reveal.
 
-The reveal will be Hyjal, heroic, and the level number in the trailer corner.
+Watch Hyjal, heroics and the level number in the trailer corner instead.
 
-Twelve days out, that is the gap. 300k votes want Hyjal and a new class table.
+Twelve days out, votes want Hyjal and a new class table to match.
 
-107 servers have the class table half-built and Hyjal not at all. Watch Sep 12 for which column moves first.
+The class table is half-built. Hyjal is not. Sep 12 moves one column first.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Classic Plus wishlist gap?",
+      "acceptedAnswer": {"@type": "Answer", "text": "It compares 300K survey votes across 57 questions against 110 tracked servers. Top wishes like Hyjal and heroics have zero live Classic-scope supply."}
+    },
+    {
+      "@type": "Question",
+      "name": "Which Classic Plus zone is most wanted?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Mount Hyjal ranks first as a full level 60 zone. No tracked Vanilla or Vanilla+ realm ships it live today."}
+    },
+    {
+      "@type": "Question",
+      "name": "What system gap could BlizzCon 2026 fill first?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Heroic dungeons poll as the top system with zero Classic-scope supply. A single toggle plus loot tables would close it."}
+    }
+  ]
+}
+</script>

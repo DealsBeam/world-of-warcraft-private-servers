@@ -1,42 +1,103 @@
 ---
-title: "Will Classic Plus kill the Anniversary servers?"
+title: "Classic Plus vs Anniversary: Will One Launch Kill Other?"
 date: 2026-09-01
 category: opinion
-summary: "If Project Camelot is Classic Plus and it ships alongside a Wrath Anniversary in late 2026, can Blizzard's own Classic audience survive two launches at once? The question is older than Camelot; the server counts make it concrete."
+summary: "Classic Plus launching beside Wrath Anniversary raises split fears for Blizzard Classic fans everywhere. See why corridors survive new lanes. Read the analysis."
 ---
 
-The question in Quissy's August 5 Warcraft Brew is the right one to ask now, twelve days before BlizzCon 2026: **does an official Classic Plus launch eat Anniversary?**
+## TL;DR
 
-The context is the one the tracker has been living in all year. TBC Anniversary Phase 3 [went live August 27](/news/black-temple-aug-27/) with Black Temple, Hyjal, Netherwing and Arena Season 3. Wrath Anniversary is widely expected on the BlizzCon stage alongside whatever Camelot turns out to be — a dual reveal on the same night, with two live Classic products and one big new one, all asking for the same player's next three months.
+- Anniversary is a Vanilla-to-Wrath corridor, while Plus would widen Vanilla at 60 today.
+- Private dual-realm tests split funnels instead of killing the slower ladder option.
+- BlizzCon September 12-13 gates and logins will show if both lanes can coexist in Anaheim.
 
-Private servers already answered the same question with a real example. When [TranscendWoW](/servers/transcendwow/) shipped high-rate custom WotLK alongside a blizzlike WotLK ladder on the same network, the high-rate realm did not kill the blizzlike one; it split the funnel. Players tried the fast one, came back for the slow one, or stayed where their friends were. The network with both outlasted the network with one.
+The August 5 Warcraft Brew asked the right pre-BlizzCon question. **Does Classic Plus eat Anniversary?**
 
-Official Classic would do the same, but with one difference: it can afford to split.
+Context is TBC Anniversary Phase 3 live August 27. Black Temple, Hyjal, Netherwing, and Arena Season 3 lead it.
 
-## Anniversary is not a competitor; it is a corridor
+Wrath Anniversary is widely expected on stage with Camelot. Two Classics plus one new thing would share one audience.
 
-Anniversary's design is a corridor. Vanilla → TBC → Wrath → Cata, one expansion at a time, same patch cadence, same content order. It is the only thing of its type in the official lineup, which is also why the private scene's version of the same corridor (progressive Vanilla, progressive TBC, progressive WotLK) has always been the most stable part of the private list. Watch the tracker: TBC has 7 entries, 5 playable, 1 dead, all small or tiny — stable. WotLK has 36 entries and 32 are playable — enormous, but stable. MoP, Cata, Legion, the later expansions are the thin tail. The corridor is the core.
+Private servers already ran this test. [TranscendWoW](/servers/transcendwow/) paired fast custom WotLK with blizzlike ladder.
 
-Classic Plus would not be a wider corridor. It would be a different shape. Instead of moving the player from one expansion to the next, it keeps the player in Vanilla — same world, same level cap, same pacing — and layers new zones, dungeons, tuned classes and progression systems on top. That is also, incidentally, what the biggest private Classic+ projects of the last three years have been: Turtle WoW (dead May 15), [Project Epoch: Reborn](/servers/project-epoch-reborn/) (in testing), [Duskhaven](/servers/duskhaven/) and [WallCraft](/servers/wallcraft/) (announced, no launch date), [Centurion](/servers/centurion-legionnaire/) (live on a WotLK client, tiny), and [Project Legacy](/servers/project-legacy/) (small, 1,000 accounts, growing). The private Classic+ column is the most fragmented column on the tracker because everyone agreed Vanilla should be bigger, but no one agreed how.
+Fast did not kill slow there. Players sampled speed, then returned for friends and ladder pacing.
 
-Put the two official products side by side on one stage. Anniversary says: we will give you the next expansion, the way you remember it, with the systems you remember, at the cadence you remember. Classic Plus says: we will keep Vanilla and make it wider, with new things you never did. They are not the same pitch, and they are not pitched to the same player on the same night, even though the room is the same.
+Official Classic can afford that split even more. Two lanes can share one account base.
 
-## Why private servers already know the answer
+## Corridor versus widening
 
-The tracker has been accidentally running the experiment since May. When Turtle WoW went offline, the Vanilla+ private audience did not leave for private WotLK. The TBC population did not spike. The WotLK population did not fill the gap. What filled the gap, temporarily, was the idea of Classic Plus: the whole 1.60 datamine thread, from the October 2025 first builds to the 69609 tip on Aug 29, lives in the space where private Classic+ used to be. That thread pulled attention without pulling characters, because there was no server to log into.
+Anniversary is a corridor by design. Vanilla to TBC to Wrath to Cata, same order and cadence.
 
-If official Classic Plus ships next to an Anniversary reveal, the same thing happens at the official layer, but with real servers. Some players will play Classic Plus. Some will play Wrath Anniversary. The question will not be "which one kills the other" but "how many players want two lanes versus one" — and whether the player who wants two lanes is the same player the tracker already has as its most committed one, or a new player who was never on a private server at all.
+That corridor is unique officially and stable privately. TBC holds 7 rows steady, while WotLK holds 36 with 32 playable.
 
-The private-server lesson from TBC Anniversary vs TBC private is instructive. Official Phase 3 launched, and Moonwell's 70-100 concurrent did not dip. Faebright's 0-50 did not spike. Rising Gods' 70-100 German crew did not move. The two tracks share raids, not players. People who want the official experience play it. People who want the private version's rates, QoL, or community stay. The Venn diagram overlaps in Discord, not in the realm list.
+Classic Plus would be a different shape. It keeps Vanilla at 60 and layers zones, dungeons, tuning, and systems.
 
-## What we watch at BlizzCon
+Private Classic+ tried that shape already. [Epoch Reborn](/servers/project-epoch-reborn/) tests, [Duskhaven](/servers/duskhaven/) waits, [Centurion](/servers/centurion-legionnaire/) runs tiny.
 
-Two signals will tell us whether "kill" is even the right verb:
+[Project Legacy](/servers/project-legacy/) grows near 1,000 accounts. No row agrees on how Vanilla should widen yet.
 
-**1. A shared gate.** If Classic Plus is seasonal and Wrath Anniversary is annual, and they ship in the same quarter, Blizzard will gate progression — staggered phase windows, different raid lockouts, different currency sinks — so one product does not obsolete the other in month one. If Classic Plus is permanent, the gate is the level cap. Vanilla content that stays at 60 forever competes differently than a level-70 lane and a level-80 lane. Watch the level.
+Side by side, pitches differ. Anniversary sells the next expansion as remembered, while Plus sells new Vanilla never played.
 
-**2. A shared login.** The Anniversary and Classic Plus clients will share a Battle.net account, maybe a Battle.net character list, maybe a cross-product currency (a mount, a toy, a transmog). How shared the login is tells you whether Blizzard thinks of the two products as two stores or two departments of the same store.
+Same room, same night, different player urge. Corridor comfort versus wider curiosity drive separate logins.
 
-Until the opening ceremony wraps on Sept 12, there is no official text that connects Project Camelot to Anniversary. There is only the calendar: 13 days between today and the stage, 18 if you count badge pickup. The tracker will be at BlizzCon with the same job it had at the TBC Anniversary launch — count what shipped, count what is playable, write it down for the next time someone asks whether the official and the private are the same game. They are not.
+## What private data says
 
-And if Classic Plus ships alongside Wrath, Anniversary will not die. It will do what corridors do. It will wait. The players who want it will come back in the quiet month after the new thing's launch window. The raid will still be there. Black Temple was.
+Turtle shutdown in May ran the accident test. Vanilla+ audience did not flood WotLK or TBC rows.
+
+The gap filled with attention, not characters. The 1.60 thread from October to 69609 drew eyes with no server.
+
+Official dual launch would repeat that with real realms. Some pick Plus, some pick Wrath Anniversary instead.
+
+The question shifts from killer to mix. How many want two lanes, and are they new or returning?
+
+TBC Anniversary versus private shows split tracks. Moonwell held 70 to 100 through official Phase 3 launch.
+
+Faebright and Rising Gods held too. Shared raids do not mean shared players or realm lists.
+
+## What to watch at BlizzCon
+
+Two signals decide if kill is the wrong verb. Gates first, then login sharing shape the outcome.
+
+**1. Shared gate.** Seasonal Plus plus annual Wrath needs staggered phases and lockouts. Permanent Plus at 60 splits by cap instead.
+
+Watch the level number first. Cap tells permanent versus seasonal faster than any zone art.
+
+**2. Shared login.** One Battle.net account may link lists, mounts, toys, or transmog. Depth of sharing shows store versus department thinking.
+
+No official text links Camelot to Anniversary today. Only the calendar links them: days to September 12 stage.
+
+The tracker will count what ships and what stays playable. Official and private are not the same game.
+
+If Plus ships with Wrath, Anniversary will wait. Corridors do that well, and Black Temple will still stand.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will Classic Plus kill Anniversary servers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Likely not, since Anniversary is a progression corridor and Plus would widen Vanilla. They target different urges in the same audience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What did private servers show about dual launches?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fast and slow realms on one network split the funnel instead of killing one side. Players sampled both and settled with friends."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What BlizzCon signals matter most?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Watch the level cap for permanent versus seasonal gating. Then watch login sharing for how linked the two products will be."
+      }
+    }
+  ]
+}
+</script>

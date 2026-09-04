@@ -1,49 +1,140 @@
 ---
-title: "SoD's real legacy — what Season of Discovery tested that Classic Plus will ship"
+title: "Classic Plus Lab: What SoD Tested for the Sep 12 Reveal"
 date: 2026-09-01
 category: analysis
-summary: "Season of Discovery gave Mages heals, Warlocks tanks and dungeons as raids. It was not Classic Plus, but it was the lab. Here is what SoD proved, what it broke, and what the private scene — from Turtle to Project Legacy — already knows Classic Plus will have to decide."
+summary: "Classic Plus borrows from the SoD lab: runes, level caps and Scarlet Enclave lessons tested live. See what broke, what held, and what Sep 12 must decide."
 ---
 
-Every Classic Plus conversation in August 2026 mentions Season of Discovery. The Casually Classic Aug 28 piece asked what clues SoD held for Classic Plus, and the answer is not a feature list. It is a lab report.
+## TL;DR
 
-SoD launched November 30 2023 with three bets: give classes abilities from later expansions, gate the world with level caps (25, then 40, then 50, then 60), and turn dungeons into raids with the Scarlet Enclave as the capstone. Mages healed, Warlocks tanked, Hunters had a rune that made them melee, and the world felt wild for a month. Then the bets showed their edges.
+- SoD launched Nov 30 2023 with runes, level caps, Scarlet Enclave capstone.
+- 110 tracked servers copied runes as talents but shipped zero Hyjal zones.
+- Sep 12 Opening Ceremony decides runes versus talents, seasonal versus permanent, live from Hall D stage.
+
+Every Classic Plus talk in August 2026 mentions Season of Discovery.
+
+SoD is not Classic Plus. It is the lab that tested ideas live.
+
+It launched Nov 30 2023 with three bets on classes, caps and raids.
+
+Mages healed, Warlocks tanked, Hunters went melee for a wild month.
+
+Then each bet showed its edge as phases moved from 25 toward 60.
 
 ## What SoD proved
 
-**Runes work.** The most durable thing SoD shipped was not a zone. It was a talent row by another name. Runes gave classes a second way to play without a second client or a second spec screen — the same idea private Vanilla+ has been shipping since 2023 on [Vanilla+](/servers/vanilla/) (custom talents since 2023) and [Project Legacy](/servers/project-legacy/) (reworked talents, dual spec) and [Centurion — Legionnaire+](/servers/centurion-legionnaire/) (rebalanced 1.12-in-3.3.5 trees). SoD proved players will accept new class identity if it is layered on the old one, not instead of it.
+Runes worked best. They gave each class a second way to play in place.
 
-**Level caps gate better than phases.** Anniversary's corridor gates with phases (Vanilla → TBC → Wrath, one expansion at a time). SoD gated with caps inside one expansion (Vanilla at 25, then 40). The private scene's version of the same gate is the level-60 cap that never moves — [LunaticPTR](/servers/lunaticptr/) at 1, Classic Plus Ashbringer at 25 with the Mythia map, Project Legacy at 60 with Prestige. SoD proved a cap can be content, not just a number.
+No second client was needed. No second spec screen was needed either.
 
-**Hidden content works once.** SoD hid Scarlet Enclave and a handful of runes from dataminers so players discovered them as a community. Private Vanilla+ has never been able to do that — Turtle's 1.17 leak put the whole client on GitHub, and every successor (Octo, Capybara, Ravencraft) ships with the map visible. SoD proved mystery is a system, not a bug.
+Private Vanilla+ ships the same idea as talents on [Vanilla+](/servers/vanilla/).
+
+[Project Legacy](/servers/project-legacy/) ships reworked talents plus dual spec.
+
+[Centurion Legionnaire+](/servers/centurion-legionnaire/) rebalances old trees too.
+
+SoD proved players accept new identity layered on old identity.
+
+Level caps gated better than phases. SoD capped one world at 25, then 40.
+
+Anniversary instead phases Vanilla into TBC into Wrath in order.
+
+Private servers gate with a fixed 60 cap that never moves upward.
+
+[LunaticPTR](/servers/lunaticptr/) holds at 1. Legacy holds 60 with Prestige.
+
+SoD proved a cap can be content, not just a number on screen.
+
+Hidden content worked once. SoD hid Scarlet Enclave from dataminers.
+
+Players found runes together as a community during week one.
+
+Private Vanilla+ cannot hide maps the same way after public leaks.
+
+SoD proved mystery is a system, not a bug to patch out.
 
 ## What SoD broke
 
-**Balance did not survive the second phase.** SoD's class changes were tuned for 25, retuned for 40, and never quite caught at 60. Private Vanilla+ knows this shape: custom talents on a 1.12 base break at the same points, and the fix is always the same — a second pass on numbers that the small team does not have time to ship before the next phase opens.
+Balance did not survive phase two. Tuning for 25 broke at 40 and 60.
 
-**Discovery has a half-life.** The first month of SoD had more Twitch hours than the next five combined. When the runes were found and the raids were on farm, the discovery engine stalled and the corridor resumed. Private Classic+ has the same half-life problem: a new quest chain is content for a week, a new zone is content for a month. The only thing that extends the half-life is a new system, not a new place.
+Private talent reworks hit the same wall on a 1.12 base build.
 
-**It was still seasonal.** SoD ended. The message in 2025 was explicit: Season of Discovery's active development is over, work on the next major Classic project begins. Seasonal is a cost, not a feature, for the player who wants a world that waits. Our [Moonwhisper Games rebuild](/blog/moonwhisper-games-rebuild/) piece made the same point from the other side: Moonwhisper's first pillar is "no FOMO — no seasonal, limited-time experiences that punish you for stepping away." SoD proved why that pillar matters.
+The fix is always a second numbers pass that small teams lack time for.
 
-## What private Classic Plus already knows
+Discovery had a half-life. Month one beat the next five months combined.
 
-Look at the 18 Vanilla+ rows on the tracker: 8 playable, 7 in dev, 3 dead, 10 unknown pop. The ones that shipped something durable in 2026 are the ones that shipped a system, not a zone.
+Once runes were found and raids went on farm, hours fell fast.
 
-- Project Legacy shipped guild banks Aug 26, cross-faction, 25-player refreshed raids, no world buffs — systems.
-- Old Man Warcraft shipped per-char Vanilla→TBC→WotLK to tier 18, bots/scale for solo, LLM chat, Mythic+ — systems.
-- Warstorm shipped raid bots that clear ICC25 HC — system.
-- Turtle shipped Prestige, Lorewalker, cross-faction, dual spec — systems.
+A quest lasts a week. A zone lasts a month. Systems last longer.
 
-None shipped Mount Hyjal. None shipped a new 60 raid with a full loot table. The zone that the [300k-vote wishlist gap](/blog/classic-plus-wishlist-gap/) ranks #1 is 0 for 107 live. SoD's most durable gift — runes — is the one private Classic+ has copied most.
+It stayed seasonal. Active SoD development ended with a 2025 message.
 
-## What Classic Plus will have to decide
+Seasonal costs players a world that waits for their return.
 
-If Camelot is Classic Plus and it ships on Sept 12 alongside whatever Wrath Anniversary brings, the SoD lab leaves two questions:
+Our [Moonwhisper Games rebuild](/blog/moonwhisper-games-rebuild/) makes that case too.
 
-**1. Runes or talents?** SoD's answer was runes. Private's answer has been talents. One is a discoverable object, one is a row. Both work, but only one survives datamining. Watch whether the reveal shows a spellbook or a UI.
+No FOMO means no limited-time loss for stepping away awhile.
 
-**2. Seasonal or permanent?** SoD's answer was seasonal. Private's answer has been permanent. Moonwhisper's answer is permanent. Watch whether the level cap is a cap or a phase.
+## What private Classic Plus knows
 
-Until the opening ceremony wraps, SoD is the closest thing to a Classic Plus prototype the community has actually played. Use it as the lab, not the wishlist. The wishlist is what 300,000 players want. The lab is what shipped, broke, and will have to be fixed before the next launch.
+The tracker holds 18 Vanilla+ rows: 8 playable, 7 in dev, 3 dead.
 
-BlizzCon will tell us which fix Blizzard picked.
+Durable 2026 ships were systems, not zones, across those rows.
+
+Project Legacy shipped guild banks Aug 26 plus cross-faction play.
+
+Old Man Warcraft shipped solo scaling, bots, Mythic+ and chat tools.
+
+Warstorm shipped raid bots that clear hard modes without full groups.
+
+Turtle shipped Prestige, Lorewalker, cross-faction and dual spec.
+
+None shipped Mount Hyjal or a new 60 raid with full loot.
+
+The [wishlist gap](/blog/classic-plus-wishlist-gap/) ranks Hyjal first at zero supply.
+
+SoD runes remain the most copied gift in private Classic+ today.
+
+## What Sep 12 must decide
+
+If Camelot is Classic Plus, two lab questions carry into the reveal.
+
+First: runes or talents. SoD picked runes. Private picked talent rows.
+
+One is a found object. One is a row. Only one resists datamining.
+
+Watch whether the demo shows a spellbook pickup or a UI panel.
+
+Second: seasonal or permanent. SoD picked seasonal. Private picks permanent.
+
+Moonwhisper also picks permanent with no FOMO as pillar one.
+
+Watch whether the cap is a phase gate or a lasting home.
+
+Until the ceremony wraps, SoD is the closest played prototype.
+
+Use it as the lab, not the wishlist, for Sep 12 predictions.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What did Season of Discovery test for Classic Plus?",
+      "acceptedAnswer": {"@type": "Answer", "text": "SoD tested runes, level caps inside one world, and hidden endgame content. Runes proved durable while balance and discovery faded by later phases."}
+    },
+    {
+      "@type": "Question",
+      "name": "Why is SoD called a lab and not Classic Plus?",
+      "acceptedAnswer": {"@type": "Answer", "text": "SoD was seasonal and ended active development. Classic Plus is expected to be a permanent world, so SoD reads as an experiment."}
+    },
+    {
+      "@type": "Question",
+      "name": "What must the Sep 12 reveal decide?",
+      "acceptedAnswer": {"@type": "Answer", "text": "It must pick runes versus talents and seasonal versus permanent. Those two calls shape classes and world structure."}
+    }
+  ]
+}
+</script>

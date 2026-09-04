@@ -1,36 +1,93 @@
 ---
-title: "State of Azeroth Jan 29 — what Longdale teed up before the blackout"
+title: "BlizzCon 2026 Tease: Jan 29 Blackout and Longdale Signal"
 date: 2026-09-02
 category: analysis
-summary: "At the Jan 29 State of Azeroth, Holly Longdale started to announce Classic's future before a staged power outage cut her off mid-sentence. Blizzard later said the cutoff was intentional. Here is what she said, what she didn't, and why the blackout matters 11 days before BlizzCon."
+summary: "BlizzCon 2026 buildup started with Holly Longdale cut off mid-sentence at State of Azeroth Jan 29. See what she said and why it matters. Read the breakdown."
 ---
 
-On January 29 at the State of Azeroth presentation, executive producer Holly Longdale began the line the community has been quoting since: that all Classic players have a lot to look forward to, with the Classic future promised after The Black Temple at BlizzCon 2026. Mid-sentence, the stage went dark. A power outage — staged, as Blizzard later confirmed — cut her off. "I guess we'll save that for later," was the last audible line before the feed cut to the outage card.
+## TL;DR
 
-The clip is 12 seconds. The read is everything since.
+- Holly Longdale promised Classic players more to look forward to on January 29.
+- A staged blackout cut her sentence, saving the reveal for BlizzCon September 12-13.
+- Black Temple launched August 27, leaving the Anaheim main stage as next signal soon.
+
+On January 29 at State of Azeroth, Holly Longdale began the quoted line. All Classic players have a lot to look forward to, she said.
+
+Mid-sentence the stage went dark. A staged outage cut her off before the Classic future line landed.
+
+Her last audible words were save that for later. The feed then cut to an outage card.
+
+The clip runs 12 seconds. The read since has filled volumes.
 
 ## What she said
 
-The State of Azeroth was not a Classic-only stage. The January 29 show covered the full WoW slate, but the Classic beat was given to Longdale, in her own words, "all Classic players have a lot to look forward to." The next sentence was the one the outage interrupted: the promise that clarity on Classic's future comes "after The Black Temple, at BlizzCon 2026." That second half did not go out live; it went out as a line the community stitched from a post-show post and from a later Blizzard confirm that the cutoff was intentional.
+The show covered the full WoW slate. Longdale owned the Classic beat with one live line.
 
-So the State of Azeroth left two Classic lines, one live and one inferred:
+Live line: **Classic players have a lot to look forward to.** That part aired clearly to the room.
 
-- Live: **Classic players have a lot to look forward to.**
-- Inferred: **After Black Temple, at BlizzCon 2026.**
+Inferred line: **after Black Temple, at BlizzCon 2026.** That part came via post-show posts and later confirms.
 
-Both are now checkable. Black Temple went live Aug 27 on TBC Anniversary. The [BlizzCon 2026 schedule](/news/blizzcon-2026-schedule-dates-venue-stream/) has badge pickup Sep 11, free Opening Ceremony stream, AWC/MDI and Classic Cup on floor. The [BlizzCon watch guide](/news/blizzcon-watch-and-drops-sep-12-13/) has the drop window Sep 12 09:30 PDT → Sep 13 19:00 PDT. The [Classic+ tracker](/classic-plus/) has build 69638 on Sep 1. The outage was the only part of the January show that was not a reveal; it was a trailer for the reveal.
+Blizzard later said the cutoff was intentional. The second half was stitched from follow-ups, not from live audio.
 
-## Why a staged blackout matters
+Both lines are now checkable. Black Temple went live August 27 on TBC Anniversary. See the [schedule](/news/blizzcon-2026-schedule-dates-venue-stream/) for badge pickup September 11.
 
-Blizzard does not cut its own stage without a reason. The January 29 show could have run Longdale's full line, announced a date, and moved on. Instead it chose to make the Classic future a piece of stagecraft: a promise, an interruption, a save-for-later. That is not a technical choice. It is a narrative choice, and it tells you how Blizzard thinks the Classic announcement lands — not as a patch note, but as a moment.
+The [watch guide](/news/blizzcon-watch-and-drops-sep-12-13/) lists drops September 12 to 13. The [Classic+ tracker](/classic-plus/) logs build 69638 on September 1.
 
-Private servers know that shape. Turtle WoW's shutdown on May 15 was a legal moment that became a narrative moment the moment the injunction hit. Ascension's Sep 4 shutdown, eight days before BlizzCon, is the same shape in reverse: the private timeline ends where the official timeline's tease began. The January blackout is the hinge between them.
+## Why the blackout matters
 
-## What to watch for on Sept 12
+Blizzard does not cut its own stage by accident. It could have aired the date and moved on.
 
-The Stage of Azeroth line that will be quoted back at BlizzCon is the first half: "All Classic players have a lot to look forward to." If Classic Plus is the thing they have to look forward to, the second half — "after Black Temple, at BlizzCon 2026" — will be delivered as the opening line of the Classic segment, not as a new line. The crowd will hear its own quote back. That is how staged outages pay off.
+Instead it made Classic a stagecraft moment. A promise, an outage, then save for later.
 
-If Classic Plus is not the thing — if the stage is Wrath Anniversary, or a new Classic Era ruleset, or a SoD-style season — the January line still pays, but differently. "A lot to look forward to" without a same-night reveal becomes a promise for later in the year, not a reveal. The tracker will read it that way: not as a miss, but as a delay.
+That is a narrative choice, not a tech fault. It frames Classic as a moment, not a patch note.
 
-For now, the only Classic Plus facts are the ones that did not need a stage. Build 69638 on Sep 1, 37 tracker entries, 108 servers, and a line that was cut off so it could be finished in Anaheim. Watch the main stage, not the floor map. The floor map is where the Classic Cup sits. The main stage is where the sentence ends.
+Private history knows this shape. Turtle WoW shutdown on May 15 turned legal news into narrative in hours.
 
+Ascension shutdown on September 4 mirrors it in reverse. Private ends where the official tease began in January.
+
+## What to watch September 12
+
+The quoted line will return on stage. Expect the first half as setup for the Classic segment.
+
+If Plus is the payload, the second half opens the bit. The crowd will hear its own quote played back.
+
+That payoff is how staged outages earn their keep. Interruption in January becomes reveal in Anaheim.
+
+If the stage shows Wrath Anniversary or a season instead, the line still pays. It becomes a promise for later this year.
+
+The tracker will read that as delay, not miss. Watch the main stage, not the floor map for this beat.
+
+For now facts need no stage. Build 69638, 37 entries, 108 servers, and one cut sentence. The sentence ends in Anaheim.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happened at State of Azeroth on January 29?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Holly Longdale said Classic players have more to look forward to, then a staged outage cut her off. Blizzard later confirmed the cutoff was intentional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does the blackout point to BlizzCon 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The inferred follow-up placed Classic clarity after Black Temple at BlizzCon. Black Temple launched August 27, leaving September 12-13 as the stage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should viewers watch on stage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Watch the main stage opening of the Classic segment for the payoff line. The floor map hosts Classic Cup, not the reveal."
+      }
+    }
+  ]
+}
+</script>

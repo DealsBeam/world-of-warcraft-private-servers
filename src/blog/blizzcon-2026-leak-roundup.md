@@ -1,153 +1,221 @@
 ---
-title: "BlizzCon 2026 Leak Roundup: Camelot, D2R Act VI, StarCraft and the weaker signals"
+title: "BlizzCon 2026 Leak Roundup: Camelot, D2R Act VI, StarCraft"
 date: 2026-09-02
 category: analysis
-summary: "BlizzCon is 10 days out and the leak season is in full swing — storefront CSS, PTR datamines, a Korean newspaper report and a single roadmap graphic. None are confirmed. Here is what's been spotted, datamined and rumored, with confidence notes that vary a lot."
+summary: "BlizzCon 2026 leak roundup ranks Camelot build 69638, D2R Act VI and StarCraft Nexon talk by confidence. See what holds before the Sep 12 Opening Ceremony."
 ---
 
-BlizzCon 2026 is less than two weeks out. The pre-show leak season is in full swing.
+## TL;DR
 
-Between storefront CSS files, PTR datamines, Korean industry reporting and a leaked roadmap graphic, several threads have picked up steam.
+- Build 69638 tip anchors Camelot 1.60 branch since October 2025 tracked ahead of Sep 12 reveal.
+- 110 tracked servers frame private context against D2R, StarCraft rumors.
+- Sep 12 Opening Ceremony confirms or kills each leak thread live in Hall D.
 
-Some are well-corroborated. Some rest on a single unverified source. None are confirmed by Blizzard.
+BlizzCon 2026 is less than two weeks out. Leak season is live.
 
-Treat everything below as speculation with varying support, and pay attention to confidence notes — they vary a lot.
+Storefront files, PTR finds, industry reports and one graphic fuel talk.
 
-## WoW: The Camelot Trail Just Got a New Data Point
+Some threads have layers. Some rest on one source alone.
 
-The longest thread is Project Camelot. The name ties to a mysterious WoW Classic build — patch 1.60 — tracked since October 2025.
+None are confirmed by Blizzard. Confidence varies a lot by thread.
 
-The build sits far ahead of anything Classic runs now. That is why the community reads it as a separate product, not a routine patch.
+Treat all below as speculation with receipts attached.
 
-The case for Camelot as Classic+ has built in layers.
+## WoW: Camelot adds a data point
 
-Dataminer Stiven_SRB found Heroic and Epic license tiers for “World of Warcraft Camelot” in June. That is the two-tier bundle Blizzard uses for full retail launches, not a small patch.
+The longest thread is Project Camelot, a mystery 1.60 Classic build.
 
-In late July, tracking accounts saw the build move to a vendor server. That step usually means a project has moved past purely internal testing.
+It is tracked since October 2025 and sits far ahead of live Classic.
 
-In January, WoW Classic producer Holly Longdale teased an announcement on State of Azeroth before being cut off mid-sentence. That fueled months of “what was she about to say” talk.
+That gap is why readers see a product, not a routine patch.
 
-The newest wrinkle: with BlizzCon merch live on the Gear Store, dataminers spotted a color file named `wow-camelot__color-scheme`.
+The case built in layers across June, July and August.
 
-Shortly after the community noticed it, Blizzard renamed the file to `wow-2__color-scheme`.
+Stiven found Heroic and Epic license tiers for Camelot in June.
 
-That swap is doing a lot of work in current speculation. Some readers jump to “WoW 2.”
+That two-tier shape matches full launches, not small patches.
 
-Be skeptical of that leap. A CSS class is not a product title, and no other evidence points to a full sequel rather than a second WoW merch palette.
+In late July, tracking saw the build move to a vendor server.
 
-What is more defensible is that this is yet another Camelot mention right before BlizzCon, on top of a build that has grown for months.
+That move often means testing passed purely internal stages.
 
-The schedule adds context: this year's public BlizzCon schedule includes two separate “World of Warcraft: What's Next” panels on Day One.
+In January, producer Holly Longdale teased news before a cut-off.
 
-That duplication does not match a typical single-panel year. If Camelot gets a reveal, that second slot is the most plausible place.
+That clip fueled months of what-was-she-about-to-say talk.
 
-## Diablo II: Resurrected — An Alleged Act VI Datamine
+The newest wrinkle is build 69638 tipping Sep 1 activity.
 
-A separate thread concerns Diablo II: Resurrected — a purported PTR-side datamine for a new Act VI.
+A parallel 1.60.0 line kept ticking nearby into Sep 2.
 
-Act 6 rumors for D2R are not new. They have circulated since shortly after the 2021 remaster, often fueled by streamer comments later walked back.
+Merch files added a Camelot color scheme, later renamed.
 
-Flag that up front, because “Act 6 leak” has cried wolf before.
+A CSS class is not a title. Do not leap to sequel talk.
 
-The details now circulating are more specific than past rounds:
+What holds is another Camelot mention right before BlizzCon.
 
-- **New Act**, similar in size to Act V, set in the ancient civilization that built the World Stone Citadel. That civilization later allied with demons and became corrupted. Players would fight through that corrupted civilization.
-- **New monsters**, including a bear-shaped creature with a human face, a giant fly, and a worm-like creature with a human face.
-- **Paladin:** Blessed Hammer reworked (straight line before rotating) and Vengeance described only as “major changes, details TBD.”
-- **Druid:** Teleport usable in Werewolf/Werebear, Hurricane synergy reworked with Twister (200-degree fan cone) and Tornado (adds Lightning to Hurricane area), plus a heavily modified Summoning line — including a Bear with up to 80% Crushing Blow under specific conditions.
-- **Runewords:** Enigma reportedly losing +2 All Skills, Famine getting substantial option changes.
-- **New item type “Scabbard”** — a category that did not exist before, possibly class-exclusive, equip slot unconfirmed.
+See our [Classic+ tracker](/classic-plus/) for the live build view.
 
-The datamine reportedly states that Paladin, Druid and item/runeword changes are the only areas with confirmed data so far.
+See our [BlizzCon watch guide](/news/blizzcon-watch-and-drops-sep-12-13/) for stream plans.
 
-Nothing has surfaced for the other five classes. The source attributes that to incomplete data, not to those classes being untouched.
+The schedule adds context with two Whats Next panels on Day One.
 
-Standard caveat: this is unreleased data. Specifics can change or be cut before anything ships.
+That split does not match a normal single-panel year shape.
 
-Take this with real caution. Losing Enigma's +2 All Skills would be one of the most disruptive balance changes in post-launch history if accurate.
+If Camelot reveals, the second slot is the likely home.
 
-That claim warrants stronger sourcing before treating it as likely.
+## Diablo II: alleged Act VI datamine
 
-Multiple outlets note BlizzCon is the most plausible window if Blizzard is sitting on Act 6 at all, given post-Reign of the Warlock activity.
+A second thread points at Diablo II Resurrected and Act VI.
 
-Plausible window and confirmed leak are different claims. This has not been corroborated by a second independent datamine.
+Act 6 talk is old. It ran since the 2021 remaster launch.
 
-## StarCraft: The Nexon Report Keeps Resurfacing
+Past rounds came from streamer lines later walked back.
 
-We covered this in more depth in a separate piece, but it belongs here too.
+Flag that history before weighing the new specifics.
 
-South Korean outlet Chosun Ilbo reported Sep 2 that a licensing deal between Nexon and Blizzard over the StarCraft IP is “on the verge of being finalized.”
+New claims are more detailed than past rounds were.
 
-That would let Nexon develop a new mainline entry — believed by some to be StarCraft 3.
+- New Act near Act V size, tied to the World Stone builders.
+- New monsters include a bear with a human face and a giant fly.
+- Paladin Blessed Hammer rework plus Vengeance changes listed TBD.
+- Druid Teleport in forms plus Hurricane and summon reworks.
+- Enigma losing plus-skills and Famine changes top item talk.
+- New Scabbard item type appears with slot still unconfirmed.
 
-This is at least the second time in 2026 a Korean outlet has reported some version of this story, following a similar Dnews report in February.
+Only Paladin, Druid and items have claimed data so far.
 
-Unlike Camelot and D2R, this is not a datamine. It is sourced to an anonymous “senior industry official” via a mainstream newspaper.
+Missing classes reflect incomplete data, not zero changes.
 
-That carries different credibility — real editorial standards and sourcing relationships — but also different uncertainty: no technical evidence, no leaked files, nothing verifiable.
+Unreleased numbers can shift or get cut before launch.
 
-Blizzard, Nexon and Microsoft have all declined to comment.
+Enigma minus skills would upend balance if it ships as listed.
 
-## Warcraft III: Chronicles — A Leaked Roadmap, Not a Datamine
+That claim needs a second source before rating it likely.
 
-A much shakier thread traces to a single alleged internal Blizzard roadmap graphic on Reddit.
+BlizzCon is the plausible window if Act 6 exists at all.
 
-If accurate, it points to a new Warcraft-universe RTS titled “Warcraft Chronicles,” targeting Q3 2028 and packaged with an anime tie-in series.
+Plausible window is not proof. No second datamine confirms it.
 
-The same graphic is also the source of an “Arthas ARPG” entry — a title and nothing more, that fans have run with.
+## StarCraft: Nexon report returns
 
-This is meaningfully weaker than Camelot. No build number, no license tier, no server infrastructure — just one image and a name.
+A Korean outlet reported a Nexon Blizzard license near final.
 
-Coverage has been explicit that there is no official confirmation. Roadmap graphics are easy to fabricate convincingly.
+It would let Nexon build a new mainline StarCraft entry.
 
-Worth mentioning because “Chronicles” has now shown up in more than one place, but it should not be weighted the same as the Camelot trail.
+Some readers label that StarCraft 3, but no title is set.
 
-One place this does connect to something concrete: this year's BlizzCon schedule has a “Classic Game Deep Dive” panel on the Classic Cup Stage, between two Warcraft III Classic Cup matches.
+This is round two after a similar February report this year.
 
-If there is a Warcraft III reveal at all, that is the most likely slot — but it is an inference from the schedule's layout, not a leak.
+Unlike Camelot, this thread has no datamine or files.
 
-## The Weaker Signals: HotS 2 and a Warcraft/Cavill Rumor Worth Retiring
+It cites one senior industry official via a major paper.
 
-Two more claims have circulated alongside the above, both low-confidence.
+That brings editorial standards but no verifiable technical proof.
 
-**Heroes of the Storm 2** has been mentioned as speculation in at least one BlizzCon-prediction video, but turned up no corroboration — no datamine, no industry report, nothing beyond the creator's guess. Treat as hope, not leak.
+Blizzard, Nexon and Microsoft all declined to comment.
 
-**Henry Cavill-attached Warcraft Netflix project** has also made the rounds, but it appears to be a conflation of three unrelated things.
+Weight it as sourced reporting, not a build trail.
 
-First, a years-old quote from a former Blizzard executive floating Cavill as a good casting choice for a hypothetical Warcraft movie sequel — not a series, not Netflix.
+## Warcraft III: roadmap graphic only
 
-Second, a fully AI-generated fake “Warcraft 2” trailer on YouTube, confirmed fabricated.
+A weaker thread cites one alleged internal roadmap graphic.
 
-Third, Cavill's actual, current commitment to a Warhammer 40K series for Amazon, reconfirmed as recently as August 2026.
+It names Warcraft Chronicles for Q3 2028 with an anime tie.
 
-There is no credible thread connecting Cavill to an active Netflix Warcraft project. This one is worth retiring rather than repeating.
+The same image also names an Arthas action title only.
 
-Worth noting on source quality: at least one prediction video presented “The Last Titan” as a rumored 2026 reveal.
+No build, license tier or server trail backs either name.
 
-It is not a rumor — Blizzard officially named The Last Titan as the third chapter of the Worldsoul Saga trilogy at BlizzCon 2023, alongside The War Within (already released) and Midnight (next confirmed expansion).
+Roadmap images are easy to fake with clean fonts.
 
-A creator presenting three-year-old official information as fresh leak is a flag on how carefully that source vetted its other claims.
+Coverage notes zero official confirmation so far.
 
-That is part of why HotS 2 and Cavill are treated here as low-confidence rather than established rumors.
+Chronicles appears in more than one place, so track it.
 
-## Taking It All Together
+Still, rank it below Camelot on evidence strength.
 
-The best-corroborated threads still point to WoW (Camelot, backed by build numbers and license tiers) and, with caveats, Diablo II (Act VI datamine) and StarCraft (Nexon report, sourced to a real newspaper).
+One schedule fact connects here with real weight.
 
-That StarCraft report has no technical evidence, but it has editorial standards.
+A Classic Game Deep Dive sits between Warcraft III matches.
 
-Warcraft III's “Chronicles” sits a tier below — a real leaked name with no infrastructure evidence.
+If any Warcraft III news lands, that slot is the likely home.
 
-HotS 2 and the Cavill/Warcraft rumor sit at the bottom, unsupported beyond a single creator's speculation or a debunked source.
+That is schedule inference, not a leak, so label it clearly.
 
-None of these threads point to a single unifying “big theme” for BlizzCon 2026 — if anything, they pull toward several franchises at once.
+## Weaker signals worth retiring
 
-That lines up with something we noted in our BlizzCon schedule breakdown: WoW's programming is unusually dense this year (including that duplicate “What's Next” slot).
+Heroes of the Storm 2 appears in one prediction video only.
 
-Diablo has more dev-facing panel time than Overwatch or Hearthstone. StarCraft's public presence remains legacy-tier despite being the most persistent outside-Blizzard rumor.
+No datamine, report or file backs that guess today.
 
-If even one or two stronger threads pan out, BlizzCon 2026 stops being a routine expansion update year.
+Treat it as hope rather than a leak thread.
 
-If none do, that is also informative — the schedule's actual structure (WoW-heavy panels, thin StarCraft presence) was a more reliable signal than any leaks stacked on top.
+A Cavill Warcraft series claim mixes three unrelated items.
 
-Either way, Opening Ceremony on September 12 is where all of this either gets confirmed or quietly dies.
+First, an old exec quote pitched Cavill for a film sequel.
+
+Second, an AI-made trailer fooled casual feeds this year.
+
+Third, Cavill works on Warhammer for another service now.
+
+No credible line links Cavill to an active Warcraft series.
+
+Retire that rumor instead of repeating it further.
+
+One more quality flag matters for source vetting.
+
+A video billed The Last Titan as a fresh 2026 rumor.
+
+It is official 2023 trilogy news, not a new leak.
+
+Old news framed as new leaks lowers trust in siblings.
+
+That is why these two sit at the bottom here.
+
+## Taking it together
+
+Best-backed threads point at WoW Camelot with build receipts.
+
+D2R Act VI has detail but one source and no corroboration.
+
+StarCraft has a real paper but no files to verify.
+
+Chronicles has a name image with no infrastructure trail.
+
+Low tier holds sequel guesses and retired casting talk.
+
+No single theme unites every franchise thread this year.
+
+That spread matches a dense WoW panel slate plus Diablo dev time.
+
+StarCraft stage presence stays legacy despite outside buzz.
+
+If one or two strong threads hit, this becomes a big year.
+
+If none hit, the printed schedule beat the leaks again.
+
+Opening Ceremony on Sep 12 settles each thread live.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the strongest BlizzCon 2026 leak?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Project Camelot leads with build 69638, license tiers, and vendor moves. It has the deepest multi-month technical trail."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is the D2R Act VI leak confirmed?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No. It is detailed but single-sourced with no second datamine. Treat Enigma and class changes as unconfirmed."}
+    },
+    {
+      "@type": "Question",
+      "name": "When do BlizzCon 2026 leaks get settled?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The Sep 12 Opening Ceremony in Hall D confirms or kills each thread. Watch the schedule and floor map after 12:00 PDT."}
+    }
+  ]
+}
+</script>
