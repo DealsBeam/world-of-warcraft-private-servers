@@ -323,6 +323,14 @@ const entries = [
         "summary": "Published schedule lists 45-minute World of Warcraft: What's Next, then 1-hour gap before Diablo. Only such gap on schedule. Reads as hidden panel slot — Classic Plus deep dive or StarCraft — to be revealed after Opening Ceremony.",
         "source": "ixbt.games",
         "url": "https://ixbt.games/en/news/2026/09/03/432346-gotovitsia-anons-starcraft-3-ili-wow-classic-poiavilos-raspisanie-blizzcon-s-podozritelnym-probelom.html"
+    },
+    {
+        "date": "2026-09-03",
+        "category": "leak",
+        "title": "Warcraft Forever triple signal — bindings, ResetEra, domain",
+        "summary": "12.1.5 PTR has DefaultForeverBindings.wtf with legacy bars and TOGGLELEGACYSYSTEM, no housing/ping. ResetEra insider says Warcraft is Forever. warcraftforever.com re-reg Sep 2 via Cloudflare, not MarkMonitor. Name could be final Classic+ title — or coincidence.",
+        "source": "icy-veins.com",
+        "url": "https://www.icy-veins.com/wow-classic/news/warcraft-forever-this-name-is-suddenly-everywhere/"
     }
 ];
 
