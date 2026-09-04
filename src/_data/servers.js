@@ -496,6 +496,16 @@ module.exports = [
         "popTier": "unknown"
     },
     {
+        "name": "Rivals Beyond",
+        "status": "dev",
+        "details": "Free WoW rebuilt as MOBA — champions, Essence, Nexus, Confluence hub, jungle creeps, 68 artifacts, cosmetic only",
+        "tag": "MOBA",
+        "group": "",
+        "url": "https://rivalsbeyond.com/en",
+        "release": "Sep 12 playtest",
+        "popTier": "unknown"
+    },
+    {
         "name": "Whitemane \u2014 Stormstout",
         "status": "dev",
         "details": "MoP 5.4.8 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
@@ -746,11 +756,11 @@ module.exports = [
     {
         "name": "GrimfallWoW",
         "status": "playable",
-        "details": "Classless Vanilla+ at 60 (Wildcard random ability rolls, scaled Vanilla/TBC/WotLK/Cata content as evergreen endgame, 10+ custom races, prestige, unrestricted transmog); open beta since Mar 27 2026",
+        "details": "Classless at 60 — Wildcard rolls, 10+ races, Skill Cards, Runic, Scrolls, scaled finder, 30+ scaled dungeons, 2500+ TBC/WotLK quests, Tol Barad/Kezan/Gilneas, transmog, prestige; Release Sep 5 11am CT",
         "tag": "Classless",
         "group": "",
         "url": "https://www.grimfallwow.com/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-04",
         "popTier": "tiny"
     },
     {
