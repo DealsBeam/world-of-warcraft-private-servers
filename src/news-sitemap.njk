@@ -1,0 +1,13 @@
+---
+permalink: /news-sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+{% for n in collections.news | lastDays(3) %}{% if not n.data.archived %}
+    <url><loc>https://wowprivateservers.vercel.app{{ n.url }}</loc><news:news><news:publication><news:name>WoW Private Servers Tracker</news:name><news:language>en</news:language></news:publication><news:publication_date>{{ n.date | isoDateTime }}</news:publication_date><news:title>{{ n.data.title | escape }}</news:title></news:news></url>
+{% endif %}{% endfor %}
+{% for p in collections.blog | lastDays(3) %}
+    <url><loc>https://wowprivateservers.vercel.app{{ p.url }}</loc><news:news><news:publication><news:name>WoW Private Servers Tracker</news:name><news:language>en</news:language></news:publication><news:publication_date>{{ p.date | isoDateTime }}</news:publication_date><news:title>{{ p.data.title | escape }}</news:title></news:news></url>
+{% endfor %}
+</urlset>

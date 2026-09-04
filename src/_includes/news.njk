@@ -9,13 +9,13 @@ layout: base.njk
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "{{ title | escape }}",
-    "description": "{{ description | escape }}",
-    "datePublished": "{{ isoDate }}",
-    "author": {"@type": "Organization", "name": "{{ author | escape }}"},
+    "@type": "NewsArticle",
+    "headline": {{ title | dump | safe }},
+    "description": {{ description | dump | safe }},
+    "datePublished": {{ isoDate | dump | safe }},
+    "author": {"@type": "Organization", "name": {{ author | dump | safe }}},
     "publisher": {"@type": "Organization", "name": "WoW Private Servers Tracker"},
-    "mainEntityOfPage": "{{ canonical }}",
-    "image": "https://wowprivateservers.vercel.app/og.png"
+    "mainEntityOfPage": {{ canonical | dump | safe }},
+    "image": "https://wowprivateservers.vercel.app{{ image or '/og.png' }}"
 }
 </script>

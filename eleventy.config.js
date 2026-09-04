@@ -27,6 +27,11 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
         return GAMES.filter(g => seen.has(g));
     });
 
+    eleventyConfig.addFilter("lastDays", (posts, n) => {
+        const cut = Date.now() - (Number(n) || 2) * 86400000;
+        return (posts || []).filter(p => p.date && new Date(p.date).getTime() >= cut);
+    });
+
     eleventyConfig.addFilter("relatedHistory", (events, server, slug) => {
         const qs = [server.name, server.group].filter(Boolean).map(s => s.toLowerCase());
         return events.filter(h => {
@@ -58,6 +63,8 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
     eleventyConfig.addFilter("rssDate", d => toDate(d).toUTCString());
 
     eleventyConfig.addFilter("isoDate", d => toDate(d).toISOString().slice(0, 10));
+
+    eleventyConfig.addFilter("isoDateTime", d => toDate(d).toISOString());
 
     eleventyConfig.addFilter("daysAgo", d => {
         const then = toDate(d).getTime();

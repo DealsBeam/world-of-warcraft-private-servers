@@ -22,6 +22,6 @@ layout: base.njk
     "author": {"@type": "Organization", "name": {{ author | dump | safe }}},
     "publisher": {"@type": "Organization", "name": "WoW Private Servers Tracker"},
     "mainEntityOfPage": {{ canonical | dump | safe }},
-    "image": "https://wowprivateservers.vercel.app/og.png"
+    "image": "https://wowprivateservers.vercel.app{{ image or '/og.png' }}"
 }
 </script>
