@@ -5,3 +5,4 @@ lighthouse-*.json
 baseline-dark-*.png
 serve.log
 .planning/
+automation_bot/out/
