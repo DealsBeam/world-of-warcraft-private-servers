@@ -1,17 +1,23 @@
 # RSS Poll — Blizzard feeds (daily till Sep 12)
 
-Poll 4 Feedspot Blizzard feeds every morning. Name sources, no outbound links in posts (editorial rule).
+Poll 8 live feeds every morning (4 original + 4 verified Sep 4). Name sources, no outbound links in posts (editorial rule).
 
 ## Feeds
 - [ ] Blizzard Watch — `https://blizzardwatch.com/feed/` — WoW + Classic focus, 24K Twitter. Primary.
 - [ ] Icy Veins — `https://www.icy-veins.com/feed.atom` — datamining Stiven/Tharid. Primary (already used Gear Store/Forever/schedule).
 - [ ] BlizzPro — `https://blizzpro.com/feed/` — JR Cook daily roundups. Secondary, fresh.
 - [ ] MassivelyOP news — `https://massivelyop.com/category/news/feed/` — outsider view, WoW + SC. Secondary.
+- [ ] Tavern blue-tracker — `https://blue-tracker.warcrafttavern.com/rss/all` — official Blizzard posts mirrored. Primary (verified Sep 4, fresh same-day).
+- [ ] MMO-Champion — `https://www.mmo-champion.com/external.php?type=RSS2` — datamine firehose, 300KB+. Primary, filter hard (verified Sep 4).
+- [ ] Duskforge — `https://www.duskforge.gg/rss.xml` — Diablo halo. Secondary (verified Sep 4).
+- [ ] RaGEZONE — `https://forum.ragezone.com/forums/-/index.rss` — emu releases. Weekly, not daily (verified Sep 4).
+- [ ] ~~Wowhead feeds (/news/rss, /rss.xml) — both 404 Sep 4. Check site direct.~~
+- [ ] ~~Reddit .rss (new + old) — login wall / 403 Sep 4. Manual browser checks for ARG threads.~~
 - [ ] ~~Blizzplanet feed — dead since 2021, dropped Sep 4.~~
 - [ ] ~~Icy Veins atom — returns forum RSS, useless. Check site direct instead.~~
 
 ## Daily checklist (Sep 4-12)
-- [ ] Fetch 4 feeds (Feedspot combiner or curl). Note new Sep 4+ posts only.
+- [ ] Fetch 8 feeds. Note new Sep 4+ posts only.
 - [ ] Match to tracker gaps: Classic+ builds (69638→next), Gear Store/css, BlizzCon schedule/floor map, StarCraft glitch/ARG, Diablo panels/drops.
 - [ ] If match + original angle (tracker data, gap map, schedule freeze): draft 400-600w, 240c paras, TL;DR + FAQ, internal links only.
 - [ ] If duplicate of existing post (Ascension shutdown, Camelot builds, Armory): skip, or 1-line enrich existing.
