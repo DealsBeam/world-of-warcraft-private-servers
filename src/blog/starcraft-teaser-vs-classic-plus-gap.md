@@ -2,6 +2,7 @@
 title: "StarCraft teaser vs Classic Plus — same 1-hour BlizzCon gap"
 date: 2026-09-03
 category: analysis
+game: sc
 summary: "Four outlets report a StarCraft site glitch days before BlizzCon plus a Nexon deal and a 1-hour schedule gap. Same gap Classic Plus needs. Read what the teaser shows and why the two reveals compete."
 ---
 

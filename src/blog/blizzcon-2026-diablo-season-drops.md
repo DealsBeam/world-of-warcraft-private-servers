@@ -2,6 +2,7 @@
 title: "BlizzCon 2026 Diablo — season secrets and 6-hour drop ladder"
 date: 2026-09-04
 category: analysis
+game: diablo
 summary: "Blizzard holds Diablo 4 next season details until BlizzCon while viewership offers dagger to mace across 6 hours. Read what the 4-day Twitch window signals and how much stage time is left for Classic."
 ---
 

@@ -2,6 +2,7 @@
 title: "BlizzCon 2026 Leak Roundup: Camelot, D2R Act VI, StarCraft"
 date: 2026-09-02
 category: analysis
+game: other
 summary: "BlizzCon 2026 leak roundup ranks Camelot build 69638, D2R Act VI and StarCraft Nexon talk by confidence. See what holds before the Sep 12 Opening Ceremony."
 ---
 

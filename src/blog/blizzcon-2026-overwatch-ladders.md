@@ -2,6 +2,7 @@
 title: "BlizzCon 2026 Overwatch — Day1/Day2 ladders vs Classic"
 date: 2026-09-04
 category: analysis
+game: overwatch
 summary: "Overwatch runs two 8-hour ladders across Day1 and Day2 with Cat and Domina skins plus event currency. Read how 16 hours total compares to WoW 12h and what it leaves for Classic."
 ---
 

@@ -10,14 +10,25 @@ eleventyComputed:
     description: "In-depth articles on World of Warcraft private servers: server roundups, Classic+ explainers, setup guides, and the emulation scene's biggest stories."
 ---
 {% from "medallion.njk" import blogMedallion %}
+{% set present = collections.blog | gamesPresent %}
+{% if present.length > 1 %}
+<div class="chips" id="game-chips" role="group" aria-label="Filter by game">
+    <button class="chip active" data-game="all" aria-pressed="true">All</button>
+    {% for g in present %}<button class="chip" data-game="{{ g }}" aria-pressed="false">{{ g | gameLabel }}</button>{% endfor %}
+</div>
+<p class="count" id="game-count" aria-live="polite" aria-atomic="true"></p>
+<p class="empty" id="game-empty" hidden role="status">No posts match your filters.</p>
+{% endif %}
 <ul class="blog-grid">
 {% for p in collections.blog | reverse %}
     {% set idx = loop.index0 % 8 + 1 %}
-    <li class="blog-card">
-        <img class="card-thumb" src="/images/card-{{ idx }}.jpeg" alt="" loading="lazy" width="800" height="440">
+    {% set g = p.data | gameOf %}
+    <li class="blog-card" data-game="{{ g }}">
+        <img class="card-thumb" src="{{ p.data.image or ('/images/card-' + idx + '.jpeg') }}" alt="" loading="lazy" width="800" height="440">
         <div class="blog-card-head">
             {{ blogMedallion(p.data.category) }}
             {% if p.data.category %}<span class="blog-cat">{{ p.data.category }}</span>{% endif %}
+            {% if g != "wow" %}<span class="blog-cat">{{ g | gameLabel }}</span>{% endif %}
             <time>{{ p.date | formatDate }}</time>
         </div>
         <h3><a href="{{ p.url }}">{{ p.data.title }}</a></h3>
@@ -26,3 +37,33 @@ eleventyComputed:
 {% endfor %}
 </ul>
 <p class="meta-info">Original articles written in-house. For short, sourced news updates see <a href="/news/">the news index</a>.</p>
+<script>
+(function () {
+    const bar = document.getElementById("game-chips");
+    if (!bar) return;
+    const items = Array.from(document.querySelectorAll("li[data-game]"));
+    const count = document.getElementById("game-count");
+    const empty = document.getElementById("game-empty");
+    function render(g) {
+        let n = 0;
+        items.forEach(function (el) {
+            const on = g === "all" || el.getAttribute("data-game") === g;
+            el.hidden = !on;
+            if (on) n++;
+        });
+        if (count) count.textContent = n + " of " + items.length + " posts";
+        if (empty) empty.hidden = n > 0;
+    }
+    bar.addEventListener("click", function (e) {
+        const b = e.target.closest(".chip");
+        if (!b) return;
+        bar.querySelectorAll(".chip").forEach(function (c) {
+            const on = c === b;
+            c.classList.toggle("active", on);
+            c.setAttribute("aria-pressed", on);
+        });
+        render(b.getAttribute("data-game"));
+    });
+    render("all");
+})();
+</script>

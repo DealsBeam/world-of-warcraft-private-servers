@@ -2,6 +2,7 @@
 title: "StarCraft shooter FAQ: Blizzard TPS vs Nexon build, ARG, BlizzCon"
 date: 2026-09-04
 category: analysis
+game: sc
 summary: "Shooter yes, StarCraft 3 no, Nexon build separate. ARG live, BlizzCon Sep 12 opening slot. Sources ranked, misinfo cut."
 ---
 

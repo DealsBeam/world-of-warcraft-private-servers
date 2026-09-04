@@ -9,9 +9,18 @@ eleventyComputed:
     subtitle: "Private server news &amp; updates"
     description: "News and updates on the World of Warcraft private server scene."
 ---
+{% set present = collections.news | gamesPresent %}
+{% if present.length > 1 %}
+<div class="chips" id="game-chips" role="group" aria-label="Filter by game">
+    <button class="chip active" data-game="all" aria-pressed="true">All</button>
+    {% for g in present %}<button class="chip" data-game="{{ g }}" aria-pressed="false">{{ g | gameLabel }}</button>{% endfor %}
+</div>
+<p class="count" id="game-count" aria-live="polite" aria-atomic="true"></p>
+<p class="empty" id="game-empty" hidden role="status">No posts match your filters.</p>
+{% endif %}
 <ul class="news-list">
 {% for n in collections.news | reverse %}
-    {% if not n.data.archived %}<li><time>{{ n.date | formatDate }}</time><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="{{ n.url }}">{{ n.data.title }}</a></li>{% endif %}
+    {% if not n.data.archived %}{% set g = n.data | gameOf %}<li data-game="{{ g }}"><time>{{ n.date | formatDate }}</time><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="{{ n.url }}">{{ n.data.title }}</a>{% if g != "wow" %} <span class="tag">{{ g | gameLabel }}</span>{% endif %}</li>{% endif %}
 {% endfor %}
 </ul>
 
@@ -35,3 +44,33 @@ eleventyComputed:
     </ul>
     <p><a href="/blog/">All posts →</a></p>
 </section>
+<script>
+(function () {
+    const bar = document.getElementById("game-chips");
+    if (!bar) return;
+    const items = Array.from(document.querySelectorAll("li[data-game]"));
+    const count = document.getElementById("game-count");
+    const empty = document.getElementById("game-empty");
+    function render(g) {
+        let n = 0;
+        items.forEach(function (el) {
+            const on = g === "all" || el.getAttribute("data-game") === g;
+            el.hidden = !on;
+            if (on) n++;
+        });
+        if (count) count.textContent = n + " of " + items.length + " posts";
+        if (empty) empty.hidden = n > 0;
+    }
+    bar.addEventListener("click", function (e) {
+        const b = e.target.closest(".chip");
+        if (!b) return;
+        bar.querySelectorAll(".chip").forEach(function (c) {
+            const on = c === b;
+            c.classList.toggle("active", on);
+            c.setAttribute("aria-pressed", on);
+        });
+        render(b.getAttribute("data-game"));
+    });
+    render("all");
+})();
+</script>

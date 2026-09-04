@@ -2,6 +2,7 @@
 title: "Alleged BlizzCon schedule — why three new games in one image means fake"
 date: 2026-09-03
 category: analysis
+game: other
 summary: "An anonymous 4chan image via r/blizzcon lists StarCraft Infantry, Warcraft Fables as Classic+ and Warcraft Chronicles RTS. It covers every hope at once. That is why it fails — plus no build, no license, and the official schedule says check back after Opening Ceremony."
 ---
 

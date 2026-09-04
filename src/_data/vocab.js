@@ -53,6 +53,13 @@ const groupByEra = servers => {
 
 const countByStatus = (servers, status) => servers.filter(s => s.status === status).length;
 
+// Game scope: Blizzard-only lens. Posts default to WoW; set `game:` frontmatter
+// for StarCraft / Diablo / Overwatch threads, `other` for multi-game roundups.
+const GAMES = ["wow", "sc", "diablo", "overwatch", "other"];
+const GAME_LABELS = { wow: "WoW", sc: "StarCraft", diablo: "Diablo", overwatch: "Overwatch", other: "Roundup" };
+const gameOf = d => GAMES.includes(d && d.game) ? d.game : "wow";
+const gameLabel = g => GAME_LABELS[g] || g;
+
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag));
 
-module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag };
+module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag, GAMES, GAME_LABELS, gameOf, gameLabel };

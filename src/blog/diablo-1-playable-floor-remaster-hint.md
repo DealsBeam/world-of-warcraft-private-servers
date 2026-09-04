@@ -2,6 +2,7 @@
 title: "Diablo 1 playable on BlizzCon floor — remaster or nostalgia?"
 date: 2026-09-04
 category: analysis
+game: diablo
 summary: "BlizzCon floor map lists Diablo 1 alongside Diablo 2 and 3 plus Warcraft 3 and Heroes. Read why a playable Diablo 1 points to a remaster hint and what it leaves for Classic."
 ---
 

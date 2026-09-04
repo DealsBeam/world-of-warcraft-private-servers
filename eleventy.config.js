@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-    const { slugify, groupByEra, countByStatus, uniqueTags } = require("./src/_data/vocab.js");
+    const { slugify, groupByEra, countByStatus, uniqueTags, gameOf, gameLabel, GAMES } = require("./src/_data/vocab.js");
 
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag) || p.data.category === tag);
 
@@ -18,6 +18,14 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
     eleventyConfig.addFilter("take", (arr, n) => (arr || []).slice(0, n));
 
     eleventyConfig.addFilter("slugify", slugify);
+
+    eleventyConfig.addFilter("gameOf", d => gameOf(d || {}));
+    eleventyConfig.addFilter("gameLabel", g => gameLabel(g));
+    eleventyConfig.addFilter("countByGame", (posts, game) => (posts || []).filter(p => gameOf((p || {}).data || {}) === game).length);
+    eleventyConfig.addFilter("gamesPresent", posts => {
+        const seen = new Set((posts || []).map(p => gameOf((p || {}).data || {})));
+        return GAMES.filter(g => seen.has(g));
+    });
 
     eleventyConfig.addFilter("relatedHistory", (events, server, slug) => {
         const qs = [server.name, server.group].filter(Boolean).map(s => s.toLowerCase());
