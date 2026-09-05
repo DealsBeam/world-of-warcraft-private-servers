@@ -55,8 +55,8 @@ const countByStatus = (servers, status) => servers.filter(s => s.status === stat
 
 // Game scope: Blizzard-only lens. Posts default to WoW; set `game:` frontmatter
 // for StarCraft / Diablo / Overwatch threads, `other` for multi-game roundups.
-const GAMES = ["wow", "sc", "diablo", "overwatch", "other"];
-const GAME_LABELS = { wow: "WoW", sc: "StarCraft", diablo: "Diablo", overwatch: "Overwatch", other: "Roundup" };
+const GAMES = ["wow", "sc", "diablo", "overwatch", "warcraft3", "other"];
+const GAME_LABELS = { wow: "WoW", sc: "StarCraft", diablo: "Diablo", overwatch: "Overwatch", warcraft3: "Warcraft III", other: "Roundup" };
 const gameOf = d => GAMES.includes(d && d.game) ? d.game : "wow";
 const gameLabel = g => GAME_LABELS[g] || g;
 
