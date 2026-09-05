@@ -1,7 +1,6 @@
 ---
 title: "Warcraft III 3.0: unconfirmed claim, documented recovery, BlizzCon checkpoint"
 date: 2026-09-05
-draft: true
 category: analysis
 game: warcraft3
 summary: "A dataminer says Blizzard works on Warcraft III 3.0 behind the 2.0.4 branch. No official word. Read the claim, the 2.0 recovery record, and why BlizzCon is the checkpoint."
