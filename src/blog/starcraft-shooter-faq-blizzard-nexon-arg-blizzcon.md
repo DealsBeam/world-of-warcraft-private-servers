@@ -21,6 +21,7 @@ The ARG for the new unannounced game has started, so we are close to it.
 How many workers will be at the start? 14 occupants detected. (Occupants = ARG characters waking up, not dev headcount.)
 
 - Transmissions: https://starcraft-arg.vercel.app/transmissions/01 (thanks JarlMarx)
+- Transmission 02: https://starcraft-arg.vercel.app/transmissions/02 (recovered Sep 5 — see [news post](/news/starcraft-arg-transmission-02-recovered/))
 - Lore dive day 1: https://www.reddit.com/r/starcraft/comments/1w6l3py/lore_dive_on_the_preblizzcon_arg_day_1/ (Subsourian)
 - Press mirror: MassivelyOP covered the glitch + ARG on Sep 4 (https://massivelyop.com/2026/09/04/starcrafts-website-is-glitching-possibly-as-a-preamble-to-a-big-blizzcon-announcement/), via Wowhead's hidden-messages find. Note: MOP frames it as Blizzard + Nexon together. This FAQ says separate builds — see table below.
 
