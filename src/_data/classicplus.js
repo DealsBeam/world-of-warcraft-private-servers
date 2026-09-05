@@ -339,6 +339,14 @@ const entries = [
         "summary": "Anonymous 4chan image via r/blizzcon lists StarCraft Infantry after Opening Ceremony, Northrend TLT look, Diablo What's Next, Warcraft Fables deep dive as Classic+, plus Chronicles RTS meet team. Too perfect mix of hopes — no build, no license, uncorroborated.",
         "source": "icy-veins.com",
         "url": "https://www.icy-veins.com/wow/news/alleged-blizzcon-2026-schedule-lists-starcraft-infantry-warcraft-fables-and-warcraft-chronicles/"
+    },
+    {
+        "date": "2026-09-05",
+        "category": "news",
+        "title": "Dev 2 advances to 69704 — movement seven days out",
+        "summary": "Automated CDN watch ticked WoW Dev 2 from 1.60.1.69638 (Sep 3) to 1.60.1.69704 (Sep 5). Encrypted, contents unknown. Steady pre-show cadence continues into final week.",
+        "source": "tracker cdn-watch",
+        "url": "https://wowprivateservers.vercel.app/news/camelot-build-69704-seven-days-out/"
     }
 ];
 
