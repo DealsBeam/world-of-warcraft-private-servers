@@ -82,9 +82,10 @@ try {
     const allowedTags = new Set([...new Set(SERVERS.map(s => s.tag).filter(Boolean)), "all"]);
     tag = allowedTags.has(saved.tag) ? saved.tag : "all";
     pop = ["all", "large", "medium", "small", "tiny", "unknown"].includes(saved.pop) ? saved.pop : "all";
-    search = typeof saved.search === "string" ? saved.search : "";
 } catch (e) {}
-const saveFilters = () => { try { localStorage.setItem("wowfilters", JSON.stringify({ status, tag, pop, search })); } catch (e) {} };
+// Search text is session-only on purpose: restoring it days later shows stale
+// results that look like fresh data. Chips/selects persist, search does not.
+const saveFilters = () => { try { localStorage.setItem("wowfilters", JSON.stringify({ status, tag, pop })); } catch (e) {} };
 
 const cards = document.getElementById("cards");
 const empty = document.getElementById("empty");
@@ -176,8 +177,6 @@ if (chipForStatus) {
 }
 if (tag !== "all" && [...tagSel.options].some(o => o.value === tag)) tagSel.value = tag;
 if (pop !== "all") popSel.value = pop;
-const searchInput = document.getElementById("search");
-if (search) searchInput.value = search;
 
 /* ---------- history timeline ---------- */
 
