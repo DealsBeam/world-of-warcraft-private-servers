@@ -47,4 +47,18 @@ for (const d of pageDirs) {
     assert.ok(sitemap.includes(`https://wowprivateservers.vercel.app/${d}`), `page missing from sitemap.xml: /${d}`);
 }
 
+// Bodies must render visible text: an unclosed HTML comment once hid 4 posts
+// (valid HTML source, zero browser-visible words). Strip comments + tags,
+// require a minimum word count on every news/blog page.
+const textOf = html => html.replace(/<!--[\s\S]*?-->/g, " ").replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ").trim();
+for (const d of ["news/", "blog/"]) {
+    for (const entry of fs.readdirSync(path.join(out, d))) {
+        const p = path.join(out, d, entry, "index.html");
+        if (!fs.existsSync(p)) continue;
+        const words = textOf(fs.readFileSync(p, "utf8")).split(" ").filter(Boolean).length;
+        assert.ok(words > 50, `page renders almost no text: /${d}${entry}/ (${words} words)`);
+    }
+}
+
 console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core assets)`);
