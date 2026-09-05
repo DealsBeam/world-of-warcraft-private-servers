@@ -54,12 +54,14 @@ Do not merge these. Two builds, two teams.
 Blizzard build:
 - TPS, not cartoonish, Terrans + Zerg (via Corden)
 - UE5 (via listings)
+- Gritty, SC2-cinematic tone. Squad-based PvE, vehicle sections, large boss encounters (via WCCFTech Sep 4, Alessio Palumbo). Design director credits: Insomniac + The Coalition.
 - In development since The Odyssey was cancelled, so since 2023. The Odyssey was a survival game made in UE5. It was cancelled due to bad netcode.
-- Set in 2575, almost 70 years after SC2.
+- Set in 2575, almost 70 years after SC2. ARG transmissions (Roxara, Theta Squadron, Special Order 176) play in same year.
 - Edit: Don't count on it being Destiny-like. (Walked back.)
 
 Nexon build:
-- Nothing with the upcoming shooter from Blizzard (might do publishing tho). They are developing another separate StarCraft shooter.
+- Nothing with the upcoming Blizzard shooter from Blizzard (might do publishing tho). They are developing another separate StarCraft shooter.
+- Latest escalation (single-source, flag): WCCFTech Sep 4 links a report that Nexon moves to buy the StarCraft IP outright, Xbox weighing cash vs legacy. If true, Nexon could drive a mainline sequel (StarCraft 3 talk). Unconfirmed — treat as rumor, not deal.
 - TlDR: The lead is Choi Jun-ho who is a former mapmaker for Brood War. My personal speculations: the fact that the lead made an UMS map for Brood War and the deal came in package with Overwatch Rush suggest it might be a smaller top-down PvP shooter.
 
 Thin pile, one line each:
