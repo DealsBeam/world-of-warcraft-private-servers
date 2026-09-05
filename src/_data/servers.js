@@ -804,6 +804,16 @@ module.exports = [
         "popTier": "tiny"
     },
     {
+        "name": "Architect WoW",
+        "status": "playable",
+        "details": "Spanish WotLK 3.3.5a progressive PvP x2, all raids unlocked incl ICC, armory + rankings on site, thin pop at press time",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://www.architectwow.online/",
+        "updated": "2026-09-05",
+        "popTier": "tiny"
+    },
+    {
         "name": "NycterMoon",
         "status": "playable",
         "details": "Vanilla 1.12.1 PvE x1 on VMaNGOS core since 2022, hireable AI Companions from innkeepers, pop 0-100",
