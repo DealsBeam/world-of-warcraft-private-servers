@@ -16,7 +16,7 @@ People complain and spread misinformation due to sudden amount of news and rumou
 
 ## What is happening?
 
-The ARG for the new unannounced game has started, so we are close to it.
+The ARG for the new unannounced game has started, so we are close to it. Blizzard also shipped SC2 patch 5.0.16 in June 2026 — biggest overhaul since Legacy of the Void (workers 12→8, Warpgate rework, Ghost rebalance, hotfixes into July). Live game gets that kind of surgery when the franchise matters again.
 
 How many workers will be at the start? 14 occupants detected. (Occupants = ARG characters waking up, not dev headcount.)
 
@@ -62,7 +62,7 @@ Blizzard build:
 Nexon build:
 - Nothing with the upcoming Blizzard shooter from Blizzard (might do publishing tho). They are developing another separate StarCraft shooter.
 - Latest escalation, revised: Chosun (via WCCFTech Sep 2, Palumbo, rated 75% probable) first said buyout, then revised to license — Nexon gets development rights for a sequel/mainline StarCraft, not the IP outright. Senior industry source says contract near final. Decision sits with Xbox (CEO Asha Sharma, profit mandate from Nadella; Blizzard doing well, no cash need). RTS niche + 16 years since Wings of Liberty vs Xbox big-franchise focus is the logic for selling.
-- TlDR: The lead is Choi Jun-ho who is a former mapmaker for Brood War. My personal speculations: the fact that the lead made an UMS map for Brood War and the deal came in package with Overwatch Rush suggest it might be a smaller top-down PvP shooter.
+- TlDR: The lead is Choi Jun-ho who is a former mapmaker for Brood War. The package: Nexon won a 4-way bid (vs NCSoft, Netmarble, Krafton, per MTN April 2025) pairing StarCraft development rights with Overwatch Mobile distribution in Korea/Japan (mobile MOBA, bidders call it Overwatch 3). No genre restrictions on the StarCraft side. My personal speculations: the UMS past hints smaller top-down PvP. Flag as speculation.
 
 Thin pile, one line each:
 - Job listings suggest it might be anything. The words FPSRPG, open-world AAA shooter, online, multi-season story arcs were spotted. Unconfirmed.
