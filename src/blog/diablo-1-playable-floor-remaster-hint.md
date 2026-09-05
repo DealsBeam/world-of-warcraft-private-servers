@@ -19,6 +19,8 @@ Diablo turns 30 this year. Blizzard says fans will freak out at the opening show
 
 Two readings fit. One is nostalgia: put the original on the floor for the birthday, let players touch 1996 again, no remaster. The other is a hint: put the original next to Resurrected and let players compare, then reveal the remaster on stage.
 
+Third signal, via Icy Veins: the viewership guide lists a "Diablo" Twitch badge tied to the original Diablo category, not Diablo 4. Badge art shows the Prime Evil himself. Could be literal (Diablo returns in some D4 content) or categorical (watch D1, earn D1 badge). Either way the original game has a named slot in the drop system, not just floor space.
+
 Our [schedule post](/news/blizzcon-2026-schedule-dates-venue-stream/) has venue, free stream and drops. Our [hidden-floor post](/blog/blizzcon-hidden-floor-playable-demo/) reads gray map areas as playable demos. Diablo 1 sits in one of those areas.
 
 For our tracker, the angle is stage time. Two Developer Updates plus cinematics already take Diablo stage time. A remaster reveal would take more. Our [Classic+ tracker](/classic-plus/) sits at 69638 with 42 entries. Every Diablo minute is a minute Classic does not get.
