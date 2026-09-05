@@ -6,7 +6,7 @@ summary: "StarCraft gets BlizzCon drops: 10-day XP boost for one hour watched. F
 ---
 <!--
 SOURCES (name only per house rule): Blizzard Watch "All of the Twitch Drops from BlizzCon 2026" (Sep 4, Eric O'Dea); Blizzard "Get the Drop" post (Sep 1, via WoW Weekly).
->
+-->
 
 StarCraft drops are back for BlizzCon. First official carrot in years. It is filler — and that tells you plenty.
 

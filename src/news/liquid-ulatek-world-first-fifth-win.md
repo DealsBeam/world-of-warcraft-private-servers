@@ -5,7 +5,7 @@ summary: "Liquid kills Mythic Ula'tek in 307 pulls after thinking they'd lose. E
 ---
 <!--
 SOURCES: Blizzard Watch "Mythic Ula'tek is dead!" (Sep 3, Elizabeth Harper); Icy Veins (5th straight win confirm).
->
+-->
 
 Liquid wins again. Fifth straight. Echo nearly stole it at the end.
 

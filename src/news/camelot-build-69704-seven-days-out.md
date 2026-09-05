@@ -5,7 +5,7 @@ summary: "Overnight CDN watch ticked WoW Dev 2 from 1.60.1.69638 to 1.60.1.69704
 ---
 <!--
 SOURCES: own CDN watch (cdn-last.json 69638 Sep 3 → 69704 Sep 5, automated workflow).
->
+-->
 
 Dev 2 moved overnight. WoW Dev 2 ticked from 1.60.1.69638 to **1.60.1.69704**, per the tracker's automated CDN watch. Stiven dubbed it a "Forever build" — a nod to the [Warcraft Forever name-case](/blog/warcraft-forever-triple-signal/). Encrypted as usual — contents unknown.
 

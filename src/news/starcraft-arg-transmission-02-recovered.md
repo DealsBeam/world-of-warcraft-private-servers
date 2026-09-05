@@ -5,7 +5,7 @@ summary: "Fans recovered Transmission 02 from a new channel after Blizzard sever
 ---
 <!--
 SOURCES: scannersweep fan tracker (transmission 02 + /partial-capture severed Sep 4); Polygon Sep 4 (McWhertor); Icy Veins x2 (__argNetworkTracker variable, 8 fragments); WCCFTech (8 messages, 3 theories).
->
+-->
 
 The ARG moved overnight. Transmission 02 is recovered, the old channel is severed, and mainstream press joined the hunt.
 
