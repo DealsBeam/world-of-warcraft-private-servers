@@ -25,6 +25,8 @@ Dataminer Stiven found DefaultForeverBindings in the 12.1.5 PTR client.
 
 It favors legacy-style action bars and combat controls throughout.
 
+Shift+1–6 and mouse-wheel page action bars. F assists target, G targets last hostile. Bag binds reversed, older gamepad scheme.
+
 It carries a variable named TOGGLELEGACYSYSTEM for old behavior.
 
 It omits modern housing and ping bindings found in retail profiles.
@@ -98,6 +100,10 @@ Store renames already showed names can shift before showtime.
 Until then: one strong leg, one medium leg and one weak leg.
 
 No confirmation yet.
+
+Not to confuse: private funserver "Forever WoW" and Shiro Games' "Farever" are unrelated names. Different games, no connection.
+
+Watch the Classic Deep Dive panel at BlizzCon, not just the Opening Ceremony title card. Naming leaks resolve on stage either way.
 
 ![Warcraft Forever bindings and domain clues](https://static.icy-veins.com/wp/wp-content/uploads/2026/09/U4O5XJH31QO81700011655314.webp)
 *Triple signal: PTR bindings file, forum line, Sep 2 domain move. File leads.*
