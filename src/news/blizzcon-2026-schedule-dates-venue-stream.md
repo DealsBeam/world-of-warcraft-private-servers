@@ -39,11 +39,11 @@ The Sep 1 "Get the Drop on New Rewards During BlizzCon 2026" post sets the windo
 
 Three things to have open alongside the stream:
 
-- The [Classic+ tracker](/classic-plus/) — count-up is live for Sep 12, 69638 tip on Sep 1, three more days of build watcher polling will tell us whether Dev 2 or Dev 5 bumps in the final pre-show week.
+- The [Classic+ tracker](/classic-plus/) — count-up is live for Sep 12, 69704 ticked Sep 5 ([news post](/news/camelot-build-69704-seven-days-out/)). Daily watch continues into show week.
 - Our [BlizzCon preview](/news/blizzcon-2026-camelot-private-servers/) and [BlizzCon watch guide](/news/blizzcon-watch-and-drops-sep-12-13/) — the Classic+ vs retail roadmap and the practical checklist.
 - Your own realm choice. If you are on any of the 108 tracked servers and you are deciding whether to stay or go when the stage ends, watch the badge, not the trailer. A permanent Classic+ lane and a seasonal lane are different commitments, and Blizzard has not said which Camelot is.
 
 That is the schedule as of Sep 1. Programming times per hall, floor map per hall, and the detailed broadcast order will be posted by Blizzard in the week leading up. Until then, mark Sep 11 for badge pickup if you are going, Sep 12 09:30 PDT if you are watching, and the main stage if you care about Classic.
 
-We will be live-posting the Classic segment as it happens and updating the tracker with whatever leaves the stage as fact rather than leak. Until then, everything remains build 69638 and a floor map.
+We will be live-posting the Classic segment as it happens and updating the tracker with whatever leaves the stage as fact rather than leak. Until then: build 69704 and a floor map.
 

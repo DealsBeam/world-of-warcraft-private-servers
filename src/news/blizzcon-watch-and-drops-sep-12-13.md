@@ -24,7 +24,7 @@ For private-server players who do not have an active retail sub, the same linkag
 
 Three things to have open alongside the stream:
 
-- The [Classic+ tracker](/classic-plus/) — count-up is live for Sept 12. Build 69638 is the tip on Sep 1; three more days of build watcher polling will tell us whether Dev 2 or Dev 5 gets a bump in the final pre-show week.
+- The [Classic+ tracker](/classic-plus/) — count-up is live for Sept 12. Build 69704 ticked Sep 5 ([news post](/news/camelot-build-69704-seven-days-out/)); Dev 5 quiet at 69679 since Sep 3. Daily watch continues into show week.
 
 - Our [BlizzCon preview](/news/blizzcon-2026-camelot-private-servers/) — the Classic+ vs retail roadmap read. Midnight's presence on the stage (the Sep 1 posts already slot The Venomous Abyss eight-boss raid and the Season 2 race) tells you how much stage time is left for Classic after Midnight's story beat.
 
@@ -40,4 +40,4 @@ Before Sept 12 09:30 PDT:
 
 During the window, mute is fine; drops track time watched, not chat activity. After the window, claim from the Twitch drops inventory or the YouTube claim flow before it expires.
 
-That is the watch guide the tracker will use. We will be live-posting the Classic segment as it happens and updating the [Classic+ tracker](/classic-plus/) with whatever leaves the stage as fact rather than leak. Until then, everything remains build 69638 and a floor map.
+That is the watch guide the tracker will use. We will be live-posting the Classic segment as it happens and updating the [Classic+ tracker](/classic-plus/) with whatever leaves the stage as fact rather than leak. Until then: build 69704, a floor map, and seven days.
