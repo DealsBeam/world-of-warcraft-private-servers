@@ -27,17 +27,17 @@ eleventyComputed:
 {% set hasArchived = false %}
 {% for n in collections.news %}{% if n.data.archived %}{% set hasArchived = true %}{% endif %}{% endfor %}
 {% if hasArchived %}
-<section class="panel">
+<section class="panel" id="archive-panel">
     <h2>Archive</h2>
     <ul class="news-list">
-        {% for n in collections.news %}{% if n.data.archived %}
-        <li><time>{{ n.date | formatDate }}</time><a href="{{ n.url }}">{{ n.data.title }}</a></li>
+        {% for n in collections.news %}{% if n.data.archived %}{% set g = n.data | gameOf %}
+        <li data-game="{{ g }}"><time>{{ n.date | formatDate }}</time><a href="{{ n.url }}">{{ n.data.title }}</a> <span class="tag">{{ g | gameLabel }}</span></li>
         {% endif %}{% endfor %}
     </ul>
 </section>
 {% endif %}
 
-<section class="panel">
+<section class="panel" id="blog-teaser">
     <h2>From the blog</h2>
     <ul class="news-list">
         {% for p in collections.blog | reverse | take(3) %}<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>{% endfor %}
@@ -51,6 +51,7 @@ eleventyComputed:
     const items = Array.from(document.querySelectorAll("li[data-game]"));
     const count = document.getElementById("game-count");
     const empty = document.getElementById("game-empty");
+    const teaser = document.getElementById("blog-teaser");
     function render(g) {
         let n = 0;
         items.forEach(function (el) {
@@ -58,6 +59,7 @@ eleventyComputed:
             el.hidden = !on;
             if (on) n++;
         });
+        if (teaser) teaser.hidden = g !== "all";
         if (count) count.textContent = n + " of " + items.length + " posts";
         if (empty) empty.hidden = n > 0;
     }
