@@ -27,7 +27,7 @@ eleventyComputed:
         <div class="blog-card-head">
             {{ blogMedallion(p.data.category) }}
             {% if p.data.category %}<span class="blog-cat">{{ p.data.category }}</span>{% endif %}
-            {% if g != "wow" %}<span class="blog-cat">{{ g | gameLabel }}</span>{% endif %}
+            <span class="blog-cat">{{ g | gameLabel }}</span>
             <time>{{ p.date | formatDate }}</time>
         </div>
         <h3><a href="{{ p.url }}">{{ p.data.title }}</a></h3>

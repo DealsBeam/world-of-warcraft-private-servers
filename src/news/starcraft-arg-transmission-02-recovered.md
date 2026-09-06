@@ -1,6 +1,7 @@
 ---
 title: "StarCraft ARG advances: Transmission 02 recovered as old channel goes dark"
 date: 2026-09-05
+game: sc
 summary: "Fans recovered Transmission 02 from a new channel after Blizzard severed the old one. Mainstream press (Polygon) joined the hunt. Seven days to BlizzCon."
 ---
 <!--
