@@ -10,7 +10,7 @@ eleventyComputed:
     title: "{{ game | gameLabel }} — WoW Private Servers Tracker"
     canonical: "https://wowprivateservers.vercel.app/category/{{ game }}/"
     hero: "{{ game | gameLabel }}"
-    subtitle: "News &amp; analysis"
+    subtitle: "News & analysis"
     description: "All {{ game | gameLabel }} posts from the WoW Private Servers Tracker — news and analysis through the preservation lens."
 ---
 {% set newsItems = collections.news | byGame(game) %}
