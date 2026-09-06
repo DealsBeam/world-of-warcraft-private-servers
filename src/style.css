@@ -1749,3 +1749,40 @@ textarea {
     border-radius: 10px;
     border: 1px solid var(--border);
 }
+
+/* ---------- scenes (music ambient picker) ---------- */
+.scene-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 14px 0;
+}
+.scene-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    text-align: left;
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    color: var(--text-strong);
+}
+.scene-card:hover {
+    border-color: var(--border-2);
+}
+.scene-card.active {
+    border-color: var(--gold);
+}
+.scene-emoji {
+    font-size: 1.5rem;
+}
+.scene-name {
+    font-weight: 700;
+}
+.scene-mood {
+    font-size: 12px;
+    color: var(--muted);
+}
