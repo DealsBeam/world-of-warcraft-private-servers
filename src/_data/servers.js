@@ -136,7 +136,8 @@ module.exports = [
         "group": "",
         "url": "https://octowow.st",
         "updated": "2026-08-25",
-        "popTier": "small"
+        "popTier": "small",
+        "guide": "/guides/octowow/"
     },
     {
         "name": "Capybara WoW",
@@ -433,7 +434,8 @@ module.exports = [
         "group": "",
         "url": "https://ravencraft.io/",
         "updated": "2026-08-25",
-        "popTier": "small"
+        "popTier": "small",
+        "guide": "/guides/ravencraft/"
     },
     {
         "name": "Whitemane \u2014 Frostmourne",
