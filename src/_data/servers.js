@@ -786,6 +786,16 @@ module.exports = [
         "popTier": "unknown"
     },
     {
+        "name": "Season of the Crusade",
+        "status": "playable",
+        "details": "Vanilla world with TBC systems (2.4.3 talents at 60, BE/Draenei, jewelcrafting, arenas, honor system); counter read 1 online",
+        "tag": "Vanilla+",
+        "group": "",
+        "url": "https://seasonofthecrusade.com/",
+        "updated": "2026-09-06",
+        "popTier": "tiny"
+    },
+    {
         "name": "GrimfallWoW",
         "status": "playable",
         "details": "Classless at 60 — Wildcard rolls, 10+ races, Skill Cards, Runic, Scrolls, scaled finder, 30+ scaled dungeons, 2500+ TBC/WotLK quests, Tol Barad/Kezan/Gilneas, transmog, prestige; released Sep 5 (live, verified)",
