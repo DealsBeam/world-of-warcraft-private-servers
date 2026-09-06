@@ -6,7 +6,7 @@ summary: "WoWee is a C++ Vulkan WoW client for Vanilla, TBC and WotLK — tested
 ---
 <!--
 SOURCES: WoWee GitHub README (Kelsidavis, 695 stars, 8,238 commits, MIT); Bandcamp soundtrack page (19 tracks, 56 min, $9 FLAC, original compositions).
->
+-->
 
 A from-scratch native client for old WoW, with Vulkan renderer, Android builds, a world editor — and its own soundtrack. WoWee is the most ambitious client project in the scene.
 
