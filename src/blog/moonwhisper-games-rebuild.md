@@ -24,6 +24,10 @@ What Turtle's founders are doing now is the second path emulation developers usu
 
 The risk of path one is always that the leaked core is still derivative. The risk of path two is execution: original MMOs are brutally hard to ship, and most never do. Moonwhisper has the advantage of a team that already shipped one persistent online world and kept a community of more than a million players engaged for nearly eight years. That kind of operational muscle — launches, patches, anti-cheat, customer support, cash flow — is rarer than art direction.
 
+## Update Sep 6: third chapter live
+
+"Anterose, the light that guides humanity" is out — the awaited next drop after Stormhall. Still lore and art, no engine or playtest yet. Cadence watch continues: lore monthly, game signals pending.
+
 ## What to watch
 
 Three signals in the next three to six months will tell us whether this becomes another [Turtle-class shutdown story](/blog/turtle-wow-shutdown-explained/) or an actual shipping MMO:
