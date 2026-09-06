@@ -756,6 +756,16 @@ module.exports = [
         "popTier": "small"
     },
     {
+        "name": "Wrathstorm",
+        "status": "playable",
+        "details": "Classless WotLK 3.3.5a — any-class abilities, reforging, high-risk PvP, boss bounty, 8v8 rated BGs, Mythic+ raids, ranked zones; talent builder + changelog onsite",
+        "tag": "Classless",
+        "group": "",
+        "url": "https://wrathstorm.org/",
+        "updated": "2026-09-06",
+        "popTier": "tiny"
+    },
+    {
         "name": "GrimfallWoW",
         "status": "playable",
         "details": "Classless at 60 — Wildcard rolls, 10+ races, Skill Cards, Runic, Scrolls, scaled finder, 30+ scaled dungeons, 2500+ TBC/WotLK quests, Tol Barad/Kezan/Gilneas, transmog, prestige; released Sep 5 (live, verified)",
