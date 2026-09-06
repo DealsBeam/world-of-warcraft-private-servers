@@ -23,6 +23,14 @@ Delete any sentence that survives a subject swap.
 
 At least one per section to a same-cluster post, descriptive anchor text.
 
+## News posts (Format C adapted)
+
+- First sentence carries exact date + exact fact. No "recently".
+- Leaks: name source + credibility in the open. Never launder forums.
+- Fact and rumor stay separated in the same piece.
+- Developing stories get an "Updated [date]:" line on top, not silent edits.
+- Title brackets ([2026]) not adopted — house titles stay clean.
+
 ## Explicitly NOT adopted
 
 - Em-dash ban: house style uses them; no change.
