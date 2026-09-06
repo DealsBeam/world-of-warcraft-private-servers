@@ -1,0 +1,30 @@
+---
+permalink: /sitemap.md
+eleventyExcludeFromCollections: true
+---
+# Sitemap — WoW Private Servers Tracker
+
+> Curated World of Warcraft private-server tracker: live server statuses, emulation history, news, analysis, and Classic+ development watch. Last reviewed {{ site.reviewed }}.
+
+## Sections
+
+- [Home](https://wowprivateservers.vercel.app/) — {{ servers.length }} tracked servers with live filters
+- [News](https://wowprivateservers.vercel.app/news/) — {{ collections.news.length }} dated updates
+- [Blog](https://wowprivateservers.vercel.app/blog/) — {{ collections.blog.length }} guides and analyses
+- [Classic+ tracker](https://wowprivateservers.vercel.app/classic-plus/) — {{ classicplus.entries.length }} Camelot entries plus CDN build watch
+- [Census](https://wowprivateservers.vercel.app/census/) — population and era tables
+- [Radio](https://wowprivateservers.vercel.app/radio/) — 24/7 stream
+- [Music](https://wowprivateservers.vercel.app/music/) — ambient playlists
+- [Contact](https://wowprivateservers.vercel.app/contact/) — corrections and tips
+
+## Game categories
+
+{% for g in vocab.GAMES %}- [{{ g | gameLabel }}](https://wowprivateservers.vercel.app/category/{{ g }}/)
+{% endfor %}
+## Machine indexes
+
+- [sitemap.xml](https://wowprivateservers.vercel.app/sitemap.xml) — all pages for crawlers
+- [news-sitemap.xml](https://wowprivateservers.vercel.app/news-sitemap.xml) — last 3 days for news surfaces
+- [llms.txt](https://wowprivateservers.vercel.app/llms.txt) — agent index with data endpoints
+- [llms-full.txt](https://wowprivateservers.vercel.app/llms-full.txt) — full corpus dump
+- [feed.xml](https://wowprivateservers.vercel.app/feed.xml) — RSS
