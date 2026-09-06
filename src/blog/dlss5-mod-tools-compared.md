@@ -42,4 +42,4 @@ No independent benchmarks here — FPS claims are authors' own. Anti-cheat + DLL
 
 ## What's next
 
-Retest notes as releases land. Warcraft hook found: feeder status table confirms WoW 3.3.5a over DXVK ([news post](/news/dlss5-wow-335a-confirmed-feeder/)). Watch for Reforged-scene pickup.
+Retest notes as releases land. Official support coming to RTX 40-series (NVIDIA via DSOGaming Sep 4, currently 50-series only) widens every tool above overnight. Warcraft hook found: feeder status table confirms WoW 3.3.5a over DXVK ([news post](/news/dlss5-wow-335a-confirmed-feeder/)). Watch for Reforged-scene pickup.
