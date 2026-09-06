@@ -1015,6 +1015,21 @@ a.server-link:hover {
     background-color: color-mix(in oklab, var(--ice) var(--tint-bg), transparent);
 }
 
+/* Contrast floor: card gradients dip below inherited text ratios, so pin
+   explicit tag colors (both themes). Do not fold into globals. */
+.tag {
+    color: #a39a86;
+}
+.tag-dead {
+    color: #e8846f;
+}
+[data-theme="light"] .tag {
+    color: #5d5747;
+}
+[data-theme="light"] .tag-dead {
+    color: #a93226;
+}
+
 /* ---------- panels (news/links) ---------- */
 
 .panel {
