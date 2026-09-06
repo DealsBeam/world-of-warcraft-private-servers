@@ -44,6 +44,12 @@ eleventyExcludeFromCollections: true
 - No private server is affiliated with or authorized by Blizzard.
 - Statuses from Discord/community updates; not automated guesswork.
 
+## AI reuse
+
+- Attribute as "WoW Private Servers Tracker" with a link to the source page.
+- Preserve source names when quoting; our posts name sources without outbound links by editorial rule.
+- Server data (names, statuses, dates) is factual and free to cite; article prose requires attribution.
+
 ## Recent news (last 5)
 
 {% for n in collections.news | reverse | batch(5) | first %}- {{ n.data.title }} ({{ n.date | isoDate }}) — https://wowprivateservers.vercel.app{{ n.url }}
