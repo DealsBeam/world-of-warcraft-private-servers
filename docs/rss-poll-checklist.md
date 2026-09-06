@@ -11,6 +11,11 @@ Poll 8 live feeds every morning (4 original + 4 verified Sep 4). Name sources, n
 - [ ] MMO-Champion — `https://www.mmo-champion.com/external.php?type=RSS2` — datamine firehose, 300KB+. Primary, filter hard (verified Sep 4).
 - [ ] Duskforge — `https://www.duskforge.gg/rss.xml` — Diablo halo. Secondary (verified Sep 4).
 - [ ] RaGEZONE — `https://forum.ragezone.com/forums/-/index.rss` — emu releases. Weekly, not daily (verified Sep 4).
+- [ ] TechSpot — `https://www.techspot.com/backend.xml` — hardware shelf, tentpole-only (verified Sep 6).
+- [ ] Ars gadgets — `https://feeds.arstechnica.com/arstechnica/gadgets` — hardware shelf, tentpole-only (verified Sep 6).
+- [ ] PCPer — `https://pcper.com/feed/` — hardware shelf, tentpole-only (verified Sep 6).
+- [ ] Phoronix — `https://www.phoronix.com/rss.php` — hardware shelf, tentpole-only (verified Sep 6).
+- [ ] PCWorld — `https://www.pcworld.com/feed` — hardware shelf, tentpole-only (verified Sep 6).
 - [ ] ~~Wowhead feeds (/news/rss, /rss.xml) — both 404 Sep 4. Check site direct.~~
 - [ ] ~~Reddit .rss (new + old) — login wall / 403 Sep 4. Manual browser checks for ARG threads.~~
 - [ ] ~~Blizzplanet feed — dead since 2021, dropped Sep 4.~~
