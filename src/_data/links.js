@@ -188,10 +188,6 @@ module.exports = [
         "url": "https://github.com/corepunch/open-realm"
     },
     {
-        "title": "Ravencraft starter guide - download, addons, DB, FAQ (rentry)",
-        "url": "https://rentry.org/ravencraft"
-    },
-    {
         "title": "MangosFour - open-source MoP (5.4.8) server emulator",
         "url": "https://github.com/mangosfour/Server"
     },
