@@ -42,4 +42,4 @@ No independent benchmarks here — FPS claims are authors' own. Anti-cheat + DLL
 
 ## What's next
 
-Retest notes as releases land. The day any of these touches a Warcraft client, it gets the full scene treatment.
+Retest notes as releases land. Warcraft hook found: feeder status table confirms WoW 3.3.5a over DXVK ([news post](/news/dlss5-wow-335a-confirmed-feeder/)). Watch for Reforged-scene pickup.
