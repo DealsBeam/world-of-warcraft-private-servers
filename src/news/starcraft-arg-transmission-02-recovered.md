@@ -28,4 +28,4 @@ Rotation advancing on schedule, not stalling. Old channel death + new channel bi
 
 ## What's next
 
-Our [FAQ](/blog/starcraft-shooter-faq-blizzard-nexon-arg-blizzcon/) and [reveal skeleton](/news/starcraft-shooter-reveal/) track this live. Transmission links: [01](https://starcraft-arg.vercel.app/transmissions/01) [02](https://starcraft-arg.vercel.app/transmissions/02).
+Our [FAQ](/blog/starcraft-shooter-faq-blizzard-nexon-arg-blizzcon/) and reveal skeleton (drafting) track this live. Transmission links: [01](https://starcraft-arg.vercel.app/transmissions/01) [02](https://starcraft-arg.vercel.app/transmissions/02).

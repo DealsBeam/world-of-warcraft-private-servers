@@ -21,7 +21,7 @@ Run by former Turtle SEA admins on two realms, Capybara captured the single larg
 
 ## 2. Octo WoW — the structured revival
 
-**[Tracked: Octo WoW](/servers/octowow/) · Turtle 1.18.1 · 3 realms · small**
+**[Tracked: Octo WoW](/servers/octo-wow/) · Turtle 1.18.1 · 3 realms · small**
 
 Restored in July with three realms split by playstyle (N'Zoth PvE / C'Thun Hardcore / Y'Shaarj PvP) and a phased raid schedule through 2026-27. The HC realm is the differentiator — no other successor offers dedicated hardcore.
 
@@ -64,7 +64,7 @@ Every successor's real competitor isn't each other — it's [Project Camelot](/c
 | Rank | Server | Best for |
 |------|--------|----------|
 | 1 | [Capybara WoW](/servers/capybara-wow/) | Players who want Turtle's world at full scale |
-| 2 | [Octo WoW](/servers/octowow/) | Players who want options (PvE/HC/PvP splits) |
+| 2 | [Octo WoW](/servers/octo-wow/) | Players who want options (PvE/HC/PvP splits) |
 | 3 | [Ravencraft](/servers/ravencraft/) | Players who value continuity with Turtle's team |
 | 4 | [LunaticPTR](/servers/lunaticptr/) | Challenge-run players |
 | 5 | [Everwood WoW](/servers/everwood-wow/) | Classless-curious players willing to wait |

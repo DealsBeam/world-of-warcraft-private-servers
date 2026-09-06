@@ -33,7 +33,7 @@ Two years on, the leak is the direct ancestor of the Vanilla+ servers running no
 - **[Octo WoW](/servers/octo-wow/)** — restored the 1.18.1 client, three realms, phased raids.
 - **[Capybara WoW](/servers/capybara-wow/)** — ex-Turtle SEA admins, ~10k online.
 - **[Ravencraft](/servers/ravencraft/)** — launching August 22 on the original 1.18.1 core.
-- **[Caverns of Time](/servers/caverns-of-time/)** — a Turtle+ variant, opened August 15.
+- **Caverns of Time** — a Turtle+ variant, opened August 15.
 - **[SandWorlds](/servers/sandworlds/)** — a Brazilian Vanilla+ realm on the 1.17.2 branch.
 
 Beyond servers, the leak fed a tooling ecosystem: community restorations like Tortoise-WoW keep the 1.18.1 patch alive with solo-play additions, and Docker stacks let anyone run a bot-populated Vanilla+ world. The full picture of what runs today is in [the Vanilla+ roundup](/blog/best-vanilla-plus-private-servers-2026/).

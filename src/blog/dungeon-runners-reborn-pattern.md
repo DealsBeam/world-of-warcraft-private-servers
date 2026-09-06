@@ -27,7 +27,7 @@ The answer private WoW usually gives is: ideas survive longer than code, but cod
 
 ## Why this is on a WoW private server site
 
-Dungeon Runners is not WoW. But the revival pattern is the reason our [history timeline](/classical) — from StormCraft sandbox in 2003 to TrinityCore in 2008 to Turtle WoW in 2026 — exists at all. Every entry in that timeline is a version of the same sentence: the official server went down, a community server went up, and the game lived in a place the publisher did not run.
+Dungeon Runners is not WoW. But the revival pattern is the reason our [history timeline](/#history) — from StormCraft sandbox in 2003 to TrinityCore in 2008 to Turtle WoW in 2026 — exists at all. Every entry in that timeline is a version of the same sentence: the official server went down, a community server went up, and the game lived in a place the publisher did not run.
 
 Seventeen years is longer than WoW has been out. Seven years is longer than most private servers live. Open alpha on Aug 31 is not a launch; it is a proof that the clock that matters for preservation is not the one on the official login screen. It is the one on the community repo.
 

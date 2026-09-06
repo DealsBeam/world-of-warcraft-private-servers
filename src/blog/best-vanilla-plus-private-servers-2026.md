@@ -19,7 +19,7 @@ Turtle's code survived its shutdown. The 2024 leak meant the scene could carry o
 - **[Octo WoW](/servers/octo-wow/)** — biggest. Restored 1.18.1 Jul 2026, three realms (N'Zoth PvE, C'Thun HC, Y'Shaarj PvP), phased raids 2026-27. See [modern client](/guides/octowow/).
 - **[Capybara WoW](/servers/capybara-wow/)** — ex-Turtle SEA admins, two realms, ~10k online. Largest Turtle successor now.
 - **[Ravencraft](/servers/ravencraft/)** — 1.18.1 continuation by former contributors, **launched Aug 22** — fresh start for Turtle loyalists. See [launch news](/news/ravencraft-launch/).
-- **[Caverns of Time](/servers/caverns-of-time/)** — Turtle+ variant, opened Aug 15.
+- **Caverns of Time** — Turtle+ variant, opened Aug 15.
 
 ## Independent Vanilla+
 

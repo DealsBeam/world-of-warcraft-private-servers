@@ -14,7 +14,7 @@ A week after the shutdown, [Turtle WoW's 1.17.1/1.17.2 source leaked](/news/turt
 The result is a family tree of projects now tracked on our [homepage](/):
 
 - **[RavenCraft](/servers/ravencraft/)** — built by former Turtle project contributors on the original 1.18.1 core, launching August 22. The closest thing to a direct continuation, and the most anticipated launch of the wave.
-- **[Caverns of Time](/servers/caverns-of-time/)** — a Turtle+ project that launched August 15 and already carries an active population.
+- **Caverns of Time** — a Turtle+ project that launched August 15 and already carries an active population.
 - **[Capybara WoW](/servers/capybara-wow/)** — run by ex-Turtle SEA admins, two realms, reportedly around 10k online at peak. The largest concentration of former Turtle players right now.
 - **[Octo WoW](/servers/octo-wow/)** — restored the 1.18.1 core in July 2026 with three realms (PvE, Hardcore, PvP) and phased raids planned through 2027.
 

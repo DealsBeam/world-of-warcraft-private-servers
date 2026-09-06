@@ -778,7 +778,7 @@ module.exports = [
     {
         "name": "Atlantiss",
         "status": "playable",
-        "details": "Cata 4.3.4 flagship of the Tauri/Atlantiss network relaunch Feb 2026, also MoP 5.4.8 and TBC 2.4.3 realms, ~1.2k Discord online",
+        "details": "Cata 4.3.4 flagship of the Tauri/Atlantiss network relaunch Feb 2026, also MoP 5.4.8 and TBC 2.4.3 realms, ~1.2k Discord online; atlantiss.org DNS lapsed May 2026, community active on Discord",
         "tag": "Cataclysm",
         "group": "",
         "url": "https://atlantiss.org/",
@@ -828,7 +828,7 @@ module.exports = [
     {
         "name": "Valanior",
         "status": "playable",
-        "details": "Custom modernization of the Vanilla 1.12 foundation, ~1.3k Discord online",
+        "details": "Custom modernization of the Vanilla 1.12 foundation, ~1.3k Discord online; site origin down Sep 6 (Cloudflare DNS error), community alive on Discord",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://valanior.com/",

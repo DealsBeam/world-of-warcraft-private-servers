@@ -73,3 +73,36 @@ for (const d of ["news/", "blog/"]) {
 }
 
 console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core assets)`);
+
+// Internal link integrity: every same-site href must resolve to a built file.
+// Catches renamed slugs, removed servers, typo paths, and links to drafts.
+{
+    const pages = new Set();
+    const walk = dir => {
+        for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+            const p = path.join(dir, e.name);
+            if (e.isDirectory()) walk(p);
+            else if (e.name === "index.html") pages.add("/" + path.relative(out, p).replace(/\\/g, "/").replace(/index\.html$/, ""));
+        }
+    };
+    walk(out);
+    const broken = [];
+    const check = dir => {
+        for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+            const p = path.join(dir, e.name);
+            if (e.isDirectory()) { check(p); continue; }
+            if (e.name !== "index.html") continue;
+            const html = fs.readFileSync(p, "utf8");
+            const from = "/" + path.relative(out, p).replace(/\\/g, "/").replace(/index\.html$/, "");
+            for (const m of html.matchAll(/href="(\/[^"#]*?)"/g)) {
+                const clean = m[1].split("?")[0];
+                const target = clean.endsWith("/") ? clean : clean + "/";
+                if (pages.has(target) || fs.existsSync(path.join(out, clean.replace(/^\//, "")))) continue;
+                broken.push(`${from} -> ${m[1]}`);
+            }
+        }
+    };
+    check(out);
+    assert.strictEqual(broken.length, 0, `broken internal links:\n${broken.join("\n")}`);
+    console.log(`OK: internal links resolve (${pages.size} pages)`);
+}

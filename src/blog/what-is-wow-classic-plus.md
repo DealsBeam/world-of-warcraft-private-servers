@@ -35,7 +35,7 @@ Unconfirmed. Many players favor a permanent level-60 endgame, but Patch 1.60 doe
 
 ## Where Classic+ ideas already live
 
-While Blizzard's plans are unknown, the *ideas* behind Classic Plus are already running in the private-server scene. The 2024 Turtle WoW source leak spawned a whole family of Vanilla+ projects — [Octo WoW](/servers/octo-wow/), [Capybara WoW](/servers/capybara-wow/), [Ravencraft](/servers/ravencraft/), [Caverns of Time](/servers/caverns-of-time/), and others — each layering custom zones, classes, and content onto the classic client. And [Ascension](/servers/ascension/) has run classless, custom-classes, and Vanilla+ seasons for years.
+While Blizzard's plans are unknown, the *ideas* behind Classic Plus are already running in the private-server scene. The 2024 Turtle WoW source leak spawned a whole family of Vanilla+ projects — [Octo WoW](/servers/octo-wow/), [Capybara WoW](/servers/capybara-wow/), [Ravencraft](/servers/ravencraft/), Caverns of Time, and others — each layering custom zones, classes, and content onto the classic client. And [Ascension](/servers/ascension/) has run classless, custom-classes, and Vanilla+ seasons for years.
 
 If you want to see what a level-60-plus world might look like before Blizzard decides anything, those realms are the closest thing that exists.
 

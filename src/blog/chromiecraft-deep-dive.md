@@ -71,7 +71,7 @@ Niche/Fun (Stormgarde, AmberWoW)    ←  playstyle-first, solo/255/etc
 
 Chromiecraft occupies the rare intersection of **large population** and **open-source integrity**. In a scene where servers go dark without warning ([the 2026 purge](/blog/blizzard-2026-private-server-crackdown/)), that transparency isn't a luxury — it's insurance.
 
-The [BlizzCon WotLK Anniversary](/news/wotlk-anniversary-reveal/) won't displace Chromiecraft the way it might displace population-dependent servers. Chromiecraft's players aren't there for the population — they're there because no other WotLK server gives them this level of openness.
+The expected [BlizzCon WotLK Anniversary](/news/blizzcon-predictions/) won't displace Chromiecraft the way it might displace population-dependent servers. Chromiecraft's players aren't there for the population — they're there because no other WotLK server gives them this level of openness.
 
 ---
 

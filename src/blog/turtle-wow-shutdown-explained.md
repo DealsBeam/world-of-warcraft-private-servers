@@ -37,7 +37,7 @@ When Turtle closed, its code became a family of Vanilla+ projects — most on 1.
 - **[Octo WoW](/servers/octo-wow/)** — restored 1.18.1 Jul 2026, three realms (N'Zoth PvE, C'Thun HC, Y'Shaarj PvP), phased raids 2026-27. See [modern client](/guides/octowow/).
 - **[Capybara WoW](/servers/capybara-wow/)** — ex-Turtle SEA admins, two realms, ~10k online.
 - **[Ravencraft](/servers/ravencraft/)** — 1.18.1 continuation by former contributors, launched Aug 22 2026. See [launch news](/news/ravencraft-launch/).
-- **[Caverns of Time](/servers/caverns-of-time/)** — Turtle+ variant, launched Aug 15 2026.
+- **Caverns of Time** — Turtle+ variant, launched Aug 15 2026.
 - **[SandWorlds](/servers/sandworlds/)** — Brazilian Vanilla+, 13 custom zones, cross-faction.
 
 Beyond the Turtle family, Vanilla+ kept running.

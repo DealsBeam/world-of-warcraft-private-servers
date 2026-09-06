@@ -6,7 +6,7 @@ category: "comparison"
 summary: "Blizzard will almost certainly announce a Wrath of the Lich King Anniversary edition at BlizzCon. Here's how it compares to the private WotLK scene that's already running."
 ---
 
-The [BlizzCon skeleton](/news/wotlk-anniversary-reveal/) is drafted and the [predictions post](/news/blizzcon-predictions/) is live — so let's get practical. When Wrath of the Lich King Anniversary launches (presumably late 2026 or early 2027), where should you actually play?
+The BlizzCon skeleton is drafted (unpublished) and the [predictions post](/news/blizzcon-predictions/) is live — so let's get practical. When Wrath of the Lich King Anniversary launches (presumably late 2026 or early 2027), where should you actually play?
 
 ## The official WotLK Anniversary — what we know
 

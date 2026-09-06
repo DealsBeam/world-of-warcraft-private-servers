@@ -1,4 +1,4 @@
 module.exports = {
-    reviewed: "September 5, 2026",
-    reviewedIso: "2026-09-05"
+    reviewed: "September 6, 2026",
+    reviewedIso: "2026-09-06"
 };

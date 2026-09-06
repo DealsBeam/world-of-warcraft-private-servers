@@ -32,6 +32,6 @@ Here is what the evidence supports, what is plausible but unconfirmed, and what 
 
 ## What it means for the private scene
 
-The [shutdown campaign](/blog/blizzard-2026-private-server-crackdown/) that cleared Turtle WoW, Stormforge, Everlook and others through spring looks different in hindsight: the field was being cleared for this announcement. Whether official Classic+ retains the players who fled to successors like [Ravencraft](/servers/ravencraft/), [OctoWoW](/servers/octowow/) and [Capybara WoW](/servers/capybara-wow/) is the scene's defining question for 2027 — our [Turtle successor rankings](/blog/turtle-successors-ranked/) cover who's positioned to survive it.
+The [shutdown campaign](/blog/blizzard-2026-private-server-crackdown/) that cleared Turtle WoW, Stormforge, Everlook and others through spring looks different in hindsight: the field was being cleared for this announcement. Whether official Classic+ retains the players who fled to successors like [Ravencraft](/servers/ravencraft/), [OctoWoW](/servers/octo-wow/) and [Capybara WoW](/servers/capybara-wow/) is the scene's defining question for 2027 — our [Turtle successor rankings](/blog/turtle-successors-ranked/) cover who's positioned to survive it.
 
 We'll have both skeleton posts — [Classic+ reveal](/news/) and [Wrath Anniversary](/news/) — filled within hours of the ceremony on September 12. The [Classic+ hub](/classic-plus/) timeline updates live.
