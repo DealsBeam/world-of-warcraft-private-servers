@@ -756,11 +756,11 @@ module.exports = [
     {
         "name": "GrimfallWoW",
         "status": "playable",
-        "details": "Classless at 60 — Wildcard rolls, 10+ races, Skill Cards, Runic, Scrolls, scaled finder, 30+ scaled dungeons, 2500+ TBC/WotLK quests, Tol Barad/Kezan/Gilneas, transmog, prestige; Release Sep 5 11am CT",
+        "details": "Classless at 60 — Wildcard rolls, 10+ races, Skill Cards, Runic, Scrolls, scaled finder, 30+ scaled dungeons, 2500+ TBC/WotLK quests, Tol Barad/Kezan/Gilneas, transmog, prestige; released Sep 5 (live, verified)",
         "tag": "Classless",
         "group": "",
         "url": "https://www.grimfallwow.com/",
-        "updated": "2026-09-04",
+        "updated": "2026-09-06",
         "popTier": "tiny"
     },
     {
