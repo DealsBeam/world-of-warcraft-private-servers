@@ -1,7 +1,7 @@
 module.exports = {
     name: "Malonze Gaming",
     page: "/creators/malonze-gaming/",
-    image: "/images/hero-3.jpeg",
+    image: "/images/hero-3.jpeg", // 192px thumb at /images/hero-3-192.webp must exist (index + creator use it)
     heading: "Featured Creator — Malonze Gaming",
     blurb: "1.74k subs, 592 videos — WoW private servers (Ascension, Turtle, Octo, Epoch) + Malonze Productions Cosplay (174, leather armor, Metrocon 2019 pet dragon award).",
     links: [

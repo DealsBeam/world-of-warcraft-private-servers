@@ -28,7 +28,7 @@ eleventyComputed:
 <ul class="blog-grid">
 {% for p in blogItems | reverse %}
     <li class="blog-card">
-        <img class="card-thumb" src="{{ p.data.image or (p.data.title | ogCard) }}" alt="" loading="lazy" decoding="async" width="800" height="440">
+        {% set thumb = p.data.image or (p.data.title | ogCard) %}<picture><source srcset="{{ thumb | replace('.jpeg', '.webp') }}" type="image/webp"><img class="card-thumb" src="{{ thumb }}" alt="" loading="lazy" decoding="async" width="800" height="440"></picture>
         <div class="blog-card-head">
             {% if p.data.category %}<span class="blog-cat">{{ p.data.category }}</span>{% endif %}
             <time>{{ p.date | formatDate }}</time>
