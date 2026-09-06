@@ -7,7 +7,7 @@ summary: "Blizzard's core players aged alongside its games — 28 to 50+ on lega
 ---
 <!--
 SOURCES: user-supplied AI draft (unverified age brackets — flagged estimates, not data); Daedalus Project / Newzoo / investor ARPU cited without links — treat as direction, not numbers.
->
+-->
 
 Blizzard's players grew up. They didn't leave — they aged in place. That fact shapes everything from Classic+ to private servers.
 
