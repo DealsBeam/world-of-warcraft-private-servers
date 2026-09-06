@@ -184,6 +184,10 @@ module.exports = [
         "url": "https://projectreforged.github.io/"
     },
     {
+        "title": "OpenRealm - open-source WC3/WoW/SC2 engine in C (MPQ, Linux/macOS)",
+        "url": "https://github.com/corepunch/open-realm"
+    },
+    {
         "title": "MangosFour - open-source MoP (5.4.8) server emulator",
         "url": "https://github.com/mangosfour/Server"
     },
