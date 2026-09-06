@@ -876,11 +876,11 @@ module.exports = [
     {
         "name": "Stormgarde",
         "status": "playable",
-        "details": "Solo-friendly WotLK 3.3.5 with Playerbot AI companion system since Feb 2020, ~130 Discord online",
-        "tag": "WotLK",
+        "details": "MoP 5.4.8 with account site and 5.4.8 client download (logon.stormgarde.org); previously listed as WotLK solo — corrected Sep 5",
+        "tag": "MoP",
         "group": "",
         "url": "https://stormgarde.org/",
-        "updated": "2026-08-24",
+        "updated": "2026-09-05",
         "popTier": "small"
     },
     {
