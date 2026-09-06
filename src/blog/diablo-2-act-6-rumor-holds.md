@@ -7,7 +7,7 @@ summary: "Act VI, new quests, Paladin and Druid reworks, Enigma nerf, Scabbard i
 ---
 <!--
 SOURCES: Icy Veins (Tharid — leak list, Warlock-leaker provenance UNCONFIRMED, Vendor 2 builds, D2 floor slot, 30th anniversary); DC Inside D2R gallery (KR fan translation of deleted Wowhead AU Blizzard Facebook post, Reign of the Warlock Act VI datamine).
->
+-->
 
 A giant Diablo 2 leak lists Act VI, class reworks and an Enigma nerf. Sourcing is thin. Dev activity is real. Separate those before reacting.
 

@@ -61,7 +61,13 @@ for (const d of ["news/", "blog/"]) {
     for (const entry of fs.readdirSync(path.join(out, d))) {
         const p = path.join(out, d, entry, "index.html");
         if (!fs.existsSync(p)) continue;
-        const words = textOf(fs.readFileSync(p, "utf8")).split(" ").filter(Boolean).length;
+        const html = fs.readFileSync(p, "utf8");
+        // Unclosed HTML comments swallow bodies in browsers while looking
+        // fine in source (partial tag-strip can even pass word counts).
+        const opens = (html.match(/<!--/g) || []).length;
+        const closes = (html.match(/-->/g) || []).length;
+        assert.strictEqual(opens, closes, `unclosed HTML comment: /${d}${entry}/ (${opens} opens, ${closes} closes)`);
+        const words = textOf(html).split(" ").filter(Boolean).length;
         assert.ok(words > 20, `page renders almost no text: /${d}${entry}/ (${words} words)`);
     }
 }

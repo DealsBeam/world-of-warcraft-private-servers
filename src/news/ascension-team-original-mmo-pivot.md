@@ -5,7 +5,7 @@ summary: "Ascension.gg is live as a standalone MMORPG with launcher download. Ac
 ---
 <!--
 SOURCES: ascension.gg homepage (Sep 5 read: launcher, maintenance notice); MOP Aug 31 (Chris Neal, Discord announcement); mmos.com Aug 31 (Valkenburg, shutdown terms + suit details).
->
+-->
 
 The classless team goes original IP. Ascension.gg is live as a standalone MMORPG — same name, no Warcraft.
 

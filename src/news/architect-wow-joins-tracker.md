@@ -5,7 +5,7 @@ summary: "Spanish progressive WotLK 3.3.5a PvP at x2 with Naxx through ICC unloc
 ---
 <!--
 SOURCES: architectwow.online homepage (Sep 5 read: online counter 0, recent activity 2 players, ICC 12/12 listed open).
->
+-->
 
 [Architect WoW](/servers/architect-wow/) joins the tracker. Spanish WotLK 3.3.5a progressive PvP, x2 rates, all tiers open Naxx through ICC including Halion.
 
