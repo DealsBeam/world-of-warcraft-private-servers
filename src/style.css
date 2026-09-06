@@ -6,7 +6,7 @@
     font-family: 'Cinzel';
     font-style: normal;
     font-weight: 400 700;
-    font-display: swap;
+    font-display: optional;
     src: url('/fonts/cinzel.woff2') format('woff2');
 }
 
@@ -14,7 +14,7 @@
     font-family: 'Cinzel Decorative';
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
+    font-display: optional;
     src: url('/fonts/cinzel-decorative-400.woff2') format('woff2');
 }
 
@@ -22,7 +22,7 @@
     font-family: 'Cinzel Decorative';
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
+    font-display: optional;
     src: url('/fonts/cinzel-decorative-700.woff2') format('woff2');
 }
 
@@ -30,7 +30,7 @@
     font-family: 'Crimson Pro';
     font-style: normal;
     font-weight: 400 600;
-    font-display: swap;
+    font-display: optional;
     src: url('/fonts/crimson-pro.woff2') format('woff2');
 }
 
@@ -38,7 +38,7 @@
     font-family: 'Crimson Pro';
     font-style: italic;
     font-weight: 400;
-    font-display: swap;
+    font-display: optional;
     src: url('/fonts/crimson-pro-italic.woff2') format('woff2');
 }
 
