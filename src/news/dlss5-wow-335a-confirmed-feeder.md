@@ -5,7 +5,7 @@ summary: "DLSS5-Feeder status table lists World of Warcraft 3.3.5a as user-confi
 ---
 <!--
 SOURCES: jlrouzies-fr DLSS5-Feeder README status table (WoW 3.3.5a row, issue #15).
->
+-->
 
 DLSS5 runs on a 3.3.5a client. User-confirmed, in the feeder's own status table: World of Warcraft 3.3.5a over DXVK, 4K on RTX 5080/5090.
 
