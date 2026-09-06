@@ -766,6 +766,26 @@ module.exports = [
         "popTier": "tiny"
     },
     {
+        "name": "Keldurn",
+        "status": "playable",
+        "details": "Vanilla 1.12 in the web browser, original rates, EN/ES, faction autobalance; login/registration live, gameplay behind account",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://play.keldurn.com/",
+        "updated": "2026-09-06",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Vaelith",
+        "status": "dev",
+        "details": "Ground-up WotLK 3.3.5a realm, custom systems/interface, no shop; closed dev realm, no public address or dates yet",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://www.project-vaelith.gg/",
+        "updated": "2026-09-06",
+        "popTier": "unknown"
+    },
+    {
         "name": "GrimfallWoW",
         "status": "playable",
         "details": "Classless at 60 — Wildcard rolls, 10+ races, Skill Cards, Runic, Scrolls, scaled finder, 30+ scaled dungeons, 2500+ TBC/WotLK quests, Tol Barad/Kezan/Gilneas, transmog, prestige; released Sep 5 (live, verified)",
