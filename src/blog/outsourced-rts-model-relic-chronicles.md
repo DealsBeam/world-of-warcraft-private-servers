@@ -6,7 +6,7 @@ category: analysis
 game: other
 ---
 <!--
-SOURCES: XB2 podcast (user transcript, timestamp 2:52:18 — verbatim UNVERIFIED, no VOD check); VGC Feb 2025 (Relic split from Sega, Emona Capital, independent); GamesBeat Feb 2025 (Relic strategy, AoE4 2021, Microsoft IP); Relic LinkedIn Jun 2026 (AoE4 Raiders of the North, Microsoft partnership continues); Gamespot Jun 29 2026 / WCCFTech Jun 23 / Nerd Stash (Aug 2025 5thyatch slate: Camelot Q3 2026, Chronicles RTS Q3 2028 + anime, Arthas ARPG Q4 2029 + live action); r/starcraft threads (Chronicles mention, 4chan schedule — latter already debunked).
+SOURCES: XB2 podcast (user transcript, timestamp 2:52:18 — verbatim UNVERIFIED, no VOD check); VGC Feb 2025 (Relic split from Sega, Emona Capital, independent); GamesBeat Feb 2025 (Relic strategy, AoE4 2021, Microsoft IP); Relic LinkedIn Jun 2026 (AoE4 Raiders of the North, Microsoft partnership continues); Gamespot Jun 29 2026 / WCCFTech Jun 23 / Nerd Stash (Aug 2025 5thyatch slate: Camelot Q3 2026, Chronicles RTS Q3 2028 + anime, Arthas ARPG Q4 2029 + live action); r/starcraft threads (Chronicles mention, 4chan schedule — latter already debunked); Altertime Sep 5 (ES press pickup of Corden claims + WC3 internal versions note).
 WATCH: Corden claims single-source throughout. AoE5-on-UE5 detail stays thin (no corroboration found). Reddit threads login-walled, unverified.
 -->
 
