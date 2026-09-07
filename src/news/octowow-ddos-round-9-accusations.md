@@ -5,7 +5,7 @@ summary: "OctoWoW's forums hit DDoS Round 9 today with Ravencraft accusations, g
 ---
 <!--
 SOURCES: OctoWow forums "DDoS Round 9" thread pp.4 (Sep 6 posts: Defiant, Ocdonotsteal, Darktifa, Kestrel mentions); user-supplied brief (timeline, extortion claims, Cloudflare point — extortion/Cloudflare details NOT independently verified).
->
+-->
 
 OctoWoW's forums reached "DDoS Round 9" today. The thread names no attacker. The posters name one anyway. Nothing is proven. Here is both sides, verbatim in spirit.
 
