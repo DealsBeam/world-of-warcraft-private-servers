@@ -6,7 +6,7 @@ summary: "MMO-C throwaway claims Classic+ playtest: DK class, mage healers, pala
 ---
 <!--
 SOURCES: MMO-C thread 2669770 (throawaway2026, Sep 8, 1-post account, admits AI-assisted writing; replies split fake/believe).
->
+-->
 
 A throwaway account claims a Classic+ playtest with specifics. Specifics are cheap before BlizzCon. Read flagged.
 
