@@ -23,7 +23,7 @@ Paladin: Blessed Hammer goes straight-then-spiral ("projectile to spiral" intern
 
 ## What holds without the leak
 
-Vendor 2 builds = active D2R development, no interpretation needed. Floor slot + 30th anniversary = stage time exists. Survey asked about new acts = Blizzard at least polls the idea. KR community (DC Inside) independently tracks the same datamine thread — same facts, second room.
+Vendor 2 builds = active D2R development, no interpretation needed. Floor slot + 30th anniversary = stage time exists. Survey asked about new acts = Blizzard at least polls the idea. KR community (DC Inside) independently tracks the same datamine thread — same facts, second room. Precedent helps: D2R shipped Demonologist DLC Feb 12 (new class 25 years on, per Inven Sep 7) — new content in old D2 is established practice, not fantasy.
 
 ## What doesn't hold
 
