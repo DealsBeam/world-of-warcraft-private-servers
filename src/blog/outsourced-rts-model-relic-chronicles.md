@@ -24,11 +24,11 @@ TODO voice: Blizzard produces, specialist builds. Relic fits. Chronicles 2028 on
 - Belief: full StarCraft 3 eventually, produced in-house, built outside. "Won't have to wait long."
 
 ## The Relic fit (verified parts)
-
 - Independent since Sega split (Mar 2024, Emona Capital). Confirmed VGC/GamesBeat Feb 2025.
 - Made AoE4 (2021) for Microsoft. Partnership continues: Raiders of the North expansion, Xbox Showcase Jun 2026 (Relic LinkedIn).
 - Strategy: smaller games + reimaginings + continued big RTS. Fits a work-for-hire slot.
 - Unverified: AoE5 on UE5, SC3 talks after (Corden-only, no corroboration found Sep 5).
+- Second name in play: Blackbird Interactive rumored on classic RTS help (via Corden Sep 8 preview). Homeworld/Crossfire pedigree fits the same outsourced slot. Single-source, watch it.
 
 ## The Chronicles slate (gaining weight)
 

@@ -53,6 +53,7 @@ Do not merge these. Two builds, two teams.
 
 Blizzard build:
 - TPS, not cartoonish, Terrans + Zerg (via Corden)
+- Corden says he saw test footage: Terran marines vs Zerg, open-world, cinematic campaign (via Windows Central Sep 8 preview)
 - Co-op, crossplay, not Xbox-exclusive — PlayStation too (via Corden Sep 6 expectations, relayed vgtimes)
 - UE5 (via listings)
 - Gritty, SC2-cinematic tone. Squad-based PvE, vehicle sections, large boss encounters (via WCCFTech Sep 4, Alessio Palumbo). Design director credits: Insomniac + The Coalition.
