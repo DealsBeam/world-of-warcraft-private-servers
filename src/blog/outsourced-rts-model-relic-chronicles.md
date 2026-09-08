@@ -28,7 +28,7 @@ TODO voice: Blizzard produces, specialist builds. Relic fits. Chronicles 2028 on
 - Made AoE4 (2021) for Microsoft. Partnership continues: Raiders of the North expansion, Xbox Showcase Jun 2026 (Relic LinkedIn).
 - Strategy: smaller games + reimaginings + continued big RTS. Fits a work-for-hire slot.
 - Unverified: AoE5 on UE5, SC3 talks after (Corden-only, no corroboration found Sep 5).
-- Second name in play: Blackbird Interactive rumored on classic RTS help (via Corden Sep 8 preview). Homeworld/Crossfire pedigree fits the same outsourced slot. Single-source, watch it.
+- Second name in play: Blackbird Interactive rumored on classic RTS help (via Corden Sep 8 preview, elaborated Sep 8 Reddit/WC thread). Co-dev on Warcraft Remastered. Could be Warcraft-specific (WC3 expansions, WC1/2 remakes) rather than StarCraft. Homeworld/Crossfire pedigree fits the outsourced slot. Single-source, watch it.
 
 ## The Chronicles slate (gaining weight)
 

@@ -78,7 +78,7 @@ There are no reports or suggestions that StarCraft 3 is in a development, but th
 
 - According to Jez Corden, Relic is currently trying to make Age of Empires 5 on Unreal Engine 5. They are interested to talk about StarCraft 3 after that. Thin.
 - Translations of the article yesterday suggest that Nexon might be interested in StarCraft 3 as well. High possibility it's just a slop article. Flag.
-- There is a leak for the future of Warcraft which includes Warcraft chronicles (RTS). It's probably some anthology and nothing serious. That indicates that Blizzard is still interested in the RTS genre a little bit.
+- There is a leak for the future of Warcraft which includes Warcraft chronicles (RTS). It's probably some anthology and nothing serious. That indicates that Blizzard is still interested in the RTS genre a little bit. Blackbird Interactive (co-dev on Warcraft Remastered) rumored to be involved again — could be WC3 expansions or WC1/2 remakes (Corden/Windows Central, Sep 8).
 
 ## What will be at BlizzCon? What to watch? Who is there?
 
