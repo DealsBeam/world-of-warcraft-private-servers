@@ -27,7 +27,11 @@ Transmission 03 is here and the tone flipped from mystery to emergency. Doors br
 
 ## What it means
 
-Escalation cadence: 01 (setup) → 02 (channel move) → 03 (incident) across five days. Scripted runway into Sep 12. Horror framing now explicit — extraction-shooter and Ghost-revival theories both gain. The O₂ anomaly and population counter suggest something biological or Xel'Naga-related, not just military action.
+Escalation cadence: 01 (setup) → 02 (channel move) → 03 (incident) across five days. Scripted runway into Sep 12. Horror framing now explicit — extraction-shooter and Ghost-revival theories both gain.
+
+**Community analysis** (sourced from Reddit r/starcraft): The exponential population counter (92 → 1610 → ERROR → CAP EXCEEDED) points toward changelings — specifically the Propagator variant from Co-op, which clones itself rapidly. The "screeching" language matches the Changeling short story. Patient body temperatures at 127°F should be fatal, suggesting something biological is rewriting host physiology. D. Alvarez's "read between the lines" hint may mean hidden text exists in the transmission source code. Page source group "001998" references SC1's release year. The Dominion's reeducation program is a Confederate/Arcturus-era practice that Valerian abolished — if it's back, something happened in the 50+ years between SC2's ending and 2575.
+
+**Lore context:** Set 67 years after Amon's death. The Dominion appears to have backslid into authoritarian tactics (reeducation, resource clearing via population displacement). Valerian's "golden age" described in SC2's epilogue may have ended. The crates, the resources near residential/industrial zones, and the cover-up suggest the Dominion brought something to Roxara deliberately — and lost control of it.
 
 ## What's next
 
