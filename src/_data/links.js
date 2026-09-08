@@ -188,6 +188,10 @@ module.exports = [
         "url": "https://github.com/corepunch/open-realm"
     },
     {
+        "title": "FoundryCoreRepack - one-click TrinityCore repack for Midnight 12.x with GenAI bots",
+        "url": "https://github.com/stevebone/FoundryCoreRepack"
+    },
+    {
         "title": "MangosFour - open-source MoP (5.4.8) server emulator",
         "url": "https://github.com/mangosfour/Server"
     },
