@@ -786,6 +786,16 @@ module.exports = [
         "popTier": "unknown"
     },
     {
+        "name": "Tempest-WoW",
+        "status": "playable",
+        "details": "Instant-255 WotLK funserver, launched Sep 5 per official news; site Cloudflare-walled, live status via launch post + toplist rank",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://tempest-wow.com/",
+        "updated": "2026-09-08",
+        "popTier": "tiny"
+    },
+    {
         "name": "Season of the Crusade",
         "status": "playable",
         "details": "Vanilla world with TBC systems (2.4.3 talents at 60, BE/Draenei, jewelcrafting, arenas, honor system); counter read 1 online",
