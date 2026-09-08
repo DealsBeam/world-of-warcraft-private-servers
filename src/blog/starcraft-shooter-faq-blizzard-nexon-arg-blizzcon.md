@@ -18,10 +18,11 @@ People complain and spread misinformation due to sudden amount of news and rumou
 
 The ARG for the new unannounced game has started, so we are close to it. Blizzard also shipped SC2 patch 5.0.16 in June 2026 — biggest overhaul since Legacy of the Void (workers 12→8, Warpgate rework, Ghost rebalance, hotfixes into July). Live game gets that kind of surgery when the franchise matters again.
 
-How many workers will be at the start? 14 occupants detected. (Occupants = ARG characters waking up, not dev headcount.)
+How many workers will be at the start? 14 occupants detected in Transmission 01. By Transmission 03, civilian population counter reads 92 → 391 → 570 → 1610 → ERROR → CAP EXCEEDED. (Occupants = ARG characters waking up, not dev headcount.)
 
 - Transmissions: https://starcraft-arg.vercel.app/transmissions/01 (thanks JarlMarx)
 - Transmission 02: https://starcraft-arg.vercel.app/transmissions/02 (recovered Sep 5 — see [news post](/news/starcraft-arg-transmission-02-recovered/))
+- Transmission 03: https://starcraft-arg.vercel.app/transmissions/03 (recovered Sep 8 — see [news post](/news/starcraft-arg-transmission-03-breach/))
 - Lore dive day 1: https://www.reddit.com/r/starcraft/comments/1w6l3py/lore_dive_on_the_preblizzcon_arg_day_1/ (Subsourian)
 - Press mirror: MassivelyOP covered the glitch + ARG on Sep 4 (https://massivelyop.com/2026/09/04/starcrafts-website-is-glitching-possibly-as-a-preamble-to-a-big-blizzcon-announcement/), via Wowhead's hidden-messages find. Note: MOP frames it as Blizzard + Nexon together. This FAQ says separate builds — see table below.
 
@@ -58,7 +59,7 @@ Blizzard build:
 - UE5 (via listings)
 - Gritty, SC2-cinematic tone. Squad-based PvE, vehicle sections, large boss encounters (via WCCFTech Sep 4, Alessio Palumbo). Design director credits: Insomniac + The Coalition.
 - In development since The Odyssey was cancelled, so since 2023. The Odyssey was a survival game made in UE5. It was cancelled due to bad netcode.
-- Set in 2575, almost 70 years after SC2. ARG transmissions (Roxara, Theta Squadron, Special Order 176) play in same year.
+- Set in 2575, almost 70 years after SC2. ARG transmissions (Roxara, Theta Squadron, Special Order 176) play in same year. Transmission 03 adds: 3 patients with O₂ saturation above 100%, vent horror, Keri Parker emergency breach, D. Alvarez insider warning.
 - Edit: Don't count on it being Destiny-like. (Walked back.)
 
 Nexon build:
