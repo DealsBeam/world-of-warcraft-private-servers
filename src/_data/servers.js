@@ -826,6 +826,16 @@ module.exports = [
         "popTier": "medium"
     },
     {
+        "name": "UwowSA",
+        "status": "playable",
+        "details": "Spanish/Portuguese Legion 7.3.5 x5, launched Jun 2026 with 3100+ players, custom bosses, allied races (Haranir, Mag'har, Iron Dwarves, Zandalari, Kul Tirans, Vulpera), hardcore mode, timewalking",
+        "tag": "Legion",
+        "group": "",
+        "url": "https://uwowsa.com/",
+        "updated": "2026-09-08",
+        "popTier": "medium"
+    },
+    {
         "name": "Atlantiss",
         "status": "playable",
         "details": "Cata 4.3.4 flagship of the Tauri/Atlantiss network relaunch Feb 2026, also MoP 5.4.8 and TBC 2.4.3 realms, ~1.2k Discord online; atlantiss.org DNS lapsed May 2026, community active on Discord",
