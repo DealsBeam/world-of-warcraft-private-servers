@@ -52,6 +52,14 @@ module.exports = [
         "url": "https://github.com/HavenWoW/BFA-HavenCore"
     },
     {
+        "title": "BfaCore-Reforged — open-source WoW 8.3.7 (Battle for Azeroth) server emulator (109★)",
+        "url": "https://github.com/Titans-Project/BfaCore-Reforged"
+    },
+    {
+        "title": "LegionCore-Reforged — open-source WoW 7.3.5 (Legion) server emulator",
+        "url": "https://github.com/Titans-Project/LegionCore-Reforged"
+    },
+    {
         "title": "EG-Source - open-source WotLK 3.3.5a server core powering Eternal Gaming",
         "url": "https://github.com/ccrs/EG-Source"
     },
