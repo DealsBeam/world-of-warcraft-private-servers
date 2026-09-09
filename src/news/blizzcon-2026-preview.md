@@ -24,11 +24,18 @@ BlizzCon returns September 12-13 at the Anaheim Convention Center after a three-
 
 | Time (PT) | Event |
 |-----------|-------|
-| 12:00 PM | Questwatch tabletop (Matthew Mercer, D12 system) |
-| ~6:15 PM | OW Art & Collaboration Deep Dive (LE SSERAFIM collab likely) |
-| TBD | OWWC finals celebration, closing act (LE SSERAFIM) |
+| 10:30 AM | Opening Ceremony |
+| 12:00 PM | WoW: What's Next |
+| 12:45 PM | MDI Grand Finals: Dignitas vs Big Lucky |
+| 2:00 PM | Building Cutscenes in WoW + MDI: Liquid vs Mandatory |
+| 2:45 PM | WoW: What's Next II |
+| 3:30 PM | WoW Developers x Creators Showcase |
+| 4:30 PM | Classic Cup: Warcraft III – Legacy Match |
+| 4:45 PM | BlizzCon Community Night |
+| 5:30 PM | MDI Grand Finals: Championship Match |
+| 5:45 PM | Classic Cup: Warcraft III – Entertainment Match |
 
-**Halftime show:** YOASOBI — first halftime show in BlizzCon history. Performing "Orion," their Overwatch collab song.
+**Day 2 (Sep 13):** Deep Dive, Crafting Coziness panel, AWC Grand Finals, World Building, Art Design, Hardcore: What's Next, Closing Remarks, **Le Sserafim live performance**, Trophy Ceremony.
 
 **Guests:** T-Pain (OWWC), Simu Liu (SC2 Entertainment Match + casting), deadmau5 (Diablo panel), Duke Dennis (WoW activations), Khleo Thomas (behind-the-scenes).
 
@@ -99,6 +106,8 @@ WC1/2 remakes or WC3 expansions remain on the prediction board (Corden). Blackbi
 
 **Revival signals.** Classic Cup Legacy Match (Dignitas vs Gen.G, replicating 2018 HGC Finals) on Day 1. Free Fix It Gear Head Thrall skin. Corden reports multi-hero drop planned. Console port and Microsoft characters (Doom Slayer, Master Chief, Banjo) remain unconfirmed rumors — no new backing in the last 48 hours.
 
+**AWC + MDI Grand Finals.** $600,000 combined prize pool. MDI Day 1: Dignitas vs Big Lucky, Liquid vs Mandatory. AWC Day 2: F Tier vs Guild Bean, Streamerzonegg vs One Lun Travel, Echo vs TBD, Gators Back vs TBD.
+
 ## Hearthstone
 
 **Monk class** rumored. World Championship group stage starts **today** (September 8-10). 16 players, $500,000 total prize pool, winner gets $100,000. Knockout stage at BlizzCon September 12-13. Choose Your Champion event live now.
@@ -108,7 +117,11 @@ WC1/2 remakes or WC3 expansions remain on the prediction board (Corden). Blackbi
 - Overwatch Netflix anime (Corden, months-old)
 - Diablo TV show Netflix/Amazon (rumored)
 - LE SSERAFIM x OW collaboration (likely Day 2 reveal)
-- YOASOBI performing "Orion" at OWWC halftime (confirmed)
+- LE SSERAFIM live performance at BlizzCon Day 2 closing (confirmed)
+
+## BlizzCon Bundle
+
+**Rabbit'ath Void** rabbit mount, **Garb of the Dawnfire Phoenix** transmog ensemble, **Perch of the Dawnfire Phoenix** housing item. Available through September 28 on Battle.net Shop.
 
 ## What to watch for
 
