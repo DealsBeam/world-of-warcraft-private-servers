@@ -2,4 +2,8 @@
 permalink: /api/servers.json
 eleventyExcludeFromCollections: true
 ---
-{{ servers | dump | safe }}
+{% set clean = [] %}
+{% for s in servers %}
+{% set _ = clean.push({name: s.name, status: s.status, tag: s.tag, popTier: s.popTier, updated: s.updated, shutdown: s.shutdown, details: s.details, group: s.group, release: s.release, guide: s.guide}) %}
+{% endfor %}
+{{ clean | dump | safe }}

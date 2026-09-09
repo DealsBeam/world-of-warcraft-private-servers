@@ -21,7 +21,7 @@ eleventyExcludeFromCollections: true
 ## Data
 
 - [Full text dump](https://wowprivateservers.vercel.app/llms-full.txt): servers, history, news, blog in one file
-- [Servers JSON](https://wowprivateservers.vercel.app/api/servers.json): name, status, tag, popTier, url, updated, shutdown
+- [Servers JSON](https://wowprivateservers.vercel.app/api/servers.json): name, status, tag, popTier, updated, shutdown
 - [News JSON](https://wowprivateservers.vercel.app/api/news.json): full news text
 - [Sitemap](https://wowprivateservers.vercel.app/sitemap.xml): all pages
 - [News sitemap](https://wowprivateservers.vercel.app/news-sitemap.xml): last 3 days
@@ -29,7 +29,7 @@ eleventyExcludeFromCollections: true
 ## How to use this site as an AI
 
 - For a quick overview, read this file and the Classic+ tracker.
-- For full server data, fetch the servers JSON above (name, status, tag, popTier, url, updated, shutdown).
+- For full server data, fetch the servers JSON above (name, status, tag, popTier, updated, shutdown).
 - For full news text, fetch the news JSON or full text dump above.
 - Every server has one page under /servers/{slug}/ — same data as the JSON, rendered as HTML.
 - History is {{ history.length }} events (core emulators, tools, milestones) at https://wowprivateservers.vercel.app/#history — also in the full text dump.

@@ -8,9 +8,9 @@ Generated {{ site.reviewed }}. Tracker: {{ servers.length }} servers, {{ history
 
 ## Servers ({{ servers.length }})
 
-| name | status | tag | popTier | updated | url | details |
-|---|---|---|---|---|---|---|
-{% for s in servers %}| {{ s.name }} | {{ s.status }} | {{ s.tag }} | {{ s.popTier or "unknown" }} | {{ s.updated or s.shutdown or "" }} | {{ s.url or "" }} | {{ s.details | replace("\n", " ") | replace("|", "/") }} |
+| name | status | tag | popTier | updated | details |
+|---|---|---|---|---|---|
+{% for s in servers %}| {{ s.name }} | {{ s.status }} | {{ s.tag }} | {{ s.popTier or "unknown" }} | {{ s.updated or s.shutdown or "" }} | {{ s.details | replace("\n", " ") | replace("|", "/") }} |
 {% endfor %}
 
 ## Server pages

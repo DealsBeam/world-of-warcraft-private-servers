@@ -96,7 +96,7 @@ const cardHtml = s => {
     const rel = s.release ? ` <span class="tag">Release: ${scr(s.release)}</span>` : "";
     const down = s.shutdown ? ` <span class="tag tag-dead">Down ${scr(s.shutdown)}${s.shutdownReason ? " · " + scr(s.shutdownReason) : ""}</span>` : "";
     const pop = s.popTier && s.popTier !== "unknown" ? ` <span class="tag tag-pop">${scr(s.popTier.charAt(0).toUpperCase() + s.popTier.slice(1))}</span>` : "";
-    const visit = s.url && /^https:\/\//.test(s.url) ? ` <a class="tag tag-link" href="${scr(s.url)}" target="_blank" rel="noopener noreferrer">Visit ↗</a>` : "";
+    const visit = s.url && /^https:\/\//.test(s.url) ? ` <span class="tag tag-link">Website known</span>` : "";
     const ic = iconFor(s.name, s.tag);
     const vb = ICONVIEW[ic] || "0 0 512 512";
     return `

@@ -45,7 +45,7 @@ eleventyComputed:
             {% if server.popTier and server.popTier != "unknown" %}<span class="tag">Pop: {{ server.popTier | capitalize }}</span>{% endif %}
             {% if server.shutdown %}<span class="tag tag-dead">Down {{ server.shutdown }}{% if server.shutdownReason %} · {{ server.shutdownReason }}{% endif %}</span>{% endif %}
             {% if server.updated %}<span class="tag">Last checked: {{ server.updated | formatDate }}</span>{% endif %}
-            {% if server.url %}<a class="tag tag-link" href="{{ server.url }}" target="_blank" rel="noopener noreferrer">Visit ↗</a>{% endif %}
+            {% if server.url %}<span class="tag tag-link">Website known</span>{% endif %}
             {% if server.guide %}<a class="tag tag-link" href="{{ server.guide }}">Setup Guide →</a>{% endif %}
         </p>
     </div>
