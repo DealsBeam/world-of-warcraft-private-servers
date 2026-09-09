@@ -298,5 +298,13 @@ module.exports = [
     {
         "title": "Warcraft: Guardians of Azeroth 2 — CK3 total conversion (Azeroth map, not WoW server, requires Crusader Kings 3)",
         "url": "https://github.com/Warcraft-GoA-Development-Team/Warcraft-Guardians-of-Azeroth-2"
+    },
+    {
+        "title": "WorldBots — autonomous GOAP bot AI for TrinityCore/TSWoW 3.3.5a (C++20, GPL-2.0, hundreds-thousands concurrent bots)",
+        "url": "https://github.com/swiftieLoL/WorldBots"
+    },
+    {
+        "title": "tswow-web-client — browser-based WoW 3.3.5a client (Three.js/WASM, educational research)",
+        "url": "https://github.com/MrGreenCheezz/tswow-web-client"
     }
 ];
