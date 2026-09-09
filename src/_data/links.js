@@ -44,6 +44,10 @@ module.exports = [
         "url": "https://github.com/blodyiheb/SahtoutCMS"
     },
     {
+        "title": "FusionCMS — open-source CMS for WoW private servers (PHP, voting/armory/shop)",
+        "url": "https://github.com/FusionWowCMS/FusionCMS"
+    },
+    {
         "title": "BFA-HavenCore - open-source WoW 8.3.7 (Battle for Azeroth) server emulator",
         "url": "https://github.com/HavenWoW/BFA-HavenCore"
     },
