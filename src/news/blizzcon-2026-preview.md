@@ -13,18 +13,20 @@ BlizzCon returns September 12-13 at the Anaheim Convention Center after a three-
 
 | Time (PT) | Event |
 |-----------|-------|
-| 10:30 AM | Opening Ceremony |
+| 10:15 AM | Opening Ceremony (Johanna Faries, Blizzard President) |
 | 12:00 PM | WoW dev update |
 | 12:00 PM | Overwatch dev update |
 | 12:00 PM | HotS Classic Cup Legacy Match (Dignitas vs Gen.G) |
-| 1:45 PM | Diablo dev update |
+| 1:45 PM | Diablo: Developer Update |
+| 4:15 PM | The Art of Darkness: Behind D4 Cinematics (Legends Stage) |
 | TBD | StarCraft, Warcraft 3, Hearthstone dev panels |
 
 **Day 2 — Sunday, September 13**
 
 | Time (PT) | Event |
 |-----------|-------|
-| 10:30 AM | Opening Ceremony |
+| 10:00 AM | Diablo Immortal Live Artist Drawing (Immortal Stage) |
+| 11:00 AM | Diablo IV: What's Next |
 | 12:00 PM | WoW: What's Next |
 | 12:45 PM | MDI Grand Finals: Dignitas vs Big Lucky |
 | 2:00 PM | Building Cutscenes in WoW + MDI: Liquid vs Mandatory |
@@ -46,6 +48,8 @@ Free stream on YouTube, Twitch, and Battle.net. No purchase required for the cer
 **Drops:**
 - WoW: Twitch Sep 12-27 (login reward + watch time)
 - WoW: YouTube Sep 12-13 (not Sep 14 — corrected)
+- Diablo IV: Twitch Sep 12-15, 2/4/6 hours watched for3 weapon cosmetics (Serrated Skean, Corroded Cleaver, Tintinnabulation Mace)
+- Diablo: Twitch Badge (30th Anniversary), Sep 12-26 (subscribe to any Diablo category streamer)
 - HotS: 1 hour during Classic Cup Sep 12 (7-day boost, free)
 - Hearthstone: BlizzCon only (Escape from Violet Hold packs)
 - SC2: 15-day co-op XP boost through Sep 28 (free, no purchase needed)
@@ -81,6 +85,8 @@ Link your BlizzCon Pass to Battle.net by **September 18** for digital rewards.
 **Netflix anime** reportedly in production (Corden, months-old rumor).
 
 ## Diablo
+
+**Diablo panel schedule.** Developer Update (Sat 1:45 PM PT), Art of Darkness: Behind D4 Cinematics (Sat 4:15 PM PT, Legends Stage), Diablo IV: What's Next (Sun 11:00 AM PT), Diablo Immortal Live Artist Drawing with Todd McFarlane (Sun 10:00 AM PT, Immortal Stage), Voices of Blizzard (Sun 3:15 PM PT, simulcast). Johanna Faries leads Opening Ceremony.
 
 **Diablo 4 Season 15.** Launching around September 15. Features include Soul Splinters, Rebirth mechanics, Challenge Dungeons. Map leak shows new western continent (Kingsport, Doom Craig). Amazon class heavily rumored as next class. Game Director Brent Gibson teased "they're gonna freak out at BlizzCon."
 
@@ -133,4 +139,4 @@ HotS is the wildcard. The Classic Cup match is confirmed, but whether it's a far
 
 ---
 
-*This preview will be updated as new information surfaces. Ceremony is Saturday at 10:30 AM PT. Check back for live coverage.*
+*This preview will be updated as new information surfaces. Ceremony is Saturday at 10:15 AM PT. Check back for live coverage.*
