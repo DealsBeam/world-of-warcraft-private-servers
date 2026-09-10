@@ -37,9 +37,13 @@ BlizzCon returns September 12-13 at the Anaheim Convention Center after a three-
 | 5:30 PM | MDI Grand Finals: Championship Match |
 | 5:45 PM | Classic Cup: Warcraft III – Entertainment Match |
 
-**Day 2 (Sep 13):** Deep Dive, Crafting Coziness panel, AWC Grand Finals, World Building, Art Design, Hardcore: What's Next, Closing Remarks, **Le Sserafim live performance**, Trophy Ceremony.
+**Day 2 (Sep 13):** Deep Dive (10:00 AM), Housing: Crafting Coziness and Creative Freedom (10:45 AM), World Building (11:45 AM), Art Design (1:15 PM), Design Deep Dive (2:15 PM), Hardcore: What's Next (4:15 PM), Closing Remarks by Johanna Faries (5:20 PM). **Le Sserafim live performance at 6:00 PM — in-room only, NOT livestreamed.**
 
 **Guests:** T-Pain (OWWC), Simu Liu (SC2 Entertainment Match + casting), deadmau5 (Diablo panel), Duke Dennis (WoW activations), Khleo Thomas (behind-the-scenes).
+
+**Streamers on floor:** sodapoppin, Esfand, Xaryu, Savix, Preach, Nobbel, Taliesin and Evitel, AnnieFuchsia, Pikaboo, Kelani, MrGM, SoulSoBreezy, Joardee, Kalamazi, Fandy, Cinderys, WoWGrandma78.
+
+**Meet & Greet (Hall A):** Tyler1, Max, Scott, Gingi, Naguura, Imfiredup, Hopeful, Bunten, TouchpadWarrior, Stef Sanjati, and more.
 
 ## How to watch
 
@@ -123,7 +127,7 @@ WC1/2 remakes or WC3 expansions remain on the prediction board (Corden). Blackbi
 - Overwatch Netflix anime (Corden, months-old)
 - Diablo TV show Netflix/Amazon (rumored)
 - LE SSERAFIM x OW collaboration (likely Day 2 reveal)
-- LE SSERAFIM live performance at BlizzCon Day 2 closing (confirmed)
+- LE SSERAFIM live performance at BlizzCon Day 2 closing, 6:00 PM PT — **in-room only, NOT livestreamed** (confirmed)
 
 ## BlizzCon Bundle
 
