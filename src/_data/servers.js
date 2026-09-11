@@ -1181,5 +1181,26 @@ module.exports = [
         "url": "https://wow.icednicco.online",
         "updated": "2026-09-04",
         "popTier": "large"
+    },
+    {
+        "name": "ArdenWoW",
+        "status": "dev",
+        "details": "Ascension/CoA-inspired custom server — 21 custom classes (Barbarian to Witch Hunter), new zones (Pale Reach, Druk Thar, Azzar Faire), Mythic+, scaled dungeon finder, professions matter — Open Alpha Sep 13 6PM CST",
+        "tag": "Classless",
+        "group": "",
+        "url": "https://ardenwow.com/",
+        "release": "2026-09-13",
+        "updated": "2026-09-11",
+        "popTier": "unknown"
+    },
+    {
+        "name": "Universe-WoW",
+        "status": "playable",
+        "details": "Instant-255 Classic fun realm, hunt & farm, all items farmable, EN/FR/ES, news updated Sep 11",
+        "tag": "",
+        "group": "",
+        "url": "https://universe-wow.com/",
+        "updated": "2026-09-11",
+        "popTier": "unknown"
     }
 ]

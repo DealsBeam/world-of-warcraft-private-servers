@@ -318,5 +318,33 @@ module.exports = [
     {
         "title": "tswow-web-client — browser-based WoW 3.3.5a client (Three.js/WASM, educational research)",
         "url": "https://github.com/MrGreenCheezz/tswow-web-client"
+    },
+    {
+        "title": "Worldforged ascension.help — community Mystic Enchant database (184 enchants), dungeon routes, M+ upgrades, WeakAuras",
+        "url": "https://ascension.help/"
+    },
+    {
+        "title": "Open Ascension — Flutter companion app: classless builder, enchant/gear DB, M+ tools (web, Android, Linux, MIT)",
+        "url": "https://github.com/synthalorian/open_ascension"
+    },
+    {
+        "title": "mod-classless-wildcard — AzerothCore module recreating Ascension Classless + Wildcard on 3.3.5a (GPL-2.0, Hero line, elemental variants)",
+        "url": "https://github.com/DustinHendrickson/mod-classless-wildcard"
+    },
+    {
+        "title": "Ascension Preservation — reconstruct Ascension locally: AuthGate, AzerothCore bridge, cache tools, offline character importer",
+        "url": "https://github.com/hertigservices/Ascension_preservation"
+    },
+    {
+        "title": "Ascension Data — recovered datasets, WDB provenance, manifests, CoA database mirror (MIT)",
+        "url": "https://github.com/hertigservices/ascension-data"
+    },
+    {
+        "title": "Azeroth Control — local multi-realm launcher/panel for AzerothCore 3.3.5a, stdlib-only Python (MIT)",
+        "url": "https://github.com/hertigservices/azeroth-control"
+    },
+    {
+        "title": "Ascension Archive — community cache contribution portal (WDB + Account folders, privacy-filtered)",
+        "url": "https://ascension-cache-upload.ascension-archive.workers.dev/"
     }
 ];
