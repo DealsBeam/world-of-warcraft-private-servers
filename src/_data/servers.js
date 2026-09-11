@@ -332,9 +332,10 @@ module.exports = [
     {
         "name": "Everwood WoW",
         "status": "dev",
-        "details": "Classless Vanilla+ (formerly Caverns of Time), no launch date, custom classes & talent system",
-        "tag": "Classless",
+        "details": "Hard-RP Classic (announced Sep 2026, Discord): no leveling/raids/quests/dungeons, pre-Classic timeline, hex turn-based combat, fief sim + player economy, permadeath, EN/RU with AI translation, closed alpha planned Sep 2026",
+        "tag": "Vanilla",
         "group": "",
+        "updated": "2026-09-11",
         "popTier": "unknown"
     },
     {
