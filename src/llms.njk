@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 # World of Warcraft Private Servers
 
-> Curated tracker of World of Warcraft private servers: live status, emulation history, private-server news, and Classic+ (Project Camelot) development tracking. Last reviewed {{ site.reviewed }}. Not affiliated with Blizzard.
+> Curated tracker of World of Warcraft private servers: live status, emulation history, private-server news, and Classic+ (Project Camelot) development tracking. Data current as of {{ site.built }}. Not affiliated with Blizzard.
 
 ## Key pages
 
@@ -34,7 +34,7 @@ eleventyExcludeFromCollections: true
 - Every server has one page under /servers/{slug}/ — same data as the JSON, rendered as HTML.
 - History is {{ history.length }} events (core emulators, tools, milestones) at https://wowprivateservers.vercel.app/#history — also in the full text dump.
 
-## Top servers (sample, see full list in /llms-full.txt or /api/servers.json)
+## Recently updated (sample, see full list in /llms-full.txt or /api/servers.json)
 
 {% for s in servers | sort(attribute="updated", reverse=true) | batch(10) | first %}- {{ s.name }} — {{ s.status }}, {{ s.tag }}, {{ s.popTier }}, {{ s.details | truncate(90) }} — https://wowprivateservers.vercel.app/servers/{{ s.name | slugify }}/
 {% endfor %}
