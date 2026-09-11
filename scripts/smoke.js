@@ -106,3 +106,28 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     assert.strictEqual(broken.length, 0, `broken internal links:\n${broken.join("\n")}`);
     console.log(`OK: internal links resolve (${pages.size} pages)`);
 }
+
+// No direct hyperlinks to tracked private-server domains anywhere in built HTML.
+{
+    const hosts = new Set();
+    for (const s of SERVERS) {
+        if (!s.url) continue;
+        hosts.add(new URL(s.url).hostname.replace(/^www\./, ""));
+    }
+    const hits = [];
+    const scan = dir => {
+        for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+            const p = path.join(dir, e.name);
+            if (e.isDirectory()) { scan(p); continue; }
+            if (e.name !== "index.html") continue;
+            const html = fs.readFileSync(p, "utf8");
+            for (const m of html.matchAll(/(?:href|src)="https?:\/\/([^"'#/?]+)/g)) {
+                const h = m[1].replace(/^www\./, "");
+                if (hosts.has(h)) hits.push(`${path.relative(out, p)} -> ${m[0]}"`);
+            }
+        }
+    };
+    scan(out);
+    assert.strictEqual(hits.length, 0, `direct links to private servers:\n${hits.join("\n")}`);
+    console.log(`OK: no direct private-server links (${hosts.size} domains checked)`);
+}

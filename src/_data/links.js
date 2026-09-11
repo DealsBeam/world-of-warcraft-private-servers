@@ -160,10 +160,6 @@ module.exports = [
         "url": "https://github.com/mod-playerbots/mod-playerbots"
     },
     {
-        "title": "Emberveil - Vanilla WoW 1.12.1 client rebuilt in Unreal Engine 5",
-        "url": "https://emberveil.org/"
-    },
-    {
         "title": "Unreal Azeroth - from-scratch UE5 client with Legacy Mode",
         "url": "https://unrealazeroth.ru"
     },
