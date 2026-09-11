@@ -1202,5 +1202,15 @@ module.exports = [
         "url": "https://universe-wow.com/",
         "updated": "2026-09-11",
         "popTier": "unknown"
+    },
+    {
+        "name": "Project Reforged",
+        "status": "playable",
+        "details": "Classic+ PvE (Bronzebeard realm): new zones/quests/progression on Vanilla base, custom client, EN/DE/RU, online with 0 pop at check, shop with items + character services",
+        "tag": "Vanilla+",
+        "group": "",
+        "url": "https://project-reforged.com/",
+        "updated": "2026-09-11",
+        "popTier": "tiny"
     }
 ]
