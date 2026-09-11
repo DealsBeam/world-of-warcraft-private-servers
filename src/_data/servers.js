@@ -121,7 +121,7 @@ module.exports = [
     {
 "name": "Chromiecraft",
         "status": "playable",
-        "details": "Unique non-profit WotLK on AzerothCore, hyper-progressive phased releases, all fixes upstreamed, 3.3k+ Discord online",
+        "details": "Unique non-profit WotLK on AzerothCore, hyper-progressive phased releases, all fixes upstreamed, era-locked vanilla/TBC progression guilds, refer-a-friend 2x XP (free, ask global), 3.3k+ Discord online",
         "tag": "WotLK",
         "group": "",
         "url": "https://www.chromiecraft.com/",
@@ -222,11 +222,11 @@ module.exports = [
     {
         "name": "Kronos V",
         "status": "playable",
-        "details": "Vanilla PVP",
+        "details": "TwinStar Vanilla (1.12 + 1.14 clients, localization update Jul 2026), login+server online, 19d uptime, even faction split, character auction, donate shop sells no gear",
         "tag": "Vanilla",
         "group": "",
         "url": "https://www.kronos-wow.com",
-        "updated": "2026-08-25",
+        "updated": "2026-09-11",
         "popTier": "small"
     },
     {
@@ -340,7 +340,7 @@ module.exports = [
     {
         "name": "Project Legacy",
         "status": "playable",
-        "details": "Independent Vanilla+ (VMaNGOS), 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker modes; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection. Open beta — 1,000+ accounts, 1,700+ characters, 14,400+ hours played, highest concurrent since launch, Murky companion reward for open-beta accounts",
+        "details": "Independent Vanilla+ (VMaNGOS), launched mid-Aug 2026: Prestige/Lorewalker modes, weak-spec class fixes, 100+ new quests, 25-man no-buff raids, cross-faction, dual spec, Guardian of Hyjal world boss, Discovery PoI system player-reported; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection. Open beta — 1,000+ accounts, 1,700+ characters, 14,400+ hours played, highest concurrent since launch, Murky companion reward for open-beta accounts",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://projectlegacy.pro/",
@@ -358,13 +358,13 @@ module.exports = [
     },
     {
         "name": "Project Astral",
-        "status": "playable",
-        "details": "WotLK, 84 Discord online",
+        "status": "dev",
+        "details": "Custom PvE WotLK: Astral Tree (1000+ nodes), Prestige Store, Mythic raids + token lockout resets, cross-class Astral Gems, Chromie prestige — Open Beta/Season 0 countdown live, not yet launched",
         "tag": "WotLK",
         "group": "",
         "url": "https://playastral.io/",
-        "updated": "2026-08-24",
-        "popTier": "tiny"
+        "updated": "2026-09-11",
+        "popTier": "unknown"
     },
     {
         "name": "Elwynnkeep",
