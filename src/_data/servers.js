@@ -1222,5 +1222,26 @@ module.exports = [
         "url": "https://frozenthrone.cloud/",
         "updated": "2026-09-11",
         "popTier": "medium"
+    },
+    {
+        "name": "Proudmoore",
+        "status": "dev",
+        "details": "Blizzlike Cataclysm + custom endgame features, TwinStar partnership, name reservations open, launches Sep 13 18:00 CEST",
+        "tag": "Cataclysm",
+        "group": "",
+        "url": "https://proudmoore.gg/",
+        "release": "2026-09-13",
+        "updated": "2026-09-11",
+        "popTier": "unknown"
+    },
+    {
+        "name": "Valyndor",
+        "status": "playable",
+        "details": "Eternal Gaming blizzlike WotLK 3.3.5a (launched Dec 2025, Phase 2/Ulduar): optional per-character QoL (AoE loot, account-wide mounts, transmog, 1-5x XP), no donations/shop/P2W, open-source dev",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://eternalgaming.site/",
+        "updated": "2026-09-11",
+        "popTier": "unknown"
     }
 ]
