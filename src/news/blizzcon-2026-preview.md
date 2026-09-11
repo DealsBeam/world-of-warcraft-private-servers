@@ -13,7 +13,7 @@ BlizzCon returns September 12-13 at the Anaheim Convention Center after a three-
 
 | Time (PT) | Event |
 |-----------|-------|
-| 10:15 AM | Opening Ceremony (Johanna Faries, Blizzard President) |
+| 10:30 AM | Opening Ceremony (Johanna Faries, Blizzard President; Diablo guide lists 10:15 — tune in early) |
 | 12:00 PM | WoW dev update |
 | 12:00 PM | Overwatch dev update |
 | 12:00 PM | HotS Classic Cup Legacy Match (Dignitas vs Gen.G) |
@@ -142,4 +142,4 @@ HotS is the wildcard. The Classic Cup match is confirmed, but whether it's a far
 
 ---
 
-*This preview will be updated as new information surfaces. Ceremony is Saturday at 10:15 AM PT. Check back for live coverage.*
+*This preview will be updated as new information surfaces. Ceremony is Saturday at 10:30 AM PT per the official WoW guide (Diablo guide says 10:15 — tune in early). Check back for live coverage.*
