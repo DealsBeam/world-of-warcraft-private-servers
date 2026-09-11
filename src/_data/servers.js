@@ -22,12 +22,12 @@ module.exports = [
     {
         "name": "Greyhaven",
         "status": "playable",
-        "details": "Progressive Vanilla 1.12.1, staged content, community votes, no pay-to-win, 118 Discord online",
+        "details": "Progressive Vanilla 1.12.1 PvP, launched Aug 14 2026, cap 40 since Sep 4, staged brackets, no world buffs in raids, unified AH, unlimited debuff slots, free respecs, no pay-to-win, 80-100 peak EU",
         "tag": "Vanilla",
         "group": "",
         "url": "https://www.playgreyhaven.com/",
-        "updated": "2026-08-24",
-        "popTier": "small"
+        "updated": "2026-09-11",
+        "popTier": "tiny"
     },
     {
         "name": "Ascension",
@@ -598,11 +598,11 @@ module.exports = [
     {
         "name": "Ashen WoW",
         "status": "playable",
-        "details": "Blizzlike Vanilla 1.12.1, 2-year progressive, x1 rates, no P2W, launched Sept 2025",
+        "details": "Blizzlike Vanilla on OG 2004-2006 patch timeline (1.8 live Sep 2026, 1.12 due Sep 2027), x1, no P2W, launched Sep 2025, EN/RU/ZH (2 active EN guilds), dev turnover player-reported",
         "tag": "Vanilla",
         "group": "",
         "url": "https://ashen-wow.space/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-11",
         "popTier": "tiny"
     },
     {
@@ -918,12 +918,12 @@ module.exports = [
     {
         "name": "Stonetavern",
         "status": "playable",
-        "details": "Strictly authentic Vanilla 1.12 Elwynn PvE x1 launched May 2026, no custom content or shop, crossfaction, ~150 Discord online",
+        "details": "Two realms: Elwynn permanent Vanilla 1.12 PvE x1 (raid-gated) + Barrens progressive Classic→TBC→WotLK (cap 40, stage 1.5), no shop, cross-faction, 827 Discord, small pop split across both",
         "tag": "Vanilla",
         "group": "",
         "url": "https://stonetavern.app/",
-        "updated": "2026-08-24",
-        "popTier": "small"
+        "updated": "2026-09-11",
+        "popTier": "tiny"
     },
     {
         "name": "AmberWoW",
