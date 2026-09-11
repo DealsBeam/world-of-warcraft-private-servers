@@ -1206,7 +1206,7 @@ module.exports = [
     {
         "name": "Project Reforged",
         "status": "playable",
-        "details": "Classic+ PvE (Bronzebeard realm): new zones/quests/progression on Vanilla base, custom client, EN/DE/RU, online with 0 pop at check, shop with items + character services",
+        "details": "Classic+ PvE (Bronzebeard realm): new zones/quests/progression on Vanilla base, dual 1.12 + 3.3.5 clients, EN/DE/RU, online with 0 pop at check, shop with items + character services",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://project-reforged.com/",
