@@ -50,8 +50,7 @@ BlizzCon returns September 12-13 at the Anaheim Convention Center after a three-
 Free stream on YouTube, Twitch, and Battle.net. No purchase required for the ceremony and panels.
 
 **Drops:**
-- WoW: Twitch Sep 12-27 (login reward + watch time)
-- WoW: YouTube Sep 12-13 (not Sep 14 — corrected)
+- WoW: Twitch Sep 12 9:30am PT–Sep 27 + YouTube Sep 12–13 — 2h: 200 Trader's Tender, 4h: Cuddly Blue Grrgle housing decor, 8h: Fluffy Comfy Flying Quilt mount, 12h: Venomous Champion's Illustrious Banner toy (claim Twitch drops manually; relink lockout is 7 days, link now)
 - Diablo IV: Twitch Sep 12-15, 2/4/6 hours watched for3 weapon cosmetics (Serrated Skean, Corroded Cleaver, Tintinnabulation Mace)
 - Diablo: Twitch Badge (30th Anniversary), Sep 12-26 (subscribe to any Diablo category streamer)
 - HotS: 1 hour during Classic Cup Sep 12 (7-day boost, free)
