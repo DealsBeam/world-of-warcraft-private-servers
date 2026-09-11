@@ -346,5 +346,29 @@ module.exports = [
     {
         "title": "Ascension Archive — community cache contribution portal (WDB + Account folders, privacy-filtered)",
         "url": "https://ascension-cache-upload.ascension-archive.workers.dev/"
+    },
+    {
+        "title": "azerothcore-wotlk-coa — Conquest of AzerothCore fork (12★, CoA classes native)",
+        "url": "https://github.com/jealous-sound/azerothcore-wotlk-coa"
+    },
+    {
+        "title": "ascension-db — 464k-row AzerothCore SQL from Exiles offline mirror, converter + verifier + gap audit (Sep 10)",
+        "url": "https://github.com/Nighthawk42/ascension-db"
+    },
+    {
+        "title": "AcensionOfflineDatabase — 12.8 GB / 517k-file Ascension baseline, multipart archives under Releases (Aug 2026)",
+        "url": "https://github.com/Duff-SPP/AcensionOfflineDatabase"
+    },
+    {
+        "title": "AstoriaCore-AC — 3.3.5a classless MMO framework on AzerothCore, Project Astoria lineage (AGPL-3.0/GPL-2.0)",
+        "url": "https://github.com/tbcstar/AstoriaCore-AC"
+    },
+    {
+        "title": "Playerbot AzerothCore fork — bots-integrated 3.3.5a core for solo/small-pop realms (416★, Playerbot branch)",
+        "url": "https://github.com/mod-playerbots/azerothcore-wotlk/tree/Playerbot"
+    },
+    {
+        "title": "wxl-extended-dbc — layer custom DBC rows over stock tables without replacing files (client ext + AzerothCore module)",
+        "url": "https://github.com/notacoder-dev/wxl-extended-dbc"
     }
 ];
