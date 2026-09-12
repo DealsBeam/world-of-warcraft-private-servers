@@ -8,6 +8,9 @@ tags: [wow, classic-plus, rp]
 
 September 11, 2026 — A Classic roleplay project called Everwood was announced on Discord, and it throws out more of WoW than any server tracked to date: no leveling, no raids, no questing, no dungeons. What remains is a dark-fantasy RP sim with turn-based combat, land ownership, and permanent death. Closed alpha is planned for this month.
 
+![Everwood project logo](https://i.imgur.com/5l3y3GY.jpeg)
+*Everwood logo, shared via the project's Discord announcement.*
+
 *Sourcing note: this post is based on the project's Discord announcement, relayed by this site's owner. No website exists yet. Single-source claims are flagged.*
 
 ## TL;DR
