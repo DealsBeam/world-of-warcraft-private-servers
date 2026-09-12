@@ -16,7 +16,7 @@ September 12, 2026 — Battlegrounds gets a new minion type. Revealed at the Bli
 - New heroes **Drest'agath** (discard for random Aberration) and **Kith'ix** (get 2 minions, play one, discard the other).
 - **Naga rotated out** while Aberrations are in; Naga heroes and cards unavailable.
 - Aberrations guaranteed in every lobby for the first two weeks; new heroes guaranteed per game over the same window.
-- Also announced: **Reign of the Black Empire** expansion (October 20, new Assemble keyword merging two cards), Journal overhaul tying expansions together narratively, and the **Monk class** arriving March 2027 — first new Hearthstone class in six years.
+- Also announced: **Reign of the Black Empire** expansion (October 20, new Assemble keyword merging two cards), Journal overhaul tying expansions together narratively, a new **2v2 Tavern Brawl mode**, and the **Monk class** arriving March 2027 — first new Hearthstone class in six years.
 
 ## Notable cards
 
