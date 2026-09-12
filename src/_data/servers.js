@@ -420,11 +420,11 @@ module.exports = [
     {
         "name": "Hellgarve",
         "status": "playable",
-        "details": "Legion solocraft, artifacts, 1-3x XP",
+        "details": "Legion 7.3.5 solocraft (Stormrage realm): working artifact questlines, x1-x3 + double-XP weekends, optional hardcore, custom questlines, fixer NPC, community guild at creation",
         "tag": "Legion",
         "group": "",
         "url": "https://wowhellgarve.com/legion/en/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-11",
         "popTier": "tiny"
     },
     {

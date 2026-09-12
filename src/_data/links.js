@@ -366,5 +366,9 @@ module.exports = [
     {
         "title": "wxl-extended-dbc — layer custom DBC rows over stock tables without replacing files (client ext + AzerothCore module)",
         "url": "https://github.com/notacoder-dev/wxl-extended-dbc"
+    },
+    {
+        "title": "Bind My Soul — Ascension build planner for Classless Free Pick + Conquest of Azeroth (theorycrafting app)",
+        "url": "https://bindmysoul.com/"
     }
 ];
