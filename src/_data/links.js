@@ -390,5 +390,13 @@ module.exports = [
     {
         "title": "WoWChat — clientless Discord↔WoW chat bridge, Vanilla through MoP (148★, Java)",
         "url": "https://github.com/fjaros/wowchat"
+    },
+    {
+        "title": "SaureksCloset — client-side 1.12.1 transmog, body + weaponry customizer (addon + DLL, GPL-3.0)",
+        "url": "https://github.com/mu-arch/SaureksCloset"
+    },
+    {
+        "title": "ShadowWorld Noggit Red Modern — experimental modern-client map editing from Shadowlands 9.2.7 (WIP, not production)",
+        "url": "https://github.com/Jedert-ShadowWorld/ShadowWorld-Noggit-Red-Modern"
     }
 ];
