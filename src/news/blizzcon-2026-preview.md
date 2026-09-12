@@ -55,7 +55,7 @@ Free stream on YouTube, Twitch, and Battle.net. No purchase required for the cer
 - Diablo: Twitch Badge (30th Anniversary), Sep 12-26 (subscribe to any Diablo category streamer)
 - HotS: 1 hour during Classic Cup Sep 12 (7-day boost, free)
 - Hearthstone: BlizzCon only (Escape from Violet Hold packs)
-- SC2: 15-day co-op XP boost through Sep 28 (free, no purchase needed)
+- SC2: 15-day co-op XP boost via Battle.net shop through Sep 28 (free, no purchase needed) + separate 10-day XP boost Twitch drop for 1 hour watched Sep 12-13
 
 Link your BlizzCon Pass to Battle.net by **September 18** for digital rewards.
 
