@@ -406,5 +406,9 @@ module.exports = [
     {
         "title": "HermesProxy-WOTLK — play legacy emu servers with modern clients, packet translation layer (45★, GPL-3.0)",
         "url": "https://github.com/advocaite/HermesProxy-WOTLK"
+    },
+    {
+        "title": "TrinityCoreCustomChanges — official 3.3.5a custom patch collection, diffs via wiki (83★, GPL-2.0)",
+        "url": "https://github.com/TrinityCore/TrinityCoreCustomChanges"
     }
 ];
