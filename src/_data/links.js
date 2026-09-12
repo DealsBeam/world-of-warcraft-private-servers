@@ -398,5 +398,9 @@ module.exports = [
     {
         "title": "ShadowWorld Noggit Red Modern — experimental modern-client map editing from Shadowlands 9.2.7 (WIP, not production)",
         "url": "https://github.com/Jedert-ShadowWorld/ShadowWorld-Noggit-Red-Modern"
+    },
+    {
+        "title": "WarcraftXL — SKSE-style modding framework for the 3.3.5a client, in-client map editor included (81★, GPL-3.0)",
+        "url": "https://github.com/WarcraftXL/wxl-core"
     }
 ];
