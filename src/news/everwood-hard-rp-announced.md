@@ -11,7 +11,7 @@ September 11, 2026 — A Classic roleplay project called Everwood was announced 
 ![Everwood project logo](https://i.imgur.com/5l3y3GY.jpeg)
 *Everwood logo, shared via the project's Discord announcement.*
 
-*Sourcing note: this post is based on the project's Discord announcement, relayed by this site's owner. No website exists yet. Single-source claims are flagged.*
+*Sourcing note: based on the project's Discord announcement (cross-posted across multiple servers), relayed by this site's owner. No website exists yet. Single-source claims are flagged.*
 
 ## TL;DR
 
