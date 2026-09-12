@@ -402,5 +402,9 @@ module.exports = [
     {
         "title": "WarcraftXL — SKSE-style modding framework for the 3.3.5a client, in-client map editor included (81★, GPL-3.0)",
         "url": "https://github.com/WarcraftXL/wxl-core"
+    },
+    {
+        "title": "HermesProxy-WOTLK — play legacy emu servers with modern clients, packet translation layer (45★, GPL-3.0)",
+        "url": "https://github.com/advocaite/HermesProxy-WOTLK"
     }
 ];
