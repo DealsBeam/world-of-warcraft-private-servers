@@ -1,44 +1,34 @@
 ---
-title: "StarCraft shooter revealed at BlizzCon 2026: everything Blizzard announced"
+title: "StarCraft shooter revealed at BlizzCon 2026: open-world, Dan Hay directing, 2030"
 date: 2026-09-12
-draft: true
 game: sc
+description: "Blizzard announced an open-world StarCraft shooter at BlizzCon 2026, launching 2030, directed by Dan Hay. ARG paid off."
+tags: [sc, blizzcon-2026, starcraft-shooter]
 ---
-<!--
-WATCH LIST — live during opening ceremony:
-[ ] Shooter confirmed on main stage? Title?
-[ ] Blizzard build vs Nexon build clarified? (separate, publishing deal?)
-[ ] TPS confirmed? UE5 mentioned?
-[ ] Factions shown? (Terrans? Zerg? Protoss?)
-[ ] 2575 setting confirmed?
-[ ] Release window/date? Beta?
-[ ]ARG paid off? (transmissions resolve on stage?)
-[ ] RTS / StarCraft 3 mentioned at all?
-AFTER CEREMONY: flip skeleton to draft:false; fill sections; link FAQ; publish.
--->
 
-Something changed on stage in Anaheim. After weeks of glitching websites, hidden transmissions and a lore dive that read like a countdown — Blizzard finally said the words. A new StarCraft game is real.
+September 12, 2026 — It's real. Blizzard officially announced a StarCraft open-world shooter at BlizzCon, ending years of rumors and a month of ARG transmissions. Launching **2030** — settle in.
 
-Here is what was announced, what it means, and what happens next.
+## TL;DR
+
+- **Open-world StarCraft shooter** confirmed on stage, directed by **Dan Hay** ("It's about damn time").
+- Launch window: **2030**. Long wait, no beta dates.
+- Details beyond the trailer are thin — nothing on the official site yet.
+- The ARG paid off: four transmissions of Dominion cover-ups led straight here. Full arc in the [Transmission 04 post](/news/starcraft-arg-transmission-04-spellbind/).
 
 ## What was announced
 
-<!-- Fill: official title, Blizzard vs Nexon clarification, platform details -->
+Genre confirmed as open-world shooter — not RTS, not mobile. Dan Hay (ex-Far Cry) directing matches every prior report. The trailer carries the ARG's DNA: Dominion military, Zerg threat, cinematic presentation in the Corden-reported vein (Terran Marines vs Zerg, open world).
 
-## The game itself
+## What is NOT confirmed
 
-<!-- Fill: genre confirmed (TPS?), engine, factions shown, setting/year, trailer beats -->
-
-## Release window
-
-<!-- Fill: beta/alpha dates if given; launch window; editions? -->
-
-## What it is NOT
-
-<!-- Fill: kill a rumor with a fact — RTS? mobile? Nexon-developed? Destiny-like? -->
+- **Title.** No name given.
+- **Platforms.** Unannounced.
+- **Nexon deal.** No clarification whether this is the Blizzard build, the Nexon build, or both.
+- **Beta/alpha.** Nothing.
+- **RTS / StarCraft 3.** No mention. RTS fans leave empty-handed for now.
 
 ## What's next on the tracker
 
-Our [StarCraft shooter FAQ](/blog/starcraft-shooter-faq-blizzard-nexon-arg-blizzcon/) becomes a fact-check target: every claim in it now resolves true or false. We will update it accordingly.
+Our [StarCraft shooter FAQ](/blog/starcraft-shooter-faq-blizzard-nexon-arg-blizzcon/) becomes a fact-check target: open-world ✓, Dan Hay ✓, 2030 window (new), Nexon question open, RTS question answered (no).
 
 If you run emulators or custom maps, watch the tooling: new official titles pull reverse-engineers and modders for months after launch — the same UMS roots the scene grew from. Browse the [full tracker](/) for the servers holding the line meanwhile.
