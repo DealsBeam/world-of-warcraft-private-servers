@@ -19,7 +19,7 @@ September 12, 2026 — Classic Plus is real, and it is called **World of Warcraf
 
 ## What was announced
 
-Two design pillars: the world is a main character, and the journey matters more than the destination. Forever resets the clock to 2004, then diverges — new Azeroth territory retail never visited, stories never told in original progression. Guiding principles stated as the "core principles of Classic." Beta starts **September 17**. Blizzard's framing per coverage: a "permanent home" for Classic players — no seasonal reset language anywhere in the reveal.
+Two design pillars: the world is a main character, and the journey matters more than the destination. "We are putting the war back in Warcraft: armies, battles, bloodshed, survival," said executive producer Holly Longdale. Forever's tale begins after the new Warcraft III: Forsaken Kingdom campaign — "essentially year one of vanilla WoW" — with the cap staying at 60 "indefinitely." Beta starts **September 17**. Blizzard's framing per coverage: a "permanent home" for Classic players — no seasonal reset language anywhere in the reveal.
 
 ## The private server angle
 
