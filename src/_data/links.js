@@ -370,5 +370,25 @@ module.exports = [
     {
         "title": "Bind My Soul — Ascension build planner for Classless Free Pick + Conquest of Azeroth (theorycrafting app)",
         "url": "https://bindmysoul.com/"
+    },
+    {
+        "title": "The Lab — one-click offline WotLK server + bot party manager for Steam Deck (27★, support halted Sep 2026, releases work)",
+        "url": "https://github.com/0xVe1L/the-lab"
+    },
+    {
+        "title": "AscensionDB archive browser — searchable preserved items/spells/quests with provenance (companion to ascension-data)",
+        "url": "https://ascension-db.ascension-archive.workers.dev/"
+    },
+    {
+        "title": "Bronzebeard Atlas — Ascension interactive map: mystic enchants, Worldforge, bosses, zones",
+        "url": "https://azerothhub.com/"
+    },
+    {
+        "title": "Worldforged-data — 5,703-pin Worldforged pickup/location union with provenance (assembled Sep 11)",
+        "url": "https://github.com/Tareksoh/Worldforged-data"
+    },
+    {
+        "title": "WoWChat — clientless Discord↔WoW chat bridge, Vanilla through MoP (148★, Java)",
+        "url": "https://github.com/fjaros/wowchat"
     }
 ];
