@@ -11,7 +11,7 @@ September 12, 2026 — Classic Plus is real, and it is called **World of Warcraf
 ## TL;DR
 
 - **Name:** World of Warcraft: Forever. Year-1 Vanilla setting, cap 60 "for the foreseeable future," content for all levels.
-- **New:** 3 zones, several overhauled zones filling blank vanilla map space, 1000+ quests, 9 dungeons, 2 raids (10 and 20 person), new battleground, new reputations, new skills and talents.
+- **New:** 3 zones (reported: Mount Hyjal, Zephras Isle, Riverglades), several overhauled zones filling blank vanilla map space — including an opened Dalaran and accessible Nordrassil per early reports — 1000+ quests, 9 dungeons, 2 raids (10 and 20 person), new Darkspear Islands battleground, new reputations, new skills and talents, account-wide perks.
 - **New race:** Skyborne Elves. New combos in trailer: **Forsaken paladin, dwarf shaman, orc mage**.
 - **SD/HD character toggle** confirmed.
 - Playable on the show floor now. Beta Thursday. Launch November 4.
@@ -33,6 +33,9 @@ The [Classic+ hub](/classic-plus/) gets confirmed facts, rumors column cleared, 
 
 **Is this a replacement for Era/Anniversary?**
 No — a separate branch. Era stays museum, Anniversary stays progression, Forever diverges.
+
+**How do beta and pricing work?**
+Beta access requires pre-purchase: Skyborne Epic Pack ($59.99) or Warcraft Forever Collection ($79.99, also bundles WC3 Reforged: Forsaken Kingdom). Skyborne race alone is a $29.99 unlock. At launch November 4, an active subscription alone grants access — cap 60 "will always be" 60.
 
 **Do I need to buy it?**
 Editions/pricing unconfirmed. Watch Thursday's beta terms.
