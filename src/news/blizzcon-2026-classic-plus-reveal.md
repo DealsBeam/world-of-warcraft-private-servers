@@ -1,45 +1,41 @@
 ---
-title: "Classic+ revealed at BlizzCon 2026: everything Blizzard announced"
+title: "World of Warcraft: Forever revealed — Classic+ is real, Skyborne Elves, beta Thursday, launch Nov 4"
 date: 2026-09-12
-draft: true
+game: wow
+description: "Blizzard revealed World of Warcraft: Forever (Classic+) at BlizzCon: alternate-timeline Vanilla, Skyborne Elves, 3 new zones, 9 dungeons, SD/HD toggle, beta Thursday, November 4 launch."
+tags: [wow, blizzcon-2026, classic-plus]
 ---
-<!--
-WATCH LIST — live during opening ceremony:
-[ ] Project Camelot name confirmed?
-[ ] Explicit Classic+ branding or "Infinite Classic"?
-[ ] New classes? (Spellblade? Dwarf Shaman?)
-[ ] New zones/races? (Shen'dorei? High Elves?)
-[ ] Level cap revealed? (60? phased?)
-[ ] Release window/date? Beta?
-[ ] Heroic/Epic editions confirmed?
-[ ] Seasonal vs permanent model?
-[ ] Wrath Anniversary date announced alongside?
-[ ] Private-server-adjacent QoL mentioned? (dual spec, group finder)
-AFTER CEREMONY: update classic-plus.njk timeline + status panel; update faq JSON-LD; flip skeleton to draft:false; fill sections; publish.
--->
 
-Something changed on stage in Anaheim. After months of datamines, encrypted builds, vendor servers and a legal campaign that cleared the field — Blizzard finally said the words. Classic Plus is real.
+September 12, 2026 — Classic Plus is real, and it is called **World of Warcraft: Forever**. Blizzard closed the worst-kept secret in WoW at the BlizzCon opening ceremony: an alternate-timeline Vanilla branch, made by the Classic team, launching **November 4** with a beta starting **this Thursday**.
 
-Here is what was announced, what it means, and what happens next.
+## TL;DR
+
+- **Name:** World of Warcraft: Forever. Year-1 Vanilla setting, cap 60 "for the foreseeable future," content for all levels.
+- **New:** 3 zones, several overhauled zones filling blank vanilla map space, 1000+ quests, 9 dungeons, 2 raids (10 and 20 person), new battleground, new reputations, new skills and talents.
+- **New race:** Skyborne Elves. New combos in trailer: **Forsaken paladin, dwarf shaman, orc mage**.
+- **SD/HD character toggle** confirmed.
+- Playable on the show floor now. Beta Thursday. Launch November 4.
+- Our [Warcraft Forever name-trail post](/blog/warcraft-forever-triple-signal/) called the title; the [dwarf shaman clues post](/news/camelot-dwarf-shaman-clues/) called the combo.
 
 ## What was announced
 
-<!-- Fill: Camelot confirmation, official product name, which edition(s), platform details -->
-
-## Features and content
-
-<!-- Fill: new zones/races/classes if shown; level cap; progression model; systems (rune system? guild banks?) -->
-
-## Release window
-
-<!-- Fill: beta/closed alpha dates if given; launch window; Heroic/Epic editions confirmed? -->
+Two design pillars: the world is a main character, and the journey matters more than the destination. Forever resets the clock to 2004, then diverges — new Azeroth territory retail never visited, stories never told in original progression. Guiding principles stated as the "core principles of Classic."
 
 ## The private server angle
 
-<!-- Fill: does anything in the announcement compete with or explain the crackdown? does official Classic+ reduce demand for Turtle successors / Vanilla+ realms? Link to shutdown risk article. -->
+This is the announcement the scene has braced for since the shutdown wave. Direct casualties in the crosshairs: Vanilla+ projects selling permanence (Legacy's no-wipe promise now competes with official content), Turtle successors, and anything banking on "Blizzard will never." The [shutdown-risk guide](/news/private-server-shutdown-risk/) and [Camelot-vs-private breakdown](/news/blizzcon-2026-camelot-private-servers/) cover the fallout map. Full implications post lands after the panels — the question every server must now answer changed this morning.
 
 ## What's next on the tracker
 
-We will update the [Classic+ hub](/classic-plus/) with confirmed facts, remove all items from the "rumors" column that are now confirmed or contradicted, and update the server status of every tracked Vanilla+ project in light of whatever was revealed.
+The [Classic+ hub](/classic-plus/) gets confirmed facts, rumors column cleared, and every Vanilla+ project's status reassessed. Beta Thursday gives dataminers (and us) the real client to verify foreach claim above.
 
-If you play on a private server, this announcement doesn't end your server — but it changes the question every server needs to answer. Browse the [full tracker](/) or our [shutdown risk guide](/news/private-server-shutdown-risk/) to understand what has already happened to the scene's largest projects.
+## FAQ
+
+**Is this a replacement for Era/Anniversary?**
+No — a separate branch. Era stays museum, Anniversary stays progression, Forever diverges.
+
+**Do I need to buy it?**
+Editions/pricing unconfirmed. Watch Thursday's beta terms.
+
+**What about the demo?**
+Playable on the BlizzCon show floor all weekend.
