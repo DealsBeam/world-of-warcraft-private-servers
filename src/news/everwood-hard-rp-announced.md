@@ -30,7 +30,9 @@ The community pitch is unusual too: an English- and Russian-speaking blend with 
 
 Four-tier leveling replaces XP: your tier reflects deeds, role understanding (declared upfront in a character list), violation history, and DM feedback, decided collectively by the GM team. Tier maps to in-world station — a Tier 1 Warlock is an acolyte, Tier 4 a Master; Tier 1 Paladin a squire, Tier 4 a Lord-Paladin — and strength follows tier in the combat system.
 
-Around that: player-owned mines, inns, farms, and stables with production chains, manufactories, and taxes; fief land ownership with vassal-suzerain relations for NPC and player nobles alike; player-written books; equipment theft from defeated opponents; mounts that can be killed or stolen (stable them); housing with real-time furniture placement; and the first slider-based character customization claimed in 22 years of WoW.
+Around that: player-owned mines, inns, farms, and stables with production chains, manufactories, taxes, and multiple currencies, every resource requiring player interaction; fief land ownership with vassal-suzerain relations for NPC and player nobles alike, with nobility carrying real in-world power; player-written books; equipment theft from defeated opponents; mounts that can be killed or stolen — stable them, or risk unknowingly eating stew made from your own horse; housing with real-time furniture placement; and the first slider-based character customization claimed in 22 years of WoW.
+
+Combat runs on the project's own hex-based turn-based system inspired by classic turn-based games and WoW classes — with combat AI covering enemies, player-owned NPCs like guildhouse guards, town guards, and civilians.
 
 Death is permanent once confirmed by the GM team — unless the character returns as undead.
 
@@ -42,7 +44,7 @@ Moderation transparency is also stricter than the norm: two-tier rules with play
 
 ## What is unverified
 
-Everything beyond the announcement text: no client, no realm, no dates beyond "September 2026" for the first closed alpha (focused on customization and turn-based combat), and a staffing call for 3D artists that suggests assets are still being built. Treat the alpha window as intent, not schedule.
+Everything beyond the announcement text: no client, no realm, no dates beyond "September 2026" for the first closed alpha (focused on customization and turn-based combat). The team asks for help two ways: carry the RP tag on Discord to grow the community, and 3D artists for hairstyles, beards, features, armor sets, housing furniture, and WMO building models — which signals assets are still being built. Treat the alpha window as intent, not schedule.
 
 ## FAQ
 
