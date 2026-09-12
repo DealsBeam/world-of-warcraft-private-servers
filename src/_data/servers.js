@@ -1244,5 +1244,15 @@ module.exports = [
         "url": "https://eternalgaming.site/",
         "updated": "2026-09-11",
         "popTier": "unknown"
+    },
+    {
+        "name": "Aethro: Reforged",
+        "status": "playable",
+        "details": "Play Aethro network WotLK reimagined: launcher, titles, referral program, vote store + premium, DK starter fix Sep 11, online with 0 pop (sister Minecraft/MUD projects excluded)",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://playaethro.online/",
+        "updated": "2026-09-11",
+        "popTier": "tiny"
     }
 ]
