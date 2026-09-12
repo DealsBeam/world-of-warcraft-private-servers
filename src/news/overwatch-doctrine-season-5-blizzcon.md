@@ -1,5 +1,5 @@
 ---
-title: "Overwatch at BlizzCon 2026: vampire Support Doctrine, Grímsvötn map, Sombra rework"
+title: "Overwatch at BlizzCon 2026: vampire Support Doctrine, Grimsvötn map, Sombra rework"
 date: 2026-09-12
 game: overwatch
 description: "Overwatch reveals: Hero 54 Doctrine (vampire Support, trial through Sep 14), Watchpoint: Grímsvötn map, Sombra moves to Support, Season 5 October 6."
@@ -11,7 +11,7 @@ September 12, 2026 — Overwatch's BlizzCon slate centers on **Doctrine**, Hero 
 ## TL;DR
 
 - **Doctrine** (Support): lifeforce manipulation via scepter, infusions, bat-like drones. Trial live through Sep 14.
-- **Watchpoint: Grímsvötn**: new escort map, Icelandic volcano prison, key to the Reign of Talon finale.
+- **Watchpoint: Grimsvötn**: new escort map, Icelandic volcano prison, key to the Reign of Talon finale.
 - **Sombra** full rework, Damage → Support. **Roadhog** major update. **Hero 55** teased for 2027.
 - **BlizzCon Mythic Gift**: play one game after ceremony, redeem one full Mythic bundle from Seasons 1–14 (valid through Oct 5).
 - Season 5 launches **October 6**. Spotlight returns February 2027 with full-year roadmap.

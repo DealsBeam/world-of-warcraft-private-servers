@@ -128,7 +128,8 @@ WC1/2 remakes or WC3 expansions remain on the prediction board (Corden). Blackbi
 - Overwatch Netflix anime (Corden, months-old)
 - Diablo TV show Netflix/Amazon (rumored)
 - LE SSERAFIM x OW collaboration (likely Day 2 reveal)
-- LE SSERAFIM live performance at BlizzCon Day 2 closing, 6:00 PM PT — **in-room only, NOT livestreamed** (confirmed)
+- LE SSERAFIM live performance at BlizzCon Day 2 closing, 6:00 PM PT — **in-room only, NOT livestreamed** (confirmed); new LE SSERAFIM collab in-game now
+- YOASOBI halftime show during Overwatch World Cup (confirmed ceremony-day)
 
 ## BlizzCon Bundle
 

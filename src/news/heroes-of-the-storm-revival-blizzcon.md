@@ -10,9 +10,10 @@ September 12, 2026 — The void hits the Nexus on September 28. Blizzard's Blizz
 
 ## TL;DR
 
-- Xal'atath enters HotS on **September 28** — sustained area-pressure assassin built around the Dark Heart, growing more dangerous as fights continue.
+- Xal'atath enters HotS on **September 28** — sustained area-pressure assassin built around the Dark Heart, growing more dangerous as fights continue. PTR September 14.
 - Limited-time **Heartseeker skin** via the Harbinger of BlizzCon Xal'atath bundle (pre-purchase).
 - Bundle also includes the Twilight skin and Sin'dorei Phoenix mount.
+- Blizzard teases "even more to come" for HotS heroes — watch this space.
 - Full ceremony coverage in the [BlizzCon preview](/news/blizzcon-2026-preview/).
 
 ## What was announced

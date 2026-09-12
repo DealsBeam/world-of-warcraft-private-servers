@@ -19,7 +19,7 @@ September 12, 2026 — Classic Plus is real, and it is called **World of Warcraf
 
 ## What was announced
 
-Two design pillars: the world is a main character, and the journey matters more than the destination. Forever resets the clock to 2004, then diverges — new Azeroth territory retail never visited, stories never told in original progression. Guiding principles stated as the "core principles of Classic."
+Two design pillars: the world is a main character, and the journey matters more than the destination. Forever resets the clock to 2004, then diverges — new Azeroth territory retail never visited, stories never told in original progression. Guiding principles stated as the "core principles of Classic." Beta starts **September 17**.
 
 ## The private server angle
 
