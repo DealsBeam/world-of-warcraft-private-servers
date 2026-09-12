@@ -59,6 +59,8 @@ Free stream on YouTube, Twitch, and Battle.net. No purchase required for the cer
 
 Link your BlizzCon Pass to Battle.net by **September 18** for digital rewards.
 
+**In-person essentials (official Know Before You Go):** ceremony in Hall D, doors 9:00 AM, first-come seating; registration in Hall E (Fri 1–9 PM, Sat/Sun 7 AM–6 PM, photo ID + Tixr pass); show hours 9 AM–7 PM, staging from 6 AM; floor map partially hidden until after ceremony; cashless event; March of Murlocs Sun 11:45 AM (emerald green).
+
 ## World of Warcraft
 
 **Classic Plus / Project Camelot.** The worst-kept secret in WoW. Build 69698 tracked September 6. Blizzard website code showed Classic Plus armory additions in August. Two "What's Next" panels on Day 1 — this is where the reveal happens if it's coming. Corden says codenames "Camelot" (ancient Azeroth prequel) and "Warcraft Chronicles" (RTS roots) are both in play. Realm First! notes neither panel names Camelot as a player-facing product yet.
