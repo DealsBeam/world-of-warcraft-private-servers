@@ -52,7 +52,7 @@ BlizzCon 2026 kicked off Saturday morning at the Anaheim Convention Center with 
 
 ## What this means for private servers
 
-The day's biggest legacy change is Forever: official Vanilla+ with a permanent, evergreen roadmap now exists, and it siphons the exact audience the Vanilla+ private scene (Legacy as no-wipe Vanilla+, Turtle-style projects, Ascension-adjacent experiments) depends on. Hardcore also comes to Forever eventually — one more official lane for a demographic that thrives on wiped servers today. The Last Titan closing the Worldsoul Saga in 2027 sets up a long Classic-era runway: by the time Forever's December 9 raid unlock lands, private projects in the Vanilla+/WotLK arc face a two-front race against official content cadence. Our [post-ceremony implications piece](/news/blizzcon-2026-private-server-implications/) maps every server class against the new status quo.
+The day's biggest legacy change is Forever: official Vanilla+ with a permanent, evergreen roadmap now exists, and it siphons the exact audience the Vanilla+ private scene (Legacy as no-wipe Vanilla+, Turtle-style projects, Ascension-adjacent experiments) depends on. Hardcore also comes to Forever eventually — one more official lane for a demographic that thrives on wiped servers today. The Last Titan closing the Worldsoul Saga in 2027 sets up a long Classic-era runway: by the time Forever's December 9 raid unlock lands, private projects in the Vanilla+/WotLK arc face a two-front race against official content cadence. Our [Camelot-vs-private breakdown](/news/blizzcon-2026-camelot-private-servers/) maps every server class against the new status quo.
 
 ---
 
