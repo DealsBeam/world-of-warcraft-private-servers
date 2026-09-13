@@ -1254,5 +1254,15 @@ module.exports = [
         "url": "https://playaethro.online/",
         "updated": "2026-09-11",
         "popTier": "tiny"
+    },
+    {
+        "name": "Lighthaven",
+        "status": "playable",
+        "details": "Educational open-source AzerothCore WotLK 3.3.5a, non-profit no shop: strict x1 defaults with opt-in personal rates (.rate per-character drop/gold/reputation/skill caps), Adventure Assistant companion NPC, AI chat moderation, PlayerBots (census ~6 human + 2004 bots)",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://lighthaven.quest/",
+        "updated": "2026-09-12",
+        "popTier": "tiny"
     }
 ]
