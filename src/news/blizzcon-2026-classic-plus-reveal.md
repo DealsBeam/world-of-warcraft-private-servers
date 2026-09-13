@@ -19,7 +19,7 @@ September 12, 2026 — Classic Plus is real, and it is called **World of Warcraf
 
 ## What was announced
 
-Two design pillars: the world is a main character, and the journey matters more than the destination. "We are putting the war back in Warcraft: armies, battles, bloodshed, survival," said executive producer Holly Longdale. Forever's tale begins after the new Warcraft III: Forsaken Kingdom campaign — "essentially year one of vanilla WoW" — with the cap staying at 60 "indefinitely." Beta starts **September 17**. Blizzard's framing per coverage: a "permanent home" for Classic players — no seasonal reset language anywhere in the reveal.
+Two design pillars: the world is a main character, and the journey matters more than the destination. "We are putting the war back in Warcraft: armies, battles, bloodshed, survival," said executive producer Holly Longdale. Forever's tale begins after the new Warcraft III: Forsaken Kingdom campaign and before Molten Core — player choices there echo into Forever, which opens with a neutral Forsaken Paladin hero unit on the RTS side. Beta starts **September 17**. Blizzard's framing per coverage: a "permanent home" for Classic players — no seasonal reset language anywhere in the reveal.
 
 ## The private server angle
 
@@ -35,7 +35,7 @@ The [Classic+ hub](/classic-plus/) gets confirmed facts, rumors column cleared, 
 No — a separate branch. Era stays museum, Anniversary stays progression, Forever diverges.
 
 **How do beta and pricing work?**
-Beta access requires pre-purchase: Skyborne Epic Pack ($59.99) or Warcraft Forever Collection ($79.99, also bundles WC3 Reforged: Forsaken Kingdom). Skyborne race alone is a $29.99 unlock. At launch November 4, an active subscription alone grants access — cap 60 "will always be" 60.
+Beta access requires pre-purchase of the Skyborne Epic Pack or Warcraft Forever Collection. Tiers per Blizzard: Skyborne Heroic (race + Zephras Isle start, name reservation, Cerulean Prideclaw mount, cosmetics, housing decor, 1 Invite-A-Friend code), Epic (adds beta, 30 days game time, pets, tabards, 3 codes), Collection (adds WC3 Reforged + Forsaken Kingdom + housing figurines, through Jan 11 2027). Physical Collector's Edition via Gear Store. At launch November 4 (3:00 PM PST), an active subscription alone grants access — cap 60 "will always be" 60. Live dev Q&A Thursday September 17, 10:00 AM PT — same day beta opens.
 
 **Do I need to buy it?**
 Editions/pricing unconfirmed. Watch Thursday's beta terms.
