@@ -341,6 +341,22 @@ const entries = [
         "url": "https://www.icy-veins.com/wow/news/alleged-blizzcon-2026-schedule-lists-starcraft-infantry-warcraft-fables-and-warcraft-chronicles/"
     },
     {
+        "date": "2026-09-12",
+        "category": "news",
+        "title": "WoW: Forever revealed at BlizzCon 2026",
+        "summary": "Confirmed: Classic+ is World of Warcraft: Forever — an alternate-timeline Vanilla branch (third WoW experience beside Modern and Classic). Skyborne race (Horde/Shaman, Alliance/Mage), four new regions (Mount Hyjal, Shen'dralas, Riverglades, Zephras Isle), 1000+ new quests, nine dungeons, two raids (Hyjal Summit 20p, Barrow Deeps 10p), Darkspear Islands 15v15 battleground, opt-in Transmog, HD/SD models, gamepad support, no flying, permanent cap 60. Beta September 17, launch November 4, first new raids December 9, Hardcore on the roadmap.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://worldofwarcraft.blizzard.com/news/24303862"
+    },
+    {
+        "date": "2026-09-12",
+        "category": "leak",
+        "title": "Reveal-weekend CDN bounce: 1.60.1.69800 → 1.60.0.69818",
+        "summary": "Automated watcher caught wowdev2 on 1.60.1.69800 around reveal weekend, then back on mainline 1.60.0.69818 — a point-one branch appearance timed to the BlizzCon reveal. Encrypted contents unknown.",
+        "source": "tracker cdn-watch",
+        "url": "https://wowprivateservers.vercel.app/news/camelot-build-69704-seven-days-out/"
+    },
+    {
         "date": "2026-09-05",
         "category": "news",
         "title": "Dev 2 advances to 69704 — movement seven days out",

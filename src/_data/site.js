@@ -1,5 +1,5 @@
 module.exports = {
-    reviewed: "September 6, 2026",
-    reviewedIso: "2026-09-06",
+    reviewed: "September 13, 2026",
+    reviewedIso: "2026-09-13",
     built: new Date().toISOString().slice(0, 10)
 };
