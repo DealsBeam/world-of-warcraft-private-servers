@@ -410,5 +410,9 @@ module.exports = [
     {
         "title": "TrinityCoreCustomChanges — official 3.3.5a custom patch collection, diffs via wiki (83★, GPL-2.0)",
         "url": "https://github.com/TrinityCore/TrinityCoreCustomChanges"
+    },
+    {
+        "title": "DragonUI-CoA — retail-style modular UI addon for Conquest of AzerothCore (MIT)",
+        "url": "https://github.com/PentSec/DragonUI-CoA"
     }
 ];
