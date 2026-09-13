@@ -28,7 +28,11 @@ module.exports = [
         "url": "https://wagoarchive.neocities.org/"
     },
     {
-        "title": "Warperia - WoW addons",
+        "title": "Conquest of AzerothCore — public bug-test realm for the AzerothCore core (Github bug tracker + Discord)",
+        "url": "https://coa-development.org/"
+    },
+    {
+        "title": "Warperia - WoW addons, UI profiles, WeakAuras, ElvUI and private-server addon lists",
         "url": "https://warperia.com/"
     },
     {
