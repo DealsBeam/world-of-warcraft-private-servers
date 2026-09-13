@@ -152,11 +152,11 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Gilneas",
         "status": "playable",
-        "details": "Cataclysm 4.3.4 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
+        "details": "Cataclysm Classic 4.3.4 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
         "tag": "Cataclysm",
         "group": "Whitemane",
-        "url": "https://whitemane.org/",
-        "updated": "2026-08-24",
+        "url": "https://whitemane.gg/",
+        "updated": "2026-09-12",
         "popTier": "large"
     },
     {
@@ -165,8 +165,8 @@ module.exports = [
         "details": "Cataclysm 4.3.4 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
         "tag": "Cataclysm",
         "group": "Whitemane",
-        "url": "https://whitemane.org/",
-        "updated": "2026-08-24",
+        "url": "https://whitemane.gg/",
+        "updated": "2026-09-12",
         "popTier": "large"
     },
     {
@@ -441,11 +441,11 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Frostmourne",
         "status": "dev",
-        "details": "WotLK 3.3.5a realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP — launches Sep 9 2026",
+        "details": "WotLK+ 3.3.5a realm on Whitemane network (4k+ concurrent, 43k+ Discord), Heroic Naxxramas, Personal Loot, Collections, Vulkan, HD models — launches Sep 19 2026",
         "tag": "WotLK",
         "group": "Whitemane",
-        "url": "https://whitemane.org/",
-        "release": "Sep 9",
+        "url": "https://whitemane.gg/",
+        "release": "Sep 19",
         "popTier": "large"
     },
     {
@@ -510,11 +510,12 @@ module.exports = [
     },
     {
         "name": "Whitemane \u2014 Stormstout",
-        "status": "dev",
-        "details": "MoP 5.4.8 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
+        "status": "playable",
+        "details": "MoP 5.4.8 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP — beta online",
         "tag": "MoP",
         "group": "Whitemane",
-        "url": "https://whitemane.org/",
+        "url": "https://whitemane.gg/",
+        "updated": "2026-09-12",
         "popTier": "large"
     },
     {
@@ -523,7 +524,8 @@ module.exports = [
         "details": "TBC 2.4.3 realm on Whitemane network (4k+ concurrent, 43k+ Discord), QoL features, custom legendaries, solo-queue PvP",
         "tag": "TBC",
         "group": "Whitemane",
-        "url": "https://whitemane.org/",
+        "url": "https://whitemane.gg/",
+        "updated": "2026-09-12",
         "popTier": "large"
     },
     {
