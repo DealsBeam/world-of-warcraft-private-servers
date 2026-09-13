@@ -56,4 +56,4 @@ The day's biggest legacy change is Forever: official Vanilla+ with a permanent, 
 
 ---
 
-*Day one, recorded live during the ceremony at 10:30 AM PT and finalized after the What's Next panels. Day two panels (Hardcore What's Next, Forever Deep Dive, WC3 Deep Dive) and the MDI/AWC finals land in a follow-up.*
+*Day-one recap covers the opening ceremony and Saturday panels. Day-two material (WoW: Forever Deep Dive, Hardcore What's Next, Warcraft III Deep Dive, and the MDI/AWC finals) lands in a follow-up.*
