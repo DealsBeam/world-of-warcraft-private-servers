@@ -157,7 +157,7 @@ eleventyComputed:
         <tbody>
             <tr><td>Hyjal Summit</td><td>20-player</td><td>20-player encounters at one of Warcraft's most important locations — the mountain's summit above the war against the Burning Legion</td></tr>
             <tr><td>The Barrow Deeps</td><td>10-player</td><td>Planned as a maximum-level 10-player challenge set in the deep caverns below Teldrassil</td></tr>
-            <tr><td>Onyxia's Lair</td><td>40-player</td><td>The Classic-era 40-player lair may return with the first raid wave, per classicwowforever.com's transcription of Blizzard's roadmap graphic; Blizzard's official Deep Dive recap and the fan wrapper for it name only Hyjal Summit and the Barrow Deeps for December 9. [NEEDS VERIFICATION]</td></tr>
+            <tr><td>Onyxia's Lair</td><td>40-player</td><td>The Classic-era 40-player lair is confirmed as a Forever raid encounter via the Legacy tree's "Conqueror of the Lair" challenge (Defeat Onyxia, per classicwowforever.com's pre-release capture). Its December 9 placement rests only on roadmap-graphic transcription and is not named in Blizzard's official Deep Dive recap. [Dec 9 timing NEEDS VERIFICATION]</td></tr>
         </tbody>
     </table>
     <p class="meta-info">More raids follow on the roadmap, including a "revamped iconic raid" and a legendary reward still being kept under wraps.</p>
@@ -277,39 +277,70 @@ eleventyComputed:
 </section>
 
 <section class="panel cp-span-full">
-    <h2>Legacy, Camping and the 17 Known Legacy Perks</h2>
-    <p>Legacy is Forever's account-wide progression layer, delivered through perk trees rather than traditional account systems. Fan captures show <strong>17 Legacy perks</strong> organized under Adventure, Resourcefulness and Professions branches, all with captured pre-release tooltips (per classicwowforever.com, September 12 build).</p>
+    <h2>Legacy, Camping and How Legacy Points Work</h2>
+    <p>Legacy is Forever's account-wide progression layer, delivered through perk trees rather than traditional account systems. Per the official Forever overview and classicwowforever.com's Legacy guide (September 13, 2026), the model breaks into three parts: earn points via first-time challenges, spend points on perks per character, and work the collection track.</p>
+    <h3>The points economy (per classicwowforever.com's review of the pre-release build)</h3>
+    <ul class="plain-list">
+        <li><strong>Earn up to 65 Legacy points at launch</strong>, shared across your alts</li>
+        <li><strong>Each character can spend up to 16 points</strong> across all three perk trees; every character picks its own allocation</li>
+        <li>Points come from first-time <strong>Legacy Challenges</strong>: class milestones, tradeskills, quests, exploration, PvP ranks and dungeon/raid goals</li>
+        <li>Hardcore progression stays separate: Hardcore accomplishments can flow out to other rulesets, but other rulesets' progress does not flow back in (per the Deep Dive recap and the Legacy guide)</li>
+    </ul>
+    <h3>Challenge examples observed in the pre-release build</h3>
+    <table class="fact-table">
+        <thead><tr><th>Challenge type</th><th>Observed milestones (1 point each, first-time)</th></tr></thead>
+        <tbody>
+            <tr><td>Class (Druid, Warrior shown)</td><td>Level 25 · 45 · 60</td></tr>
+            <tr><td>Profession (Engineering, Blacksmithing shown)</td><td>Skill 150 · 225 · 300</td></tr>
+            <tr><td>Quests</td><td>Lord Valthalak Laid to Rest questline; Explore Azeroth achievement</td></tr>
+            <tr><td>PvP ranks</td><td>Ranks 3, 7, 10, 13 and 14</td></tr>
+            <tr><td>PvP season</td><td>Field of Honor journey, weeks 4, 7 and 10</td></tr>
+            <tr><td>Dungeons</td><td>Novice / Experienced / Master Spelunker (dungeon lists collapsed in capture)</td></tr>
+            <tr><td>Raids</td><td>Conqueror of the Lair (defeat Onyxia) · Conquerer of the Wilds (Hyjal Summit) · Conquerer of the Deeps (Barrow Deeps)</td></tr>
+        </tbody>
+    </table>
+    <h3>The collection track (per Blizzard's reveal image)</h3>
+    <table class="fact-table">
+        <thead><tr><th>Points earned</th><th>Reward</th></tr></thead>
+        <tbody>
+            <tr><td>15</td><td>Replica Ironforge Air Rifle</td></tr>
+            <tr><td>25</td><td>Spectral Bear Cub (pet)</td></tr>
+            <tr><td>40</td><td>Spectral Bear Tabard</td></tr>
+            <tr><td>55</td><td>Reins of the Spectral Bear (mount)</td></tr>
+        </tbody>
+    </table>
+    <p>Collected rewards are claimed from <strong>Innkeeper Wiley in Ratchet</strong> (per captured tooltips; the mount's claim location was not captured). Rewards sit on a separate track from perk spending, so challenges beyond the 16-point cap keep feeding the collection.</p>
     <div class="cp-cols">
         <div>
             <h3>Adventure</h3>
             <ul class="plain-list">
-                <li><strong>Talented</strong> — talent points start at level 9 instead of 10 (still capped at 51)</li>
-                <li><strong>Well Rested</strong> — rested XP builds 4% faster, cap +4%</li>
-                <li><strong>Thrill of Adventure</strong> — killing blows restore 1% max Health/Mana</li>
-                <li><strong>Frequent Flier</strong> — flight paths cost 50% less, fly 20% faster</li>
-                <li><strong>Field Guide</strong> — Camp feature cooldown -8%</li>
-                <li><strong>Field Medicine</strong> — Recently Bandaged shortened 5s</li>
+                <li><strong>Talented</strong> (Rank 0/5) — talent points start at level 9 instead of 10 (still capped at 51)</li>
+                <li><strong>Well Rested</strong> (Rank 0/5) — rested XP accumulates 4% faster, cap +4%</li>
+                <li><strong>Thrill of Adventure</strong> (Rank 0/5) — killing blows restore 1% max Health/Mana over 10s; disabled in dungeons, raids and battlegrounds</li>
+                <li><strong>Frequent Flier</strong> (Rank 0/1) — flight paths cost 50% less, fly 20% faster (flight-path mount only)</li>
+                <li><strong>Field Guide</strong> (Rank 0/3) — Camp feature cooldown -8%</li>
+                <li><strong>Field Medicine</strong> (Rank 0/2) — Recently Bandaged shortened 5s; disabled in dungeons, raids and battlegrounds</li>
             </ul>
         </div>
         <div>
             <h3>Resourcefulness</h3>
             <ul class="plain-list">
-                <li><strong>Diplomat</strong> — +2% reputation per rank</li>
-                <li><strong>Permanence</strong> — camp buffs and long class buffs last 50% longer</li>
-                <li><strong>Reagent Economy</strong> — class abilities drop vendor reagent costs; Tier 1 camp features free</li>
-                <li><strong>Gourmand</strong> — food buffs last +33%</li>
+                <li><strong>Diplomat</strong> (Rank 0/5) — +2% reputation per rank</li>
+                <li><strong>Permanence</strong> (Rank 0/2) — camp benefits and long-duration raid-wide class buffs last 50% longer</li>
+                <li><strong>Reagent Economy</strong> (Rank 0/1) — class abilities drop vendor reagent costs; Tier 1 camp features free</li>
+                <li><strong>Gourmand</strong> (Rank 0/3) — food buffs last +33%</li>
             </ul>
         </div>
         <div>
             <h3>Professions</h3>
             <ul class="plain-list">
-                <li><strong>Bartering</strong> — vendor prices -5%</li>
-                <li><strong>Working Overtime</strong> — +4% skill-up chance per rank</li>
-                <li><strong>Dedicated Study</strong> — +1 skill to lowest tradeskill (23h cooldown)</li>
-                <li><strong>Bountiful Harvest</strong> — 20% more Scarce gather materials</li>
-                <li><strong>Performance Bonus</strong> — crate turn-ins may double Merchant's Favor</li>
-                <li><strong>Luremaster</strong> — fishing lures: 25% extra catch</li>
-                <li><strong>Master Chef</strong> — cooking: 10% extra result</li>
+                <li><strong>Bartering</strong> (Rank 0/2) — vendor prices -5%</li>
+                <li><strong>Working Overtime</strong> (Rank 0/5) — +4% skill-up chance per rank</li>
+                <li><strong>Dedicated Study</strong> (Rank 0/1) — +1 skill to lowest tradeskill (23h cooldown; 2-4 Elemental Essence instead when all at 300)</li>
+                <li><strong>Bountiful Harvest</strong> (Rank 0/5) — 20% more Scarce gather materials</li>
+                <li><strong>Performance Bonus</strong> (Rank 0/3) — crate turn-ins: 5% chance of double Merchant's Favor (Azeroth Commerce Authority / Durotar Supply and Logistics)</li>
+                <li><strong>Luremaster</strong> (Rank 0/2) — fishing lures: 25% extra catch</li>
+                <li><strong>Master Chef</strong> (Rank 0/5) — cooking: 10% extra result</li>
             </ul>
         </div>
         <div>
@@ -335,7 +366,7 @@ eleventyComputed:
         <li><time>Oct 20 2026</time> Invite-A-Friend codes begin arriving by email</li>
         <li><time>Oct 27 – Nov 3 2026</time> Early Name Reservation, up to three characters, first-come-first-served</li>
         <li><time>Nov 4 2026</time> Global launch, 3:00 p.m. PST — four new regions, nine dungeons, Darkspear Islands, and endgame encounters opening at the Barrow Deeps and Hyjal Summit (raids unlock December 9)</li>
-        <li><time>Dec 9 2026</time> First raids unlock — Hyjal Summit (20-player) and the Barrow Deeps (10-player). Onyxia's Lair (40-player) appears in classicwowforever.com's transcription of the roadmap graphic but is not named in Blizzard's official Deep Dive recap [NEEDS VERIFICATION]. New tier sets and the legendary reward accompany them</li>
+        <li><time>Dec 9 2026</time> First raids unlock — Hyjal Summit (20-player) and the Barrow Deeps (10-player). Onyxia's Lair (40-player) is confirmed as a Forever raid encounter via the Legacy tree challenge but its December 9 placement rests on roadmap-graphic transcription, not Blizzard's official Deep Dive recap [Dec 9 timing NEEDS VERIFICATION]. New tier sets and the legendary reward accompany them</li>
         <li><time>Winter 2026-27</time> <strong>Hardcore</strong> planned for Forever, available after launch with a death-transfer path to other rulesets (no date or full rule set yet)</li>
         <li><time>Spring 2027</time> Two raids (10 and 20-player), two dungeons, more quests and playable area, a legendary questline, and a PvP refresh</li>
         <li><time>Summer 2027</time> A revamped iconic raid, another raid, two dungeons, expanded world content, plus PvP, profession and Legacy updates</li>
@@ -354,7 +385,7 @@ eleventyComputed:
         <li>Public beta: <strong>September 17 – October 21, 2026</strong> (Skyborne Epic Pack / Warcraft Forever Collection access)</li>
         <li>Name reservation: <strong>October 27 – November 3, 2026</strong> (any upgrade; up to 3 characters)</li>
         <li>Launch: <strong>November 4, 2026 at 3:00 p.m. PST</strong></li>
-        <li>First new raids: <strong>December 9, 2026</strong> (Hyjal Summit 20p · Barrow Deeps 10p; Onyxia's Lair 40p reported by fan transcriptions only [NEEDS VERIFICATION])</li>
+        <li>First new raids: <strong>December 9, 2026</strong> (Hyjal Summit 20p · Barrow Deeps 10p; Onyxia's Lair 40p confirmed as a raid via Legacy challenge, Dec 9 timing per fan transcriptions only)</li>
         <li>Level cap: 60, permanent — "will always be" 60</li>
         <li>Hardcore: on the winter 2026-27 roadmap</li>
     </ul>
