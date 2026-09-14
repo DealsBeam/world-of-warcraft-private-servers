@@ -731,11 +731,11 @@ module.exports = [
     {
         "name": "LunaticPTR",
         "status": "playable",
-        "details": "Turtle-derived Level One Lunatic Challenge realm — zero XP, lvl 1 endgame, 10-man dungeon raids, restored Frostmane Hollow",
+        "details": "Turtle-derived Level One Lunatic Challenge realm — zero XP, lvl 1 endgame, 10-man dungeon raids (Ragefire Chasm thru Gnomeregan, restored Frostmane Hollow), 4,681 quests, ranked PvP items + Brawler's Guild (Sep 8)",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://lunaticptr.com/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-13",
         "popTier": "tiny"
     },
     {
