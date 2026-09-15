@@ -28,6 +28,12 @@ HotS spent years in maintenance mode; a cross-franchise villain drop with a limi
 
 No console port, no additional heroes, and no esports announcements accompanied the reveal. This looks like a targeted content drop, not a full live-service relaunch — scope accordingly.
 
+## Post-show: attendee survey floats battle pass, ranked ARAM, new modes
+
+In-person BlizzCon attendees were surveyed on future HotS directions (questions shared via Reddit, per Icy-Veins). Floated additions: **Auto Battler mode, Ranked ARAM, a Battle Pass** (free + premium tracks with gold, cosmetics, boosts), **Battle Royale mode, new maps, a PvE mode** (5v5 vs scaling AI heroes), and new events. Hero candidates listed: Blackthorne, Fernam, Harth Stonebrew, Kiriko, Jetpack Cat, Leeroy Jenkins, Lor'themar Theron, Mizuki, Selendis and Winston — plus a write-in slot for three more.
+
+A survey is not a roadmap. But Blizzard polling a live audience on monetization (battle pass) and ranked modes reads as revival scouting, not maintenance — upgrade the "revival TBD" above to "revival being actively explored."
+
 ## FAQ
 
 **When does Xal'atath launch?**
