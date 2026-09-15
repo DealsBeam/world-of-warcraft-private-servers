@@ -1266,5 +1266,45 @@ module.exports = [
         "url": "https://lighthaven.quest/",
         "updated": "2026-09-12",
         "popTier": "tiny"
+    },
+    {
+        "name": "TBC5Legends",
+        "status": "playable",
+        "details": "TBC 2.4.3 built for 5-man raiding: Kara through Sunwell rescaled for 5 players, Normal/Challenge/Legends modes, Mythic+ to +13, 7-phase progression (Phase 2: SSC/TK open), WotLK class mechanics, instant 70, custom legendaries per class",
+        "tag": "TBC",
+        "group": "",
+        "url": "https://tbc5legends.com/",
+        "updated": "2026-09-14",
+        "popTier": "small"
+    },
+    {
+        "name": "Project Ebonhold",
+        "status": "playable",
+        "details": "Rogue-lite WotLK 3.3.5a (Vampire Survivors style): level-1 runs, pick-1-of-3 Echoes per level, account-wide Skill Tree fueled by Soul Ashes, 35k+ extra world creatures, progressive tiers (Ulduar era), Hardcore tiers, affix gear",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://project-ebonhold.com/",
+        "updated": "2026-09-14",
+        "popTier": "medium"
+    },
+    {
+        "name": "Project Legacy",
+        "status": "playable",
+        "details": "Vanilla+ on 1.12/VMaNGOS: 150+ new handcrafted quests, cross-faction grouping/guilds, dual spec, reworked Ret/Prot/Balance/Shadow/Survival, Prestige + Lorewalker + War modes, no seasonal resets",
+        "tag": "Vanilla+",
+        "group": "",
+        "url": "https://projectlegacy.pro/",
+        "updated": "2026-09-14",
+        "popTier": "small"
+    },
+    {
+        "name": "CoRe Legacy",
+        "status": "playable",
+        "details": "WotLK 3.3.5a by ex-CoRe staff: AI playerbots with LLM-driven world chat, instant-80 welcome pack, transmog, no-wipe casual progression — very small pop",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://corelegacy.gg/",
+        "updated": "2026-09-14",
+        "popTier": "tiny"
     }
 ]
