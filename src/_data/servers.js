@@ -491,6 +491,16 @@ module.exports = [
         "popTier": "unknown"
     },
     {
+        "name": "WarCrown",
+        "status": "playable",
+        "details": "WotLK on the modern 3.4.5 client (not stock 3.3.5a) — launched May 18 2026, transitioned to 3.4.5 + Crystalsong Sep 12; Phase 1 Tier 7 in progress (Naxx, Obsidian Sanctum, Eye of Eternity, Vault of Archavon 10/25, all 12 Northrend heroics, Arena Season 5, Wintergrasp); phases 2-5 planned (Ulduar, ToC, ICC, Twilight)",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://warcrown.org/",
+        "updated": "2026-09-15",
+        "popTier": "unknown"
+    },
+    {
         "name": "Warsworn",
         "status": "dev",
         "details": "WoW MOBA Concept (Launch TBD)",
