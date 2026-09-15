@@ -341,11 +341,11 @@ module.exports = [
     {
         "name": "Project Legacy",
         "status": "playable",
-        "details": "Independent Vanilla+ (VMaNGOS), launched mid-Aug 2026: Prestige/Lorewalker modes, weak-spec class fixes, 100+ new quests, 25-man no-buff raids, cross-faction, dual spec, Guardian of Hyjal world boss, Discovery PoI system player-reported; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection. Open beta — 1,000+ accounts, 1,700+ characters, 14,400+ hours played, highest concurrent since launch, Murky companion reward for open-beta accounts",
+        "details": "Independent Vanilla+ (VMaNGOS), launched mid-Aug 2026: Prestige/Lorewalker modes, weak-spec class fixes, 150+ new quests, 25-man no-buff raids, cross-faction, dual spec, Guardian of Hyjal world boss, Discovery PoI system player-reported; patch 1.12.4 Aug 26 adds Guild Banks, Gadgetzan arena and talent inspection. Open beta — 1,000+ accounts, 1,700+ characters, 14,400+ hours played, highest concurrent since launch, Murky companion reward for open-beta accounts",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://projectlegacy.pro/",
-        "updated": "2026-09-01",
+        "updated": "2026-09-14",
         "popTier": "small"
     },
     {
@@ -1286,16 +1286,6 @@ module.exports = [
         "url": "https://project-ebonhold.com/",
         "updated": "2026-09-14",
         "popTier": "medium"
-    },
-    {
-        "name": "Project Legacy",
-        "status": "playable",
-        "details": "Vanilla+ on 1.12/VMaNGOS: 150+ new handcrafted quests, cross-faction grouping/guilds, dual spec, reworked Ret/Prot/Balance/Shadow/Survival, Prestige + Lorewalker + War modes, no seasonal resets",
-        "tag": "Vanilla+",
-        "group": "",
-        "url": "https://projectlegacy.pro/",
-        "updated": "2026-09-14",
-        "popTier": "small"
     },
     {
         "name": "CoRe Legacy",
