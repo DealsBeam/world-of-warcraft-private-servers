@@ -4,7 +4,6 @@ date: 2026-09-13
 game: wow
 description: "Forever pre-purchase opens with three Skyborne packs: Heroic, Epic with beta access and 30 days, and the limited Warcraft III Collection. Name reservation runs October 27 to November 3."
 tags: [wow, blizzcon-2026, classic-plus, forever]
-draft: true
 ---
 
 September 13, 2026 — The **World of Warcraft: Forever** pre-purchase went live at BlizzCon with three paid upgrade packs. All three build on the same rule from the announcement article: an active WoW subscription or game time gets you normal Forever access at launch, and the packs are optional additions.

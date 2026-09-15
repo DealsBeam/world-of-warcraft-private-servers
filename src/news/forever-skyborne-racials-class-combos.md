@@ -1,17 +1,16 @@
 ---
-title: "WoW: Forever Skyborne racials, class combos and 13 new race/class pairs surface from pre-release captures"
+title: "WoW: Forever Skyborne racials and new class combos surface from pre-release captures"
 date: 2026-09-13
 game: wow
-description: "Pre-release captures transcribe Skyborne racials (Walk on Air, Skysight, Read Ley Line), new combos like Orc Mage and Undead Paladin, plus radical redesigns to most Classic racials."
+description: "Pre-release captures transcribe Skyborne racials (Walk on Air, Skysight, Read Ley Line), new combos including Gnome Priest and Undead Paladin, plus redesigns to most Classic racials."
 tags: [wow, blizzcon-2026, classic-plus, forever]
-draft: true
 ---
 
 September 13, 2026 — Captures from the **September 12 Forever pre-release build** are surfacing the mechanical detail behind Blizzard's "new race and class combinations" line. The fan reference **classicwowforever.com** has transcribed Skyborne racials, a stack of new and redesigned racials for the original races, and the full class matrix. It is all pre-release data from a BlizzCon demo build, not a launch guarantee.
 
 ## TL;DR
 
-- **New combos per pre-release captures:** Orc Mage, Undead Paladin, Troll Warlock, Human Hunter, Gnome Warlock, Dwarf Shaman. Night Elf and Tauren show no new flags.
+- **New combos:** Orc Mage, Undead Paladin, Troll Warlock, Human Hunter, Gnome Priest, Dwarf Shaman — the six officially confirmed in Blizzard's Deep Dive recap. Night Elf and Tauren show no new flags.
 - **Skyborne racials:** Walk on Air (10s glide), Wind Blessed (1% Haste), Elemental Insight (5% vs Elementals), plus faction-specific Skysight (Horde, +10% run speed) and Read Ley Line (Alliance, doubled regen at ley lines).
 - **Redesigns worth knowing:** Orc Blood Fury now feeds both Attack and Spell Power, Human gains Will to Survive (breaks stuns), Gnome gains Eureka!, Tauren gains Plainsrunning, Night Elf Elune's Light adds 10% crit.
 - **All flagged as pre-release:** classicwowforever.com logs every capture with its screenshot or stream source.
@@ -26,7 +25,7 @@ The captured matrix lines up with Blizzard's panel language about "covering gaps
 | Undead | Paladin |
 | Troll | Warlock |
 | Human | Hunter |
-| Gnome | Warlock |
+| Gnome | Priest (officially confirmed new; Classic Gnome could not be Priests) |
 | Dwarf | Shaman |
 | Night Elf | None flagged |
 | Tauren | None flagged |
@@ -51,7 +50,7 @@ A handful of captured changes matter more than the rest because they touch abili
 - **Human Will to Survive** breaks all Stuns - a new tool where Humans traditionally had none.
 - **Tauren Plainsrunning** builds movement speed the longer you run, a new out-of-combat travel tool.
 - **Night Elf Elune's Light** grants 10% additional critical strike for 15 seconds, and Quickness now adds 2% run speed on top of Dodge.
-- **Dwarf Stoneform** cleanses Poison and Disease and reduces Physical damage (Bleed removal unconfirmed).
+- **Dwarf Stoneform** cleanses Poison, Disease and Bleeds with immunity while active, and reduces Physical damage instead of Armor (per the Deep Dive recap).
 - **Troll Rapid Regeneration** restores 50% of max Health over a short period.
 
 Several Classic-only racials have no captured availability in Forever yet (Orc Command, Human Diplomacy, the weapon specializations), per the same reference. Pre-release values can change before the November 4 launch.

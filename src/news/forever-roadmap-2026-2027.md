@@ -4,24 +4,23 @@ date: 2026-09-13
 game: wow
 description: "Blizzard's Forever roadmap unlocks Hyjal Summit and the Barrow Deeps on December 9, plans Hardcore for winter, and schedules spring and summer 2027 content blocks including a legendary questline."
 tags: [wow, blizzcon-2026, classic-plus, forever]
-draft: true
 ---
 
 September 13, 2026 — Blizzard's **2026-2027 World of Warcraft: Forever roadmap** is out with the panel recap, and it answers the question players have been circling since the reveal: how fast does a permanent Classic+ actually grow? The fine print spells out a launch raid set, a winter Hardcore window and two major 2027 content cadences.
 
 ## TL;DR
 
-- **December 9, 2026:** first raids unlock - Hyjal Summit (20-player) and the Barrow Deeps (10-player). Onyxia's Lair (40-player) is per classicwowforever.com's transcription of the roadmap graphic but is not named in Blizzard's official Deep Dive recap [NEEDS VERIFICATION].
+- **December 9, 2026:** first raids unlock - Hyjal Summit (20-player) and the Barrow Deeps (10-player). Onyxia's Lair (40-player) named by principal designer Kris Zierhut (The Sun interview) as the third raid with tier pieces across all three; its Dec 9 date rests on roadmap transcription [NEEDS VERIFICATION].
 - **Winter 2026-27:** Hardcore planned for Forever (no date or full rule set yet).
 - **Spring 2027:** two raids (10 and 20-player), two dungeons, more quests and playable area, a legendary questline, and a PvP refresh.
 - **Summer 2027:** a revamped iconic raid, another raid, two dungeons, expanded world content, plus PvP, profession and Legacy updates.
-- **Beta is capped at level 30** per fan transcription, and runs September 17 to October 21 with a one-day date discrepancy (October 21 purchase terms vs October 22 roadmap).
+- **Beta caps at 20, rising to 30** after a couple of weeks (per Icy-Veins), running September 17 to October 21 with a one-day date discrepancy (October 21 purchase terms vs October 22 roadmap).
 
 ## December 9: the launch raid set
 
 The roadmap names three raid environments for the first unlock wave on **December 9, 2026**. The panel recap itself highlighted two new ones: **Hyjal Summit** (20-player, at one of Warcraft's most important locations) and **the Barrow Deeps** (a maximum-level 10-player challenge).
 
-Onyxia's Lair (40-player) appears in classicwowforever.com's read of the roadmap graphic fine print, but Blizzard's written Deep Dive recap and the site's own wrapper recap do not name it in the December 9 wave. Whoever reads the roadmap graphic next should treat that line as transcription, not confirmed. Same wave carries new tier sets and the legendary reward Blizzard says it is "looking forward to revealing in full."
+Onyxia's Lair (40-player) was first spotted in classicwowforever.com's read of the roadmap graphic fine print, and principal designer Kris Zierhut has since named it in The Sun's BlizzCon interview as the third raid with tier pieces earnable across all three. Only its December 9 date still rests on transcription. Same wave carries new tier sets and the legendary reward Blizzard says it is "looking forward to revealing in full."
 
 ## The 2027 cadence
 
@@ -29,7 +28,7 @@ The roadmap's second half lays out two content blocks.
 
 **Spring 2027** brings two raids (a 10-player and a 20-player), two dungeons, more quests and playable area, a legendary questline, and a PvP refresh. The legendary questline is the first evergreen-endgame signal: Forever's cap stays 60, so legendary progression is the long-term character journey.
 
-**Summer 2027** pairs a revamped iconic raid (the "iconic raid" Blizzard keeps deliberately unnamed - Molten Core is speculation until Blizzard says so) with another raid, two dungeons, expanded world content, and PvP, profession and Legacy updates. Summed up, that is three product seasons a year built on top of a fixed cap.
+**Summer 2027** pairs a revamped iconic raid (Zierhut has since said Molten Core opens "someday, but not now," per The Sun interview) with another raid, two dungeons, expanded world content, and PvP, profession and Legacy updates. Summed up, that is three product seasons a year built on top of a fixed cap.
 
 ## What the roadmap says about the permanent cap
 
@@ -42,7 +41,7 @@ For private-server audiences the cadence matters too. A twice-a-year official co
 ## Verification status
 
 - Official: December 9 wave (Hyjal Summit, Barrow Deeps), winter Hardcore, spring/summer content blocks.
-- Transcribed from the official roadmap graphic by classicwowforever.com (flagged in our [Forever hub](/classic-plus/#roadmap)): Onyxia's Lair, the legendary questline, and the specific spring/summer item counts.
+- Transcribed from the official roadmap graphic by classicwowforever.com (flagged in our [Forever hub](/classic-plus/#roadmap)): the legendary questline and the specific spring/summer item counts. Onyxia's raid existence is now Zierhut-confirmed; only its Dec 9 date stays flagged.
 - [NEEDS VERIFICATION] against another outlet that has read the roadmap graphic's fine print.
 
 ## Notes

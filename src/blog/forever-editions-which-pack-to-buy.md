@@ -37,7 +37,7 @@ The Heroic price is storefront-reported at $29.99 / €29.99 (per Icy Veins, con
 
 ## The three use cases, decided
 
-**Case one: you just want to play Forever.** Skip every pack. Your sub covers the full level 1-60 world, all nine dungeons, both new raids, the Darkspear Islands battleground and the post-launch roadmap. Nothing in the packs gates a twentieth of that. This is the correct answer for most players who mainly play the existing Classic/Modern lines.
+**Case one: you just want to play Forever.** Skip every pack. Your sub covers the full level 1-60 world, all nine dungeons, the launch raids, the Darkspear Islands battleground and the post-launch roadmap. Nothing in the packs gates a twentieth of that. This is the correct answer for most players who mainly play the existing Classic/Modern lines.
 
 **Case two: you want the Skyborne race and its starting zone.** This is the pack decision, because the race is not part of the base sub. Between Heroic and Epic the only practical difference for race content is beta access and the extra cosmetics. If you want to race your Skyborne on day one of beta, Epic does two jobs. If you only want the race at launch, Heroic is the cheaper same-month outcome.
 
