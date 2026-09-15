@@ -20,6 +20,8 @@ September 12, 2026 — The void hits the Nexus on September 28. Blizzard's Blizz
 
 The Harbinger of the Void turns her gaze from Azeroth to the Nexus, per the reveal, bringing "ancient schemes and the corrupting power of the Void." Kit theme is battlefield control through building Void pressure — a sustained-damage assassin rather than burst.
 
+The September 14 PTR build confirms the kit: trait **Void Volley**, **Shadow Mark (Q)**, **Void Step (W)**, **Dark Heart Ritual (E)**, plus the **Void Eruption** and **Void Convergence** Heroics (per PTR coverage from The Click and Red Reactions). "Growing more dangerous as fights continue" maps to Dark Heart pressure stacking over a fight.
+
 The monetization is the pre-purchase bundle: buy Xal'atath before September 28 and collect the Heartseeker and Twilight skins plus the Sin'dorei Phoenix mount on entry day.
 
 ## What this means
