@@ -41,14 +41,18 @@ const matches = (s, { status = "all", tag = "all", pop = "all", search = "" } = 
     return true;
 };
 
+const STATUS_ORDER = { playable: 0, dev: 1, dead: 2 };
+const statusRank = s => STATUS_ORDER[s.status] !== undefined ? STATUS_ORDER[s.status] : 3;
+
 const groupByEra = servers => {
     const groups = {};
     servers.forEach(s => {
         const era = ERA[s.tag] || "Other";
         (groups[era] = groups[era] || []).push(s);
     });
-    return ERA_ORDER.filter(e => groups[e]).map(e => ({ era: e, servers: groups[e] }))
-        .concat(Object.keys(groups).filter(e => ERA_ORDER.indexOf(e) === -1).map(e => ({ era: e, servers: groups[e] })));
+    const finish = era => ({ era: era, servers: groups[era].slice().sort((a, b) => statusRank(a) - statusRank(b)) });
+    return ERA_ORDER.filter(e => groups[e]).map(finish)
+        .concat(Object.keys(groups).filter(e => ERA_ORDER.indexOf(e) === -1).map(finish));
 };
 
 const countByStatus = (servers, status) => servers.filter(s => s.status === status).length;

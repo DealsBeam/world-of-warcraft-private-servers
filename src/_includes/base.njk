@@ -20,6 +20,7 @@
     <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:image" content="https://wowprivateservers.vercel.app{{ image or (title | ogCard) }}">
     <script>
+        document.documentElement.classList.add("js");
         (function () {
             try {
                 var t = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");

@@ -18,32 +18,19 @@ extraScripts:
     {% set iconPath = vocab.ICONS %}
     {% set htype = { "core": [vocab.HTYPE.core.label, vocab.HTYPE.core.icon], "web": [vocab.HTYPE.web.label, vocab.HTYPE.web.icon], "tools": [vocab.HTYPE.tools.label, vocab.HTYPE.tools.icon] } %}
 
-    <nav class="tabs" role="tablist" aria-label="Site sections">
-        <button class="tab active" data-tab="servers" role="tab" aria-selected="true">Servers</button>
-        <button class="tab" data-tab="history" role="tab" aria-selected="false">History</button>
-        <button class="tab" data-tab="links" role="tab" aria-selected="false">News &amp; Links</button>
+    <nav class="tabs" role="tablist" aria-label="Homepage sections">
+        <button class="tab active" id="tab-servers" data-tab="servers" role="tab" aria-selected="true" aria-controls="view-servers" tabindex="0">Servers</button>
+        <button class="tab" id="tab-history" data-tab="history" role="tab" aria-selected="false" aria-controls="view-history" tabindex="-1">History</button>
+        <button class="tab" id="tab-links" data-tab="links" role="tab" aria-selected="false" aria-controls="view-links" tabindex="-1">News &amp; Links</button>
     </nav>
 
-    <section id="view-servers" class="view active" role="tabpanel">
+    <section id="view-servers" class="view active" role="tabpanel" aria-labelledby="tab-servers">
         <div class="stat-strip" id="stat-strip" aria-label="Server status counts">
             <div class="stat"><span class="stat-num">{{ servers.length }}</span><span class="stat-label">Tracked servers</span></div>
             <div class="stat stat-green"><span class="stat-num">{{ servers | countByStatus("playable") }}</span><span class="stat-label">Playable</span></div>
             <div class="stat stat-yellow"><span class="stat-num">{{ servers | countByStatus("dev") }}</span><span class="stat-label">In development</span></div>
             <div class="stat stat-red"><span class="stat-num">{{ servers | countByStatus("dead") }}</span><span class="stat-label">Dead</span></div>
         </div>
-
-        <section class="panel" style="border:1px solid var(--border);background:linear-gradient(180deg, rgba(196,154,40,0.08), transparent 60%)">
-            <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
-                <img src="/images/hero-3-192.webp" alt="" decoding="async" width="96" height="64" style="object-fit:cover;border-radius:8px;flex:0 0 auto">
-                <div>
-                    <h2 style="margin:0;font-size:1.05rem">⭐ {{ featured.heading }}</h2>
-                    <p class="meta-info" style="margin:4px 0 8px">{{ featured.blurb }} He reviewed our tracker {{ featured.review.date | daysAgo }} days ago.</p>
-                    <p style="margin:0;display:flex;gap:8px;flex-wrap:wrap">
-                        {% for l in featured.links %}<a class="chip{% if loop.first %} active{% endif %}" href="{{ l.url }}"{% if l.external %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>{% endfor %}
-                    </p>
-                </div>
-            </div>
-        </section>
 
         {% set recent = servers | selectattr("updated") | sort(attribute="updated", reverse=true) | list %}
         {% if recent | length %}
@@ -95,9 +82,22 @@ extraScripts:
             {% endfor %}
             {% endfor %}
         </div>
+
+        <section class="panel" style="border:1px solid var(--border);background:linear-gradient(180deg, rgba(196,154,40,0.08), transparent 60%)">
+            <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
+                <img src="/images/hero-3-192.webp" alt="" decoding="async" width="96" height="64" style="object-fit:cover;border-radius:8px;flex:0 0 auto">
+                <div>
+                    <h2 style="margin:0;font-size:1.05rem">{{ featured.heading }}</h2>
+                    <p class="meta-info" style="margin:4px 0 8px">{{ featured.blurb }} He reviewed our tracker {{ featured.review.date | daysAgo }} days ago.</p>
+                    <p style="margin:0;display:flex;gap:8px;flex-wrap:wrap">
+                        {% for l in featured.links %}<a class="chip{% if loop.first %} active{% endif %}" href="{{ l.url }}"{% if l.external %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>{% endfor %}
+                    </p>
+                </div>
+            </div>
+        </section>
     </section>
 
-    <section id="view-history" class="view" role="tabpanel" hidden>
+    <section id="view-history" class="view" role="tabpanel" aria-labelledby="tab-history">
         <div class="history-toolbar">
             <label class="sr-only" for="history-search">Search history</label>
             <input type="search" id="history-search" placeholder="Search history events…" autocomplete="off">
@@ -124,7 +124,7 @@ extraScripts:
         </div>
     </section>
 
-    <section id="view-links" class="view" role="tabpanel" hidden>
+    <section id="view-links" class="view" role="tabpanel" aria-labelledby="tab-links">
         <section class="panel">
             <h2>News</h2>
             <ul id="news-list">

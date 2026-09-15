@@ -3,6 +3,8 @@ const { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, ICONPATHS, ICONVIEW, ERA_ICON, SER
 const eraIcon = era => ERA_ICON[era] || "question";
 const iconFor = (name, tag) => SERVER_ICON[name] || ERA_ICON[ERA[tag] || "Other"] || "question";
 
+const STATUS_ORDER = { playable: 0, dev: 1, dead: 2 };
+
 const scr = s => s.replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 const safeUrl = u => typeof u === "string" && (/^https:\/\//.test(u) || u.startsWith("/")) ? u : "#";
 
@@ -20,6 +22,7 @@ function showTab(name) {
         const on = t.dataset.tab === name;
         t.classList.toggle("active", on);
         t.setAttribute("aria-selected", on);
+        t.setAttribute("tabindex", on ? "0" : "-1");
     });
     Object.entries(views).forEach(([n, el]) => {
         const on = n === name;
@@ -31,6 +34,17 @@ function showTab(name) {
 }
 
 tabs.forEach(t => t.addEventListener("click", () => showTab(t.dataset.tab)));
+
+const tablist = document.querySelector(".tabs");
+tablist.addEventListener("keydown", e => {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    e.preventDefault();
+    const i = [...tabs].indexOf(document.activeElement);
+    if (i === -1) return;
+    const n = (e.key === "ArrowRight" ? i + 1 : i + tabs.length - 1) % tabs.length;
+    tabs[n].focus();
+    showTab(tabs[n].dataset.tab);
+});
 
 /* ---------- servers: stat strip, filters, cards ---------- */
 
@@ -119,11 +133,12 @@ function renderServers() {
         const era = ERA[s.tag] || "Other";
         (groups[era] = groups[era] || []).push(s);
     });
+    const statusRank = s => STATUS_ORDER[s.status] !== undefined ? STATUS_ORDER[s.status] : 3;
     const order = ERA_ORDER.filter(e => groups[e])
         .concat(Object.keys(groups).filter(e => ERA_ORDER.indexOf(e) === -1));
     cards.innerHTML = order.map(era =>
         `<h2 class="era-title">${scr(era)}<span class="era-count">${groups[era].length}</span></h2>` +
-        groups[era].map(cardHtml).join("")
+        groups[era].slice().sort((a, b) => statusRank(a) - statusRank(b)).map(cardHtml).join("")
     ).join("");
     empty.hidden = visible.length > 0;
     count.textContent = `${visible.length} of ${SERVERS.length} servers`;
