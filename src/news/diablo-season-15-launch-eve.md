@@ -26,6 +26,6 @@ September 14, 2026 — Diablo 4's **Season of Hell's Legacy (Season 15)** starts
 
 ## Bottom line
 
-Hell's Legacy is a systems-heavy season (Cube, Blessings, difficulties, crafting) wrapped in a nostalgia theme. The mechanics affect every build; the Dark Wanderer wrapper is the hook. Coverage continues once the season is live and numbers settle.
+Hell's Legacy is a systems-heavy season (Cube, Blessings, difficulties, crafting) wrapped in a nostalgia theme. The mechanics affect every build; the Dark Wanderer wrapper is the hook. Blizzard also confirmed development continues past Season 15 — Season 16 and further seasons are already planned despite the Diablo 5 announcement (per BlizzardWatch). Coverage continues once the season is live and numbers settle.
 
 Related: [BlizzCon Diablo season drops](/blog/blizzcon-2026-diablo-season-drops/), [Diablo V announced for Spring 2029](/news/diablo-v-spring-2029-announced/).
