@@ -36,6 +36,10 @@ module.exports = [
         "url": "https://warperia.com/"
     },
     {
+        "title": "Nostalgic.gg — 166-server WoW directory with live Discord counts, 30-day trends, community reviews",
+        "url": "https://nostalgic.gg/en/world-of-warcraft"
+    },
+    {
         "title": "wowmodding.net - modding tools and files (free registration)",
         "url": "https://www.wowmodding.net/"
     },

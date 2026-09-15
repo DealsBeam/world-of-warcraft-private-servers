@@ -292,12 +292,12 @@ module.exports = [
     {
         "name": "TheraWoW",
         "status": "playable",
-        "details": "Solo/small-group scaling, cross-faction, playerbots",
+        "details": "Solo/small-group WotLK 3.3.5a: playerbots, scaled raids, cross-faction BGs, free heirlooms at lvl 1, 5 talent builds, TheraCOIN, solo LFG, transmog, guild houses — progressive (ToC live, season ends Dec 10 2026), ~1.3k online",
         "tag": "WotLK",
         "group": "",
         "url": "https://therawow.com",
-        "updated": "2026-08-25",
-        "popTier": "tiny"
+        "updated": "2026-09-14",
+        "popTier": "small"
     },
     {
         "name": "Turtle WoW",
@@ -1219,11 +1219,11 @@ module.exports = [
     {
         "name": "Frozen Throne",
         "status": "playable",
-        "details": "Solo-friendly WotLK 3.3.5a: PlayerBots, autonomous DungeonClear, Mythic+ to +7, cross-faction RDF, bot-assisted raids (MC→RS), QoL (AoE loot, transmog, guild houses), 975 online, no P2W (cosmetics + bare lvl80 boost)",
+        "details": "Solo-friendly WotLK 3.3.5a: PlayerBots, autonomous DungeonClear, Mythic+ to +7, cross-faction RDF, bot-assisted raids (MC→RS), QoL (AoE loot, transmog, guild houses), ~900 online, no P2W (cosmetics + bare lvl80 boost)",
         "tag": "WotLK",
         "group": "",
         "url": "https://frozenthrone.cloud/",
-        "updated": "2026-09-11",
+        "updated": "2026-09-14",
         "popTier": "medium"
     },
     {
