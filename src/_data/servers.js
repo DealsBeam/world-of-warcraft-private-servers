@@ -322,7 +322,7 @@ module.exports = [
     {
         "name": "Emberveil",
         "status": "playable",
-        "details": "Vanilla UE5, opened Aug 15 2026",
+        "details": "Vanilla UE5, opened Aug 15 2026; one-month report: 340+ bug reports closed, 97 client revisions (release 2237 to 2334), Dungeon Finder + Group Browser live, addon directory + Lua API docs, database browser + armory, launcher 1.9.6; Android closed beta signups open, invites pending",
         "tag": "Vanilla",
         "group": "",
         "url": "https://emberveil.org/",
