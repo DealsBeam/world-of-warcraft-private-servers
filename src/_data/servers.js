@@ -1097,13 +1097,14 @@ module.exports = [
     },
     {
         "name": "Project Alterac",
-        "status": "playable",
-        "details": "Progressive WotLK 3.3.5a, Phase 3 launched Aug 8 (level 40 cap), active community",
+        "status": "dead",
+        "details": "Progressive WotLK 3.3.5a, Phase 3 launched Aug 8 (level 40 cap) — shut down Sep 2026, operator cited Forever beta timing and out-of-pocket CDN costs",
         "tag": "WotLK",
         "group": "",
-        "url": "https://alterac.gg/",
-        "updated": "2026-08-25",
-        "popTier": "tiny"
+        "updated": "2026-09-15",
+        "popTier": "tiny",
+        "shutdown": "2026-09-15",
+        "shutdownReason": "abandoned"
     },
     {
         "name": "Felsong",
