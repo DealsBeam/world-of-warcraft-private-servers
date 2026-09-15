@@ -801,11 +801,11 @@ module.exports = [
     {
         "name": "Season of the Crusade",
         "status": "playable",
-        "details": "Vanilla world with TBC systems (2.4.3 talents at 60, BE/Draenei, jewelcrafting, arenas, honor system); counter read 1 online",
+        "details": "Vanilla world with TBC systems (2.4.3 talents at 60, BE/Draenei, jewelcrafting, arenas + arena gear, 2.4.3 honor system, Eye of the Storm); Molten Core raid live since Jan 20; counter read 1 online Sep 15",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://seasonofthecrusade.com/",
-        "updated": "2026-09-06",
+        "updated": "2026-09-15",
         "popTier": "tiny"
     },
     {
