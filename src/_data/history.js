@@ -7,7 +7,7 @@ module.exports = [
         "title": "Warcraft Pitched as Warhammer — License Falls Through",
         "tag": "Blizzard Roots",
         "paragraphs": [
-            "Warcraft: Orcs & Humans was originally pitched as a licensed Warhammer game. After talks with Games Workshop stalled, Blizzard built its own IP — keeping the fantasy strategy core but creating Azeroth instead of the Old World.",
+            "Mid-development on Warcraft: Orcs & Humans, co-founder Allen Adham proposed licensing the Warhammer universe for brand recognition. Producer Patrick Wyatt later confirmed on record (Kotaku, 2012) that Warhammer was 'a huge inspiration for the art-style,' but the idea died on business terms plus the team's insistence — fresh off bad DC Comics licensing experiences — on controlling its own universe.",
             "The episode became the first clear example of Blizzard's second-mover pattern: observe a proven tabletop world, rebuild it with polish and accessibility, and own the refined version."
         ]
     },
@@ -614,6 +614,18 @@ module.exports = [
         "paragraphs": [
             "On August 29, 2026 project lead Dutch announced on Discord that all of Ascension's emulated WoW realms — Area 52 (Classless free-pick), Elune (Seasonal Wildcard/Draft), Bronzebeard (Warcraft Reborn) and Conquest of Azeroth (21 custom classes) — will shut down on September 4, 2026 at 7:00 PM Pacific under a mutual agreement with Blizzard, following the June 12 RICO lawsuit (8:26-cv-01506 C.D. Cal). Support remains active through the final day, remaining timeline content will still release, then all WoW-related material will be removed from the website and social channels as development shifts to a new non-WoW project.",
             "The shutdown completes Blizzard's 2026 sweep of the largest custom Classic servers — Turtle WoW (May 15 consent judgment), Stormforge (May) and now the 10-year classless network that claimed over a million registered players — landing eight days before BlizzCon 2026 where a Classic+ reveal is widely expected."
+        ]
+    },
+    {
+        "id": "event-forever-reveal-2026",
+        "category": "web",
+        "icon": "fa-solid fa-flag",
+        "date": "September 12, 2026",
+        "title": "Blizzard Reveals World of Warcraft: Forever — Official Classic+",
+        "tag": "Blizzard History",
+        "paragraphs": [
+            "At the BlizzCon 2026 opening ceremony Blizzard revealed World of Warcraft: Forever, an alternate-timeline Vanilla branch built by the Classic team: Skyborne race, four new regions, nine dungeons, realmless rulesets, Legacy and Camping systems, cap 60 forever. Launch November 4, 2026, beta September 17.",
+            "'This is not a mode, a season, or a new version of Classic.' The announcement ended eight years of private Vanilla+ projects filling the 'living Classic' gap — and set official content (December 9 raids, winter Hardcore, 2027 blocks) on a direct cadence collision with the surviving scene."
         ]
     }
 ];
