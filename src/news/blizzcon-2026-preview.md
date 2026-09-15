@@ -7,6 +7,26 @@ description: "The definitive BlizzCon 2026 preview. StarCraft shooter, Classic P
 ---
 BlizzCon returns September 12-13 at the Anaheim Convention Center after a three-year hiatus. Here is every confirmed fixture, every credible leak, and every open question heading into Saturday's opening ceremony.
 
+## Results: what actually happened
+
+The show is over. Scorecard against the preview above — full coverage in our [day-one recap](/news/blizzcon-2026-day-one-recap/):
+
+| Preview call | Outcome |
+|---|---|
+| Classic Plus / Camelot reveal | **Hit.** [World of Warcraft: Forever](/news/blizzcon-2026-classic-plus-reveal/) — Nov 4 launch, beta Sep 17 |
+| Diablo 5 "too early for a reveal" | **Miss.** [Diablo V announced for Spring 2029](/news/diablo-v-spring-2029-announced/), plus Netflix animated series |
+| StarCraft shooter reveal | **Hit.** [Open-world shooter, Spring 2030](/news/starcraft-shooter-reveal/), Dan Hay leading |
+| D4 Amazon class rumor | **Hit.** Amazon arrives first half of 2027; Season of Hell's Legacy started Sep 15 |
+| HotS revival signals | **Hit.** [Xal'atath enters the Nexus Sep 28](/news/heroes-of-the-storm-revival-blizzcon/) |
+| OW Season 5 Oct 6, new hero | **Hit.** [Doctrine Season 5](/news/overwatch-doctrine-season-5-blizzcon/): Hero 54, Grimsvötn map, Sombra rework |
+| Hearthstone Monk rumor | **Hit.** Monk arrives March 2027; Reign of the Black Empire Oct 20 |
+| WC3 expansion on prediction board | **Hit, bigger.** Reforged 3.0 + Forsaken Kingdom campaign, live now |
+| Midnight 12.1.5 date on stage | **Hit.** Plus [Midnight Eclipse (12.2)](/news/blizzcon-2026-day-one-recap/) and WotLK Remix announcements |
+| D2 Warlock DLC | Unconfirmed — remains rumor |
+| OW Netflix anime, console-port HotS | Unconfirmed — remain rumors |
+
+Panels since: [Deep Dive + Found Photos recap](/news/forever-deep-dive-found-photos-recap/), [Forever hub](/classic-plus/). Still to come: Hardcore panel recap, Sep 17 live Q&A.
+
 ## The schedule
 
 **Day 1 — Saturday, September 12**
