@@ -72,4 +72,4 @@ Borrowing is not theft, denial is not loyalty, and execution still counts. "Who 
 
 ## Notes
 
-Licensing history: Patrick Wyatt, Warcraft producer, in Kotaku's "The Inside Story of the Making of Warcraft" (2012). StarCraft dev-source citations (Alien, Starship Troopers) per the game's manual and contemporary interviews. 40k analogies are the author's comparisons. Related reading: [the graying of Azeroth](/blog/graying-azeroth-blizzard-aging-players/), [the outsourced RTS model](/blog/outsourced-rts-model-relic-chronicles/).
+Licensing history: Patrick Wyatt, Warcraft producer, in Kotaku's "The Inside Story of the Making of Warcraft" (2012). StarCraft dev-source citations (Alien, Starship Troopers) per the game's manual and contemporary interviews. 40k analogies are the author's comparisons. Related reading: [the graying of Azeroth](/blog/graying-azeroth-blizzard-aging-players/).
