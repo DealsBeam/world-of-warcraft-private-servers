@@ -352,6 +352,14 @@ module.exports = [
         "url": "https://ascension-cache-upload.ascension-archive.workers.dev/"
     },
     {
+        "title": "AscensionDB — preservation archive explorer: items, spells, quests, discoveries (WDB cache, Exiles DB, BisBeard addon, Wayback recoveries)",
+        "url": "https://ascension-db.ascension-archive.workers.dev/"
+    },
+    {
+        "title": "Bronzebeard DB — unofficial item database mirror of Ascension's Bronzebeard (Warcraft Reborn) realm: 12.8k items incl. Worldforged/Bloodforged gear, Mystic Scrolls, phase-3 snapshot (BWL/ZG open)",
+        "url": "https://bronzebeard.bendo.lol/"
+    },
+    {
         "title": "azerothcore-wotlk-coa — Conquest of AzerothCore fork (12★, CoA classes native)",
         "url": "https://github.com/jealous-sound/azerothcore-wotlk-coa"
     },

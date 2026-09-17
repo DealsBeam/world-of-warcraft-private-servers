@@ -1329,5 +1329,15 @@ module.exports = [
         "release": "TBD",
         "updated": "2026-09-16",
         "popTier": "tiny"
+    },
+    {
+        "name": "Miststorm",
+        "status": "dev",
+        "details": "MoP 5.4.8 Plus+ ('blizzlike+') in closed alpha since Apr 6 announcement: custom Mythic+ for dungeons/raids, solo-queue arenas, crossfaction BGs, rep boosts, accelerated 1-90, Discord-first community — how-to-play realmlist reads 'not public yet' (contradicts landing 1-online counter), FAQ claims full scripting, free-to-play",
+        "tag": "MoP",
+        "group": "",
+        "url": "https://miststorm.org/en",
+        "updated": "2026-09-17",
+        "popTier": "unknown"
     }
 ]
