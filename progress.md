@@ -14,3 +14,10 @@
 - Q&A two-segment times linked to Blizzard watch post (24302544) in wow-forever-live-qa-questions.md + classic-plus.njk.
 - Gates: comment balance OK, npm test + build green (134 servers / 100 news), built word counts 337/444/315.
 - Pushed 1ca170d; IndexNow 4 URLs OK (HTTP 200).
+
+# Progress — Sep 17 batch 2 (Miststorm + Ascension preservation)
+
+- Miststorm (MoP 5.4.8 Plus+, closed alpha, realmlist "not public yet") → tracker dev/MoP/unknown + joins-tracker post.
+- Bronzebeard DB mirror (bronzebeard.bendo.lol) new; AscensionDB explorer already covered Sep 15 — added both to links.js + Bronzebeard DB post.
+- Gates: comment balance OK, test 135 servers/102 news/108 links, smoke green, words 373/277.
+- Pushed 625822d; IndexNow 3 URLs.
