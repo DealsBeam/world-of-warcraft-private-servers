@@ -29,3 +29,11 @@
 - Beta-live post (457w) + hub: PvP faction lock, surprise loot, beta start-time resolved (GameSpot "no start time" note replaced).
 - Dup-checked: class/race combos + beta access already covered (skyborne-racials post, pre-purchase post) — skipped.
 - Gates green (135 servers / 103 news); pushed 6729b51; IndexNow 2 URLs.
+
+# Progress — Sep 17 batch 4 (Icy archive + datamine)
+
+- Icy home + maps article fetched. News list JS-only, WP API/RSS blocked — homepage listing used.
+- New: Forever beta-client captures show unannounced instance maps (Dalaran City, Hyjal Crater, Winter WSG, Battle for Gilneas, Azshara Crater, Karazhan Crypts, Half-Pint Tavern, Manor Mistmantle, event-cluster maps); SoD caveat loud.
+- Post forever-client-data-instance-map-teases (405w) + hub meta-note; announced nine + five zones cross-checked vs hub table.
+- Dup-skipped: login screen, music, mounts wave, race-breakdown video (cosmetic/covered).
+- Gates green (135/104); pushed; IndexNow 2 URLs.
