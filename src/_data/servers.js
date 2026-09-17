@@ -1307,5 +1307,27 @@ module.exports = [
         "url": "https://corelegacy.gg/",
         "updated": "2026-09-14",
         "popTier": "tiny"
+    },
+    {
+        "name": "Azeron",
+        "status": "dev",
+        "details": "Legion 7.3.5 open beta (build 26365) since Sep 13: x10 XP / x5 drops, full 7.3.5 content (Argus, Antorus, ToS, artifacts), EN/RU, realmlist legion.azeron.org, wipe planned before release, beta-tester rewards — pop 0 at check Sep 16, uptime self-reported 94.9%/30d",
+        "tag": "Legion",
+        "group": "",
+        "url": "https://azeron.org/",
+        "release": "TBD",
+        "updated": "2026-09-16",
+        "popTier": "unknown"
+    },
+    {
+        "name": "OutlawCraft",
+        "status": "dev",
+        "details": "Custom WotLK 3.3.5a full-death-loot PvP ('DayZ in WoW'): no hearth, eat/drink/claim ground, solo dev, no monetization asked, beta test announced Sep 16 — 4 online at check, 12 Discord members",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://outlawcraft.com/",
+        "release": "TBD",
+        "updated": "2026-09-16",
+        "popTier": "tiny"
     }
 ]

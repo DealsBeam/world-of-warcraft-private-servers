@@ -2,11 +2,11 @@
 title: "WoW live Q&A Sep 17 — the Forever questions we'd ask"
 date: 2026-09-14
 game: wow
-description: "Blizzard's live WoW Q&A is Thursday 10AM PT. The 10 questions that would settle our flagged claims: Onyxia's date, beta close, Hardcore rules, Token stance, WotLK Anniversary."
+description: "Blizzard's live WoW Q&A is Thursday — modern at 10AM PT, Forever segment at 10:30AM PT (per Blizzard's watch post). The 10 questions that would settle our flagged claims: Onyxia's date, beta close, Hardcore rules, Token stance, WotLK Anniversary."
 tags: [wow, blizzcon-2026, classic-plus, qa]
 ---
 
-September 14, 2026 — Blizzard's live WoW Q&A airs **Thursday, September 17 at 10:00 AM PT** on the official Warcraft Twitch and YouTube (VOD after). Questions run through the [NA](https://us.forums.blizzard.com/en/wow/t/submit-your-question-for-the-live-wow-qa-on-september-17/2347251) and [EU](https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-live-qa-september-17/628062) forum threads; Retail and Forever questions both welcome. Our [beta verification hit list](/news/forever-beta-verification-hit-list/) covers what datamining can answer — these are the ten that need a developer voice.
+September 14, 2026 — Blizzard's live WoW Q&A airs **Thursday, September 17** on the official Warcraft Twitch and YouTube (VOD after), in **two segments**: modern WoW starts at **10:00 a.m. PT** and the **WoW Forever segment follows at 10:30 a.m. PT** (18:30 BST / 17:30 UTC) — per Blizzard's official [watch post](https://news.blizzard.com/en-us/article/24302544/watch-the-world-of-warcraft-live-q-a-september-17). Questions run through the [NA](https://us.forums.blizzard.com/en/wow/t/submit-your-question-for-the-live-wow-qa-on-september-17/2347251) and [EU](https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-live-qa-september-17/628062) forum threads; Retail and Forever questions both welcome. Our [beta verification hit list](/news/forever-beta-verification-hit-list/) covers what datamining can answer — these are the ten that need a developer voice.
 
 ## The questions
 
