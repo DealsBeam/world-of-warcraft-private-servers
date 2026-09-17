@@ -23,6 +23,6 @@ September 14, 2026 — Blizzard's live WoW Q&A airs **Thursday, September 17** o
 
 ## What we'll do with the answers
 
-Q&A coverage lands same-day: each answer maps to a flag on the [hit list](/news/forever-beta-verification-hit-list/) or the [hub](/classic-plus/). Unanswered questions roll into the beta-verification queue.
+Watch or catch up via the official **developer Q&A stream** on [YouTube](https://www.youtube.com/watch?v=Y5zzSMSVhRo) ("World of Warcraft Developer Q&A") or the Warcraft Twitch channel's VOD. Q&A coverage lands same-day: each answer maps to a flag on the [hit list](/news/forever-beta-verification-hit-list/) or the [hub](/classic-plus/). Unanswered questions roll into the beta-verification queue.
 
 Related: [Deep Dive + Found Photos recap](/news/forever-deep-dive-found-photos-recap/), [beta verification hit list](/news/forever-beta-verification-hit-list/).
