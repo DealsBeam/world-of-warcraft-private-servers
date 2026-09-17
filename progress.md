@@ -37,3 +37,11 @@
 - Post forever-client-data-instance-map-teases (405w) + hub meta-note; announced nine + five zones cross-checked vs hub table.
 - Dup-skipped: login screen, music, mounts wave, race-breakdown video (cosmetic/covered).
 - Gates green (135/104); pushed; IndexNow 2 URLs.
+
+# Progress — Sep 17 batch 5 (Blizzard articles + Q&A VOD)
+
+- Fetched 3 Blizzard articles: 24302544 Q&A watch (already covered), 24307305 Midnight S3 dungeon pool (retail, out of scope), 24296142 hotfixes Sep 15 (retail, out of scope).
+- User Q&A YouTube link verified: title "World of Warcraft Developer Q&A"; VOD link added to Q&A questions post.
+- Icy posted Legacy overview (Emma, 40m) — checked vs hub: FULL DUPLICATE (Reagent Economy, Bountiful Harvest, Well Rested, 16/65 cap, trees, rewards all already on hub from classicwowforever tooltips Sep 13). No new post; added Icy as corroborating source in hub meta.
+- No post-Q&A recaps yet from Icy/classicwowforever (classicwowforever last updated Sep 15) — hit list stays open.
+- Gates green; pushed; IndexNow 2 URLs.
