@@ -21,3 +21,11 @@
 - Bronzebeard DB mirror (bronzebeard.bendo.lol) new; AscensionDB explorer already covered Sep 15 — added both to links.js + Bronzebeard DB post.
 - Gates: comment balance OK, test 135 servers/102 news/108 links, smoke green, words 373/277.
 - Pushed 625822d; IndexNow 3 URLs.
+
+# Progress — Sep 17 batch 3 (Forever beta live)
+
+- Duskforge.gg inspected: Diablo IV news site, no WoW PS content — out of scope.
+- Icy Veins fetched: Forever beta goes live TODAY after Forever Q&A segment (10:30 PDT, official Reddit via Icy); PvP mega-server one-faction lock (Game Informer); loot stats hidden until first server drop + blank Dungeon Journal early (Greenfield/MMORPG.com).
+- Beta-live post (457w) + hub: PvP faction lock, surprise loot, beta start-time resolved (GameSpot "no start time" note replaced).
+- Dup-checked: class/race combos + beta access already covered (skyborne-racials post, pre-purchase post) — skipped.
+- Gates green (135 servers / 103 news); pushed 6729b51; IndexNow 2 URLs.
