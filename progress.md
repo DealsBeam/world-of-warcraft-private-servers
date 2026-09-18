@@ -107,3 +107,12 @@
 - Sourced: join post SOURCES comment extended; honest flags += monthly-wipe/liveline "intent not commitment" note; "Why both" review date → Sep 16–17.
 - Gates: comment balance OK; npm test OK; build + smoke green; join post 604w built (≤1000).
 - Pushed: 58d691e (9a) + 6cc421f (9b); IndexNow 4 URLs (classic-plus, interview post, servers/outlawcraft, join post) HTTP 200. .impeccable/ + PRODUCT.md never staged (explicit-path adds only).
+
+# Progress — Sep 17 batch 9c (OutlawCraft Survivor's Handbook full design read)
+
+- User re-pointed at outlawcraft.com; crawled remaining pages: /how_to_play, /guide (the "Survivor's Handbook"), /armory/solo_pvp ladder, the Sep 16 Beta post + re-read homepage/news. Full custom design now documented (all server-reported, single source, flagged "all subject to change").
+- New post outlawcraft-survival-handbook (925w built): full-wipe death loop (death sack + Dog Tag, respawn lvl 1, talents wiped), cap 10 + 21 talent points, hunger/thirst/bleeding tables (dehydration kills, starvation can't), 5 zombie tiers south→north (Karazhan Alphas, VanCleef is one, healing zombies, doors stop them), Black Sites (gem-opened 30-min shared maps, 5-min closure, tier ladder Ashen→Sovereign/Karazhan), claims (50yd, 2/clan, 25 pieces/5 doors, 5-day decay) + Gnomish Code Locks (6-digit, jam 1 min @5 wrong, re-key) + sapper-only doors/crowbar-from-inside raiding, 60-yard render cap + proximity voice (anti-ESP, "nothing for a cheat to read"), no general chat/mail, clan-required grouping (4-player squads), rune-gated magic, required custom patch + addon, 1 char/account + 1 login/IP, scrap economy.
+- Conflict flagged: guide says level cap 10 but the armory Solo PvP ladder lists a level-40 #1 (0 kills, no guild) — same-site self-contradiction, possibly test data, unverified; 21-character ladder all show one class icon consistent with "every race plays one class: the Outlaw."
+- servers.js OutlawCraft details extended to cover the Handbook systems + cap conflict; join post adds cross-link to the new design post.
+- Gates: comment balance 33/33; npm test OK (135/110/109/47/45 — 110 news = +1); build + smoke + internal links green; built words 925 ≤1000 (join post ~650).
+- Pushed cb7586a; IndexNow 3 URLs (design post, /servers/outlawcraft/, join post) HTTP 200.
