@@ -67,3 +67,12 @@
 - Hub: addon bullet enriched (12.1.5 shared UI architecture, Game Informer goal), GDKP bullet += gold-laundering/actioning cites, First Aid potions bullet under Combat & itemization (links new post), Skyborne paragraph += retail NPC race-ID note, sources list Icy Veins entry extended to September 17 newsroom.
 - No hit-list changes this round; links.js untouched (Icy cited inline like Tavern).
 - Gates: comment balance OK all files; npm test OK (135/108/109/47/45 — 108 news = +1); build + smoke green; internal links OK; built words qna 999 / day-one 647 / first-aid 358 (qna trimmed twice from 1072 → 999 to stay ≤1000). Pushed 2925a06 (content; .impeccable + PRODUCT.md unstaged after accidental git add -A); IndexNow 4 URLs (classic-plus + 3 posts) HTTP 200.
+
+# Progress — Sep 17 batch 7b (classicwowforever updates page pass)
+
+- User pointed at classicwowforever.com/updates/; fetched page. No Q&A recap there (their latest = the 6 datamine guides, already covered). Two corroborations worth folding in:
+- Krol'dok Stronghold: "Blizzard corrects Krol'dok to the 40–45 bracket" (panel & demo coverage, Sept 15) — hub already carried the 40-45 correction (Blizzard's Sept 14 clarification); added "(also noted by classicwowforever, September 15)" to the dungeon intro.
+- Beta close date: classicwowforever's access reference independently flags the gap ("Purchase terms say through October 21; the roadmap says October 22. Exact closing time needs clarification") — added to hub beta meta-note (line 86) + roadmap timeline (line 398). Discrepancy stays open (still not resolved; hit list item unchanged).
+- Also reconfirms beta needs no game time (classicwowforever explicit) — already attributed on hub; not re-flagged.
+- "Dungeon quests reward the first run more heavily" (Sept 15) = dup of hub line 227 (The Sun interview). No new post this round.
+- Gates: balance OK, npm test OK (135/108/109/47/45), build + smoke green. Pushed 16c9c61; IndexNow classic-plus URL.
