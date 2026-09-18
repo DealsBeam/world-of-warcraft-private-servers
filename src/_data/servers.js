@@ -1322,7 +1322,7 @@ module.exports = [
     {
         "name": "OutlawCraft",
         "status": "dev",
-        "details": "Custom WotLK 3.3.5a full-death-loot PvP ('DayZ in WoW'): no hearth, eat/drink/claim ground, solo dev, no monetization asked, beta since Sep 16 — Sep 17 live-format post: monthly full wipes once live (each announced in advance), Kalimdor opening an open question (new tier or an Eastern Kingdoms replica with a Tanaris spawn), launch 'probably about a month' after community input — 1 online at check, 18 Discord members",
+        "details": "Custom WotLK 3.3.5a full-death-loot PvP ('DayZ in WoW'): no hearth, eat/drink/claim ground, solo dev, no monetization asked, beta since Sep 16 — Sep 17 live-format post: monthly full wipes once live (each announced in advance), Kalimdor opening an open question (new tier or an Eastern Kingdoms replica with a Tanaris spawn), launch 'probably about a month' after community input — Sep 17 Survivor's Handbook design read: level cap 10 with full-wipe death loop (death sack + Dog Tag, talents wiped), hunger/thirst/bleeding survival, 5 zombie tiers south-to-north (Karazhan Alphas, VanCleef is one), gem-opened Black Site dungeons, 50yd claims + Gnomish Code Locks + sapper-only raiding, 60-yard render cap + proximity voice (anti-ESP), required custom patch + addon, 1 char/account, 1 login/IP; armory ladder shows a level-40 #1 vs guide cap 10 (same-site conflict) — 1 online at check, 18 Discord members",
         "tag": "WotLK",
         "group": "",
         "url": "https://outlawcraft.com/",

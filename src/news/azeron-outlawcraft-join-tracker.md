@@ -30,6 +30,8 @@ Honest flags:
 - Full-death-loot PvP is a hard niche. The tracker lists it for the design, not the population.
 - The monthly-wipe live format and the "about a month" launch estimate are server-reported intentions, not commitments — "all subject to change depending on community feedback."
 
+Full design read — the "Survivor's Handbook" guide (zombie tiers, Black Sites, claims and code locks, the 60-yard anti-ESP render cap, and the level-40-vs-cap-10 conflict) — is in [OutlawCraft's survival handbook](/news/outlawcraft-survival-handbook/).
+
 ## Why both
 
 The Legion scene keeps drawing fresh x-rates projects as Forever's launch approaches, and survival-loot custom design on a WotLK base is a corner of the emulation scene the tracker did not cover yet. Both are new claims: status `dev`, population `unknown`/`tiny`, data reviewed September 16–17.
