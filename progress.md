@@ -116,3 +116,17 @@
 - servers.js OutlawCraft details extended to cover the Handbook systems + cap conflict; join post adds cross-link to the new design post.
 - Gates: comment balance 33/33; npm test OK (135/110/109/47/45 — 110 news = +1); build + smoke + internal links green; built words 925 ≤1000 (join post ~650).
 - Pushed cb7586a; IndexNow 3 URLs (design post, /servers/outlawcraft/, join post) HTTP 200.
+
+# Progress — Sep 17 batch 10 (wowforeverclassic re-check /racials + pricing)
+
+- User re-pointed at wowforeverclassic.com after batch 8's full crawl. Sitemap diff: URL set identical (~95 paths, no new pages). Re-read the highest-delta pages to catch beta-day updates: /forever, /guides/release-date-beta, /guides/dungeons-by-level, /forever/system/{class-changes,items-and-stats,camping}, /forever/race/racial-abilities, /racials. All system/guide pages match batch-8-integrated facts (cap 20→30 reported, 21 Oct close, Krol'dok 40-55 stale page, Alcaz reported-only, camping objects, class reworks). True deltas: the full /racials 40-racial table + the Reported pricing block.
+- Hub (classic-plus.njk):
+  - Racial meta note aligned + resolved: Command and Diplomacy dropped (wfc /racials table lists neither for any race — 40 racials, 17 new, 15 changed, per-racial grades); Classic weapon-skill specializations → crit-based (Sword +2%, Axe +1%, Mace +1% spell-and-ability crit); NE Quickness + Gnome Engineering Specialization stay two-way conflicts (wfc grades both "unconfirmed").
+  - Invite-A-Friend line: single-report code-count conflict flagged — wfc (reported) lists Epic 2 codes / Collection 3 vs Blizzard official 3 for Epic; official count retained.
+  - Hardcore: wfc (official) exclusion from account-wide Collections + Legacy Points added to the one-way-transfer bullet.
+  - Beta FAQ: beta-ops notes added — client can go offline at any time; no separate beta forums (feedback on the WoW Forever forum), per Blizzard support article via wfc.
+  - Sources: wfc entry extended with the Sep 17 re-check (same-day page refresh confirmed on six pages; corroborates integrated facts; adds the IAF code-count conflict).
+- Hit list (forever-beta-verification-hit-list.md, 961w built ≤1000): Round 3 block added — item 8 (racial leftovers) resolved on structure; item 7 (Heroic $29.99) corroborated-not-official (wfc reported block: Heroic $30 / Epic $60 / Collection ~$80, 3rd read); new open item: IAF code-count single-report conflict. Minor trims to stay under the cap.
+- Unchanged/open: NE Quickness + Gnome Engineering (Unconfirmed two-way); cap 20→30 + wipe (reported); Onyxia Dec 9 (reported); Oct 21 vs 22 close (still open; wfc reaffirms 21).
+- Gates: comment balance 33/33; npm test OK (135/110/109/47/45); build + smoke + internal links green; hit list 961w ≤1000.
+- Pushed 7627d27; IndexNow 2 URLs (/classic-plus/, hit list) HTTP 200. .impeccable/ + PRODUCT.md never staged (explicit-path adds only).
