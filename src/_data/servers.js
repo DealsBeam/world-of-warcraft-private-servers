@@ -1322,12 +1322,12 @@ module.exports = [
     {
         "name": "OutlawCraft",
         "status": "dev",
-        "details": "Custom WotLK 3.3.5a full-death-loot PvP ('DayZ in WoW'): no hearth, eat/drink/claim ground, solo dev, no monetization asked, beta test announced Sep 16 — 4 online at check, 12 Discord members",
+        "details": "Custom WotLK 3.3.5a full-death-loot PvP ('DayZ in WoW'): no hearth, eat/drink/claim ground, solo dev, no monetization asked, beta since Sep 16 — Sep 17 live-format post: monthly full wipes once live (each announced in advance), Kalimdor opening an open question (new tier or an Eastern Kingdoms replica with a Tanaris spawn), launch 'probably about a month' after community input — 1 online at check, 18 Discord members",
         "tag": "WotLK",
         "group": "",
         "url": "https://outlawcraft.com/",
         "release": "TBD",
-        "updated": "2026-09-16",
+        "updated": "2026-09-17",
         "popTier": "tiny"
     },
     {

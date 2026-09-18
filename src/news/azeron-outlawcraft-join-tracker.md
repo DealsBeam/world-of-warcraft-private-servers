@@ -21,16 +21,19 @@ Honest flags:
 
 [Server page](/servers/outlawcraft/). Beta announced September 16. The developer describes the custom content as an attempt to "replicate DayZ in WoW": **full death loot PvP**, "no hearth. Eat. Drink. Claim ground." It runs on the standard WotLK 3.3.5a client with a launcher, is built by a solo developer, and no monetization is being asked.
 
+Day two (September 17) brought the live-format post, "What does live look like?": once the server goes live there will be **a full wipe every month on a set date** — all character and base progression — with each wipe announced in advance, a deliberate answer to the survival-loot problem of geared players running out of progression. Kalimdor's end-game access is an open question for the community: a new raid tier, or a replica of the Eastern Kingdoms with a spawn point in or around Tanaris (the developer will poll Discord). Replayability is framed around the trek — build a fortress, hunt the best gear, or raid other bases. The beta itself will be wiped before launch; the developer's hedged timeline is "probably about a month," subject to community input.
+
 Honest flags:
 
-- Snapshot: 4 online, Discord at 12 members (checked September 16). `tiny` is generous.
+- Snapshot (September 17, day two): 1 online, Discord at 18 members. `tiny` is generous.
 - Solo development is sustainable as a hobby and fragile as a commitment — neither claim is proven either way.
 - Full-death-loot PvP is a hard niche. The tracker lists it for the design, not the population.
+- The monthly-wipe live format and the "about a month" launch estimate are server-reported intentions, not commitments — "all subject to change depending on community feedback."
 
 ## Why both
 
-The Legion scene keeps drawing fresh x-rates projects as Forever's launch approaches, and survival-loot custom design on a WotLK base is a corner of the emulation scene the tracker did not cover yet. Both are new claims: status `dev`, population `unknown`/`tiny`, data reviewed September 16.
+The Legion scene keeps drawing fresh x-rates projects as Forever's launch approaches, and survival-loot custom design on a WotLK base is a corner of the emulation scene the tracker did not cover yet. Both are new claims: status `dev`, population `unknown`/`tiny`, data reviewed September 16–17.
 
 <!--
-SOURCES: azeron.org homepage, roadmap and news (Sep 13 open-beta announcement, build 26365, x10/x5, wipe-before-release, beta-tester rewards, realmlist legion.azeron.org; uptime/online widget read Sep 16); outlawcraft.com homepage, how_to_play and news (Beta announcement Sep 16, full-death-loot PvP, "DayZ in WoW" developer wording, "no hearth" tagline, server.outlawcraft.com realmlist; online counter + Discord widget read Sep 16).
+SOURCES: azeron.org homepage, roadmap and news (Sep 13 open-beta announcement, build 26365, x10/x5, wipe-before-release, beta-tester rewards, realmlist legion.azeron.org; uptime/online widget read Sep 16); outlawcraft.com homepage, how_to_play and news (Beta announcement Sep 16, full-death-loot PvP, "DayZ in WoW" developer wording, "no hearth" tagline, server.outlawcraft.com realmlist; online counter + Discord widget read Sep 16; "What does live look like?" post Sep 17: scheduled monthly wipes once live, Kalimdor open question w/ Discord poll, "probably about a month" to launch, beta wipe before launch; online counter + Discord widget re-read Sep 17).
 -->
