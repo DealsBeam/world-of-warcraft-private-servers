@@ -36,6 +36,18 @@ The beta client is out and the first datamine pass is done — [round-one datami
 
 Still open: **1** — Onyxia's December 9 placement (a second independent fan read, wowforeverclassic.com, also says December 9; still no official confirmation); **2** — beta close Oct 21 vs 22 (Tavern's beta guide now also reads 22); **3** — Skyborne subtype names; **6** — Spearing Strike; **7** — Heroic $29.99 storefront price; **8** — Classic-only racial leftovers; **9** — the Forsaken Paladin mount model (possibly among the roughly 3,300 sealed files); **10** — 2027 fine print.
 
+## Round 2 resolves (wowforeverclassic crawl, Sep 17)
+
+A full crawl of wowforeverclassic.com (its confidence grades: Official/Verified/Reported/Unconfirmed) corroborates round one and moves two items:
+
+- **Item 5 (dungeon roster) — name variance documented.** wowforeverclassic reads the Whelgar's-site dungeon as **"Whelgar's Excavation"** (24–29, a Titan site "trapped in time"); classicwowforever's beta data calls it **"Excavation Site"** (24–29, "above Whelgar's Excavation"). Same band and location, different working name — Blizzard names only the site, not the dungeon. No outlet discloses boss lists or Blueprint drops for the nine.
+- **Item 4 (Legacy structure) — caps double-confirmed.** wowforeverclassic reads the same 16-point spend and 65-point earnable caps, the Spectral Bear collection track, and names 10 perks (Field Medicine shortens Recently Bandaged). Exact effects and ranks (17 perks, 0/1–0/5 per classicwowforever) still wait on the in-game Legacy UI.
+
+New open items:
+
+- **Alcaz Prison's 48–53 bracket is reported-only.** wowforeverclassic grades it "reported"; no Blizzard source pins the range — the nine-dungeon list is official, this one is not.
+- **Krol'dok note.** wowforeverclassic's dungeon page still shows pre-correction 40–55 (with a flagged 35–40 conflict) — it predates Blizzard's September 14 40–45 clarification, so our 40–45 stands (Blizzard official + classicwowforever's September 15 correction); treat that page as stale on Krol'dok.
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.

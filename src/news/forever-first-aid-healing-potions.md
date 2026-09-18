@@ -6,7 +6,7 @@ description: "The WoW Forever beta's First Aid overhaul: Healing Potions from Mi
 tags: [wow, classic-plus, professions, beta]
 ---
 
-September 17, 2026 — the WoW Forever beta rebalances primary professions, and the headline change so far: **First Aid now crafts Healing Potions**, taking those recipes away from Alchemy ([Icy Veins, Anshlun](https://www.icy-veins.com/wow-forever/news/healing-potions-now-crafted-by-first-aid-in-wow-forever/)). First Aid keeps its regular bandages on top of the new potions.
+September 17, 2026 — the WoW Forever beta rebalances First Aid, and the headline change so far: **First Aid now crafts Healing Potions**, taking those recipes away from Alchemy ([Icy Veins, Anshlun](https://www.icy-veins.com/wow-forever/news/healing-potions-now-crafted-by-first-aid-in-wow-forever/); wowforeverclassic.com's First Aid page independently confirms healing potions appear as First Aid crafts, though it flags whether Alchemy can also make them as "unclear"). First Aid keeps its regular bandages on top of the new potions.
 
 The required First Aid skill levels, as read from the beta data:
 
@@ -19,4 +19,6 @@ The required First Aid skill levels, as read from the beta data:
 
 Materials shift too: the potions still need herbs and vials, but now also pull in cooking recipes such as **Mild Spices and Hot Spices**. In other WoW versions all of these are crafted by Alchemy, so the move is a real division-of-labor change in Forever — in practice, classes that used to skip First Aid because they could self-heal now have a stronger reason to train it, since health potions become available on demand while leveling.
 
-Single-source so far: this comes from Icy Veins' roundup alone (skill values appear datamined from the beta client), so treat the exact levels as reported-not-confirmed until a second outlet or the client itself verifies them. It updates the [hub's professions and itemization notes](/classic-plus/#itemization) — [more beta coverage](/news/forever-beta-live-day-one/).
+The wider First Aid kit gains **curatives** on top of bandages and potions (wowforeverclassic, demo footage): **Woolen Tourniquet** (removes Bleeds), **Simple Poultice** (cures diseases) and **Anti-Venom** (cures poisons). First Aid also contributes a camp object — the **First Aid Kit**, which grants Stamina "like Power Word: Fortitude" and is crafted from Linen Bandages and Refreshing Spring Water — and the Professions-tree Legacy perk **Field Medicine** shortens the Recently Bandaged duration (5s per rank).
+
+Sources: two outlets now agree potions are First Aid crafts (Icy Veins with beta-data skill levels; wowforeverclassic from demo footage). The exact skill levels (55–275) and the "out of Alchemy" removal still rest on Icy Veins alone — wowforeverclassic explicitly leaves "unclear" whether Alchemy can also make them — so treat those two points as reported-not-confirmed until the client or a second outlet verifies them. It updates the [hub's professions and itemization notes](/classic-plus/#itemization) — [more beta coverage](/news/forever-beta-live-day-one/).
