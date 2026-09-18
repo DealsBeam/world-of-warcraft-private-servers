@@ -430,5 +430,9 @@ module.exports = [
     {
         "title": "DragonUI-CoA — retail-style modular UI addon for Conquest of AzerothCore (MIT)",
         "url": "https://github.com/PentSec/DragonUI-CoA"
+    },
+    {
+        "title": "WowForeverClassic — unofficial WoW Forever map, talent calculator and guides, every fact source-linked with a confidence grade",
+        "url": "https://www.wowforeverclassic.com/"
     }
 ];

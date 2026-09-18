@@ -27,8 +27,17 @@ September 14, 2026 — The Forever beta opens **Thursday, September 17** (level 
 
 10. **Spring/Summer 2027 fine print.** Roadmap-graphic transcription only; beta contains launch content, not 2027 plans. This one waits on Blizzard, not datamining.
 
+## Round 1 resolves (Sep 17)
+
+The beta client is out and the first datamine pass is done — [round-one datamine](/news/forever-beta-datamine-round-one/). Two items moved:
+
+- **Item 5 (dungeon roster) — mostly resolved.** All nine announced destinations check out in the data. The Whelgar's-site dungeon has a working name — **"Excavation Site"** (24–29, described as "above Whelgar's Excavation" in the Wetlands, per classicwowforever's dungeon reading) — and the furbolg-city dungeon from Inven's reporting maps to **Blackmaw Hold (Azshara)**, not a Timbermaw Hold dungeon. Entrances and interior maps still want in-game confirmation.
+- **Item 4 (Legacy perk ranks) — partial.** The beta spell census counts 10 "Legacy Perks & Boons" spells in the build, confirming Legacy spells exist in the files, but the 17 perk effects and their ranks (0/1–0/5) still wait on the in-game Legacy UI.
+
+Still open: **1** — Onyxia's December 9 placement (a second independent fan read, wowforeverclassic.com, also says December 9; still no official confirmation); **2** — beta close Oct 21 vs 22 (Tavern's beta guide now also reads 22); **3** — Skyborne subtype names; **6** — Spearing Strike; **7** — Heroic $29.99 storefront price; **8** — Classic-only racial leftovers; **9** — the Forsaken Paladin mount model (possibly among the roughly 3,300 sealed files); **10** — 2027 fine print.
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.
 
-Related: [Deep Dive + Found Photos recap](/news/forever-deep-dive-found-photos-recap/), [Q&A questions we're asking Sep 17](/news/wow-forever-live-qa-questions/).
+Related: [Deep Dive + Found Photos recap](/news/forever-deep-dive-found-photos-recap/), [Q&A questions we're asking Sep 17](/news/wow-forever-live-qa-questions/), [Q&A answers Sep 17](/news/forever-qna-answers-sep-17/), [day-one known issues](/news/forever-beta-live-day-one/), [round-one datamine](/news/forever-beta-datamine-round-one/).
