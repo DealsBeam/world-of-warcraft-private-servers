@@ -19,7 +19,7 @@ September 14, 2026 — The Forever beta opens **Thursday, September 17** (level 
 
 5. **Dungeon roster and entrances.** Nine destinations are official; the Whelgar's-site dungeon is unnamed and Timbermaw Hold rests on Inven reporting. Zone maps and dungeon entrances settle both.
 6. **Spearing Strike.** Warrior anti-mount talent known only from Xaryu's creator footage (40% weapon damage, dismount, 15 Rage/20s). Talent calculators and tooltips confirm or kill it.
-7. **Heroic $29.99.** Storefront reporting (Icy-Veins), never Blizzard-quoted. The live shop on beta week either prints prices or doesn't.
+7. **Heroic $29.99.** Storefront reporting (Icy Veins), never Blizzard-quoted; the live shop either prints it or doesn't.
 8. **Racial leftovers.** Dwarf/Undead entries are now official; remaining question is which Classic-only racials (Command, Diplomacy, weapon specs) survived. Creation screens answer it.
 9. **Forsaken Paladin mount.** "Retribution" mount quest is Found Photos-recap official; the mount model itself (Icy-Veins first look) wants in-client confirmation.
 
@@ -31,7 +31,7 @@ September 14, 2026 — The Forever beta opens **Thursday, September 17** (level 
 
 The beta client is out and the first datamine pass is done — [round-one datamine](/news/forever-beta-datamine-round-one/). Two items moved:
 
-- **Item 5 (dungeon roster) — mostly resolved.** All nine announced destinations check out in the data. The Whelgar's-site dungeon has a working name — **"Excavation Site"** (24–29, described as "above Whelgar's Excavation" in the Wetlands, per classicwowforever's dungeon reading) — and the furbolg-city dungeon from Inven's reporting maps to **Blackmaw Hold (Azshara)**, not a Timbermaw Hold dungeon. Entrances and interior maps still want in-game confirmation.
+- **Item 5 (dungeon roster) — mostly resolved.** All nine announced destinations check out in the data. The Whelgar's-site dungeon has a working name — **"Excavation Site"** (24–29, "above Whelgar's Excavation", Wetlands, per classicwowforever) — and Inven's furbolg-city dungeon maps to **Blackmaw Hold (Azshara)**, not a Timbermaw Hold dungeon. Entrances still want in-game confirmation.
 - **Item 4 (Legacy perk ranks) — partial.** The beta spell census counts 10 "Legacy Perks & Boons" spells in the build, confirming Legacy spells exist in the files, but the 17 perk effects and their ranks (0/1–0/5) still wait on the in-game Legacy UI.
 
 Still open: **1** — Onyxia's December 9 placement (a second independent fan read, wowforeverclassic.com, also says December 9; still no official confirmation); **2** — beta close Oct 21 vs 22 (Tavern's beta guide now also reads 22); **3** — Skyborne subtype names; **6** — Spearing Strike; **7** — Heroic $29.99 storefront price; **8** — Classic-only racial leftovers; **9** — the Forsaken Paladin mount model (possibly among the roughly 3,300 sealed files); **10** — 2027 fine print.
@@ -46,7 +46,14 @@ A full crawl of wowforeverclassic.com (its confidence grades: Official/Verified/
 New open items:
 
 - **Alcaz Prison's 48–53 bracket is reported-only.** wowforeverclassic grades it "reported"; no Blizzard source pins the range — the nine-dungeon list is official, this one is not.
-- **Krol'dok note.** wowforeverclassic's dungeon page still shows pre-correction 40–55 (with a flagged 35–40 conflict) — it predates Blizzard's September 14 40–45 clarification, so our 40–45 stands (Blizzard official + classicwowforever's September 15 correction); treat that page as stale on Krol'dok.
+- **Krol'dok note.** wowforeverclassic's page still shows pre-correction 40–55 (flagged 35–40 conflict); it predates Blizzard's September 14 clarify, so our 40–45 stands — treat that page as stale.
+
+## Round 3 resolves (wowforeverclassic /racials table, Sep 17)
+
+- **Item 8 (racial leftovers) — resolved on structure.** The 40-racial table (17 new, 15 changed, each graded with sources) lists Command and Diplomacy in no race's set: dropped. The Classic weapon-skill specializations became crit-based (Sword +2%, Axe +1%, Mace +1% spell-and-ability crit). Per-race hub bullets and grades stand.
+- **Item 7 (Heroic $29.99) — corroborated, not official.** wowforeverclassic (reported) reads Heroic $30 / Epic $60 / Collection about $80 ($79.99); the hub keeps the storefront figures and Blizzard's silence on printed prices.
+
+New open: one report (wowforeverclassic, reported) counts Epic at **2** Invite-A-Friend codes vs Blizzard's official 3 — flagged on the hub.
 
 ## How we'll work it
 
