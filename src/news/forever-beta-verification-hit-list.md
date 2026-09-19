@@ -46,7 +46,7 @@ A full crawl of wowforeverclassic.com (its confidence grades: Official/Verified/
 New open items:
 
 - **Alcaz Prison's 48–53 bracket is reported-only.** wowforeverclassic grades it "reported"; no Blizzard source pins the range — the nine-dungeon list is official, this one is not.
-- **Krol'dok note.** wowforeverclassic's page still shows pre-correction 40–55 (flagged 35–40 conflict); it predates Blizzard's September 14 clarify, so our 40–45 stands — treat that page as stale.
+- **Krol'dok note.** wowforeverclassic's table still shows pre-correction 40–55 (flagged 35–40 conflict) despite its September 17 check date; our 40–45 stands on Blizzard's forum clarification — treat that table cell as stale, not the whole page.
 
 ## Round 3 resolves (wowforeverclassic /racials table, Sep 17)
 
@@ -65,6 +65,7 @@ Full pass over classicwowforever.com/updates, wowforeverclassic.com and warcraft
 - Player workarounds (crash lighting toggle, VPN lag fix, contested addon carryover) are new coverage, not hit-list items: [player workarounds](/news/forever-beta-player-workarounds/). Systems detail (Familiar Faces, reagent bag, bank size, profession patterns): [systems roundup](/news/forever-systems-roundup-familiar-faces-bags/).
 - **Item 2 update (Sep 19):** classicwowforever's beta guide reads beta ends **Oct 21**, making it three sources for 21 (purchase terms, wowforeverclassic timeline, classicwowforever) against two for 22 (roadmap graphic, Tavern guide). Still no in-client message, so still open.
 - **New watch item: Server Slam open window.** classicwowforever's beta guide reports Blizzard will open the beta to everyone for several hours at some point, timing unannounced. Unconfirmed until Blizzard or the client says so.
+- **New watch item: teased Legendary.** wowforeverclassic reports Blizzard teased a new Legendary with identity and raid link unrevealed (single report). No detail to verify against yet.
 
 ## How we'll work it
 
