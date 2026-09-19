@@ -55,6 +55,15 @@ New open items:
 
 New open: one report (wowforeverclassic, reported) counts Epic at **2** Invite-A-Friend codes vs Blizzard's official 3 — flagged on the hub.
 
+## Round 4 notes (three-site crawl, Sep 19)
+
+Full pass over classicwowforever.com/updates, wowforeverclassic.com and warcrafttavern.com/news. No hit-list moves:
+
+- **Item 2 (beta close) stays open, split now mapped.** wowforeverclassic's homepage timeline reads beta ends **Oct 21**, matching the purchase terms; the roadmap graphic and Tavern's beta guide read 22. Two sources each way, still no in-client message to break it.
+- **Item 1 (Onyxia Dec 9) stays reported-only.** wowforeverclassic's timeline repeats Dec 9 for Barrow Deeps, Hyjal Summit and Onyxia's Lair 40-player, all sourced to the roadmap slide. Corroboration of the transcription, not new confirmation.
+- **Cap 20 rising to 30** now has a second independent read (wowforeverclassic homepage: "capped at level 20 and rising to 30 after a couple of weeks"). Still pre-release until the cap actually moves.
+- Player workarounds (crash lighting toggle, VPN lag fix, contested addon carryover) are new coverage, not hit-list items: [player workarounds](/news/forever-beta-player-workarounds/). Systems detail (Familiar Faces, reagent bag, bank size, profession patterns): [systems roundup](/news/forever-systems-roundup-familiar-faces-bags/).
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.
