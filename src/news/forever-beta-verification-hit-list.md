@@ -12,7 +12,7 @@ September 14, 2026 — The Forever beta opens **Thursday, September 17** (level 
 
 1. **Onyxia's Lair date.** Zierhut named it as the 40-player third raid; only the December 9 placement rests on transcription. Beta client (raid journals, calendars, loading screens) may confirm or deny.
 2. **Beta close: Oct 21 vs 22.** Purchase terms say 21, roadmap graphic 22. In-client messaging or server broadcasts should resolve it.
-3. **Skyborne subtype names.** "Windshaper" (Horde) and "High Order" (Alliance) come from fan transcription of footage, explicitly unofficial. Character creation will show the real names.
+3. **Skyborne subtype names.** "Windshaper" (Horde) and "High Order" (Alliance) come from fan transcription of footage, explicitly unofficial. Both fan references now use these names consistently (race headers, guide sections); still unofficial until character creation shows the real names.
 4. **Legacy perk ranks.** All 17 perk effects and ranks (0/1 through 0/5) rest on captured pre-release tooltips. Beta talent/legacy UI confirms each rank.
 
 ## Verify within the first week
@@ -33,7 +33,7 @@ The beta client is out and the first datamine pass is done — [round-one datami
 
 - **Item 5 (dungeon roster) — mostly resolved.** All nine announced destinations check out in the data. The Whelgar's-site dungeon has a working name — **"Excavation Site"** (24–29, "above Whelgar's Excavation", Wetlands, per classicwowforever) — and Inven's furbolg-city dungeon maps to **Blackmaw Hold (Azshara)**, not a Timbermaw Hold dungeon. Entrances still want in-game confirmation.
 - **Item 4 (Legacy perk ranks) — partial.** The beta spell census counts 10 "Legacy Perks & Boons" spells in the build, confirming Legacy spells exist in the files, but the 17 perk effects and their ranks (0/1–0/5) still wait on the in-game Legacy UI.
-- **Item 4 count note (Sep 19).** The references do not agree on how many perks exist: classicwowforever's pre-release read counts 17 effects, wowforeverclassic's tables name 21 (7 per tree), and the beta files hold 10 Legacy spells. The hub now lists all 21 named perks with demo-sourced ranks; the beta UI is the tiebreaker.
+- **Item 4 count note (Sep 19).** The references do not agree on how many perks exist: classicwowforever's pre-release read counts 17 effects, wowforeverclassic's tables name 21 (7 per tree), and the beta files hold 10 Legacy spells. The hub now lists all 21 named perks with demo-sourced ranks; the beta UI is the tiebreaker. Full per-rank values (69 ranks) plus 5/10-point gates and connectors are now published from the beta client (classicwowforever, Sep 19) — but in-game confirmation still waits, since Legacy opens at 25 above the beta cap of 20.
 
 Still open: **1** — Onyxia's December 9 placement (a second independent fan read, wowforeverclassic.com, also says December 9; still no official confirmation); **2** — beta close Oct 21 vs 22 (Blizzard's forum launch post also reads Oct 21, so two official texts say 21 against the roadmap graphic and Tavern's 22; still no in-client message); **3** — Skyborne subtype names; **6** — Spearing Strike; **7** — Heroic $29.99 storefront price; **8** — Classic-only racial leftovers; **9** — the Forsaken Paladin mount model (possibly among the roughly 3,300 sealed files); **10** — 2027 fine print.
 
