@@ -378,25 +378,14 @@ module.exports = [
         "popTier": "tiny"
     },
     {
-        "name": "Centurion — Legionnaire+",
+        "name": "Centurion",
         "status": "playable",
-        "details": "Instant-60 Vanilla-1.12 mechanics on 3.3.5 client — Vanilla ranks/CC/cast times via the WotLK engine, custom PvP balance, full collision, factionless quest support, opt-in hardcore and transmog, no paywall",
+        "details": "Vanilla-1.12 mechanics on 3.3.5 client (ranks, CC, cast times, collision, factionless, no paywall) — Legionnaire+ and Barracks+ merged into one realm Sep 18 2026, characters carried over; world vs tournament characters, BG cooldown separation, tiered BG AI, Gurubashi chest timer, PvP ladder",
         "tag": "Vanilla+",
         "group": "Centurion",
         "url": "https://centurionpvp.com/",
-        "updated": "2026-09-01",
+        "updated": "2026-09-19",
         "popTier": "tiny"
-    },
-    {
-        "name": "Centurion — Barracks+",
-        "status": "dev",
-        "details": "PvE sister to Legionnaire+ — same Vanilla-1.12-in-3.3.5 client core, no-bind loot, world PvP via playerbots, warmode flagging, open beta",
-        "tag": "Vanilla+",
-        "group": "Centurion",
-        "url": "https://centurionpvp.com/",
-        "release": "Open beta",
-        "updated": "2026-09-01",
-        "popTier": "unknown"
     },
     {
         "name": "OnlyFunsWoW",
@@ -771,11 +760,11 @@ module.exports = [
     {
         "name": "Warstorm",
         "status": "playable",
-        "details": "Solo WotLK since Sep 2025, ~200 pop, blizzlike NPC stats, AI PlayerBots that execute raid strategies (ICC25 HC capable), dungeon finder, 1-5x XP, transmog",
+        "details": "Solo WotLK since Sep 2025, ~200 pop, blizzlike NPC stats, AI PlayerBots that execute raid strategies (ICC25 HC capable), dungeon finder, 1-5x XP, transmog, Auto-Grind-Bot (AFK leveling, in-game), Book of Powers (mounts at any level, mobile bank/AH, Dalaran TP), Activity Points store",
         "tag": "WotLK",
         "group": "",
         "url": "https://warstorm.org/",
-        "updated": "2026-08-30",
+        "updated": "2026-09-19",
         "popTier": "small"
     },
     {

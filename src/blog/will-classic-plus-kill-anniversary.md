@@ -31,7 +31,7 @@ That corridor is unique officially and stable privately. TBC holds 7 rows steady
 
 Classic Plus would be a different shape. It keeps Vanilla at 60 and layers zones, dungeons, tuning, and systems.
 
-Private Classic+ tried that shape already. [Epoch Reborn](/servers/project-epoch-reborn/) tests, [Duskhaven](/servers/duskhaven/) waits, [Centurion](/servers/centurion-legionnaire/) runs tiny.
+Private Classic+ tried that shape already. [Epoch Reborn](/servers/project-epoch-reborn/) tests, [Duskhaven](/servers/duskhaven/) waits, [Centurion](/servers/centurion/) runs tiny.
 
 [Project Legacy](/servers/project-legacy/) grows near 1,000 accounts. No row agrees on how Vanilla should widen yet.
 

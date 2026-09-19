@@ -31,7 +31,7 @@ Private Vanilla+ ships the same idea as talents on [Vanilla+](/servers/vanilla/)
 
 [Project Legacy](/servers/project-legacy/) ships reworked talents plus dual spec.
 
-[Centurion Legionnaire+](/servers/centurion-legionnaire/) rebalances old trees too.
+[Centurion](/servers/centurion/) rebalances old trees too.
 
 SoD proved players accept new identity layered on old identity.
 

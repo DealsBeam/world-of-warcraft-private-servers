@@ -69,7 +69,7 @@ For large WotLK, see [Warmane](/servers/warmane/) with biggest pools and fastest
 
 For solo WotLK with bots, see [Old Man Warcraft](/servers/old-man-warcraft/) with scaling and LLM chat.
 
-For instant 60 Vanilla PvP, see [Centurion Legionnaire](/servers/centurion-legionnaire/) and Barracks plus.
+For instant 60 Vanilla PvP, see [Centurion](/servers/centurion/).
 
 ## Getting started
 

@@ -15,7 +15,7 @@ That gap is the story.
 
 Seasonal is not a patch. It is a loop. Level, gear, raid, reset, do it again. The leak says 24 months: two years of content, then a fresh start where everyone is level 1 again, with a new season's tweaks on top. The box purchase is the gate, the season is the clock.
 
-Private servers have lived the opposite clock. [Project Legacy](/servers/project-legacy/) promises "no wipe" and a Murky reward for open-beta accounts that is permanent. [Centurion Legionnaire+](/servers/centurion-legionnaire/) promises no paywall, no reset, level 60 forever. [Turtle WoW](/servers/turtle-wow/) promised the same for eight years until the injunction — the only reset it ever shipped was a leak, not a season. The private promise is: your character waits.
+Private servers have lived the opposite clock. [Project Legacy](/servers/project-legacy/) promises "no wipe" and a Murky reward for open-beta accounts that is permanent. [Centurion](/servers/centurion/) promises no paywall, no reset, level 60 forever. [Turtle WoW](/servers/turtle-wow/) promised the same for eight years until the injunction — the only reset it ever shipped was a leak, not a season. The private promise is: your character waits.
 
 Seasonal breaks that promise on purpose. It says the world does not wait. It resets so the population does not decay.
 

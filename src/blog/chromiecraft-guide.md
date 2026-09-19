@@ -61,7 +61,7 @@ Cons: no ICC on day one, pure Blizzlike only, slower growth than commercial, no 
 
 Compare to Warmane: Chromiecraft is quality-first. [Warmane](/servers/warmane/) is population-first. Pick your bias.
 
-Compare to custom: no custom classes here. See [Centurion Legionnaire](/servers/centurion-legionnaire/) for custom PvP balance.
+Compare to custom: no custom classes here. See [Centurion](/servers/centurion/) for custom PvP balance.
 
 For solo scaling, see [Old Man Warcraft](/servers/old-man-warcraft/) with bots and Mythic plus style.
 

@@ -1,4 +1,10 @@
 {
+  "redirects": [
+    { "source": "/servers/centurion-legionnaire/", "destination": "/servers/centurion/", "permanent": true },
+    { "source": "/servers/centurion-legionnaire", "destination": "/servers/centurion/", "permanent": true },
+    { "source": "/servers/centurion-barracks/", "destination": "/servers/centurion/", "permanent": true },
+    { "source": "/servers/centurion-barracks", "destination": "/servers/centurion/", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/style.css",

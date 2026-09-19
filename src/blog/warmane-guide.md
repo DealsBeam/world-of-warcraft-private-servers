@@ -67,7 +67,7 @@ Read realm rules before buying. Know what the shop sells on your realm and what 
 
 Warmane remains the default WotLK pick. Not niche, not custom, just large and steady.
 
-If you want custom WotLK, see [Project Legacy](/servers/project-legacy/) or [Centurion Legionnaire](/servers/centurion-legionnaire/).
+If you want custom WotLK, see [Project Legacy](/servers/project-legacy/) or [Centurion](/servers/centurion/).
 
 For solo WotLK with bots, see [Old Man Warcraft](/servers/old-man-warcraft/) or TheraWoW-style scaling realms.
 

@@ -65,7 +65,7 @@ Compare to Chromiecraft: Old Man is custom small. [Chromiecraft](/servers/chromi
 
 For Vanilla+ with new quests, see [Project Legacy](/servers/project-legacy/) with 150 plus quests.
 
-For instant 60 Vanilla PvP, see [Centurion Legionnaire](/servers/centurion-legionnaire/) with full collision.
+For instant 60 Vanilla PvP, see [Centurion](/servers/centurion/) with full collision.
 
 ## Getting started
 
