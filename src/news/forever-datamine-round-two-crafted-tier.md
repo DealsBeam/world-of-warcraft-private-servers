@@ -6,7 +6,7 @@ description: "Icy Veins' Anshlun datamined Forever's crafted Artisan tier sets: 
 tags: [wow, blizzcon-2026, classic-plus, beta, datamine]
 ---
 
-September 19, 2026 — the second datamine wave after [round one](/news/forever-beta-datamine-round-one/) is about crafted power. Icy Veins' Anshlun found **Artisan tier sets** in the beta files: crafted pieces (shoulders, boots, leggings, gloves per set, with entries for six slots) that grow with phases. The economy around them is the story.
+September 19, 2026: the second datamine wave after [round one](/news/forever-beta-datamine-round-one/) is about crafted power. Icy Veins' Anshlun found **Artisan tier sets** in the beta files: crafted pieces (shoulders, boots, leggings, gloves per set, with entries for six slots) that grow with phases. The economy around them is the story.
 
 - **Raid loot feeds crafting.** Each piece costs 3 **Malleable Essences of Nature**, obtained only by disenchanting items from the two launch raids, Hyjal Summit and Barrow Deeps. Raiders supply crafters by definition.
 - **One piece at first, two later.** Only one crafted tier item is equippable at launch, so no set bonus is reachable on day one. The **Guardians of Hyjal** reputation raises the limit to two, unlocking 2-piece bonuses.
