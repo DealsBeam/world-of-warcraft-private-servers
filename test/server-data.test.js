@@ -11,7 +11,7 @@ const path = require("path");
 
 const STATUSES = ["playable", "dev", "dead"];
 const POPTIERS = ["large", "medium", "small", "tiny", "unknown"];
-const TAGS = ["Vanilla", "Vanilla+", "TBC", "WotLK", "Cataclysm", "MoP", "Legion", "TWW", "Multi", "Classless", "MOBA", ""];
+const TAGS = ["Vanilla", "Vanilla+", "TBC", "WotLK", "Cataclysm", "MoP", "Legion", "TWW", "Multi", "Classless", "MOBA", "WoD", ""];
 const TODAY = new Date().toISOString().slice(0, 10);
 
 for (const s of SERVERS) {

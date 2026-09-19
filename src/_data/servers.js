@@ -1349,5 +1349,15 @@ module.exports = [
         "url": "https://miststorm.org/en",
         "updated": "2026-09-17",
         "popTier": "unknown"
+    },
+    {
+        "name": "Draevor Project",
+        "status": "dev",
+        "details": "Warlords of Draenor (6.x) realm, Garrison-focused with custom systems — PTR coming soon, no date; one announcement post (testers wanted), Discord community, vote/changelog pages live",
+        "tag": "WoD",
+        "group": "",
+        "url": "https://draevorproject.com/",
+        "updated": "2026-09-19",
+        "popTier": "unknown"
     }
 ]

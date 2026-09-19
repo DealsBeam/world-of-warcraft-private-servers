@@ -16,7 +16,9 @@ const ERA = {
     "Vanilla": "Vanilla", "TBC": "TBC", "WotLK": "WotLK", "Cataclysm": "Cataclysm",
     "MoP": "MoP", "Legion": "Legion", "TWW": "TWW",
     "Vanilla+": "Vanilla", "Classless": "Vanilla",
-    "Multi": "Multi", "MOBA": "Other", "": "Other"
+    "Multi": "Multi", "MOBA": "Other", "": "Other",
+    // WoD groups under Other until a second WoD-era server justifies a full era
+    "WoD": "Other"
 };
 const ERA_ORDER = ["Vanilla", "TBC", "WotLK", "Cataclysm", "MoP", "Legion", "TWW", "Multi", "Other"];
 
