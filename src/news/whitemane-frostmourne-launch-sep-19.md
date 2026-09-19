@@ -2,7 +2,7 @@
 title: "Whitemane Frostmourne launches Sep 19 — WotLK+ with Heroic Naxx, Personal Loot, Collections"
 date: 2026-09-14
 game: wow
-description: "Whitemane's Frostmourne WotLK+ realm launches Saturday Sep 19: mechanically reworked Heroic Naxxramas, player-first Personal Loot, account-wide Collections, item quality upgrades, Vulkan client. Tier 7 Normal Sep 30, Heroic Oct 7."
+description: "Whitemane's Frostmourne WotLK+ realm launches Saturday Sep 19: mechanically reworked Heroic Naxxramas, player-first Personal Loot, account-wide Collections, item quality upgrades, refreshed client. Tier 7 Normal Sep 30, Heroic Oct 7."
 tags: [wow, wotlk, whitemane, private-servers]
 ---
 
@@ -13,7 +13,7 @@ September 14, 2026 — Whitemane's **Frostmourne** realm launches **Saturday, Se
 - **What:** WotLK 3.3.5a "Rebuffed" — an enhanced/remaster-style take on Wrath, not a buffed-numbers seasonal realm
 - **Launch:** Saturday Sep 19; Tier 7 Normal opens Sep 30, Heroic Oct 7 (Heroic requires Normal progression)
 - **Headliners:** mechanically reworked Heroic Naxx (80+ recorded changes), player-first Personal Loot, Item Quality Progression upgrades, account-wide Collections, Domination solo legacy raids
-- **Client:** Vulkan backend, HD models, rebuilt Character Creator, server-driven hotfixes, full Polish localization
+- **Client:** refreshed client (HD models, rebuilt Character Creator, server-driven hotfixes), full Polish localization
 - **PvP:** Savage/Hateful/Deadly path via Marks/Honor/Conquest; Season 5 gear has no rating requirement
 - **Scale of work:** 769 Core+Client commits since July 31, 227 player-facing changelog entries (per Whitemane)
 
