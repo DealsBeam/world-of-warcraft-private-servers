@@ -1310,12 +1310,12 @@ module.exports = [
     {
         "name": "Azeron",
         "status": "dev",
-        "details": "Legion 7.3.5 open beta (build 26365) since Sep 13: x10 XP / x5 drops, full 7.3.5 content (Argus, Antorus, ToS, artifacts), EN/RU, realmlist legion.azeron.org, wipe planned before release, beta-tester rewards — pop 0 at check Sep 16, uptime self-reported 94.9%/30d",
+        "details": "Legion 7.3.5 closed beta (build 26365) since Sep 13: x10 XP / x5 drops, full 7.3.5 content (Argus, Antorus, ToS, artifacts), EN/RU, realmlist legion.azeron.org, wipe planned before release, beta-tester rewards — 1 online at check Sep 19, uptime self-reported 77.1%/30d, 5 Discord online",
         "tag": "Legion",
         "group": "",
         "url": "https://azeron.org/",
         "release": "TBD",
-        "updated": "2026-09-16",
+        "updated": "2026-09-19",
         "popTier": "unknown"
     },
     {
