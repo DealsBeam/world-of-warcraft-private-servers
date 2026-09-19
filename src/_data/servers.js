@@ -445,7 +445,6 @@ module.exports = [
         "tag": "WotLK",
         "group": "Whitemane",
         "url": "https://whitemane.gg/",
-        "release": "Sep 19",
         "popTier": "unknown",
         "updated": "2026-09-19"
     },
