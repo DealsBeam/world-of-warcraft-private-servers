@@ -24,6 +24,14 @@ Warlock pets don't display Mana as a resource on the character sheet and don't m
 
 Barber chairs throw a LUA error; **character friends are disabled** in beta; the *minimap can render partially off-screen*; the character pane doesn't show Level, Class or Titles yet; opening the **Legacy System** (hotkey "Y") before level 25 causes LUA errors on tabs 1 and 3; and while guild-charter signing is bugged, Blizzard has temporarily made it possible to hand in a charter with no signatures.
 
+## September 18 additions
+
+Kaivax updated the list next day with five new items ([Icy Veins, Starym](https://www.icy-veins.com/wow-forever/news/wow-forever-beta-known-issues-list-september-18th/)): the **Cooldown Manager** is unfinished with implementation varying class to class; **Bear Form** multiplies armor bonuses from consumables and buffs; queueing an on-next-attack ability (Heroic Strike, Cleave, Raptor Strike) disables the spell queue window; taking damage while channeling **Arcane Missiles** fires a full-damage bolt instead of truncated damage; and **resurrection sickness** duration is wrong at lower levels.
+
+## Why launch day buckled
+
+Separately, senior game producer Tom Ellis posted a technical postmortem ([Icy Veins, Tharid](https://www.icy-veins.com/wow-forever/news/what-went-wrong-with-wow-forevers-beta-launch-blizzard-explains-it/)): the login queues and disconnects came from bottlenecks in monitoring, database management and virtual-resource downscaling, not raw player count alone. Rare on-record infra detail; worth keeping next to the demand narrative.
+
 ## Where to track it
 
 Kaivax says the list "will be updated as issues are resolved and/or added to this list." Surrounding beta framing stays as [covered at go-live](/news/forever-beta-live-sep-17/): level 20 cap rising to 30, launch wipe, nothing carries over. What this resolves and what it doesn't is tracked on the [verification hit list](/news/forever-beta-verification-hit-list/) and the [hub](/classic-plus/).
