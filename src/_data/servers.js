@@ -351,10 +351,10 @@ module.exports = [
     {
         "name": "Incursion-WoW",
         "status": "playable",
-        "details": "Instant-60 Vanilla->WotLK progressive, reworked MC/Onyxia and endgame dungeons, 500+ rebalanced items",
+        "details": "Instant-60 Vanilla->WotLK progressive, reworked MC/Onyxia and endgame dungeons, 500+ rebalanced items, Mythic+ and PvP/guild ranking ladders, armory, voting store",
         "tag": "Vanilla+",
         "group": "",
-        "updated": "2026-08-25",
+        "updated": "2026-09-19",
         "popTier": "tiny"
     },
     {
@@ -780,11 +780,11 @@ module.exports = [
     {
         "name": "Keldurn",
         "status": "playable",
-        "details": "Vanilla 1.12 in the web browser, original rates, EN/ES, faction autobalance; login/registration live, gameplay behind account",
+        "details": "Vanilla 1.12 in the web browser (WebGPU, no install; Windows client also), original rates, EN/ES, faction autobalance, device guides for iPhone/Chromebook; login/registration live, gameplay behind account",
         "tag": "Vanilla",
         "group": "",
         "url": "https://play.keldurn.com/",
-        "updated": "2026-09-06",
+        "updated": "2026-09-19",
         "popTier": "tiny"
     },
     {
