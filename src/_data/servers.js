@@ -719,6 +719,16 @@ module.exports = [
         "popTier": "tiny"
     },
     {
+        "name": "19PvP",
+        "status": "playable",
+        "details": "WotLK 3.3.5a level-19 twink realm (Warsong Gulch + arena), custom gear and suffixes, resistance rework, Discord-linked accounts, playerbots backfill quiet games — launched Aug 8 2026, open-source (AzerothCore)",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://19pvp.devazuka.com/",
+        "updated": "2026-09-19",
+        "popTier": "tiny"
+    },
+    {
         "name": "True Azeroth",
         "status": "playable",
         "details": "Fresh Vanilla x1 blizzlike PvP, launched Jul 2025, community-driven, pop 0-50",
