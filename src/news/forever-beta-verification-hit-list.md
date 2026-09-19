@@ -63,6 +63,8 @@ Full pass over classicwowforever.com/updates, wowforeverclassic.com and warcraft
 - **Item 1 (Onyxia Dec 9) stays reported-only.** wowforeverclassic's timeline repeats Dec 9 for Barrow Deeps, Hyjal Summit and Onyxia's Lair 40-player, all sourced to the roadmap slide. Corroboration of the transcription, not new confirmation.
 - **Cap 20 rising to 30** now has a second independent read (wowforeverclassic homepage: "capped at level 20 and rising to 30 after a couple of weeks"). Still pre-release until the cap actually moves.
 - Player workarounds (crash lighting toggle, VPN lag fix, contested addon carryover) are new coverage, not hit-list items: [player workarounds](/news/forever-beta-player-workarounds/). Systems detail (Familiar Faces, reagent bag, bank size, profession patterns): [systems roundup](/news/forever-systems-roundup-familiar-faces-bags/).
+- **Item 2 update (Sep 19):** classicwowforever's beta guide reads beta ends **Oct 21**, making it three sources for 21 (purchase terms, wowforeverclassic timeline, classicwowforever) against two for 22 (roadmap graphic, Tavern guide). Still no in-client message, so still open.
+- **New watch item: Server Slam open window.** classicwowforever's beta guide reports Blizzard will open the beta to everyone for several hours at some point, timing unannounced. Unconfirmed until Blizzard or the client says so.
 
 ## How we'll work it
 

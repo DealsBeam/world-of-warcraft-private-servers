@@ -25,3 +25,7 @@ Context for the demand: Holly Longdale posted that the Forever beta is setting r
 Tavern's Luxrah reports that the Forever beta (built on a modern Midnight-era UI) picks up addons and keybinds from a previous WoW beta install, and advises disabling old beta addons to avoid LUA errors. Two commenters dispute this directly, saying the client did no such thing on their machines. Until a third party reproduces it, file this one as unconfirmed: harmless to check your addon folder either way, but not an established fact.
 
 SOURCES: Warcraft Tavern crash fix (Passion, Sep 18), VPN lag fix (Val Hull, Sep 18), addons claim (Luxrah, Sep 17); Holly Longdale record-beta post (Sep 18). Player comments as noted.
+
+## Mac: crashes on launch, no workaround yet
+
+Separately, macOS players report the beta client crashing on launch ([EU forum thread](https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-blizzard-should-compensate-macos-users/629316)), flagged via classicwowforever's beta guide. No player workaround has surfaced for this one. Treat Mac support as troubled until Blizzard responds.
