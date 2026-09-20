@@ -627,5 +627,29 @@ module.exports = [
             "At the BlizzCon 2026 opening ceremony Blizzard revealed World of Warcraft: Forever, an alternate-timeline Vanilla branch built by the Classic team: Skyborne race, four new regions, nine dungeons, realmless rulesets, Legacy and Camping systems, cap 60 forever. Launch November 4, 2026, beta September 17.",
             "'This is not a mode, a season, or a new version of Classic.' The announcement ended eight years of private Vanilla+ projects filling the 'living Classic' gap — and set official content (December 9 raids, winter Hardcore, 2027 blocks) on a direct cadence collision with the surviving scene."
         ]
+    },
+    {
+        "id": "event-forever-beta-live-2026",
+        "category": "web",
+        "icon": "fa-solid fa-flag",
+        "date": "September 17, 2026",
+        "title": "WoW Forever Beta Goes Live: Record Demand and Login Queues",
+        "tag": "Blizzard History",
+        "paragraphs": [
+            "Five days after the reveal, Blizzard opened the Forever beta (level 20 cap, Epic and Collection owners first, waves after). Demand set internal records per Holly Longdale; login queues and disconnects marked day one, with senior producer Tom Ellis later attributing the buckling to login metering, stale database statistics and unscaled virtual resources.",
+            "The beta is Blizzard's first playable Classic+ and the first time official and private development run on the same live timeline: dataminers mapped sealed loot, server-side stats and 4,862 new items within 48 hours while private trackers covered it like a launch."
+        ]
+    },
+    {
+        "id": "event-frostmourne-launch-2026",
+        "category": "core",
+        "icon": "fa-solid fa-server",
+        "date": "September 19, 2026",
+        "title": "Frostmourne Launches: 8,500 Peak, the Biggest WotLK Opening of 2026",
+        "tag": "Private Servers",
+        "paragraphs": [
+            "Whitemane's WotLK+ realm Frostmourne launched with more than 8,500 players online at peak: Heroic Naxxramas rework, Personal Loot, account-wide Collections, refreshed client. A large-scale DDoS attack took all services down for the first 30 minutes before mitigation; the realm has held stable since.",
+            "The opening sets the private-scene bar for late 2026: a remaster-style WotLK+ with original raid arcs roadmapped (Scourging of Karazhan, Echoes of the Sunwell, Fall of the Sunwell) competing directly against Blizzard's own Forever beta running in the same month."
+        ]
     }
 ];
