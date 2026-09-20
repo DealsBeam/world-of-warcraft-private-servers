@@ -29,3 +29,15 @@ SOURCES: Warcraft Tavern crash fix (Passion, Sep 18), VPN lag fix (Val Hull, Sep
 ## Mac: crashes on launch, no workaround yet
 
 Separately, macOS players report the beta client crashing on launch ([EU forum thread](https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-blizzard-should-compensate-macos-users/629316)), flagged via classicwowforever's beta guide. No player workaround has surfaced for this one. Treat Mac support as troubled until Blizzard responds.
+
+## FPS decay and the suspected memory leak (Sep 20)
+
+A second performance thread, compiled by wowforeverclassic's [beta fixes guide](https://wowforeverclassic.com/guides/beta-fixes) (checked Sep 19): high-end PCs running 25 to 50 FPS or losing frames over an hour. Player-reported helps are updating graphics drivers, turning off Target Framerate, deleting the Cache folder inside the beta install, and switching to DirectX 11. Frame rate decaying across an hour points at a memory leak Blizzard has not acknowledged; restarting the client is the only relief reported so far.
+
+## Settings reset on every restart (Sep 20)
+
+Same source: addon settings, keybinds and interface layout reset every time the beta client starts. Saved variables are written but never loaded on a fresh start, affecting addons and some of Blizzard's own settings. No workaround beyond leaving the client running, and it is not on the official Known Issues list yet, so report it on the beta forum if it hits you.
+
+## Install flow and GPU cutoff (Sep 20)
+
+Two practical notes from the same guide: if the Install button is greyed out or the beta is missing from the dropdown, update the Battle.net app and look under In Development (purchased access can take up to 30 minutes to appear; invites arrive in waves). The download runs about 60 GB without retail WoW installed, much less with it since assets are shared. And the hard floor: cards older than AMD GCN 1, NVIDIA Maxwell or Intel Skylake cannot run the new lighting, per the system requirements page.
