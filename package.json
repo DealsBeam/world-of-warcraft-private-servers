@@ -4,7 +4,7 @@
   "private": true,
   "description": "World of Warcraft private server status tracker",
   "scripts": {
-    "build": "eleventy && node scripts/smoke.js",
+    "build": "rm -rf _site && eleventy && node scripts/smoke.js",
     "serve": "eleventy --serve",
     "test": "node test/server-data.test.js",
     "lighthouse": "npx lighthouse http://localhost:8082 --output=json --output-path=./lighthouse-report.json --chrome-flags=\"--headless --no-sandbox\" 2>&1 | tail -5"
