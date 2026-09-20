@@ -1177,6 +1177,22 @@ a.server-link:hover {
     font-style: italic;
 }
 
+/* self-hosted class icon row (zamimg community CDN, downloaded once) */
+.class-icons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 14px 0 4px;
+}
+
+.class-icons img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--border-2);
+    display: block;
+}
+
 .cp-cols {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
