@@ -430,12 +430,12 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Frostmourne",
         "status": "playable",
-        "details": "WotLK+ 3.3.5a realm on Whitemane network (est. 2020, F2P, no P2W), Heroic Naxxramas, Personal Loot, Collections, Vulkan, HD models, class changes, L19 twink — launched Sep 19 2026",
+        "details": "WotLK+ 3.3.5a realm on Whitemane network (est. 2020, F2P, no P2W), Heroic Naxxramas, Personal Loot, Collections, Vulkan, HD models, class changes, L19 twink — launched Sep 19 2026 with 8500+ peak; 30-min DDoS outage at launch, stable since",
         "tag": "WotLK",
         "group": "Whitemane",
         "url": "https://whitemane.gg/",
-        "popTier": "unknown",
-        "updated": "2026-09-19"
+        "popTier": "large",
+        "updated": "2026-09-20"
     },
     {
         "name": "Duskhaven",
