@@ -471,6 +471,11 @@ eleventyComputed:
     {% endfor %}
     </ul>
 </section>
+{% else %}
+<section class="panel cp-span-full">
+    <h2>Blizzard CDN Build Watch</h2>
+    <p class="meta-info">Watcher unreachable: the BlizzTrack API has returned errors since September 18, 2026, so the last confirmed build (1.60.1.69913) is shown as the latest known, not live, data. This note replaces the live panel until the feed recovers.</p>
+</section>
 {% endif %}
 
 <section class="panel cp-span-full" id="timeline">
