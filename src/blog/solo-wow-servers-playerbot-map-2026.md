@@ -1,5 +1,5 @@
 ---
-title: "Solo WoW servers: the 2026 playerbot map — 19 live realms, 4 dead"
+title: "Solo WoW servers: the 2026 playerbot map — 18 live realms, 4 dead"
 date: 2026-09-04
 draft: true
 category: guide
@@ -7,16 +7,16 @@ category: guide
 <!--
 SOURCES: hofls solo list (Sep 2026, pasted read — site JS-walled); r/solo-wservers deletion thread (Reddit list removed, author reposted 2026 update out of spite); Sep-18 community thread (second independent snapshot, corroborates nearly all MISSING names below).
 WATCH: statuses below are hofls-reported, NOT tracker-verified. Tracked entries link internal server pages (verified). Missing entries stay unlinked until status confirmed — no guessing.
-TRACKED: Warstorm, SoloCraft, Hellgarve, Old Man Warcraft, TheraWoW, Faebright, Frozen Throne (+Ascension dead).
-MISSING (unverified): Peloria, Microbot, Uncapped, Tanados, Everfresh, Lighthaven, SkyBlood, Frostforge, Kalidar, Shatterspear, Synastria.
+TRACKED: Warstorm, SoloCraft, Hellgarve, Old Man Warcraft, TheraWoW, Faebright, Frozen Throne (+Ascension dead); Peloria tracked as dev Sep 20 (live site, launcher v217, infinite-scaling concept verified).
+MISSING (unverified): Microbot, Uncapped, Tanados, Everfresh, Lighthaven, SkyBlood, Frostforge, Kalidar, Shatterspear, Synastria.
 THREAD DELTAS: SPP Classics (celguar/spp-classics-cmangos) is a self-host project, not a live realm — guide-genre candidate (octowow/ravencraft shelf), not a servers.js entry. Synastria registration closed from demand (status nuance). Uncapped + SkyBlood absent from Sep-18 thread (dead, renamed, or just missing) — re-check before promote. Everfresh, Frostforge, Kalidar, Shatterspear are Discord-only: stay unlinked per precedent (servers.js carries zero discord links) until a website exists.
 -->
 
-Reddit deleted the solo-server list. Hofls keeps one. Here is the 2026 map: 19 live realms where bots or scaling replace the group finder, plus 4 dead ones that show how fast this niche turns over.
+Reddit deleted the solo-server list. Hofls keeps one. Here is the 2026 map: 18 live realms where bots or scaling replace the group finder, plus 4 dead ones that show how fast this niche turns over.
 
 ## TL;DR
 
-TODO voice: deleted list, 19 live, 4 dead, bots win.
+Reddit deleted the r/solo-wservers list; hofls keeps the surviving public one, and a September community thread corroborates nearly all of it. Count stands at 18 named live realms (7 tracker-verified, 11 reported-but-unlinked) plus 4 dead. The throughline: bots beat the group finder.
 
 ## The heavyweights (tracker-verified)
 
@@ -27,10 +27,10 @@ TODO voice: deleted list, 19 live, 4 dead, bots win.
 - [TheraWoW](/servers/therawow/) 3.3.5 — automatic scaling + playerbots.
 - [Faebright](/servers/faebright/) 3.3.5 — bots + custom content (TBC+).
 - [Frozen Throne](/servers/frozen-throne/) 3.3.5 — bots + mythic+ difficulty (promoted Sep 2026: playable, ~900 online).
+- [Peloria](/servers/peloria/) 3.3.5 — infinite scaling past the 2.1B cap, Mythic to +100k (tracked as dev Sep 2026: live site, active development).
 
 ## Reported live, unverified (hofls claims, not yet tracked)
 
-- Peloria 3.3.5 — stats, damage, dungeons scale infinitely.
 - Microbot 1.12.1 — ChatGPT-powered bots, custom content, endgame.
 - Uncapped 3.3.5 — permanent stats per kill, multicast, uncapped keystones.
 - Tanados 3.3.5 — play with or against NPC bots.
@@ -51,8 +51,8 @@ TODO voice: deleted list, 19 live, 4 dead, bots win.
 
 ## Why solo wins in 2026
 
-TODO voice: schedule beats guilds, bots beat LFG, preservation angle — solo servers are single-player archives that survive shutdowns.
+Schedule beats guilds: an async adult player base cannot keep raid nights, but bots keep any hour. Bots beat LFG: a tuned PlayerBot group clears the dungeon tonight instead of the queue clearing whenever. And preservation beats everything: a solo server is a single-player archive of Azeroth that survives shutdowns, funding collapses and discords going dark — the Turtle lesson applied at realm scale.
 
 ## What's next
 
-TODO voice: missing 11 get tracker entries as statuses confirm. This page updates then. SPP Classics stays off the server list (self-host, not a realm) — guide shelf candidate. Discord-only four (Everfresh, Frostforge, Kalidar, Shatterspear) stay unlinked until websites exist.
+TODO voice: missing 10 get tracker entries as statuses confirm. This page updates then. SPP Classics stays off the server list (self-host, not a realm) — guide shelf candidate. Discord-only four (Everfresh, Frostforge, Kalidar, Shatterspear) stay unlinked until websites exist.

@@ -1348,5 +1348,25 @@ module.exports = [
         "url": "https://draevorproject.com/",
         "updated": "2026-09-19",
         "popTier": "unknown"
+    },
+    {
+        "name": "GemstoneWoW",
+        "status": "playable",
+        "details": "Blizzlike WotLK 3.3.5a, HD client, no P2W, Singapore host, ladder/bug tracker/changelog (weekly through May 2026) — 4 online at check Sep 20",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://gemstonewow.com/",
+        "updated": "2026-09-20",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Peloria",
+        "status": "dev",
+        "details": "WotLK 3.3.5a infinite-scaling realm (64-bit stats past the 2.1B cap, Mythic dungeons to +100000, soulbind collection, per-spec Perk toggles, solo dungeon finder) — in active development, launcher v217",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://www.wow-peloria.com/",
+        "updated": "2026-09-20",
+        "popTier": "unknown"
     }
 ]
