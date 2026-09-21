@@ -1,0 +1,47 @@
+---
+layout: base.njk
+permalink: /guides/spp-classics/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "SPP Classics Self-Host Guide — Playerbots on Your Own Machine"
+    canonical: "https://wowprivateservers.vercel.app/guides/spp-classics/"
+    hero: "SPP Classics Self-Host Guide"
+    subtitle: "Run Vanilla, TBC or WotLK with playerbots — offline, localhost"
+    description: "Self-host guide for SPP Classics v2.0 (celguar): Vanilla 1.12, TBC 2.4.3 and WotLK 3.3.5 with ike3 playerbots on CMaNGOS, running offline on your own machine."
+---
+<p><a href="/">← All servers</a></p>
+
+<div class="cp-grid">
+
+<section class="panel cp-span-full">
+    <h2>What it is</h2>
+    <p><strong>SPP Classics v2.0</strong> (celguar, 462 stars) is a repack, not a realm: Vanilla 1.12, TBC 2.4.3 and WotLK 3.3.5 on CMaNGOS with ike3 playerbots, running on localhost with no internet required after setup. The alternative to live solo servers ([Warstorm](/servers/warstorm/), [SoloCraft](/servers/solocraft/)): total control, zero community, immune to shutdowns. Already linked in our [resources](/); this is the guided tour.</p>
+</section>
+
+<section class="panel cp-span-half">
+    <h2>Setup</h2>
+    <ul class="guide-list">
+        <li>Download <strong>SPP_Classics_V2.exe</strong> from <a href="https://github.com/celguar/spp-classics-cmangos/releases" target="_blank" rel="noopener">releases</a> (7z self-extractor, SSD recommended). Do not install over an old v1 repack.</li>
+        <li>Run <strong>Server_Update.bat</strong> (~300 MB), pick your expansion by number; files download per request. Never close the launcher mid-process.</li>
+        <li>Copy the Mangosbot addon from SPP_Server/Addons into your client's Interface/AddOns with out-of-date addons enabled.</li>
+        <li>Create an account from the menu, set realmlist to <strong>127.0.0.1</strong>, log in. First boot is slow (1,000 random bots generate).</li>
+    </ul>
+</section>
+
+<section class="panel cp-span-half">
+    <h2>Bot tuning that matters</h2>
+    <ul class="guide-list">
+        <li><strong>Bot count:</strong> 1,000 random bots default (<code>aiplayerbot.conf</code>); lower it if the server lags after 30+ minutes, then reset random bots from menu 6.</li>
+        <li><strong>SyncQuestWithPlayer:</strong> set to 1 and grouped bots auto-complete shared quests with you. The single biggest QoL toggle.</li>
+        <li><strong>AutoLearnTrainerSpells / AutoLearnQuestSpells:</strong> set to 1 so bots learn on level-up.</li>
+        <li><strong>Rates:</strong> XP and friends live under SERVER RATES in <code>mangosd.conf</code>.</li>
+    </ul>
+</section>
+
+<section class="panel cp-span-full">
+    <h2>Shutdown ritual (read this)</h2>
+    <p>Never close server windows with X. Run <strong>saveall</strong> in mangosd, then <strong>ser shut 1</strong> and wait for the window to close itself, then option 0 shutdown. Skip this and you eat a rollback. Restart via Server_Update (checks updates) or Server_Start (no check).</p>
+    <p class="meta-info">Sources: <a href="https://github.com/celguar/spp-classics-cmangos" target="_blank" rel="noopener">celguar/spp-classics-cmangos</a> readme (v2.0); bugs go to <a href="https://github.com/celguar/mangosbot-bots/issues" target="_blank" rel="noopener">mangosbot-bots issues</a>. Self-host means self-support.</p>
+</section>
+
+</div>
