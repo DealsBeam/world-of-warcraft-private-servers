@@ -18,6 +18,8 @@ Caveatsunpacked: one commenter says the lighting change only delayed their crash
 
 The lag story has a cleaner diagnosis. The beta runs on **US servers only**, so non-US players get high latency, disconnects back to queue, and in the worst cases an inability to interact with objects or NPCs. Players report that routing through a **VPN with a US endpoint** resolves it: Tavern's Val Hull measured a consistent 100ms from the EU via a New York server. Peak-hour overload lag is separate and no VPN fixes that.
 
+Update (Sep 20): Blizzard has since issued EU routing fixes ([PC Gamer, Sep 18 update](https://www.pcgamer.com/games/world-of-warcraft/wow-forever-lag-how-to-fix/), via BlizzardCSEU): the author reports a clean 100ms without VPN after the fix, with VPN retained as fallback for anyone still affected. Try unprotected first now; keep the VPN ready.
+
 Context for the demand: Holly Longdale posted that the Forever beta is setting records, which matches the day-one login queues.
 
 ## Contested: does the beta load your old beta addons
