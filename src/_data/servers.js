@@ -700,7 +700,7 @@ module.exports = [
     {
         "name": "Titans League",
         "status": "playable",
-        "details": "Unique WotLK lvl 19 twink server, all content scaled to 19, pop 10-30",
+        "details": "Unique WotLK lvl 19 twink server, all content scaled to 19, pop 10-30; RTG 2.0 relaunched toward blizzlike-29 with 19/29 hybrid content",
         "tag": "WotLK",
         "group": "",
         "url": "https://titans-league.org/",
@@ -1367,6 +1367,26 @@ module.exports = [
         "group": "",
         "url": "https://www.wow-peloria.com/",
         "updated": "2026-09-20",
+        "popTier": "unknown"
+    },
+    {
+        "name": "NovaCraft",
+        "status": "playable",
+        "details": "Solo WotLK 3.3.5a x5 with playerbots plus self-bot autopilot, no P2W, cosmetic shop only",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://novacraft-wow.com/",
+        "updated": "2026-09-21",
+        "popTier": "unknown"
+    },
+    {
+        "name": "Eternion",
+        "status": "playable",
+        "details": "Two custom-haste realms (WotLK + Cataclysm) on one account, hand-crafted bosses and mobs, live status widget showing both online",
+        "tag": "Multi",
+        "group": "",
+        "url": "https://www.eternion-wow.net/",
+        "updated": "2026-09-21",
         "popTier": "unknown"
     }
 ]
