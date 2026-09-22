@@ -12,7 +12,7 @@ September 14, 2026 — The Forever beta opens **Thursday, September 17** (level 
 
 1. **Onyxia's Lair date.** Zierhut named it as the 40-player third raid; only the December 9 placement rests on transcription. Beta client (raid journals, calendars, loading screens) may confirm or deny.
 2. **Beta close: Oct 21 vs 22.** Purchase terms say 21, roadmap graphic 22. In-client messaging or server broadcasts should resolve it.
-3. **Skyborne subtype names.** "Windshaper" (Horde) and "High Order" (Alliance) come from fan transcription of footage, explicitly unofficial. Both fan references now use these names consistently (race headers, guide sections); still unofficial until character creation shows the real names.
+3. **Skyborne subtype names.** Resolved Sep 22: Blizzard article 24304075 names Horde-aligned Windshapers and Alliance-aligned High Order officially.
 4. **Legacy perk ranks.** All 17 perk effects and ranks (0/1 through 0/5) rest on captured pre-release tooltips. Beta talent/legacy UI confirms each rank.
 
 ## Verify within the first week
@@ -69,6 +69,15 @@ Full pass over classicwowforever.com/updates, wowforeverclassic.com and warcraft
 - **New watch item: teased Legendary.** wowforeverclassic reports Blizzard teased a new Legendary with identity and raid link unrevealed (single report). No detail to verify against yet.
 - **New watch item: bank size conflict.** Beta-reported 48-slot bank (classicwowforever Sep-22 series) vs Aggrend's ~96-slot estimate (MMORPG.com interview). Genuine pre-release number conflict, both sourced.
 - **New watch item: Tarnished Undermine Reals.** Named as unknown in classicwowforever's GDKP-economy piece (Sep-22). Single mention, no detail.
+
+## Round 5 resolves (Blizzard official racials, Sep 22)
+
+Blizzard article 24304075 (via Icy Veins, first-party copy throughout) closes three items at once:
+
+- **Item 3 (Skyborne subtype names) — resolved official.** "Horde-aligned **Windshapers**" and "Alliance-aligned **High Order** Skyborne" in Blizzard's own text, with backstories (Windshapers as shen'dorei elemental seekers; High Order as Eldre'Thalas scholars seeking self-reliance). Fan transcription no more.
+- **Gnome Engineering conflict — resolved for reliability.** Official: "More reliable engineering devices" (not +10 skill).
+- **NE Quickness conflict — resolved 1%/2%.** Official: "1% increased Dodge chance and 2% increased run speed" (not 2%/2%).
+- **Corroboration sweep.** The official tables match the hub's verified entries throughout: Shatter Curse, Touch of the Grave, Cultivation, Plainsrunning, Eureka!, Big Game Hunter, Rapid Regeneration at 50%, full 6-combo matrix plus both Skyborne splits. No contradictions found.
 
 ## How we'll work it
 
