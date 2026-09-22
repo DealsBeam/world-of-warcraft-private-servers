@@ -67,6 +67,8 @@ Full pass over classicwowforever.com/updates, wowforeverclassic.com and warcraft
 - **Item 2 update (Sep 19):** classicwowforever's beta guide reads beta ends **Oct 21**, making it three sources for 21 (purchase terms, wowforeverclassic timeline, classicwowforever) against two for 22 (roadmap graphic, Tavern guide). Still no in-client message, so still open.
 - **New watch item: Server Slam open window.** Blizzard's beta-live post confirms a Server Slam opening the beta to everyone for several hours later in the test, date TBD (via wowforeverclassic's beta guide). Official, awaiting a date.
 - **New watch item: teased Legendary.** wowforeverclassic reports Blizzard teased a new Legendary with identity and raid link unrevealed (single report). No detail to verify against yet.
+- **New watch item: bank size conflict.** Beta-reported 48-slot bank (classicwowforever Sep-22 series) vs Aggrend's ~96-slot estimate (MMORPG.com interview). Genuine pre-release number conflict, both sourced.
+- **New watch item: Tarnished Undermine Reals.** Named as unknown in classicwowforever's GDKP-economy piece (Sep-22). Single mention, no detail.
 
 ## How we'll work it
 
