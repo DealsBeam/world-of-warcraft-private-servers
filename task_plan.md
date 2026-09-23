@@ -55,6 +55,7 @@ Phase 5 complete
 | Use 143-server total | Duplicate was removed after visual browser QA exposed it |
 | Keep `release` only on dev entries | Existing semantic rule remains enforced |
 | Do not add Amdir, Digital World, Zamolxia, or SKYWOW | No sufficient first-party confirmation in this pass |
+| Treat static census guide markup as trusted template HTML | Prevents Nunjucks escaping internal links; no user data enters this mapping |
 
 ## Errors Encountered
 | Error | Resolution |
@@ -63,6 +64,7 @@ Phase 5 complete
 | `merge` filter unavailable in Nunjucks | Added small config filter, then used direct group iteration |
 | Smoke regex ignored URLs with fragments | Updated regex and fragment stripping; fixed one real history link |
 | Live cache briefly served pre-merge page | Rechecked with cache-busting requests; deployment now serves 143-server data and redirect |
+| Census era descriptions rendered as escaped text | Marked static trusted markup safe and verified real links in live output |
 
 ## Next Action
 Open Sep 24 roadmap and run morning source sweep. Watch Sep 24 beta update, level-cap rise, Server Slam date, bank 48-vs-96, and Tarnished Undermine Reals.
