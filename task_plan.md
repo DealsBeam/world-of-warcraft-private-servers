@@ -47,6 +47,13 @@ Phase 5 complete
 - [x] Write Sep 24 daily roadmap
 - **Status:** complete
 
+### Phase 6: UI surface modes
+- [x] Add semantic page modes without replacing shared brand shell
+- [x] Fix census metadata rendering
+- [x] Fix Classic+ and Music mobile overflow
+- [x] Bump stylesheet cache key and verify live deployment
+- **Status:** complete
+
 ## Decisions Made
 | Decision | Rationale |
 |----------|-----------|
@@ -56,6 +63,8 @@ Phase 5 complete
 | Keep `release` only on dev entries | Existing semantic rule remains enforced |
 | Do not add Amdir, Digital World, Zamolxia, or SKYWOW | No sufficient first-party confirmation in this pass |
 | Treat static census guide markup as trusted template HTML | Prevents Nunjucks escaping internal links; no user data enters this mapping |
+| Use semantic page modes instead of separate visual worlds | Preserve brand consistency while changing task emphasis |
+| Bump stylesheet query version for immutable CSS | Prevent stale responsive rules after UI changes |
 
 ## Errors Encountered
 | Error | Resolution |
@@ -65,6 +74,7 @@ Phase 5 complete
 | Smoke regex ignored URLs with fragments | Updated regex and fragment stripping; fixed one real history link |
 | Live cache briefly served pre-merge page | Rechecked with cache-busting requests; deployment now serves 143-server data and redirect |
 | Census era descriptions rendered as escaped text | Marked static trusted markup safe and verified real links in live output |
+| Classic+ and Music mobile overflow | Added min-width and wrapping rules; live 390px QA passed |
 
 ## Next Action
 Open Sep 24 roadmap and run morning source sweep. Watch Sep 24 beta update, level-cap rise, Server Slam date, bank 48-vs-96, and Tarnished Undermine Reals.

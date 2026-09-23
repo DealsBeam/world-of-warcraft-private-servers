@@ -28,3 +28,9 @@
 - Directory output now has 143 rows, no `Invalid Date`, 107 playable, 24 dev, and 12 dead. Search and status filters passed browser evaluation.
 - Live deployment passed 19 URL probes, XML/JSON checks, 308 legacy redirect, desktop QA, and 390px mobile QA. No horizontal overflow, broken images, or console errors observed.
 - Tomorrow watch list: Sep 24 beta update, level-cap rise, Server Slam date, bank 48-vs-96 resolution, Tarnished Undermine Reals, Tier 7 report card Sep 30, IAF Oct 20, beta close Oct 21/22, name reservation Oct 27, Onyxia Dec 9.
+
+## UI mode findings
+- Shared shell remains coherent; legal and utility modes now use narrower content width and quieter headers.
+- Census frontmatter interpolation rendered literal template text; `eleventyComputed` fixes description and subtitle.
+- Classic+ and Music mobile overflow came from intrinsic grid/code widths; min-width and wrapping rules fix both.
+- Vercel immutable CSS cache required stylesheet query bump from `v=4` to `v=5`.

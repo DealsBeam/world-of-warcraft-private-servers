@@ -141,3 +141,13 @@
 - Live QA: 19 core URLs returned 200; XML and JSON parsed; `/servers/freedomwow/` returned 308 to canonical `/servers/freedom-wow/`; live directory showed 143 rows, no Invalid Date, and one Freedom record. Desktop and 390px mobile checks showed no horizontal overflow, no broken images, and no console errors on home, directory, hub, news, blog, and census.
 - Post-review fix: census era guide descriptions were HTML-escaped in rendered output; static trusted markup now uses `safe`, and live census recheck confirmed real OctoWoW links. Pushed `98000bd`; IndexNow HTTP 200.
 - Retro: activated `.planning/2026-09-04-wow-ps`, refreshed root and active task plans, and wrote Sep 24 roadmap. Next watch items: Sep 24 beta update, level-cap rise, Server Slam date, bank 48-vs-96, and Tarnished Undermine Reals.
+
+# Progress - UI mode pass
+
+- Added semantic surface modes: dashboard, reading, reference, media, legal, utility, showcase. Shared header/nav/footer remains intact.
+- Legal and utility pages now use narrower reading width and quieter headers. Media pages hide generic metadata and gain task-focused emphasis.
+- Fixed census description/subtitle rendering through `eleventyComputed`; added smoke regression for unrendered template expressions.
+- Fixed mobile overflow in Classic+ and Music reference/media layouts.
+- Bumped stylesheet cache key from `v=4` to `v=5`; Vercel immutable CSS cache initially served stale mobile rules.
+- Local desktop/mobile QA passed. Live desktop/mobile QA passed after deployment; CSS v5 confirmed. Detector returned no findings.
+- Pushed `282efca` and `8a30aa9`; IndexNow HTTP 200.
