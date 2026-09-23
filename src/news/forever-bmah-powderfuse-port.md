@@ -13,6 +13,8 @@ September 22, 2026: one of retail's most controversial systems is open for busin
 - Tier 0 pieces, any slot, from **400g**
 - Rare mounts (Deathcharger's Reins) from **3,000g**
 
+Same port, cosmetic shelf: five Steamwheedle Cartel factions each sell a helm appearance at **Revered** reputation (Icy Veins Neryssa, [Cartel helms](https://www.icy-veins.com/wow-forever/news/your-wow-forever-transmog-list-is-about-to-gain-five-goblin-cartel-helms/)): Ratchet's Barrens Headband, Booty Bay's Tough Guy's Eyepatch, Gadgetzan's Stolen Wastewander Cowl, Everlook's Fizzbolt's Fashionable Fedora, and Powderfuse's Haughty Fellow's Monocle. The goblin cartel is monetized down to the hat.
+
 The purpose reads retail-standard: a gold sink with bid wars. The tension writes itself: no GDKP ([banned](/news/forever-qna-answers-sep-17/)) and [permaban threats for buyers](/news/forever-gold-buyer-crackdown/), but a bid-war market for rare mounts running in a goblin port. One drains gold through play, the other moved it between players; Blizzard kept the house and closed the tables.
 
 SOURCES: Icy Veins Neryssa (Sep 21, beta scan with screenshots).
