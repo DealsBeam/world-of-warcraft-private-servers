@@ -1,6 +1,7 @@
 ---
 title: "No Diablo campfire before BlizzCon — Season 15 held for the stage"
 date: 2026-09-08
+game: diablo
 summary: "Duskforge: no pre-season stream because BlizzCon replaces it. PTR was partial by design. Season 15 rest waits 4 days."
 ---
 <!--

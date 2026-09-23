@@ -1,6 +1,7 @@
 ---
 title: "StarCraft ARG escalates: Transmission 03 brings breach and takeover"
 date: 2026-09-08
+game: sc
 updated: 2026-09-08
 summary: "Transmission 03 recovered today: 11 logs, 3 patients with O₂ above 100%, population counter going haywire, vent horror, Keri Parker breach, D. Alvarez warning. Four days to BlizzCon."
 ---

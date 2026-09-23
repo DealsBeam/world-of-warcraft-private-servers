@@ -1,6 +1,7 @@
 ---
 title: "StarCraft ARG: Transmission 04 reveals Project Spellbind cover-up, hours before ceremony"
 date: 2026-09-12
+game: sc
 updated: 2026-09-12
 summary: "Transmission 04 landed overnight: Dominion censorship terminal, Veil IX incident (72 dead, gas-leak cover story), Project Spellbind spanning Roxara, Candore, Veil IX. Verified live on the official site this morning."
 ---
