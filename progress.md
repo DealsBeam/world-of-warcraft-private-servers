@@ -130,3 +130,13 @@
 - Unchanged/open: NE Quickness + Gnome Engineering (Unconfirmed two-way); cap 20→30 + wipe (reported); Onyxia Dec 9 (reported); Oct 21 vs 22 close (still open; wfc reaffirms 21).
 - Gates: comment balance 33/33; npm test OK (135/110/109/47/45); build + smoke + internal links green; hit list 961w ≤1000.
 - Pushed 7627d27; IndexNow 2 URLs (/classic-plus/, hit list) HTTP 200. .impeccable/ + PRODUCT.md never staged (explicit-path adds only).
+
+# Progress - Sep 23 operations close
+
+- Research: Tavern, Icy Veins, classicwowforever, Warperia, Nostalgic.gg, and first-party sites checked. Tavern book-reward item was already covered. Four entries cleared first-party verification: Freedom WoW, Azekai Reincarnated, Elderhide, and Project Rx. Amdir and Digital World held for lack of reachable first-party sites; Zamolxia and SKYWOW held pending corroboration.
+- Tracker: added four verified entries, then browser QA found existing `FreedomWoW` and new `Freedom WoW` were same realm. Merged to official `Freedom WoW`, preserved old label as `~~FreedomWoW~~ (Aug 24 listing)` in the server note, added redirect, and final total is 143 servers.
+- Directory: built `/servers/` with A-Z rows, search, status filter, era shortcuts, live counts, and undated fallback. Census era counts now derive from `groupByEra` data instead of hardcoded totals.
+- Operations: refreshed llms files, sitemap.md, feed, XML, API JSON, manifest, and footer checks. Added directory to sitemap.md. Expanded smoke link audit to inspect fragment URLs; repaired Everlook Radio history link to `/#event-everlook-radio-reborn-2026`.
+- Gates: dash grep clean; `npm test` passed at 143 servers, 144 news, 107 links, 49 history events, 45 Classic+ entries; `npm run build` passed with explicit `BUILD_EXIT=0`; local audit passed; commits pushed through `0ba7002`; IndexNow submissions returned HTTP 200.
+- Live QA: 19 core URLs returned 200; XML and JSON parsed; `/servers/freedomwow/` returned 308 to canonical `/servers/freedom-wow/`; live directory showed 143 rows, no Invalid Date, and one Freedom record. Desktop and 390px mobile checks showed no horizontal overflow, no broken images, and no console errors on home, directory, hub, news, blog, and census.
+- Retro: activated `.planning/2026-09-04-wow-ps`, refreshed root and active task plans, and wrote Sep 24 roadmap. Next watch items: Sep 24 beta update, level-cap rise, Server Slam date, bank 48-vs-96, and Tarnished Undermine Reals.
