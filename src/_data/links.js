@@ -108,14 +108,6 @@ module.exports = [
         "url": "https://github.com/tortoise-wow-stack/TortoiseGMManager"
     },
     {
-        "title": "TortoiseWoWServer - Dockerized Tortoise-WoW stack with PlayerBots and integrated database viewer",
-        "url": "https://github.com/tortoise-wow-stack/TortoiseWoWServer"
-    },
-    {
-        "title": "TortoiseWoWKnowledgeBase - documentation for Tortoise WoW core, PlayerBots and architecture",
-        "url": "https://github.com/tortoise-wow-stack/TortoiseWoWKnowledgeBase"
-    },
-    {
         "title": "Ryac TW Steamdeck UI - Console Port UI for Tortoise WoW on Steam Deck",
         "url": "https://github.com/Ryac1/Ryac_TW_Steamdeck_UI"
     },
@@ -261,7 +253,7 @@ module.exports = [
     },
     {
         "title": "ShaguTweaks - QoL tweaks for the 1.12 default UI",
-        "url": "https://github.com/Dusk-92/ShaguTweaks"
+        "url": "https://github.com/shagu/ShaguTweaks"
     },
     {
         "title": "pfUI - full UI replacement for 1.12 clients",

@@ -5,8 +5,8 @@ module.exports = [
         "details": "Vanilla PVP, 213 Discord online",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://www.sandworlds.gg",
-        "updated": "2026-08-24",
+        "url": "https://sandworlds.com",
+        "updated": "2026-09-23",
         "popTier": "small"
     },
     {
@@ -650,11 +650,10 @@ module.exports = [
     {
         "name": "Feenix",
         "status": "playable",
-        "details": "Progressive Vanilla x6 blizzlike, launched Mar 2025",
+        "details": "Progressive Vanilla x6 blizzlike, launched Mar 2025; site unreachable Sep 2026, third-party hub lists offline, shutdown unconfirmed",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://feenixwow.com/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-23",
         "popTier": "tiny"
     },
     {
@@ -663,8 +662,7 @@ module.exports = [
         "details": "WotLK+ with PlayerBots (40 bots), solo-friendly, x5 rates, pop 0-100",
         "tag": "WotLK",
         "group": "",
-        "url": "https://galaxyofdrone.com/",
-        "updated": "2026-08-30",
+        "updated": "2026-09-23",
         "popTier": "small"
     },
     {
@@ -720,21 +718,19 @@ module.exports = [
     {
         "name": "True Azeroth",
         "status": "playable",
-        "details": "Fresh Vanilla x1 blizzlike PvP, launched Jul 2025, community-driven, pop 0-50",
+        "details": "Fresh Vanilla x1 blizzlike PvP, launched Jul 2025, community-driven, pop 0-50; site unreachable Sep 2026, C&D shutdown reported but unconfirmed",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://true-azeroth.site/",
-        "updated": "2026-08-30",
+        "updated": "2026-09-23",
         "popTier": "tiny"
     },
 {
         "name": "Warlords of Azeroth",
         "status": "playable",
-        "details": "Blizzlike Vanilla 1.12.1 PvP, cross-faction BGs",
+        "details": "Blizzlike Vanilla 1.12.1 PvP, cross-faction BGs; site unreachable Sep 2026, status under review",
         "tag": "Vanilla",
         "group": "",
-        "url": "https://warlords-of-azeroth.net/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-23",
         "popTier": "tiny"
     },
     {
@@ -853,8 +849,7 @@ module.exports = [
         "details": "Cata 4.3.4 flagship of the Tauri/Atlantiss network relaunch Feb 2026, also MoP 5.4.8 and TBC 2.4.3 realms, ~1.2k Discord online; atlantiss.org DNS lapsed May 2026, community active on Discord",
         "tag": "Cataclysm",
         "group": "",
-        "url": "https://atlantiss.org/",
-        "updated": "2026-08-24",
+        "updated": "2026-09-23",
         "popTier": "small"
     },
     {
@@ -1131,8 +1126,7 @@ module.exports = [
         "details": "Dragonflight, launched Feb 2026, estimated 100-500 pop, active updates",
         "tag": "TWW",
         "group": "",
-        "url": "https://www.dragonbornwow.com/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-23",
         "popTier": "tiny"
     },
     {
