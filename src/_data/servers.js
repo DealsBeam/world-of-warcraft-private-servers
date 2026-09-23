@@ -20,6 +20,36 @@ module.exports = [
         "popTier": "tiny"
     },
     {
+        "name": "Azekai Reincarnated",
+        "status": "playable",
+        "details": "Strict text-RP 3.3.5a, full-loot PvP with gear dropping, founded Jul 15 2026, custom 3.3.5a core, realism playerbots, class-independent companions, 27GB bundled client, property and territory, 2 on Warperia",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://azerei.net",
+        "updated": "2026-09-23",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Elderhide",
+        "status": "playable",
+        "details": "Vanilla 1.12.1 PvP on VMaNGOS, x1, open registration, active development per site, 1 on Warperia",
+        "tag": "Vanilla",
+        "group": "",
+        "url": "https://elderhide.com",
+        "updated": "2026-09-23",
+        "popTier": "tiny"
+    },
+    {
+        "name": "Project Rx",
+        "status": "playable",
+        "details": "3.3.5a all-GM roleplay, custom private-world phasing, full GM commands from start, gear built from scratch, 1-man project, not progression-focused",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://projectrx.net",
+        "updated": "2026-09-23",
+        "popTier": "tiny"
+    },
+    {
         "name": "Greyhaven",
         "status": "playable",
         "details": "Progressive Vanilla 1.12.1 PvP, launched Aug 14 2026, cap 40 since Sep 4, staged brackets, no world buffs in raids, unified AH, unlimited debuff slots, free respecs, no pay-to-win, 80-100 peak EU",
