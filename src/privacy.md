@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+surface: legal
 permalink: /privacy/
 eleventyExcludeFromCollections: true
 title: "Privacy Policy"

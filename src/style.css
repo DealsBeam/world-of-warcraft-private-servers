@@ -1948,3 +1948,70 @@ textarea {
         margin-left: 0;
     }
 }
+
+/* ---------- page modes: shared brand shell, task-specific emphasis ---------- */
+.surface-legal .header-banner,
+.surface-utility .header-banner,
+.surface-media .header-banner {
+    border-bottom-color: var(--border-2);
+}
+
+.surface-legal .header-banner {
+    padding-top: 46px;
+    padding-bottom: 34px;
+}
+
+.surface-utility .header-banner,
+.surface-media .header-banner {
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.surface-legal .header-banner .meta-info,
+.surface-utility .header-banner .meta-info,
+.surface-media .header-banner .meta-info {
+    display: none;
+}
+
+.surface-legal main,
+.surface-utility main {
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+.surface-legal main > p,
+.surface-legal main > ul,
+.surface-legal main > ol {
+    max-width: 72ch;
+}
+
+.surface-legal main > h2 {
+    max-width: 72ch;
+}
+
+.surface-media main > .panel:first-child,
+.surface-showcase main > .panel:first-child,
+.surface-reference main > .panel:first-child {
+    border-color: var(--border-2);
+}
+
+@media (max-width: 720px) {
+    .surface-legal .header-banner,
+    .surface-utility .header-banner,
+    .surface-media .header-banner {
+        padding-top: 30px;
+        padding-bottom: 24px;
+    }
+
+    .surface-reference .cp-grid > *,
+    .surface-reference .cp-grid .panel {
+        min-width: 0;
+    }
+
+    .surface-reference .cp-grid,
+    .surface-reference .cp-grid :where(p, li, td, th, code, pre),
+    .surface-media :where(p, li, code, pre) {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+}

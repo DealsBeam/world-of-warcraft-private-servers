@@ -1,13 +1,14 @@
 ---
 layout: base.njk
+surface: dashboard
 permalink: /census/
 eleventyExcludeFromCollections: false
 title: "Census — World of Warcraft Private Server Population & Era Distribution"
-description: "Live census of {{ servers.length }} tracked WoW private servers by population tier and era as of September 23, 2026, built from src/_data/servers.js and vocab.js."
 canonical: "https://wowprivateservers.vercel.app/census/"
 hero: "Census"
-subtitle: "Live population & era distribution · {{ servers.length }} servers · September 23, 2026"
 eleventyComputed:
+  description: "Live census of {{ servers.length }} tracked WoW private servers by population tier and era as of September 23, 2026, built from src/_data/servers.js and vocab.js."
+  subtitle: "Live population & era distribution · {{ servers.length }} servers · September 23, 2026"
   metaInfo: "Census snapshot · September 23, 2026 · {{ servers.length }} servers"
 ---
 

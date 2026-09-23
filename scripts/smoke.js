@@ -29,6 +29,10 @@ has("robots.txt");
 
 for (const s of SERVERS) has(`servers/${slugify(s.name)}/index.html`);
 
+const census = fs.readFileSync(path.join(out, "census/index.html"), "utf8");
+assert.ok(!census.includes("{{"), "census contains an unrendered template expression");
+assert.ok(census.includes(`${SERVERS.length} servers`), "census server count is not rendered");
+
 for (const f of fs.readdirSync(path.join(__dirname, "../src/blog"))) {
     if (!f.endsWith(".md")) continue;
     const fm = fs.readFileSync(path.join(__dirname, "../src/blog", f), "utf8").match(/^---\n([\s\S]*?)\n---/)?.[1] || "";

@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+surface: legal
 permalink: /disclaimer/
 eleventyExcludeFromCollections: true
 title: "Disclaimer"

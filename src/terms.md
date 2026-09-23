@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+surface: legal
 permalink: /terms/
 eleventyExcludeFromCollections: true
 title: "Terms of Use"
