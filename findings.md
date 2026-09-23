@@ -34,3 +34,10 @@
 - Census frontmatter interpolation rendered literal template text; `eleventyComputed` fixes description and subtitle.
 - Classic+ and Music mobile overflow came from intrinsic grid/code widths; min-width and wrapping rules fix both.
 - Vercel immutable CSS cache required stylesheet query bump from `v=4` to `v=5`.
+
+## UX refinement findings
+- Classic+ benefits from a sticky section index; mobile two-column layout keeps navigation usable without a full-screen menu.
+- Radio and Music need explicit player hierarchy and 44px controls; scene selection and radio play/pause continue working.
+- Shop improves with three real category cards and explicit affiliate disclosure.
+- Contact preserves its joke while giving visitors a concrete correction/tip/takedown checklist.
+- A second CSS cache bump to `v=6` was required after this batch; live v6 control sizing passed.

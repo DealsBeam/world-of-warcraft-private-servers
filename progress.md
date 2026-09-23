@@ -151,3 +151,13 @@
 - Bumped stylesheet cache key from `v=4` to `v=5`; Vercel immutable CSS cache initially served stale mobile rules.
 - Local desktop/mobile QA passed. Live desktop/mobile QA passed after deployment; CSS v5 confirmed. Detector returned no findings.
 - Pushed `282efca` and `8a30aa9`; IndexNow HTTP 200.
+
+# Progress - UX refinement batch
+
+- Classic+ TOC moved before content, made sticky on desktop, responsive on mobile, and given active-section state on scroll and click.
+- Radio and Music now have explicit media hierarchy, readable player controls, larger touch targets, and responsive layouts.
+- Shop now uses three clear category cards plus explicit affiliate disclosure.
+- Contact now uses a compact Shimsha identity card and message checklist while preserving joke tone.
+- Detector returned no findings. Local and live desktop/mobile QA passed with no overflow or undersized new controls.
+- Vercel immutable CSS cache required another bump, `v=5` to `v=6`; live CSS v6 confirmed.
+- Pushed `d71d222`, `f5e9f7e`, `7e66541`, and `165cf3e`; IndexNow HTTP 200.
