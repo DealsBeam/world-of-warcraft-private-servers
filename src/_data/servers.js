@@ -230,6 +230,16 @@ module.exports = [
         "popTier": "small"
     },
     {
+        "name": "Freedom WoW",
+        "status": "playable",
+        "details": "Ukrainian WotLK 3.3.5a, x5, free, 531 online at site check Sep 23, ~7.5k Discord, smart cross-faction (heals instance-only), arena season 8, 120-player Wintergrasp, original 3.3 balance, patch Aug 28",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://freedom-wow.in.ua/en",
+        "updated": "2026-09-23",
+        "popTier": "medium"
+    },
+    {
         "name": "Firestorm",
         "status": "playable",
         "details": "TWW (Dornogal) + BFA: Reforged (launches Aug 31 11:00 CEST, >3600 queued, Plunderforged Bay, Felsong→Firestorm merge) + legacy realms, 2.5-4k online",
