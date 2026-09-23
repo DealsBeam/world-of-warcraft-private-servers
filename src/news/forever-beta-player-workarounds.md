@@ -28,9 +28,9 @@ Tavern's Luxrah reports that the Forever beta (built on a modern Midnight-era UI
 
 SOURCES: Warcraft Tavern crash fix (Passion, Sep 18), VPN lag fix (Val Hull, Sep 18), addons claim (Luxrah, Sep 17); Holly Longdale record-beta post (Sep 18). Player comments as noted.
 
-## Mac: crashes on launch, no workaround yet
+## Mac: crashes on launch, officially addressed in build 69977 (Sep 23)
 
-Separately, macOS players report the beta client crashing on launch ([EU forum thread](https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-blizzard-should-compensate-macos-users/629316)), flagged via classicwowforever's beta guide. No player workaround has surfaced for this one. Treat Mac support as troubled until Blizzard responds.
+Separately, macOS players report the beta client crashing on launch ([EU forum thread](https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-blizzard-should-compensate-macos-users/629316)), flagged via classicwowforever's beta guide. Update (Sep 23): Blizzard's beta build 69977 ships Mac display and stability fixes ([roundup](/news/forever-beta-build-69977-mac-controller/)), and a dev reply credits detailed player repro steps with more Mac analyses underway. Retest on the new build before reaching for workarounds.
 
 ## FPS decay and the suspected memory leak (Sep 20)
 

@@ -79,6 +79,12 @@ Blizzard article 24304075 (via Icy Veins, first-party copy throughout) closes th
 - **NE Quickness conflict — resolved 1%/2%.** Official: "1% increased Dodge chance and 2% increased run speed" (not 2%/2%).
 - **Corroboration sweep.** The official tables match the hub's verified entries throughout: Shatter Curse, Touch of the Grave, Cultivation, Plainsrunning, Eureka!, Big Game Hunter, Rapid Regeneration at 50%, full 6-combo matrix plus both Skyborne splits. No contradictions found.
 
+## Round 6 notes (beta build + mount catalog, Sep 23)
+
+- **Item 9 (Forsaken mount) — name resolved, model still open.** Tavern's pre-beta datamine (Luxrah, Sep 16) lists the spell string "Summon Forsaken Charger": the mount's name is now a file read. The model itself stays open, possibly among the sealed files. Full catalog in the [mount post](/news/forever-datamined-mount-catalog/).
+- **Item 2 (beta close) update.** wowforeverclassic's timeline now cites Blizzard's official What's Next recap for the Oct 21 close: six voices for 21 (purchase terms, forum launch post, talentsforever, classicwowforever, wowforeverclassic timeline, official recap) against two for 22 (roadmap graphic, Tavern guide). Still no in-client message, so still open.
+- **Build watch.** Blizzard shipped beta build 69977 (Mac fixes, controller char-select repair) plus an "A Firm Response" hotfix unblocking Windshaper Skyborne: [roundup](/news/forever-beta-build-69977-mac-controller/). Memory-leak acknowledgment still missing.
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.
