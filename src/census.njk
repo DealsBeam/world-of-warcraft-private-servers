@@ -96,7 +96,7 @@ eleventyComputed:
 "TBC": "2.4.3 realms.", "Cataclysm": "4.3.4 realms.", "MoP": "5.4.x realms.", "Legion": "7.3.5 realms.",
 "TWW": "TWW / Dragonflight-era.", "Multi": "cross-expansion networks.", "Other": "unmapped tags like MOBA." } %}
 {% for g in groups %}
-<li><strong>{{ g.era }} ({{ g.servers.length }})</strong> — {{ eraDesc[g.era] }} See <a href="/{{ g.era | lower | slugify }}/">{{ g.era | lower }}</a>.</li>
+<li><strong>{{ g.era }} ({{ g.servers.length }})</strong>: {{ eraDesc[g.era] | safe }} See <a href="/{{ g.era | lower | slugify }}/">{{ g.era | lower }}</a>.</li>
 {% endfor %}
 </ul>
 <p class="meta-info">All links are internal: <a href="/">tracker</a> · <a href="/servers/">server directory</a> · <a href="/news/">news</a> · <a href="/blog/">blog</a> · <a href="/classic-plus/">Classic+ Tracker</a> · expansion pages above. No outbound links on this page by design.</p>
