@@ -3,7 +3,9 @@
     { "source": "/servers/centurion-legionnaire/", "destination": "/servers/centurion/", "permanent": true },
     { "source": "/servers/centurion-legionnaire", "destination": "/servers/centurion/", "permanent": true },
     { "source": "/servers/centurion-barracks/", "destination": "/servers/centurion/", "permanent": true },
-    { "source": "/servers/centurion-barracks", "destination": "/servers/centurion/", "permanent": true }
+    { "source": "/servers/centurion-barracks", "destination": "/servers/centurion/", "permanent": true },
+    { "source": "/servers/freedomwow/", "destination": "/servers/freedom-wow/", "permanent": true },
+    { "source": "/servers/freedomwow", "destination": "/servers/freedom-wow/", "permanent": true }
   ],
   "headers": [
     {

@@ -262,7 +262,7 @@ module.exports = [
     {
         "name": "Freedom WoW",
         "status": "playable",
-        "details": "Ukrainian WotLK 3.3.5a, x5, free, 531 online at site check Sep 23, ~7.5k Discord, smart cross-faction (heals instance-only), arena season 8, 120-player Wintergrasp, original 3.3 balance, patch Aug 28",
+        "details": "Ukrainian WotLK 3.3.5a, x5, free, 531 online at site check Sep 23, ~7.5k Discord, smart cross-faction (heals instance-only), arena season 8, 120-player Wintergrasp, original 3.3 balance, patch Aug 28; prior tracker label ~~FreedomWoW~~ (Aug 24 listing) consolidated into this verified entry Sep 23",
         "tag": "WotLK",
         "group": "",
         "url": "https://freedom-wow.in.ua/en",
@@ -1038,15 +1038,6 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://unlimited-wow.com/",
-        "updated": "2026-08-24",
-        "popTier": "small"
-    },
-    {
-        "name": "FreedomWoW",
-        "status": "playable",
-        "details": "Ukrainian WotLK 3.3.5a x5, Blizzlike + QoL, proceeds to UA Armed Forces, ~670 Discord online",
-        "tag": "WotLK",
-        "group": "",
         "updated": "2026-08-24",
         "popTier": "small"
     },

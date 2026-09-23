@@ -40,6 +40,8 @@ for (const s of SERVERS) {
 
 const names = new Set(SERVERS.map(s => s.name));
 assert.strictEqual(names.size, SERVERS.length, "duplicate server names");
+const normalizedNames = SERVERS.map(s => s.name.toLowerCase().replace(/[^a-z0-9]/g, ""));
+assert.strictEqual(new Set(normalizedNames).size, normalizedNames.length, "duplicate server names after punctuation/space normalization");
 
 const slugs = SERVERS.map(s => slugify(s.name));
 assert.strictEqual(new Set(slugs).size, slugs.length, `slug collision: ${slugs.filter((v, i) => slugs.indexOf(v) !== i).join(", ")}`);
