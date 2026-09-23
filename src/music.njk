@@ -10,8 +10,11 @@ eleventyComputed:
     subtitle: "Azeroth Ambience — WoW music & ambience, pick a playlist and listen"
     description: "Curated WoW music and ambience from The Azeroth Ambience (8.76k subs, 276 videos) — pick an expansion or a mix and listen. All via YouTube, no login, no ads on our side."
 ---
-<section class="panel">
-    <h2>Azeroth Ambience — pick a scene</h2>
+<section class="panel media-panel">
+    <div class="media-panel-head">
+        <h2>Azeroth Ambience, pick a scene</h2>
+        <span class="media-badge">191-video jukebox</span>
+    </div>
     <p>Nine painted moods, each with a playlist of its own. Pick a scene and the music changes with the room.</p>
     <div class="scene-grid" id="scenes" role="group" aria-label="Pick a scene">
         <button type="button" class="scene-card" data-pl="PLdi00J2VPi894WXz5nC12B5wGQJz3RdbG"><span class="scene-emoji" aria-hidden="true">🌳</span><span class="scene-name">The Jukebox</span><span class="scene-mood">Everything · shuffle mind</span></button>
@@ -27,15 +30,18 @@ eleventyComputed:
     <p class="meta-info">Scenes pick playlists below — full list with search stays under the player.</p>
 </section>
 
-<section class="panel">
-    <h2>Azeroth Ambience — pick a playlist</h2>
-    <p>Curated by <strong>The Azeroth Ambience</strong> (8.76k subs, 276 videos) — the YouTube + YouTube Music channel at <code>UCIgRnXbPGUSfRvoc5M4qK1g / @TheAzerothAmbience</code>. All Expansions, Vanilla → Midnight, plus mixes and dungeons. YouTube embed, native controls, autoplay inside playlist. No login on our side.</p>
+<section class="panel media-panel media-player-panel">
+    <div class="media-panel-head">
+        <h2>Azeroth Ambience, pick a playlist</h2>
+        <span class="media-badge">YouTube audio</span>
+    </div>
+    <p>Curated by <strong>The Azeroth Ambience</strong> (8.76k subs, 276 videos), the YouTube and YouTube Music channel at <code>UCIgRnXbPGUSfRvoc5M4qK1g / @TheAzerothAmbience</code>. All expansions, Vanilla through Midnight, plus mixes and dungeons. YouTube embed, native controls, autoplay inside playlist. No login on our side.</p>
 
-    <div class="music-controls" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0">
+    <div class="music-controls">
         <label for="q">Search</label>
-        <input id="q" type="search" placeholder="Filter: Classic, Wrath…" autocomplete="off" style="padding:8px 10px;border:1px solid var(--border);background:var(--bg);color:var(--text);border-radius:var(--r-ctrl);min-width:200px">
+        <input class="music-search" id="q" type="search" placeholder="Filter: Classic, Wrath…" autocomplete="off">
         <label for="pl">Playlist</label>
-        <select id="pl" style="min-width:280px;max-width:100%;padding:8px 10px;border:1px solid var(--border);background:var(--bg);color:var(--text);border-radius:var(--r-ctrl)">
+        <select class="music-select" id="pl">
             <option value="PLdi00J2VPi894WXz5nC12B5wGQJz3RdbG">All Music & Ambience 🌳 — 191</option>
             <option value="PLdi00J2VPi8_atFpzWdkcFuDB1nhy1T0G">Vanilla Retail 🌲 — 54</option>
             <option value="PLdi00J2VPi89qaaB-UkB6VVlh3UKwd63V">Classic ☘️ — 39</option>
@@ -59,14 +65,14 @@ eleventyComputed:
         <span class="meta-info" id="pl-meta">191 videos — All</span>
     </div>
 
-    <div style="position:relative;padding-top:56.25%;max-height:60vh;background:#000;border-radius:var(--r-surface);overflow:hidden">
+    <div class="music-frame">
         <iframe id="yt" style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/videoseries?list=PLdi00J2VPi894WXz5nC12B5wGQJz3RdbG" title="Azeroth Ambience — All Music & Ambience — 191" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>
     </div>
 
-    <p class="meta-info" style="margin-top:10px">Source: <a href="https://www.youtube.com/@TheAzerothAmbience/playlists" target="_blank" rel="noopener">youtube.com/@TheAzerothAmbience/playlists</a> · Music channel: <a href="https://music.youtube.com/channel/UCIgRnXbPGUSfRvoc5M4qK1g" target="_blank" rel="noopener">music.youtube.com/channel/UCIgRnXbPGUSfRvoc5M4qK1g</a> — YouTube embed, native controls, autoplay next inside playlist. No API key, no login. Want live? → <a href="/radio/">Out of Bounds Radio 24/7</a>.</p>
+    <p class="meta-info music-source">Source: <a href="https://www.youtube.com/@TheAzerothAmbience/playlists" target="_blank" rel="noopener">youtube.com/@TheAzerothAmbience/playlists</a> · Music channel: <a href="https://music.youtube.com/channel/UCIgRnXbPGUSfRvoc5M4qK1g" target="_blank" rel="noopener">music.youtube.com/channel/UCIgRnXbPGUSfRvoc5M4qK1g</a>. YouTube embed, native controls, autoplay next inside playlist. No API key, no login. Want live? → <a href="/radio/">Out of Bounds Radio 24/7</a>.</p>
 </section>
 
-<section class="panel">
+<section class="panel media-panel">
     <h2>How it works</h2>
     <ul class="plain-list">
         <li>Pick a playlist → player swaps <code>list=</code> — YouTube handles the queue.</li>

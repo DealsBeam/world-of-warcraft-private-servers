@@ -13,6 +13,25 @@ eleventyComputed:
 ---
 <p><a href="/news/">← All news</a></p>
 
+<nav class="panel cp-toc" aria-label="Forever page sections">
+    <h2>Explore this page</h2>
+    <ol>
+        <li><a href="#dates">Release date, beta and editions</a></li>
+        <li><a href="#skyborne">New race: the Skyborne</a></li>
+        <li><a href="#zones">New zones: Hyjal, Shen'dralas, Riverglades, Zephras Isle</a></li>
+        <li><a href="#dungeons">Nine new dungeons</a></li>
+        <li><a href="#raids">Raids: Hyjal Summit and the Barrow Deeps</a></li>
+        <li><a href="#pvp">Darkspear Islands battleground</a></li>
+        <li><a href="#systems">Classes, systems and player choice</a></li>
+        <li><a href="#roadmap">The content roadmap</a></li>
+        <li><a href="#status">Live status and CDN build watch</a></li>
+        <li><a href="#timeline">The road to the reveal (Project Camelot timeline)</a></li>
+        <li><a href="#ps">What it means for private servers</a></li>
+        <li><a href="#faq">World of Warcraft: Forever FAQ</a></li>
+        <li><a href="#sources">Sources</a></li>
+    </ol>
+</nav>
+
 <div class="cp-grid">
 
 <section class="panel cp-intro cp-span-full">
@@ -31,24 +50,6 @@ eleventyComputed:
         <div class="cd-when">until global launch</div>
     </div>
 </section>
-
-<nav class="panel cp-toc cp-span-full" aria-label="Table of contents">
-    <ol>
-        <li><a href="#dates">Release date, beta and editions</a></li>
-        <li><a href="#skyborne">New race: the Skyborne</a></li>
-        <li><a href="#zones">New zones: Hyjal, Shen'dralas, Riverglades, Zephras Isle</a></li>
-        <li><a href="#dungeons">Nine new dungeons</a></li>
-        <li><a href="#raids">Raids: Hyjal Summit and the Barrow Deeps</a></li>
-        <li><a href="#pvp">Darkspear Islands battleground</a></li>
-        <li><a href="#systems">Classes, systems and player choice</a></li>
-        <li><a href="#roadmap">The content roadmap</a></li>
-        <li><a href="#status">Live status and CDN build watch</a></li>
-        <li><a href="#timeline">The road to the reveal (Project Camelot timeline)</a></li>
-        <li><a href="#ps">What it means for private servers</a></li>
-        <li><a href="#faq">World of Warcraft: Forever FAQ</a></li>
-        <li><a href="#sources">Sources</a></li>
-    </ol>
-</nav>
 
 <section class="panel cp-span-full" id="dates">
     <h2>Release Date, Beta and Editions</h2>
@@ -618,16 +619,37 @@ eleventyComputed:
 <script>
 (function () {
     var el = document.querySelector("[data-countdown]");
-    if (!el) return;
-    var target = new Date(el.dataset.countdown).getTime();
-    function tick() {
-        var diff = target - Date.now();
-        if (diff <= 0) { el.textContent = "This week"; return; }
-        var d = Math.floor(diff / 86400000);
-        var h = Math.floor((diff % 86400000) / 3600000);
-        el.textContent = "in " + d + "d " + h + "h";
+    if (el) {
+        var target = new Date(el.dataset.countdown).getTime();
+        function tick() {
+            var diff = target - Date.now();
+            if (diff <= 0) { el.textContent = "This week"; return; }
+            var d = Math.floor(diff / 86400000);
+            var h = Math.floor((diff % 86400000) / 3600000);
+            el.textContent = "in " + d + "d " + h + "h";
+        }
+        tick();
+        setInterval(tick, 60000);
     }
-    tick();
-    setInterval(tick, 60000);
+
+    var toc = document.querySelector(".cp-toc");
+    if (toc && "IntersectionObserver" in window) {
+        var links = Array.from(toc.querySelectorAll('a[href^="#"]'));
+        var sections = links.map(function (link) {
+            return document.querySelector(link.getAttribute("href"));
+        }).filter(Boolean);
+        var setCurrent = function (id) {
+            links.forEach(function (link) {
+                var current = link.getAttribute("href") === "#" + id;
+                if (current) link.setAttribute("aria-current", "location");
+                else link.removeAttribute("aria-current");
+            });
+        };
+        var observer = new IntersectionObserver(function (entries) {
+            var visible = entries.filter(function (entry) { return entry.isIntersecting; });
+            if (visible.length) setCurrent(visible[0].target.id);
+        }, { rootMargin: "-18% 0px -68% 0px", threshold: 0 });
+        sections.forEach(function (section) { observer.observe(section); });
+    }
 })();
 </script>

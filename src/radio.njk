@@ -12,19 +12,22 @@ eleventyComputed:
 extraScripts:
     - /radio.js
 ---
-<section class="panel radio-page">
-    <h2>Out of Bounds Radio</h2>
-    <p>Your Gaming Radio Station — run by the old <strong>Everlook Broadcasting Co.</strong> team. Streaming live, 24/7, straight from the <a href="https://www.outofbounds.live/" target="_blank" rel="noopener">Out of Bounds Ent.</a> transmitter. Press play below.</p>
+<section class="panel media-panel radio-page">
+    <div class="media-panel-head">
+        <h2>Out of Bounds Radio</h2>
+        <span class="media-badge">24/7 station</span>
+    </div>
+    <p>Your Gaming Radio Station, run by the old <strong>Everlook Broadcasting Co.</strong> team. Tune in through the <a href="https://www.outofbounds.live/" target="_blank" rel="noopener">Out of Bounds Ent.</a> transmitter.</p>
 
     <div class="radio-page-player">
         <audio id="radio-audio" preload="none" src="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3"></audio>
         <span class="radio-now" data-radio-now aria-live="polite" aria-atomic="true">Checking stream…</span>
-        <button type="button" class="chip radio-btn" data-radio-toggle aria-pressed="false">▶ Play</button>
-        <span class="radio-links">
-            <a href="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3" target="_blank" rel="noopener">Direct stream</a> ·
-            <a href="https://radio.outofbounds.live/public/out_of_bounds/playlist.pls" target="_blank" rel="noopener">Winamp .pls</a> ·
-            <a href="https://radio.outofbounds.live/public/out_of_bounds/playlist.m3u" target="_blank" rel="noopener">.m3u</a> ·
-            <a href="https://radio.outofbounds.live/public/out_of_bounds" target="_blank" rel="noopener">Web player</a>
+        <button type="button" class="chip radio-btn" data-radio-toggle aria-pressed="false">▶ Play station</button>
+        <span class="radio-links" aria-label="Radio stream links">
+            <a class="chip" href="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3" target="_blank" rel="noopener">Direct stream</a>
+            <a class="chip" href="https://radio.outofbounds.live/public/out_of_bounds/playlist.pls" target="_blank" rel="noopener">Winamp .pls</a>
+            <a class="chip" href="https://radio.outofbounds.live/public/out_of_bounds/playlist.m3u" target="_blank" rel="noopener">.m3u playlist</a>
+            <a class="chip" href="https://radio.outofbounds.live/public/out_of_bounds" target="_blank" rel="noopener">Web player</a>
         </span>
     </div>
 </section>
