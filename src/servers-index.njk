@@ -7,7 +7,7 @@ eleventyComputed:
     canonical: "https://wowprivateservers.vercel.app/servers/"
     hero: "Server Directory"
     subtitle: "Every tracked server, A to Z"
-    description: "Alphabetical directory of all 140 tracked World of Warcraft private servers, with status, expansion tag and population tier. Search by name or browse by era."
+    description: "Alphabetical directory of all {{ servers.length }} tracked World of Warcraft private servers, with status, expansion tag and population tier. Search by name or browse by era."
 ---
 <p><a href="/">← Back to tracker</a></p>
 
@@ -49,7 +49,7 @@ eleventyComputed:
     {% if s.popTier and s.popTier != "unknown" %}<span class="tag">Pop: {{ s.popTier | capitalize }}</span>{% endif %}
     {% if s.release %}<span class="tag">Release: {{ s.release }}</span>{% endif %}
     {% if s.shutdown %}<span class="tag tag-dead">Down {{ s.shutdown }}{% if s.shutdownReason %} ({{ s.shutdownReason }}){% endif %}</span>{% endif %}
-    <span class="dir-date">{% if s.updated %}{{ s.updated | formatDate }}{% else %}{{ s.shutdown | formatDate }}{% endif %}</span>
+    <span class="dir-date">{% if s.updated %}{{ s.updated | formatDate }}{% elif s.shutdown %}{{ s.shutdown | formatDate }}{% else %}Not dated{% endif %}</span>
 </article>
 {% endfor %}
 </div>
