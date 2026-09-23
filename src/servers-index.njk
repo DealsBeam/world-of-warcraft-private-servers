@@ -1,0 +1,84 @@
+---
+layout: base.njk
+permalink: /servers/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "All WoW Private Servers — Alphabetical Directory"
+    canonical: "https://wowprivateservers.vercel.app/servers/"
+    hero: "Server Directory"
+    subtitle: "Every tracked server, A to Z"
+    description: "Alphabetical directory of all 140 tracked World of Warcraft private servers, with status, expansion tag and population tier. Search by name or browse by era."
+---
+<p><a href="/">← Back to tracker</a></p>
+
+<div class="stat-strip" aria-label="Server status counts">
+    <div class="stat"><span class="stat-num">{{ servers.length }}</span><span class="stat-label">Tracked servers</span></div>
+    <div class="stat stat-green"><span class="stat-num">{{ servers | countByStatus("playable") }}</span><span class="stat-label">Playable</span></div>
+    <div class="stat stat-yellow"><span class="stat-num">{{ servers | countByStatus("dev") }}</span><span class="stat-label">In development</span></div>
+    <div class="stat stat-red"><span class="stat-num">{{ servers | countByStatus("dead") }}</span><span class="stat-label">Dead</span></div>
+</div>
+
+<div class="controls">
+    <div class="filters">
+        <label class="sr-only" for="dir-search">Search servers</label>
+        <input type="search" id="dir-search" placeholder="Search names…" autocomplete="off">
+        <label class="sr-only" for="dir-status">Filter by status</label>
+        <select id="dir-status">
+            <option value="all">All statuses</option>
+            <option value="playable">Playable</option>
+            <option value="dev">In development</option>
+            <option value="dead">Dead</option>
+        </select>
+    </div>
+    <div class="chips" id="dir-eras" role="group" aria-label="Filter by era">
+        <button class="chip active" data-era="all" aria-pressed="true">All</button>
+        {% for e in vocab.ERA_ORDER %}<a class="chip" href="/{{ e | lower | slugify }}/">{{ e }}</a>{% endfor %}
+    </div>
+</div>
+
+<p class="count" id="dir-count" aria-live="polite" aria-atomic="true">{{ servers.length }} of {{ servers.length }} servers</p>
+<p class="empty" id="dir-empty" hidden role="status">No servers match your search.</p>
+
+{% from "card.njk" import card with context %}
+<div class="cards" id="dir-cards">
+{% for s in servers | sort(attribute="name") %}
+<article class="dir-row" data-name="{{ s.name | lower }}" data-status="{{ s.status }}" data-era="{{ vocab.ERA[s.tag] or 'Other' | lower }}">
+    <a class="dir-name" href="/servers/{{ s.name | slugify }}/">{{ s.name }}</a>
+    <span class="tag">{{ s.tag }}</span>
+    <span class="tag">{{ vocab.STATUS[s.status].label }}</span>
+    {% if s.popTier and s.popTier != "unknown" %}<span class="tag">Pop: {{ s.popTier | capitalize }}</span>{% endif %}
+    {% if s.release %}<span class="tag">Release: {{ s.release }}</span>{% endif %}
+    {% if s.shutdown %}<span class="tag tag-dead">Down {{ s.shutdown }}{% if s.shutdownReason %} ({{ s.shutdownReason }}){% endif %}</span>{% endif %}
+    <span class="dir-date">{% if s.updated %}{{ s.updated | formatDate }}{% else %}{{ s.shutdown | formatDate }}{% endif %}</span>
+</article>
+{% endfor %}
+</div>
+
+<p class="meta-info">Directory is alphabetical. For status, population, era and full search with cards, use the <a href="/">main tracker</a>. Statuses last reviewed {{ site.reviewed }}.</p>
+
+<script>
+(function () {
+    var q = document.getElementById("dir-search");
+    var st = document.getElementById("dir-status");
+    var count = document.getElementById("dir-count");
+    var empty = document.getElementById("dir-empty");
+    var rows = Array.from(document.querySelectorAll(".dir-row"));
+    function render() {
+        var v = (q.value || "").trim().toLowerCase();
+        var status = st.value;
+        var n = 0;
+        rows.forEach(function (row) {
+            var okName = !v || row.getAttribute("data-name").indexOf(v) !== -1;
+            var okStatus = status === "all" || row.getAttribute("data-status") === status;
+            var on = okName && okStatus;
+            row.hidden = !on;
+            if (on) n++;
+        });
+        count.textContent = n + " of " + rows.length + " servers";
+        empty.hidden = n > 0;
+    }
+    q.addEventListener("input", render);
+    st.addEventListener("change", render);
+    render();
+})();
+</script>
