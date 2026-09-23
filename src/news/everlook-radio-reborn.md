@@ -11,4 +11,4 @@ The team rebranded as **Out of Bounds Entertainment** — "Your Gaming Radio Sta
 
 Listen now: [Tune in on our Radio page](/radio/) (one-click play, now-playing + Live indicator) or direct stream. The in-game button is gone; the community soundtrack survived.
 
-Related: [Turtle WoW shutdown news](/news/turtle-wow-shutdown/) · [Blizzard v. Turtle WoW consent judgment](/news/blizzard-v-turtle-wow-consent-judgment/) · [The radio's history event](/history/#event-everlook-radio-reborn-2026)
+Related: [Turtle WoW shutdown news](/news/turtle-wow-shutdown/) · [Blizzard v. Turtle WoW consent judgment](/news/blizzard-v-turtle-wow-consent-judgment/) · [The radio's history event](/#event-everlook-radio-reborn-2026)

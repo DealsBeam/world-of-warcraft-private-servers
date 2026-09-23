@@ -9,6 +9,7 @@ const out = path.join(__dirname, "../_site");
 const has = p => assert.ok(fs.existsSync(path.join(out, p)), `missing built page: ${p}`);
 
 has("index.html");
+has("servers/index.html");
 has("news/index.html");
 has("blog/index.html");
 has("classic-plus/index.html");
@@ -94,8 +95,8 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
             if (e.name !== "index.html") continue;
             const html = fs.readFileSync(p, "utf8");
             const from = "/" + path.relative(out, p).replace(/\\/g, "/").replace(/index\.html$/, "");
-            for (const m of html.matchAll(/href="(\/[^"#]*?)"/g)) {
-                const clean = m[1].split("?")[0];
+            for (const m of html.matchAll(/href="(\/(?!\/)[^"]*?)"/g)) {
+                const clean = m[1].split(/[?#]/)[0];
                 const target = clean.endsWith("/") ? clean : clean + "/";
                 if (pages.has(target) || fs.existsSync(path.join(out, clean.replace(/^\//, "")))) continue;
                 broken.push(`${from} -> ${m[1]}`);
