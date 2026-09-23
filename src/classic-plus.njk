@@ -373,7 +373,7 @@ eleventyComputed:
         <div>
             <h3>Adventure</h3>
             <ul class="plain-list">
-                <li><strong>Talented</strong> (Rank 0/5) — talent points start at level 9 instead of 10 (still capped at 51)</li>
+                <li><strong>Talented</strong> (Rank 0/5) : talent points start earlier instead of at level 10 (still capped at 51); beta-client read puts max rank at <strong>level 5</strong>, with ranks stepping 9/8/7/6/5 (per Wowhead's Legacy calculator, beta client; the pre-release tooltip read only showed rank 1 at level 9)</li>
                 <li><strong>Well Rested</strong> (Rank 0/5) — rested XP accumulates 4% faster, cap +4%</li>
                 <li><strong>Thrill of Adventure</strong> (Rank 0/5) — killing blows restore 1% max Health/Mana over 10s; disabled in dungeons, raids and battlegrounds</li>
                 <li><strong>Frequent Flier</strong> (Rank 0/1) — flight paths cost 50% less, fly 20% faster (flight-path mount only)</li>
@@ -416,7 +416,7 @@ eleventyComputed:
             </ul>
         </div>
     </div>
-    <p class="meta-info">Legacy and Camping system descriptions per Blizzard's panel recap and Deep Dive recap; perk names and effects per classicwowforever.com's captured pre-release tooltips (community screenshot sources: Xaryu stream, DesMephisto, r/classicwow), independently corroborated by Icy Veins' September 17 Legacy overview (same perks: Well Rested, Bountiful Harvest, Reagent Economy) and by wowforeverclassic (September 17: same 16-point spend / 65 earnable caps and the Spectral Bear cosmetic track, "7 Professions-tree perks shown so far"). Perk unlocks and higher-rank effects remain unverified.</p>
+    <p class="meta-info">Legacy and Camping system descriptions per Blizzard's panel recap and Deep Dive recap; perk names and effects per classicwowforever.com's captured pre-release tooltips (community screenshot sources: Xaryu stream, DesMephisto, r/classicwow), independently corroborated by Icy Veins' September 17 Legacy overview (same perks: Well Rested, Bountiful Harvest, Reagent Economy) and by wowforeverclassic (September 17: same 16-point spend / 65 earnable caps and the Spectral Bear cosmetic track, "7 Professions-tree perks shown so far"). Rank values above are rank-1 reads unless marked otherwise: the full 21-perk rank curves are now readable in the beta client via Wowhead's Legacy calculator, and every rank-1 value there matches these reads. Talented's max-rank level 5 is the one value that moved.</p>
 </section>
 
 <section class="panel cp-span-full" id="roadmap">

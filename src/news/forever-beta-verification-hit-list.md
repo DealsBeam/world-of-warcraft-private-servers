@@ -83,6 +83,7 @@ Blizzard article 24304075 (via Icy Veins, first-party copy throughout) closes th
 
 - **Item 9 (Forsaken mount) — name resolved, model still open.** Tavern's pre-beta datamine (Luxrah, Sep 16) lists the spell string "Summon Forsaken Charger": the mount's name is now a file read. The model itself stays open, possibly among the sealed files. Full catalog in the [mount post](/news/forever-datamined-mount-catalog/).
 - **Item 2 (beta close) update.** wowforeverclassic's timeline now cites Blizzard's official What's Next recap for the Oct 21 close: six voices for 21 (purchase terms, forum launch post, talentsforever, classicwowforever, wowforeverclassic timeline, official recap) against two for 22 (roadmap graphic, Tavern guide). Still no in-client message, so still open.
+- **Legacy data note (Sep 23).** The beta client now exposes full rank curves for all 21 perks via Wowhead's Legacy calculator, cross-checked on classicwowforever. Every rank-1 value matches our pre-release reads; the only moved value is **Talented**, whose max rank starts talents at level 5 (ranks 9/8/7/6/5) rather than level 9. Hub updated, no other conflicts.
 - **Build watch.** Blizzard shipped beta build 69977 (Mac fixes, controller char-select repair) plus an "A Firm Response" hotfix unblocking Windshaper Skyborne: [roundup](/news/forever-beta-build-69977-mac-controller/). Memory-leak acknowledgment still missing.
 
 ## How we'll work it
