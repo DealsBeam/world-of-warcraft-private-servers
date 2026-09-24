@@ -183,4 +183,7 @@
 - Other fresh leads remain beta-client or secondary material: bank 48 slots, Coldflame Saber, Partners in Crime rings, Hyjal boss strings, Legendary questline strings, and Hall of Thanes walkthrough. No speculative claims promoted.
 - Gates: `npm test` passed with 143 servers, 146 news, 107 links, 49 history events, and 45 Classic+ entries. `npm run build` passed with explicit exit 0, 420 files, smoke/internal-link/domain gates green. CDN watcher read live 1.60.1.69963 with 6 bumps.
 - Local browser QA passed for new news, new blog, corrected hit list, and Legacy guide at 390px with no horizontal overflow. Local Vercel Insights 404 is expected from the static server.
-- Pending: pre-push status, content commit, push, IndexNow, live deployment verification, and retro close.
+- Pre-push status showed only untracked `.impeccable/` and `PRODUCT.md`; neither was staged. Content commit `4f3b111` pushed to `origin/main`.
+- IndexNow key returned HTTP 200 and accepted five affected URLs with HTTP 200.
+- Live deployment initially showed transient 404s for new routes, then served them after Vercel completed. New news, Cozy guide, corrected hit list, Legacy guide, feed, APIs, sitemaps, llms, and manifest all returned HTTP 200. Live news count is 146 and server count is 143. Freedom WoW legacy URL returns 308 to `/servers/freedom-wow/`.
+- Live browser QA passed at 1280px and 390px for both new pages and the corrected hit list with no horizontal overflow. Production console showed no current errors. XML and JSON parse checks passed; feed, sitemap, and llms include both new URLs.
