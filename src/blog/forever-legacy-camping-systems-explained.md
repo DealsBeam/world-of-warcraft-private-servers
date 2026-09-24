@@ -91,7 +91,7 @@ Hardcore is not a free shortcut into the normal account-wide pool. Non-Hardcore 
 
 ## Camping remains the social half
 
-Legacy is the account progression layer. Camping is the outdoor social layer: players place campfires, contribute crafted objects through professions, and share campsite buffs. Field Guide, Permanence, Reagent Economy, Field Medicine, and related perks interact with that system, but Blizzard's new Legacy article focuses on the account-wide Challenge, Perk, and Reward structure rather than adding a new Camping ruleset.
+Legacy is the account progression layer. Camping is the outdoor social layer: players place campfires, contribute crafted objects through professions, and share campsite buffs. Field Guide, Permanence, Reagent Economy, Field Medicine, and related perks interact with that system, but Blizzard's new Legacy article focuses on the account-wide Challenge, Perk, and Reward structure rather than adding a new Camping ruleset. For a current beta route and experience-value reference, see the [Cozy Sleeping Bag guide](/blog/forever-cozy-sleeping-bag-route/).
 
 ## What this changes for players
 

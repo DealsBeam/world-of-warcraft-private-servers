@@ -173,3 +173,14 @@
 - Push path: first push was rejected because remote commit `71602c6` auto-refreshed `cdn-last.json` to 1.60.1.69963. Fetched and rebased cleanly; content commit is now `8ee70ca`, pushed to `origin/main`. Pre-push status showed only untracked `.impeccable/` and `PRODUCT.md`, never staged.
 - Deployment verified after push: new weather URL, corrected Legacy guide, hub, feed, sitemaps, APIs, llms files, manifest, and legacy redirect all returned expected live responses. Live JSON counts are 145 news and 143 servers; XML parses cleanly. Desktop and 390px mobile checks show no overflow; production browser reports no current console errors. CSS remains `v=6`.
 - IndexNow submitted 6 affected URLs, HTTP 200. Sep 24 roadmap closed; Sep 25 preliminary roadmap written at `/home/reps/.opencode/plan/2026-09-25.md`.
+
+# Progress - Sep 25 Forever crawl and correction
+
+- Source sweep covered official Blizzard news and forums, Blizzard China, Arctium, Wowhead, Warcraft Tavern, WOWF.IO, WOW Forever Builds, classicwowforever, wowforeverclassic, Icy Veins, Blizzard Watch, PC Gamer, GamesRadar, MassivelyOP, Mein-MMO, Quissy, Guided.news, and other indexed beta references.
+- Retrieved automatic captions for Blizzard's official September 23 video `dvueCoFTkCk` with `yt-dlp`. At 00:03:54 it says the 40-player Onyxia's Lair raid is available at launch. Blizzard's September 12 What's Next recap still says new raids unlock December 9. Preserved both first-party claims and left the date conflict open.
+- Published `news/forever-video-onyxia-at-launch-sep-24.md` and added Round 8 to `news/forever-beta-verification-hit-list.md`. No Server Slam date, level-cap activation date, or new weekly patch was verified.
+- Published `blog/forever-cozy-sleeping-bag-route.md`, a beta-only guide for the level-14 six-quest route, reported 3 percent rested effect, 8 percent kill-XP total with food, and 12-slot reward. Linked it from the Legacy and Camping guide.
+- Other fresh leads remain beta-client or secondary material: bank 48 slots, Coldflame Saber, Partners in Crime rings, Hyjal boss strings, Legendary questline strings, and Hall of Thanes walkthrough. No speculative claims promoted.
+- Gates: `npm test` passed with 143 servers, 146 news, 107 links, 49 history events, and 45 Classic+ entries. `npm run build` passed with explicit exit 0, 420 files, smoke/internal-link/domain gates green. CDN watcher read live 1.60.1.69963 with 6 bumps.
+- Local browser QA passed for new news, new blog, corrected hit list, and Legacy guide at 390px with no horizontal overflow. Local Vercel Insights 404 is expected from the static server.
+- Pending: pre-push status, content commit, push, IndexNow, live deployment verification, and retro close.

@@ -10,7 +10,7 @@ September 14, 2026 — The Forever beta opens **Thursday, September 17** (level 
 
 ## Settle on day one
 
-1. **Onyxia's Lair date.** Zierhut named it as the 40-player third raid; only the December 9 placement rests on transcription. Beta client (raid journals, calendars, loading screens) may confirm or deny.
+1. **Onyxia's Lair date.** ~~September 12 roadmap transcription placed the raid on December 9.~~ (September 24 primary-source check) Blizzard's September 23 official video says the 40-player raid is "available at launch," while the What's Next recap still says new raids unlock December 9. Keep both dated first-party claims until Blizzard clarifies the conflict.
 2. **Beta close: Oct 21 vs 22.** Purchase terms say 21, roadmap graphic 22. In-client messaging or server broadcasts should resolve it.
 3. **Skyborne subtype names.** Resolved Sep 22: Blizzard article 24304075 names Horde-aligned Windshapers and Alliance-aligned High Order officially.
 4. **Legacy perk ranks.** ~~All 17 perk effects and ranks (0/1 through 0/5) rest on captured pre-release tooltips.~~ (September 13 pre-release read, superseded September 24.) Blizzard's September 23 official article names **21 perks** across Professions, Adventure and Resourcefulness. Numeric rank curves remain beta-client reads until the UI confirms them.
@@ -35,7 +35,7 @@ The beta client is out and the first datamine pass is done — [round-one datami
 - **Item 4 (Legacy perk ranks) - superseded by official structure (Sep 24).** ~~The beta spell census counts 10 "Legacy Perks & Boons" spells in the build, confirming Legacy spells exist in the files, but the 17 perk effects and their ranks (0/1-0/5) still wait on the in-game Legacy UI.~~ Blizzard's September 23 article now names 21 perks, seven per tree, and confirms the three-tree structure. The beta spell census remains useful for implementation checks, not for counting the official launch perks.
 - **Item 4 count note (updated Sep 24).** The old <del>17-versus-19-versus-27 discrepancy</del> is no longer an open structure question. The official article resolves the named launch structure at 21 perks. Full numeric rank values, tree gates and connector layout remain beta-client reads until the in-game UI confirms them.
 
-Still open: **1** - Onyxia's December 9 placement (a second independent fan read, wowforeverclassic.com, also says December 9; still no official confirmation); **2** - beta close Oct 21 vs 22 (Blizzard's forum launch post also reads Oct 21, and talentsforever's beta-client page says the beta runs until 21 October: five voices for 21 against the roadmap graphic and Tavern's 22; still no in-client message); **6** - Spearing Strike; **7** - Heroic $29.99 storefront price; **9** - the Forsaken Paladin mount model (possibly among the roughly 3,300 sealed files); **10** - 2027 fine print. Item 3 is resolved by Blizzard's official race article; item 4 is resolved in Round 7 below.
+Still open: **1** - Onyxia's date now has two first-party claims: the September 23 official video says "available at launch," while the September 12 What's Next recap says new raids unlock December 9. Do not silently select either date; **2** - beta close Oct 21 vs 22 (Blizzard's forum launch post also reads Oct 21, and talentsforever's beta-client page says the beta runs until 21 October: five voices for 21 against the roadmap graphic and Tavern's 22; still no in-client message); **6** - Spearing Strike; **7** - Heroic $29.99 storefront price; **9** - the Forsaken Paladin mount model (possibly among the roughly 3,300 sealed files); **10** - 2027 fine print. Item 3 is resolved by Blizzard's official race article; item 4 is resolved in Round 7 below.
 
 ## Round 2 resolves (wowforeverclassic crawl, Sep 17)
 
@@ -94,6 +94,14 @@ Blizzard's first-party Legacy article closes the old structure discrepancy and c
 - **Old values retained.** The September 13 pre-release claims of 17 perks and Talented at level 9 remain struck through above. The official article says Talented unlocks talent points up to five levels earlier than normal; the beta rank curve reads levels 9, 8, 7, 6 and 5.
 - **Remaining beta check.** Numeric rank values, tree gates, connector layout and reward thresholds still come from beta-client reads. The official article confirms names, structure and broad effects, not every rank number.
 - **Camping remains separate.** The article does not add a new Camping ruleset. Existing Deep Dive and beta coverage remains the source for camp objects, profession contributions and buff interactions.
+
+## Round 8 resolves (official explainer video, Sep 24)
+
+Blizzard's September 23 official video adds a primary-source claim that changes how the Onyxia item should be graded:
+
+- **Item 1 (Onyxia date) - launch wording verified, date conflict open.** At 00:03:54 the video says, "The 40-player raid, Onyxia's Lair, is available at launch." The official September 12 What's Next recap still says new raids unlock on December 9. The old December 9-only transcription is struck through above; both first-party claims remain visible.
+- **Official video context.** The video says most raids are designed for 10 or 20 players, with more 10- and 20-player experiences arriving through content updates. It gives no Server Slam date or level-cap activation date.
+- **No new Server Slam or cap evidence.** The official news index, Blue Posts surfaces, and current beta references still do not provide either date.
 
 ## How we'll work it
 
