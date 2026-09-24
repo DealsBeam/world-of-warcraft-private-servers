@@ -13,7 +13,7 @@ September 14, 2026 — The Forever beta opens **Thursday, September 17** (level 
 1. **Onyxia's Lair date.** Zierhut named it as the 40-player third raid; only the December 9 placement rests on transcription. Beta client (raid journals, calendars, loading screens) may confirm or deny.
 2. **Beta close: Oct 21 vs 22.** Purchase terms say 21, roadmap graphic 22. In-client messaging or server broadcasts should resolve it.
 3. **Skyborne subtype names.** Resolved Sep 22: Blizzard article 24304075 names Horde-aligned Windshapers and Alliance-aligned High Order officially.
-4. **Legacy perk ranks.** All 17 perk effects and ranks (0/1 through 0/5) rest on captured pre-release tooltips. Beta talent/legacy UI confirms each rank.
+4. **Legacy perk ranks.** ~~All 17 perk effects and ranks (0/1 through 0/5) rest on captured pre-release tooltips.~~ (September 13 pre-release read, superseded September 24.) Blizzard's September 23 official article names **21 perks** across Professions, Adventure and Resourcefulness. Numeric rank curves remain beta-client reads until the UI confirms them.
 
 ## Verify within the first week
 
@@ -32,17 +32,17 @@ September 14, 2026 — The Forever beta opens **Thursday, September 17** (level 
 The beta client is out and the first datamine pass is done — [round-one datamine](/news/forever-beta-datamine-round-one/). Two items moved:
 
 - **Item 5 (dungeon roster) — mostly resolved.** All nine announced destinations check out in the data. The Whelgar's-site dungeon has a working name — **"Excavation Site"** (24–29, "above Whelgar's Excavation", Wetlands, per classicwowforever) — and Inven's furbolg-city dungeon maps to **Blackmaw Hold (Azshara)**, not a Timbermaw Hold dungeon. Entrances still want in-game confirmation.
-- **Item 4 (Legacy perk ranks) — partial.** The beta spell census counts 10 "Legacy Perks & Boons" spells in the build, confirming Legacy spells exist in the files, but the 17 perk effects and their ranks (0/1–0/5) still wait on the in-game Legacy UI.
-- **Item 4 count note (Sep 19).** The references do not agree on how many perks exist: classicwowforever's pre-release read counts 17 effects, wowforeverclassic's tables name 21 (7 per tree), the beta files hold 10 Legacy spells, and talentsforever's beta-client read now shows 27 account-wide perks (up from its 19-perk demo read). The hub now lists all 21 named perks with demo-sourced ranks; the beta UI is the tiebreaker. Full per-rank values (69 ranks) plus 5/10-point gates and connectors are now published from the beta client (classicwowforever, Sep 19) — but in-game confirmation still waits, since Legacy opens at 25 above the beta cap of 20.
+- **Item 4 (Legacy perk ranks) - superseded by official structure (Sep 24).** ~~The beta spell census counts 10 "Legacy Perks & Boons" spells in the build, confirming Legacy spells exist in the files, but the 17 perk effects and their ranks (0/1-0/5) still wait on the in-game Legacy UI.~~ Blizzard's September 23 article now names 21 perks, seven per tree, and confirms the three-tree structure. The beta spell census remains useful for implementation checks, not for counting the official launch perks.
+- **Item 4 count note (updated Sep 24).** The old <del>17-versus-19-versus-27 discrepancy</del> is no longer an open structure question. The official article resolves the named launch structure at 21 perks. Full numeric rank values, tree gates and connector layout remain beta-client reads until the in-game UI confirms them.
 
-Still open: **1** — Onyxia's December 9 placement (a second independent fan read, wowforeverclassic.com, also says December 9; still no official confirmation); **2** — beta close Oct 21 vs 22 (Blizzard's forum launch post also reads Oct 21, and talentsforever's beta-client page says the beta runs until 21 October: five voices for 21 against the roadmap graphic and Tavern's 22; still no in-client message); **3** — Skyborne subtype names (since resolved official, Round 5); **6** — Spearing Strike; **7** — Heroic $29.99 storefront price; **8** — Classic-only racial leftovers (since resolved on structure, Round 3); **9** — the Forsaken Paladin mount model (possibly among the roughly 3,300 sealed files); **10** — 2027 fine print.
+Still open: **1** - Onyxia's December 9 placement (a second independent fan read, wowforeverclassic.com, also says December 9; still no official confirmation); **2** - beta close Oct 21 vs 22 (Blizzard's forum launch post also reads Oct 21, and talentsforever's beta-client page says the beta runs until 21 October: five voices for 21 against the roadmap graphic and Tavern's 22; still no in-client message); **6** - Spearing Strike; **7** - Heroic $29.99 storefront price; **9** - the Forsaken Paladin mount model (possibly among the roughly 3,300 sealed files); **10** - 2027 fine print. Item 3 is resolved by Blizzard's official race article; item 4 is resolved in Round 7 below.
 
 ## Round 2 resolves (wowforeverclassic crawl, Sep 17)
 
 A full crawl of wowforeverclassic.com (its confidence grades: Official/Verified/Reported/Unconfirmed) corroborates round one and moves two items:
 
 - **Item 5 (dungeon roster) — name variance documented.** wowforeverclassic reads the Whelgar's-site dungeon as **"Whelgar's Excavation"** (24–29, a Titan site "trapped in time"); classicwowforever's beta data calls it **"Excavation Site"** (24–29, "above Whelgar's Excavation"). Same band and location, different working name — Blizzard names only the site, not the dungeon. No outlet discloses boss lists or Blueprint drops for the nine.
-- **Item 4 (Legacy structure) — caps double-confirmed.** wowforeverclassic reads the same 16-point spend and 65-point earnable caps, the Spectral Bear collection track, and names 10 perks (Field Medicine shortens Recently Bandaged). Exact effects and ranks (17 perks, 0/1–0/5 per classicwowforever) still wait on the in-game Legacy UI.
+- **Item 4 (Legacy structure) - official article supersedes the old count.** ~~wowforeverclassic reads the same 16-point spend and 65-point earnable caps, the Spectral Bear collection track, and names 10 perks (Field Medicine shortens Recently Bandaged). Exact effects and ranks (17 perks, 0/1-0/5 per classicwowforever) still wait on the in-game Legacy UI.~~ Blizzard's September 23 article confirms 65 Challenges, 21 named perks, 16 spendable points per character, up to 29 points on one character, and four launch rewards. Numeric rank values remain beta-read data.
 
 New open items:
 
@@ -83,8 +83,17 @@ Blizzard article 24304075 (via Icy Veins, first-party copy throughout) closes th
 
 - **Item 9 (Forsaken mount) — name resolved, model still open.** Tavern's pre-beta datamine (Luxrah, Sep 16) lists the spell string "Summon Forsaken Charger": the mount's name is now a file read. The model itself stays open, possibly among the sealed files. Full catalog in the [mount post](/news/forever-datamined-mount-catalog/).
 - **Item 2 (beta close) update.** wowforeverclassic's timeline now cites Blizzard's official What's Next recap for the Oct 21 close: six voices for 21 (purchase terms, forum launch post, talentsforever, classicwowforever, wowforeverclassic timeline, official recap) against two for 22 (roadmap graphic, Tavern guide). Still no in-client message, so still open.
-- **Legacy data note (Sep 23).** The beta client now exposes full rank curves for all 21 perks via Wowhead's Legacy calculator, cross-checked on classicwowforever. Every rank-1 value matches our pre-release reads; the only moved value is **Talented**, whose max rank starts talents at level 5 (ranks 9/8/7/6/5) rather than level 9. Hub updated, no other conflicts.
+- **Legacy data note (Sep 23, updated Sep 24).** The beta client exposes full rank curves for all 21 perks via Wowhead's Legacy calculator, cross-checked on classicwowforever. Blizzard's September 23 official article now confirms the 21-perk structure; every rank-1 value still matches our beta reads, and the only moved value is **Talented**, whose max rank starts talents at level 5 (ranks 9/8/7/6/5) rather than level 9. Hub and Legacy guide updated, no other structural conflicts.
 - **Build watch.** Blizzard shipped beta build 69977 (Mac fixes, controller char-select repair) plus an "A Firm Response" hotfix unblocking Windshaper Skyborne: [roundup](/news/forever-beta-build-69977-mac-controller/). Memory-leak acknowledgment still missing.
+
+## Round 7 resolves (official Legacy article, Sep 23)
+
+Blizzard's first-party Legacy article closes the old structure discrepancy and creates one smaller verification task:
+
+- **Item 4 count and caps - resolved official.** The article names 21 perks, seven in each of Professions, Adventure and Resourcefulness; confirms 65 Challenges, 16 points spendable per character, up to 29 points on one character, level-25 access for most players, and four launch rewards.
+- **Old values retained.** The September 13 pre-release claims of 17 perks and Talented at level 9 remain struck through above. The official article says Talented unlocks talent points up to five levels earlier than normal; the beta rank curve reads levels 9, 8, 7, 6 and 5.
+- **Remaining beta check.** Numeric rank values, tree gates, connector layout and reward thresholds still come from beta-client reads. The official article confirms names, structure and broad effects, not every rank number.
+- **Camping remains separate.** The article does not add a new Camping ruleset. Existing Deep Dive and beta coverage remains the source for camp objects, profession contributions and buff interactions.
 
 ## How we'll work it
 

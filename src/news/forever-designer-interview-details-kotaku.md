@@ -46,7 +46,7 @@ The Kotaku interview answers a cluster of purchasing questions that the official
 
 ### Talent calculator + dual spec
 
-The fan-run [talentsforever.com](https://talentsforever.com), transcribed from BlizzCon demo footage, confirms 51 talent points across the classic 31-point-style trees (rows open every 5 points) with a **dual-spec** feature coming — the Secondary tab was present but locked in the demo. The calculator notes its tooltips are "Estimated" and cites both the BlizzCon demo and Wowhead's Legacy System Explained article (September 12) as sources. The Legacy perks count there is **19** across Adventure, Resourcefulness and Professions, versus the "17" classicwowforever.com transcribed from the pre-release build — a discrepancy we've flagged on [the hub](/classic-plus/#legacy) pending a Blizzard answer.
+The fan-run [talentsforever.com](https://talentsforever.com), transcribed from BlizzCon demo footage, confirms 51 talent points across the classic 31-point-style trees (rows open every 5 points) with a **dual-spec** feature coming - the Secondary tab was present but locked in the demo. The calculator notes its tooltips are "Estimated" and cites both the BlizzCon demo and Wowhead's Legacy System Explained article (September 12) as sources. ~~The Legacy perks count there is 19 across Adventure, Resourcefulness and Professions, versus the 17 transcribed by classicwowforever.com~~ was a September 15 discrepancy. Blizzard's September 23 official article now names **21 perks**, seven in each tree, so the old count is superseded.
 
 ### What this changes on the hub
 
@@ -54,11 +54,11 @@ The fan-run [talentsforever.com](https://talentsforever.com), transcribed from B
 - PvP honor/rank 14 detail added to [Darkspear Islands](/classic-plus/#pvp)
 - Editions paragraph updated with Epic/Collection storefront prices
 - Beta lines updated with the opt-in path
-- Legacy sources section flagged for the 17-vs-19 discrepancy
+- Legacy sources section updated with Blizzard's September 23 official 21-perk structure; the September 15 17-versus-19 discrepancy remains preserved in the correction history
 
 ### What this doesn't resolve
 
-The Oct 21 vs. Oct 22 beta close date remains flagged — two independent sources (GameSpot, classicwowforever.com) confirm October 21 as the purchase-terms date; the roadmap graphic still shows October 22. The Dec 9 raid unlock timing remains [NEEDS VERIFICATION]. The number of Legacy perks at launch remains unconfirmed by Blizzard.
+The Oct 21 vs. Oct 22 beta close date remains flagged. Two independent sources (GameSpot, classicwowforever.com) confirm October 21 as the purchase-terms date; the roadmap graphic still shows October 22. The Dec 9 raid unlock timing remains [NEEDS VERIFICATION]. The number of Legacy perks at launch is now confirmed by Blizzard's September 23 article at 21; exact rank values remain beta-read data.
 
 ### Sources
 

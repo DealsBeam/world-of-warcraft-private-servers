@@ -338,13 +338,14 @@ eleventyComputed:
 
 <section class="panel cp-span-full">
     <h2>Legacy, Camping and How Legacy Points Work</h2>
-    <p>Legacy is Forever's account-wide progression layer, delivered through perk trees rather than traditional account systems. Per the official Forever overview and classicwowforever.com's Legacy guide (September 13, 2026), the model breaks into three parts: earn points via first-time challenges, spend points on perks per character, and work the collection track.</p>
-    <h3>The points economy (per classicwowforever.com's review of the pre-release build)</h3>
+    <p>Legacy is Forever's account-wide progression layer, delivered through perk trees rather than traditional account systems. <a href="https://worldofwarcraft.blizzard.com/news/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system">Blizzard's September 23 official article</a> confirms the model: earn points through Legacy Challenges, spend them on perks per character, and unlock account-wide Legacy Rewards.</p>
+    <h3>The points economy (per Blizzard's September 23 article and beta captures)</h3>
     <ul class="plain-list">
-        <li><strong>Earn up to 65 Legacy points at launch</strong>, shared across your alts</li>
+        <li><strong>Earn up to 65 Legacy points at launch</strong> through 65 first-time Challenges, shared across non-Hardcore characters</li>
         <li><strong>Each character can spend up to 16 points</strong> across all three perk trees; every character picks its own allocation</li>
-        <li>Points come from first-time <strong>Legacy Challenges</strong>: class milestones, tradeskills, quests, exploration, PvP ranks and dungeon/raid goals</li>
-        <li>Hardcore progression stays separate: Hardcore accomplishments can flow out to other rulesets, but other rulesets' progress does not flow back in (per the Deep Dive recap and the Legacy guide); wowforeverclassic (official) adds that Hardcore is excluded from account-wide Collections and Legacy Points</li>
+        <li><strong>One character can earn up to 29 points</strong>, so alternate characters are optional rather than required</li>
+        <li>Legacy access normally begins at level 25, or when a character reaches skill 150 in a non-gathering primary tradeskill or explores the entire world map</li>
+        <li>Hardcore progression stays separate: a Hardcore Challenge can grant its challenge in other rulesets, but non-Hardcore progress does not flow back into Hardcore; PvP Challenges are unavailable in Hardcore</li>
     </ul>
     <h3>Challenge examples observed in the pre-release build</h3>
     <table class="fact-table">
@@ -359,7 +360,7 @@ eleventyComputed:
             <tr><td>Raids</td><td>Conqueror of the Lair (defeat Onyxia) · Conquerer of the Wilds (Hyjal Summit) · Conquerer of the Deeps (Barrow Deeps)</td></tr>
         </tbody>
     </table>
-    <p>Beta-client reads (classicwowforever, September 19) fill in the structure: the 65 break down as 27 class milestones, 18 crafting, 5 PvP ranks (3, 7, 10, 13, 14 only), 3 Field of Honor weeks, 4 battleground exalted, 3 dungeon sets, 3 raids and 2 exploration — with no challenges for gathering, Cooking, Fishing or First Aid. Trees gate deeper perks behind 5- and 10-point spend with left-connector prerequisites, 6 tree slots read "Not yet implemented" (2 per tree), and Legacy appears to open at level 25 (opening it earlier throws errors in beta, which is capped at 20).</p>
+    <p>Blizzard's September 23 article now confirms the 65-Challenge breakdown: 27 class milestones, 18 tradeskill milestones, 12 PvP points, 2 adventure points, 3 dungeon bands and 3 raid goals. Beta-client reads still supply the exact tree gates, connector layout and numeric rank curves. The beta cap of 20 also explains why opening Legacy before level 25 currently produces errors.</p>
     <h3>The collection track (per Blizzard's reveal image)</h3>
     <table class="fact-table">
         <thead><tr><th scope="col">Points earned</th><th scope="col">Reward</th></tr></thead>
@@ -370,7 +371,7 @@ eleventyComputed:
             <tr><td>55</td><td>Reins of the Spectral Bear (mount)</td></tr>
         </tbody>
     </table>
-    <p>Collected rewards are claimed from <strong>Innkeeper Wiley in Ratchet</strong> (per captured tooltips; the mount's claim location was not captured). Rewards sit on a separate track from perk spending, so challenges beyond the 16-point cap keep feeding the collection.</p>
+    <p>Collected rewards are claimed from <strong>Innkeeper Wiley in Ratchet</strong> (per beta captures; the mount's claim location was not captured). Rewards sit on a separate track from perk spending, so challenges beyond the 16-point cap keep feeding the collection. Blizzard's September 23 article confirms the four launch rewards and their account-wide nature; the point thresholds remain beta-capture reads until the UI verifies them.</p>
     <div class="cp-cols">
         <div>
             <h3>Adventure</h3>
@@ -418,7 +419,7 @@ eleventyComputed:
             </ul>
         </div>
     </div>
-    <p class="meta-info">Legacy and Camping system descriptions per Blizzard's panel recap and Deep Dive recap; perk names and effects per classicwowforever.com's captured pre-release tooltips (community screenshot sources: Xaryu stream, DesMephisto, r/classicwow), independently corroborated by Icy Veins' September 17 Legacy overview (same perks: Well Rested, Bountiful Harvest, Reagent Economy) and by wowforeverclassic (September 17: same 16-point spend / 65 earnable caps and the Spectral Bear cosmetic track, "7 Professions-tree perks shown so far"). Rank values above are rank-1 reads unless marked otherwise: the full 21-perk rank curves are now readable in the beta client via Wowhead's Legacy calculator, and every rank-1 value there matches these reads. Talented's max-rank level 5 is the one value that moved.</p>
+    <p class="meta-info"><a href="https://worldofwarcraft.blizzard.com/news/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system">Blizzard's official September 23 Legacy article</a> is primary for the 65 Challenges, 21 perk names, access rule, 16-point character cap, 29-point single-character ceiling, Hardcore boundary and four launch rewards. Beta-client reads from classicwowforever.com, wowforeverclassic.com and Wowhead's Legacy calculator supply the numeric rank curves, tree gates and reward thresholds not printed in the article. The earlier 17-perk transcription is retained as a dated correction in the <a href="/blog/forever-legacy-camping-systems-explained/">Legacy guide</a> and <a href="/news/forever-beta-verification-hit-list/">verification hit list</a>.</p>
 </section>
 
 <section class="panel cp-span-full" id="roadmap">
@@ -547,6 +548,8 @@ eleventyComputed:
         <li><a href="/news/blizzcon-2026-camelot-private-servers/">BlizzCon 2026 Preview: Project Camelot, WoW Classic+, and What It Means for Private Servers</a></li>
         <li><a href="/news/camelot-dwarf-shaman-clues/">Project Camelot hits Patch 1.60.1 — Dwarf Shaman and Shen'dorei clues surface</a></li>
         <li><a href="/news/wow-classic-plus-datamine-blizzcon/">WoW Classic+ datamine fuels BlizzCon 2026 anticipation</a></li>
+        <li><a href="/news/forever-beta-weather-tease-sep-24/">Blizzard teases stronger storms for selected Forever beta zones</a></li>
+        <li><a href="/blog/forever-legacy-camping-systems-explained/">Forever Legacy system: official 21-perk structure and correction history</a></li>
         <li><a href="/blog/best-vanilla-plus-private-servers-2026/">The best Vanilla+ private servers in 2026</a></li>
     </ul>
 </section>
@@ -570,6 +573,7 @@ eleventyComputed:
 <section class="panel cp-span-full" id="sources">
     <h2>Sources</h2>
     <ul class="plain-list">
+        <li>Blizzard - <strong>Get to Know the World of Warcraft: Forever Legacy System</strong>, official, September 23 2026. Primary source for 65 Challenges, 21 perks, 16 points per character, 29 points on one character, access, Hardcore rules and launch rewards.</li>
         <li>Blizzard — <strong>World of Warcraft: Forever What's Next Panel Recap</strong>, official, September 12 2026. Primary source for all release dates, zones, dungeons, raids, battleground, systems and roadmap details above.</li>
         <li>Blizzard — <strong>Pre-Purchase World of Warcraft: Forever Upgrades</strong>, official, September 12 2026. Primary source for editions, beta window, name reservation and Invite-A-Friend details.</li>
         <li>Blizzard — <strong>2026-2027 Forever roadmap graphic + pinned forums post</strong>, official (partly transcribed by classicwowforever.com for fine print).</li>
@@ -578,7 +582,7 @@ eleventyComputed:
         <li>warcraft.wiki.gg — <em>World of Warcraft: Forever</em> (renaming layer, account-wide perks, rendering details, Forsaken paladin).</li>
         <li>Inven Global — <em>WoW Classic+ Details Announced</em> (dungeon level brackets, Riverglades location, Zephras lore).</li>
         <li>NoobToBoss — <em>WoW Forever — All New Zones</em> (Zephras island description).</li>
-        <li>classicwowforever.com — independent fan wiki (Skyborne subtype names, racials, new race/class combinations, "all 17 Legacy perks" and the 15+ radical redesigns transcribed from the September 12 pre-release build with per-screenshot sourcing; no official Forever API namespace as of September 13 2026). <strong>The talent calculator talentsforever.com read 19 Legacy perks from the BlizzCon demo build (tooltips flagged "Estimated"); its beta-client read (build 1.60.1.69876, Sep 19) now shows 27 account-wide perks — count discrepancy unresolved.</strong> September 17: six-part beta datamine series on build 1.60.1.69893 (sealed loot, stat weights, new items/spells, empty boss-drop tables), self-flagged as AI-assisted.</li>
+        <li>classicwowforever.com - independent fan wiki (Skyborne subtype names, racials, new race/class combinations, <del>all 17 Legacy perks</del> from the September 12 pre-release build, and the 15+ radical redesigns transcribed with per-screenshot sourcing; the 17-perk count is superseded by Blizzard's September 23 official 21-perk article). <strong>The talent calculator talentsforever.com <del>read 19 Legacy perks from the BlizzCon demo build</del> (tooltips flagged "Estimated"); its beta-client read (build 1.60.1.69876, Sep 19) <del>showed 27 account-wide perks</del>. Blizzard's official September 23 article is the current structure source at 21 named perks; numeric rank discrepancies remain beta-read questions.</strong> September 17: six-part beta datamine series on build 1.60.1.69893 (sealed loot, stat weights, new items/spells, empty boss-drop tables), self-flagged as AI-assisted.</li>
         <li>Warcraft Tavern — WoW Forever coverage (developer Q&A recap and the official day-one known-issues list, both September 17 2026; beta guide with the October 22 close read, the launch wipe and a no-raid-testing expectation).</li>
         <li>MMORPG.com — <em>BlizzCon 2026 Interview: Chatting WoW Forever's Campsites, Horizontal Progression, and More with Blizzard</em>, Robin Baird, September 15 2026 (Senior Game Designer Josh Greenfield + Senior Art Director Jeff Parrott: campsite placement/duration/cooldown/buff replacement, biome-specific gear effects, ~96-slot bank, transmog toggle, SoD class-quest carryover, world-change philosophy, item-stat obfuscation, no Dungeon Journal at launch).</li>
         <li>MassivelyOP — independent recap of the MMORPG.com interview, Chris Neal, September 16 2026 (campsite rules, horizontal progression/itemization, storage, discovery).</li>

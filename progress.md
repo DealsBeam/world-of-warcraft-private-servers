@@ -161,3 +161,13 @@
 - Detector returned no findings. Local and live desktop/mobile QA passed with no overflow or undersized new controls.
 - Vercel immutable CSS cache required another bump, `v=5` to `v=6`; live CSS v6 confirmed.
 - Pushed `d71d222`, `f5e9f7e`, `7e66541`, and `165cf3e`; IndexNow HTTP 200.
+
+# Progress - Sep 24 daily operation
+
+- Source sweep: official Blizzard beta page, official Legacy article 24307383, Kaivax weather blue post, Icy Veins, Wowhead, PC Gamer, Warcraft Tavern, Blizzard Watch, MMO-Champion, Quissy.tv, Arctium, GamesRadar, Mein-MMO, Warperia, and Nostalgic.gg checked or indexed. No new private-server candidate cleared first-party verification.
+- Published `news/forever-beta-weather-tease-sep-24.md`: Blizzard's Sep 23 weather tease, scoped to selected beta zones, with no invented rollout date or weather toggle claim.
+- Corrected `blog/forever-legacy-camping-systems-explained.md` against Blizzard's Sep 23 official article. Preserved the Sep 13 17-perk, level-9 Talented, and unverified-rank claims with dated strike-through. Updated the hub, verification hit list, and designer-interview cross-reference.
+- Official Legacy facts now recorded: 65 Challenges, 21 named perks, 16 spendable points per character, up to 29 points on one character, level-25 access for most players, and four launch rewards. Numeric rank curves and reward thresholds remain beta-read data.
+- Gates: dash grep clean for new copy; `npm test` passed with 143 servers, 145 news, 107 links, 49 history events, and 45 Classic+ entries; `npm run build` passed with explicit exit 0, 418 files, smoke/internal-link/domain gates green. CDN watcher read live 1.60.1.69963 with 6 bumps.
+- Local browser QA: weather post and Legacy guide render at desktop and 390px mobile with no horizontal overflow; official links, three strike-through corrections, and hub correction markup render correctly. Local Vercel Insights 404 is expected from static server.
+- Pending: pre-push status, commit, push, deployment verification, and IndexNow submission.
