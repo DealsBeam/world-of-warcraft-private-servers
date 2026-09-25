@@ -15,4 +15,6 @@ September 21, 2026: the policy ([beta bans](/news/forever-beta-name-enforcement/
 
 The design intent is explicit: two-part names solve mega-realm availability while Familiar Faces makes names worth remembering. Enforcement plus mechanics, same week, same system.
 
-SOURCES: Blizzard naming post 24304161 (via Tavern Luxrah, Sep 21).
+**Update September 25:** Blizzard's [official account-action guidance](https://us.forums.blizzard.com/en/wow/t/2360739) now confirms forced name changes and beta-access removal for severe naming-policy violations. The development team says actions are individually reviewed, and Customer Service cannot assist with appeals for this enforcement wave.
+
+SOURCES: Blizzard naming post 24304161 (via Tavern Luxrah, Sep 21); Fwoibles's official account-action post (Sep 24).

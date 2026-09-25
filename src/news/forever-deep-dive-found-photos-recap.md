@@ -1,6 +1,7 @@
 ---
-title: "WoW: Forever Deep Dive and Found Photos recap — Paladin rework, realmless servers, 6 new combos"
+title: "WoW: Forever Deep Dive and Found Photos recap - Paladin rework, realmless servers, 6 new combos"
 date: 2026-09-14
+updated: 2026-09-25
 game: wow
 description: "Forever Deep Dive recap: realmless rulesets, Paladin rework with Seal of Fury taunts, 6 confirmed class-race combos, Legacy points economy, itemization overhaul, Found Photos content philosophy."
 tags: [wow, blizzcon-2026, classic-plus]
@@ -57,7 +58,7 @@ Blizzard was explicit about limits staying: Paladins still have no interrupt and
 
 ## What's still unverified
 
-- **Onyxia's Lair** is confirmed as a raid encounter via the [Legacy challenge](/classic-plus/) tier ("Conqueror of the Lair" — defeat Onyxia), but its December 9 placement rests on fan transcription of the roadmap graphic; it is absent from both official recaps. [NEEDS VERIFICATION]
+- **Onyxia's Lair** is confirmed as a raid encounter via the [Legacy challenge](/classic-plus/) tier ("Conqueror of the Lair" - defeat Onyxia). ~~Its December 9 placement rests only on fan transcription and is absent from both official recaps.~~ **Update September 24:** Blizzard's official video says the raid is available at launch, while the official roadmap says new raids unlock December 9. Keep the first-party conflict open.
 - **Beta level cap** (30) remains fan-reported. [NEEDS VERIFICATION]
 - Hardcore panel details land in a separate recap Blizzard has not published yet.
 
