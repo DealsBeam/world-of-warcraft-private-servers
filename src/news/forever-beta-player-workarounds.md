@@ -34,7 +34,7 @@ Separately, macOS players report the beta client crashing on launch ([EU forum t
 
 ## FPS decay and the suspected memory leak (Sep 20)
 
-A second performance thread, compiled by wowforeverclassic's [beta fixes guide](https://wowforeverclassic.com/guides/beta-fixes) (checked Sep 19): high-end PCs running 25 to 50 FPS or losing frames over an hour. Player-reported helps are updating graphics drivers, turning off Target Framerate, deleting the Cache folder inside the beta install, and switching to DirectX 11. Frame rate decaying across an hour points at a memory leak Blizzard has not acknowledged; restarting the client is the only relief reported so far.
+A second performance thread, compiled by wowforeverclassic's [beta fixes guide](https://wowforeverclassic.com/guides/beta-fixes) (checked Sep 19): high-end PCs running 25 to 50 FPS or losing frames over an hour. Player-reported helps are updating graphics drivers, turning off Target Framerate, deleting the Cache folder inside the beta install, and switching to DirectX 11. Frame rate decaying across an hour ~~points at a memory leak Blizzard has not acknowledged; restarting the client is the only relief reported so far.~~ **Update September 25:** Blizzard's official development notes now explicitly list a fix for a memory leak causing gradual performance degradation. Retest on the new build before treating the older workarounds as current.
 
 ## Settings reset on every restart (Sep 20)
 

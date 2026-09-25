@@ -12,6 +12,8 @@ The Mac line matters because it was the one platform thread with no workaround (
 
 Separately hotfixed (Sep 22): the quest **A Firm Response** no longer strands **Windshaper Skyborne on Zephras Isle** at Belathaan Brightwish near the Shrine of Akir. Two more threads (duplicate-name errors, login-stuck characters) are in info-gathering, not fixed.
 
-Still open and conspicuous: the suspected **memory leak** behind hour-long FPS decay has no acknowledgment anywhere in this round. Fixes are landing same-week; that one is not among them yet.
+Still open and conspicuous at the time: the suspected **memory leak** behind hour-long FPS decay had no acknowledgment anywhere in this round. Fixes were landing same-week; that one was not among them yet.
+
+**Update September 25:** Blizzard's official September 24 development notes now list a fix for a memory leak causing gradual performance degradation. The old unacknowledged status is superseded, but players should retest before assuming the fix resolves every FPS problem.
 
 SOURCES: Blizzard blue post US 2358655 (full text via Icy Veins Starym, Sep 23) and Tavern blue tracker RSS (EU 630815, US 2358655, EU 630568, US 2353697, US 2354050; Sep 22-23).

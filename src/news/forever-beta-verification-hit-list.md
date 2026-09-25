@@ -84,7 +84,7 @@ Blizzard article 24304075 (via Icy Veins, first-party copy throughout) closes th
 - **Item 9 (Forsaken mount) — name resolved, model still open.** Tavern's pre-beta datamine (Luxrah, Sep 16) lists the spell string "Summon Forsaken Charger": the mount's name is now a file read. The model itself stays open, possibly among the sealed files. Full catalog in the [mount post](/news/forever-datamined-mount-catalog/).
 - **Item 2 (beta close) update.** wowforeverclassic's timeline now cites Blizzard's official What's Next recap for the Oct 21 close: six voices for 21 (purchase terms, forum launch post, talentsforever, classicwowforever, wowforeverclassic timeline, official recap) against two for 22 (roadmap graphic, Tavern guide). Still no in-client message, so still open.
 - **Legacy data note (Sep 23, updated Sep 24).** The beta client exposes full rank curves for all 21 perks via Wowhead's Legacy calculator, cross-checked on classicwowforever. Blizzard's September 23 official article now confirms the 21-perk structure; every rank-1 value still matches our beta reads, and the only moved value is **Talented**, whose max rank starts talents at level 5 (ranks 9/8/7/6/5) rather than level 9. Hub and Legacy guide updated, no other structural conflicts.
-- **Build watch.** Blizzard shipped beta build 69977 (Mac fixes, controller char-select repair) plus an "A Firm Response" hotfix unblocking Windshaper Skyborne: [roundup](/news/forever-beta-build-69977-mac-controller/). Memory-leak acknowledgment still missing.
+- **Build watch.** Blizzard shipped beta build 69977 (Mac fixes, controller char-select repair) plus an "A Firm Response" hotfix unblocking Windshaper Skyborne: [roundup](/news/forever-beta-build-69977-mac-controller/). ~~Memory-leak acknowledgment still missing.~~ **Update September 25:** the next official development-notes post lists a memory-leak fix, along with broad class tuning, Campfire changes, a limited Cooldown Manager, and gamepad updates.
 
 ## Round 7 resolves (official Legacy article, Sep 23)
 
@@ -102,6 +102,18 @@ Blizzard's September 23 official video adds a primary-source claim that changes 
 - **Item 1 (Onyxia date) - launch wording verified, date conflict open.** At 00:03:54 the video says, "The 40-player raid, Onyxia's Lair, is available at launch." The official September 12 What's Next recap still says new raids unlock on December 9. The old December 9-only transcription is struck through above; both first-party claims remain visible.
 - **Official video context.** The video says most raids are designed for 10 or 20 players, with more 10- and 20-player experiences arriving through content updates. It gives no Server Slam date or level-cap activation date.
 - **No new Server Slam or cap evidence.** The official news index, Blue Posts surfaces, and current beta references still do not provide either date.
+
+## Round 9 resolves (official development notes, Sep 24)
+
+Blizzard's Kaivax posted a full first-party development-notes update for the next beta build. It changes the status of several previously open beta observations:
+
+- **Memory leak claim - now officially acknowledged and fixed in the notes.** The September 20 player report behind hour-long FPS decay is no longer an unacknowledged lead. Retest results can still vary by hardware and client state.
+- **Cooldown Manager - limited implementation confirmed.** It is available for Druid, Mage, Priest, Warrior, and Warlock, disabled by default under Gameplay Enhancement. Spell-rank support, pet cooldowns, and item enhancements remain incomplete.
+- **Campfire restrictions eased.** Players can buff each other, cast, and craft while waiting for the Campfire buff, and can obtain it while sitting, sleeping, lying down, or kneeling.
+- **Gamepad support expanded.** Class-specific flyouts, Compact Action Bar, party-targeting controls, and new gamepad options are now in testing. This is an active beta feature, not a launch-completeness guarantee.
+- **Class tuning is moving.** Highlights include Druid Wrath base damage up about 50 percent, Feral Mangle renamed Primal Bite, Hunter Furious Howl Attack Power bonus reduced 40 percent, Paladin Holy Strike cooldown and rank changes, and early Shaman and Warrior changes. Treat all values as beta-build data until launch.
+
+The notes still do not provide a Server Slam date, level-30 activation date, or a new Onyxia resolution. The date conflict and other open claims remain tracked above.
 
 ## How we'll work it
 

@@ -26,7 +26,7 @@ Barber chairs throw a LUA error; **character friends are disabled** in beta; the
 
 ## September 18 additions
 
-Kaivax updated the list next day with five new items ([Icy Veins, Starym](https://www.icy-veins.com/wow-forever/news/wow-forever-beta-known-issues-list-september-18th/)): the **Cooldown Manager** is unfinished with implementation varying class to class; **Bear Form** multiplies armor bonuses from consumables and buffs; queueing an on-next-attack ability (Heroic Strike, Cleave, Raptor Strike) disables the spell queue window; taking damage while channeling **Arcane Missiles** fires a full-damage bolt instead of truncated damage; and **resurrection sickness** duration is wrong at lower levels.
+Kaivax updated the list next day with five new items ([Icy Veins, Starym](https://www.icy-veins.com/wow-forever/news/wow-forever-beta-known-issues-list-september-18th/)): the **Cooldown Manager** is unfinished with implementation varying class to class; **Bear Form** multiplies armor bonuses from consumables and buffs; queueing an on-next-attack ability (Heroic Strike, Cleave, Raptor Strike) disables the spell queue window; taking damage while channeling **Arcane Missiles** fires a full-damage bolt instead of truncated damage; and **resurrection sickness** duration is wrong at lower levels. **Update September 25:** the official development notes add a limited Cooldown Manager for Druid, Mage, Priest, Warrior, and Warlock, but still list pet cooldowns, item enhancements, and spell ranks as incomplete.
 
 ## Why launch day buckled
 

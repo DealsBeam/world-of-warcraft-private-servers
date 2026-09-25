@@ -32,7 +32,7 @@ Storage grows to support pack-rat play: the default bank is much larger — "96 
 - **Class quest lines** — Season of Discovery's class quests carried over, some new, some expanded, with more on the whiteboard for after launch.
 - **World changes** — additive-not-destructive is the design goal; situational terrain changes are possible but kept "sparing," with Cataclysm's ambition-as-cost cited as the cautionary tale (Azshara gained quests, Wetlands got new lighting).
 - **Pacing** — leveling combat stays Classic-paced: around levels 10–15 a kill takes 10–15 seconds, and pulling three means "you're probably gonna die."
-- **Built-in UI** — the damage meter is in; the cooldown manager is planned for the near future and may not make beta (the addon bullet on the hub has the full picture).
+- **Built-in UI** - the damage meter is in; ~~the cooldown manager is planned for the near future and may not make beta~~. **Update September 25:** Blizzard's official beta notes now describe a limited Cooldown Manager for five classes, disabled by default, with spell-rank support still pending.
 
 The item-surprise design Greenfield described in this same interview — item stats hidden until an item first drops on your server, and no Dungeon Journal explanations at launch — is already covered in our [beta day-one coverage](/news/forever-beta-live-sep-17/).
 
