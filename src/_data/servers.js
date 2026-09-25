@@ -1,5 +1,15 @@
 module.exports = [
     {
+        "name": "Classic Forever",
+        "status": "dev",
+        "details": "Personal 1.60.1 beta-client project, level 20 cap, login/world reported online, access by shared account and custom launcher, public source/status repo, no donations or shop, unsigned launcher warning",
+        "tag": "Vanilla+",
+        "group": "",
+        "url": "https://raw.githubusercontent.com/defexnicolas/wow-classic-launcher/status/status.json",
+        "updated": "2026-09-25",
+        "popTier": "unknown"
+    },
+    {
 "name": "SandWorlds",
         "status": "playable",
         "details": "Vanilla PVP, 213 Discord online",
