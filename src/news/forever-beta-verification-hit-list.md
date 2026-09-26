@@ -127,6 +127,18 @@ Re-reading Kaivax's September 24 notes line by line against the hub turned up th
 - **Client-file reads, not official.** Community talent trackers report Crusade missing from the Retribution tree in this build, and the build's talent tables still show Bastion and Focused Rage in their pre-swap rows even though the notes say they swapped. Both stay reported until an in-game tooltip or a notes line confirms them.
 - **Still open after this pass.** Server Slam date, level-30 activation date, the Onyxia launch-versus-December-9 conflict, the beta close-date split, Spearing Strike, the Heroic price, the Forsaken mount model, the Legendary questline and the 2027 fine print.
 
+## Round 11 partial (Windows Central developer interview, Sep 22)
+
+A first-party interview with lead game designer Tim Jones and lead software engineer Nora Valleta moved three items and opened none.
+
+- **Class viability, upgraded from paraphrase to direct quote.** Jones: "Every single one of our 27 talent trees is now viable for all content in WoW: Forever," with the qualifier that they are not equal and none so strong a raid would stack them. Valleta names Retribution Paladin as raid-viable via seal twisting. This is a design-intent statement, not a balance verification, so beta values still govern every number.
+- **Raid structure, third independent statement.** "We're going to consistently deliver new 10 and 20 player content every patch. Onyxia will be our 40 man raid." The cadence matches the Kotaku and September 17 Q&A versions.
+- **Onyxia date, narrowed but still open.** "Onyxia will be our 40 man raid" carries no date. Four signals now lean launch and the December 9 recap still stands. No first-party source names a date, so the conflict is unchanged.
+- **New open item: the Timbermaw Hold naming.** Jones asked the reporter "What was that weird gate in Azshara all that time, for example? That's now Timbermaw Hold, right?" The beta data and Blizzard's dungeon list read the same location as Blackmaw Hold. A developer naming it does not settle it, because the sentence is a question and no official list has been published. Both names stay visible on the hub.
+- **New watch item, not a commitment: sub-60 zones after launch.** "We might add an update where we put in a new zone designed not for level 60, but for level 27 to 32 for example, with a new dungeon." Direction, not schedule.
+- **Recorded, not scheduled: player housing.** Jones would like to bring Player Housing into the Classic world and sees Camping as the likely retail-to-Classic bridge. Retail's Midnight housing system is not on the Forever roadmap.
+- **Unchanged.** Server Slam date, level-30 activation date, beta close-date split, Spearing Strike, Heroic price, Forsaken mount model, Legendary questline, 2027 fine print.
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.
