@@ -768,11 +768,12 @@ module.exports = [
     {
         "name": "19PvP",
         "status": "playable",
-        "details": "WotLK 3.3.5a level-19 twink realm (Warsong Gulch + arena), custom gear and suffixes, resistance rework, Discord-linked accounts, playerbots backfill quiet games — launched Aug 8 2026, open-source (AzerothCore)",
+        "details": "WotLK 3.3.5a level-19 twink realm, cross-faction Warsong Gulch plus arena: gems replace libram arcanums, suffixes you buy from an NPC, resistances that reduce instead of negating, Discord-bridged chat, bots backfill quiet games. Open-source and non-commercial, on AzerothCore with mod-playerbots and mod-ale",
         "tag": "WotLK",
         "group": "",
+        "guide": "/blog/19pvp-level-19-twink-realm/",
         "url": "https://19pvp.devazuka.com/",
-        "updated": "2026-09-19",
+        "updated": "2026-09-26",
         "popTier": "tiny"
     },
     {
@@ -1223,11 +1224,12 @@ module.exports = [
     {
         "name": "Starfall WoW",
         "status": "playable",
-        "details": "Progressive Cata 4.3.4 with custom Mythic+ — 15 affixes, keystones +15, 3 seasons, Blizzlike, transmog legendaries, 1-5x, Solo LFG, no P2W",
+        "details": "Progressive Cataclysm 4.3.4 build 15595, Phase 2 is patch 4.1 with Zul'Aman and Zul'Gurub heroics: custom 15-affix Mythic+ drawn from Low, Mid and High pools, keys to +15, Mythic+ gear at the current heroic raid item level, three seasons, Solocraft scaling for dungeons 15-79, 1-5x, no P2W",
         "tag": "Cataclysm",
         "group": "",
+        "guide": "/blog/starfall-wow-cata-mythic-plus/",
         "url": "https://starfall-wow.com",
-        "updated": "2026-09-04",
+        "updated": "2026-09-26",
         "popTier": "tiny"
     },
     {
@@ -1325,11 +1327,12 @@ module.exports = [
     {
         "name": "TBC5Legends",
         "status": "playable",
-        "details": "TBC 2.4.3 built for 5-man raiding: Kara through Sunwell rescaled for 5 players, Normal/Challenge/Legends modes, Mythic+ to +13, 7-phase progression (Phase 2: SSC/TK open), WotLK class mechanics, instant 70, custom legendaries per class",
+        "details": "TBC 2.4.3 built for 5-man raiding: every raid hand-retuned for five, Normal/Challenge/Legends modes chosen at the door, Mythic+ to +13, 830 Ancestral Runes, instant 70 or an x1 Journey, Tier 6 gates Mount Hyjal Oct 17 and Black Temple Oct 24, EU-hosted, no wipes",
         "tag": "TBC",
         "group": "",
+        "guide": "/blog/tbc5legends-five-player-burning-crusade/",
         "url": "https://tbc5legends.com/",
-        "updated": "2026-09-14",
+        "updated": "2026-09-26",
         "popTier": "small"
     },
     {

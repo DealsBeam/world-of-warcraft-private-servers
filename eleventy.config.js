@@ -85,6 +85,26 @@ const startingPoints = posts => posts.filter(p => p.data && p.data.startingPoint
     eleventyConfig.addFilter("filterBlogByTag", filterBlogByTag);
     eleventyConfig.addFilter("startingPoints", startingPoints);
 
+    // Wrap every markdown table in a scroll container. Prose tables in posts
+    // had no styling and crushed their columns into unreadable stacks on
+    // phones, and the fix has to be a separate box: overflow-x on the <table>
+    // itself either squeezes the columns or widens the whole page. This
+    // overrides only the table_open and table_close render rules and leaves
+    // every other markdown-it default untouched.
+    const md = require("markdown-it")({ html: true });
+    const fallback = self => (tokens, idx, opts, env) => self.renderToken(tokens, idx, opts);
+    const openTable = md.renderer.rules.table_open || fallback(md.renderer);
+    const closeTable = md.renderer.rules.table_close || fallback(md.renderer);
+    md.renderer.rules.table_open = (tokens, idx, opts, env, self) =>
+        openTable(tokens, idx, opts, env, self).replace(/^<table/, '<div class="table-scroll"><table');
+    // renderToken appends a trailing newline for block tokens, so the closing
+    // anchor has to tolerate trailing whitespace. Getting this wrong emits an
+    // unclosed <div> on every post with a table, which browsers mis-render
+    // silently, so the build asserts wrapper balance.
+    md.renderer.rules.table_close = (tokens, idx, opts, env, self) =>
+        closeTable(tokens, idx, opts, env, self).replace(/<\/table>\s*$/, "</table></div>");
+    eleventyConfig.setLibrary("md", md);
+
     eleventyConfig.addCollection("news", collectionApi =>
         collectionApi.getFilteredByGlob("src/news/*.md")
             .filter(p => !p.data.draft)

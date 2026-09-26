@@ -74,6 +74,12 @@ for (const d of ["news/", "blog/"]) {
         assert.strictEqual(opens, closes, `unclosed HTML comment: /${d}${entry}/ (${opens} opens, ${closes} closes)`);
         const words = textOf(html).split(" ").filter(Boolean).length;
         assert.ok(words > 20, `page renders almost no text: /${d}${entry}/ (${words} words)`);
+        // The table scroll wrapper is injected by a markdown-it renderer rule.
+        // An unbalanced wrapper is an unclosed <div>, which browsers mis-render
+        // without any build-time complaint, so count them here.
+        const wrapOpen = (html.match(/<div class="table-scroll">/g) || []).length;
+        const wrapClose = (html.match(/<\/table><\/div>/g) || []).length;
+        assert.strictEqual(wrapOpen, wrapClose, `unbalanced table-scroll wrapper: /${d}${entry}/ (${wrapOpen} open, ${wrapClose} close)`);
     }
 }
 
@@ -110,6 +116,46 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     check(out);
     assert.strictEqual(broken.length, 0, `broken internal links:\n${broken.join("\n")}`);
     console.log(`OK: internal links resolve (${pages.size} pages)`);
+}
+
+// Fragment links must point at a real id. The check above strips "#..." before
+// resolving, and a bare href="#id" does not even start with "/", so neither
+// path covered same-page anchors. A dead #fragment reads as a working link to
+// both a reader and a crawler, so verify the id exists in the target page.
+{
+    const htmlCache = new Map();
+    const relToFile = rel => (rel === "" || rel.endsWith("/") ? rel + "index.html" : rel);
+    const readPage = rel => {
+        if (!htmlCache.has(rel)) {
+            htmlCache.set(rel, fs.readFileSync(path.join(out, relToFile(rel)), "utf8"));
+        }
+        return htmlCache.get(rel);
+    };
+    const hasId = (rel, id) => {
+        const html = readPage(rel);
+        return new RegExp(`\\sid="${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`).test(html);
+    };
+    const bad = [];
+    const walk = dir => {
+        for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+            const p = path.join(dir, e.name);
+            if (e.isDirectory()) { walk(p); continue; }
+            if (e.name !== "index.html") continue;
+            const html = fs.readFileSync(p, "utf8");
+            const fromRel = path.relative(out, p).replace(/\\/g, "/").replace(/index\.html$/, "");
+            const from = "/" + fromRel;
+            for (const m of html.matchAll(/href="([^"]*#[^"]*)"/g)) {
+                const [href, frag] = m[1].split("#");
+                const targetRel = frag === "" ? null
+                    : (href === "" ? fromRel : (href.startsWith("/") ? href.replace(/^\//, "").replace(/index\.html$/, "") : null));
+                if (targetRel === null) continue; // external or non-page target, out of scope
+                if (!hasId(targetRel, frag)) bad.push(`${from} -> #${frag}`);
+            }
+        }
+    };
+    walk(out);
+    assert.strictEqual(bad.length, 0, `dead fragment links:\n${bad.join("\n")}`);
+    console.log("OK: fragment links resolve");
 }
 
 // No direct hyperlinks to tracked private-server domains anywhere in built HTML.

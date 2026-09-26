@@ -1269,6 +1269,46 @@ a.server-link:hover {
     }
 }
 
+/* Markdown tables in news and blog posts rendered as bare <table> with no
+   styling, so they inherited no borders and crushed their columns into
+   unreadable vertical stacks below ~400px ("Phas e", "Upco ming"). The markdown
+   pipeline wraps every table in .table-scroll, which is what makes the
+   horizontal scroll possible: a scroll container has to be a separate
+   width-constrained box, because putting overflow-x on the <table> itself
+   either crushes the columns or widens the page. */
+.table-scroll {
+    overflow-x: auto;
+    margin: 18px 0;
+    max-width: 100%;
+}
+
+.table-scroll > table {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.table-scroll > table th,
+.table-scroll > table td {
+    border: 1px solid var(--border-2);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.table-scroll > table th {
+    background: var(--panel-2);
+    color: var(--gold-bright);
+    font-family: var(--font-h);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    /* Short header labels should never break mid-word when the columns are
+       tight. Let them force the table wider inside the scroller instead. */
+    white-space: nowrap;
+}
+
 .fact-table {
     width: 100%;
     border-collapse: collapse;
@@ -1956,6 +1996,16 @@ textarea {
    Classic Forever launcher post, which overflowed a 390px screen. */
 .surface-reading :where(p, li, td, th, code, pre, a) {
     overflow-wrap: anywhere;
+}
+
+/* `anywhere` is right for a 64-character hash and wrong for a table cell: it
+   lets the browser break inside an ordinary word, and because it also shrinks
+   min-content sizing, the column never grows to fit its longest label. Post
+   tables were rendering "Completed" as "Complete d" and "Upcoming" as
+   "Upcomin g" on phones. `break-word` still handles genuine overflow but
+   leaves min-content alone, so the scroller takes the extra width instead. */
+.surface-reading .table-scroll :where(td, th) {
+    overflow-wrap: break-word;
 }
 
 /* `pre` defaults to white-space: pre, which a child `code` inherits, so
