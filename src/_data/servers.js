@@ -2,11 +2,11 @@ module.exports = [
     {
         "name": "Classic Forever",
         "status": "dev",
-        "details": "Personal 1.60.1 beta-client project, level 20 cap, login/world reported online, access by shared account and custom launcher, public source/status repo, no donations or shop, unsigned launcher warning",
+        "details": "Personal 1.60.1 beta-client project, level 20 cap, shared-account access, no donations or shop, public source and status repo, login and world verified reachable Sep 26, launcher v1.1.2 (565 downloads) with GitHub Actions reproducible builds and a published SHA-256 sidecar that matches the binary byte for byte, unsigned Windows binary that writes 32 bytes into the beta client heap to swap the region-8 Ed25519 key, no other network surface found in source, supports builds 1.60.1.69913/69977/70009 plus a Linux Proton/Wine script, build not reproduced locally",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://raw.githubusercontent.com/defexnicolas/wow-classic-launcher/status/status.json",
-        "updated": "2026-09-25",
+        "updated": "2026-09-26",
         "popTier": "unknown"
     },
     {
@@ -28,6 +28,16 @@ module.exports = [
         "url": "https://eternalgaming.site/",
         "updated": "2026-08-25",
         "popTier": "tiny"
+    },
+    {
+        "name": "Frostbound",
+        "status": "playable",
+        "details": "Spanish-first custom WotLK 3.3.5a launched Mar 30 2026, AzerothCore + mod-playerbots, Warband of four player-owned AI alts, 750 random world bots, solo/co-op endgame, Mythic+, full cross-faction, x1-7 XP / x2 loot / x2 gold, donation-funded crystal store sells instant level 80 and 450 professions so do not read it as no-P2W, first-party API 650 online and peak 687 Sep 26, latest dev post Jul 24, 17.6GB and 27GB full clients shipped via third-party GoFile with no published hashes or file manifest and no project source repo, download and verify before running anything",
+        "tag": "WotLK",
+        "group": "",
+        "url": "https://frostbound.org/",
+        "updated": "2026-09-26",
+        "popTier": "medium"
     },
     {
         "name": "Azekai Reincarnated",

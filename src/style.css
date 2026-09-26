@@ -1950,6 +1950,22 @@ textarea {
 }
 
 /* ---------- page modes: shared brand shell, task-specific emphasis ---------- */
+
+/* Long unbreakable tokens (hashes, hex keys, URLs) must not force the page
+   wider than the viewport. Verified against the 64-char SHA-256 blocks in the
+   Classic Forever launcher post, which overflowed a 390px screen. */
+.surface-reading :where(p, li, td, th, code, pre, a) {
+    overflow-wrap: anywhere;
+}
+
+/* `pre` defaults to white-space: pre, which a child `code` inherits, so
+   overflow-wrap alone cannot break a long hash. pre-wrap keeps the line breaks
+   the author wrote while still allowing a single long token to wrap. */
+.surface-reading pre,
+.surface-reading pre code {
+    white-space: pre-wrap;
+}
+
 .surface-legal .header-banner,
 .surface-utility .header-banner,
 .surface-media .header-banner {
