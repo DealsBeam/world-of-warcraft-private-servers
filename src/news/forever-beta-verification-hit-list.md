@@ -115,6 +115,18 @@ Blizzard's Kaivax posted a full first-party development-notes update for the nex
 
 The notes still do not provide a Server Slam date, level-30 activation date, or a new Onyxia resolution. The date conflict and other open claims remain tracked above.
 
+## Round 10 resolves (notes read item by item, Sep 26)
+
+Re-reading Kaivax's September 24 notes line by line against the hub turned up three hub values that were already stale, plus one new open item.
+
+- **Gnome Eureka! - superseded.** The notes change Eureka on every class to a 10% discount on Mana, Rage or Energy abilities. The September 22 read ("next 3 spells or abilities cost less and deal 10% more damage or healing") and the class-scaled percentages are struck through on the [hub](/classic-plus/). Official and current.
+- **Undead Touch of the Grave - narrowed.** It no longer breaks crowd control and no longer activates from spells and abilities with no damage component. Shadow Word: Pain procs it on cast but not on periodic damage; Distract, Pick Pocket and Polymorph cannot activate it. Official and current.
+- **Tauren Cultivation - gated.** Every herb now requires a character level equal to one fifth of that herb's Herbalism requirement, and herbs needing more than 300 Herbalism unlock at level 60. Official and current.
+- **Items - two caster corrections.** Wizard Oils revert to Classic Era values (Minor 8 spell power, Lesser 16, Wizard 24, Brilliant unchanged) and wands no longer gain damage from the user's spell damage.
+- **New open item: the auto-shot and wand cast bug.** Kaivax confirmed on September 23 that the 0.5-second cast before a Hunter auto-shot or wand use is not functioning, and the September 24 notes do not fix it. Tracked in its own post.
+- **Client-file reads, not official.** Community talent trackers report Crusade missing from the Retribution tree in this build, and the build's talent tables still show Bastion and Focused Rage in their pre-swap rows even though the notes say they swapped. Both stay reported until an in-game tooltip or a notes line confirms them.
+- **Still open after this pass.** Server Slam date, level-30 activation date, the Onyxia launch-versus-December-9 conflict, the beta close-date split, Spearing Strike, the Heroic price, the Forsaken mount model, the Legendary questline and the 2027 fine print.
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.

@@ -426,5 +426,9 @@ module.exports = [
     {
         "title": "WowForeverClassic — unofficial WoW Forever map, talent calculator and guides, every fact source-linked with a confidence grade",
         "url": "https://www.wowforeverclassic.com/"
+    },
+    {
+        "title": "Classic WoW Forever — unofficial WoW Forever talent and class reference, 180 sourced class changes, full racial tables and dated beta update briefs",
+        "url": "https://classicwowforever.com/"
     }
 ];

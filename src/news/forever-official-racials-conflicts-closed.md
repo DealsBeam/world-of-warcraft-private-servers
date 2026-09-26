@@ -14,4 +14,6 @@ September 22, 2026: Blizzard article [24304075](https://worldofwarcraft.blizzard
 
 The tables corroborate the hub's verified entries throughout with no contradictions found. Remaining opens (Onyxia date, close-date split, Spearing Strike, Heroic price, Forsaken mount, Legendary teaser, 2027 fine print) stand.
 
+**Update September 24:** Kaivax's beta development notes then changed Gnome **Eureka!** on every class to a flat 10% discount on Mana, Rage or Energy abilities, which supersedes the September 22 read above and the class-scaled percentages recorded before it. The hub carries the old value struck through. Two more racial rules moved in the same notes: Tauren **Cultivation** gained a character-level gate, and Undead **Touch of the Grave** no longer breaks crowd control. See the [Round 10 notes](/news/forever-beta-verification-hit-list/) for the full reconciliation.
+
 SOURCES: Blizzard article 24304075 (first-party); Icy Veins Starym (Sep 22).

@@ -25,6 +25,12 @@ A 10/20/40 raid track on launch raids (Hyjal Summit, the Barrow Deeps) is the sc
 
 No server changes here. The reference site also confirms, in its changelog, talent calculators for **all nine classes** — consistent with the Classic-era 9-class reading from the [Kotaku designer interview](/news/forever-designer-interview-details-kotaku/) (no SoD-style hybrids). Full system tables live on the [Forever hub](/classic-plus/); open questions collected on the [beta verification hit list](/news/forever-beta-verification-hit-list/).
 
+## Update September 26: how to grade it now
+
+The site has grown into the most detailed unofficial reference in the scene, and it is now worth watching for a specific reason: it is fast, and it lags. Its class and racial pages still carry a September 19 check date, so as of this pass they still show the pre-build-70009 Gnome **Eureka!** value, the old Touch of the Grave crowd-control interaction, and Cultivation without its new level gate. Its talent index is labeled with a Classic Era build number and still describes the beta as not yet open, nine days after it opened. Its guides index is older still, checked September 14.
+
+That is a feature for us, not a problem. A reference that publishes every claim with a date and a source grade is easy to audit, and the gaps are where first-party reading adds value. The practical rule: read its structure and its sourcing, confirm every number against Kaivax's notes before publishing, and treat anything it reads out of client files as reported rather than official. That is how the [Round 10 reconciliation](/news/forever-beta-verification-hit-list/) and the [beta build guide](/blog/forever-beta-sep-24-build-guide/) were produced.
+
 <!--
 SOURCES: classicwowforever.com /updates/ and /updates/changelog/ (Sep 13-16 changelog; Sep 15 Forever Deep Dive update batch listing 10/20/40 raid tracks, Hardcore Legacy carryover, Hardcore world-refresh warning, dungeon quest first-run weighting; site self-flags AI-assisted data); Kris Zierhut to The Sun (Sep 15) via Icy Veins "WoW Forever Cuts Dungeon Kill XP but Makes Dungeon Quests More Rewarding" — kill XP down, quest XP up, first-run-favored.
 -->
