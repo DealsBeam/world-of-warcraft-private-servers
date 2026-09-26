@@ -1,7 +1,7 @@
 ---
 title: "WoWee: native Vulkan client for 1.12 through 3.3.5a, plus its own soundtrack"
 date: 2026-09-06
-category: guide
+category: guides
 summary: "WoWee is a C++ Vulkan WoW client for Vanilla, TBC and WotLK — tested against AzerothCore, TrinityCore, MaNGOS and Turtle 1.18, with Android builds and an original 19-track soundtrack."
 ---
 <!--

@@ -5,7 +5,11 @@
     { "source": "/servers/centurion-barracks/", "destination": "/servers/centurion/", "permanent": true },
     { "source": "/servers/centurion-barracks", "destination": "/servers/centurion/", "permanent": true },
     { "source": "/servers/freedomwow/", "destination": "/servers/freedom-wow/", "permanent": true },
-    { "source": "/servers/freedomwow", "destination": "/servers/freedom-wow/", "permanent": true }
+    { "source": "/servers/freedomwow", "destination": "/servers/freedom-wow/", "permanent": true },
+    { "source": "/blog/chromiecraft-guide/", "destination": "/blog/chromiecraft-deep-dive/", "permanent": true },
+    { "source": "/blog/chromiecraft-guide", "destination": "/blog/chromiecraft-deep-dive/", "permanent": true },
+    { "source": "/blog/old-man-warcraft-guide/", "destination": "/blog/old-man-warcraft-review/", "permanent": true },
+    { "source": "/blog/old-man-warcraft-guide", "destination": "/blog/old-man-warcraft-review/", "permanent": true }
   ],
   "headers": [
     {

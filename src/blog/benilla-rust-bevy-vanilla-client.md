@@ -1,7 +1,7 @@
 ---
 title: "Benilla: from-scratch 1.12.1 client in Rust and Bevy"
 date: 2026-09-06
-category: guide
+category: guides
 summary: "Benilla rebuilds the Vanilla client in Rust: GPU-skinned models, from-scratch FrameXML+Lua (AtlasLoot runs), networked movement. Solo dev, 1.12.1 only, no Warden planned."
 ---
 <!--

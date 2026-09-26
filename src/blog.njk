@@ -20,6 +20,18 @@ eleventyComputed:
 <p class="count" id="game-count" aria-live="polite" aria-atomic="true"></p>
 <p class="empty" id="game-empty" hidden role="status">No posts match your filters.</p>
 {% endif %}
+{% set startingPoints = collections.blog | reverse | startingPoints %}
+{% if startingPoints.length > 0 %}
+<section class="panel" id="starting-points">
+    <h2>Start Here</h2>
+    <p class="meta-info">New readers usually want methodology and a server deep dive before the rest of the archive.</p>
+    <ul class="plain-list">
+    {% for p in startingPoints %}
+        <li><a href="{{ p.url }}">{{ p.data.title }}</a> — {{ p.data.summary or p.data.description }}</li>
+    {% endfor %}
+    </ul>
+</section>
+{% endif %}
 <ul class="blog-grid">
 {% for p in collections.blog | reverse %}
     {% set g = p.data | gameOf %}

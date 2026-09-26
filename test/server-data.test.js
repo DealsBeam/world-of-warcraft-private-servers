@@ -79,11 +79,25 @@ const similarity = (a, b) => {
     return inter / union;
 };
 
+// Frontmatter title parser. A possessive apostrophe is part of the title, not a
+// closing quote: the old regex `["']?([^"'\n]+)` truncated "OutlawCraft's
+// Survival Handbook" to "OutlawCraft", which silently weakened the duplicate
+// guards. Match the value to end of line, then strip one matched quote pair.
+const frontmatterTitle = fm => {
+    const line = fm.match(/^title:[ \t]*(.+)$/m)?.[1];
+    if (!line) return null;
+    const v = line.trim();
+    if (v.length >= 2 && ((v[0] === '"' && v.endsWith('"')) || (v[0] === "'" && v.endsWith("'")))) {
+        return v.slice(1, -1).trim();
+    }
+    return v;
+};
+
 const titles = [];
 for (const f of newsFiles) {
     const fm = fs.readFileSync(path.join(newsDir, f), "utf8").match(/^---\n([\s\S]*?)\n---/)?.[1];
     if (fm && !fm.includes("draft: true")) {
-        const t = fm.match(/^title:\s*["']?([^"'\n]+)/m)?.[1];
+        const t = frontmatterTitle(fm);
         if (t) titles.push({title: t, source: "news"});
     }
 }
@@ -92,7 +106,7 @@ for (const f of fs.readdirSync(blogDir)) {
     if (!f.endsWith(".md")) continue;
     const fm = fs.readFileSync(path.join(blogDir, f), "utf8").match(/^---\n([\s\S]*?)\n---/)?.[1];
     if (fm && !fm.includes("draft: true")) {
-        const t = fm.match(/^title:\s*["']?([^"'\n]+)/m)?.[1];
+        const t = frontmatterTitle(fm);
         if (t) titles.push({title: t, source: "blog"});
     }
 }
@@ -103,6 +117,35 @@ for (let i = 0; i < titles.length; i++) {
         const sim = similarity(titles[i].title, titles[j].title);
         if (sim >= 0.6) {
             assert.fail(`Near-duplicate titles across sections (sim ${sim.toFixed(2)}): "${titles[i].title}" (${titles[i].source}) vs "${titles[j].title}" (${titles[j].source})`);
+        }
+    }
+}
+
+// Same-section duplicate guard. Two posts in one section fighting over the same
+// query split their search authority and give a reader two thinner versions of
+// one idea. The Sep 26 audit found chromiecraft-guide vs chromiecraft-deep-dive
+// at 0.71 and old-man-warcraft-guide vs old-man-warcraft-review, neither caught
+// by the cross-section rule above.
+const norm = t => titleWords(t).sort().join(" ");
+const INTENTIONAL_SAME_SECTION = new Set([
+    // Different expansions, different search intent, both are "best of" roundups.
+    ["best vanilla+ private servers in 2026", "best wotlk private servers in 2026"],
+    // Two separate shutdowns: separate operators, separate dates, separate posts.
+    ["stormforge shut down after blizzard c&d", "turtle wow permanently shut down after blizzard c&d"],
+    // Same shape, same reasoning, both long-form explainers on distinct shutdowns.
+    ["ascension shut down what happened and what comes next", "turtle wow shut down what happened and what came next"]
+].map(([a, b]) => `${norm(a)}|${norm(b)}`));
+for (const source of ["news", "blog"]) {
+    const inSection = titles.filter(t => t.source === source);
+    for (let i = 0; i < inSection.length; i++) {
+        for (let j = i + 1; j < inSection.length; j++) {
+            const a = norm(inSection[i].title);
+            const b = norm(inSection[j].title);
+            if (INTENTIONAL_SAME_SECTION.has(`${a}|${b}`) || INTENTIONAL_SAME_SECTION.has(`${b}|${a}`)) continue;
+            const sim = similarity(inSection[i].title, inSection[j].title);
+            if (sim >= 0.5) {
+                assert.fail(`Near-duplicate ${source} titles (sim ${sim.toFixed(2)}): "${inSection[i].title}" vs "${inSection[j].title}". Merge them, or add the pair to INTENTIONAL_SAME_SECTION with a reason.`);
+            }
         }
     }
 }

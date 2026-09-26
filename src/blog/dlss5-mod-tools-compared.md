@@ -1,7 +1,7 @@
 ---
 title: "DLSS5 mod tools compared: 1-click injector, AMD runtime, bridge, enhancer"
 date: 2026-09-06
-category: guide
+category: guides
 game: hardware
 summary: "Five community DLSS5 tools mapped: 1-click injector, AMD neural runtime, OptiScaler fork, ReShade bridge, media enhancer. Specs unverified, anti-cheat warnings stand."
 ---

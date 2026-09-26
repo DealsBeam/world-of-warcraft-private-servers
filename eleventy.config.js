@@ -2,6 +2,9 @@ module.exports = function (eleventyConfig) {
     const { slugify, groupByEra, countByStatus, uniqueTags, gameOf, gameLabel, GAMES, cardFor } = require("./src/_data/vocab.js");
 
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag) || p.data.category === tag);
+// Nunjucks selectattr with a boolean test value is unreliable across versions
+// here, so the "Start Here" block uses an explicit JS filter instead.
+const startingPoints = posts => posts.filter(p => p.data && p.data.startingPoint === true);
 
     eleventyConfig.addPassthroughCopy("src/style.css");
     eleventyConfig.addPassthroughCopy("src/robots.txt");
@@ -80,6 +83,7 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
     });
 
     eleventyConfig.addFilter("filterBlogByTag", filterBlogByTag);
+    eleventyConfig.addFilter("startingPoints", startingPoints);
 
     eleventyConfig.addCollection("news", collectionApi =>
         collectionApi.getFilteredByGlob("src/news/*.md")

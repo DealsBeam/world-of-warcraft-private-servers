@@ -2,7 +2,7 @@
 title: "Solo WoW servers: the 2026 playerbot map — 18 live realms, 4 dead"
 date: 2026-09-04
 draft: true
-category: guide
+category: guides
 ---
 <!--
 SOURCES: hofls solo list (Sep 2026, pasted read — site JS-walled); r/solo-wservers deletion thread (Reddit list removed, author reposted 2026 update out of spite); Sep-18 community thread (second independent snapshot, corroborates nearly all MISSING names below).
