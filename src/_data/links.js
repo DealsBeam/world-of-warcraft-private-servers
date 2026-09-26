@@ -424,6 +424,14 @@ module.exports = [
         "url": "https://github.com/PentSec/DragonUI-CoA"
     },
     {
+        "title": "ACORE Quest Creator — desktop quest chains, scripting, NPCs and patrols for AzerothCore exported as reviewable SQL patches (GPL-3.0-or-later, v0.1.0)",
+        "url": "https://github.com/DMCK96/acore-quest-creator"
+    },
+    {
+        "title": "Atlas Inspector — local app resolving WoW texture atlases by FileDataID into Lua region tables, with an MCP server for agents",
+        "url": "https://github.com/PentSec/atlas-inspector"
+    },
+    {
         "title": "WowForeverClassic — unofficial WoW Forever map, talent calculator and guides, every fact source-linked with a confidence grade",
         "url": "https://www.wowforeverclassic.com/"
     },
