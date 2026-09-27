@@ -1348,11 +1348,12 @@ module.exports = [
     {
         "name": "CoRe Legacy",
         "status": "playable",
-        "details": "WotLK 3.3.5a by ex-CoRe staff: AI playerbots with LLM-driven world chat, instant-80 welcome pack, transmog, no-wipe casual progression — very small pop",
+        "details": "WotLK 3.3.5a by ex-CoRe staff: AI playerbots that disconnect at peak hours to cede the stage to real players and join up when quiet, humans-first backfill then bots for the remaining gap, LLM-driven party and world chat, free instant-80 welcome pack, transmog, no-wipe casual progression, bot tank that waits for the group to heal - very small pop, Spanish-language",
         "tag": "WotLK",
         "group": "",
+        "guide": "/blog/corelegacy-llm-bots-and-population-ceiling/",
         "url": "https://corelegacy.gg/",
-        "updated": "2026-09-14",
+        "updated": "2026-09-27",
         "popTier": "tiny"
     },
     {
@@ -1380,11 +1381,11 @@ module.exports = [
     {
         "name": "Miststorm",
         "status": "dev",
-        "details": "MoP 5.4.8 Plus+ ('blizzlike+') in closed alpha since Apr 6 announcement: custom Mythic+ for dungeons/raids, solo-queue arenas, crossfaction BGs, rep boosts, accelerated 1-90, Discord-first community — how-to-play realmlist reads 'not public yet' (contradicts landing 1-online counter), FAQ claims full scripting, free-to-play",
+        "details": "MoP 5.4.8 Plus+ ('blizzlike+') in closed alpha since Apr 6 announcement: custom Mythic+ for dungeons/raids, solo-queue arenas, crossfaction BGs, rep boosts, accelerated 1-90, Discord-first community. Re-checked Sep 27: how-to-play realmlist still reads 'not public yet', live counter shows 1 online, shop page is empty, only news post is Apr 6 - not connectable",
         "tag": "MoP",
         "group": "",
         "url": "https://miststorm.org/en",
-        "updated": "2026-09-17",
+        "updated": "2026-09-27",
         "popTier": "unknown"
     },
     {
@@ -1410,11 +1411,12 @@ module.exports = [
     {
         "name": "Peloria",
         "status": "dev",
-        "details": "WotLK 3.3.5a infinite-scaling realm (64-bit stats past the 2.1B cap, Mythic dungeons to +100000, soulbind collection, per-spec Perk toggles, solo dungeon finder) — in active development, launcher v217",
+        "details": "WotLK 3.3.5a infinite-scaling realm: 64-bit stats past the 2.1B cap, true character stats into the trillions, health in the tens of billions, gold past the 214,748 cap, Mythic to +100000, 90,000,000+ soulbindable items, three cross-class perk pools of five each, solo dungeon finder, global combo points, cross-faction, zero-fee shared AH - in active development; 14.2 MB Windows launcher, NOT code-signed, self-patching each login, no published hash or source",
         "tag": "WotLK",
         "group": "",
+        "guide": "/blog/peloria-beyond-the-32-bit-ceiling/",
         "url": "https://www.wow-peloria.com/",
-        "updated": "2026-09-20",
+        "updated": "2026-09-27",
         "popTier": "unknown"
     },
     {
