@@ -143,8 +143,9 @@ extraScripts:
         <section class="panel">
             <h2>Mods &amp; Creations</h2>
             <ul id="link-list">
-                {% for l in links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a></li>{% endfor %}
+                {% for l in links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a>{% if l.note %}<br><small class="meta-info">{{ l.note }}</small>{% endif %}</li>{% endfor %}
             </ul>
+            <p class="meta-info">Entries with a note carry a dated grading: what we checked, when, and where the source disagrees with our own reading. Sources without one are tools, mods and community links that make no factual claims we rely on.</p>
         </section>
     </section>
 

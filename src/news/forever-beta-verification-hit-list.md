@@ -139,6 +139,40 @@ A first-party interview with lead game designer Tim Jones and lead software engi
 - **Recorded, not scheduled: player housing.** Jones would like to bring Player Housing into the Classic world and sees Camping as the likely retail-to-Classic bridge. Retail's Midnight housing system is not on the Forever roadmap.
 - **Unchanged.** Server Slam date, level-30 activation date, beta close-date split, Spearing Strike, Heroic price, Forsaken mount model, Legendary questline, 2027 fine print.
 
+## Round 12 (fan-reference audit, Sep 27)
+
+A source audit rather than a new source. Three Forever fan sites were re-read in full and graded against each other and against us. This round changes our confidence in four items, closes two, and narrows two. It also exposes a gap on our side, recorded at the end.
+
+### Closed, both sites now agree
+
+- **Tauren Cultivation level gate - closed against classicwowforever.** It now reads "needs a character level of a fifth of its Herbalism requirement", which matches the September 24 notes. wowforeverclassic still describes the old "bonus herb nodes" behaviour and does not carry the gate, so the dispute is now one-sided.
+- **Crusade removed from Retribution - closed against classicwowforever.** Its talent data carries the change note verbatim, including "renamed Mangle to Primal Bite and Primal Fury to Blood Frenzy", and Blood Frenzy is annotated "Renamed from Primal Fury, back to its Classic name". The September 25 client-read item is confirmed.
+
+### Still disputed, and now narrowed by name
+
+- **Gnome Eureka! - both fan sites stale, neither has applied build 70009.** classicwowforever still reads "cost 10% less Mana, Rage or Energy" and wowforeverclassic reads "cost less and deal 10% more damage or healing", neither with the 10% damage addition. Notably classicwowforever's own homepage advertises "a flat Eureka! discount" as a headline 70009 change, so it knows the value moved and has not applied it. Our corrected value stands: a 10% Mana, Rage or Energy discount plus 10% damage, covering healing for Priests.
+- **Undead Touch of the Grave - both fan sites lack the corrected interaction.** classicwowforever still omits any crowd-control clause; wowforeverclassic reads "5% chance to drain health ... up to 5% of your maximum health" with no class breakdown and no CC note. Our narrowed value stands: does not break crowd control, does not activate from spells with no damage component, Shadow Word: Pain procs on cast but not on periodic damage, and Distract, Pick Pocket and Polymorph cannot activate it.
+- **Two sites converging on the same two wrong values** is itself the finding. They update on different days and track different things, so the shared values most likely come from an early common read of pre-70009 data rather than a shared current source. On datamined combat values we are currently the only up-to-date source of the three.
+
+### Source currency, dated
+
+| Source | Last checked | Tracks builds | Grade scale published |
+| --- | --- | --- | --- |
+| classicwowforever.com | 25 Sep 2026 | yes, 70009 | no |
+| wowforeverclassic.com | 19 Sep 2026 | no | yes, A to D |
+| wow-forever.top | not stated | yes, 70009 | yes, three tiers |
+
+wow-forever.top is a new source. 242 pages, a large database and tool layer, and an explicit policy of "separate official Blizzard information, panel reporting and beta-unverified data". It resolves the raid question the same way the recap does and has nothing on Onyxia anywhere, which is why that conflict is unchanged.
+
+- **Beta close date - third read of the same roadmap, still one-sided.** All three sites say October 21 and none acknowledges the October 22 variant in the roadmap graphic. Our split stays open, now with three independent reads of the purchase terms against one graphic.
+- **December 9 raid unlock - corroborated, and Onyxia untouched.** wow-forever.top states "Blizzard officially confirms the first new raid unlock date for December 9" and names Hyjal Summit and Barrow Deeps as the two launch raids. Onyxia appears on none of its roadmap, summary or FAQ pages. The Dec 9 reading is stronger for the two named raids; the Onyxia conflict is exactly as open as before.
+- **Server Slam - no coverage anywhere.** Zero mentions across six pages on each of the three sites. Still genuinely unannounced.
+- **Level-30 activation - unchanged.** wowforeverclassic still dates the "rise to level 30 after a couple of weeks" claim to a September 15 developer interview. No date on any of the three.
+
+### Gap on our side, recorded
+
+- **We do not publish a grading scale.** wowforeverclassic documents an A-to-D confidence scale where a position is Reported from one tester and Verified once two agree, and disagreements wait for review. wow-forever.top uses a three-tier split of official, panel and datamined. Both are legible to a reader who has not read ten of our posts. Ours is more rigorous but it is only visible in our prose. This is now an open item for the site rather than for the beta.
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.

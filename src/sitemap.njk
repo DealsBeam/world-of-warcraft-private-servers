@@ -11,6 +11,8 @@ eleventyExcludeFromCollections: true
     <url><loc>https://wowprivateservers.vercel.app/classic-plus/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/guides/octowow/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/guides/ravencraft/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/guides/spp-classics/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/grading/</loc><lastmod>{{ site.built }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/census/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/radio/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/music/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
@@ -36,5 +38,8 @@ eleventyExcludeFromCollections: true
 {% endfor %}
 {% for p in collections.blog %}
     <url><loc>https://wowprivateservers.vercel.app{{ p.url }}</loc><lastmod>{{ p.date | isoDate }}</lastmod></url>
+{% endfor %}
+{% for era in vocab.ERA_ORDER %}
+    <url><loc>https://wowprivateservers.vercel.app/expansion-intros/{{ era | lower }}/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
 {% endfor %}
 </urlset>

@@ -40,17 +40,39 @@ for (const f of fs.readdirSync(path.join(__dirname, "../src/blog"))) {
     has(`blog/${f.replace(/\.md$/, "")}/index.html`);
 }
 
+// Every built page must appear as an exact <loc> in the sitemap. This used to
+// substring-match top-level directory names only, which meant a directory whose
+// children were listed always passed (/guides/ matched via /guides/octowow/)
+// and individual pages inside it were never checked. That is how
+// /guides/spp-classics/ shipped unlisted.
+//
+// Dead server pages are excluded on purpose: we keep shut-down realms in the
+// dataset for historical accuracy, but we do not want to rank for them. The
+// sitemap template applies the same rule, and this gate has to match it or it
+// will fail on a decision rather than on a mistake.
 const sitemap = fs.readFileSync(path.join(out, "sitemap.xml"), "utf8");
-const EXEMPT = ["attribution", "404", "llms"];
-const pageDirs = [];
-for (const entry of fs.readdirSync(out, { withFileTypes: true })) {
-    if (entry.isDirectory() && !EXEMPT.some(e => entry.name.startsWith(e)) && fs.existsSync(path.join(out, entry.name, "index.html"))) {
-        pageDirs.push(`${entry.name}/`);
+const EXEMPT = ["attribution", "404", "llms", "sitemap", "news-sitemap", "api", "images", "fonts", "files"];
+const ORIGIN = "https://wowprivateservers.vercel.app";
+const deadSlugs = new Set(SERVERS.filter(s => s.status === "dead").map(s => slugify(s.name)));
+const listed = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].replace(/\/$/, "")));
+const missingFromSitemap = [];
+const walkForPages = dir => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const p = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+            if (dir === out && EXEMPT.some(e => entry.name === e || entry.name.startsWith(e))) continue;
+            walkForPages(p);
+            continue;
+        }
+        if (entry.name !== "index.html") continue;
+        const route = "/" + path.relative(out, p).replace(/\\/g, "/").replace(/index\.html$/, "");
+        const bare = route.replace(/\/$/, "");
+        if (bare.startsWith("/servers/") && deadSlugs.has(bare.slice("/servers/".length))) continue;
+        if (!listed.has(ORIGIN + bare)) missingFromSitemap.push(route);
     }
-}
-for (const d of pageDirs) {
-    assert.ok(sitemap.includes(`https://wowprivateservers.vercel.app/${d}`), `page missing from sitemap.xml: /${d}`);
-}
+};
+walkForPages(out);
+assert.strictEqual(missingFromSitemap.length, 0, `pages missing from sitemap.xml:\n${missingFromSitemap.join("\n")}`);
 
 // Bodies must render visible text: an unclosed HTML comment once hid 4 posts
 // (valid HTML source, zero browser-visible words). Count article text only —
@@ -118,8 +140,29 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     console.log(`OK: internal links resolve (${pages.size} pages)`);
 }
 
-// Fragment links must point at a real id. The check above strips "#..." before
-// resolving, and a bare href="#id" does not even start with "/", so neither
+// Markdown written into a .njk template never reaches markdown-it, so it renders
+// as literal "[text](/url)" with no anchor. The internal-link gate cannot see
+// this, because there is no link to check when the markdown is inert: writing
+// /grading/ as a .njk file produced a page whose text was all present and whose
+// links and tables did not exist. Catch the syntax in the built HTML instead.
+{
+    const leaked = [];
+    const walk = dir => {
+        for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+            const p = path.join(dir, e.name);
+            if (e.isDirectory()) { walk(p); continue; }
+            if (e.name !== "index.html") continue;
+            const html = fs.readFileSync(p, "utf8");
+            const m = html.match(/\[[a-z][^\]]{2,60}\]\(\/(?!\/)[^)\s]{2,80}\)/g);
+            if (m) leaked.push(`${"/" + path.relative(out, p).replace(/index\.html$/, "")} -> ${m[0]}`);
+        }
+    };
+    walk(out);
+    assert.strictEqual(leaked.length, 0, `unrendered markdown links (is this page a .njk template written as markdown?):\n${leaked.join("\n")}`);
+    console.log("OK: no unrendered markdown links");
+}
+
+// Fragment links must point at a real id. The check above strips "#..." before// resolving, and a bare href="#id" does not even start with "/", so neither
 // path covered same-page anchors. A dead #fragment reads as a working link to
 // both a reader and a crawler, so verify the id exists in the target page.
 {
