@@ -352,11 +352,12 @@ module.exports = [
     {
         "name": "TheraWoW",
         "status": "playable",
-        "details": "Solo/small-group WotLK 3.3.5a: playerbots, scaled raids, cross-faction BGs, free heirlooms at lvl 1, 5 talent builds, TheraCOIN, solo LFG, transmog, guild houses — progressive (ToC live, season ends Dec 10 2026), ~1.3k online",
+        "details": "Solo/small-group WotLK 3.3.5a with playerbots and no queues: full heirloom kit auto-equipped at level 1 (shoulders, chest, weapon, Dread Pirate Ring, two trinkets, four bags), five saved talent builds with free resets, daily rotating event schedule (Mon/Thu PvP, Tue rep, Wed professions, Fri-Sun XP), solo LFG, cross-faction BGs, TheraCOIN, transmog. Six UI languages including Czech, Polish and Russian",
         "tag": "WotLK",
         "group": "",
+        "guide": "/blog/therawow-solo-wotlk-guide/",
         "url": "https://therawow.com",
-        "updated": "2026-09-14",
+        "updated": "2026-09-27",
         "popTier": "small"
     },
     {
@@ -1235,12 +1236,13 @@ module.exports = [
     {
         "name": "IceDNicco",
         "status": "playable",
-        "details": "WotLK 3.3.5a 10x with launcher, Dragonflight/Legion models, HD textures, own Mythic+ Wrath, bots + solo LFG, cross-faction, transmog, store",
+        "details": "Ukrainian WotLK 3.3.5a x10 leveling, gold/loot/professions x1, run by one National Guard serviceman since 2022 with donations split to the National Guard of Ukraine: ~3000 living-world bots, own keystone Mythic+ for Wrath 5-mans, mixed BGs, free character transfers and free guild migration, TWW 12.1 realm on the same account. Shop sells BOOSTS, MONEY and finished legendaries (Shadowmourne 2100 DP, Val'anyr 1900 DP) and a paid VIP tier that lets you control your own alts as bots. Corrected Sep 27: population tier was 'large', taken from the site's own 3,027 headline figure, which counts bots; the same dashboard read 4 real players and 2,274 adventurers, and uptime 5h19m, so the tier is now 'tiny'",
         "tag": "WotLK",
         "group": "",
+        "guide": "/blog/icednicco-one-developer-and-3000-bots/",
         "url": "https://wow.icednicco.online",
-        "updated": "2026-09-04",
-        "popTier": "large"
+        "updated": "2026-09-27",
+        "popTier": "tiny"
     },
     {
         "name": "ArdenWoW",
@@ -1276,11 +1278,12 @@ module.exports = [
     {
         "name": "Frozen Throne",
         "status": "playable",
-        "details": "Solo-friendly WotLK 3.3.5a: PlayerBots, autonomous DungeonClear, Mythic+ to +7, cross-faction RDF, bot-assisted raids (MC→RS), QoL (AoE loot, transmog, guild houses), ~900 online, no P2W (cosmetics + bare lvl80 boost)",
+        "details": "Solo-friendly WotLK 3.3.5a on AzerothCore plus maintained forks: PlayerBots, autonomous DungeonClear that needs no addon, bot-assisted raid progression, crossfaction RDF and alt-bot levelling, Mythic+ to +7 (gold, Emblems of Frost, epics), account-wide mounts, a living Auction House bot, and character services for in-game gold. Self-reported 1,191 online, 5,797 characters, 453,495 quests; x1-x7 XP, x3 skills and rep. Password needs 8+ chars with upper, number and special character",
         "tag": "WotLK",
         "group": "",
+        "guide": "/blog/frozen-throne-autonomous-dungeon-clear/",
         "url": "https://frozenthrone.cloud/",
-        "updated": "2026-09-14",
+        "updated": "2026-09-27",
         "popTier": "medium"
     },
     {

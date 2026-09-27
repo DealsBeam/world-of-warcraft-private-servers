@@ -6,6 +6,20 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
 // here, so the "Start Here" block uses an explicit JS filter instead.
 const startingPoints = posts => posts.filter(p => p.data && p.data.startingPoint === true);
 
+// The most recent `updated` date across the tracker. The census used to hardcode
+// "September 23, 2026", which went stale the moment a single entry was re-checked
+// and then cited as the source for a population-band definition, so derive it.
+const latestCheck = servers => {
+    const dates = servers
+        .map(s => s.updated)
+        .filter(Boolean)
+        .map(d => new Date(d))
+        .filter(d => !Number.isNaN(d.getTime()));
+    if (!dates.length) return "";
+    const newest = new Date(Math.max(...dates.map(d => d.getTime())));
+    return newest.toISOString().slice(0, 10);
+};
+
     eleventyConfig.addPassthroughCopy("src/style.css");
     eleventyConfig.addPassthroughCopy("src/robots.txt");
     eleventyConfig.addPassthroughCopy("src/82ff48e2b0f1ba3cf1d95140192a5b90.txt");
@@ -74,6 +88,11 @@ const startingPoints = posts => posts.filter(p => p.data && p.data.startingPoint
 
     eleventyConfig.addFilter("isoDate", d => toDate(d).toISOString().slice(0, 10));
 
+    // "September 27, 2026" for a YYYY-MM-DD string, used by the census.
+    eleventyConfig.addFilter("prettyDate", d => toDate(d).toLocaleDateString("en-US", {
+        month: "long", day: "numeric", year: "numeric", timeZone: "UTC"
+    }));
+
     eleventyConfig.addFilter("isoDateTime", d => toDate(d).toISOString());
 
     eleventyConfig.addFilter("daysAgo", d => {
@@ -84,6 +103,7 @@ const startingPoints = posts => posts.filter(p => p.data && p.data.startingPoint
 
     eleventyConfig.addFilter("filterBlogByTag", filterBlogByTag);
     eleventyConfig.addFilter("startingPoints", startingPoints);
+    eleventyConfig.addFilter("latestCheck", latestCheck);
 
     // Wrap every markdown table in a scroll container. Prose tables in posts
     // had no styling and crushed their columns into unreadable stacks on
