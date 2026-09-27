@@ -2,22 +2,22 @@
 title: "Classic Plus Wishlist Gap: 300K Votes Against 110 Servers"
 date: 2026-09-01
 category: analysis
-summary: "Classic Plus wishlist counts 300K votes across 57 questions vs 110 tracked servers. Hyjal, heroics and Dwarf Shaman lead the gap. Read the full gap map now."
+summary: "Classic Plus wishlist: 300K+ confirmed survey responses against 110 tracked servers as of September 1, now 145. Hyjal, heroics and Dwarf Shaman lead the gap. A dated reading, not a live count."
 ---
 
 ## TL;DR
 
-- 300K votes across 57 questions in three buckets rank Hyjal highest.
-- 110 tracked servers ship zero full Hyjal zones and zero Classic heroics.
-- Sep 12 Opening Ceremony in Anaheim decides which gap Classic Plus fills first, live from Hall D.
+- 300K+ survey responses in three buckets rank Hyjal highest. Figure confirmed live September 27.
+- 110 tracked servers shipped zero full Hyjal zones and zero Classic heroics, on the September 1 count. The tracker now holds 145.
+- The Sep 12 Opening Ceremony in Anaheim has since happened. The gap below is the September 1 reading, kept as written.
 
 The biggest Classic Plus number is not a build. It is 300,000 votes.
 
-The survey spans 57 questions in three buckets: World, Player, Systems.
+The survey spans three buckets: World, Player, Systems. ~~57 questions~~ The 300,000+ figure is confirmed on the results page as of September 27 ("So far we've collected over 300,000 survey responses"). The question count is not: it does not appear on that page, so 57 rests on our September 1 reading and is not confirmed.
 
-It speaks for players, not Blizzard. With Sep 12 close, it is the best census.
+It speaks for players, not Blizzard. Ahead of the Sep 12 Opening Ceremony this was the best census available; the ceremony has since happened and this post is a September 1 reading.
 
-Our tracker covers 110 servers with Classic Plus entries and history events.
+Our tracker covered 110 servers with Classic Plus entries and history events on September 1, the date of this reading. It now holds 145 entries, so the zero-counts below are a September 1 snapshot rather than a live claim, and they should be read as "as of the first week of September".
 
 Put the wishlist next to that inventory and a gap map appears fast.
 
@@ -78,7 +78,7 @@ Systems is where survey wishes and tracker supply overlap most.
 
 Cross-faction is done. Guild banks have one live proof. Heroics sit at zero.
 
-That zero is the cleanest win an official Sep 12 reveal can claim.
+That zero was the cleanest win an official Sep 12 reveal could have claimed.
 
 ## What the gap says before BlizzCon
 
@@ -94,13 +94,11 @@ That looks like a choice to keep Classic looking classic, not a tech limit.
 
 Where private moves first is talents, cross-faction and transmog systems.
 
-If Sep 12 ships those three, it reads as catch-up rather than reveal.
+Had Sep 12 shipped those three, it would have read as catch-up rather than reveal. Hyjal, heroics and the level number were the things to watch.
 
-Watch Hyjal, heroics and the level number in the trailer corner instead.
+Twelve days out, votes wanted Hyjal and a new class table to match.
 
-Twelve days out, votes want Hyjal and a new class table to match.
-
-The class table is half-built. Hyjal is not. Sep 12 moves one column first.
+The class table was half-built. Hyjal was not. Sep 12 was expected to move one column first, and what it actually did is tracked in our [beta findings roundup](/news/forever-beta-finds-roundup-sep-26/) and the [hub](/classic-plus/).
 
 <script type="application/ld+json">
 {

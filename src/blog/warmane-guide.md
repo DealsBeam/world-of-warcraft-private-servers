@@ -5,9 +5,9 @@ category: guides
 summary: "WotLK 3.3.5a large network — Icecrown high-rate and Lordaeron 1x, huge pop, long track record. Who it fits, pros and cons, and where it sits vs non-profit and custom WotLK."
 ---
 
-Warmane is the oldest large WotLK network still live. It traces back to Molten WoW. One detail sums it up: WotLK, playable, large popTier.
+Warmane is the oldest large WotLK network still running. It descends from Molten WoW, and it is the reason a lot of people assume "private server" and "Warmane" mean the same thing, which is worth arguing with.
 
-This guide covers what Warmane offers, who it fits, and trade-offs. See live status on [Warmane](/servers/warmane/) and all WotLK on [/servers/?tag=WotLK](/servers/?tag=WotLK).
+Live status and a last-checked date sit on [Warmane](/servers/warmane/); the rest of WotLK is on [/servers/?tag=WotLK](/servers/?tag=WotLK). This is the September reading.
 
 ## At a glance
 
@@ -82,7 +82,5 @@ Final note: large does not mean perfect. Expect crowds, chat spam, and farm comp
 If you love quiet leveling, pair Warmane with a small realm alt. Balance covers both moods.
 
 Bottom line: Warmane is WotLK with safety in numbers. See [Warmane](/servers/warmane/) for live details.
-
-Tip: bookmark [/servers/](/servers/) to watch popTier shifts. Small today can be medium tomorrow.
 
 Check Discord before rolling. Live chat shows queue health better than any landing page.

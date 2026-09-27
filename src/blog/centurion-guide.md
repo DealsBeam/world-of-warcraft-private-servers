@@ -7,7 +7,7 @@ summary: "Vanilla 1.12 mechanics via WotLK engine — ranks, CC, collision, fact
 
 Centurion runs Vanilla mechanics on WotLK engine. Since September 18, 2026 it is one realm: the old Legionnaire+ (PvP) and Barracks+ (PvE) merged, characters carried over. Two character types share the account: world characters for the long run, tournament characters for straight fighting.
 
-This guide covers the merged realm, who it fits, and limits. Start at [Centurion](/servers/centurion/).
+Live status and a last-checked date sit on [Centurion](/servers/centurion/); this is the September reading and it will drift as the merged realm settles.
 
 ## At a glance
 
@@ -90,8 +90,6 @@ After big closures, tiny no-paywall looks durable. Low target, low risk fee.
 Bottom line: Centurion is Vanilla roots, modern trunk. See [Centurion](/servers/centurion/).
 
 Pair with [Project Legacy](/servers/project-legacy/) if you want quest levelling plus instant PvP.
-
-Tip: bookmark [/servers/](/servers/) to watch popTier shifts. Small today can be medium tomorrow.
 
 Check Discord before rolling. Live chat shows queue health better than any landing page.
 

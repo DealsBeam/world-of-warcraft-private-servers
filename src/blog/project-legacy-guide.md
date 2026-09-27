@@ -7,7 +7,7 @@ summary: "Vanilla+ on VMaNGOS in open beta — 150 plus new quests, cross-factio
 
 Project Legacy is a Vanilla+ open beta on VMaNGOS. 150 plus new quests, dual spec, cross-faction. Fresh but busy.
 
-This guide sums Legacy at a glance, who it fits, and trade-offs. Track: [Project Legacy](/servers/project-legacy/).
+Live status and a last-checked date sit on [Project Legacy](/servers/project-legacy/); this is the September reading.
 
 ## At a glance
 
@@ -96,8 +96,6 @@ If you want quests over gimmicks, Legacy delivers. Patch 1.12.4 shows devs ship 
 Bottom line: Project Legacy is Vanilla with more to do. See [Project Legacy](/servers/project-legacy/).
 
 Pair with a large WotLK alt like [Warmane](/servers/warmane/) if you want both eras covered.
-
-Tip: bookmark [/servers/](/servers/) to watch popTier shifts. Small today can be medium tomorrow.
 
 Check Discord before rolling. Live chat shows queue health better than any landing page.
 
