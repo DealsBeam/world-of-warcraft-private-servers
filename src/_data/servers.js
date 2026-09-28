@@ -93,9 +93,10 @@ module.exports = [
     {
         "name": "Project Epoch: Reborn",
         "status": "dev",
-        "details": "Classic+ closed testing, community revival",
+        "details": "Community-run continuation of Project Epoch, the custom Classic+ realm, on its own 3.3.5a build 12340 client. Server is CLOSED and LAUNCHES 23 OCTOBER 2026. Restoring Epoch's custom quests, reworked classes, dungeons and raids; adds Soul of Iron (reach 60 without dying) and Explorer's Contract (half XP for slower routes) challenges, Racial Knowledge racial questlines unlocking alternate racial sets at 60, and Warmode world PvP with Bloody Tokens. Free to play, no pay-to-win and no donor gear; registration open",
         "tag": "Vanilla+",
         "group": "",
+        "updated": "2026-09-28",
         "url": "https://project-epoch.org/",
         "release": "TBD",
         "popTier": "unknown"
@@ -262,11 +263,11 @@ module.exports = [
     {
         "name": "Triumvirate-WoW",
         "status": "playable",
-        "details": "WotLK lvl-60 endgame, 1-3x XP, Mythic+ dungeons, world bosses; Phase 2 went live Aug 22 with ICC, Mythic+ Season 2, Artifact Weapons and Prestige",
+        "details": "WotLK 3.3.5a level-60 endgame, free with no store found, 1-3x XP and 3x crafting. Mythic+ rebuilt across TBC and WotLK dungeons in waves of 8, loot tuned to 10-player raid level, plus artifact weapons you forge and flex raids. Guilds of 10+ can apply for a free transfer package with a full heirloom set per member. Five dated phases through 20 March 2027, which the project says may move with realm health. Corrected Sep 28: we dated Phase 2 to Aug 22; their own news says Molten Core and Zul'Aman opened 25 July, Gruul's Lair 8 August, and Icecrown Citadel went live 20:00 on 28 August. Self-reported 11,706 accounts and 139 online",
         "tag": "WotLK",
         "group": "",
         "url": "https://triumvirate-wow.com/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-28",
         "popTier": "small"
     },
     {
@@ -372,12 +373,12 @@ module.exports = [
     },
     {
         "name": "Perseus",
-        "status": "dev",
-        "details": "TwinStar fresh MoP",
+        "status": "playable",
+        "details": "TwinStar's fresh MoP realm, Pers\u00e9s, LAUNCHED 29 August 2026 and runs 5.0 progressive. Note the URL is TwinStar's shared multi-realm landing page, not a Perseus-only site: Kronos V (Vanilla 1.12.1, 9 May 2026), Proudmoore (Mythic+ Cataclysm) and Helios (MoP 5.4.8) are listed alongside it. First-party launch date read on the shared page, September 28 2026",
         "tag": "MoP",
         "group": "TwinStar",
+        "updated": "2026-09-28",
         "url": "https://twinstar-wow.com",
-        "release": "Aug 28",
         "popTier": "unknown"
     },
     {
@@ -501,18 +502,20 @@ module.exports = [
     {
         "name": "Duskhaven",
         "status": "dev",
-        "details": "Launch Date TBD",
+        "details": "Vanilla+ project, launch date TBD. Re-checked September 28 2026: the site returns a Cloudflare JavaScript challenge to a plain request, so nothing about its status could be verified first-party. Stays dev, unverified",
         "tag": "Vanilla+",
         "group": "",
+        "updated": "2026-09-28",
         "url": "https://duskhaven.net",
         "popTier": "unknown"
     },
     {
         "name": "WallCraft",
         "status": "dev",
-        "details": "Vanilla+",
+        "details": "Vanilla+ project. Re-checked September 28 2026: the public address serves only a login portal and no status, changelog or version information is published, so development state could not be verified first-party. Stays dev, unverified",
         "tag": "Vanilla+",
         "group": "",
+        "updated": "2026-09-28",
         "url": "https://www.wallcraft.org",
         "popTier": "unknown"
     },
@@ -561,9 +564,10 @@ module.exports = [
     {
         "name": "Rivals Beyond",
         "status": "dev",
-        "details": "Free WoW rebuilt as MOBA — champions, Essence, Nexus, Confluence hub, jungle creeps, 68 artifacts, cosmetic only",
+        "details": "Free WoW rebuilt as a MOBA: champions, Essence, a Nexus, a Confluence hub, jungle creeps and artifacts. Re-checked September 28 2026: the site returns a single title line to a plain request, so the feature list rests on our earlier read and nothing about its state could be verified first-party. Stays dev, unverified",
         "tag": "MOBA",
         "group": "",
+        "updated": "2026-09-28",
         "url": "https://rivalsbeyond.com/en",
         "release": "Sep 12 playtest",
         "popTier": "unknown"
@@ -1247,12 +1251,11 @@ module.exports = [
     {
         "name": "ArdenWoW",
         "status": "dev",
-        "details": "Ascension/CoA-inspired custom server — 21 custom classes (Barbarian to Witch Hunter), new zones (Pale Reach, Druk Thar, Azzar Faire), Mythic+, scaled dungeon finder, professions matter — Open Alpha Sep 13 6PM CST",
+        "details": "Independent custom server inspired by Ascension and Conquest of Azeroth, now in CLOSED ALPHA with invitations issued in batches. 21 custom classes (Barbarian, Bloodmage, Chronomancer, Cultist, Felsworn, Guardian, Knight of Xoroth, Necromancer, Primalist, Pyromancer, Ranger, Reaper, Runemaster, Starcaller, Stormbringer, Sun Cleric, Templar, Tinker, Venomancer, Witch Doctor, Witch Hunter), 1800+ hand-placed Worldforged items hidden in the open world, a scaled dungeon finder across mixed levels, Heroic and Mythic+, free optional transmog, and custom professions with Refined and Superior upgrade kits. Corrected Sep 28: our entry carried a 2026-09-13 release date that passed 15 days ago with no public launch; the site still says closed alpha with invitations to come",
         "tag": "Classless",
         "group": "",
         "url": "https://ardenwow.com/",
-        "release": "2026-09-13",
-        "updated": "2026-09-11",
+        "updated": "2026-09-28",
         "popTier": "unknown"
     },
     {
@@ -1288,13 +1291,12 @@ module.exports = [
     },
     {
         "name": "Proudmoore",
-        "status": "dev",
-        "details": "Blizzlike Cataclysm + custom endgame features, TwinStar partnership, name reservations open, launches Sep 13 18:00 CEST",
+        "status": "playable",
+        "details": "TwinStar's Mythic+ Cataclysm realm, billed as the world's first Mythic+ Cataclysm server, reachable on TwinStar's shared multi-realm page rather than a dedicated site: the old proudmoore.gg address served a 37-character title-only placeholder and is not the project. Corrected September 28 2026. Replaces our earlier 'dev, launching Sep 13' entry, which was recorded against the wrong address and no evidence of a Sep 13 launch was ever found on the placeholder",
         "tag": "Cataclysm",
         "group": "",
-        "url": "https://proudmoore.gg/",
-        "release": "2026-09-13",
-        "updated": "2026-09-11",
+        "url": "https://twinstar-wow.com",
+        "updated": "2026-09-28",
         "popTier": "unknown"
     },
     {
