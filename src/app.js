@@ -1,9 +1,8 @@
-const { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, ICONPATHS, ICONVIEW, ERA_ICON, SERVER_ICON, slugify, matches, groupByEra, countByStatus } = VOCAB;
+const { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, ICONPATHS, ICONVIEW, ERA_ICON, SERVER_ICON, slugify, matches, statusRank } = VOCAB;
 
 const eraIcon = era => ERA_ICON[era] || "question";
 const iconFor = (name, tag) => SERVER_ICON[name] || ERA_ICON[ERA[tag] || "Other"] || "question";
 
-const STATUS_ORDER = { playable: 0, dev: 1, dead: 2 };
 
 const scr = s => s.replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 const safeUrl = u => typeof u === "string" && (/^https:\/\//.test(u) || u.startsWith("/")) ? u : "#";
@@ -110,7 +109,7 @@ const cardHtml = s => {
     const rel = s.release ? ` <span class="tag">Release: ${scr(s.release)}</span>` : "";
     const down = s.shutdown ? ` <span class="tag tag-dead">Down ${scr(s.shutdown)}${s.shutdownReason ? " · " + scr(s.shutdownReason) : ""}</span>` : "";
     const pop = s.popTier && s.popTier !== "unknown" ? ` <span class="tag tag-pop">${scr(s.popTier.charAt(0).toUpperCase() + s.popTier.slice(1))}</span>` : "";
-    const visit = s.url && /^https:\/\//.test(s.url) ? ` <span class="tag tag-link">Website known</span>` : "";
+    const visit = s.url && /^https:\/\//.test(s.url) ? ` <span class="tag tag-link" title="We record that a website exists but do not link it, so you can search the name yourself rather than follow a link off-site">Site listed</span>` : "";
     const ic = iconFor(s.name, s.tag);
     const vb = ICONVIEW[ic] || "0 0 512 512";
     return `
@@ -133,7 +132,6 @@ function renderServers() {
         const era = ERA[s.tag] || "Other";
         (groups[era] = groups[era] || []).push(s);
     });
-    const statusRank = s => STATUS_ORDER[s.status] !== undefined ? STATUS_ORDER[s.status] : 3;
     const order = ERA_ORDER.filter(e => groups[e])
         .concat(Object.keys(groups).filter(e => ERA_ORDER.indexOf(e) === -1));
     cards.innerHTML = order.map(era =>
@@ -142,7 +140,34 @@ function renderServers() {
     ).join("");
     empty.hidden = visible.length > 0;
     count.textContent = `${visible.length} of ${SERVERS.length} servers`;
+    if (!visible.length) {
+        const active = [];
+        if (status !== "all") active.push(`status: ${scr((STATUS[status] || {}).label || status)}`);
+        if (tag !== "all") active.push(`expansion or type: ${scr(tag)}`);
+        if (pop !== "all") active.push(`population: ${scr(pop)}`);
+        if (search) active.push(`search: "${scr(search)}"`);
+        document.getElementById("empty-filters").textContent = active.length
+            ? `Active filters: ${active.join(" | ")}`
+            : "No filters are active, so an empty list here would be a bug on our side.";
+    }
 }
+
+// Silent filter restore used to strand a returning user on an empty list with
+// no indication of why and no way back except guessing which control to touch.
+const resetFilters = () => {
+    status = "all"; tag = "all"; pop = "all"; search = "";
+    document.getElementById("search").value = "";
+    document.getElementById("tag").value = "all";
+    document.getElementById("pop").value = "all";
+    document.querySelectorAll("#chips .chip").forEach(c => {
+        const on = c.dataset.status === "all";
+        c.classList.toggle("active", on);
+        c.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    saveFilters();
+    renderServers();
+};
+document.getElementById("reset-filters").addEventListener("click", resetFilters);
 
 document.getElementById("chips").addEventListener("click", e => {
     const btn = e.target.closest(".chip");

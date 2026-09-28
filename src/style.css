@@ -2447,3 +2447,48 @@ textarea {
         grid-template-columns: 1fr;
     }
 }
+
+/* Empty state with a way out. The Impeccable Sep 15 audit flagged that a silent
+   filter restore stranded returning users on an empty list with no indication of
+   why and no reset. The italic body text is right for an empty *data* set but
+   wrong for an empty *filter* result, which is a mistake the reader can undo. */
+.empty strong {
+    font-style: normal;
+}
+
+.empty .meta-info {
+    font-style: normal;
+    margin: 8px 0 16px;
+}
+
+/* The featured panel was flagged for inline styles; these are the classes it
+   uses instead, and the heading drops the gradient so the promo stops competing
+   with the real proof above it. */
+.featured-row {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.featured-thumb {
+    object-fit: cover;
+    border-radius: var(--r-surface);
+    flex: 0 0 auto;
+}
+
+.featured-heading {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.featured-blurb {
+    margin: 4px 0 8px;
+}
+
+.featured-links {
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}

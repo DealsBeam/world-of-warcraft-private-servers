@@ -44,7 +44,13 @@ const matches = (s, { status = "all", tag = "all", pop = "all", search = "" } = 
 };
 
 const STATUS_ORDER = { playable: 0, dev: 1, dead: 2 };
-const statusRank = s => STATUS_ORDER[s.status] !== undefined ? STATUS_ORDER[s.status] : 3;
+// Self-contained on purpose. src/data.11ty.js ships this to the browser with
+// `statusRank.toString()`, which serialises the function body but not the module
+// scope around it, so a reference to STATUS_ORDER throws ReferenceError in the
+// browser while working fine in Node. That broke every filter interaction on the
+// homepage: the sort comparator threw and aborted the whole render, so a WotLK
+// filter showed 0 cards instead of 56.
+const statusRank = s => { const r = { playable: 0, dev: 1, dead: 2 }[s.status]; return r === undefined ? 3 : r; };
 
 const groupByEra = servers => {
     const groups = {};
@@ -77,4 +83,4 @@ const cardFor = key => {
 
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag));
 
-module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag, GAMES, GAME_LABELS, gameOf, gameLabel, cardFor };
+module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag, GAMES, GAME_LABELS, gameOf, gameLabel, cardFor, statusRank };

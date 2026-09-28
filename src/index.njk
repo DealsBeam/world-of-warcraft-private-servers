@@ -56,10 +56,15 @@ extraScripts:
             <div class="filters">
                 <label class="sr-only" for="search">Search servers</label>
                 <input type="search" id="search" placeholder="Search servers…" autocomplete="off">
-                <label class="sr-only" for="tag">Filter by type</label>
+                <label class="sr-only" for="tag">Filter by expansion or type</label>
                 <select id="tag">
-                    <option value="all">All types</option>
-                    {% for t in servers | uniqueTags %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
+                    <option value="all">All expansions and types</option>
+                    <optgroup label="Expansion">
+                        {% for t in servers | expansionTags %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
+                    </optgroup>
+                    <optgroup label="Type and features">
+                        {% for t in servers | typeTags %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
+                    </optgroup>
                 </select>
                 <label class="sr-only" for="pop">Filter by population</label>
                 <select id="pop">
@@ -74,7 +79,11 @@ extraScripts:
         </div>
 
         <p class="count" id="count" aria-live="polite" aria-atomic="true">{{ servers.length }} of {{ servers.length }} servers</p>
-        <p class="empty" id="empty" hidden role="status">No servers match your filters.</p>
+        <div class="empty" id="empty" hidden role="status">
+            <p><strong>No servers match these filters.</strong></p>
+            <p class="meta-info" id="empty-filters"></p>
+            <button type="button" class="chip" id="reset-filters">Clear all filters</button>
+        </div>
         <div class="cards" id="cards">
             {% for g in servers | groupByEra %}
             <h2 class="era-title">{{ eraMedallion(g.era) }}<a href="/{{ g.era | lower | slugify }}/">{{ g.era }}</a><span class="era-count">{{ g.servers.length }}</span></h2>
@@ -85,12 +94,12 @@ extraScripts:
         </div>
 
         <section class="panel">
-            <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
-                <img src="/images/hero-3-192.webp" alt="" decoding="async" width="96" height="64" style="object-fit:cover;border-radius:var(--r-surface);flex:0 0 auto">
+            <div class="featured-row">
+                <img src="/images/hero-3-192.webp" alt="" decoding="async" width="96" height="64" class="featured-thumb">
                 <div>
-                    <h2 style="margin:0;font-size:1.05rem">{{ featured.heading }}</h2>
-                    <p class="meta-info" style="margin:4px 0 8px">{{ featured.blurb }} He reviewed our tracker {{ featured.review.date | daysAgo }} days ago.</p>
-                    <p style="margin:0;display:flex;gap:8px;flex-wrap:wrap">
+                    <h2 class="featured-heading">{{ featured.heading }}</h2>
+                    <p class="meta-info featured-blurb">{{ featured.blurb }} He reviewed our tracker {{ featured.review.date | daysAgo }} days ago.</p>
+                    <p class="featured-links">
                         {% for l in featured.links %}<a class="chip{% if loop.first %} active{% endif %}" href="{{ l.url }}"{% if l.external %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>{% endfor %}
                     </p>
                 </div>

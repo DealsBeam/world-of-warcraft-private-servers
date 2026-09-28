@@ -6,6 +6,17 @@ const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).in
 // here, so the "Start Here" block uses an explicit JS filter instead.
 const startingPoints = posts => posts.filter(p => p.data && p.data.startingPoint === true);
 
+// The homepage filter select used to hold two taxonomies in one list: expansion
+// tags and type tags, while the page groups by a collapsed era, so Vanilla,
+// Vanilla+ and Classless all appeared as options under a single "Vanilla"
+// heading. Split them into labelled groups instead of adding a second control,
+// which the mobile tap-target critique also warned against. Type tags are the
+// ones that describe a design rather than a client build.
+const EXPANSION_TAGS = new Set(["Vanilla", "WotLK", "TBC", "Cataclysm", "MoP", "Legion", "WoD", "TWW", "Other"]);
+const tagValues = servers => [...new Set(servers.map(s => s.tag).filter(Boolean))].sort();
+const expansionTags = servers => tagValues(servers).filter(t => EXPANSION_TAGS.has(t));
+const typeTags = servers => tagValues(servers).filter(t => !EXPANSION_TAGS.has(t));
+
 // The most recent `updated` date across the tracker. The census used to hardcode
 // "September 23, 2026", which went stale the moment a single entry was re-checked
 // and then cited as the source for a population-band definition, so derive it.
@@ -103,6 +114,8 @@ const latestCheck = servers => {
 
     eleventyConfig.addFilter("filterBlogByTag", filterBlogByTag);
     eleventyConfig.addFilter("startingPoints", startingPoints);
+    eleventyConfig.addFilter("expansionTags", expansionTags);
+    eleventyConfig.addFilter("typeTags", typeTags);
     eleventyConfig.addFilter("latestCheck", latestCheck);
 
     // Wrap every markdown table in a scroll container. Prose tables in posts

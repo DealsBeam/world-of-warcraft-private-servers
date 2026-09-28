@@ -201,6 +201,54 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     console.log("OK: fragment links resolve");
 }
 
+// The browser bundle must actually work. src/data.11ty.js ships functions to the
+// browser with `.toString()`, which serialises the body but not the module scope
+// around it, so a function closing over a module-level const throws
+// ReferenceError in the browser while working in Node. That shipped twice in one
+// sitting: `statusRank` referenced STATUS_ORDER, the sort comparator threw, and
+// the throw aborted renderServers entirely, so a WotLK filter rendered 0 cards
+// instead of 56. Nothing caught it because nothing executed the bundle.
+{
+    const fs2 = require("fs");
+    const vm = require("vm");
+    const bundle = fs2.readFileSync(path.join(out, "data.js"), "utf8");
+    const ctx = vm.createContext({});
+    // `const` at the top level of a vm script is lexically scoped to that script
+    // and never becomes a property of the context object, so the bindings have to
+    // be captured explicitly rather than read back off ctx.
+    vm.runInContext(`${bundle}\n;globalThis.__exports = { VOCAB, SERVERS, NEWS, LINKS, HISTORY };`, ctx, { filename: "data.js" });
+    for (const [k, v] of Object.entries(ctx.__exports)) ctx[k] = v;
+
+    // Every name app.js destructures off VOCAB must exist in the emitted object.
+    const appSrc = fs2.readFileSync(path.join(__dirname, "../src/app.js"), "utf8");
+    const destructured = [...appSrc.matchAll(/const\s*\{([^}]*)\}\s*=\s*VOCAB/g)]
+        .flatMap(m => m[1].split(",").map(x => x.trim().split(":")[0].trim()))
+        .filter(Boolean);
+    const absent = destructured.filter(n => !(n in ctx.VOCAB));
+    assert.strictEqual(absent.length, 0, `app.js destructures from VOCAB but data.js does not define: ${absent.join(", ")}`);
+
+    // And the serialised functions must not close over anything the browser lacks.
+    const unbound = [];
+    // groupByEra and countByStatus are deliberately NOT here: they close over ERA
+    // and ERA_ORDER, which do not exist in the browser, and the browser render
+    // path does not call them. Server-side templates use the real filter.
+    for (const name of ["statusRank", "matches"]) {
+        assert.strictEqual(typeof ctx.VOCAB[name], "function", `VOCAB.${name} is not a function in the built bundle`);
+        const body = ctx.VOCAB[name].toString();
+        for (const id of body.match(/\b([A-Z][A-Z0-9_]{2,})\b/g) || []) {
+            if (id in ctx) continue;
+            unbound.push(`${name}() references ${id}, which is not defined in the browser bundle`);
+        }
+    }
+    assert.strictEqual(unbound.length, 0, `serialised browser functions close over module scope:\n${unbound.join("\n")}`);
+
+    // Prove they run: every entry must rank, and grouping must not throw.
+    for (const s2 of SERVERS) assert.ok(typeof ctx.VOCAB.statusRank(s2) === "number", `statusRank returned non-number for ${s2.name}`);
+    const ranked = SERVERS.map(s2 => ctx.VOCAB.statusRank(s2));
+    assert.ok(ranked.filter(r => r === 0).length > 0, "no server ranks as playable in the browser bundle");
+    console.log(`OK: browser bundle runs (${destructured.length} VOCAB names, all ${SERVERS.length} servers ranked)`);
+}
+
 // No direct hyperlinks to tracked private-server domains anywhere in built HTML.
 {
     const hosts = new Set();
