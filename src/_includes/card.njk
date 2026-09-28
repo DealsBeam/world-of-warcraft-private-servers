@@ -10,6 +10,6 @@
         </span>
         <span class="badge {{ st.cls }}">{{ st.label }}</span>
     </div>
-    <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.popTier and s.popTier != "unknown" %} <span class="tag tag-pop">{{ s.popTier | capitalize }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}{% if s.shutdown %} <span class="tag tag-dead">Down {{ s.shutdown }}{% if s.shutdownReason %} ({{ s.shutdownReason }}){% endif %}</span>{% endif %}{% if s.url %} <span class="tag tag-link">Website known</span>{% endif %}</div>
+    <div class="card-details">{{ s.details }}{% if s.tag %} <span class="tag">{{ s.tag }}</span>{% endif %}{% if s.popTier and s.popTier != "unknown" %} <span class="tag tag-pop">{{ s.popTier | capitalize }}</span>{% endif %}{% if s.release %} <span class="tag">Release: {{ s.release }}</span>{% endif %}{% if s.shutdown %} <span class="tag tag-dead">Down {{ s.shutdown }}{% if s.shutdownReason %} ({{ s.shutdownReason }}){% endif %}</span>{% endif %}{% if s.url %} <span class="tag tag-link" title="We record that a website exists but do not link it, so you can search the name yourself rather than follow a link off-site">Site listed</span>{% endif %}</div>
 </article>
 {% endmacro %}

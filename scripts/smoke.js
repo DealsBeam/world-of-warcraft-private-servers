@@ -201,6 +201,25 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     console.log("OK: fragment links resolve");
 }
 
+// A single UI string rendered from two places (the nunjucks card include and the
+// client-side cardHtml) is a string that will be changed in one and missed in the
+// other. "Website known" survived a fix to app.js because the server-rendered card
+// lives in src/_includes/card.njk, which is what crawlers and no-JS readers see.
+{
+    const offenders = [];
+    for (const f of ["index.html", "servers/index.html"]) {
+        const p2 = path.join(out, f);
+        if (!fs.existsSync(p2)) continue;
+        if (fs.readFileSync(p2, "utf8").includes("Website known")) offenders.push(f);
+    }
+    assert.strictEqual(offenders.length, 0, `stale 'Website known' label still rendered in: ${offenders.join(", ")}`);
+    const home = fs.readFileSync(path.join(out, "index.html"), "utf8");
+    assert.ok(home.includes("Site listed"), "homepage cards are missing the 'Site listed' label");
+    const appSrc = fs.readFileSync(path.join(__dirname, "../src/app.js"), "utf8");
+    assert.ok(appSrc.includes("Site listed"), "src/app.js cardHtml is missing the 'Site listed' label");
+    console.log("OK: site-link label consistent in both render paths");
+}
+
 // The browser bundle must actually work. src/data.11ty.js ships functions to the
 // browser with `.toString()`, which serialises the body but not the module scope
 // around it, so a function closing over a module-level const throws
