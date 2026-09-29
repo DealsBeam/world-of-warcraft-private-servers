@@ -324,3 +324,18 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     assert.strictEqual(hits.length, 0, `direct links to private servers:\n${hits.join("\n")}`);
     console.log(`OK: no direct private-server links (${hosts.size} domains checked)`);
 }
+
+// A dead entry's shutdown reason is the difference between "closed and
+// download" and "abandoned", and the API is what a consumer reads. It was
+// missing from the API's key list, so all 13 dead entries published without it.
+{
+    const api = JSON.parse(fs.readFileSync(path.join(out, "api/servers.json"), "utf8"));
+    const dead = api.filter(s => s.status === "dead");
+    const missing = dead.filter(s => !s.shutdownReason);
+    assert.strictEqual(missing.length, 0,
+        `dead entries missing shutdownReason in the API: ${missing.map(s => s.name).join(", ")}`);
+    const badUrl = dead.filter(s => s.url);
+    assert.strictEqual(badUrl.length, 0,
+        `dead entries publishing a site link in the API: ${badUrl.map(s => s.name).join(", ")}`);
+    console.log(`OK: dead entries publish a dated shutdown and a reason (${dead.length} checked)`);
+}
