@@ -51,7 +51,7 @@ If your plan depends on any of these, plan for the later date.
 
 ## Launch day itself
 
-Launch is a 3 p.m. PST release, which is 11 p.m. UTC and past midnight in Central Europe. Plan the session around your own timezone rather than assuming the date rolls over cleanly.
+Launch is a 3 p.m. Pacific release, which is **11 p.m. UTC** and past midnight in Central Europe. <del>Blizzard's launch announcement writes "3:00 p.m. PDT"</del>, but US Pacific daylight time ends on November 1, 2026, three days before launch, so Pacific is on PST on the day and 3 p.m. PST is 23:00 UTC. The What's Next recap writes PST, which is the technically correct label for this date. The two first-party sources disagree on the abbreviation, not on the moment. Plan the session around your own timezone rather than assuming the date rolls over cleanly.
 
 Server Slam, if it lands before the close, is the one window where a large population is likely to be in the same world. If you are playing at all during the beta, that is when to test the things that only break under load: layering, group invites, and whether your addon survives a busy zone.
 

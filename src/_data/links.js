@@ -434,16 +434,16 @@ module.exports = [
     {
         "title": "WowForeverClassic — unofficial WoW Forever map, talent calculator and guides, every fact source-linked with a confidence grade",
         "url": "https://www.wowforeverclassic.com/",
-        "note": "Fan reference, checked 27 Sep 2026: publishes an A to D confidence scale, one tester is Reported and two agreeing is Verified. Site's own currency date is 19 Sep 2026 and it does not track beta builds. Carries the pre-70009 Gnome Eureka! and Touch of the Grave values, so grade it behind our client read on datamined combat values."
+        "note": "Fan reference, checked 27 Sep 2026: publishes an A to D confidence scale, one tester is Reported and two agreeing is Verified. Site's own currency date is 19 Sep 2026, the stalest of the three we track, and it does not track beta builds at all. Carries the pre-70009 Gnome Eureka! and Touch of the Grave values, so grade it behind our client read on datamined combat values."
     },
     {
         "title": "Classic WoW Forever — unofficial WoW Forever talent and class reference, 180 sourced class changes, full racial tables and dated beta update briefs",
         "url": "https://classicwowforever.com/",
-        "note": "Fan reference, checked 27 Sep 2026: tracks build 1.60.1.70009 and carries the Cultivation level gate, the Crusade removal and the Primal Fury to Blood Frenzy rename. Still holds the pre-70009 Eureka! and Touch of the Grave values. /classes/ and /news/ now 404, so the entry above is the live root."
+        "note": "Fan reference, checked 27 Sep 2026: tracked build 1.60.1.70009 as of that check and carries the Cultivation level gate, but the CDN moved to 1.60.1.70058 on 29 September and it had published no notes for it when we last looked, the Crusade removal and the Primal Fury to Blood Frenzy rename. Still holds the pre-70009 Eureka! and Touch of the Grave values. /classes/ and /news/ now 404, so the entry above is the live root."
     },
     {
         "title": "WoW Forever Top — independent English Forever fan portal, 242 pages of datamined databases, talent calculators and beta build history",
         "url": "https://wow-forever.top/",
-        "note": "Fan reference, checked 27 Sep 2026: separates official Blizzard information, panel reporting and beta-unverified data, and tracks build 70009. Resolves the raid unlock to December 9 naming Hyjal Summit and Barrow Deeps, and carries no Onyxia date at all, which is why that conflict stays open. AdSense supported, so treat editorial independence as good but not unlimited."
+        "note": "Fan reference, checked 27 Sep 2026: separates official Blizzard information, panel reporting and beta-unverified data, and tracked build 70009, which the CDN superseded with 1.60.1.70058 on 29 September. Resolves the raid unlock to December 9 naming Hyjal Summit and Barrow Deeps, and carries no Onyxia date at all, which is why that conflict stays open. AdSense supported, so treat editorial independence as good but not unlimited."
     }
 ];

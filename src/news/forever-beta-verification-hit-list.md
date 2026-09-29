@@ -173,6 +173,26 @@ wow-forever.top is a new source. 242 pages, a large database and tool layer, and
 
 - **We do not publish a grading scale.** wowforeverclassic documents an A-to-D confidence scale where a position is Reported from one tester and Verified once two agree, and disagreements wait for review. wow-forever.top uses a three-tier split of official, panel and datamined. Both are legible to a reader who has not read ten of our posts. Ours is more rigorous but it is only visible in our prose. This is now an open item for the site rather than for the beta.
 
+## Round 13 (launch timezone resolved, Sep 28)
+
+A fan source flagged a discrepancy we had never checked, and the investigation stopped a wrong correction.
+
+- **The flag:** wowforevertalent.com, September 27: "The announcement writes PDT; the What's Next recap writes PST." No other fan source we track had noticed, and we had been printing PST without ever recording that the primary announcement says otherwise.
+- **First-party check:** Blizzard's launch announcement, verbatim: "World of Warcraft: Forever launches November 4 at **3:00 p.m. PDT** globally, with beta beginning Thursday, September 17." So the announcement does say PDT. The recap says PST.
+- **Resolved, and our value was right.** US Pacific daylight time 2026 runs March 8 to **November 1**. Launch is **November 4**, three days after DST ends, so Pacific is on **PST** that day. 3:00 p.m. PST is **23:00 UTC**; 3:00 p.m. PDT would be 22:00 UTC, an hour early. Our hub, our launch checklist and the countdown (`2026-11-04T23:00:00Z`) all already said PST and 23:00 UTC.
+- **What changed:** a note, not a number. The hub now carries the announcement's PDT wording struck through with the DST reasoning, so a reader who reads the announcement and arrives here does not think we got it wrong.
+- **Why this is worth recording:** the obvious action here was to "correct" PST to PDT to match the primary source. That would have moved the launch an hour earlier and made our content wrong on the only fact every reader needs on November 4. A source disagreeing with us is a reason to check the arithmetic, not a reason to defer.
+
+### Also closed this round
+- **The Oct 21 versus Oct 22 beta-close split is now acknowledged by a fan source too.** classicwowforever.com's key-dates box reads "21 Oct Beta ends (roadmap: 22 Oct)" as of September 26, and states "The exact closing time isn't clear yet." We are not the only readers seeing the conflict, which is corroboration of the observation rather than a resolution. It stays open.
+- **A new official-attributed line on the beta end:** wowforevertalent.com, September 27, citing the official now-live note: "21 October is the last full test day; the Server Slam window is still to be announced." That pins the shape of the final beta day without dating the Slam, and matches our "Server Slam date" open item.
+- **The countdown is now sourced.** classicwowforever.com's key-dates block adds "9 Dec First raids unlock" and "Winter 2026-27 Hardcore planned" alongside the launch, which is the same set we already carry.
+
+- **New build 1.60.1.70058 landed on 29 September at 02:26 UTC**, up from 70009, on the `wowdev2` track with sequence 4045381 preceded by a same-build re-push at 4045250. Our CDN watcher has it; none of the three fan references has published notes. Everything in this round that reads "70009" describes a build that is no longer the one in the test. The auto-shot and wand cast bug is the most testable open item, because Kaivax promised a fix for a future build and this is that build.
+
+### Still open after this pass
+Server Slam date, Onyxia launch-versus-December-9, the beta close-date split, Spearing Strike, Heroic price, Forsaken mount model, Legendary questline, 2027 fine print. The auto-shot and wand cast bug: wow-forever.top's Sep 26 build page still lists the Cooldown Manager as five classes and does not mention a fix, so it remains unconfirmed either way.
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.
