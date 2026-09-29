@@ -268,6 +268,38 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     console.log(`OK: browser bundle runs (${destructured.length} VOCAB names, all ${SERVERS.length} servers ranked)`);
 }
 
+// A control row with a min-content floor (a select with white-space: pre, two
+// fixed-width buttons) silently overflows a narrow viewport and squeezes its
+// siblings to nothing. It shipped because every check we had read HTML, and a
+// 320px layout cannot be seen in HTML. This asserts the CSS is at least
+// equipped for it: the filter row and the tabs must be allowed to shrink, and
+// the search field must be released from its desktop min-width, inside the
+// 700px breakpoint.
+{
+    const css = fs.readFileSync(path.join(out, "style.css"), "utf8");
+    // Take every <=700px block. There are several, and slicing from the first
+    // one only reads as far as its closing brace, which is not where these
+    // rules live.
+    const blocks = [...css.matchAll(/@media\s*\(max-width:\s*700px\)\s*\{/g)];
+    assert.ok(blocks.length > 0, "no 700px breakpoint found in the stylesheet");
+    let mobile = "";
+    for (const m of blocks) {
+        let depth = 0, i = m.index + m[0].length - 1;
+        for (; i < css.length; i++) {
+            if (css[i] === "{") depth++;
+            else if (css[i] === "}" && --depth === 0) break;
+        }
+        mobile += css.slice(m.index, i + 1) + "\n";
+    }
+    assert.ok(/\.filters\s*\{[^}]*flex-wrap:\s*wrap/.test(mobile),
+        "at <=700px .filters does not wrap, so a wide select can overflow the viewport");
+    assert.ok(/#search\s*\{[^}]*min-width:\s*0/.test(mobile),
+        "at <=700px #search keeps its desktop min-width and cannot shrink");
+    assert.ok(/\.tab\s*\{[^}]*padding:\s*12px 14px/.test(mobile),
+        "at <=700px the tab labels keep desktop padding, which overflows a 320px viewport");
+    console.log("OK: narrow-viewport rules present (filters wrap, search can shrink)");
+}
+
 // No direct hyperlinks to tracked private-server domains anywhere in built HTML.
 {
     const hosts = new Set();

@@ -1613,9 +1613,30 @@ textarea {
         flex-direction: column;
         align-items: stretch;
     }
+    /* The filter row is two controls on one flex line. The select sets
+       white-space: pre, so its min-content width is the whole label list and
+       the row cannot shrink: at 320px it overflowed the viewport by 45px and
+       squeezed the search field to 34px wide, which is unusable. Wrap the row
+       and let both controls take a full line instead. */
+    .filters {
+        flex-wrap: wrap;
+        min-width: 0;
+    }
+    .filters #search,
+    .filters #tag {
+        flex: 1 1 100%;
+        width: 100%;
+    }
     #search {
         width: 100%;
         min-width: 0;
+    }
+    /* The two tabs carry 22px side padding each, which is 4px more than a
+       320px viewport can give them once the border is counted. Let the labels
+       shrink instead of pushing the row into a horizontal scroll. */
+    .tab {
+        padding: 12px 14px;
+        letter-spacing: 0.08em;
     }
     body {
         padding: 0 14px 32px;

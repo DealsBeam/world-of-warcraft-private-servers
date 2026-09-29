@@ -182,23 +182,23 @@ module.exports = [
     {
         "name": "Octo WoW",
         "status": "playable",
-        "details": "Turtle 1.18.1 restored Jul 2026, 3 realms (N'Zoth PvE / C'Thun HC / Y'Shaarj PvP), phased raids 2026-27",
+        "details": "Turtle 1.18.1, and one of at least THREE separately branded realms carrying the same 'Mysteries of Azeroth' project name, alongside Ravencraft and Capybara Paradise. Each has its own site, launcher, forum and download host, so they are separate realms rather than one server, but they share a project identity and a development lineage. OctoWoW ran a beta launch and publishes a post asking whether Blizzard will shut it down and giving the author's own honest answer. Features playable High Elves and Goblins, and an expansion that runs alongside Vanilla content from level 1 to 60 rather than replacing it. Corrected Sep 29: our entry listed three internal realms (N'Zoth, C'Thun, Y'Shaarj) and did not record the shared project identity with the other two brands",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://octowow.st",
-        "updated": "2026-08-25",
+        "updated": "2026-09-29",
         "popTier": "small",
         "guide": "/guides/octowow/"
     },
     {
         "name": "Capybara WoW",
         "status": "playable",
-        "details": "Turtle 1.18.1, run by ex-Turtle SEA admins, 2 realms, ~10k online",
+        "details": "Turtle 1.18.1 run by ex-Turtle WoW SEA administrators, Chinese-language site (the title reads Capybara Paradise, translated as the Mysteries of Azeroth), and the third of at least three separately branded realms using that shared project name, with Ravencraft and OctoWoW. It uses KooK (kook.vip) as its community platform rather than Discord, and has its own forum subdomain. Corrected Sep 29: our entry rated this large on a claim of about 10k online that we could not re-confirm and that the page no longer displays, so the tier is now unknown rather than large. An unverified number should not survive as a rating",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://capycraft.io",
-        "updated": "2026-08-30",
-        "popTier": "large"
+        "updated": "2026-09-29",
+        "popTier": "unknown"
     },
     {
         "name": "Whitemane \u2014 Gilneas",
@@ -233,11 +233,11 @@ module.exports = [
     {
         "name": "Faebright",
         "status": "playable",
-        "details": "TBC on WotLK client, RP-PvE",
-        "tag": "TBC",
+        "details": "WotLK 3.3.5a, and our entry had this tagged TBC, which was wrong on the site's own words: it describes itself as 'A faithful 3.3.5a private realm forged for the love of Azeroth' and labels its Content Phase as Wrath of the Lich King. PvE and RP-PvE, blizzlike rates, with a login portal and launcher/client/addon downloads behind it. Its own status widget read REALM UNKNOWN and 0 ONLINE on September 29 2026, so the realm state is unknown rather than merely small. Corrected Sep 29: tag corrected from TBC to WotLK, and the population claim replaced with what the site actually reports",
+        "tag": "WotLK",
         "group": "",
         "url": "https://www.faebright.online",
-        "updated": "2026-08-25",
+        "updated": "2026-09-29",
         "popTier": "tiny"
     },
     {
@@ -293,12 +293,12 @@ module.exports = [
     {
         "name": "Firestorm",
         "status": "playable",
-        "details": "TWW (Dornogal) + BFA: Reforged (launches Aug 31 11:00 CEST, >3600 queued, Plunderforged Bay, Felsong→Firestorm merge) + legacy realms, 2.5-4k online",
+        "details": "TWW (Dornogal) plus BFA: Reforged, MoP and Legion realms with a live changelog for each. BFA: Reforged LAUNCHED, correcting our entry which still described it as pending: the PTR closed and the official realm opened, announced on their own site, with Season 1 beginning immediately on release and Uldir Mythic opening one week later. Reforged launches with Patch 8.0 content on 8.3.7 class tuning, everyone starts fresh, and Rank 1 Essences are available from the start with later ranks unlocked per season on a deliberately dynamic schedule. New hub zone Plunderforged Bay handles all vendors, quests and NPCs. FIRST WEEK LOGIN REWARDS are offered. Felsong cosmetics can now be merged into a Firestorm account, and account-wide cosmetics carry across TWW and BFA where the item exists. Corrected Sep 29: we were carrying a launch date of Aug 31 as though it were still in the future, which is the same stale-pending-date failure this sweep exists to catch",
         "tag": "TWW",
         "group": "",
         "url": "https://firestorm-servers.com",
         "popTier": "large",
-        "updated": "2026-08-31"
+        "updated": "2026-09-29"
     },
     {
         "name": "Sirus",
@@ -481,11 +481,11 @@ module.exports = [
     {
         "name": "Ravencraft",
         "status": "playable",
-        "details": "Turtle 1.18.1 continuation by former project contributors; realm Medivh launched Aug 22, launch event running through Aug 29. Official launcher: IchaLaunch (addon/mod management)",
+        "details": "Turtle 1.18.1 continuation run by former Turtle WoW contributors, and one of at least THREE separately branded realms carrying the same 'Mysteries of Azeroth' project name: Ravencraft, OctoWoW and Capybara Paradise all use it, all reference Turtle WoW, and all are separate sites with their own launchers, forums and download hosts. Realm Medivh launched 22 August 2026 with a launch event running through 29 August. Features playable High Elves and Goblins, character customisations, and race and class combinations. Official launcher is IchaLaunch. Corrected Sep 29: our entry presented Ravencraft as a standalone project; it is one brand of a three-brand operation, which matters because a reader comparing them would otherwise assume three independent teams and three independent shutdown risks",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://ravencraft.io/",
-        "updated": "2026-08-25",
+        "updated": "2026-09-29",
         "popTier": "small",
         "guide": "/guides/ravencraft/"
     },
@@ -892,12 +892,12 @@ module.exports = [
     {
         "name": "uWoW",
         "status": "playable",
-        "details": "Legion 7.3.5 network running since 2009, longest-lived Legion server, ~3.3k Discord online",
+        "details": "Legion 7.3.5 network running since 2009, the longest-lived Legion server, and the surviving half of the old ArgusWoW operation after ArgusWoW itself closed in May 2022. Site's own counter on September 29 2026 read total online 3,615, with Legion x100 at 2,756 and x5 at 335. Also runs a WotLK x100 realm that moved to its fourth progression stage on 24 July 2026. ANNOUNCED: a Mists of Pandaria x10 realm on the 5.4.8 client opening 16 October 2026 at 19:00 Moscow time, announced 9 September 2026, which would make uWoW a three-expansion operation. Corrected Sep 29: our entry had no population figure at all and rated it medium; the operator's own counter is large-tier, and we had not recorded the MoP opening or that ArgusWoW folded into it",
         "tag": "Legion",
         "group": "",
         "url": "https://uwow.biz/",
-        "updated": "2026-08-24",
-        "popTier": "medium"
+        "updated": "2026-09-29",
+        "popTier": "large"
     },
     {
         "name": "UwowSA",
@@ -960,13 +960,13 @@ module.exports = [
     },
     {
         "name": "Valanior",
-        "status": "playable",
-        "details": "Custom modernization of the Vanilla 1.12 foundation, ~1.3k Discord online; site origin down Sep 6 (Cloudflare DNS error), community alive on Discord",
+        "status": "dev",
+        "details": "UNVERIFIABLE since September 2026, and the reason is more specific than a site being down. The apex valanior.com returns Cloudflare 1016, an origin DNS error, so the site has no resolvable host. www.valanior.com does respond, but every path we probed on it returns the same stock OVH 'Site en construction' page with 70 placeholder links and a 1999 OVHcloud copyright, so there is no project content behind it at all. The domain appears to have lapsed to a default host rather than a server having gone down. Our entry claimed playable, small, and about 1.3k Discord online, none of which we can now reach or confirm. Marked dev pending a first-party source; the community may well be alive on Discord, but we have no evidence for it and will not infer it from a domain that no longer hosts a project",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://valanior.com/",
-        "updated": "2026-08-24",
-        "popTier": "small"
+        "updated": "2026-09-29",
+        "popTier": "unknown"
     },
     {
         "name": "TrueWoW",
@@ -1049,13 +1049,14 @@ module.exports = [
     },
     {
         "name": "ArgusWoW",
-        "status": "playable",
-        "details": "Legion 7.3.5 on dedicated German hardware, x100/x3/x1 realms, 5 raid tiers, ~1.9k Discord online",
+        "status": "dead",
+    "shutdown": "2022-05-15",
+    "shutdownReason": "C&D",
+        "details": "CLOSED 15 May 2022, four years before we checked. ArgusWoW was a Legion 7.3.5 network on dedicated German hardware with x100, x3 and x1 realms and five raid tiers, and it was operated by the same people as uWoW: the site's own shutdown notice instructs players to transfer characters to uwow Legion x100 through cp.uwow.biz. The trap here is that the page is still live and still renders a status widget reading Legion x100 2752 and Legion x3 0, which are uWoW's figures, not ArgusWoW's. Nothing on the page says the server is closed except the newest news item, dated 10.05, and the feed below it is 2020 and 2019. We carried this as playable with medium population until September 29 2026, which is our worst error of the stale sweep: a dead server scored higher than several live ones because a counter on the page looked current",
         "tag": "Legion",
         "group": "",
-        "url": "https://arguswow.com/",
-        "updated": "2026-08-24",
-        "popTier": "medium"
+        "updated": "2026-09-29",
+        "popTier": "unknown"
     },
     {
         "name": "UnlimitedWoW",
