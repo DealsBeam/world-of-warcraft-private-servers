@@ -323,32 +323,32 @@ module.exports = [
     {
         "name": "Helios",
         "status": "playable",
-        "details": "MoP 5.4, Siege of Orgrimmar live, cross-faction",
+        "details": "MoP 5.4.8 realm, Siege of Orgrimmar and Timeless Isle, cross-faction, operated by TwinStar. Our address helios-wow.com serves a one-line title and nothing else, so the reachable first-party source is the TwinStar realm page. TwinStar also runs Pers\u00e9s, Kronos V and Proudmoore off that same page",
         "tag": "MoP",
         "group": "TwinStar",
         "url": "https://helios-wow.com",
-        "updated": "2026-08-25",
+        "updated": "2026-09-29",
         "popTier": "small"
     },
     {
         "name": "Apollo II",
         "status": "playable",
-        "details": "Cataclysm realm",
+        "details": "Unverified entry. Our address points at twinstar-wow.com, which on September 29 2026 listed four realms and did NOT include Apollo II among them: Pers\u00e9s (MoP 5.0, launched 29 August), Kronos V (Vanilla 1.12.1, 9 May), Proudmoore (Mythic+ Cataclysm) and Helios (MoP 5.4.8). Our 'Cataclysm realm' description matches no current TwinStar listing except Proudmoore, which we track separately, so this entry may be a duplicate or a stale address. Flagged rather than corrected: we could not find a first-party Apollo II source to confirm the realm or the right address",
         "tag": "Cataclysm",
         "group": "TwinStar",
         "url": "https://twinstar-wow.com",
-        "updated": "2026-08-25",
+        "updated": "2026-09-29",
         "popTier": "small"
     },
     {
         "name": "Sunwell.pl",
         "status": "playable",
-        "details": "WotLK 3.3.5a Blizzlike",
+        "details": "Blizzlike WotLK 3.3.5a running two realms, Frosthold and Voltarus, and as of September 29 2026 their own status widgets read Frosthold 4 players online and Voltarus 0, four in total. The newest news on the site is five to six years old (Arena Season 6, Ulduar secrets) and the project is advertising closed 3.3.5a cross-server tests to other server operators via Discord, which reads as a shift toward licensing the technology rather than growing the realm. Corrected Sep 29: our tier read 'small'; the site's own live counter puts it in 'tiny'",
         "tag": "WotLK",
         "group": "",
         "url": "https://sunwell.pl",
-        "updated": "2026-08-25",
-        "popTier": "small"
+        "updated": "2026-09-29",
+        "popTier": "tiny"
     },
     {
         "name": "TheraWoW",
@@ -981,12 +981,12 @@ module.exports = [
     {
         "name": "Moonwell",
         "status": "playable",
-        "details": "Enhanced TBC 2.4.3 x100 XP veteran since 2011, fresh realm Nov 2025 peaked 3k+, ~180 Discord online",
+        "details": "TBC 2.4.3 running since January 2011, Russian-language, operator Torg Company in Bishkek. TWO REALMS and the sizes differ sharply: Moonwell x5 is the main realm and read 854 players online on September 29 2026, while Moonwell x100 read 5. Corrected Sep 29: our entry treated x100 as the headline realm and rated it 'small'; x5 is the one with the population and all-time records run to 2,987. Phased content through Phase 5 since July 22 2026, Zul'Aman as a 10-player raid, a new core in testing as of August 25, Fast Start character boosts, account exchange from Warmane, Chromie, Project Epoch and Ascension, and a nick-reservation system for the x5 launch",
         "tag": "TBC",
         "group": "",
         "url": "https://moonwell.su/",
-        "updated": "2026-08-24",
-        "popTier": "small"
+        "updated": "2026-09-29",
+        "popTier": "medium"
     },
     {
         "name": "Stonetavern",
@@ -1099,11 +1099,11 @@ module.exports = [
     {
         "name": "WOW-COLOMBIA",
         "status": "playable",
-        "details": "Latin American Cataclysm 4.3.4 + Vanilla 1.12.1 since 2007, Spanish, seasonal Arena, ~150 Discord online",
+        "details": "Latin American realm, Spanish, running since 2007, and running TWO client versions side by side: Cataclysm 4.3.4 build 15595 and Vanilla 1.12.1 build 5875, both on logon.wow-colombia.com. Active September 2026 with an Alamuerte world-boss event that chains up to four cities a night, currently targeting Darnassus on October 5, and a Beer Festival running 25 September to 11 October. STORE SELLS PROGRESS: x3 experience, loot and gold for 200 credits, sold as 24 hours of play per account and stackable to 168 hours. Corrected Sep 29: our entry did not record either the dual client versions or the paid rate product",
         "tag": "Cataclysm",
         "group": "",
         "url": "https://www.wow-colombia.com/",
-        "updated": "2026-08-24",
+        "updated": "2026-09-29",
         "popTier": "tiny"
     },
     {
