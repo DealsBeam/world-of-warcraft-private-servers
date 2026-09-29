@@ -300,6 +300,29 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     console.log("OK: narrow-viewport rules present (filters wrap, search can shrink)");
 }
 
+// A server that hands a new player a client torrent built by someone else is
+// a trust boundary neither the server nor we control. Frozen Throne offers the
+// Warmane client as a supported option, and Warmane's own liveness we cannot
+// verify, so that is a real published risk rather than a hypothetical one. If
+// an entry mentions another project by name as a client source, it has to
+// record the infohash, so a reader can see whose torrent they are about to run.
+{
+    const THIRD_PARTY = /warmane/i;
+    const offenders = [];
+    for (const s of SERVERS) {
+        if (!s.details || !THIRD_PARTY.test(s.details)) continue;
+        // Naming another project is fine; naming its client without a
+        // 40-hex infohash is the gap.
+        const claimsAClient = /(client|realmlist|torrent|magnet|infohash)/i.test(s.details);
+        if (!claimsAClient) continue;
+        if (!/\b[0-9A-Fa-f]{40}\b/.test(s.details)) offenders.push(s.name);
+    }
+    assert.strictEqual(offenders.length, 0,
+        `entries naming a third-party client without an infohash: ${offenders.join(", ")}`);
+    const hashed = SERVERS.filter(s => s.details && THIRD_PARTY.test(s.details) && /\b[0-9A-Fa-f]{40}\b/.test(s.details));
+    console.log(`OK: third-party client sources record an infohash (${hashed.length} checked)`);
+}
+
 // No direct hyperlinks to tracked private-server domains anywhere in built HTML.
 {
     const hosts = new Set();

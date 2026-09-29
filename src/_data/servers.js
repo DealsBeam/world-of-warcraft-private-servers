@@ -243,12 +243,12 @@ module.exports = [
     {
         "name": "Warmane",
         "status": "playable",
-        "details": "WotLK",
+        "details": "UNVERIFIED LIVENESS on a large rating, as of September 29 2026, and this is the biggest open hole in our own data. The site answers 200 and its news block carries items dated September 6, August 9, June 22 and April 4, all 2026, but the content attached to those dates is Onyxia-phase material (Icecrown Citadel, Battlegroup 1 arena season concluding, Call of the Crusade, Ulduar) that is 2018 to 2019 writing, and the only years present anywhere in the page are 2025 and 2026. Either it is operating with a news system stamping fresh dates on an old archive, or it is not operating and the dates are an artifact. We cannot tell which: /register and /armory return 'Not Found' while the root, /download and /information return real pages, and the forum at forum.warmane.com needs JavaScript to render anything we could read. We are NOT downgrading to dead on absence of evidence, which would repeat the ArgusWoW error in reverse. Status stays playable and large, unverified. Separately and to its credit, its 3.3.5a client is still redistributed by other live servers: Frozen Throne offers it as a supported second option with infohash 5B65D1928A3025A820B45E6DB2451AAAABC5347C and warns that you must change the realmlist. See /blog/the-client-you-did-not-build/",
         "tag": "WotLK",
         "group": "",
         "url": "https://www.warmane.com",
         "popTier": "large",
-        "updated": "2026-08-30"
+        "updated": "2026-09-29"
     },
     {
         "name": "Vanilla+",
@@ -1282,12 +1282,12 @@ module.exports = [
     {
         "name": "Frozen Throne",
         "status": "playable",
-        "details": "Solo-friendly WotLK 3.3.5a on AzerothCore plus maintained forks: PlayerBots, autonomous DungeonClear that needs no addon, bot-assisted raid progression, crossfaction RDF and alt-bot levelling, Mythic+ to +7 (gold, Emblems of Frost, epics), account-wide mounts, a living Auction House bot, and character services for in-game gold. Self-reported 1,191 online, 5,797 characters, 453,495 quests; x1-x7 XP, x3 skills and rep. Password needs 8+ chars with upper, number and special character",
+        "details": "Solo-friendly WotLK 3.3.5a on AzerothCore plus maintained forks: PlayerBots, autonomous DungeonClear that needs no addon, bot-assisted raid progression, crossfaction RDF and alt-bot levelling. The server's own FAQ says it combines AzerothCore, community projects, maintained custom forks, server-specific patches and its own fixes, integrating upstream improvements while keeping custom behaviour that serves the solo design, and that it began as a hobby project for a few friends with no intention of becoming the biggest server. It states the goal is keeping Wrath familiar while removing the moments where progression stops because a group cannot be found. NOTE Sep 29: it hands new players TWO client options, its own recommended build with the realmlist pre-configured, and the Warmane 3.3.5a client as an equal alternative, offered as a magnet with infohash 5B65D1928A3025A820B45E6DB2451AAAABC5347C. Warmane is a separate operation whose own liveness we cannot currently verify, so that torrent is outside this server's control and outside ours. The Warmane option requires you to change the realmlist first. Treat it as a third-party binary you do not own. See /blog/the-client-you-did-not-build/",
         "tag": "WotLK",
         "group": "",
         "guide": "/blog/frozen-throne-autonomous-dungeon-clear/",
         "url": "https://frozenthrone.cloud/",
-        "updated": "2026-09-27",
+        "updated": "2026-09-29",
         "popTier": "medium"
     },
     {
@@ -1397,11 +1397,11 @@ module.exports = [
     {
         "name": "Draevor Project",
         "status": "dev",
-        "details": "Warlords of Draenor (6.x) realm, Garrison-focused with custom systems — PTR coming soon, no date; one announcement post (testers wanted), Discord community, vote/changelog pages live",
+        "details": "Warlords of Draenor 6.x realm with a Garrison focus and custom systems, a faithful WoD core, and every class and race with Horde or Alliance available. Corrected Sep 29: our entry said the PTR was coming soon with no date, which was the site's own marketing copy rather than its news. The PTR is ONLINE per its own news list, headline 'Warlords of Draenor PTR Is Now Online!', with a live realmlist at play.draevorproject.com, and a follow-up post on faster testing adding instant flight paths, a 60 second hearthstone cooldown and a PTR Helper NPC. Note the site contradicts itself: the hero and footer still say PTR coming soon. Also announced and in development, a Garrison Mobile App. No launch date for the live realm, so status stays dev",
         "tag": "WoD",
         "group": "",
         "url": "https://draevorproject.com/",
-        "updated": "2026-09-19",
+        "updated": "2026-09-29",
         "popTier": "unknown"
     },
     {
