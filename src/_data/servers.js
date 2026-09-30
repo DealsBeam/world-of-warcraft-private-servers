@@ -155,11 +155,12 @@ module.exports = [
     },
     {
         "name": "Epsilon",
-        "status": "dev",
-        "details": "Active Development (RP/Sandbox)",
-        "tag": "Vanilla+",
-        "group": "",
-        "popTier": "unknown"
+        "status": "playable",
+        "details": "Roleplay server built around a player-facing phasing system, which its site claims to have been the first core to introduce. Corrected Sep 30: this entry had NO url and had been demoted playable to dev and tagged Vanilla+ on Aug 25 by a PopTier sweep whose stated goal was '0 playable unknowns'. That was a spreadsheet invariant, not a check: the commit moved Epsilon, Revelation WoW and Anarchy 2.0 together and all three still have no url today. Nobody read the site. Having now read it: the site is a finished product pitch, not a development announcement, so dev was the wrong status on its face. Claims phasing commands that let players build their own version of the world, rotate objects, spawn NPCs and set waypoint routines, then invite friends into it; a streaming system that pushes server-wide custom content to the client with no download; custom items, cosmetic spells, unlocked character creation options such as demon hunter horns for Blood Elves and Night Elves, extra base-race skins, and Allied Races. Liveness NOT verified: the How To Connect page renders with navigation only and no connection instructions, client or realmlist, /news /changelog /about all return 404, and the only year anywhere on the site is 2021. The Discord invite resolves to a live server titled Epsilon, so the community exists. Tag cleared: the site never names a client version, and the Vanilla+ tag came from the same unfounded sweep. Demon hunter and Allied Races content points at Legion or Battle for Azeroth era, but that is our inference from a feature list, not a stated version, so we are not publishing a tag we cannot source",
+        "tag": "",
+        "popTier": "unknown",
+      "url": "https://epsilonwow.net/",
+      "updated": "2026-09-30"
     },
     {
         "name": "Anarchy 2.0",
