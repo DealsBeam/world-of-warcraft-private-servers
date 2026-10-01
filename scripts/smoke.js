@@ -346,6 +346,24 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     scan(out);
     assert.strictEqual(hits.length, 0, `direct links to private servers:\n${hits.join("\n")}`);
     console.log(`OK: no direct private-server links (${hosts.size} domains checked)`);
+
+    // The reference-link list is a separate dataset that happens to be full of
+    // third-party project URLs. When one of those projects is promoted to a
+    // tracked server, the old reference entry becomes a direct link to a
+    // private-server domain, which is exactly what the scan above forbids.
+    // That is not a hypothetical: tracking Conquest of AzerothCore failed this
+    // gate on a links.js entry that had been sitting there all along.
+    const LINKS = require("../src/_data/links.js");
+    const stale = LINKS.filter(l => {
+        try {
+            return hosts.has(new URL(l.url).hostname.replace(/^www\./, ""));
+        } catch {
+            return false;
+        }
+    });
+    assert.strictEqual(stale.length, 0,
+        `reference links pointing at tracked private-server domains: ${stale.map(l => l.url).join(", ")}`);
+    console.log(`OK: no reference link points at a tracked server (${LINKS.length} links checked)`);
 }
 
 // A dead entry's shutdown reason is the difference between "closed and

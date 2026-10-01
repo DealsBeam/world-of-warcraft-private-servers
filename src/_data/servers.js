@@ -1445,5 +1445,24 @@ module.exports = [
         "url": "https://www.eternion-wow.net/",
         "updated": "2026-09-21",
         "popTier": "unknown"
-    }
+    },
+  {
+    "name": "Conquest of AzerothCore",
+    "status": "dev",
+    "details": "NOT the dead Conquest of Azeroth. That entry was the Ascension network realm, shut down Sep 4 2026 after a Blizzard C&D. This is a separate open-source continuation running on the AzerothCore emulator core, and it is live. 22 classes across three specs each, from Witch Doctor and Chronomancer to Starcaller, Runemaster, Reaper, Bloodmage, Cultist, Venomancer, Tinker and Felsworn. A PUBLIC BUG TEST REALM, not a live server: its own about page says it exists purely to help find and fix bugs before changes ship, that accounts, characters and progress can be wiped or reset at any time without notice, and that it is not a permanent or live server. Realmlist logon.coa-development.org, launcher 0.6.9 at 158 MB for Windows, account creation gated by Cloudflare Turnstile. Live feed read October 1 2026, updated every minute straight from the game server with bots and GMs excluded: 27 to 29 players online across three readings, 2,442 characters created, 32 guilds, 22 classes to play, level spread 11 in levels 1-14, 11 in 15-29, 4 in 30-44, 0 in 45-59 and 3 at 60. Publishes dated detailed changelogs with GitHub issue numbers: the Sep 30 2026 entry covers Bloodmage Blood Shards, resting at inns, a large restoration of custom questing into every starting zone, per-class trainers, rideable road caravans, a CoA Forge in-game world editor and a quest-content validator; the Sep 29 entry restores 86 templateless vanity cosmetics. Note the stated class count is 22 where the dead realm's entry said 21 times 3 specs",
+    "tag": "Vanilla+",
+    "popTier": "unknown",
+    "url": "https://coa-development.org/",
+    "updated": "2026-10-01"
+  },
+  {
+    "name": "Torment",
+    "status": "dev",
+    "details": "WoW 3.3.5a (build 12340) rebuilt as a full Diablo III action RPG: Diablo III stats, damage and mitigation, Loot 2.0 with ground loot and unidentified legendaries, Nephalem Rifts with guardians, account-wide Paragon and stash, Blacksmith/Mystic/Jeweler, Normal through Torment VI, and a level 70 start. Four realms planned: Nephalem (Normal, OPEN), Horadrim (Hardcore), Seraphim (Seasonal) and Pandemonium (Seasonal hardcore), the last three not open yet. The site says outright it is a FULL REWRITE: combat, classes, abilities, loot, inventory and the whole interface are custom, so addons from other servers may not work and only the addons Torment ships are confirmed working. Open ALPHA as of Sep 30 2026, characters wiped before official launch. Author Calmoran. Patch 42 on Sep 29 added the Wizard, ported from the mage, with Arcane Power runes; the Barbarian is ported from the Warrior. The Phase Alpha post asks testers to log in as mage or warrior, start at level 70 with 200 Paragon and starter gear, and states that only regular Nephalem rifts are open, the blacksmith is not ready and should be used for repairs and salvaging only, and the jeweler does gems. Guild-led testing: a Discord-gated Bounty Board where a claimed task locks for one hour and reports go to #bounty-submit. The roadmap has no dates at all: 'Each phase ships when it plays right.' Realm feed read 1 playing and Discord 5 online of 6 members on October 1 2026, so any population claim here is provisional. PvE, parties of four, account-bound trading",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://wow-torment.com/",
+    "updated": "2026-10-01"
+  }
+
 ]
