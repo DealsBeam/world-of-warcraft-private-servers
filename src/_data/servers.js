@@ -414,11 +414,12 @@ module.exports = [
     {
         "name": "Incursion-WoW",
         "status": "playable",
-        "details": "Instant-60 Vanilla->WotLK progressive, reworked MC/Onyxia and endgame dungeons, 500+ rebalanced items, Mythic+ and PvP/guild ranking ladders, armory, voting store",
+        "details": "Site located and verified October 1 2026, which closes a week of the entry being rated playable with no url at all. Its own wording matches what we had: 'Incursion is an instant level 60 PvPvE progressive Vanilla to WotLK experience built around reimagining Vanilla World of Warcraft with modern systems.' Confirmed first-party: instant level 60, Vanilla through WotLK progressive, Mythic+ ranking, PvP leaderboards, guild ranking, an armory, and a voting store. Site copyright 2026, latest post dated 2026/03/21 by MIDNA, and no other dated content, so the news section is three quarters quiet. popTier left tiny: nothing on the site publishes a concurrent figure",
         "tag": "Vanilla+",
         "group": "",
-        "updated": "2026-09-19",
-        "popTier": "tiny"
+        "updated": "2026-10-01",
+        "url": "https://incursion-wow.com/",
+      "popTier": "tiny"
     },
     {
         "name": "Project Astral",
@@ -463,11 +464,12 @@ module.exports = [
     {
         "name": "Eternyum",
         "status": "playable",
-        "details": "Progressive WotLK 3.3.5a, Romanian",
+        "details": "Site located October 1 2026 at eternyum.ro, Romanian-language, and it is a full site with a live realm feed, so the entry moves from an unsourced playable/tiny to a measured medium. Its own dashboard read ONLINE 462 players and PEAK ASTAZI 481, UPTIME 6H 0M, faction balance 50/50, XP RATE X10, with a double-XP window counting down 1d 6h 59m and Brewfest live ending in 4d 6h 59m. Auction house shows 270 listings, 184 on sale, 300,939g. A voting site leads the week with 66 votes and a reset in 3d 6h 59m, and the top reward is 10 VP plus 600g, which is a useful read on how the vote economy is scaled. Dated news is current: lotteries on 2026-09-20 and twice on 2026-09-27, with a Wooly White Rhino mount draw on 04.10.2026 at 20:00. IMPORTANT: eternyum.com is NOT the project's address, it is a domain for sale reading 'Eternyum.com is for sale - Premium Domain'. Anyone searching the name will land there",
         "tag": "WotLK",
         "group": "",
-        "updated": "2026-08-25",
-        "popTier": "tiny"
+        "updated": "2026-10-01",
+        "url": "https://eternyum.ro/",
+      "popTier": "medium"
     },
     {
         "name": "Hellgarve",
@@ -794,11 +796,12 @@ module.exports = [
 {
         "name": "Warlords of Azeroth",
         "status": "playable",
-        "details": "Blizzlike Vanilla 1.12.1 PvP, cross-faction BGs; site unreachable Sep 2026, status under review",
+        "details": "CORRECTED Oct 1: our entry said the site was unreachable and the status was under review. It is live, at warlords-of-azeroth.com, and it is running a specific and unusual ruleset worth naming. Vanilla-era, level 60 cap, no Death Knights, NO FACTIONS: Horde and Alliance group, guild, trade and talk together, and everyone is flagged for PvP everywhere outside sanctuaries. A three-tier territory system tells you which risk you are standing in, coloured, every time you cross a border: Safe drops nothing and PvP cannot start, Dangerous drops carried gold but keeps gear, Highly Dangerous drops gold AND gear into a chest your killer can loot, covering Stranglethorn, the Plaguelands, Burning Steppes, Winterspring, Silithus and more. It states there is no cash shop and no donor perks. PvP gear is crafted rather than earned: blacksmiths, leatherworkers and tailtails make Field Marshal sets, one per class, each piece needing materials from nine trades so armies are supplied by crafters who never fight, with no honour grind and no quartermaster. Guilds hold territory by capturing points in the deadliest zones. Realmlist logon.warlords-of-azeroth.com, launcher and account creation offered. popTier left unknown because the site publishes no population figure",
         "tag": "Vanilla",
         "group": "",
-        "updated": "2026-09-23",
-        "popTier": "tiny"
+        "updated": "2026-10-01",
+        "url": "https://warlords-of-azeroth.com/",
+      "popTier": "unknown"
     },
     {
         "name": "LunaticPTR",
@@ -1082,11 +1085,12 @@ module.exports = [
     {
         "name": "TranscendWoW",
         "status": "playable",
-        "details": "WotLK 3.3.5a high-stats fun realm, cross-faction, custom content, ~285 Discord online",
+        "details": "Site located October 1 2026 at transcend-wow.com, so this entry is no longer rated on a Discord count alone. The site describes Transcend-WoW as a Fun 255 Server, which matches the high-stats fun realm we had recorded, on realm DAGGERSPINE with a live Server Status widget reading Online. It advertises custom classes and races, exclusive content with hand-designed spells and custom items, played-time rewards, V.I.P. ranks, and PvE plus PvP events with seasonal challenges and world boss hunts. Newest news is dated 13.07.2026, a Mid-Summer Sale at 30% off, which puts the content roughly eleven weeks stale. popTier left unknown rather than carrying the earlier ~285 Discord estimate as if it were a population reading",
         "tag": "WotLK",
         "group": "",
-        "updated": "2026-08-24",
-        "popTier": "tiny"
+        "updated": "2026-10-01",
+        "url": "https://transcend-wow.com/",
+      "popTier": "unknown"
     },
     {
         "name": "WowSulvus",
