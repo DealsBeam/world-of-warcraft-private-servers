@@ -718,20 +718,20 @@ module.exports = [
     {
         "name": "Feenix",
         "status": "playable",
-        "details": "Progressive Vanilla x6 blizzlike, launched Mar 2025; site unreachable Sep 2026, third-party hub lists offline, shutdown unconfirmed",
+        "details": "Progressive Vanilla x6 blizzlike, launched March 2025. UNVERIFIABLE since September 2026 and downgraded Oct 2. Our earlier note said the site was unreachable, a third-party hub listed it offline, and a shutdown was reported but unconfirmed. On October 2 2026 we probed feenixwow.com, feenix-wow.com, feenixwow.net, feenix-wow.net, feenixwow.gg, feenix-wow.gg and feenix.ro and none resolve. We are not upgrading the unconfirmed shutdown report to a confirmed one, and we are not calling it dead. Corrected Oct 2: popTier tiny to unknown, so the entry no longer implies a live population we cannot measure",
         "tag": "Vanilla",
         "group": "",
-        "updated": "2026-09-23",
-        "popTier": "tiny"
+        "updated": "2026-10-02",
+        "popTier": "unknown"
     },
     {
         "name": "Galaxyofdrone WoW",
         "status": "playable",
-        "details": "WotLK+ with PlayerBots (40 bots), solo-friendly, x5 rates, pop 0-100",
+        "details": "WotLK+ with PlayerBots, solo-friendly, x5 rates, previously rated small on an estimated 0 to 100 population. UNVERIFIABLE and downgraded Oct 2. No website located: galaxyofdrone.com, galaxyofdrone.net, galaxyofdronewow.com, galaxyofdrone.gg and galaxy-of-drone.com were all probed on October 2 2026 and none resolve. Not calling it dead. Corrected Oct 2: popTier small to unknown. Separately, the bot count and the 0 to 100 estimate were both derived from a source we can no longer identify, and an estimate is not a reading",
         "tag": "WotLK",
         "group": "",
-        "updated": "2026-09-23",
-        "popTier": "small"
+        "updated": "2026-10-02",
+        "popTier": "unknown"
     },
     {
         "name": "GryffinWow",
@@ -787,11 +787,11 @@ module.exports = [
     {
         "name": "True Azeroth",
         "status": "playable",
-        "details": "Fresh Vanilla x1 blizzlike PvP, launched Jul 2025, community-driven, pop 0-50; site unreachable Sep 2026, C&D shutdown reported but unconfirmed",
+        "details": "Fresh Vanilla x1 blizzlike PvP, launched July 2025, community-driven. UNVERIFIABLE since September 2026 and downgraded Oct 2. A C&D shutdown was reported in September but we never confirmed it and we are still not calling it dead on an unconfirmed report. On October 2 2026 we probed trueazeroth.com, true-azeroth.com, trueazeroth.net, trueazeroth.gg, true-azeroth.gg and trueazeroth.co and none resolve. Corrected Oct 2: popTier tiny to unknown, so a server we cannot reach no longer carries a population band",
         "tag": "Vanilla",
         "group": "",
-        "updated": "2026-09-23",
-        "popTier": "tiny"
+        "updated": "2026-10-02",
+        "popTier": "unknown"
     },
 {
         "name": "Warlords of Azeroth",
@@ -916,11 +916,11 @@ module.exports = [
     {
         "name": "Atlantiss",
         "status": "playable",
-        "details": "Cata 4.3.4 flagship of the Tauri/Atlantiss network relaunch Feb 2026, also MoP 5.4.8 and TBC 2.4.3 realms, ~1.2k Discord online; atlantiss.org DNS lapsed May 2026, community active on Discord",
+        "details": "UNVERIFIABLE and DOWNGRADED Oct 2. We could not locate a live website for this project. What we know is historical and was first-party at the time: it was the Cataclysm 4.3.4 flagship of the Tauri/Atlantiss network, relaunched February 2026, also running MoP 5.4.8 and TBC 2.4.3 realms, with about 1.2k Discord online at the time. It has since lost BOTH of its addresses. atlantiss.org stopped resolving around May 2026, and atlantiss.com now serves a domain-for-sale page reading 'Click here to Buy atlantiss.com as your website name' with a sales phone number. On October 2 2026 we probed 11 further candidates: atlantiss.net returns HTTP 403, so a host exists there but refuses automated requests, and .gg, .io, .tk, .ga, .cf, .es, .fr, atlantis-wow.com and atlantiss-wow.net do not resolve. Search engines blocked our automated queries so we could not check an index. We are NOT calling it dead, because a server with no website is not a shut-down server and the Discord may be alive. But it was rated playable and small on a Discord count now months unverified, and that rating had no source behind it. Corrected Oct 2: popTier small to unknown, liveness explicitly unverified",
         "tag": "Cataclysm",
         "group": "",
-        "updated": "2026-09-23",
-        "popTier": "small"
+        "updated": "2026-10-02",
+        "popTier": "unknown"
     },
     {
         "name": "WoW-Mania",
@@ -1025,11 +1025,11 @@ module.exports = [
     {
         "name": "ThoriumWoW",
         "status": "playable",
-        "details": "Long-running custom WotLK 3.3.5a fun server, ~105 Discord online",
+        "details": "UNVERIFIABLE and DOWNGRADED Oct 2. A long-running custom WotLK 3.3.5a fun server, previously rated playable/small on a figure of about 105 Discord online that we can no longer check. No website could be found. On October 2 2026 we probed thoriumwow.com, thorium-wow.com, thoriumwow.net, thorium-wow.net, thoriumwow.gg, thorium-wow.gg, thoriumwow.io and thorium-wow.io and none of them resolve. Not calling it dead, because a server without a website is not a shut-down server. Corrected Oct 2: popTier small to unknown, because a Discord member count from an unknown date is not a population reading and there is no way to refresh it",
         "tag": "WotLK",
         "group": "",
-        "updated": "2026-08-24",
-        "popTier": "small"
+        "updated": "2026-10-02",
+        "popTier": "unknown"
     },
     {
         "name": "Elysium Project",
@@ -1186,11 +1186,11 @@ module.exports = [
     {
         "name": "Dragonborn WoW",
         "status": "playable",
-        "details": "Dragonflight, launched Feb 2026, estimated 100-500 pop, active updates",
+        "details": "UNVERIFIABLE and DOWNGRADED Oct 2. A Dragonflight private server launched February 2026, previously rated playable/tiny on an estimated 100 to 500 population we can no longer check. No website located: dragonbornwow.com, dragonborn-wow.com, dragonbornwow.net, dragonbornwow.gg, dragonborn-wow.gg and dragonbornwow.io were all probed on October 2 2026 and none resolve. Not calling it dead. Corrected Oct 2: popTier tiny to unknown, because the figure was always an estimate and is now unverifiable, and tiny would imply a reading we do not have",
         "tag": "TWW",
         "group": "",
-        "updated": "2026-09-23",
-        "popTier": "tiny"
+        "updated": "2026-10-02",
+        "popTier": "unknown"
     },
     {
         "name": "Luntares",

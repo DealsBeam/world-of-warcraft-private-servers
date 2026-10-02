@@ -380,3 +380,23 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
         `dead entries publishing a site link in the API: ${badUrl.map(s => s.name).join(", ")}`);
     console.log(`OK: dead entries publish a dated shutdown and a reason (${dead.length} checked)`);
 }
+
+// A population band is a claim that people are there. If we cannot name a
+// source for it, we cannot refresh it, and a band that cannot be refreshed is
+// worse than no band: it reads as measured. Six entries were carrying
+// tiny/small on Discord counts or old estimates with no locatable site.
+{
+    const rated = SERVERS.filter(s => s.status !== "dead" && s.popTier && s.popTier !== "unknown");
+    const unsourceable = rated.filter(s => {
+        // An entry with no url AND no first-party figure is unsourceable, unless
+        // it says so explicitly and carries no band.
+        if (s.url) return false;
+        return !/UNVERIFIABLE|NOT the dead|live counter|reading is/i.test(s.details || "");
+    });
+    assert.strictEqual(unsourceable.length, 0,
+        `rated popTier with no url and no stated basis: ${unsourceable.map(s => s.name).join(", ")}`);
+    const noUrlRated = SERVERS.filter(s => s.status !== "dead" && !s.url && s.popTier && s.popTier !== "unknown");
+    assert.strictEqual(noUrlRated.length, 0,
+        `rated popTier on an entry with no url: ${noUrlRated.map(s => `${s.name} (${s.popTier})`).join(", ")}`);
+    console.log(`OK: no population band rests on a source we cannot name (${rated.length} rated, ${noUrlRated.length} offenders)`);
+}
