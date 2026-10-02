@@ -115,7 +115,7 @@ module.exports = [
     {
         "name": "Conquest of Azeroth",
         "status": "dead",
-        "details": "21 custom lore-derived classes ×3 specs (Alpha) — shut down Sep 4, 2026 as part of Ascension network (Blizzard C&D)",
+        "details": "21 custom lore-derived classes ×3 specs (Alpha) — shut down Sep 4, 2026 as part of Ascension network (Blizzard C&D). Do not confuse this with either of the other two Conquest projects we track: Conquest of AzerothCore, the live open-source continuation on the AzerothCore core, and Conquest Reborn, an independent non-commercial 3.3.5a realm. All three are separate projects and this is the only one that is shut",
         "tag": "Vanilla+",
         "group": "Ascension",
         "popTier": "unknown",
@@ -1467,6 +1467,14 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://wow-torment.com/",
     "updated": "2026-10-01"
+  },
+  {
+    "name": "Conquest Reborn",
+    "status": "dev",
+    "details": "THIRD Conquest-named project we track, and a different one from each of the others. Conquest of Azeroth was the Ascension network realm shut down Sep 4 2026 after a Blizzard C&D. Conquest of AzerothCore is the live open-source continuation on the AzerothCore core running 22 classes at a public bug-test realm. This is neither: a separate, independent, non-commercial WotLK 3.3.5a realm with its own class roster and a node-based progression system. The site says 'Free, nothing sold, run by the handful of people who play on it' and 'A free, non-commercial fan realm'. CLOSED TESTING, not open: its own text says 'The realm is in closed testing and in active development, make an account and ask us on Discord what is working before you install anything'. Not a reskin roster: the site states 'Not reskins. Whole classes with their own resources, their own trees and their own way of fighting, none of them a stock class with a new name on it.' FORGING is the progression system and the part that cannot be done on stock 3.3.5a: every class opens into its own web of nodes with a shared core plus deeper branches, paid from a point budget that grows as you level, with 'Thousands of nodes, each with a real cost, a rank and prerequisites', and the committed build is saved on the realm. The site also states plainly that the full class list is only on the character-creation screen, so we are not publishing a roster count. Dated: 2026-09-06 the launcher, 2026-09-08 'Forging is live', 2026-09-09 'The realm is online, closed testing starts now', 2026-09-10 'Closed testing begins', 2026-09-30 a Privacy Policy update covering new Conquest Logs and Meta statistics pages. Realm status JSON at /status/ read online true with 7 to 8 players on October 2 2026. The 2026-09-30 privacy post is the most candid thing in this coverage and is worth a reader's attention: per-run performance records visible to any signed-in player, a per-character hide switch, a 14-day rotating access log, nightly database backups kept about two weeks, password-reset links written to a file when email fails, account deletion removing characters from logs and developer copies, and deleted characters kept 30 days then erased. Launcher is unsigned by choice, with a published SHA-256 (ddad89dc9bcd2d9536f8fabf7826f0aa708a7f9f0f0c74b1f80bad6c2438720c) and the stated reason a certificate costs a few hundred a year and the project charges nothing. Requires an account to download, so we did not obtain it and did not run it. popTier left unknown: the status feed publishes 7 to 8, which is a figure but too small to band",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://conquestreborn.com/",
+    "updated": "2026-10-02"
   }
-
 ]
