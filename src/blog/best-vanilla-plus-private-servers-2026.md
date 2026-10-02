@@ -28,7 +28,7 @@ Not everything traces to Turtle. Independent foundations:
 - **[SandWorlds](/servers/sandworlds/)** — Brazilian Vanilla+ on 1.17.2, cross-faction, 13 custom zones, class reworks.
 - **[Project Legacy](/servers/project-legacy/)** — VMaNGOS, 150+ new quests, cross-faction, dual spec, Prestige/Lorewalker.
 - **[Incursion-WoW](/servers/incursion-wow/)** — instant-60 Vanilla→WotLK progressive, reworked MC/Onyxia, 500+ rebalanced items.
-- **[Vanilla+](/servers/vanilla/)** — the PvP realm that named the category.
+- **[Vanilla Plus](/servers/vanilla-plus/)** — the PvP realm that named the category.
 
 ## The Ascension side
 

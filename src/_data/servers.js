@@ -252,14 +252,14 @@ module.exports = [
         "updated": "2026-09-29"
     },
     {
-        "name": "Vanilla+",
+        "name": "Vanilla Plus",
         "status": "playable",
-        "details": "Custom-talent Vanilla+ PvP since 2023, rebalanced classes, reworked dungeons/bosses/BGs, weekly raids, ~60-80 weekdays peaking ~200 weekends",
+        "details": "Custom-talent Vanilla+ PvP project that dates itself to 2023, with rebalanced classes, reworked dungeons, bosses and battlegrounds, and weekly raids. DOWNGRADED Oct 2: our entry claimed roughly 60 to 80 players on weekdays peaking near 200 on weekends, and the site's own counters on October 2 read 0 accounts created, 0 players online and 0/0 Alliance/Horde. We could not tell whether that means the realm is empty or whether the counters are broken: over plain HTTP the three figures render as literal placeholders, and in a browser the numbers did not populate either. Rather than repeat a population claim we cannot source and cannot contradict with a working reading, the tier is now unknown. Everything else on the page is confirmed first-party and is unchanged: a launcher, a manual patch for the Data folder, the realmlist set realmlist logon.vanillaplus.org, a wiki, a class-changes page, a talent calculator, a bug tracker and a rewards page. The site's own description is 'new challenges, discarded features, community-driven development based on suggestions from veteran players and freshmen alike'. Needs a human eye in a browser with the counters loaded before the tier is restored",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://vanillaplus.org/",
-        "updated": "2026-08-25",
-        "popTier": "small"
+        "updated": "2026-10-02",
+        "popTier": "unknown"
     },
     {
         "name": "Triumvirate-WoW",
@@ -995,11 +995,11 @@ module.exports = [
     {
         "name": "Stonetavern",
         "status": "playable",
-        "details": "Two realms: Elwynn permanent Vanilla 1.12 PvE x1 (raid-gated) + Barrens progressive Classic→TBC→WotLK (cap 40, stage 1.5), no shop, cross-faction, 827 Discord, small pop split across both",
+        "details": "Two free non-commercial Vanilla realms, EU-hosted, one account works on both and moving a character between them is done by hand on request rather than automatically. ELWYNN is the museum realm: unaltered Vanilla 1.12.1 at the final content patch, opened JUNE 2026, never wiped, x1 rates, level cap 60, no XP boost, no quality-of-life automation and NO dungeon finder, one shared world with no layering or instanced overworld. Its one deliberate departure from 2006 is that Horde and Alliance share chat, groups and dungeons, which the site states plainly as the exception. BARRENS is the progressive realm, opened JULY 2026, currently content stage 1.5 at LEVEL CAP 50, climbing Classic then TBC then Wrath with the whole server crossing each gate on the same day. Barrens changes are PUT TO A VOTE and the first round decided three that are live: a respec costs one gold, you can learn a third profession, and guilds can take both factions. It alternates between peace and open-world war every three days, and a warden NPC at each open dungeon supplies a tank, healer or caster, with Warsong Gulch filled by server characters when players are short. No shop on either realm and no plan to add one, donations cover the bill and buy nothing, and the rules are explicitly not to move to keep people playing. Confirmed first-party Oct 2: 880 Discord members (up from the 827 we recorded Sep 11), 145 changes on record with the latest dated Oct 1 2026, and a NEXT GATE on Friday October 23 at 18:00 Vienna time, 16:00 UTC. Publishes a free 51-addon shelf for the 1.14.2 client and also hosts addons for 1.12.1. The site markets itself explicitly as a Turtle WoW alternative and as a WoW Forever alternative, and its own FAQ page concedes the cross-faction exception. popTier stays tiny and is now sourced to the published Discord figure rather than a stale one",
         "tag": "Vanilla",
         "group": "",
         "url": "https://stonetavern.app/",
-        "updated": "2026-09-11",
+        "updated": "2026-10-02",
         "popTier": "tiny"
     },
     {
@@ -1065,11 +1065,11 @@ module.exports = [
     {
         "name": "UnlimitedWoW",
         "status": "playable",
-        "details": "WotLK 3.3.5a custom funserver, instant lvl 255, custom Tier 1-15 gear ladder, Season 11, ~720 Discord online",
+        "details": "WotLK 3.3.5a custom funserver, instant level 255, with its own Tier 1-16 ladder. CORRECTED Oct 2: our entry said Season 11, and the site's own seasonal PvP ladder reads Season 17, so we were six seasons stale. The ladder is live with a published kill table topped by Emersa on 442 kills. Content state per its own changelog: Tier 16 Secrets of Ulduar is LIVE, a solo raid of 5 bosses announced 18 Mar 2026 and released 27 Mar 2026, with four new world bosses (Ignis the Furnace Master, Auriaya, General Vezax, Algalon the Observer), two of them placed in PvP zones, a new Ruins of Alterac area with PvP enabled, daily quest NPCs split into World Boss, Raid and Solo categories, daily rewards moved from T15.5 to Ironsoul Medallions plus T16.5, and a new Icecrown Medallion Exchange. Donor and VIP gear is stat-boosted on every tier release, which is worth a reader knowing before assuming this is a no-shop server. popTier left small on the basis of the site's own active ladder rather than the old Discord count",
         "tag": "WotLK",
         "group": "",
         "url": "https://unlimited-wow.com/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-02",
         "popTier": "small"
     },
     {

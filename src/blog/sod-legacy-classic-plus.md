@@ -27,7 +27,7 @@ Runes worked best. They gave each class a second way to play in place.
 
 No second client was needed. No second spec screen was needed either.
 
-Private Vanilla+ ships the same idea as talents on [Vanilla+](/servers/vanilla/).
+Private Vanilla+ ships the same idea as talents on [Vanilla Plus](/servers/vanilla-plus/).
 
 [Project Legacy](/servers/project-legacy/) ships reworked talents plus dual spec.
 

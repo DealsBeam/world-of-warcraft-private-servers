@@ -9,7 +9,9 @@
     { "source": "/blog/chromiecraft-guide/", "destination": "/blog/chromiecraft-deep-dive/", "permanent": true },
     { "source": "/blog/chromiecraft-guide", "destination": "/blog/chromiecraft-deep-dive/", "permanent": true },
     { "source": "/blog/old-man-warcraft-guide/", "destination": "/blog/old-man-warcraft-review/", "permanent": true },
-    { "source": "/blog/old-man-warcraft-guide", "destination": "/blog/old-man-warcraft-review/", "permanent": true }
+    { "source": "/blog/old-man-warcraft-guide", "destination": "/blog/old-man-warcraft-review/", "permanent": true },
+    { "source": "/servers/vanilla/", "destination": "/servers/vanilla-plus/", "permanent": true },
+    { "source": "/servers/vanilla", "destination": "/servers/vanilla-plus/", "permanent": true }
   ],
   "headers": [
     {
