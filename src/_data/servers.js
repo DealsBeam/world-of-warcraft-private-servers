@@ -26,7 +26,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://eternalgaming.site/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -177,7 +177,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://www.chromiecraft.com/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "large"
     },
     {
@@ -228,7 +228,7 @@ module.exports = [
         "tag": "Legion",
         "group": "",
         "url": "https://tauriwow.com",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -385,11 +385,11 @@ module.exports = [
     {
         "name": "Emberveil",
         "status": "playable",
-        "details": "Vanilla UE5, opened Aug 15 2026; one-month report: 340+ bug reports closed, 97 client revisions (release 2237 to 2334), Dungeon Finder + Group Browser live, addon directory + Lua API docs, database browser + armory, launcher 1.9.6; Android closed beta signups open, invites pending",
+        "details": "Classic patch 1.12.1 running inside a fully functional Unreal Engine 5 client, which the site says was the thing people swore could not be done. Opened August 15 2026. Dated devlog, newest first: One Month on September 15 (340+ bug reports closed, 97 client revisions, a nine hour DDoS weathered, client on a phone); Mobile on September 5, with the client running on ANDROID on its own test realm and closed beta applications open, invites going out in waves and the first wave deliberately small; Addon Directory August 20, open for submissions with every one reviewed and the download always served from the same repository as the code; Lua API documentation August 19; launch party with Out Of Bounds Radio August 15; client download and character nickname reservations August 13; and a writing contest, Season 1 'Echoes of the Ashes', on August 6 whose winning entries become official lore and may inspire future quests. Also live: Dungeon Finder and Group Browser, a database browser, an armory, and launcher 1.9.6 per our earlier read. CORRECTED Oct 3: our entry said Android signups were open with invites pending, which was true on August 25 but understated it; the client now RUNS on Android and the site runs a mobile section and a mobile beta page. Nothing here is dated later than September 15, so the devlog itself is 18 days quiet",
         "tag": "Vanilla",
         "group": "",
         "url": "https://emberveil.org/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -458,7 +458,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://onlyfunswow.com/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -648,12 +648,12 @@ module.exports = [
     {
         "name": "Azeroth Universe",
         "status": "playable",
-        "details": "WotLK 3.3.9a, Cataclysm Azeroth + Pandaria content, max level 90, 31 races, custom classes, mythic+, Eluna Lua",
+        "details": "WotLK 3.3.9a with Cataclysm Azeroth and Pandaria content, max level 90, 31 races, custom classes, mythic+ and Eluna Lua. SITE DOWN as of October 3 2026: the host returns Cloudflare error 521, 'Web server is down', with the browser confirmed working and the host reported as Error, so this is the origin being unreachable rather than a block on us. We could verify nothing about the realm today, and the entry's features are last confirmed from our August 25 read. Corrected Oct 3: popTier tiny to unknown, because a population band on a server whose site is not returning a connection is a figure we cannot refresh or check",
         "tag": "WotLK",
         "group": "",
         "url": "https://azeroth-universe.eu/en",
-        "updated": "2026-08-25",
-        "popTier": "tiny"
+        "updated": "2026-10-03",
+        "popTier": "unknown"
     },
     {
         "name": "Azerotica",
@@ -662,7 +662,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://azerotica.net/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -820,7 +820,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://maelstrom.millenium-servers.com/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -929,7 +929,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://www.wow-mania.com/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -939,7 +939,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://www.thunderwow.com.ar/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -959,7 +959,7 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://nyctermoonwow.net/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -979,7 +979,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://truewow.org/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -1009,7 +1009,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://amber-wow.com/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -1038,7 +1038,7 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://elysium-project.org/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -1048,7 +1048,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://ultimowow.com/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -1079,7 +1079,7 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://solocraft.org/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -1099,7 +1099,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://web.wowsulvus.com/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -1119,7 +1119,7 @@ module.exports = [
         "tag": "Cataclysm",
         "group": "",
         "url": "https://warsages.com/",
-        "updated": "2026-08-24",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -1129,7 +1129,7 @@ module.exports = [
         "tag": "Vanilla",
         "group": "",
         "url": "https://retro-wow.org/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -1139,7 +1139,7 @@ module.exports = [
         "tag": "TBC",
         "group": "",
         "url": "https://bloodwow.com/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -1149,7 +1149,7 @@ module.exports = [
         "tag": "TBC",
         "group": "",
         "url": "https://tirisgarde.org/news",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -1159,7 +1159,7 @@ module.exports = [
         "tag": "Legion",
         "group": "",
         "url": "https://legionplus.biz/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
@@ -1180,7 +1180,7 @@ module.exports = [
         "tag": "Legion",
         "group": "",
         "url": "https://felsong.gg/en/",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -1199,7 +1199,7 @@ module.exports = [
         "tag": "TWW",
         "group": "",
         "url": "https://luntares.com/en",
-        "updated": "2026-08-25",
+        "updated": "2026-10-03",
         "popTier": "unknown"
     },
     {
