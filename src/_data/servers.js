@@ -148,10 +148,11 @@ module.exports = [
     {
         "name": "Revelation WoW",
         "status": "dev",
-        "details": "Beta Stage / In Development",
-        "tag": "Vanilla+",
+        "details": "UNVERIFIABLE as of Oct 3 2026: no first-party source is locatable for this project. It carries no URL, and 12 guessed domains across this batch resolved nothing while search engines blocked automated queries, so no address could be found to check. The 'Beta Stage / In Development' description is carried from the project's original listing without a source or a date, and the Vanilla+ tag is CLEARED because its provenance is the August 25 PopTier sweep that assigned it without citing a source, the same sweep that produced Epsilon's unfounded tag. Nothing here is verified; the entry exists so the project is not silently dropped",
+        "tag": "",
         "group": "",
-        "popTier": "unknown"
+        "popTier": "unknown",
+      "updated": "2026-10-03"
     },
     {
         "name": "Epsilon",
@@ -165,10 +166,11 @@ module.exports = [
     {
         "name": "Anarchy 2.0",
         "status": "dev",
-        "details": "Active Development",
-        "tag": "Vanilla+",
+        "details": "UNVERIFIABLE as of Oct 3 2026: no first-party source is locatable. Status and description carried forward from the original listing without a source or a date, and the Vanilla+ tag is CLEARED because its provenance is the August 25 PopTier sweep that assigned it without citing a source. Same evidence class as the Epsilon tag correction. Nothing here is verified",
+        "tag": "",
         "group": "",
-        "popTier": "unknown"
+        "popTier": "unknown",
+      "updated": "2026-10-03"
     },
     {
 "name": "Chromiecraft",
@@ -304,22 +306,22 @@ module.exports = [
     {
         "name": "Sirus",
         "status": "playable",
-        "details": "WotLK 3.3.5a, custom races/content, 6-13k online",
+        "details": "WotLK 3.3.5a with custom races and content, running since 2010. CORRECTED Oct 3: our entry said 6 to 13k online and the site's own counter read 18,468 on October 3 2026, so the figure is updated to the operator's own number, self-reported as all such counters are. Caveat in the other direction: the site's news feed is entirely 2017 to 2018 (Zul'Aman, Icecrown Citadel, rated battlegrounds, arena seasons), so a live counter sits beside an eight-year-dormant devlog. The page also names its operators as registered Kyrgyz companies in Bishkek, the same city as Moonwell's operator but a different entity. No independent measurement; the 18,468 is their widget, not ours",
         "tag": "WotLK",
         "group": "",
         "url": "https://sirus.su",
         "popTier": "large",
-        "updated": "2026-08-30"
+        "updated": "2026-10-03"
     },
     {
         "name": "WoW Circle",
         "status": "playable",
-        "details": "RU multi-expansion (TBC to Dragonflight), 13 realms",
+        "details": "Russian multi-expansion network, hardware stated as central Europe. CONFIRMED Oct 3: the site's own front page reads 22,558 total online with three player streams live, so the large rating holds on the operator's own figure. 13 realms as previously recorded and now enumerated first-party: TBC 2.4.3 x2, WotLK 3.3.5a x1, x100 and Fun, Cataclysm 4.3.4 x100 and Fun, MoP 5.4.8 x5, x100 and Fun, Legion 7.3.5 x4, BFA 8.3.7 x11, Shadowlands 9.2.7 x5. Supported clients run 2.4.3 through 9.2.7. The news and staff articles on the page are dated 2013, so the editorial content is archival while the counters are live. Self-reported throughout",
         "tag": "Multi",
         "group": "",
         "url": "https://wowcircle.net",
         "popTier": "large",
-        "updated": "2026-08-30"
+        "updated": "2026-10-03"
     },
     {
         "name": "Helios",
@@ -434,12 +436,12 @@ module.exports = [
     {
         "name": "Elwynnkeep",
         "status": "playable",
-        "details": "Blizzlike WotLK 3.3.5a on AzerothCore, no custom content, 1x, no shop, no P2W, weekly upstream sync, solo dev, 0 online",
+        "details": "UNVERIFIABLE and DOWNGRADED Oct 3. A blizzlike WotLK 3.3.5a realm on AzerothCore with no custom content, 1x rates, no shop and no pay-to-win, weekly upstream sync, run by a solo developer, previously estimated at 0 online. No website could be located: www.elwynnkeep.com, elwynnkeep.org, elwynnkeep.net, elwynn-keep.com and elwynnkeep.gg were all probed on October 3 2026 and none resolve. Not calling it dead. Corrected Oct 3: popTier tiny to unknown, because the 0-online reading cannot be refreshed and a band implies a measurement we no longer have",
         "tag": "WotLK",
         "group": "",
         "url": "https://www.elwynnkeep.com/",
-        "updated": "2026-08-31",
-        "popTier": "tiny"
+        "updated": "2026-10-03",
+        "popTier": "unknown"
     },
     {
         "name": "Centurion",
@@ -525,26 +527,29 @@ module.exports = [
     {
         "name": "Azeroth at War",
         "status": "dev",
-        "details": "Expected 2026",
+        "details": "UNVERIFIABLE as of Oct 3 2026: no first-party source is locatable, and the 'Expected 2026' description is carried without a source or a date. With three months left in the year that expectation is unconfirmed, not wrong. Tag left as listed for lack of evidence either way. Nothing here is verified; dated today so the queue can see the attempt was made",
         "tag": "WotLK",
         "group": "",
-        "popTier": "unknown"
+        "popTier": "unknown",
+      "updated": "2026-10-03"
     },
     {
         "name": "Hour of Twilight",
         "status": "dev",
-        "details": "Expected 2026",
+        "details": "UNVERIFIABLE as of Oct 3 2026: no first-party source is locatable, and the 'Expected 2026' description is carried without a source or a date. Tag left as listed for lack of evidence either way. Nothing here is verified; dated today so the queue can see the attempt was made",
         "tag": "Cataclysm",
         "group": "",
-        "popTier": "unknown"
+        "popTier": "unknown",
+      "updated": "2026-10-03"
     },
     {
         "name": "Prophecy: Fall of Lordaeron",
         "status": "dev",
-        "details": "Launch Date TBD",
+        "details": "UNVERIFIABLE as of Oct 3 2026: no first-party source is locatable, and the 'Launch Date TBD' description is carried without a source or a date. Tag left as listed for lack of evidence either way. Nothing here is verified; dated today so the queue can see the attempt was made",
         "tag": "Vanilla+",
         "group": "",
-        "popTier": "unknown"
+        "popTier": "unknown",
+      "updated": "2026-10-03"
     },
     {
         "name": "WarCrown",
@@ -559,10 +564,11 @@ module.exports = [
     {
         "name": "Warsworn",
         "status": "dev",
-        "details": "WoW MOBA Concept (Launch TBD)",
+        "details": "UNVERIFIABLE as of Oct 3 2026: no first-party source is locatable, and the 'WoW MOBA Concept (Launch TBD)' description is carried without a source or a date. Tag left as listed for lack of evidence either way. Nothing here is verified; dated today so the queue can see the attempt was made",
         "tag": "MOBA",
         "group": "",
-        "popTier": "unknown"
+        "popTier": "unknown",
+      "updated": "2026-10-03"
     },
     {
         "name": "Rivals Beyond",
@@ -678,41 +684,41 @@ module.exports = [
     {
         "name": "Dalaran-WoW",
         "status": "playable",
-        "details": "12-year veteran WotLK 3.3.5a, x1 progressive, pre-nerf encounters, pop 100-200",
+        "details": "12-year veteran WotLK 3.3.5a, x1 progressive, pre-nerf encounters, pop 100-200 per our earlier reading. NOTE Oct 3: the site returns HTTP 503, 'Serveur Dedibox en maintenance', a maintenance page rather than content. That is distinct from a dead host: a maintenance message is something an operator configures, so the project shows signs of administration even though nothing about the realm could be verified today. The tier and the veteran description are carried from our August 30 read, flagged as unrefreshed",
         "tag": "WotLK",
         "group": "",
         "url": "https://dalaran-wow.com/",
-        "updated": "2026-08-30",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
         "name": "Rising Gods - Back2Basics",
         "status": "playable",
-        "details": "18-year German TBC, unique PvX system, pop 70-100",
+        "details": "German TBC 2.4.3 server integrated with rising-gods.de as its TBC realm, T6 PvE endcontent, Arena Season 4 PvP, three accounts per player allowed. CONFIRMED Oct 3: the Season 4 arena label and the T6 endcontent line both still read on the live site, and the published realmlist is set realmlist logon.back2basics-wow.eu. The 70-100 population figure is carried from our August 30 read; no counter was visible in this read",
         "tag": "TBC",
         "group": "",
         "url": "https://back2basics-wow.eu/",
-        "updated": "2026-08-30",
+        "updated": "2026-10-03",
         "popTier": "small"
     },
     {
         "name": "Classic Plus - Ashbringer",
         "status": "playable",
-        "details": "SoD-style on 3.3.5a, lvl 25 cap, custom map Mythia, 277 runes, pop 0-100",
+        "details": "UNVERIFIABLE and DOWNGRADED Oct 3. SoD-style on 3.3.5a with a level 25 cap, a custom map called Mythia and 277 runes, previously rated playable/small on an estimated 0-100 population. We could not reach it at all: wow.classic-plus.com does not resolve, and the root classic-plus.com serves a GoDaddy for-sale parking page ('Access Denied' on the forsale host), so the domain itself appears to have lapsed rather than the server merely being down. Not calling it dead, because a lapsed domain is evidence of no website and not of a shutdown. Corrected Oct 3: popTier small to unknown, and the SoD description is last confirmed from our August 30 read",
         "tag": "WotLK",
         "group": "",
         "url": "https://wow.classic-plus.com/",
-        "updated": "2026-08-30",
-        "popTier": "small"
+        "updated": "2026-10-03",
+        "popTier": "unknown"
     },
     {
         "name": "Adventure WoW",
         "status": "playable",
-        "details": "Solo/casual AzerothCore WotLK, 2x talent pts, boosted QOL, pop 0-50",
+        "details": "Solo and casual AzerothCore WotLK 3.3.5a, fast low-friction design: double talent points plus additional gifted points, double quest and pet XP, three primary professions with double skill gain, experience and profession points sold by vendors, auto skill training, boosted loot/gold/rep, a stocked auction-house bot, and Lua-driven conveniences including cooldown resets on death, auto-vendoring trash, world buffs on level and Discord activity integration. CONFIRMED Oct 3: the double-talent and feature list still reads verbatim on the live site, and the published realmlist host is auth.warcraft.wabsite.games with account creation offered. The realm status widgets read Checking for both auth and world, so no live player count could be taken; the tiny band is carried from our earlier reading",
         "tag": "WotLK",
         "group": "",
         "url": "https://warcraft.wabsite.games/",
-        "updated": "2026-08-30",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
@@ -736,41 +742,41 @@ module.exports = [
     {
         "name": "GryffinWow",
         "status": "playable",
-        "details": "Fresh Vanilla x1 progressive, launched Apr 2025, good reviews, pop 0-10",
+        "details": "UNVERIFIABLE and DOWNGRADED Oct 3. A fresh Vanilla x1 progressive realm launched April 2025, previously rated playable/tiny on an estimated 0-10 population. Its domain now serves a parking page reading 'Find information, resources and relevant links for gryffinwow.com. This domain may be for sale', with terms and privacy links and a click-to-inquire prompt. That is a lapsed registration, not a server page. Not calling it dead, because a lapsed domain is evidence of no website and not of a shutdown, but a reader arriving at the address finds no project. Corrected Oct 3: popTier tiny to unknown, and the April 2025 launch description is last confirmed from our August 30 read",
         "tag": "Vanilla",
         "group": "",
         "url": "https://gryffinwow.com/",
-        "updated": "2026-08-30",
-        "popTier": "tiny"
+        "updated": "2026-10-03",
+        "popTier": "unknown"
     },
     {
         "name": "HellscreamWoW - Garrosh",
         "status": "playable",
-        "details": "WotLK custom heroic classic dungeons, scaled raids, x1-x3 rates, pop 30-50",
+        "details": "WotLK custom heroic classic dungeons with scaled raids at x1 to x3 rates, previously estimated 30-50 population. CONFIRMED Oct 3 with an important qualification the entry did not carry: the site's own front page says 'PLAY THE PRIVATE ALPHA PROJECT TODAY FOR FREE', so this is a self-described alpha in testing, not a finished realm, with signup offered. The 30-50 figure is carried from our August 30 read; no counter was visible. Copyright 2026 on the page",
         "tag": "WotLK",
         "group": "",
         "url": "https://hellscreamwow.com/",
-        "updated": "2026-08-30",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
         "name": "Origins WoW Asia",
         "status": "playable",
-        "details": "SEA-hosted (Singapore) Vanilla x1 progressive, launched 2025, pop 0-50",
+        "details": "Free Vanilla WoW for Asia and SEA, hosted in Singapore, progressing patch by patch from 1.2 to 1.12.1. CONFIRMED Oct 3: the realm status page reads Online, the published realmlist is set realmlist play.originswow.asia, and the newest dated news is 'Patch 1.7 is Live' on 2026-09-01, adding Arathi Basin, Zul'Gurub as a 20-player raid and the Stranglethorn Fishing Extravaganza. A dated patch five weeks old on a progressive realm is a healthy sign and is now recorded. The 0-50 figure is carried from our August 30 read; no counter was visible",
         "tag": "Vanilla",
         "group": "",
         "url": "https://originswow.asia/",
-        "updated": "2026-08-30",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
         "name": "Titans League",
         "status": "playable",
-        "details": "Unique WotLK lvl 19 twink server, all content scaled to 19, pop 10-30; RTG 2.0 relaunched toward blizzlike-29 with 19/29 hybrid content",
+        "details": "Unique WotLK level 19 twink server with all content scaled to 19, previously estimated 10-30 population. CONFIRMED Oct 3: the site states Active Development, its bugtracker is live, and the newest news is 'RTG Upgrade Looms' dated 31/07/2026, describing a Return to Glory development push with an in-game Scoreboard interface becoming the central menu for PvP, events, records, shops, transmog and guild info, and Nagrand being prepared for the first large-scale open-world faction conflict. The earlier 19/29 hybrid-content note is superseded by this RTG direction. The 10-30 figure is carried from our August 30 read; no counter was visible",
         "tag": "WotLK",
         "group": "",
         "url": "https://titans-league.org/",
-        "updated": "2026-08-30",
+        "updated": "2026-10-03",
         "popTier": "tiny"
     },
     {
