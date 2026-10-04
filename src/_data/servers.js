@@ -1482,5 +1482,14 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://conquestreborn.com/",
     "updated": "2026-10-02"
+  },
+  {
+    "name": "Reaper-WoW",
+    "status": "playable",
+    "details": "Custom high-rate WotLK funserver network, live and dated. TWO REALMS per its own status widget read October 4 2026: Reaper 255 Fun with 4 players online (4 Horde, 0 Alliance) and Age of Genesis (60) with 0 players. Published realmlist set realmlist logon.reaper-wow.com. The 255 realm runs a 1-20 tier ladder feeding straight into Mythic 0-9 as the endgame baseline, and CUSTOM DONOR GEAR sits above Mythic 9, which is a paid advantage above the endgame and is stated on their own release notes rather than hidden. The Genesis realm, announced September 13 2026 as requiring 0 patches with all changes in core C++, is an instant-level-60 twink PvP/PvE realm where progression is tied to Honorable Kills: 10 HK unlocks Rank 1 and a Blue PvP set, PvP Tokens come from HKs rather than killing blows so healers are rewarded, with cross-faction Warsong Gulch, PvP daily quests and an anti-graveyard system. Release 3.0 went live July 29 2026 at 12:00 Pacific with a rebuilt progression curve. STORE SELLS PROGRESS AND COSMETICS: an item shop with premium items, mounts and pets plus donation packages, currently promoted with a 10% off code REAPER10PCT. Live PvP leaderboard topped by Azzy, level 255 Warrior, on 306 kills. popTier tiny on the basis of the site's own 4-online reading, not on the 'thousands of players' marketing line, which the widget contradicts",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://reaper-wow.com/",
+    "updated": "2026-10-04"
   }
 ]
