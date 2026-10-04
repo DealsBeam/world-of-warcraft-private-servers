@@ -507,10 +507,10 @@ module.exports = [
     {
         "name": "Duskhaven",
         "status": "dev",
-        "details": "Vanilla+ project, launch date TBD. Re-checked September 28 2026: the site returns a Cloudflare JavaScript challenge to a plain request, so nothing about its status could be verified first-party. Stays dev, unverified",
+        "details": "Vanilla+ project on 3.3.5a at x1 rates, level-capped, no launch date announced. Also listed on a third-party hub as 'Duskhaven Reforged', which describes a closed PTR, no pay-to-win shop and Blizzlike+/Progressive tags; that listing points at this same duskhaven.net address, so it is the same project under a fuller name rather than a second server. Re-checked October 4 2026: the site still returns a Cloudflare JavaScript challenge to plain requests and to a real browser, so nothing about its status could be verified first-party. Stays dev, unverified",
         "tag": "Vanilla+",
         "group": "",
-        "updated": "2026-09-28",
+        "updated": "2026-10-04",
         "url": "https://duskhaven.net",
         "popTier": "unknown"
     },
@@ -536,11 +536,12 @@ module.exports = [
     {
         "name": "Hour of Twilight",
         "status": "dev",
-        "details": "UNVERIFIABLE as of Oct 3 2026: no first-party source is locatable, and the 'Expected 2026' description is carried without a source or a date. Tag left as listed for lack of evidence either way. Nothing here is verified; dated today so the queue can see the attempt was made",
+        "details": "UNVERIFIABLE as of Oct 4 2026, but now with an address: houroftwilight.net resolves and lands on the project's Discord invite, which read 5,291 members with 1,688 online at read time (their widget, self-reported). A third-party hub describes it as a custom ARPG-style project in development since 2021 with only time-limited alpha and beta tests, most recently April 2026, which is consistent with a Discord-first project but is their claim, not verified first-party. Tag left as listed for lack of evidence either way. Status stays dev",
         "tag": "Cataclysm",
         "group": "",
-        "popTier": "unknown",
-      "updated": "2026-10-03"
+        "url": "https://houroftwilight.net/",
+      "popTier": "unknown",
+      "updated": "2026-10-04"
     },
     {
         "name": "Prophecy: Fall of Lordaeron",
@@ -684,7 +685,7 @@ module.exports = [
     {
         "name": "Dalaran-WoW",
         "status": "playable",
-        "details": "12-year veteran WotLK 3.3.5a, x1 progressive, pre-nerf encounters, pop 100-200 per our earlier reading. NOTE Oct 3: the site returns HTTP 503, 'Serveur Dedibox en maintenance', a maintenance page rather than content. That is distinct from a dead host: a maintenance message is something an operator configures, so the project shows signs of administration even though nothing about the realm could be verified today. The tier and the veteran description are carried from our August 30 read, flagged as unrefreshed",
+        "details": "12-year veteran WotLK 3.3.5a, x1 progressive, pre-nerf encounters, pop 100-200 per our earlier reading. NOTE Oct 3: the site returns HTTP 503, 'Serveur Dedibox en maintenance', a maintenance page rather than content. That is distinct from a dead host: a maintenance message is something an operator configures, so the project shows signs of administration even though nothing about the realm could be verified today. The tier and the veteran description are carried from our August 30 read, flagged as unrefreshed A third-party hub lists Dalaran-WoW as closed (undated, online from 2013), which CONFLICTS with the administered 503 maintenance page we read October 3. Two sources disagree with neither dated, so the entry keeps its rating and records both: a hoster maintenance page on our side, their undated closed claim on theirs.",
         "tag": "WotLK",
         "group": "",
         "url": "https://dalaran-wow.com/",
@@ -704,7 +705,7 @@ module.exports = [
     {
         "name": "Classic Plus - Ashbringer",
         "status": "playable",
-        "details": "UNVERIFIABLE and DOWNGRADED Oct 3. SoD-style on 3.3.5a with a level 25 cap, a custom map called Mythia and 277 runes, previously rated playable/small on an estimated 0-100 population. We could not reach it at all: wow.classic-plus.com does not resolve, and the root classic-plus.com serves a GoDaddy for-sale parking page ('Access Denied' on the forsale host), so the domain itself appears to have lapsed rather than the server merely being down. Not calling it dead, because a lapsed domain is evidence of no website and not of a shutdown. Corrected Oct 3: popTier small to unknown, and the SoD description is last confirmed from our August 30 read",
+        "details": "UNVERIFIABLE and DOWNGRADED Oct 3. SoD-style on 3.3.5a with a level 25 cap, a custom map called Mythia and 277 runes, previously rated playable/small on an estimated 0-100 population. We could not reach it at all: wow.classic-plus.com does not resolve, and the root classic-plus.com serves a GoDaddy for-sale parking page ('Access Denied' on the forsale host), so the domain itself appears to have lapsed rather than the server merely being down. Not calling it dead, because a lapsed domain is evidence of no website and not of a shutdown. Corrected Oct 3: popTier small to unknown, and the SoD description is last confirmed from our August 30 read A third-party hub lists this project as closed (undated, online from April 2024), which converges with our lapsed-domain finding but supplies no date, so the entry stays playable/unknown rather than dead.",
         "tag": "WotLK",
         "group": "",
         "url": "https://wow.classic-plus.com/",
@@ -724,7 +725,7 @@ module.exports = [
     {
         "name": "Feenix",
         "status": "playable",
-        "details": "Progressive Vanilla x6 blizzlike, launched March 2025. UNVERIFIABLE since September 2026 and downgraded Oct 2. Our earlier note said the site was unreachable, a third-party hub listed it offline, and a shutdown was reported but unconfirmed. On October 2 2026 we probed feenixwow.com, feenix-wow.com, feenixwow.net, feenix-wow.net, feenixwow.gg, feenix-wow.gg and feenix.ro and none resolve. We are not upgrading the unconfirmed shutdown report to a confirmed one, and we are not calling it dead. Corrected Oct 2: popTier tiny to unknown, so the entry no longer implies a live population we cannot measure",
+        "details": "Progressive Vanilla x6 blizzlike, launched March 2025. UNVERIFIABLE since September 2026 and downgraded Oct 2. Our earlier note said the site was unreachable, a third-party hub listed it offline, and a shutdown was reported but unconfirmed. On October 2 2026 we probed feenixwow.com, feenix-wow.com, feenixwow.net, feenix-wow.net, feenixwow.gg, feenix-wow.gg and feenix.ro and none resolve. We are not upgrading the unconfirmed shutdown report to a confirmed one, and we are not calling it dead. Corrected Oct 2: popTier tiny to unknown, so the entry no longer implies a live population we cannot measure A third-party hub lists Feenix as closed (undated, online from March 2026, matching our recorded March 2025 launch window), converging with our seven dead domains but supplying no date, so the entry stays playable/unknown rather than dead.",
         "tag": "Vanilla",
         "group": "",
         "updated": "2026-10-02",
@@ -733,7 +734,7 @@ module.exports = [
     {
         "name": "Galaxyofdrone WoW",
         "status": "playable",
-        "details": "WotLK+ with PlayerBots, solo-friendly, x5 rates, previously rated small on an estimated 0 to 100 population. UNVERIFIABLE and downgraded Oct 2. No website located: galaxyofdrone.com, galaxyofdrone.net, galaxyofdronewow.com, galaxyofdrone.gg and galaxy-of-drone.com were all probed on October 2 2026 and none resolve. Not calling it dead. Corrected Oct 2: popTier small to unknown. Separately, the bot count and the 0 to 100 estimate were both derived from a source we can no longer identify, and an estimate is not a reading",
+        "details": "WotLK+ with PlayerBots, solo-friendly, x5 rates, previously rated small on an estimated 0 to 100 population. UNVERIFIABLE and downgraded Oct 2. No website located: galaxyofdrone.com, galaxyofdrone.net, galaxyofdronewow.com, galaxyofdrone.gg and galaxy-of-drone.com were all probed on October 2 2026 and none resolve. Not calling it dead. Corrected Oct 2: popTier small to unknown. Separately, the bot count and the 0 to 100 estimate were both derived from a source we can no longer identify, and an estimate is not a reading A third-party hub lists Galaxyofdrone as closed (undated, online from March 2025), converging with our five dead domains but supplying no date, so the entry stays playable/unknown rather than dead.",
         "tag": "WotLK",
         "group": "",
         "updated": "2026-10-02",
@@ -742,7 +743,7 @@ module.exports = [
     {
         "name": "GryffinWow",
         "status": "playable",
-        "details": "UNVERIFIABLE and DOWNGRADED Oct 3. A fresh Vanilla x1 progressive realm launched April 2025, previously rated playable/tiny on an estimated 0-10 population. Its domain now serves a parking page reading 'Find information, resources and relevant links for gryffinwow.com. This domain may be for sale', with terms and privacy links and a click-to-inquire prompt. That is a lapsed registration, not a server page. Not calling it dead, because a lapsed domain is evidence of no website and not of a shutdown, but a reader arriving at the address finds no project. Corrected Oct 3: popTier tiny to unknown, and the April 2025 launch description is last confirmed from our August 30 read",
+        "details": "UNVERIFIABLE and DOWNGRADED Oct 3. A fresh Vanilla x1 progressive realm launched April 2025, previously rated playable/tiny on an estimated 0-10 population. Its domain now serves a parking page reading 'Find information, resources and relevant links for gryffinwow.com. This domain may be for sale', with terms and privacy links and a click-to-inquire prompt. That is a lapsed registration, not a server page. Not calling it dead, because a lapsed domain is evidence of no website and not of a shutdown, but a reader arriving at the address finds no project. Corrected Oct 3: popTier tiny to unknown, and the April 2025 launch description is last confirmed from our August 30 read A third-party hub lists GryffinWow as closed (undated, online from April 2025, matching our recorded April 2025 launch), converging with our for-sale domain finding but supplying no date, so the entry stays playable/unknown rather than dead.",
         "tag": "Vanilla",
         "group": "",
         "url": "https://gryffinwow.com/",
@@ -793,7 +794,7 @@ module.exports = [
     {
         "name": "True Azeroth",
         "status": "playable",
-        "details": "Fresh Vanilla x1 blizzlike PvP, launched July 2025, community-driven. UNVERIFIABLE since September 2026 and downgraded Oct 2. A C&D shutdown was reported in September but we never confirmed it and we are still not calling it dead on an unconfirmed report. On October 2 2026 we probed trueazeroth.com, true-azeroth.com, trueazeroth.net, trueazeroth.gg, true-azeroth.gg and trueazeroth.co and none resolve. Corrected Oct 2: popTier tiny to unknown, so a server we cannot reach no longer carries a population band",
+        "details": "Fresh Vanilla x1 blizzlike PvP, launched July 2025, community-driven. UNVERIFIABLE since September 2026 and downgraded Oct 2. A C&D shutdown was reported in September but we never confirmed it and we are still not calling it dead on an unconfirmed report. On October 2 2026 we probed trueazeroth.com, true-azeroth.com, trueazeroth.net, trueazeroth.gg, true-azeroth.gg and trueazeroth.co and none resolve. Corrected Oct 2: popTier tiny to unknown, so a server we cannot reach no longer carries a population band A third-party hub lists True Azeroth as closed (undated, online from July 2025, matching our recorded July 2025 launch), converging with our unconfirmed C&D report and six dead domains but supplying no date, so the entry stays playable/unknown rather than dead.",
         "tag": "Vanilla",
         "group": "",
         "updated": "2026-10-02",
@@ -971,7 +972,7 @@ module.exports = [
     {
         "name": "Valanior",
         "status": "dev",
-        "details": "UNVERIFIABLE since September 2026, and the reason is more specific than a site being down. The apex valanior.com returns Cloudflare 1016, an origin DNS error, so the site has no resolvable host. www.valanior.com does respond, but every path we probed on it returns the same stock OVH 'Site en construction' page with 70 placeholder links and a 1999 OVHcloud copyright, so there is no project content behind it at all. The domain appears to have lapsed to a default host rather than a server having gone down. Our entry claimed playable, small, and about 1.3k Discord online, none of which we can now reach or confirm. Marked dev pending a first-party source; the community may well be alive on Discord, but we have no evidence for it and will not infer it from a domain that no longer hosts a project",
+        "details": "UNVERIFIABLE since September 2026, and the reason is more specific than a site being down. The apex valanior.com returns Cloudflare 1016, an origin DNS error, so the site has no resolvable host. www.valanior.com does respond, but every path we probed on it returns the same stock OVH 'Site en construction' page with 70 placeholder links and a 1999 OVHcloud copyright, so there is no project content behind it at all. The domain appears to have lapsed to a default host rather than a server having gone down. Our entry claimed playable, small, and about 1.3k Discord online, none of which we can now reach or confirm. Marked dev pending a first-party source; the community may well be alive on Discord, but we have no evidence for it and will not infer it from a domain that no longer hosts a project A third-party hub lists Valanior as closed (undated, online from January 2025). Our own finding is a lapsed domain serving a stock host page, which converges but supplies no date, so the entry stays dev/unknown rather than dead.",
         "tag": "Vanilla+",
         "group": "",
         "url": "https://valanior.com/",
@@ -1490,6 +1491,141 @@ module.exports = [
     "tag": "WotLK",
     "popTier": "tiny",
     "url": "https://reaper-wow.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Blackout-WoW",
+    "status": "playable",
+    "details": "Spanish custom WotLK 3.3.5a level-255 server, PvE and PvP, claiming no pay-to-win. Progression runs Tier 1 to Tier 35 across 35 raids and more than 45 world bosses, with Legendary weapons V1 to V10, three custom classes, 16 playable races, a passive system, a battle pass, new battlegrounds including 1v1 through 5v5 arenas, over 100,000 transmogs and 500+ mounts. Verified first-party October 4 2026: the feature list above is the site's own copy. No player count is published anywhere on the site, so popTier is unknown rather than inferred",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://blackout-wow.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "GeekServers",
+    "status": "playable",
+    "details": "French operator running three realms off one site since 2009: NostalGeek (Vanilla 1.12.1, running without a wipe since 17 June 2009 per the operator), TheGeekCrusade (TBC 2.4.3, open since 31 July 2011) and GlobalGeek Fresh, each with its own armory, PvP/PvE pages, hardcore modes and auction house. Verified first-party October 4 2026 that all three realm sections are live with feature, database and changelog pages. No concurrent player count is published on the pages read; a third-party hub estimates 100-200 on NostalGeek and 50-100 on TheGeekCrusade, recorded here as their estimate, not our reading. popTier unknown",
+    "tag": "Multi",
+    "popTier": "unknown",
+    "url": "https://geekservers.gg/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "MGAWoW",
+    "status": "playable",
+    "details": "Two-realm project branding itself 'no pay-to-win, skill over spending': Shadow Reign, a custom-content WotLK 3.3.5a realm with quality-of-life upgrades, and Dagobah, a Vanilla progression realm described as 100% blizzlike with phase-driven updates and launch rewards for pioneers. Verified first-party October 4 2026 that both realm sections, the server news with per-realm feeds, downloads, vote shop and polls are live. No player count or dated news item was visible in this read; a third-party hub estimates up to 10 players. popTier unknown",
+    "tag": "Multi",
+    "popTier": "unknown",
+    "url": "https://mgawow.online/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "NaerZone",
+    "status": "playable",
+    "details": "Spanish-language WotLK 3.3.5a community for Spain and Latin America. Verified first-party October 4 2026: the news feed is active with a new addon announcement and fix pack 153 both one week old, a Brewfest post two weeks old and fix pack 152 three weeks old, plus a migrations page. That is a maintained project, not a dormant one. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://naerzone.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Nozdor",
+    "status": "playable",
+    "details": "Russian WotLK 3.3.5a server at x5 rates, positioning itself as skill over wallet. Verified first-party October 4 2026. DATED CLAIM: the front page announces a new world called DUNE opening 16 October, with no year stated; read in context it is the coming October 16, and we will re-check it on that date and publish the result either way. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://nozdor.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "PandaWoW",
+    "status": "playable",
+    "details": "Mists of Pandaria 5.4.8 project, three realms with a live total counter read October 4 2026: 360 players total, split x100 190, Fun 120 and Cross 50. Publishes dated monthly fix lists running May through August 2026 plus a September summer event post, so the changelog cadence is monthly and current. popTier small on the site's own 360 figure, self-reported as all such counters are",
+    "tag": "MoP",
+    "popTier": "small",
+    "url": "https://pandawow.me/en/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "ShadowForge",
+    "status": "playable",
+    "details": "WotLK 3.3.5a on an Icecrown realm, currently at the Fall of the Lich King 3.3.5 progression point, with quality-of-life improvements and a recruit-a-friend system paying x14 XP plus mount and item rewards by in-game mail. Verified first-party October 4 2026. No player count is published on the pages read; a third-party hub estimates 20-40 players with two reviews, recorded here as their estimate, not our reading. popTier unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://shadowforge.info.gf/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Synastria",
+    "status": "dev",
+    "details": "Custom WotLK+ project focused on extended character progression. The entire website is a single line: account creation is currently disabled, plus a client patch link. A third-party hub reports new registrations have been closed since late June 2026 with existing accounts still able to log in, which is consistent with what the site shows but is their claim, not a first-party fact we could verify. Recorded dev because nothing on the site indicates a playable state for new players. popTier unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://synastria.org/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Vault of Hatred",
+    "status": "playable",
+    "details": "Independent TBC 2.4.3 PvP realm built around playerbots: intelligent companions keep the world alive, a VaultBot party builder assembles balanced groups, and the complete client ships with the realmlist and the bot configured. Published realmlist realm.vaultofhatred.com. Verified first-party October 4 2026 with live registration, a getting-started path, armoury, events page and a monthly VaultSpends collection sending rewards in game. No player count is published on the pages read, so popTier is unknown",
+    "tag": "TBC",
+    "popTier": "unknown",
+    "url": "https://vaultofhatred.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Waloria",
+    "status": "dev",
+    "details": "Vanilla-style project on a WotLK 3.3.5a client, currently in Open Alpha per its own footer. Three design ideas stated first-party: dynamic difficulty where the world scales to party size, co-op loot that scales with the group including profession XP for nearby gathering, and procedural Diablo-style loot biased to class and spec, claiming 500K+ generated items, 300K+ crafting items, 600+ roaming beasts and 200+ custom enemies, plus an opt-in Linked Mode binding party fate. CERTIFICATE NOTE Oct 4: https serves an invalid certificate (curl exit 60) while http serves normally, so the entry records the https address with that failure stated. No player count published; a third-party hub estimates up to 100. popTier unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://waloria.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Way of Elendil",
+    "status": "playable",
+    "details": "French-language WotLK 3.3.5a community describing itself as active since 2006 with over 20 years of history. Verified first-party October 4 2026: the front page reads 262 players connected with the server online, offers free account creation, publishes a 700+ addon catalogue for 3.3.5a, and runs a character-recovery service bringing level 80 characters over from official or private servers within hours. popTier small on the site's own 262 figure, self-reported as all such counters are",
+    "tag": "WotLK",
+    "popTier": "small",
+    "url": "https://way-of-elendil.fr/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "WoW Patagonia",
+    "status": "playable",
+    "details": "Spanish-language progressive WotLK 3.3.5a for Latin America, hosted in Argentina and selling itself on real regional latency. Verified first-party October 4 2026: the front page reads 975 players online on the Andes realm, with per-player configurable XP rates from x1 blizzlike to x4, cross-faction grouping for raids and arenas, and published realmlist set realmlist logon.wow-patagonia.com. Dated news is current: a season-closure awards post from 22 September 2026. popTier medium on the site's own 975 figure, self-reported as all such counters are",
+    "tag": "WotLK",
+    "popTier": "medium",
+    "url": "https://www.wow-patagonia.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "WOW Hardcore",
+    "status": "playable",
+    "details": "Vanilla 1.12.1 permadeath realm run by WoW-HC: death is final, blizzlike x1 rates. Could not be verified first-party: the site serves a Cloudflare security challenge to both plain requests and a real browser, so nothing about its current state could be read. A third-party hub describes it as progressive hardcore in Phase 6 with 60-150 players and two player reviews, recorded here as their claims, not our reading. popTier unknown",
+    "tag": "Vanilla",
+    "popTier": "unknown",
+    "url": "https://wow-hc.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Elwynn Server",
+    "status": "dev",
+    "details": "Custom Vanilla+ project, distinct from our Elwynnkeep entry (blizzlike WotLK) despite the shared name stem. Site returns Cloudflare error 526, an invalid origin SSL certificate, so nothing first-party could be read beyond the error. A third-party hub describes it as Vanilla+ on 3.3.5a at x2.5 rates targeting a 2026 release, with a 60 cap, 61 talent points, 25-player raids and jewel-socketed Reforged tier sets, recorded here as their claims, not our reading. Recorded dev with the address on file so the project is findable when the certificate is fixed. popTier unknown",
+    "tag": "Vanilla+",
+    "popTier": "unknown",
+    "url": "https://elwynnserver.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "RebirthWoW",
+    "status": "playable",
+    "details": "Spanish-language WotLK 3.3.5a with companion bots, x5 rates and a PvP world, free to play with a Ko-fi support link. Verified first-party October 4 2026. Listed on a third-party toplist as opened October 1 2026, which would make it three days old; that date is their claim, not confirmed on the project's own pages in this read. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://rebirthwow.xyz/",
     "updated": "2026-10-04"
   }
 ]
