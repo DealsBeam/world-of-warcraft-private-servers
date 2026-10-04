@@ -1627,5 +1627,95 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://rebirthwow.xyz/",
     "updated": "2026-10-04"
+  },
+  {
+    "name": "PeruLand",
+    "status": "playable",
+    "details": "Peruvian WotLK 3.3.5a with phased progression starting from Vanilla content. Verified first-party October 4 2026: the news blog is current with an arenas guide September 22, an Onyxia opening post September 25 (40 players, one boss) and a battle-pass Season 1 guide September 30, the season having opened October 3 with 100 free levels, daily and weekly quests and two full sets. Realm runs a 50/50 faction display. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://wowperuland.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Kaelara",
+    "status": "playable",
+    "details": "WotLK-era project describing itself as community-shaped with challenging dungeons and regular events, in English, Russian and Spanish. Verified first-party October 4 2026: the site's own widget reads Online 0. popTier tiny on that dated reading, not on their directory's Discord activity figure",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://kaelara.one/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "VoidForge",
+    "status": "playable",
+    "details": "Ukrainian WotLK 3.3.5a PvE server, single x50 realm with fast start and quality-of-life features, professions at x3, battleground honor at x3 and mount from level 1. Verified first-party October 4 2026. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://voidforgerealm.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "WoWZull",
+    "status": "playable",
+    "details": "Custom WotLK 3.3.5a with new playable races (Void Elves, Goblins, Vulpera, Pandaren, Worgen, Nightborne), solo LFG and raid scaling, cross-faction raids, groups and guilds, transmog, Paragon levels and account-wide mounts, claiming no pay-to-win with an HD upgrade. Verified first-party October 4 2026. The site publishes 9,920 registered accounts and 20,803 created characters, which are cumulative totals rather than a concurrent count, so popTier is unknown rather than inferred from them",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://wowzull.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Tanados",
+    "status": "dev",
+    "details": "Custom 3.3.5a realm with reworked classes, HD client support and streaming rewards, explicitly a PLAYABLE ALPHA open for registered testers while development continues, with setup and download locked behind registration. Verified first-party October 4 2026. Recorded dev because the project describes itself as alpha under active building. popTier unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://wow.tanados.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Diablo-WoW",
+    "status": "playable",
+    "details": "Russian WotLK project mixing Diablo-style systems with Mythic+ rated progression, seasonal affixes and a T10.4 tier. Verified first-party October 4 2026: the site's own widget reads 37 online with 15h30m uptime and 124 unique players per day, and the news runs February through June 2026 with a Mythic+ update June 28. popTier tiny on the site's own 37 figure, self-reported as all such counters are",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://diablo-wow.ru/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "World of the Gods",
+    "status": "playable",
+    "details": "WotLK 255 superfun server with an item shop and donation page, a 3D-view armory and a vote system. Verified first-party October 4 2026: the news runs to a lottery post dated July 22 2026. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://worldofthegods.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Avalon",
+    "status": "playable",
+    "details": "Russian 3.3.5a x3 project with custom content including a Demon Hunter class, an inscription system and a fel auction converting game currency to donations. Verified first-party October 4 2026: the statistics page shows 4,085 characters and 4,350 accounts with a 54/46 faction split, but the online-players field reads server maintenance instead of a number, so there is no live count to band. Dated news runs March through September 2026 including a battle pass and a July announcement of a x3 to x10 transition. popTier unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://avalon-game.fun/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "MasterWoW",
+    "status": "playable",
+    "details": "Haste-based server covering WotLK plus content from other expansions, with custom patches and a launcher. Verified first-party October 4 2026: the play-time leaderboard's entire top ten reads Offline, and no player count is published, so popTier is unknown rather than read from an idle ladder",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://masterwow.net/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Emervoid",
+    "status": "dev",
+    "details": "German Mists of Pandaria and Legion project with an open bugtracker tracking Antorus and class-hall issues by percentage fixed. Verified first-party October 4 2026: the newest status update is August 2 2026 with forum replies into late September, and Legion systems are described as in progress rather than finished. Recorded dev because the project's own pages describe systems under construction. popTier unknown",
+    "tag": "MoP",
+    "popTier": "unknown",
+    "url": "https://www.mop-germany.de/",
+    "updated": "2026-10-04"
   }
 ]
