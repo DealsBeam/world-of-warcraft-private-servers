@@ -438,6 +438,26 @@ module.exports = [
         "note": "Fan reference, checked 27 Sep 2026: tracked build 1.60.1.70009 as of that check and carries the Cultivation level gate, but the CDN moved to 1.60.1.70058 on 29 September and it had published no notes for it when we last looked, the Crusade removal and the Primal Fury to Blood Frenzy rename. Still holds the pre-70009 Eureka! and Touch of the Grave values. /classes/ and /news/ now 404, so the entry above is the live root."
     },
     {
+        "title": "Forever Codex — bilingual WoW Forever guide and database with per-build datamined comparisons and mirrored blue posts",
+        "url": "https://forever-codex.com/",
+        "note": "Fan reference, checked 4 Oct 2026: on current build 70205, updated hours ago. Diffs every beta build against the last from game files (70205 vs 70170: 0 player-facing changes across 9 record kinds) and mirrors blue posts including Warrior updates and the Oct 1 service issue. Front page carries dates we did not have: name reservation Oct 27 to Nov 3, Hallow's End Oct 18 to Nov 2, Hardcore ruleset Winter 2026-27. References a build 70124 our wowdev2 history does not contain; unresolved."
+    },
+    {
+        "title": "WoW Forever (wow-forever.gg) — talent calculator, 22,007-item database, atlas and per-build changelogs",
+        "url": "https://wow-forever.gg/",
+        "note": "Fan reference, checked 4 Oct 2026: on current build 70205 with its own per-build diffs (70205 vs 70170: 0 changes for players, compared Oct 3; 70170: 2 new class abilities). Legacy calculator matches our Legacy reporting exactly (20 talents, 3 trees, 16 points of 65). Countdown renders launch as 3:00 p.m. PT, agreeing with our PST resolution."
+    },
+    {
+        "title": "The Forever Era — WoW Forever guides with per-class change counts and launch countdown",
+        "url": "https://theforeverera.com/en/",
+        "note": "Fan reference, checked 4 Oct 2026: on current build 70205. Per-class change counts (Druid 59, Priest 49, Hunter 46, Warrior 42). Countdown reads November 4 3:00 PM PST, agreeing with our PST resolution over the announcement's PDT."
+    },
+    {
+        "title": "WoW Classic Forever (talent calculator) — beta-client talent data rebuilt per build",
+        "url": "https://wowclassicforever.info/",
+        "note": "Fan reference, checked 4 Oct 2026: talent calculator read from beta client 70170 (one behind current 70205), compared against Classic Era 1.15.9.69722. Shares a name stem with classicwowforever.com but is a different domain and function (calculator vs notes); whether same project or a fork is unresolved."
+    },
+    {
         "title": "WoW Forever Top — independent English Forever fan portal, 242 pages of datamined databases, talent calculators and beta build history",
         "url": "https://wow-forever.top/",
         "note": "Fan reference, checked 27 Sep 2026: separates official Blizzard information, panel reporting and beta-unverified data, and tracked build 70009, which the CDN superseded with 1.60.1.70058 on 29 September. Resolves the raid unlock to December 9 naming Hyjal Summit and Barrow Deeps, and carries no Onyxia date at all, which is why that conflict stays open. AdSense supported, so treat editorial independence as good but not unlimited."
