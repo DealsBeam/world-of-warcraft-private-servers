@@ -438,6 +438,11 @@ module.exports = [
         "note": "Fan reference, checked 27 Sep 2026: tracked build 1.60.1.70009 as of that check and carries the Cultivation level gate, but the CDN moved to 1.60.1.70058 on 29 September and it had published no notes for it when we last looked, the Crusade removal and the Primal Fury to Blood Frenzy rename. Still holds the pre-70009 Eureka! and Touch of the Grave values. /classes/ and /news/ now 404, so the entry above is the live root."
     },
     {
+        "title": "WoW Forever Server Status — unofficial live probe monitor for the Forever beta with service-level breakdown and uptime history",
+        "url": "https://wowforeverstatus.com/",
+        "note": "Fan reference, checked 5 Oct 2026: probes login, realm, character and game-data services separately with per-service states, a 24h/72h/7d history chart and uptime accounting. Read 158 status reports, 97.8% uptime, 0 outages, all services green. Independent of Blizzard and of our CDN watcher, which tracks builds rather than liveness."
+    },
+    {
         "title": "Forever Codex — bilingual WoW Forever guide and database with per-build datamined comparisons and mirrored blue posts",
         "url": "https://forever-codex.com/",
         "note": "Fan reference, checked 4 Oct 2026: on current build 70205, updated hours ago. Diffs every beta build against the last from game files (70205 vs 70170: 0 player-facing changes across 9 record kinds) and mirrors blue posts including Warrior updates and the Oct 1 service issue. Front page carries dates we did not have: name reservation Oct 27 to Nov 3, Hallow's End Oct 18 to Nov 2, Hardcore ruleset Winter 2026-27. References a build 70124 our wowdev2 history does not contain; unresolved."

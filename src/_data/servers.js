@@ -1807,5 +1807,14 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://tuwow.net/",
     "updated": "2026-10-05"
+  },
+  {
+    "name": "Frontier",
+    "status": "dev",
+    "details": "Vanilla+ PvP realm for the EU running on the 3.3.5a client, self-described as 'Coming soon' and as a free non-commercial fan project. Verified first-party October 5 2026: the site publishes nothing beyond that positioning line, with no realms, dates, news or client information. Recorded dev because the project describes itself as not yet open. popTier unknown",
+    "tag": "Vanilla+",
+    "popTier": "unknown",
+    "url": "https://frontierrealm.org/",
+    "updated": "2026-10-05"
   }
 ]
