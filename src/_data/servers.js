@@ -962,11 +962,11 @@ module.exports = [
     {
         "name": "NycterMoon",
         "status": "playable",
-        "details": "Vanilla 1.12.1 PvE x1 on VMaNGOS core since 2022, hireable AI Companions from innkeepers, pop 0-100",
+        "details": "Vanilla 1.12.1 PvE x1 on VMaNGOS core since 2022, hireable AI Companions from innkeepers, pop 0-100 REBRANDED Oct 5 2026: the site now calls itself Microbot WoW everywhere, five mentions of the new name against zero of the old on the rendered homepage, with the page title changed and the companion system presented under the new brand. The domain is unchanged so the entry keeps its name with the rebrand recorded; no content, rate or realm change was found alongside the rename.",
         "tag": "Vanilla",
         "group": "",
         "url": "https://nyctermoonwow.net/",
-        "updated": "2026-10-03",
+        "updated": "2026-10-05",
         "popTier": "small"
     },
     {
