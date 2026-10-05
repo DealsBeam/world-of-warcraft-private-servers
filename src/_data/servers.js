@@ -1409,11 +1409,11 @@ module.exports = [
     {
         "name": "Draevor Project",
         "status": "dev",
-        "details": "Warlords of Draenor 6.x realm with a Garrison focus and custom systems, a faithful WoD core, and every class and race with Horde or Alliance available. Corrected Sep 29: our entry said the PTR was coming soon with no date, which was the site's own marketing copy rather than its news. The PTR is ONLINE per its own news list, headline 'Warlords of Draenor PTR Is Now Online!', with a live realmlist at play.draevorproject.com, and a follow-up post on faster testing adding instant flight paths, a 60 second hearthstone cooldown and a PTR Helper NPC. Note the site contradicts itself: the hero and footer still say PTR coming soon. Also announced and in development, a Garrison Mobile App. No launch date for the live realm, so status stays dev",
+        "details": "Warlords of Draenor 6.x realm with a Garrison focus and custom systems, a faithful WoD core, and every class and race with Horde or Alliance available. Corrected Sep 29: our entry said the PTR was coming soon with no date, which was the site's own marketing copy rather than its news. The PTR is ONLINE per its own news list, headline 'Warlords of Draenor PTR Is Now Online!', with a live realmlist at play.draevorproject.com, and a follow-up post on faster testing adding instant flight paths, a 60 second hearthstone cooldown and a PTR Helper NPC. Note the site contradicts itself: the hero and footer still say PTR coming soon. Also announced and in development, a Garrison Mobile App. No launch date for the live realm, so status stays dev NEW Oct 4 2026: the project announced FARAHLON, the cut Warlords of Draenor zone northeast of Draenor (the ancient version of what becomes Netherstorm), being built as a fully explorable endgame zone with its own storyline and quest campaign, Iron Horde operations at Blightstone Quarry, rares, treasures, bonus objectives, ancient ruins and Shattrath-to-Farahlon transport. The post states it is currently in development and content may change before release.",
         "tag": "WoD",
         "group": "",
         "url": "https://draevorproject.com/",
-        "updated": "2026-09-29",
+        "updated": "2026-10-04",
         "popTier": "unknown"
     },
     {
@@ -1716,6 +1716,87 @@ module.exports = [
     "tag": "MoP",
     "popTier": "unknown",
     "url": "https://www.mop-germany.de/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Ivalice Reborn",
+    "status": "playable",
+    "details": "Level-80 WotLK 3.3.5a fun server, opened October 1 2026 per its own news posts dated September 30. Published realmlist set realmlist logon.ivalice-reborn.com. Custom client patches are required (Patch-J and Patch-W MPQ files) plus required addons, served through its own launcher. Runs an item shop and donation store with promo codes. Verified first-party October 4 2026. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://ivalice-reborn.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "EternalWoW Remorse",
+    "status": "playable",
+    "details": "WotLK 3.3.5a instant level 255, rebuilt on AzerothCore with custom modules, rebalanced gear scaling and new content including Anubis-themed gear for all 10 classes, custom dungeons and raids, competitive battlegrounds and arenas, transmogrification and anti-cheat. Verified first-party October 4 2026. Top-ranked by votes on the third-party list where found, which is a vote count rather than a player count. No player count is published on the project's own pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://eternalwowremorse.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Heroes WoW",
+    "status": "playable",
+    "details": "Level 255 custom funserver branding itself Reborn, with godlike gear, custom instances and a shop and vote system. Verified first-party October 4 2026: the site's own counter reads Players Online 0 with a Discord widget reading 0 members online, and the published realmlist is a dynamic-DNS host rather than a domain. popTier tiny on the site's own zero reading",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://heroeswow.net/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "MegaForge",
+    "status": "playable",
+    "details": "Solo-journey WotLK server built around playing alone, with friends or with a party of alts, featuring boss-encounter kill logs, cross-faction play and a Warsong realm showing Online. Verified first-party October 4 2026. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://megaforge.net/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Nostalgia Servers",
+    "status": "playable",
+    "details": "Operator running three realms off one site: MondWar Online, Undamed Online and Pleaseland Offline, plus an Eternion entry the site itself disclaims as an independent server unaffiliated with the project. Markets old popular servers brought back to life. Verified first-party October 4 2026. No player counts are published on the pages read, so popTier is unknown",
+    "tag": "Multi",
+    "popTier": "unknown",
+    "url": "https://nostalgia-servers.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Demontold",
+    "status": "dev",
+    "details": "WotLK+ project with custom items and abilities and a level-cap progression roadmap, whose own site title reads 'Demontold, Coming Soon' and renders almost nothing else. Verified first-party October 4 2026. Recorded dev because the project describes itself as not yet open. popTier unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://demontold.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "GrandMU",
+    "status": "playable",
+    "details": "Blizzlike-progression WotLK 3.3.5a x5 PvP in English, German, Spanish, Russian and Bulgarian. Verified first-party October 4 2026: the front page reads 2 online now with 27 accounts total, publishes realmlist set realmlist logon.grandmu.com, and carries dated news from September 23 2026 covering a welcome gift, 12-hour voting and a x2-honor PvP season. popTier tiny on the site's own 2-online reading, self-reported as all such counters are",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://wow.grandmu.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Rupture WoW",
+    "status": "playable",
+    "details": "High-rate WotLK 3.3.5a at 100x XP with an Ascension-style endgame to level 120, double-strength gear, solo dungeon queues and unlockable wings. Listed on a third-party directory as Areos WoW; the site's own title now reads Rupture WoW, so the entry follows the site and notes the alias. Published realmlist is a bare IP address rather than a hostname. Verified first-party October 4 2026. The heroes-online widget did not populate a number in this read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://areoswow.com/",
+    "updated": "2026-10-04"
+  },
+  {
+    "name": "Winterkage",
+    "status": "playable",
+    "details": "Two-realm operator running WotLK 3.3.5a and TBC 2.4.3 off one realmlist at play.winterkage.com, with Discord support. Verified first-party October 4 2026. Both realm counters read Loading rather than a number in this read, so popTier is unknown",
+    "tag": "Multi",
+    "popTier": "unknown",
+    "url": "https://winterkage.com/",
     "updated": "2026-10-04"
   }
 ]
