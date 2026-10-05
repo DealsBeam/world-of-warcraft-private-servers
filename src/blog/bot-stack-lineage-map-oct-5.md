@@ -38,7 +38,7 @@ A server that **consumes** upstream fixes gets stability for free and pays in sa
 
 When a solo server dies, the obituary usually names population or money. More often the cause is upstream drift: the core moved, the fork did not follow, and the gap between them became a rewrite nobody had time for. Every maintained fork on this tracker is carrying that debt whether it admits it or not.
 
-The question to ask any bot server is not "how smart are the bots" but **"what happens to your fork when AzerothCore ships a breaking change."** The projects with an answer — upstream everything, or maintain with a rebase discipline — are the ones still here in a year. The ones without one are renting.
+The question to ask any bot server is not "how smart are the bots" but **"what happens to your fork when AzerothCore ships a breaking change."** The projects with an answer (upstream everything, or maintain with a rebase discipline) are the ones still here in a year. The ones without one are renting.
 
 ## What we cannot tell you
 
