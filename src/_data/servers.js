@@ -1816,5 +1816,77 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://frontierrealm.org/",
     "updated": "2026-10-05"
+  },
+  {
+    "name": "Digital World",
+    "status": "playable",
+    "details": "WotLK project with account control panel using the same credentials as the game (dw-wow accounts). Verified first-party October 5 2026: registration, login and Discord community all live. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://wow.djserver.win/",
+    "updated": "2026-10-05"
+  },
+  {
+    "name": "Luminary",
+    "status": "playable",
+    "details": "Russian Vanilla 1.12 cozy classic server with registration open and Discord, Telegram and VK support channels. Verified first-party October 5 2026: the news carries a dated claim, patch 1.7 opening the Zul'Gurub dungeon on October 31 2026, posted September 23. The online widget shows a dash rather than a number, so popTier is unknown. The October 31 date is on our calendar to verify",
+    "tag": "Vanilla",
+    "popTier": "unknown",
+    "url": "https://lumiwow.su/",
+    "updated": "2026-10-05"
+  },
+  {
+    "name": "Yggdrasil",
+    "status": "playable",
+    "details": "Project publishing dated development updates, the newest September 22 2026 describing CatmullRom arc pathing for NPC movement with a detailed explanation of the collision problem it solves. Verified first-party October 5 2026. Offers character transfers from elsewhere. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://yggdrasilwow.com/",
+    "updated": "2026-10-05"
+  },
+  {
+    "name": "ReforgedCraft",
+    "status": "playable",
+    "details": "WotLK 3.3.5a with custom features, a reset system, cross-faction guilds and VIP rewards on AzerothCore with FusionCMS. Verified first-party October 5 2026: two realms read Online (Garona and One Life Legacy) with TOTAL PLAYERS ONLINE 3, and the published realmlist is set realmlist logon.reforgedcraft.com. popTier tiny on the site's own 3 figure, self-reported as all such counters are",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://reforgedcraft.com/",
+    "updated": "2026-10-05"
+  },
+  {
+    "name": "EvoWoW",
+    "status": "playable",
+    "details": "Polished Wrath-era realm with voting points spendable in a shop. Verified first-party October 5 2026: the site's own widget reads Online 1. popTier tiny on that dated reading",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://www.evowow.com/",
+    "updated": "2026-10-05"
+  },
+  {
+    "name": "WoW-Vicious",
+    "status": "playable",
+    "details": "WotLK realm Drakkari on FusionCMS with PvP statistics and a published realmlist at realm.wow-vicious.com.br. Verified first-party October 5 2026: the front page still carries the stock template post dated today ('Welcome to your new website! This news article will disappear as soon as you add a new one'), the realm reads Drakkari 0 with total players online 0, and the PvP ladder shows three ranked players. A fresh install with no content yet rather than an established realm. popTier tiny on the site's own zero reading",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://wow-vicious.com.br/",
+    "updated": "2026-10-05"
+  },
+  {
+    "name": "Aetheria",
+    "status": "playable",
+    "details": "Progressive project advertising new T1-T3 sets for Death Knights, a progression system and an auction bot, with news from July and August 2026. Verified first-party October 5 2026: server status reads Online with Players Online 0 and uptime 2 days 5 hours. popTier tiny on the site's own zero reading",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://aetheria.games-on.su/",
+    "updated": "2026-10-05"
+  },
+  {
+    "name": "WoW Tales",
+    "status": "playable",
+    "details": "Spanish progressive realm running TBC Phase 1 content on the 3.3.5a client with its own launcher at v1.1.112. Verified first-party October 5 2026: the official opening was October 2 2026, two days ago, with a hardcore level-70 event announced September 30. Publishes 248 accounts and 381 characters, which are cumulative totals rather than a concurrent count, so popTier is unknown rather than inferred from them",
+    "tag": "TBC",
+    "popTier": "unknown",
+    "url": "https://www.wow-tales.net/",
+    "updated": "2026-10-05"
   }
 ]
