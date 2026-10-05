@@ -1798,5 +1798,14 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://winterkage.com/",
     "updated": "2026-10-04"
+  },
+  {
+    "name": "TuWoW",
+    "status": "dev",
+    "details": "Hardcore Classic+ concept: a level-60 Azeroth journey rebuilt with Wrath of the Lich King talents, abilities and class balance, self-described as 'Classic+ by Design' with refined classes, adjusted progression and hardcore survival where every journey carries real risk. Verified first-party October 5 2026, with a caveat that cuts the other way: the site is visibly unfinished, with placeholder blocks reading 'Placeholder text, feature description goes here' still live and the realm widget showing dashes instead of players and latency. No client version, launch date or news feed is published. Recorded dev because nothing on the site indicates a playable state. popTier unknown",
+    "tag": "Vanilla+",
+    "popTier": "unknown",
+    "url": "https://tuwow.net/",
+    "updated": "2026-10-05"
   }
 ]
