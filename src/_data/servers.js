@@ -1888,5 +1888,77 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://www.wow-tales.net/",
     "updated": "2026-10-05"
+  },
+  {
+    "name": "Sanctuary",
+    "status": "playable",
+    "details": "Roleplaying realm for the 3.3.5a client built on three stated ideas: positional voice chat carrying 5 to 100 yards so a whisper and an address are different acts, no visible names with strangers reading as their race plus consistent stranger-names for talking about people never met, and consent-based PvP with town notice boards taking real bills. Verified first-party October 7 2026. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://sanctuary-wow.com/",
+    "updated": "2026-10-07"
+  },
+  {
+    "name": "Moeni",
+    "status": "playable",
+    "details": "TBC 2.4.3 with AI companions and an Ahn'Qiraj war-effort tracker. Verified first-party October 7 2026: the front page carries a scheduled-maintenance banner with both faction counts reading zero, so the realm was down for maintenance rather than empty by measurement. popTier unknown",
+    "tag": "TBC",
+    "popTier": "unknown",
+    "url": "https://wow.moeni.xyz/",
+    "updated": "2026-10-07"
+  },
+  {
+    "name": "Cascade",
+    "status": "playable",
+    "details": "WotLK 3.3.5a instant-255 realm with a guided T1 to T40 gear progression, starter gear included and a stated three-minute path from login to Tier 1, run in English, Spanish and Portuguese. Verified first-party October 7 2026. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://cascadewow.eu/",
+    "updated": "2026-10-07"
+  },
+  {
+    "name": "Reinos de Leyenda",
+    "status": "playable",
+    "details": "Spanish free-to-play 3.3.5a realm with guild leaderboards across achievements, mail, PvP, PvE kills and a miscellaneous category, plus class guides and an anti-ninja code of conduct. Verified first-party October 7 2026. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://reinosdeleyenda.org/",
+    "updated": "2026-10-07"
+  },
+  {
+    "name": "Mond-WoW",
+    "status": "playable",
+    "details": "Heavily customized 3.3.5a realm with its own AbyssEngine client files. Verified first-party October 7 2026: news carries an October 6 maintenance notice and a September 30 client update requiring re-downloaded libraries, so the project is actively maintained. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://mond-wow.com/",
+    "updated": "2026-10-07"
+  },
+  {
+    "name": "Valkyria",
+    "status": "playable",
+    "details": "Spanish Cataclysm realm running patch 4.0.6 rather than the usual 4.3.4, with an Europa realm showing active, progressive content, character migrations and hardcore-fallen rankings. Verified first-party October 7 2026: the player count sits behind a login wall, and the newest dated news is May 2026 with weekend bonus events. popTier unknown",
+    "tag": "Cataclysm",
+    "popTier": "unknown",
+    "url": "https://valkyria-wow.com/",
+    "updated": "2026-10-07"
+  },
+  {
+    "name": "Blackrock",
+    "status": "playable",
+    "details": "Fresh TBC 2.4.3 realm with custom rates, working arenas and a published realmlist at logon.blackrockwow.com. Verified first-party October 7 2026: the front page reads Online 0 with 76 accounts and 94 characters registered, the newest news is 28 days old, and the PvP ladder has four ranked players topped by Selena the Paladin on 264 kills. popTier tiny on the site's own zero reading",
+    "tag": "TBC",
+    "popTier": "tiny",
+    "url": "https://blackrockwow.com/",
+    "updated": "2026-10-07"
+  },
+  {
+    "name": "WoW Kraken",
+    "status": "playable",
+    "details": "Russian two-world operator: a Classic world on 1.12.1 and 1.14 clients with PartyBot progression capped at 60, and a seasonal Vanilla+ world on a custom client capped at 50, currently Season 1 Phase 2, sharing hardcore mode, dual spec, smart auction and transmog. Verified first-party October 7 2026: the site publishes 2,950 accounts and 4,851 characters with qualitative occupancy labels, which are cumulative totals and adjectives rather than a concurrent count, alongside dated first-achievement posts from September 2026. popTier unknown",
+    "tag": "Multi",
+    "popTier": "unknown",
+    "url": "https://wow-kraken.ru/",
+    "updated": "2026-10-07"
   }
 ]
