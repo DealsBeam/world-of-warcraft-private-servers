@@ -452,7 +452,7 @@ eleventyComputed:
         <li>Confirmed as Classic+: <strong>Yes</strong> — third WoW experience beside Modern and Classic</li>
         <li>Associated branch: <strong>Encrypted WoW Patch 1.60</strong></li>
         <li>Latest tracked branches: 1.60.0 and 1.60.1</li>
-        <li>Latest build:{% if cdnwatch.ok %}<code>{{ cdnwatch.current }}</code> (wowdev2, live, watcher checked {{ cdnwatch.updated }}){% else %}<code>watcher unavailable</code>{% endif %}</li>
+        <li>Latest beta build:{% if cdnwatch.beta and cdnwatch.beta.ok %}<code>{{ cdnwatch.beta.current }}</code> (wow_classic_beta, live, watcher checked {{ cdnwatch.beta.updated }}){% else %}<code>watcher unavailable</code>{% endif %}{% if cdnwatch.dev and cdnwatch.dev.ok %} · dev track <code>{{ cdnwatch.dev.current }}</code>{% endif %}</li>
         <li>Public beta: <strong>September 17 – October 21, 2026</strong> (Skyborne Epic Pack / Warcraft Forever Collection access, or free opt-in on the WoW Forever website — not guaranteed)</li>
         <li>Name reservation: <strong>October 27 – November 3, 2026</strong> (any upgrade; up to 3 characters)</li>
         <li>Launch: <strong>November 4, 2026 at 3:00 p.m. PST</strong></li>
@@ -472,10 +472,10 @@ eleventyComputed:
 {% if cdnwatch.ok %}
 <section class="panel cp-span-full">
     <h2>Blizzard CDN Build Watch</h2>
-    <p><span class="badge badge-yellow">Internal</span> Encrypted build {{ cdnwatch.current }} on <a href="https://blizztrack.com/view/wowdev2?type=versions" target="_blank" rel="noopener">BlizzTrack</a> · detected {{ cdnwatch.updated }} by our automated build watcher. This is Blizzard's own CDN, not a leak — a new build here means real internal progress on Forever's Patch 1.60 branch.</p>
-    <p class="meta-info">Recent build bumps:</p>
+    <p><span class="badge badge-yellow">Live</span> Beta build {% if cdnwatch.beta and cdnwatch.beta.ok %}<code>{{ cdnwatch.beta.current }}</code> on <a href="https://blizztrack.com/view/wow_classic_beta?type=versions" target="_blank" rel="noopener">BlizzTrack</a> (the client testers download){% else %}unreachable{% endif %}{% if cdnwatch.dev and cdnwatch.dev.ok %}; dev track <code>{{ cdnwatch.dev.current }}</code> on <a href="https://blizztrack.com/view/wowdev2?type=versions" target="_blank" rel="noopener">BlizzTrack</a> (internal, usually ahead){% endif %} · detected {{ cdnwatch.updated }} by our automated build watcher. This is Blizzard's own CDN, not a leak — a new build here means real progress on Forever's Patch 1.60 branch.</p>
+    <p class="meta-info">Recent beta bumps:</p>
     <ul class="news-list">
-    {% for h in cdnwatch.history %}
+    {% for h in cdnwatch.beta.history %}
         <li><time>{{ h.date | formatDate }}</time> <span class="tag">{{ h.version }}</span></li>
     {% endfor %}
     </ul>

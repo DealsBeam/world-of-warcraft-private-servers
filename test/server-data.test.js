@@ -213,11 +213,18 @@ console.log(`OK: ${SERVERS.length} servers, ${newsFiles.length} news, ${LINKS.le
 
 (async () => {
     const w = await CDNWATCH();
-    assert.ok(w.tact === "wowdev2", `bad tact: ${w.tact}`);
-    if (w.ok) {
-        assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(w.current), `bad current version: ${w.current}`);
-        assert.ok(Array.isArray(w.history) && w.history.length >= 4, "cdn history too thin");
-        for (const h of w.history) assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(h.version), `bad history version: ${h.version}`);
+    // Two tracks: beta (what players download) and dev (internal). At least
+    // one must read, and every version string anywhere must be well-formed.
+    assert.ok(w.beta && w.dev, "cdnwatch missing beta/dev tracks");
+    assert.ok(w.beta.ok || w.dev.ok, `both CDN tracks failed: beta=${w.beta.error} dev=${w.dev.error}`);
+    for (const t of [w.beta, w.dev]) {
+        if (!t.ok) continue;
+        assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(t.current), `bad current version on ${t.tact}: ${t.current}`);
+        assert.ok(Array.isArray(t.history) && t.history.length >= 4, `cdn history too thin on ${t.tact}`);
+        for (const h of t.history) assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(h.version), `bad history version on ${t.tact}: ${h.version}`);
     }
-    console.log(`CDN watch: ${w.ok ? "live" : "offline"}${w.ok ? " — " + w.current + " (" + w.history.length + " bumps)" : " — " + w.error}`);
+    if (w.ok) {
+        assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(w.current), `bad top-level current version: ${w.current}`);
+    }
+    console.log(`CDN watch: ${w.ok ? "live" : "offline"}${w.ok ? " — beta " + (w.beta.ok ? w.beta.current : "unreachable") + ", dev " + (w.dev.ok ? w.dev.current : "unreachable") : ""}`);
 })();
