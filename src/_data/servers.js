@@ -1996,5 +1996,23 @@ module.exports = [
     "popTier": "tiny",
     "url": "https://dsreloaded.com/",
     "updated": "2026-10-08"
+  },
+  {
+    "name": "Anachronos",
+    "status": "playable",
+    "details": "Brazilian Vanilla project that opened early access today, October 8 2026, capped at level 10, with official launch October 22 capped at 20 and progression continuing to 60 with 45 days of preparation before the first raid across seven content phases. XP 1x with 2x optional, improved drops, accelerated rest and partybot assistance. Verified first-party October 8 2026. No player count is published on the pages read, so popTier is unknown rather than read from a launch-day crowd",
+    "tag": "Vanilla",
+    "popTier": "unknown",
+    "url": "https://wowclassico.com.br/",
+    "updated": "2026-10-08"
+  },
+  {
+    "name": "Uldaris",
+    "status": "playable",
+    "details": "WotLK project describing its experience as Offylike with working raids and quests at 1x rates, custom events and contents offered as optional, plus quality-of-life additions. Published realmlist SET realmList uldaris.net with a launcher download. Verified first-party October 8 2026. No player count is published on the pages read, so popTier is unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://uldaris.net/",
+    "updated": "2026-10-08"
   }
 ]
