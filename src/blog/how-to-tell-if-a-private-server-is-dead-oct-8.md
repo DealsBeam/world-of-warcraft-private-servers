@@ -18,7 +18,7 @@ A counter tells you a number is being served. It does not tell you what the numb
 
 Warmane's register and armory pages return Not Found. Warmane itself has a forum post from an hour before we looked.
 
-Routes are not servers. A missing page says something about the site's link structure and nothing about realm status. Conversely, a maintenance page says an operator configured it, which is weak evidence someone is home — weaker still if it is the host's stock template rather than the project's words.
+Routes are not servers. A missing page says something about the site's link structure and nothing about realm status. Conversely, a maintenance page says an operator configured it, which is weak evidence someone is home, weaker still if it is the host's stock template rather than the project's words.
 
 ## 3. Read the news dates, all of them
 
