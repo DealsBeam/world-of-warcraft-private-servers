@@ -1960,5 +1960,41 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://wow-kraken.ru/",
     "updated": "2026-10-07"
+  },
+  {
+    "name": "OmeWoW",
+    "status": "playable",
+    "details": "WotLK 255 funserver with rankings for PvP, arena, weekly PvE and top voters, plus VIP info and a bugtracker. Verified first-party October 8 2026: the only headcount on the site is 12 website visitors online, which measures web traffic rather than players, with news last dated August 17 2026. popTier unknown",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://www.omewow.com/",
+    "updated": "2026-10-08"
+  },
+  {
+    "name": "EvolvedWotLK",
+    "status": "playable",
+    "details": "WotLK 3.3.5a on AzerothCore framed as built for long-term play. Verified first-party October 8 2026 with the most honest population widget in this coverage: Online Characters 749, broken down as 1 human and 748 playerbots. A project that labels its own bots in the headline count is reporting more truthfully than servers showing larger undifferentiated numbers. popTier tiny on the single human player, which is what the figure means once read correctly",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://www.evolvedwotlk.com/",
+    "updated": "2026-10-08"
+  },
+  {
+    "name": "Stealth WoW",
+    "status": "dev",
+    "details": "European TBC 2.4.3 custom realm advertising account security, confirmed credit delivery and published prices. Verified first-party October 8 2026: the player-count panel reads Players Coming soon, Live at launch, so the realm is not yet open. Recorded dev on the project's own pre-launch status. popTier unknown",
+    "tag": "TBC",
+    "popTier": "unknown",
+    "url": "https://stealth-wow.com/",
+    "updated": "2026-10-08"
+  },
+  {
+    "name": "Dark Storm Reloaded",
+    "status": "playable",
+    "details": "TBC realm presenting a blizzlike Outland journey with top-player ladders and a VIP support tier. Verified first-party October 8 2026: the realm widget reads no players currently online. popTier tiny on the site's own zero reading",
+    "tag": "TBC",
+    "popTier": "tiny",
+    "url": "https://dsreloaded.com/",
+    "updated": "2026-10-08"
   }
 ]
