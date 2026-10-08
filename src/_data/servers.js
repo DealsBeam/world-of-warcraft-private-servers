@@ -555,11 +555,11 @@ module.exports = [
     {
         "name": "WarCrown",
         "status": "playable",
-        "details": "WotLK on the modern 3.4.5 client (not stock 3.3.5a) — launched May 18 2026, transitioned to 3.4.5 + Crystalsong Sep 12; Phase 1 Tier 7 in progress (Naxx, Obsidian Sanctum, Eye of Eternity, Vault of Archavon 10/25, all 12 Northrend heroics, Arena Season 5, Wintergrasp); phases 2-5 planned (Ulduar, ToC, ICC, Twilight); first-party API verifies realm online Sep 20, population self-reported low, no incidents",
+        "details": "WotLK on the modern 3.4.5 client (not stock 3.3.5a) \u2014 launched May 18 2026, transitioned to 3.4.5 + Crystalsong Sep 12; Phase 1 Tier 7 in progress (Naxx, Obsidian Sanctum, Eye of Eternity, Vault of Archavon 10/25, all 12 Northrend heroics, Arena Season 5, Wintergrasp); phases 2-5 planned (Ulduar, ToC, ICC, Twilight); first-party API verifies realm online Sep 20, population self-reported low, no incidents NEW Oct 8 2026: the project announced a dedicated LATAM server opening October 31 for lower regional latency, running the same WotLK Classic 3.4.5 experience with EU continuing unchanged. Launcher 1.6.1 requires a manual update with 1.6.0 retired, HD models and textures arrived October 4 with a toggle back to the original look, and the project passed 2,000 registered accounts on September 27. The October 31 date is on our calendar to verify.",
         "tag": "WotLK",
         "group": "",
         "url": "https://warcrown.org/",
-        "updated": "2026-09-20",
+        "updated": "2026-10-08",
         "popTier": "unknown"
     },
     {
