@@ -193,6 +193,19 @@ A fan source flagged a discrepancy we had never checked, and the investigation s
 ### Still open after this pass
 Server Slam date, Onyxia launch-versus-December-9, the beta close-date split, Spearing Strike, Heroic price, Forsaken mount model, Legendary questline, 2027 fine print. The auto-shot and wand cast bug: wow-forever.top's Sep 26 build page still lists the Cooldown Manager as five classes and does not mention a fix, so it remains unconfirmed either way.
 
+## Round 14 (podcast ep 3 + Kaivax beta notes, Oct 8-9)
+
+Two sources moved five items. Blizzard's Forever Podcast episode 3 (dungeons) via Tavern's timestamped reporting, and Kaivax development notes mirrored by a status monitor, both read October 9 2026.
+
+- **Timbermaw vs Blackmaw naming: RESOLVED.** Podcast ep 3 names the Azshara dungeon **Blackmaw Hold**, located at the unused Timbermaw Hold entrance, bigger than Blackrock Depths, vertical and non-linear, corrupted furbolgs and demons, comfortable at 60, NOT available during beta. Jones's question is settled by a direct statement: the dungeon is Blackmaw Hold, the gate was Timbermaw's. Discussion at 39:07.
+- **Onyxia attunement: new information, date still open.** The lengthy Classic attunement chain stays and is NOT account-wide at launch; Barrow Deeps and Hyjal Summit have no attunement chains but get unspecified extra steps for the full experience. Discussion at 53:33. This constrains the launch-vs-December-9 conflict without resolving it: an attunement players must complete argues for launch-day relevance.
+- **City of Dalaran dungeon live in beta** with 16 free Legacy points for testing, per Kaivax notes after extended maintenance. A level-30 dungeon west of the Alterac Mountains with a secret summon boss (Lyn the Ignored) via the Tome of Dalaran from Shadowfang Keep.
+- **Dungeon XP up ~20%**, Classic looting behavior restored, weapon swapping within one GCD fixed, party-level XP penalty bug fixed.
+- **Tome of Dalaran mystery resolved by the community**: Black Tome behind Arugal, transformed at the Ambermill Leyline Focus, summons Lyn the Ignored past Atrexis the Grave Knight. Community discovery, not a Blizzard announcement.
+
+### Still open after this pass
+Server Slam date, Onyxia launch-versus-December-9, the beta close-date split, Spearing Strike, Heroic price, Forsaken mount model, Legendary questline, 2027 fine print, auto-shot and wand cast bug.
+
 ## How we'll work it
 
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.
