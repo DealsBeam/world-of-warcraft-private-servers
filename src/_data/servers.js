@@ -2014,5 +2014,23 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://uldaris.net/",
     "updated": "2026-10-08"
+  },
+  {
+    "name": "Kinspire",
+    "status": "playable",
+    "details": "Dual-class WotLK 3.3.5a on AzerothCore: keep your primary class and take a secondary, with abilities, resources, armor, weapons and talents from both, resolved server-side through a genuine module plus custom addon and MPQ patch pipeline rather than GM-granted spells. Built for a handful of family and friends with faster progression and small-group content. Verified first-party October 9 2026: the FAQ states population is measured in single digits by design. popTier tiny on the project's own statement",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://www.kinspirerealm.com/",
+    "updated": "2026-10-09"
+  },
+  {
+    "name": "Skufograd",
+    "status": "playable",
+    "details": "Russian 3.3.5a realm running phased content with TBC/WotLK restrictions, currently in a Classic phase with draenei and blood elf races unlocked. Publishes dated hotfixes (v0.01a September 5 2026) and bot-behavior notes. Verified first-party October 9 2026: the widget reads 19 online (15 Alliance, 4 Horde) with 255 bots alongside, 0 unique players today and 16 for the month, and the published realmlist points at logon.extazy-wow.ru rather than the site domain. popTier tiny on the site's own 19 figure, self-reported as all such counters are",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://skufograd.ru/",
+    "updated": "2026-10-09"
   }
 ]
