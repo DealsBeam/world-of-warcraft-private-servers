@@ -833,7 +833,7 @@ module.exports = [
     {
         "name": "Warstorm",
         "status": "playable",
-        "details": "Solo WotLK since Sep 2025, ~200 pop, blizzlike NPC stats, AI PlayerBots that execute raid strategies (ICC25 HC capable), dungeon finder, 1-5x XP, transmog, Auto-Grind-Bot (AFK leveling, in-game), Book of Powers (mounts at any level, mobile bank/AH, Dalaran TP), Activity Points store",
+        "details": "Solo WotLK since Sep 2025, ~200 pop, blizzlike NPC stats, AI PlayerBots that execute raid strategies (ICC25 HC capable), dungeon finder, 1-5x XP, transmog, Auto-Grind-Bot (AFK leveling, in-game), Book of Powers (mounts at any level, mobile bank/AH, Dalaran TP), Activity Points store; re-verified first-party Oct 14 2026 with no change: the news feed still ends at Sep 12 2025 and no population counter is published, so ~200 remains an earlier self-reported figure rather than a current reading",
         "tag": "WotLK",
         "group": "",
         "url": "https://warstorm.org/",
