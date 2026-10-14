@@ -20,14 +20,24 @@ async function get(path) {
 
 async function readTrack(tact) {
     const cur = await get(`/manifest/${tact}/versions`);
-    const seqns = await get(`/manifest/${tact}/seqn/?file=versions&limit=9`);
-    let history = await Promise.all(seqns.results.map(async s => {
+    // The seqn endpoint returns at most 10 rows and has no offset parameter, but
+    // accepts ?page=N. One page can repeat the same build many times, so a quiet
+    // track can show only two or three distinct builds in its newest ten
+    // sequences. We read two pages back to keep a real build trajectory in view.
+    const seqns = [];
+    for (const page of [1, 2]) {
+        const p = await get(`/manifest/${tact}/seqn/?file=versions&limit=10&page=${page}`);
+        if (p && Array.isArray(p.results)) seqns.push(...p.results);
+    }
+    let history = await Promise.all(seqns.map(async s => {
         const v = await get(`/manifest/${tact}/versions?seqn=${s.seqn}`);
         return { seqn: s.seqn, date: s.created_at.slice(0, 10), version: v.data[0].version_name };
     }));
-    // dedupe by version (same build can appear on multiple seqn)
+    // dedupe by version (same build can appear on multiple seqn); the seqn feed is
+    // newest-first and we concatenated page 1 then page 2, so kept entries stay in
+    // newest-first order. Cap the stored list so the rendered history stays short.
     const seen = new Set();
-    history = history.filter(h => !seen.has(h.version) && (seen.add(h.version), true));
+    history = history.filter(h => !seen.has(h.version) && (seen.add(h.version), true)).slice(0, 12);
     return {
         ok: true,
         tact,

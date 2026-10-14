@@ -286,11 +286,11 @@ module.exports = [
     {
         "name": "Freedom WoW",
         "status": "playable",
-        "details": "Ukrainian WotLK 3.3.5a, x5, free, 531 online at site check Sep 23, ~7.5k Discord, smart cross-faction (heals instance-only), arena season 8, 120-player Wintergrasp, original 3.3 balance, patch Aug 28; prior tracker label ~~FreedomWoW~~ (Aug 24 listing) consolidated into this verified entry Sep 23",
+        "details": "Ukrainian WotLK 3.3.5a, x5, free, 531 online at site check Sep 23, ~7.5k Discord, smart cross-faction (heals instance-only), arena season 8, 120-player Wintergrasp, original 3.3 balance, patch Aug 28; prior tracker label ~~FreedomWoW~~ (Aug 24 listing) consolidated into this verified entry Sep 23; re-verified Oct 14 2026: the site widget reads 385 online (down from 531 on Sep 23), and the site marks its fourth anniversary Oct 3 2026",
         "tag": "WotLK",
         "group": "",
         "url": "https://freedom-wow.in.ua/en",
-        "updated": "2026-09-23",
+        "updated": "2026-10-14",
         "popTier": "medium"
     },
     {
@@ -476,11 +476,11 @@ module.exports = [
     {
         "name": "Hellgarve",
         "status": "playable",
-        "details": "Legion 7.3.5 solocraft (Stormrage realm): working artifact questlines, x1-x3 + double-XP weekends, optional hardcore, custom questlines, fixer NPC, community guild at creation",
+        "details": "Legion 7.3.5 solocraft (Stormrage realm): working artifact questlines, x1-x3 + double-XP weekends, optional hardcore, custom questlines, fixer NPC, community guild at creation; ships a prepared client so no realmlist edit is needed; re-verified Oct 14 2026 with no change",
         "tag": "Legion",
         "group": "",
         "url": "https://wowhellgarve.com/legion/en/",
-        "updated": "2026-09-11",
+        "updated": "2026-10-14",
         "popTier": "tiny"
     },
     {
@@ -837,7 +837,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://warstorm.org/",
-        "updated": "2026-09-19",
+        "updated": "2026-10-14",
         "popTier": "small"
     },
     {
@@ -1712,11 +1712,11 @@ module.exports = [
   {
     "name": "Emervoid",
     "status": "dev",
-    "details": "German Mists of Pandaria and Legion project with an open bugtracker tracking Antorus and class-hall issues by percentage fixed. Verified first-party October 4 2026: the newest status update is August 2 2026 with forum replies into late September, and Legion systems are described as in progress rather than finished. Recorded dev because the project's own pages describe systems under construction. popTier unknown",
+    "details": "German Mists of Pandaria and Legion project with an open bugtracker tracking Antorus and class-hall issues by percentage fixed. Verified first-party October 4 2026: the newest status update is August 2 2026 with forum replies into late September, and Legion systems are described as in progress rather than finished. Recorded dev because the project's own pages describe systems under construction. The project now presents at emervoid.de (originally tracked at mop-germany.de), sharing its Enter the Void branding and site template with Zamolxia, recorded as a possible common operator (unconfirmed). Re-verified Oct 14 2026; status stays dev pending a clearer release statement. popTier unknown",
     "tag": "MoP",
     "popTier": "unknown",
-    "url": "https://www.mop-germany.de/",
-    "updated": "2026-10-04"
+    "url": "https://emervoid.de/",
+    "updated": "2026-10-14"
   },
   {
     "name": "Ivalice Reborn",
@@ -2041,5 +2041,134 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://lordaeron.eu/",
     "updated": "2026-10-12"
+  },
+
+
+  {
+    "name": "Shadowsong",
+    "status": "dev",
+    "details": "Ultra-fun WotLK 3.3.5 custom realm (Monk and Demon Hunter, triple spec, 255 talents, MoP and Legion spells, T1 to T9 raids, S0 to S4 PvP, solo queue and bot battlegrounds), advertised as no pay-to-win. DATED CLAIM: opens October 25 2026. The site lists a 24 hour peak of 4,891 players, a pre-launch promotional figure rather than an audited count. Verified first-party October 14 2026. popTier unknown because the realm is not yet open.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://shadowsong-wow.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "WowMythic",
+    "status": "playable",
+    "details": "Legion 7.3.5 project with timed Mythic+ dungeons, PvE ladders and competitions, a PvE spectator mode, and solo queue for 1v1 and 3v3 arena. The site reports 0 online and its newest news posts date to 2024 (patch 7.2.5 arriving, realm-first races), so published activity is stale. Verified first-party October 14 2026. popTier tiny on the site's own zero.",
+    "tag": "Legion",
+    "popTier": "tiny",
+    "url": "https://wowmythic.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "IceCold",
+    "status": "playable",
+    "details": "Wrath-era Cataclysm 4.3.4 private server running a conventional forum and support stack, with account creation, launcher download, bug tracker and Discord login. Verified reachable and operating first-party October 14 2026. popTier unknown; no population counter is published.",
+    "tag": "Cataclysm",
+    "popTier": "unknown",
+    "url": "https://icecold-wow.com/",
+    "updated": "2026-10-14"
+  },
+
+  {
+    "name": "Zamolxia",
+    "status": "playable",
+    "details": "Handcrafted WotLK 3.3.5a realm with playerbots keeping the world populated, AutoBalance scaling encounters from solo to full raid, and quality-of-life additions including transmog and auction helpers. News dated September 16 2026. Shares its branding and site template with Emervoid, suggesting a common operator, recorded as unconfirmed. Verified first-party October 14 2026. popTier unknown.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://zamolxia.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "Evolution-WoW",
+    "status": "playable",
+    "details": "Level 255 funserver on the Wrath client with custom progression, Mythic+ and PvP ranking, and a level cap far past retail. The site header reports 1,794 visitors online, which is site traffic rather than a player count and is deliberately not used as a population figure. Verified first-party October 14 2026. popTier unknown.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://evolutionz-wow.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "BasedWoW",
+    "status": "playable",
+    "details": "Vanilla 1.12.1 realm on AzerothCore with a single realm, Lightbringer, plus a launcher and client download, shop, ladder and talent calculator. Dated news as recent as October 6 2026 (a post titled The power of prayer in BasedWoW). Verified first-party October 14 2026. popTier unknown; the realm status widget is present but publishes no durable player count.",
+    "tag": "Vanilla",
+    "popTier": "unknown",
+    "url": "https://basedwow.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "WoW 163",
+    "status": "playable",
+    "details": "Russian WotLK 3.3.5a project running two realms, WoW-163 x10 and WoW-163 x1, with arena, guild and armory sections, era keys, and a talent calculator. Verified first-party October 14 2026: the site's own online counter reads 13 in total. popTier tiny on that self-reported figure.",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://wow-163.ru/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "Azure Outback",
+    "status": "playable",
+    "details": "Australian WotLK realm on AzerothCore built for relaxed progression, community and PvP, with a custom site launched mid 2026 and raid changes dated July 15 2026. Verified first-party October 14 2026: the realm status reads Azure Outback 1 of 1,000. popTier tiny on that self-reported figure.",
+    "tag": "WotLK",
+    "popTier": "tiny",
+    "url": "https://azureoutback.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "Spectrum WoW",
+    "status": "playable",
+    "details": "WotLK 3.3.5a level-80 funserver with custom scripted bosses, balanced PvP, and anti-farm battlegrounds, advertised as needing no client edits (realmlist logon.spectrum-wow.com). Verified first-party October 14 2026. popTier unknown; no population counter is published.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://spectrum-wow.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "CruzadaServer",
+    "status": "playable",
+    "details": "Spanish-language, multi-language WotLK 3.3.5a realm with custom quests, events and raids, an armory, guides and a donation shop, advertising 99.9 percent uptime. Verified first-party October 14 2026. popTier unknown; no population counter is published.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://cruzadaserver.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "DF MeWe",
+    "status": "playable",
+    "details": "Spanish WotLK 3.3.5a realm with its own launcher, realmlist dfmewe.es, planned new races (Pandaren, Worgen, Goblin), a shop and market, and a vote system. The site exposes online, character and account counters, but they were not populated at read time. Verified first-party October 14 2026. popTier unknown.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://dfmewe.es/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "WoW Eras",
+    "status": "playable",
+    "details": "Latin American (Chile) project running three eras per character on a WotLK 3.3.5a client: start in a 1.12 Azeroth with the Dark Portal closed, then open Outland by clearing the 19 classic dungeons, then Northrend by clearing Outland. Progression is per character, not per realm. realmlist play.wow-eras.com. Verified first-party October 14 2026. popTier unknown.",
+    "tag": "Multi",
+    "popTier": "unknown",
+    "url": "https://wow-eras.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "Aether",
+    "status": "playable",
+    "details": "Brazilian progressive Wrath-client realm with phase-based progression, region and boss schedules, a market and contracts system, guild halls, tournaments, a 3D model viewer, and an ironman mode. Verified first-party October 14 2026. popTier unknown.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://forgeaether.com/",
+    "updated": "2026-10-14"
+  },
+  {
+    "name": "Hijos del Tiempo",
+    "status": "playable",
+    "details": "Spanish multi-expansion project offering a Northrend adventure with permanent character death (hardcore) alongside a deeper underground progression path. Verified first-party October 14 2026. popTier unknown.",
+    "tag": "Multi",
+    "popTier": "unknown",
+    "url": "https://hijosdeltiempo.com/",
+    "updated": "2026-10-14"
   }
 ]
