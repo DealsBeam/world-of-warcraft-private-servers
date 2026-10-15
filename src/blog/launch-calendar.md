@@ -18,6 +18,7 @@ It is split in two on purpose. **Verified** means we have read the date at its s
 - **October 16:** uWoW's high-rate Mists of Pandaria realm, `MoP x10`.
 - **October 22:** [Anachronos](/news/tempest-anachronos-launches/), a blizzlike Vanilla progressive realm.
 - **October 23:** [Project Epoch Reborn](/news/project-epoch-reborn-launches-october-23/) relaunches a Classic+ realm at 16:00 GMT.
+- **December 15, 2027:** [Shadowburn](/servers/shadowburn/), a non-commercial custom WotLK 3.3.5a project, states this date in its own launch countdown. It is the furthest-out launch in the field and is still in development.
 
 **WoW: Forever milestones (Blizzard's own dates)**
 
@@ -33,7 +34,6 @@ The full Forever timeline and its sourcing sit in our [roadmap post](/news/forev
 
 - **October 17:** WoW Circle opens a fresh Legion x5 realm, with Battle for Azeroth and Shadowlands planned to follow.
 - **November 28:** Frontier, a custom Vanilla+ project.
-- **December 15, 2027:** Shadowburn, a custom WotLK+ project with the furthest-out date in the current field.
 
 These come from server announcements and listing sites. They are useful for planning, but do not book a day off around them until they firm up.
 

@@ -2224,5 +2224,26 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://wowsulvus.es/",
     "updated": "2026-10-15"
+  },
+  {
+    "name": "InfernoWoW",
+    "status": "playable",
+    "details": "Custom level-60 adventure built on the 3.3.5a client, described on its own site as 'WotLK meets Vanilla', reimagining Azeroth with reworked Death Knights and professions, custom itemization and a glyph overhaul, a fourth Priest specialization (Inquisition, a Holy caster DPS, added April 13 2026), downported Cataclysm battlegrounds (Battle for Gilneas from level 30, Twin Peaks from level 40, both cross-faction and rated), a Mythic+ dungeon system, a Black Market Auction House (May 6 2026) and bank-material crafting (May 11 2026). PvE with opt-in PvP at x1 rates. Its changelog documents activity through the week of May 31 2026. The site's own live counter read 0 online during our October 15 2026 check while its Discord widget read 131 online of 419 members, so treat it as quiet at low hours. Verified first-party October 15 2026.",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://infernowow.org/",
+    "updated": "2026-10-15",
+    "popTier": "tiny"
+  },
+  {
+    "name": "Shadowburn",
+    "status": "dev",
+    "details": "Non-commercial, fan-made Wrath of the Lich King 3.3.5a project in active development, announced August 10 2026 with a stated launch date of December 15 2027. Its site describes a Frost Legacy core, one level cap with every raid from Molten Core to Icecrown Citadel rescaled to 80, a seasonal Battle Pass, four opt-in character modes (Questbound, Deathbound, Battlebound, Grimbound), cosmetics only and no pay-to-win, and a zone-rework plan running one zone at a time (Elwynn Forest in development, Dun Morogh next, Kalimdor and Outland planned). A small volunteer team recruiting a core developer, a database developer and game masters. Verified first-party October 15 2026.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://www.shadowburn.net/",
+    "updated": "2026-10-15",
+    "popTier": "unknown",
+    "release": "December 15, 2027"
   }
 ]
