@@ -2215,5 +2215,14 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://wowonelove.ru/",
     "updated": "2026-10-15"
+  },
+  {
+    "name": "Sulvus Reforged",
+    "status": "playable",
+    "details": "Wrath of the Lich King 3.3.5a PvP realm at wowsulvus.es, opened October 15 2026 at 16:00 UTC. Built on a new in-house core by the team behind the original Sulvus, a Spanish instant-80 project whose Erenia realm ran arena seasons in 2016 and 2017. Its own site lists Solo Queue Shuffle, rated 1v1, 2v2 and 3v3 with class-aware 1v1 matchmaking, Mists of Pandaria and Legion battlegrounds starting with Temple of Kotmogu, playable Demon Hunter and Monk rebuilt for 3.3.5a, cross-faction queues, spell batching, a template NPC granting full starter gear in under 10 seconds, a duel zone and a killstreak world PvP zone, arena chests in four tiers, cash-prize tournaments and no pay-to-win. Deliberately kept separate from the tracked WowSulvus at wowsulvus.com, an unrelated instant-80 Adarea realm. Verified first-party October 15 2026. popTier unknown; no player counter is published.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://wowsulvus.es/",
+    "updated": "2026-10-15"
   }
 ]
