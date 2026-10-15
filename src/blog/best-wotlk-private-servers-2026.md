@@ -47,3 +47,5 @@ A few rules of thumb:
 4. **Solo players have real options now.** TheraWoW and OnlyFunsWoW show the scene has moved past requiring a group for everything.
 
 For the live status of every WotLK server on this list, see [the WotLK tag on the tracker](/). If a realm here has shut down, it's moved to the closed section with a date.
+
+Picks by expansion: [TBC](/blog/best-tbc-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).
