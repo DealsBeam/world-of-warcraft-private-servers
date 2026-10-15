@@ -28,6 +28,8 @@ Fourteen candidates held up and are now graded entries:
 
 Three more candidates the scan surfaced turned out to be **already tracked**, just under names the catalog did not use: **Freedom WoW**, **Hellgarve** and **Emervoid**. Rather than add duplicates, we folded the fresh readings into the existing entries, including the October 14 population snapshot for Freedom WoW (385 online, down from 531 on September 23) and Emervoid's move to its own domain at emervoid.de.
 
+**Update, October 15 2026: five more from the same sweep passed verification.** [wowserver Romania](/servers/wowserver-romania/) (WotLK 3.3.5a, with a .NET 8 launcher dated September 12 and AI dungeon auto-fill), [Warriorland](/servers/warriorland/) (French blizzlike 4.3.4, home-hosted, its own counter reading 0 of 255), [RaguWoW](/servers/raguwow/) (TBC 2.4.3 at x10, home-hosted, news through August 4), [illiwow](/servers/illiwow/) (a TBC 2.4.3 arena that runs in the browser), and [WoW OneLove](/servers/wow-onelove/) (a Russian free project across 3.3.5a, 7.3.5 and 5.4.8 built for solo play). Two others the same day went the other way: **srwow1.com** now serves an unrelated advertising page, and **voidmaster.xyz** returns an empty body to every request we made, so neither can be graded.
+
 ## The dated claim that matters
 
 **Shadowsong opens October 25 2026.** The site also advertises a 24-hour peak of **4,891 players**, but that is a pre-launch promotional figure rather than an audited count, so the entry records it as a claim and the population band stays unknown until the realm is open.
@@ -46,6 +48,6 @@ Three more candidates the scan surfaced turned out to be **already tracked**, ju
 
 A listing site's raw count is not a count of live servers. Our tracker grades **reachability**, **first-party evidence**, and a **population band** instead. That is why a sweep that starts at 87 ends at 14 additions and one withheld, and why the same discipline that keeps the count honest is the one that catches a squatted domain before it becomes a wrong entry.
 
-The tracker now carries **224 graded servers**.
+The tracker carried **224 graded servers** after that first pass and **229** after the October 15 follow-up above.
 
 SOURCES: every candidate was fetched directly from its own domain on October 14 2026, with a control domain probed in the same batch and unreachable hosts retried. Listing-catalog slugs and names are from the public catalog's own select list, used only to find candidates, never as evidence of a server's health. Related: [how we review a private server](/blog/how-we-review-a-private-server/), [the correction policy](/blog/tracker-correction-policy-explained/), and the [October dates calendar](/news/october-dates-calendar-oct-8/).

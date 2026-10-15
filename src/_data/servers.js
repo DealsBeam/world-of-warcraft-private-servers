@@ -2170,5 +2170,50 @@ module.exports = [
     "popTier": "unknown",
     "url": "https://hijosdeltiempo.com/",
     "updated": "2026-10-14"
+  },
+  {
+    "name": "wowserver Romania",
+    "status": "playable",
+    "details": "Romanian WotLK 3.3.5a project with a custom launcher announced September 12 2026 (a .NET 8 build with one-click install, SHA-256 file checks and automatic realmlist setup), plus armory, PvP statistics and changelog sections. Its feature pages advertise instant entrances to classic, TBC and Wrath dungeons, fast transport between capitals, and an AI that auto-queues when not enough players are online to fill a group. Verified first-party October 15 2026. popTier unknown; no player counter is published.",
+    "tag": "WotLK",
+    "popTier": "unknown",
+    "url": "https://wowserver.ro/",
+    "updated": "2026-10-15"
+  },
+  {
+    "name": "Warriorland",
+    "status": "playable",
+    "details": "French blizzlike Cataclysm 4.3.4 realm advertising 99 percent debugged PvP and PvE scripting, Wintergrasp and the Arena of the Valiant as Cataclysm exclusives, arena gear styled after WotLK, quests debugged by zone, and working events. Hosted on dynamic DNS (warriorland.ddns.net), a home-hosting pattern rather than a datacenter project. Verified first-party October 15 2026: the site's own Joueurs en ligne widget reads 0 of 255 and the shoutbox's newest post is 22 days old. popTier tiny on that self-reported figure.",
+    "tag": "Cataclysm",
+    "popTier": "tiny",
+    "url": "https://warriorland.ddns.net/",
+    "updated": "2026-10-15"
+  },
+  {
+    "name": "RaguWoW",
+    "status": "playable",
+    "details": "The Burning Crusade 2.4.3 server (PvE and PvP) at x10 experience, x5 drop rate and x10 epic drop rate, on a Sunwell-themed site with realm status, changelog and event calendar. News dated July 11 2026 (major world AI updates) and August 4 2026 (security changes, auction house operational with 3,500+ items). Hosted on dynamic DNS (raguwow.noip.me), a home-hosting pattern. Verified first-party October 15 2026. popTier unknown: the page's Users Online count is a website counter rather than a player count, so it is deliberately not used as population.",
+    "tag": "TBC",
+    "popTier": "unknown",
+    "url": "https://raguwow.noip.me/",
+    "updated": "2026-10-15"
+  },
+  {
+    "name": "illiwow",
+    "status": "playable",
+    "details": "Burning Crusade 2.4.3 arena that runs in the browser: real WoW combat rated at 1v1, 2v2 and 3v3, free to play with nothing to download, per the project's own description. Verified first-party October 15 2026 from its landing page. popTier unknown; no player counter is published.",
+    "tag": "TBC",
+    "popTier": "unknown",
+    "url": "https://illiwow.net/",
+    "updated": "2026-10-15"
+  },
+  {
+    "name": "WoW OneLove",
+    "status": "playable",
+    "details": "Russian free project offering three clients (3.3.5a, 7.3.5 and 5.4.8) built for solo and small-party play with no raid queues: you are the raid. Custom content opens gradually (action raids sized for small groups, new quests, and currently one new boss behind mythic keys), and the site states no pay-to-win, with donations supporting the project and affecting PvE content only while the realm was built PvP-first. The project's own core has been under development for over five years and its custom launcher is still listed as coming later, so play goes through a manual realmlist; the Legion solo realm runs at legion-solo.wowonelove.ru with realmlist login.wowonelove.ru. Verified first-party October 15 2026. popTier unknown; no player counter is published.",
+    "tag": "Multi",
+    "popTier": "unknown",
+    "url": "https://wowonelove.ru/",
+    "updated": "2026-10-15"
   }
 ]
