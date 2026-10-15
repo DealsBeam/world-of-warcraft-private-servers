@@ -127,6 +127,11 @@ for (let i = 0; i < titles.length; i++) {
 // at 0.71 and old-man-warcraft-guide vs old-man-warcraft-review, neither caught
 // by the cross-section rule above.
 const norm = t => titleWords(t).sort().join(" ");
+// A deliberate series: one "best of" page per expansion. Each targets a
+// different expansion query, so the near-identical title shape is the point.
+const INTENTIONAL_TITLE_SERIES = [
+    /^best .+ private servers in 2026$/i
+];
 const INTENTIONAL_SAME_SECTION = new Set([
     // Different expansions, different search intent, both are "best of" roundups.
     ["best vanilla+ private servers in 2026", "best wotlk private servers in 2026"],
@@ -142,6 +147,7 @@ for (const source of ["news", "blog"]) {
             const a = norm(inSection[i].title);
             const b = norm(inSection[j].title);
             if (INTENTIONAL_SAME_SECTION.has(`${a}|${b}`) || INTENTIONAL_SAME_SECTION.has(`${b}|${a}`)) continue;
+            if (INTENTIONAL_TITLE_SERIES.some(re => re.test(inSection[i].title) && re.test(inSection[j].title))) continue;
             const sim = similarity(inSection[i].title, inSection[j].title);
             if (sim >= 0.5) {
                 assert.fail(`Near-duplicate ${source} titles (sim ${sim.toFixed(2)}): "${inSection[i].title}" vs "${inSection[j].title}". Merge them, or add the pair to INTENTIONAL_SAME_SECTION with a reason.`);
