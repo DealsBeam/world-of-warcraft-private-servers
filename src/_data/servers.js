@@ -2245,5 +2245,14 @@ module.exports = [
     "updated": "2026-10-15",
     "popTier": "unknown",
     "release": "December 15, 2027"
+  },
+  {
+    "name": "Marble-WoW",
+    "status": "playable",
+    "details": "High-stats Wrath of the Lich King 3.3.5a server on its own progression, realm Mayfair 255 (PvP and PvE). Characters start at level 55, Death Knights included, with a maximum level of 255; any race can play any class and custom races are supported, and combat runs on inflated stats and custom haste. Its hook is timed raid trials: take your main set piece to the Tier Master, clear a raid against the clock and upgrade it from T6 to T10, with per-raid record boards (Black Temple 17m 55s and Onyxia's Lair 0m 47s at our read). Tools include an armory, unstuck, level-up and character-restore pages and a custom weapon creator; the PvP statistics list a top killer at 9,711 kills. Runs the FusionGEN 1.0.7 CMS in English, French and Spanish, with a YouTube trailer and a Discord. News posted August 27 2026. Reachable over plain HTTP only at marble-wow.com; there was no working HTTPS on October 16 2026, so we record the project without a site link. popTier unknown: no readable player counter was present at our read.",
+    "tag": "WotLK",
+    "group": "",
+    "updated": "2026-10-16",
+    "popTier": "unknown"
   }
 ]
