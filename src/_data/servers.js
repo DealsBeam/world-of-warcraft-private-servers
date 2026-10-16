@@ -2264,5 +2264,25 @@ module.exports = [
     "url": "https://yggdrasilwow.com/",
     "updated": "2026-10-16",
     "popTier": "unknown"
+  },
+  {
+    "name": "Kaelara WoW",
+    "status": "playable",
+    "details": "Wrath of the Lich King 3.3.5a realm at kaelara.one, presented in English and Russian. Its focus is keystone (Mythic+) dungeons with escalating keys across Northrend dungeons including Utgarde Keep, The Nexus, Gundrak and the Culling of Stratholme, alongside regular events and a progression it describes as respecting players' time. It ships a launcher and a forum. The site header showed an Online figure of 7 at our October 16 2026 read, while a third-party directory lists its Discord at 1,155 members with 248 online at the same read, a far larger social following than the in-game counter suggests. popTier unknown: the header figure is not clearly a concurrent game population, so we do not band it. Verified first-party October 16 2026.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://kaelara.one/",
+    "updated": "2026-10-16",
+    "popTier": "unknown"
+  },
+  {
+    "name": "TanadosWoW",
+    "status": "playable",
+    "details": "Custom realm at wow.tanados.com, built on the 3.3.5a client and presented as Tanados Custom Realm. Its site shows a playable alpha open to registered testers, with custom progression, reworked content and a community-first endgame; account setup unlocks after registration, and public visitors see only news, rules, legal pages and rankings. News carried through July 2026, when a Treasure Hunter League was added. A third-party directory lists the project as multi-expansion on AzerothCore with cross-faction play, bot support, adjustable x1 to x10 experience and a no pay-to-win stance; we record those as the directory's claims rather than our own. popTier unknown: no first-party player counter was present at our read. Verified first-party October 16 2026.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://wow.tanados.com/",
+    "updated": "2026-10-16",
+    "popTier": "unknown"
   }
 ]
