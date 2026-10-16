@@ -426,11 +426,11 @@ module.exports = [
     {
         "name": "Project Astral",
         "status": "dev",
-        "details": "Custom PvE WotLK: Astral Tree (1000+ nodes), Prestige Store, Mythic raids + token lockout resets, cross-class Astral Gems, Chromie prestige — Open Beta/Season 0 countdown live, not yet launched",
+        "details": "Custom PvE WotLK: Astral Tree (1000+ nodes), Prestige Store, Mythic raids with token lockout resets, cross-class Astral Gems and Chromie prestige. CORRECTED October 16 2026: the realm is closed, not pre-launch. Its own site reads Dev Closed and Live Closed and states that Season 1 is under development and the server is closed, which supersedes our September 11 entry describing an open beta and a Season 0 that had not yet started: the season ran and has ended. A competitor listing dates the opening to September 4 2026 and the shutdown to October 10 2026; we record those as the other source's dates, not our own. No relaunch date is published, so the entry stays in development.",
         "tag": "WotLK",
         "group": "",
         "url": "https://playastral.io/",
-        "updated": "2026-09-11",
+        "updated": "2026-10-16",
         "popTier": "unknown"
     },
     {
@@ -2252,6 +2252,16 @@ module.exports = [
     "details": "High-stats Wrath of the Lich King 3.3.5a server on its own progression, realm Mayfair 255 (PvP and PvE). Characters start at level 55, Death Knights included, with a maximum level of 255; any race can play any class and custom races are supported, and combat runs on inflated stats and custom haste. Its hook is timed raid trials: take your main set piece to the Tier Master, clear a raid against the clock and upgrade it from T6 to T10, with per-raid record boards (Black Temple 17m 55s and Onyxia's Lair 0m 47s at our read). Tools include an armory, unstuck, level-up and character-restore pages and a custom weapon creator; the PvP statistics list a top killer at 9,711 kills. Runs the FusionGEN 1.0.7 CMS in English, French and Spanish, with a YouTube trailer and a Discord. News posted August 27 2026. Reachable over plain HTTP only at marble-wow.com; there was no working HTTPS on October 16 2026, so we record the project without a site link. popTier unknown: no readable player counter was present at our read.",
     "tag": "WotLK",
     "group": "",
+    "updated": "2026-10-16",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Yggdrasil WoW",
+    "status": "playable",
+    "details": "Community-driven blizzlike Wrath of the Lich King 3.3.5a realm on AzerothCore, described by its operators as for the players, by the players. Server type PVE and cross-faction, with party bots (altbots) available. XP rates are adjustable at 1x to 5x free and 6x to 10x for voting, with other rates at 2x. Realmlist logon.yggdrasilwow.com. The site runs RAF, a VIP store, PvP and PvE statistics, an armory and a changelog, and its news carried a development update in late September 2026. Hosted from Norway. popTier unknown: the online counter is loaded by script and no static figure appears in the page.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://yggdrasilwow.com/",
     "updated": "2026-10-16",
     "popTier": "unknown"
   }
