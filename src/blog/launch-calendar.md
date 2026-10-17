@@ -16,6 +16,7 @@ It is split in two on purpose. **Verified** means we have read the date at its s
 - **October 15:** [Sulvus Reforged](/servers/sulvus-reforged/) (WotLK 3.3.5a PvP) opens at 16:00 UTC at wowsulvus.es. See [the launch note](/news/sulvus-reforged-opens-oct-15/).
 - **October 16:** [Lordaeron.eu Rimeheart](/news/lordaeron-eu-opens-october-16-oct-12/), a custom WotLK progressive realm, at 17:00 UTC. Both its realms returned online in its own status feed on October 17, the day after the gate. See [the launch-day addendum](/news/october-16-launch-day-uwow-mop-nozdor-dune/).
 - **October 16:** uWoW's high-rate Mists of Pandaria realm, `MoP x10`.
+- **October 17:** [WoW Circle](/servers/wow-circle/) opens a fresh Legion 7.3.5 x5 realm, dated by the project's own news to 19:00 Moscow (16:00 UTC). Battle for Azeroth x5 is planned for around December 2026 and Shadowlands x5 for around February 2027. See [the opening note](/news/wow-circle-legion-x5-opens-october-17/).
 - **October 22:** [Anachronos](/news/tempest-anachronos-launches/), a blizzlike Vanilla progressive realm.
 - **October 23:** [Project Epoch Reborn](/news/project-epoch-reborn-launches-october-23/) relaunches a Classic+ realm at 16:00 GMT.
 - **December 15, 2027:** [Shadowburn](/servers/shadowburn/), a non-commercial custom WotLK 3.3.5a project, states this date in its own launch countdown. It is the furthest-out launch in the field and is still in development.
@@ -32,7 +33,6 @@ The full Forever timeline and its sourcing sit in our [roadmap post](/news/forev
 
 ## Announced, not yet verified
 
-- **October 17:** WoW Circle opens a fresh Legion x5 realm, with Battle for Azeroth and Shadowlands planned to follow.
 - **November 28:** Frontier, a custom Vanilla+ project.
 
 These come from server announcements and listing sites. They are useful for planning, but do not book a day off around them until they firm up.
