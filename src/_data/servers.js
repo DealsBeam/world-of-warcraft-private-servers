@@ -2035,12 +2035,12 @@ module.exports = [
   },
   {
     "name": "Lordaeron",
-    "status": "dev",
-    "details": "Independent free WotLK 3.3.5a project opening both realms October 16 2026 at 19:00 CEST (17:00 UTC) per the site's own countdown. Two realms on one account and one shop: Lordaeron (Epic Progressive, Vanilla to TBC to WotLK in turn at x5 XP, transmogrification, cross-faction, twice-weekly raid resets, and a Lone Champion solo path) and Rimeheart (custom Northrend with five three-month phases, early heroic raids, artifact-quality gear, world bosses rewarding every participant, rebuilt Tempest Keep at level 80, 30 new class spells, 277 recipes, 28 profession specializations). Shares a name with Warmane's flagship realm but is a separate project with no affiliation; the footer states it is not affiliated with Blizzard Entertainment. Verified first-party October 12 2026. popTier unknown because the site publishes no population counter.",
+    "status": "playable",
+    "details": "Independent free WotLK 3.3.5a project opening both realms October 16 2026 at 19:00 CEST (17:00 UTC) per the site's own countdown. Two realms on one account and one shop: Lordaeron (Epic Progressive, Vanilla to TBC to WotLK in turn at x5 XP, transmogrification, cross-faction, twice-weekly raid resets, and a Lone Champion solo path) and Rimeheart (custom Northrend with five three-month phases, early heroic raids, artifact-quality gear, world bosses rewarding every participant, rebuilt Tempest Keep at level 80, 30 new class spells, 277 recipes, 28 profession specializations). Shares a name with Warmane's flagship realm but is a separate project with no affiliation; the footer states it is not affiliated with Blizzard Entertainment. Verified first-party October 12 2026. REACHED AND OPENED: on October 17 2026 we read the project's own status feed at /api/server/status and both Lordaeron and Rimeheart returned online true, with realm process start times of 04:00 and 04:01 UTC that morning; the gate had been 19:00 CEST (17:00 UTC) on October 16, and the site's static banner still showed the pre-open countdown at our read. popTier unknown because the site publishes no population counter.",
     "tag": "WotLK",
     "popTier": "unknown",
     "url": "https://lordaeron.eu/",
-    "updated": "2026-10-12"
+    "updated": "2026-10-17"
   },
 
 

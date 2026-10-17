@@ -14,7 +14,7 @@ It is split in two on purpose. **Verified** means we have read the date at its s
 **Private server launches**
 
 - **October 15:** [Sulvus Reforged](/servers/sulvus-reforged/) (WotLK 3.3.5a PvP) opens at 16:00 UTC at wowsulvus.es. See [the launch note](/news/sulvus-reforged-opens-oct-15/).
-- **October 16:** [Lordaeron.eu Rimeheart](/news/lordaeron-eu-opens-october-16-oct-12/), a custom WotLK progressive realm, at 17:00 UTC.
+- **October 16:** [Lordaeron.eu Rimeheart](/news/lordaeron-eu-opens-october-16-oct-12/), a custom WotLK progressive realm, at 17:00 UTC. Both its realms returned online in its own status feed on October 17, the day after the gate. See [the launch-day addendum](/news/october-16-launch-day-uwow-mop-nozdor-dune/).
 - **October 16:** uWoW's high-rate Mists of Pandaria realm, `MoP x10`.
 - **October 22:** [Anachronos](/news/tempest-anachronos-launches/), a blizzlike Vanilla progressive realm.
 - **October 23:** [Project Epoch Reborn](/news/project-epoch-reborn-launches-october-23/) relaunches a Classic+ realm at 16:00 GMT.
@@ -43,4 +43,4 @@ Several projects in testing have **no launch date at all**, so they cannot go on
 
 If you want the servers rather than the dates, the [full tracker](/servers/) is the place to start, and [new and recently opened realms](/servers/) are filterable there.
 
-LAST UPDATED: October 15 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
+LAST UPDATED: October 17 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
