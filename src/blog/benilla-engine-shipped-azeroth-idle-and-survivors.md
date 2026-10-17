@@ -33,6 +33,18 @@ At our read on **17 October 2026** its front page showed:
 
 Two practical notes from its own code. The browser client pulls a realm of roughly **2.7 GB** into browser storage, and its queue code names a **2.9 GB browser storage limit**, so expect to grant extra storage. And its client handoff code references a **benilla config path**, which is the same engine, recorded here as an artefact of shipped code rather than an official statement by either project.
 
+## Updated later the same day: it is more than two
+
+While verifying the links for this page we found that the engine now has a wider ecosystem than we first described, so this is the addendum rather than a rewrite.
+
+- **A second survivors roguelite exists**, independent of Azeroth Survivors and by a different author: **warcraft-survivors** (github.com/AdamMcWilliam/warcraft-survivors) describes itself as "a Vampire Survivors style roguelite in the World of Warcraft", built on benilla, where you pick a class and a hero, pick a battleground, and survive fifteen minutes against a growing horde. Two unrelated roguelites on the same rebuilt client is the clearest sign the engine has become a platform rather than one person's experiment.
+- **The web build has its own maintainer and repository.** **Wenilla** (github.com/Arnesen/wenilla) is the 1.12.1 client "compiled to WebAssembly", published under a different account from benilla itself, which is what lets the roguelites run in a browser tab with no download.
+- **There is a graphics fork**, **benilla-everwood_graphics** (github.com/pkuzic/benilla-everwood_graphics), aimed at pushing the rebuilt renderer.
+- The benilla author also publishes **wow-1121-client-internals**, a documentation repository on how the retail Vanilla client renders terrain, lights a scene and decodes the wire protocol.
+- A separate clean-room Android client, **project_obsidian**, targets Vanilla on a different engine entirely (github.com/n0social/project_obsidian). And a browser-first server we added to [the tracker](/servers/jankcraft/) on the same day, **Jankcraft**, pairs its own web client with an optional local AI agent the player can pair and revoke.
+
+The corrected short version: two finished things had our attention when we published this page, and there are at least three, under more than one maintainer, on more than one platform.
+
 ## Why this is the interesting part of 2026
 
 A year ago, the custom-client conversation was theoretical: could anyone rebuild the Vanilla client from scratch and get it to run? The answer turned out to be yes, and the natural next step is that **the engine becomes a platform**. One offshoot makes an offline roguelite; another runs a live multiplayer realm with an idle twist. Neither is a traditional private server, and Azeroth Idle is the first entry of its kind on [the tracker](/).
@@ -41,6 +53,6 @@ That is also the practical advice: **if you want to see where this scene is goin
 
 ## A correction on our own coverage
 
-Our September 6 post on Benilla said there were no downloads. That was true then and is wrong now, so we are recording it here rather than quietly editing the old page: the engine has shipped, twice. The original piece is still the best description of how the client itself works, and this page is what came after it.
+Our September 6 post on Benilla said there were no downloads. That was true then and is wrong now, so we are recording it here rather than quietly editing the old page: the engine has shipped, and the count has grown past two. The original piece is still the best description of how the client itself works, and this page is what came after it.
 
 Related: [Benilla, the Rust and Bevy Vanilla client](/blog/benilla-rust-bevy-vanilla-client/), [Azeroth Idle on the tracker](/servers/azeroth-idle/), [the client you did not build](/blog/the-client-you-did-not-build/), and [Conquest of Azeroth: which one](/blog/conquest-of-azeroth-which-one/).

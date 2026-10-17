@@ -46,6 +46,8 @@ The 16-point milestone is currently specified for **four of ten classes**. If it
 
 We are not going to guess which, and neither should a guide.
 
+**Updated October 17 2026:** the guess is no longer needed. Blizzard published Mage and Shaman and Rogue and Warlock on October 7, and closed the series with **Paladin** on October 15, whose own wording is that the series "concludes" there. That is the nine Classic-era classes documented, with the two new Forever classes, Death Knight and Monk, still without a post. **Every one of the nine carries the identical framework**, including the 16-point gold medal, so the fourth milestone row is the talent system rather than a per-class decision. Our [Paladin read](/blog/forever-paladin-deep-dive-read/) covers the last one, and [round two](/news/forever-deep-dives-round-two-oct-8/) covers the October 7 pairs. The paragraph above is left as it stood on October 2.
+
 Both posts also carry the same warning: *"class abilities and talents may continue to evolve throughout the beta test and are subject to additional changes."* These are design notes read on 2 October, **33 days before launch**, from a game none of us has played.
 
 ## What a returning player should do on launch day

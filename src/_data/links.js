@@ -471,5 +471,35 @@ module.exports = [
         "title": "Private Server Hub: large WoW server directory with player reviews, monthly votes, rankings and news",
         "url": "https://www.privateserverhub.com/",
         "note": "Fan reference, checked 17 Oct 2026: the front page reported 187 servers listed, 147 active, 21 coming soon and 19 closed, with per-expansion, per-type and per-feature filters and a Renown reputation system for reviewers. It runs its own versions of the same ranked lists we publish, including best hardcore, best blizzlike, no pay-to-win and servers with bots. Populations are quoted as ranges and the site itself labels them estimates from servers and communities rather than exact counts, so use it for discovery and cross-checking, and treat its figures as the operator's or the community's claims. Useful for finding projects we have not yet verified; not a substitute for a first-party read."
+    },
+    {
+        "title": "benilla - a complete World of Warcraft 1.12.1 client written from scratch in Rust and Bevy",
+        "url": "https://github.com/samwhosung/benilla",
+        "note": "Checked 17 Oct 2026. The engine behind two finished products we now cover. MIT and Apache licensed, builds on macOS, Linux and Windows, and plays the whole game from character creation through questing. The author also publishes wow-1121-client-internals, a documentation repo on how the retail Vanilla client renders terrain, lights a scene and decodes the wire protocol."
+    },
+    {
+        "title": "wenilla - benilla compiled to WebAssembly, so the 1.12.1 client runs in a browser",
+        "url": "https://github.com/Arnesen/wenilla",
+        "note": "Checked 17 Oct 2026. Maintained under a different account from benilla itself. This is what lets a full 1.12.1 client run in a browser tab, which is how the survivors-mode roguelites reach players without a download."
+    },
+    {
+        "title": "azeroth-survivors-re - survivors roguelite on the benilla and wenilla engine",
+        "url": "https://github.com/OutThisLife/azeroth-survivors-re",
+        "note": "Checked 17 Oct 2026. Apache and MIT licensed, 189 stars. Credited to Aethus and playable in the browser at wow.aethus.pl. Reads a WoW 1.12.1 client Data folder at runtime and can fetch build 5875 from archive.org. Fully offline, no server and no account."
+    },
+    {
+        "title": "warcraft-survivors - a second Vampire Survivors style roguelite built on benilla",
+        "url": "https://github.com/AdamMcWilliam/warcraft-survivors",
+        "note": "Checked 17 Oct 2026. Independent of azeroth-survivors-re and by a different author, which tells you the benilla engine has become a platform rather than one person's experiment. Pick a class and a hero, pick a battleground, survive a growing horde on a timer."
+    },
+    {
+        "title": "benilla-everwood_graphics - a graphics fork of benilla",
+        "url": "https://github.com/pkuzic/benilla-everwood_graphics",
+        "note": "Checked 17 Oct 2026. A fork of the from-scratch Rust and Bevy 1.12.1 client aimed at graphics work. Worth watching if you care about how far a community can push a rebuilt client's renderer."
+    },
+    {
+        "title": "project_obsidian - Android Vanilla 1.12 client built on the WoWee engine",
+        "url": "https://github.com/n0social/project_obsidian",
+        "note": "Checked 17 Oct 2026. A clean-room C++ client for Android, booting and authenticating on Vanilla. Different engine from benilla and a different platform target, and part of the same wave of from-scratch client projects we track alongside the servers."
     }
 ];

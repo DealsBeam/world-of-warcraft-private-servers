@@ -26,9 +26,10 @@ It is split in two on purpose. **Verified** means we have read the date at its s
 
 **WoW: Forever milestones (Blizzard's own dates)**
 
+- **October 15:** Blizzard published the final class deep dive in the series, **Paladin**, closing out the nine Classic-era classes. See [our read of it](/blog/forever-paladin-deep-dive-read/).
 - **October 20:** Invite-a-Friend launch codes begin going out by email.
-- **October 21:** the beta's last full day.
-- **October 27 to November 3:** early name reservation, three characters, first come first served.
+- **October 21:** the **free server stress test**, open to anyone with no subscription, Game Time, invitation or beta access. Blizzard announced it for **October 19** in an October 15 post, then moved it to **October 21** in an October 16 update. Windows are North America 2:00 p.m. PDT and Europe 19:00 CEST, with Korea 06:00 KST and Taiwan 05:00 CST on October 22. The beta is taken offline shortly before it starts and is expected back shortly after it ends, the window may shift, and every stress test character, name and guild is wiped afterwards. See [the stress test note](/news/forever-stress-test-october-21/).
+- **October 27 to November 3:** early name reservation, three characters, first come first served. The stress test wipe clears the field for it.
 - **November 4:** global launch at 3:00 p.m. PT (23:00 UTC).
 - **December 9:** first Forever raids. Blizzard has named Barrow Deeps and Hyjal Summit; a same-day Onyxia's Lair is reported from the roadmap slide but is not confirmed in Blizzard's text.
 

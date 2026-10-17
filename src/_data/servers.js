@@ -93,10 +93,10 @@ module.exports = [
     {
         "name": "Project Epoch: Reborn",
         "status": "dev",
-        "details": "Community-run continuation of Project Epoch, the custom Classic+ realm, on its own 3.3.5a build 12340 client. Server is CLOSED and LAUNCHES 23 OCTOBER 2026. Restoring Epoch's custom quests, reworked classes, dungeons and raids; adds Soul of Iron (reach 60 without dying) and Explorer's Contract (half XP for slower routes) challenges, Racial Knowledge racial questlines unlocking alternate racial sets at 60, and Warmode world PvP with Bloody Tokens. Free to play, no pay-to-win and no donor gear; registration open",
+        "details": "Community-run continuation of Project Epoch, the custom Classic+ realm, on its own 3.3.5a build 12340 client. Server is CLOSED and LAUNCHES 23 OCTOBER 2026. Restoring Epoch's custom quests, reworked classes, dungeons and raids; adds Soul of Iron (reach 60 without dying) and Explorer's Contract (half XP for slower routes) challenges, Racial Knowledge racial questlines unlocking alternate racial sets at 60, and Warmode world PvP with Bloody Tokens. Free to play, no pay-to-win and no donor gear; registration open. UPDATED Oct 17 2026: pre-gate read of project-epoch.org shows the header reading Closed, Launching Oct 23rd, with all nine class pages, a talent calculator, a bug tracker, forums and open account registration published ahead of the gate. No player counter is published, so the band stays unknown until the gate opens",
         "tag": "Vanilla+",
         "group": "",
-        "updated": "2026-09-28",
+        "updated": "2026-10-17",
         "url": "https://project-epoch.org/",
         "release": "TBD",
         "popTier": "unknown"
@@ -2000,11 +2000,11 @@ module.exports = [
   {
     "name": "Anachronos",
     "status": "playable",
-    "details": "Brazilian Vanilla project that opened early access today, October 8 2026, capped at level 10, with official launch October 22 capped at 20 and progression continuing to 60 with 45 days of preparation before the first raid across seven content phases. XP 1x with 2x optional, improved drops, accelerated rest and partybot assistance. Verified first-party October 8 2026. No player count is published on the pages read, so popTier is unknown rather than read from a launch-day crowd",
+    "details": "Brazilian Vanilla project that opened early access today, October 8 2026, capped at level 10, with official launch October 22 capped at 20 and progression continuing to 60 with 45 days of preparation before the first raid across seven content phases. XP 1x with 2x optional, improved drops, accelerated rest and partybot assistance. Verified first-party October 8 2026. No player count is published on the pages read, so popTier is unknown rather than read from a launch-day crowd. UPDATED Oct 17 2026: pre-gate read of the project's own site confirms its schedule panel verbatim, reading early access from 08/10 at a maximum level of 10 and official launch on 22/10 at a maximum level of 20, with progression to 60 and seven content phases. Still no player counter anywhere on the pages read, so the band remains unknown ahead of the gate",
     "tag": "Vanilla",
     "popTier": "unknown",
     "url": "https://wowclassico.com.br/",
-    "updated": "2026-10-08"
+    "updated": "2026-10-17"
   },
   {
     "name": "Uldaris",
@@ -2312,6 +2312,146 @@ module.exports = [
     "tag": "WotLK",
     "group": "Eternal Gaming",
     "url": "https://eternalgaming.site/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Capybara Paradise",
+    "status": "playable",
+    "details": "Chinese-language Vanilla+ server at capycraft.io that continues Turtle WoW's Mysteries of Azeroth content on the Turtle WoW 1.18.1 client, level cap 60, opened 17 May 2026 shortly after Turtle WoW closed. Runs three realms, all listed Online at our October 17 2026 read: Eversong Wilds, the multi-language progressive realm, Gehennas, a restored former Turtle WoW Asian realm, and Basin of Stars. Content includes playable High Elves and Goblins, new race and class combinations, new zones, dungeons and raids, Jewelcrafting alongside Survival and Gardening, guild banks and rentable guild quarters, transmogrification, achievement titles, pet and mount tabs, and leveling challenges including hardcore. XP x1 and x0.5 on a PvE realm. The site runs an own item and talent database, an armory and a bug tracker, and is in Chinese with a small English forum section and a KOOK community hub. The in-game donation shop is described by the team as cosmetic only, with unused items giftable through an NPC. popTier unknown: the front page published no concurrent counter at our read, and a third-party directory's estimate of 3,000 to 7,500 players plus a reported live population graph on the site are recorded as that source's figures rather than our reading. Verified first-party October 17 2026",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://capycraft.io/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Hellfire WoW",
+    "status": "playable",
+    "details": "Burning Crusade 2.4.3 progression server at hellfire.wtf that starts in the Classic era and moves into The Burning Crusade one era at a time. Registration opened 14 September 2026 and the realms went live in Phase 1 on 28 September 2026. TBC talents and class changes apply from level 1, Blood Elves and Draenei are playable from level 1, and the Dark Portal stays closed until that point in the timeline with no announced date. XP is x1 by default and can be set to x0.5, x2 or x3; grey quests still give full experience and rested XP builds faster in taverns that are not major inns. The team states there will never be a donation shop or donations of any kind. The website itself serves nothing beyond a Discord login and a Discord invite, so registration runs through the site's Discord login or in the Discord. popTier unknown: no player counter is published. Verified first-party October 17 2026",
+    "tag": "TBC",
+    "group": "",
+    "url": "https://hellfire.wtf/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "ComfyCraft",
+    "status": "dev",
+    "details": "Small custom Vanilla+ realm at comfycraft.dedyn.io, built on MaNGOS with the Turtle WoW 1.18.1 client, build 7272, realmlist comfycraft.dedyn.io. Open alpha since 15 October 2026 with a level 20 cap, and the site states characters will not be wiped when the alpha ends; the full launch that removes the cap has no date. Its centrepiece is player housing: one house per account, currently the inn in Goldshire, with furniture sold by vendors around Azeroth, the ability to place, move, rotate and scale pieces, and a housing bank that stores and sorts what you are not using. Any race can play any class. Up to two companions can be hired from the Helping Hands guild and will tank, heal or deal damage on simple commands, with invasions adding optional PvP. Rates are x1 with monsters kept strong and classes tuned down at the top end. There is no shop or donation page. An optional ComfyLauncher ships the housing, companion and small-fix patches, and the site runs an armory, dressing room, talent tools, charts, a database and an in-game chat mirror. popTier tiny: the site header read 84 online at our October 17 2026 read. NOTE: we had previously not listed this project for lack of a first-party site; a directory entry led us to the address and we have now read it directly",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://comfycraft.dedyn.io",
+    "updated": "2026-10-17",
+    "popTier": "tiny"
+  },
+  {
+    "name": "LeviatanWow",
+    "status": "playable",
+    "details": "Spanish-language Wrath of the Lich King 3.3.5a realm at leviatanwow.com, realmlist logon.leviatanwow.com, with a realm forum, a community forum and a Discord. Its header read Online 7 at our October 17 2026 read. popTier tiny, sourced to that counter. Verified first-party October 17 2026",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://leviatanwow.com/",
+    "updated": "2026-10-17",
+    "popTier": "tiny"
+  },
+  {
+    "name": "SaberTooth",
+    "status": "playable",
+    "details": "Brazilian Cataclysm 4.3.4 realm, build 15595, presented in Portuguese and English at sabertoothwow.com, realmlist play.sabertoothwow.com. Rates are x3 to x7 experience, x2 to x10 gold, x1 item drop, x3 professions and x1.3 reputation. Its feature list claims Gilneas and Kezan fully implemented with vehicle scenes and phasing, more than 900 quests checked one by one by the team, all classes and races playable, DungeonBots that fill a missing dungeon tank, healer or DPS, a Prestige system at level 85 that returns a character to 15 for permanent gathering, profession and drop bonuses and a currency spent on mounts and cosmetics, and a VIP subscription adding experience, reputation, free talent changes and a faster prestige hourglass while explicitly not touching drop rates. Patch notes at our read were dated 15 October 2026 (a Jedoga Shadowseeker fix in Ahn'Kahet, and Stripe payments), and 7 October 2026 (an open-world bot combat revision with PvP builds and correct glyphs). popTier unknown, and the reason is worth stating: the header at our October 17 2026 read claimed 119 players online while the statistics panel on the same page read 0 players, 0 accounts and 0 guilds against 2,081 characters and about 21 hours of uptime. We cannot reconcile those from outside, so we do not band it",
+    "tag": "Cataclysm",
+    "group": "",
+    "url": "https://sabertoothwow.com/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Helix-WoW",
+    "status": "playable",
+    "details": "Wrath of the Lich King 3.3.5a realm on the Helix Network at helix-network.com/wow/en, presented in English and German at x5 experience. Its own notice reads that open beta is live: registration, the Helix client download and the bug tracker are open while development continues. It advertises 18 new races and a custom Caller class, a cross-armor transmog system with legendary weapons and artifacts for VIP accounts, and a VIP system and shop described as comfort features, toys and services delivered in game. An October 12 2026 patch note added an account-wide collections window covering transmog, mounts, pets, toys and heirlooms, built into the game without an addon, with transmog free of gold cost. Leaderboard, changelog and armory are published. Its header read 1 player online at our October 17 2026 read. popTier tiny, sourced to that counter",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://helix-network.com/wow/en",
+    "updated": "2026-10-17",
+    "popTier": "tiny"
+  },
+  {
+    "name": "Einherjers",
+    "status": "playable",
+    "details": "Burning Crusade realm portal at einherjers.dk reading Server Online, with open account registration and a start menu. Its own panel read 0 in-game and 40 registered at our October 17 2026 read. That is a genuine published figure, but a reading of nobody playing is not a claim that people are there, so the band stays unknown rather than tiny",
+    "tag": "TBC",
+    "group": "",
+    "url": "https://einherjers.dk/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Smolderforge",
+    "status": "playable",
+    "details": "Long-running instant level 70 Burning Crusade PvP server at smolderforge.com, with an arena ranking, honor standings, battleground history, an armory search and a donation page. It is the kind of TBC realm built around queued PvP rather than leveling. No player counter was visible on the front page at our October 17 2026 read, so the band is unknown. Verified first-party October 17 2026",
+    "tag": "TBC",
+    "group": "",
+    "url": "https://www.smolderforge.com",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "AmdWoW",
+    "status": "playable",
+    "details": "Self-described 3.3.5a fun server at amdwow.com that dates its own history to 2006 through 2013 and presents a relaunch, realmlist logon.amdwow.com. Features include custom high-damage content, city capture events in Ironforge and Orgrimmar, a custom Arathi Basin map requiring a custom patch, a Mirage Raceway flag battle and a phased roadmap whose first five phases are marked completed, from the initial launch through the Well of the Forgotten and Durnhold Keep areas. Latest news at our read was dated 10 October 2026 (VIP3 for vote points), with earlier posts dated 8 August, 21 April and 12 April 2026, and a shop, vote and forum are published. Its own stats panel read Online Peak 14, Total Players 632 and 564 unique users at our October 17 2026 read. popTier tiny, sourced to that peak figure",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://amdwow.com/",
+    "updated": "2026-10-17",
+    "popTier": "tiny"
+  },
+  {
+    "name": "LastWoW",
+    "status": "playable",
+    "details": "Burning Crusade 2.4.3 realm at lastwow.org advertising x5 experience, quest, drop, reputation and gold with x3 honor and x1 arena, alongside a second high-rate LastWoW realm listed at x15 and a temporary x8 experience promotion running at our read. It publishes a server statistics page, a connection guide, voting rewards and a donation page. No player counter was visible at our October 17 2026 read, so the band is unknown. Verified first-party October 17 2026",
+    "tag": "TBC",
+    "group": "",
+    "url": "https://lastwow.org/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Athenas Cataclismo",
+    "status": "playable",
+    "details": "Spanish-language Cataclysm realm at cataclysm.athenaswow-project.com, presented as ATHENAS Cataclismo with account creation, a shop, a donation-points page, a PvP section and a bug tracker. No player counter was visible at our October 17 2026 read, so the band is unknown. Verified first-party October 17 2026",
+    "tag": "Cataclysm",
+    "group": "",
+    "url": "https://cataclysm.athenaswow-project.com/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Eden Heroes",
+    "status": "dev",
+    "details": "Wrath of the Lich King progressive custom project at edenheroes.com, advertising any class for any race, custom spells for every class, and flight anywhere on any mount without a custom mount. The site runs login, registration, an armory and a YouTube channel, and its How to connect page returned not found at our October 17 2026 read. No launch date and no realm status are published, so the entry is recorded dev and says so rather than guessing at a state the project has not stated",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://edenheroes.com/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Corvus Nordica",
+    "status": "playable",
+    "details": "Wrath of the Lich King 3.3.5a realm at corvusnordica.com, with site sections for dungeons and instances, installation, playerbots, addons and a gallery, plus a client download, a qBittorrent link, registration and account recovery. Its bot instructions tell players to find nearby PlayerBots or search with /who, invite them and then direct them by whisper, party chat or an addon, and it recommends external addon sources for 3.3.5a. No player counter was visible at our October 17 2026 read, so the band is unknown. Verified first-party October 17 2026",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://corvusnordica.com/",
+    "updated": "2026-10-17",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Jankcraft",
+    "status": "playable",
+    "details": "Browser and mobile World of Warcraft private server at jankcraft.xyz, built around a from-scratch web client rather than a downloadable one. Its own description is Play World of Warcraft for free in your browser or on mobile, with optional AI agents. The client exposes an in-page options panel for graphics quality and lighting, a world name display and a welcome screen, gamepad support with a full default binding set including radial menus and party targeting, and soft targeting that casts at the nearest enemy ahead. The notable part is the optional local AI agent: it is paired with a code shown by a separate Agent application, is driven by a model provider the player chooses, can be revoked, and the site states that moving with the keyboard stops the agent. The source is public at github.com/pearsonkyle/jankcraft and the documented setup runs a local agent hub on port 18790. No player counter is published, so the band is unknown. Client version is not stated on the pages we read; we record it as its own client alongside the other from-scratch client projects we track",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://jankcraft.xyz/",
     "updated": "2026-10-17",
     "popTier": "unknown"
   }
