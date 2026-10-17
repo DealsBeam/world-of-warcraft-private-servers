@@ -73,6 +73,8 @@ Chromiecraft occupies the rare intersection of **large population** and **open-s
 
 The expected [BlizzCon WotLK Anniversary](/news/blizzcon-predictions/) won't displace Chromiecraft the way it might displace population-dependent servers. Chromiecraft's players aren't there for the population — they're there because no other WotLK server gives them this level of openness.
 
+**Updated October 17 2026:** that transparency got a live test. On **October 14** the realm had crashes and a longer than usual outage, and players logged back in without their equipment. [The project's own post-mortem](/news/chromiecraft-october-14-outage-post-mortem/) explains it: item GUIDs had reached the 32-bit ceiling after nearly six years, overflowed to zero, and the server's own cleanup code deleted inventory, mail, auction house and guild bank rows. The primary backup was unreachable and the secondary had not run for about two days. Compensation was a week of Joyous Journeys to October 21 at 23:59 UTC. What matters for the argument on this page is the project's closing line: the fix is upstreamed, so the failure mode is closed for every AzerothCore realm, not just this one.
+
 ---
 
 *Tracked: [Chromiecraft](/servers/chromiecraft/) • [All WotLK servers](/servers/?tag=WotLK) • [Chromiecraft vs private WotLK comparison](/blog/wotlk-anniversary-vs-private/)*

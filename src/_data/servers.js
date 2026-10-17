@@ -175,11 +175,11 @@ module.exports = [
     {
 "name": "Chromiecraft",
         "status": "playable",
-        "details": "Unique non-profit WotLK on AzerothCore, hyper-progressive phased releases, all fixes upstreamed, era-locked vanilla/TBC progression guilds, refer-a-friend 2x XP (free, ask global), 3.3k+ Discord online",
+        "details": "Unique non-profit WotLK on AzerothCore, hyper-progressive phased releases, all fixes upstreamed, era-locked vanilla/TBC progression guilds, refer-a-friend 2x XP (free, ask global), 3.3k+ Discord online. UPDATED Oct 17 2026: the project published an October 14th post-mortem on October 15 describing a crash-and-outage on October 14 in which players lost equipment. The realm did not crash so much as force itself to shut down: item GUIDs in the item_instance table had reached the 32-bit ceiling of 4,294,967,295 after nearly six years of accumulation, because AzerothCore does not recycle item GUIDs, and the next-GUID calculation overflowed to zero and triggered the server's own cleanup, which deleted inventory, mail, auction house and guild bank rows at or above that value. The primary backup was unreachable and the secondary had not run for about 2 days, so some data rolled back and items created in that window were unlinked. Characters untouched if the last login predates October 12; restored items were delivered to mailboxes in batches of 50. Compensation was a week of Joyous Journeys, 50 percent more experience, running to October 21 at 23:59 UTC. The project states the fix is upstreamed so future AzerothCore realms will not hit it",
         "tag": "WotLK",
         "group": "",
         "url": "https://www.chromiecraft.com/",
-        "updated": "2026-10-03",
+        "updated": "2026-10-17",
         "popTier": "large"
     },
     {
