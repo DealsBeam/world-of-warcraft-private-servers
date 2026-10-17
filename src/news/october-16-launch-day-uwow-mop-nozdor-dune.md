@@ -29,14 +29,18 @@ Nozdor's DUNE page describes a **fresh WotLK 3.3.5a realm at x1 to x5 rates with
 
 The third launch is [lordaeron.eu](/news/lordaeron-eu-opens-october-16-oct-12/), gated to **19:00 CEST (17:00 UTC)**. Two realms share one account and one shop: **Lordaeron**, an Epic Progressive realm at x5 stepping Vanilla, then TBC, then WotLK, and **Rimeheart**, a custom Northrend realm with five three-month phases that opens with a two to three week Phase 0 prelude. We will record the result of that gate the same day, exactly as with the other two.
 
-## Addendum: the third gate opened (recorded October 17)
+## Addendum: the October 16 gates all opened (recorded October 17)
 
-Both lordaeron.eu realms are online. The morning after the gate we read the project's own status feed at `/api/server/status`, and **Lordaeron** and **Rimeheart** each returned `online: true`, with realm process start times of **04:00 and 04:01 UTC on October 17**. The gate itself was 19:00 CEST, 17:00 UTC on October 16, and the site's static banner still carried the pre-open countdown when we looked, so the live status feed, not the banner, is what we record.
+All three October 16 launches are now confirmed open, each from its own first-party pages:
 
-That closes the three-check day: uWoW's Mists of Pandaria x10 and Nozdor's DUNE were gated to 16:00 UTC, and lordaeron.eu's Rimeheart to 17:00 UTC. One honest note on timing, because we promised the result the same day: our own status check landed the following morning rather than the same evening, as the scheduled probe did not survive the night. The result is recorded now, dated rather than backfilled.
+- **uWoW, Mists of Pandaria x10.** The project's own statistics page lists **Pandaria x10** as a live realm with **492 players** and an uptime of about 40 minutes at our read on October 17, alongside its Legion realms.
+- **Nozdor, DUNE.** Nozdor's DUNE page now states that Dune is already open ("Dune уже открыт") and shows **818 players in game** across the project, with a DUNE announcement thread on its own forum.
+- **lordaeron.eu, Rimeheart.** We read the project's own status feed at `/api/server/status`, and both **Lordaeron** and **Rimeheart** returned `online: true`, with realm process start times of **04:00 and 04:01 UTC on October 17**. The gate was 19:00 CEST (17:00 UTC) on October 16, and the site's static banner still carried the pre-open countdown when we looked, so the live status feed, not the banner, is what we record.
+
+One honest note on timing, because we promised the result the same day: our own checks landed the following day rather than the same evening, as the scheduled probe did not survive the night. The results are recorded now, dated rather than backfilled.
 
 ## What we record, and what we do not
 
 The tracker grades **reachability** and **first-party evidence**, not a listing site's count. None of the three publishes a clean per-realm player counter we can rate today, so their population bands stay **unknown** until one is readable. What is verified is narrower and sturdier: each project's own page states the date, the time and the realm, and each site answered our request.
 
-SOURCES: uWoW announcement page for the Mists of Pandaria x10 opening (published September 9 2026), read October 16 2026; Nozdor's DUNE page and its event structured data, read October 16 2026; lordaeron.eu homepage and realm pages, read October 16 2026, and its status feed at /api/server/status, read October 17 2026. Related: [the launch calendar](/blog/launch-calendar/), [the October dates calendar](/news/october-dates-calendar-oct-8/), and the [Lordaeron name-collision note](/news/lordaeron-eu-opens-october-16-oct-12/).
+SOURCES: uWoW announcement page for the Mists of Pandaria x10 opening (published September 9 2026) and its statistics page, read October 16 and October 17 2026; Nozdor's DUNE page and its event structured data, read October 16 2026, and its DUNE page, re-read October 17 2026; lordaeron.eu homepage and realm pages, read October 16 2026, and its status feed at /api/server/status, read October 17 2026. Related: [the launch calendar](/blog/launch-calendar/), [the October dates calendar](/news/october-dates-calendar-oct-8/), and the [Lordaeron name-collision note](/news/lordaeron-eu-opens-october-16-oct-12/).
