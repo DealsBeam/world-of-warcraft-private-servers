@@ -29,7 +29,7 @@ Private server talk is dense with shorthand that assumes you already know it. Th
 - **Vanilla, TBC, WotLK, Cata, MoP, Legion.** The expansion the realm emulates, which also decides the client version. WotLK dominates the tracker. See [best Vanilla](/blog/best-vanilla-private-servers-2026/) and [best WotLK](/blog/best-wotlk-private-servers-2026/).
 - **Vanilla+ / Classic+.** A Vanilla frame with new content, changed classes, or new systems bolted on. See [the Vanilla+ hub](/blog/best-vanilla-plus-private-servers-2026/) and [what Classic Plus means](/blog/what-is-classic-plus-plain-english/).
 - **Classless.** No fixed classes. You pick abilities from every class and build your own. See [Ascension's classless model, explained](/blog/ascension-classless-wow-explained/).
-- **Hardcore / permadeath.** One death ends the character. See [WOW Hardcore](/servers/wow-hardcore/) in the tracker.
+- **Hardcore / permadeath.** One death ends the character. See [the hardcore roundup](/blog/best-hardcore-private-servers-2026/) and [WOW Hardcore](/servers/wow-hardcore/) in the tracker.
 - **RP and RP-PvP.** Roleplay and roleplay with open PvP, where staying in character is part of the ruleset.
 - **Cross-faction.** Horde and Alliance can group, chat, or trade. Common on small realms because it doubles the available group pool.
 
