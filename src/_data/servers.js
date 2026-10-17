@@ -316,12 +316,12 @@ module.exports = [
     {
         "name": "WoW Circle",
         "status": "playable",
-        "details": "Russian multi-expansion network, hardware stated as central Europe. CONFIRMED Oct 3: the site's own front page reads 22,558 total online with three player streams live, so the large rating holds on the operator's own figure. 13 realms as previously recorded and now enumerated first-party: TBC 2.4.3 x2, WotLK 3.3.5a x1, x100 and Fun, Cataclysm 4.3.4 x100 and Fun, MoP 5.4.8 x5, x100 and Fun, Legion 7.3.5 x4, BFA 8.3.7 x11, Shadowlands 9.2.7 x5. Supported clients run 2.4.3 through 9.2.7. The news and staff articles on the page are dated 2013, so the editorial content is archival while the counters are live. Self-reported throughout",
+        "details": "Russian multi-expansion network, hardware stated as central Europe. CONFIRMED Oct 3: the site's own front page reads 22,558 total online with three player streams live, so the large rating holds on the operator's own figure. 13 realms as previously recorded and now enumerated first-party: TBC 2.4.3 x2, WotLK 3.3.5a x1, x100 and Fun, Cataclysm 4.3.4 x100 and Fun, MoP 5.4.8 x5, x100 and Fun, Legion 7.3.5 x4, BFA 8.3.7 x11, Shadowlands 9.2.7 x5. Supported clients run 2.4.3 through 9.2.7. The news and staff articles on the page are dated 2013, so the editorial content is archival while the counters are live. Self-reported throughout. UPDATED Oct 17 2026: the promised fresh Legion 7.3.5 x5 realm opened as dated at 16:00 UTC, and the project's own status page read at 18:58 UTC showed it ONLINE with 1,978 players and a reported uptime of 0 days 2 hours 50 minutes, no queue and 10 ms average latency, with the older 7.3.5 x4 realm at 77 online and the 7.3.5 line totalling 2,055. The same page read 20,755 online network-wide across 6,319,547 accounts, with 34,071 players in the previous 24 hours and 328 accounts created that day, while the 7.3.5 line attributed to itself 606,686 accounts and 820 new accounts that day. The status page also enumerates realms we had not listed individually, including a WotLK 3.3.5a x4 Hardcore realm at 1,603 online and a 10.2.7 x2 realm at 1,125",
         "tag": "Multi",
         "group": "",
         "url": "https://wowcircle.net",
         "popTier": "large",
-        "updated": "2026-10-03"
+        "updated": "2026-10-17"
     },
     {
         "name": "Helios",

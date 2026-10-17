@@ -29,4 +29,14 @@ All three carry the same x5 experience and x2 other rates, and each opens its co
 
 WoW Circle is [already tracked](/servers/wow-circle/) as a long-running multi-expansion network, so this adds a realm rather than a new project. As with every gate in this stretch, the population band stays **unknown** until a per-realm counter is readable. We will record whether the gate opened, dated, against the project's own status pages.
 
-SOURCES: WoW Circle news "Открытие Legion 7.3.5 x5 17.10.26" (published October 1 2026) and "Открытие новых серверов Legion, BFA, Shadowlands" (published September 30 2026), both read October 17 2026; the project's realm list and status page, read October 17 2026. Related: [the launch calendar](/blog/launch-calendar/).
+## Gate result, read at source
+
+We read the project's own status page at **18:58 UTC on October 17**, about three hours after the 16:00 UTC gate, and the realm is up:
+
+- **Legion 7.3.5 x5: online, 1,978 players, with a reported uptime of 0 days 2 hours 50 minutes** at the read, which places its start within a few minutes of the announced opening. No queue, and an average server latency of 10 ms.
+- The older **Legion 7.3.5 x4** realm read 77 online at the same time, and the 7.3.5 line listed **2,055 online** across both realms.
+- Network-wide, the main logon aggregate read **20,755 online** across 6,319,547 accounts, with 34,071 players in the last 24 hours and 328 accounts created that day. The 7.3.5 line alone reported 606,686 accounts, 2,055 online and 820 accounts created that day, which is the clearest sign yet that the new realm is pulling fresh registrations.
+
+The per-realm figure is now readable: **just under 2,000 concurrent players within three hours of opening**, on the operator's own counter. WoW Circle's entry already carries a large band on the network total, and this reading confirms that the new realm is not a token launch.
+
+SOURCES: WoW Circle news "Открытие Legion 7.3.5 x5 17.10.26" (published October 1 2026) and "Открытие новых серверов Legion, BFA, Shadowlands" (published September 30 2026), both read October 17 2026; the project's realm list and status page, read October 17 2026 at 18:58 UTC. Related: [the launch calendar](/blog/launch-calendar/).
