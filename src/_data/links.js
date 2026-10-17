@@ -466,5 +466,10 @@ module.exports = [
         "title": "WoW Forever Top — independent English Forever fan portal, 242 pages of datamined databases, talent calculators and beta build history",
         "url": "https://wow-forever.top/",
         "note": "Fan reference, checked 27 Sep 2026: separates official Blizzard information, panel reporting and beta-unverified data, and tracked build 70009, which the CDN superseded with 1.60.1.70058 on 29 September. Resolves the raid unlock to December 9 naming Hyjal Summit and Barrow Deeps, and carries no Onyxia date at all, which is why that conflict stays open. AdSense supported, so treat editorial independence as good but not unlimited."
+    },
+    {
+        "title": "Private Server Hub: large WoW server directory with player reviews, monthly votes, rankings and news",
+        "url": "https://www.privateserverhub.com/",
+        "note": "Fan reference, checked 17 Oct 2026: the front page reported 187 servers listed, 147 active, 21 coming soon and 19 closed, with per-expansion, per-type and per-feature filters and a Renown reputation system for reviewers. It runs its own versions of the same ranked lists we publish, including best hardcore, best blizzlike, no pay-to-win and servers with bots. Populations are quoted as ranges and the site itself labels them estimates from servers and communities rather than exact counts, so use it for discovery and cross-checking, and treat its figures as the operator's or the community's claims. Useful for finding projects we have not yet verified; not a substitute for a first-party read."
     }
 ];

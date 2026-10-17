@@ -22,11 +22,11 @@ module.exports = [
     {
         "name": "Eternal Gaming",
         "status": "playable",
-        "details": "Blizzlike WotLK 3.3.5a, no pay-to-win, Ulduar/T8 phase-2 start, crossfaction, open-source core",
+        "details": "Blizzlike WotLK 3.3.5a network, no pay-to-win, crossfaction, open-source core, realmlist login.eternalgaming.site. Runs two realms under one site: Valyndor, the blizzlike 3.3.5a realm that launched December 2025 and is now in its Ulduar/T8 phase, and VELARIS, a second realm whose own countdown page read Launching 29 August 2026 18:00 CEST and now reads VELARIS IS NOW LIVE, with a hardcore mode, a PvE tournament schedule, an achievements ladder and a realm first table. Site sidebar showed Valyndor Online at our October 17 2026 read. popTier tiny: no concurrent player counter is published, so the band rests on the previously recorded Discord-scale figure rather than a first-party number.",
         "tag": "WotLK",
         "group": "",
         "url": "https://eternalgaming.site/",
-        "updated": "2026-10-03",
+        "updated": "2026-10-17",
         "popTier": "tiny"
     },
     {
@@ -266,11 +266,11 @@ module.exports = [
     {
         "name": "Triumvirate-WoW",
         "status": "playable",
-        "details": "WotLK 3.3.5a level-60 endgame, free with no store found, 1-3x XP and 3x crafting. Mythic+ rebuilt across TBC and WotLK dungeons in waves of 8, loot tuned to 10-player raid level, plus artifact weapons you forge and flex raids. Guilds of 10+ can apply for a free transfer package with a full heirloom set per member. Five dated phases through 20 March 2027, which the project says may move with realm health. Corrected Sep 28: we dated Phase 2 to Aug 22; their own news says Molten Core and Zul'Aman opened 25 July, Gruul's Lair 8 August, and Icecrown Citadel went live 20:00 on 28 August. Self-reported 11,706 accounts and 139 online",
+        "details": "WotLK 3.3.5a level-60 endgame, free with no store found, 1-3x XP and 3x crafting. Mythic+ rebuilt across TBC and WotLK dungeons in waves of 8, loot tuned to 10-player raid level, plus artifact weapons you forge and flex raids. Guilds of 10+ can apply for a free transfer package with a full heirloom set per member. Five dated phases through 20 March 2027, which the project says may move with realm health. Corrected Sep 28: we dated Phase 2 to Aug 22; their own news says Molten Core and Zul'Aman opened 25 July, Gruul's Lair 8 August, and Icecrown Citadel went live 20:00 on 28 August. Re-read first-party October 17 2026: the site header still shows Current State Phase 2 and now reports 12,125 accounts, 15,679 Alliance and 15,073 Horde characters and 145 online, up from the 11,706 accounts and 139 online we recorded on September 28. Band stays small",
         "tag": "WotLK",
         "group": "",
         "url": "https://triumvirate-wow.com/",
-        "updated": "2026-09-28",
+        "updated": "2026-10-17",
         "popTier": "small"
     },
     {
@@ -446,11 +446,11 @@ module.exports = [
     {
         "name": "Centurion",
         "status": "playable",
-        "details": "Vanilla-1.12 mechanics on 3.3.5 client (ranks, CC, cast times, collision, factionless, no paywall) — Legionnaire+ and Barracks+ merged into one realm Sep 18 2026, characters carried over; world vs tournament characters, BG cooldown separation, tiered BG AI, Gurubashi chest timer, PvP ladder",
+        "details": "Vanilla-1.12 mechanics on 3.3.5 client (ranks, CC, cast times, collision, factionless, no paywall); Legionnaire+ and Barracks+ merged into one realm Sep 18 2026, characters carried over; world vs tournament characters, BG cooldown separation, tiered BG AI, Gurubashi chest timer, PvP ladder. Re-read first-party October 17 2026: the site still presents the merge and its newest news remains the four posts dated September 17 and 18 2026 (one realm two ways to play, world cooldowns set aside on battleground entry, battleground AI sorted into three difficulty tiers, and a Gurubashi Arena chest that spawns on a timer and despawns five minutes later), with the header reading 2 online and a launcher download offered. No newer news since September 18, so the site is quiet rather than changed",
         "tag": "Vanilla+",
         "group": "Centurion",
         "url": "https://centurionpvp.com/",
-        "updated": "2026-09-19",
+        "updated": "2026-10-17",
         "popTier": "tiny"
     },
     {
@@ -833,11 +833,11 @@ module.exports = [
     {
         "name": "Warstorm",
         "status": "playable",
-        "details": "Solo WotLK since Sep 2025, ~200 pop, blizzlike NPC stats, AI PlayerBots that execute raid strategies (ICC25 HC capable), dungeon finder, 1-5x XP, transmog, Auto-Grind-Bot (AFK leveling, in-game), Book of Powers (mounts at any level, mobile bank/AH, Dalaran TP), Activity Points store; re-verified first-party Oct 14 2026 with no change: the news feed still ends at Sep 12 2025 and no population counter is published, so ~200 remains an earlier self-reported figure rather than a current reading",
+        "details": "Solo WotLK since Sep 2025, ~200 pop, blizzlike NPC stats, AI PlayerBots that execute raid strategies (ICC25 HC capable), dungeon finder, 1-5x XP, transmog, Auto-Grind-Bot (AFK leveling, in-game), Book of Powers (mounts at any level, mobile bank/AH, Dalaran TP), Activity Points store; re-verified first-party Oct 17 2026 with no change: the site still ends its news at The Adventure Begins, September 12 2025, offers a PvP Ladder, download, forum and armory, and publishes no population counter, so ~200 remains an earlier self-reported figure rather than a current reading. Not to be confused with Wrathstorm, a separate Classless realm at wrathstorm.org",
         "tag": "WotLK",
         "group": "",
         "url": "https://warstorm.org/",
-        "updated": "2026-10-14",
+        "updated": "2026-10-17",
         "popTier": "small"
     },
     {
@@ -893,21 +893,21 @@ module.exports = [
     {
         "name": "GrimfallWoW",
         "status": "playable",
-        "details": "Classless at 60 — Wildcard rolls, 10+ races, Skill Cards, Runic, Scrolls, scaled finder, 30+ scaled dungeons, 2500+ TBC/WotLK quests, Tol Barad/Kezan/Gilneas, transmog, prestige; released Sep 5 (live, verified)",
+        "details": "Classless at 60: Wildcard rolls, 10+ races, Skill Cards, Runic, Scrolls, scaled finder, 30+ scaled dungeons, 2500+ TBC/WotLK quests, Tol Barad/Kezan/Gilneas, transmog, prestige; released Sep 5 (live, verified). UPDATED Oct 17 2026: the project has opened a second product line, 'Conquest of Azeroth', whose Phase 1 went live October 16 2026 with a level cap of 20. Its own announcement page describes 21 completely new classes, each with unique abilities, expanded talent trees and specializations, naming the Necromancer, Chronomancer and Runemaster as examples, alongside more than 10 additional playable races, Prestige, and scaled Heroic and Mythic dungeons available at the level 20 cap. Later phases raise the cap progressively. The site's news index also carries a full release announcement for the Classless realm, dated September 3 2026 with release September 5, and a Classless open beta dated March 27 2026.",
         "tag": "Classless",
         "group": "",
         "url": "https://www.grimfallwow.com/",
-        "updated": "2026-09-06",
+        "updated": "2026-10-17",
         "popTier": "tiny"
     },
     {
         "name": "uWoW",
         "status": "playable",
-        "details": "Legion 7.3.5 network running since 2009, the longest-lived Legion server, and the surviving half of the old ArgusWoW operation after ArgusWoW itself closed in May 2022. Site's own counter on September 29 2026 read total online 3,615, with Legion x100 at 2,756 and x5 at 335. Also runs a WotLK x100 realm that moved to its fourth progression stage on 24 July 2026. ANNOUNCED: a Mists of Pandaria x10 realm on the 5.4.8 client opening 16 October 2026 at 19:00 Moscow time, announced 9 September 2026, which would make uWoW a three-expansion operation. Corrected Sep 29: our entry had no population figure at all and rated it medium; the operator's own counter is large-tier, and we had not recorded the MoP opening or that ArgusWoW folded into it",
+        "details": "Legion 7.3.5 network running since 2009, the longest-lived Legion server, and the surviving half of the old ArgusWoW operation after ArgusWoW itself closed in May 2022. Site's own counter on September 29 2026 read total online 3,615, with Legion x100 at 2,756 and x5 at 335. Also runs a WotLK x100 realm that moved to its fourth progression stage on 24 July 2026. The announced Mists of Pandaria x10 realm on the 5.4.8 client opened 16 October 2026 at 19:00 Moscow time, and our own launch-day read found it up with 492 players inside the first hour. Re-read first-party October 17 2026: the header counter now reads total online 4,193, split x100 7.3.5 at 3,229 and x5 7.3.5 at 350, with the rest of the realms behind a further-realms link. The news column carries the MoP opening announcement dated 9 September 2026 alongside autumn event posts dated 5 October and 22 September 2026 and a mount promotion dated 11 September 2026, so the operation is actively posting. Corrected Sep 29: our entry had no population figure at all and rated it medium; the operator's own counter is large-tier, and we had not recorded the MoP opening or that ArgusWoW folded into it",
         "tag": "Legion",
         "group": "",
         "url": "https://uwow.biz/",
-        "updated": "2026-09-29",
+        "updated": "2026-10-17",
         "popTier": "large"
     },
     {
@@ -1002,11 +1002,11 @@ module.exports = [
     {
         "name": "Stonetavern",
         "status": "playable",
-        "details": "Two free non-commercial Vanilla realms, EU-hosted, one account works on both and moving a character between them is done by hand on request rather than automatically. ELWYNN is the museum realm: unaltered Vanilla 1.12.1 at the final content patch, opened JUNE 2026, never wiped, x1 rates, level cap 60, no XP boost, no quality-of-life automation and NO dungeon finder, one shared world with no layering or instanced overworld. Its one deliberate departure from 2006 is that Horde and Alliance share chat, groups and dungeons, which the site states plainly as the exception. BARRENS is the progressive realm, opened JULY 2026, currently content stage 1.5 at LEVEL CAP 50, climbing Classic then TBC then Wrath with the whole server crossing each gate on the same day. Barrens changes are PUT TO A VOTE and the first round decided three that are live: a respec costs one gold, you can learn a third profession, and guilds can take both factions. It alternates between peace and open-world war every three days, and a warden NPC at each open dungeon supplies a tank, healer or caster, with Warsong Gulch filled by server characters when players are short. No shop on either realm and no plan to add one, donations cover the bill and buy nothing, and the rules are explicitly not to move to keep people playing. Confirmed first-party Oct 2: 880 Discord members (up from the 827 we recorded Sep 11), 145 changes on record with the latest dated Oct 1 2026, and a NEXT GATE on Friday October 23 at 18:00 Vienna time, 16:00 UTC. Publishes a free 51-addon shelf for the 1.14.2 client and also hosts addons for 1.12.1. The site markets itself explicitly as a Turtle WoW alternative and as a WoW Forever alternative, and its own FAQ page concedes the cross-faction exception. popTier stays tiny and is now sourced to the published Discord figure rather than a stale one",
+        "details": "Two free non-commercial Vanilla realms, EU-hosted, one account works on both and moving a character between them is done by hand on request rather than automatically. ELWYNN is the museum realm: unaltered Vanilla 1.12.1 at the final content patch, opened JUNE 2026, never wiped, x1 rates, level cap 60, no XP boost, no quality-of-life automation and NO dungeon finder, one shared world with no layering or instanced overworld. Its one deliberate departure from 2006 is that Horde and Alliance share chat, groups and dungeons, which the site states plainly as the exception. BARRENS is the progressive realm, opened JULY 2026, currently content stage 1.5 at LEVEL CAP 50, climbing Classic then TBC then Wrath with the whole server crossing each gate on the same day. Barrens changes are PUT TO A VOTE and the first round decided three that are live: a respec costs one gold, you can learn a third profession, and guilds can take both factions. It alternates between peace and open-world war every three days, and a warden NPC at each open dungeon supplies a tank, healer or caster, with Warsong Gulch filled by server characters when players are short. No shop on either realm and no plan to add one, donations cover the bill and buy nothing, and the rules are explicitly not to move to keep people playing. Confirmed first-party Oct 2: 880 Discord members (up from the 827 we recorded Sep 11), 145 changes on record with the latest dated Oct 1 2026, and a NEXT GATE on Friday October 23 at 18:00 Vienna time, 16:00 UTC. Re-read first-party Oct 17 2026: the changelog has moved to 155 changes on record with the latest dated Oct 13 2026, the Discord shows 910 members, and the site still lists the next gate as the level 60 cap on Friday October 23 at 18:00 Vienna time (16:00 UTC), with five open proposals. The two realms read as Elwynn, Vanilla 1.12 PvE at a level 60 cap, 137 days since launch, and Barrens, content stage 1.5 at a level 50 cap, 85 days since launch, the two being 13:28 server time apart at our read. Publishes a free 51-addon shelf for the 1.14.2 client and also hosts addons for 1.12.1. The site markets itself explicitly as a Turtle WoW alternative and as a WoW Forever alternative, and its own FAQ page concedes the cross-faction exception. popTier stays tiny and is now sourced to the published Discord figure rather than a stale one",
         "tag": "Vanilla",
         "group": "",
         "url": "https://stonetavern.app/",
-        "updated": "2026-10-02",
+        "updated": "2026-10-17",
         "popTier": "tiny"
     },
     {
@@ -1315,11 +1315,11 @@ module.exports = [
     {
         "name": "Valyndor",
         "status": "playable",
-        "details": "Eternal Gaming blizzlike WotLK 3.3.5a (launched Dec 2025, Phase 2/Ulduar): optional per-character QoL (AoE loot, account-wide mounts, transmog, 1-5x XP), no donations/shop/P2W, open-source dev",
+        "details": "Eternal Gaming blizzlike WotLK 3.3.5a (launched Dec 2025, Phase 2/Ulduar): optional per-character QoL (AoE loot, account-wide mounts, transmog, 1-5x XP), no donations/shop/P2W, open-source dev. The site's realm sidebar listed Valyndor as Online at our October 17 2026 read, alongside its sibling realm Velaris, which the same site reports as now live after a launch dated 29 August 2026. Both realms share the realmlist login.eternalgaming.site.",
         "tag": "WotLK",
         "group": "",
         "url": "https://eternalgaming.site/",
-        "updated": "2026-09-11",
+        "updated": "2026-10-17",
         "popTier": "unknown"
     },
     {
@@ -1460,11 +1460,11 @@ module.exports = [
   {
     "name": "Conquest of AzerothCore",
     "status": "dev",
-    "details": "NOT the dead Conquest of Azeroth. That entry was the Ascension network realm, shut down Sep 4 2026 after a Blizzard C&D. This is a separate open-source continuation running on the AzerothCore emulator core, and it is live. 22 classes across three specs each, from Witch Doctor and Chronomancer to Starcaller, Runemaster, Reaper, Bloodmage, Cultist, Venomancer, Tinker and Felsworn. A PUBLIC BUG TEST REALM, not a live server: its own about page says it exists purely to help find and fix bugs before changes ship, that accounts, characters and progress can be wiped or reset at any time without notice, and that it is not a permanent or live server. Realmlist logon.coa-development.org, launcher 0.6.9 at 158 MB for Windows, account creation gated by Cloudflare Turnstile. Live feed read October 1 2026, updated every minute straight from the game server with bots and GMs excluded: 27 to 29 players online across three readings, 2,442 characters created, 32 guilds, 22 classes to play, level spread 11 in levels 1-14, 11 in 15-29, 4 in 30-44, 0 in 45-59 and 3 at 60. Publishes dated detailed changelogs with GitHub issue numbers: the Sep 30 2026 entry covers Bloodmage Blood Shards, resting at inns, a large restoration of custom questing into every starting zone, per-class trainers, rideable road caravans, a CoA Forge in-game world editor and a quest-content validator; the Sep 29 entry restores 86 templateless vanity cosmetics. Note the stated class count is 22 where the dead realm's entry said 21 times 3 specs",
+    "details": "NOT the dead Conquest of Azeroth. That entry was the Ascension network realm, shut down Sep 4 2026 after a Blizzard C&D. This is a separate open-source continuation running on the AzerothCore emulator core, and it is live. 22 classes across three specs each, from Witch Doctor and Chronomancer to Starcaller, Runemaster, Reaper, Bloodmage, Cultist, Venomancer, Tinker and Felsworn. A PUBLIC BUG TEST REALM, not a live server: its own about page says it exists purely to help find and fix bugs before changes ship, that accounts, characters and progress can be wiped or reset at any time without notice, and that it is not a permanent or live server. Realmlist logon.coa-development.org, launcher 0.6.9 at 158 MB for Windows, account creation gated by Cloudflare Turnstile. Live feed read October 1 2026, updated every minute straight from the game server with bots and GMs excluded: 27 to 29 players online across three readings, 2,442 characters created, 32 guilds, 22 classes to play, level spread 11 in levels 1-14, 11 in 15-29, 4 in 30-44, 0 in 45-59 and 3 at 60. Publishes dated detailed changelogs with GitHub issue numbers: the Sep 30 2026 entry covers Bloodmage Blood Shards, resting at inns, a large restoration of custom questing into every starting zone, per-class trainers, rideable road caravans, a CoA Forge in-game world editor and a quest-content validator; the Sep 29 entry restores 86 templateless vanity cosmetics. Note the stated class count is 22 where the dead realm's entry said 21 times 3 specs. UPDATED Oct 17 2026 from the changelog page: the changelog is now organised by realm kind, listing Conquest of Azeroth 1,026 entries, Wildcard 47, Warcraft Reborn 28, Area 52 0, Freepick 14 and Hero 37, and by class across the 21 class names. The newest news post, dated 17 October 2026, restores the Manastorm Endless mode, a SQL-driven endless dungeon rebuilt floor by floor with 61 rooms across 19 dungeon maps, depth scaling to the native limit of 16,384, rotating affixes from depth 6, separate solo/duo/trio/group progress and depth-scaled rewards including level-80 gear from ilvl 187 to 232 beyond depth 25. The same page carries a live-filling changelog dated 17 October 2026 reporting 34 changes so far that day, including one-button rotation assistance (issue 7937) and 32 fixes, and a 16 October entry with 22 changes. Changes are published with GitHub issue numbers throughout, and the page states the changelog is written automatically from the development commits",
     "tag": "Vanilla+",
     "popTier": "unknown",
     "url": "https://coa-development.org/",
-    "updated": "2026-10-01"
+    "updated": "2026-10-17"
   },
   {
     "name": "Torment",
@@ -2283,6 +2283,36 @@ module.exports = [
     "group": "",
     "url": "https://wow.tanados.com/",
     "updated": "2026-10-16",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Ohana-WoW",
+    "status": "dev",
+    "details": "Community-progression WotLK 3.3.5a realm at ohana-wow.com, realmlist set realmlist ohana-wow.com, presenting itself as a classic-soul relaxed-pace realm built around community. Realm status reads Alpha. Progression is community-paced rather than set to one calendar: the site plans shorter steps around four-week windows and larger raid tiers around four to six weeks, with gates starting at level 19, then 29, 39, 49 and 60 into Vanilla endgame (Molten Core through AQ40), then level 70 into TBC (Karazhan through Sunwell) and level 80 into Northrend (Naxxramas through Ruby Sanctum). Starting rates are 0.5x to 4x experience, 1x to 8x reputation, 1x to 4x crafting and 1x to 3x honor, and the site says all four can be raised realm-wide through shared Community Quests, alongside a Karma commendation system, weekly community-created NPCs and quests, zone beast invasions, and quality-of-life features that unlock through the same community goals. A realm-wide vote can move progression forward early, which the site says would require a supermajority. Its landing page showed 36 accounts, 16 Alliance and 16 Horde, and 4 players online at our October 17 2026 read, and it offers a client and a launcher download. popTier tiny: the band rests on the site's own concurrent counter at our read",
+    "tag": "Multi",
+    "group": "",
+    "url": "https://ohana-wow.com/",
+    "updated": "2026-10-17",
+    "popTier": "tiny"
+  },
+  {
+    "name": "Azeroth Idle",
+    "status": "playable",
+    "details": "An online, real-time Vanilla MMORPG on the 1.12 client that plays itself, at azerothidle.com, and the first entry of its kind we track. The site describes one shared realm where every player's hero quests, grinds and levels in real time even while the player is away, with the player setting policies, gear and talents and reading the results from an inbox. It runs in the browser, with an optional desktop client (its launcher strings name Desktop 0.2.0 and launcher v0.4.6), and it requires WebGPU: its own page tells visitors with no usable graphics adapter to update GPU drivers or use Chrome or Edge. The realm front page read Realm online, version v0.1.4, with a patch dated 17 October 2026 whose entries include moving settings to Esc then Options, heroes running from extra mobs that would otherwise kill them, and fixes for river and lake swimming and for the camera on elevators, boats and zeppelins. Account creation is 3 to 16 letters or numbers with a 6 to 16 character password. popTier small: the same page's own counter read 162 players online now at our October 17 2026 read. Its browser client downloads a realm of roughly 2.7 GB into browser storage, and its own queue code names a 2.9 GB browser storage limit, so a full install may need extra storage permission. Its client handoff code references a benilla config path, the same from-scratch Rust and Bevy 1.12.1 client engine we covered on September 6, which we record as an artefact of its own shipped code rather than an official statement",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://azerothidle.com/",
+    "updated": "2026-10-17",
+    "popTier": "small"
+  },
+  {
+    "name": "Velaris",
+    "status": "playable",
+    "details": "Second realm of the Eternal Gaming network, sharing the realmlist login.eternalgaming.site with its sibling Valyndor. Its own page carried a countdown reading Launching 29 August 2026 18:00 CEST and now reads VELARIS IS NOW LIVE, with a hardcore mode, a PvE tournament schedule, an achievements ladder and a realm first table listing Velaris. At our October 17 2026 read the site sidebar showed Valyndor Online and the news column's newest posts were the Velaris launch, a hardcore mode post dated 4 August 2026 and a PvE tournament post dated 30 June 2026. popTier unknown: no concurrent player counter is published for either realm",
+    "tag": "WotLK",
+    "group": "Eternal Gaming",
+    "url": "https://eternalgaming.site/",
+    "updated": "2026-10-17",
     "popTier": "unknown"
   }
 ]

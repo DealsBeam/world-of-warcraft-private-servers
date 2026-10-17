@@ -14,6 +14,8 @@ One dev rebuilding the Vanilla client in Rust. No ports, no wrappers — formats
 
 Rust + Bevy 1.12.1 client. From-scratch FrameXML+Lua engine (AtlasLoot, Bagnon load). GPU-skinned M2s, particles, ribbons. Tested vs vmangos. Solo project, issues/PRs closed, Discord for bugs. No downloads yet.
 
+> **Update, October 17 2026:** the engine has shipped. Two finished projects now run on it, an offline roguelite and a live online realm. See [what came after Benilla](/blog/benilla-engine-shipped-azeroth-idle-and-survivors/). The description below is still how the client itself works.
+
 ## What works
 
 Full asset stack readers (MPQ chain, BLP, DBC, ADT/WDT/WDL, M2, WMO) wired into Bevy. Streamed terrain to horizon, portal-culled WMOs, swimmable liquids, sky/weather, day/night + fog + gamma. Characters end to end (customization, armor composite, sheathing, enchants, shapeshifts, stealth, mounts). WoW-feel movement networked both directions, boats, zeppelins, taxis. SRP6 auth, object mirror ECS, wire coverage movement through honor. Combat on faithful swing law, GCD, combo points, real CC. Audio with interior/underwater transitions and zone reverb.

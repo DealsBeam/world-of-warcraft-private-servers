@@ -18,8 +18,10 @@ It is split in two on purpose. **Verified** means we have read the date at its s
 - **October 16:** uWoW's high-rate Mists of Pandaria realm, `MoP x10`. Its own statistics page listed the realm online with 492 players on October 17.
 - **October 16:** Nozdor's DUNE, a fresh WotLK x1 to x5 realm with optional hardcore, at 16:00 UTC. Its own page reads that Dune is already open.
 - **October 17:** [WoW Circle](/servers/wow-circle/) opens a fresh Legion 7.3.5 x5 realm, dated by the project's own news to 19:00 Moscow (16:00 UTC). Battle for Azeroth x5 is planned for around December 2026 and Shadowlands x5 for around February 2027. See [the opening note](/news/wow-circle-legion-x5-opens-october-17/).
+- **October 16:** [GrimfallWoW](/servers/grimfallwow/) opened Conquest of Azeroth Phase 1, a second product line beside its Classless realm, with a level 20 cap and 21 new custom classes. Read at source on October 17. See [the news post](/news/grimfall-conquest-of-azeroth-phase-1/).
 - **October 22:** [Anachronos](/news/tempest-anachronos-launches/), a blizzlike Vanilla progressive realm.
 - **October 23:** [Project Epoch Reborn](/news/project-epoch-reborn-launches-october-23/) relaunches a Classic+ realm at 16:00 GMT.
+- **October 23:** [Stonetavern](/servers/stonetavern/) takes its progressive Project Barrens realm through its next gate, the level 60 cap, on Friday October 23 at 18:00 Vienna time (16:00 UTC). Confirmed at source on October 17: the site listed 155 changes on record with the latest dated October 13 and five open proposals.
 - **December 15, 2027:** [Shadowburn](/servers/shadowburn/), a non-commercial custom WotLK 3.3.5a project, states this date in its own launch countdown. It is the furthest-out launch in the field and is still in development.
 
 **WoW: Forever milestones (Blizzard's own dates)**
