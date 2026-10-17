@@ -17,7 +17,7 @@ Private server talk is dense with shorthand that assumes you already know it. Th
 ## Numbers you will see everywhere
 
 - **Rates (x1, x5, x100).** Multipliers on experience, and often on drop and gold too. **x1** is "blizzlike" speed; **x100** is a weekend. Most projects quote rates first because they set the whole feel of the realm.
-- **Blizzlike.** As close to how Blizzard ran it as the team can manage: original rates, original mechanics, original content order. The opposite of a funserver.
+- **Blizzlike.** As close to how Blizzard ran it as the team can manage: original rates, original mechanics, original content order. The opposite of a funserver. See [our x1 blizzlike picks](/blog/best-x1-blizzlike-private-servers-2026/).
 - **Funserver.** A realm built for speed and toys: boosted rates, strange items, instant progression. Not a slur here. It is a genre, and plenty of players only want that.
 - **Instant-60 / instant-80.** A realm that hands you a max-level character so you skip levelling entirely.
 - **Progressive / progression (PTE).** Content unlocks over time, patch by patch or raid tier by raid tier, instead of all being open on day one. [TBC phase 3](/blog/tbc-phase3-private-realms-guide/) is an example.
@@ -30,7 +30,7 @@ Private server talk is dense with shorthand that assumes you already know it. Th
 - **Vanilla+ / Classic+.** A Vanilla frame with new content, changed classes, or new systems bolted on. See [the Vanilla+ hub](/blog/best-vanilla-plus-private-servers-2026/) and [what Classic Plus means](/blog/what-is-classic-plus-plain-english/).
 - **Classless.** No fixed classes. You pick abilities from every class and build your own. See [Ascension's classless model, explained](/blog/ascension-classless-wow-explained/).
 - **Hardcore / permadeath.** One death ends the character. See [the hardcore roundup](/blog/best-hardcore-private-servers-2026/) and [WOW Hardcore](/servers/wow-hardcore/) in the tracker.
-- **RP and RP-PvP.** Roleplay and roleplay with open PvP, where staying in character is part of the ruleset.
+- **RP and RP-PvP.** Roleplay and roleplay with open PvP, where staying in character is part of the ruleset. For the wider category, see [the PvP picks](/blog/best-pvp-private-servers-2026/).
 - **Cross-faction.** Horde and Alliance can group, chat, or trade. Common on small realms because it doubles the available group pool.
 
 ## How small realms fake a crowd
@@ -46,7 +46,7 @@ Private server talk is dense with shorthand that assumes you already know it. Th
 
 ## The machinery underneath
 
-- **Core.** The emulator a project is built on. **[AzerothCore](/servers/chromiecraft/)** and **TrinityCore** are the WotLK mainstays; **VMaNGOS** and **CMaNGOS** carry Vanilla and TBC. The core decides how much of the game works, and which bugs a team inherits.
+- **Core.** The emulator a project is built on. **[AzerothCore](/servers/chromiecraft/)** and **TrinityCore** are the WotLK mainstays; **VMaNGOS** and **CMaNGOS** carry Vanilla and TBC. The core decides how much of the game works, and which bugs a team inherits. See [what a core actually is](/blog/wow-emulator-cores-explained/).
 - **Client versions.** **1.12** is Vanilla, **2.4.3** TBC, **3.3.5a** WotLK, **3.4.x** the modern Wrath Classic client, and later numbers map to later expansions. A "3.3.5a" realm and a "3.4.x" realm can feel very different for the same expansion. See [3.3.5a vs the modern client](/blog/wotlk-anniversary-vs-private/).
 - **Scripting quality.** How faithfully quests, dungeons, and mechanics behave. It is the single hardest thing to judge from a website, which is why [we read the realm before listing it](/blog/how-we-review-a-private-server/).
 - **Armory / database (DB).** A web view of characters or of every item and quest in the game, usually a sign of a serious project.
