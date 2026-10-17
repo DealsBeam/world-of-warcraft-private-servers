@@ -48,4 +48,4 @@ Ascension runs Vanilla+ seasons alongside classless mainline. See [classless exp
 
 Live status for every Vanilla+ realm: [the tracker](/).
 
-Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), and [Legion](/blog/best-legion-private-servers-2026/).
+Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), and [Vanilla](/blog/best-vanilla-private-servers-2026/).

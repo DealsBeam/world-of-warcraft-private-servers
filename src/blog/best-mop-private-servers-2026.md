@@ -40,4 +40,4 @@ Every server below is in [our tracker](/servers/). MoP has a notable share of in
 
 MoP is a waiting game in 2026. If you need a realm today, PandaWoW is the most established and Helios and Perseus are the TwinStar options. If you can wait, Whitemane Stormstout is the one with a full network behind it once it leaves beta. Watch the [launch calendar](/blog/launch-calendar/) for the projects that set a date.
 
-Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).
+Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), [Vanilla](/blog/best-vanilla-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).

@@ -47,4 +47,4 @@ This guide rounds up the TBC realms in [our tracker](/servers/), grouped by what
 
 If you want the safest community, start with Moonwell or Back2Basics. If you want TBC solo or with one friend, TBC5Legends and Vault of Hatred are built for exactly that. If you only want to taste TBC PvP, illiwow in a browser costs you nothing. And if you can wait, Whitemane Sunwell is the one to watch. When you pick one, [how we review a server](/blog/how-we-review-a-private-server/) explains the checks we run.
 
-Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).
+Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), [Vanilla](/blog/best-vanilla-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).

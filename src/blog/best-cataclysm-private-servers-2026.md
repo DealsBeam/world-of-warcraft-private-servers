@@ -41,4 +41,4 @@ Everything below is in [our tracker](/servers/). Check the individual cards, bec
 
 If population and stability matter most, Whitemane Gilneas or Maelstrom. If you want a Spanish community, WarSages or WOW-COLOMBIA. If Mythic+ is the draw, Starfall WoW and Proudmoore are the two actively pushing it. Cataclysm carries more unverifiable entries than most expansions, so lean on the tracker flags and on [how we review a server](/blog/how-we-review-a-private-server/).
 
-Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).
+Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), [Vanilla](/blog/best-vanilla-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).

@@ -38,4 +38,4 @@ Everything below is in [our tracker](/servers/). As always, check the card for t
 
 For a large, long-running Legion realm, uWoW is the default. For Spanish or Portuguese, UwowSA. For playing alone or with one friend, Hellgarve and LegionPlus are the two built for it. And if you want to see it before release, Azeron's closed beta is the newest thing on the horizon. The [launch calendar](/blog/launch-calendar/) tracks the projects still to open.
 
-Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).
+Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), [Vanilla](/blog/best-vanilla-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).
