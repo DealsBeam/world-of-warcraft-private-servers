@@ -501,5 +501,25 @@ module.exports = [
         "title": "project_obsidian - Android Vanilla 1.12 client built on the WoWee engine",
         "url": "https://github.com/n0social/project_obsidian",
         "note": "Checked 17 Oct 2026. A clean-room C++ client for Android, booting and authenticating on Vanilla. Different engine from benilla and a different platform target, and part of the same wave of from-scratch client projects we track alongside the servers."
+    },
+    {
+        "title": "wowdecomp - a decompilation of the WoW 3.3.5a client",
+        "url": "https://github.com/SatyPardus/wowdecomp",
+        "note": "Checked 18 Oct 2026. Rebuilds the 3.3.5a client (Wow.exe, build 12340, June 2010) as C++ source, x64 main target. The repo's own count on 15 Oct 2026 was 24,515 of 27,157 functions (90.3%) and 93.2% of code bytes, with each function keeping its original address in an OFFSET tag. 306 stars at our read, no license stated. No game data included. The client was the closed half of the emulation stack; this is the open one."
+    },
+    {
+        "title": "wowdecomp15595 - a decompilation of the WoW 4.3.4 client",
+        "url": "https://github.com/SatyPardus/wowdecomp15595",
+        "note": "Checked 18 Oct 2026. Rebuilds the Cataclysm 4.3.4 client (build 15595) from both the x86 and x64 originals. The repo's own count on 16 Oct 2026 was 30,790 of 31,300 x86 functions (98.4%) and 26,401 of 38,179 x64 functions (69.2%). It states the figures measure how much of the binary has a counterpart, not how much of the game works. 27 stars, no license stated, no game data."
+    },
+    {
+        "title": "advocaite/TrinityCore, the forever branch - a server for the Forever beta client",
+        "url": "https://github.com/advocaite/TrinityCore/tree/forever",
+        "note": "Checked 18 Oct 2026. A GPL-2.0 TrinityCore fork that runs TrinityCore master against the WoW Classic beta client 1.60.1.70338 with a vanilla world converted from VMaNGOS plus the Skyborne and Zephras Isle content, and preliminary support for 1.60.1.70450. Ships a Windows repack, a Linux server guide and a host-for-others document. 94 stars. Listed for what it shows about Forever being served before launch, not as an endorsement."
+    },
+    {
+        "title": "forever_docker - a Dockerised Forever server with a web sign-up and a launcher",
+        "url": "https://github.com/jibay442/forever_docker",
+        "note": "Checked 18 Oct 2026. GPL-2.0, created 18 Oct 2026. Runs MySQL, worldserver and bnetserver over TLS in Docker with a sign-up website, plus a Windows, macOS and Linux launcher that adds the host to the hosts file and trusts its certificate. Requires the client in exactly build 1.60.1.70450 and states it includes no Blizzard assets, extracting game data from the player's own client."
     }
 ];
