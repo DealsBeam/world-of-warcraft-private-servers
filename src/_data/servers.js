@@ -1092,12 +1092,12 @@ module.exports = [
     {
         "name": "TranscendWoW",
         "status": "playable",
-        "details": "Site located October 1 2026 at transcend-wow.com, so this entry is no longer rated on a Discord count alone. The site describes Transcend-WoW as a Fun 255 Server, which matches the high-stats fun realm we had recorded, on realm DAGGERSPINE with a live Server Status widget reading Online. It advertises custom classes and races, exclusive content with hand-designed spells and custom items, played-time rewards, V.I.P. ranks, and PvE plus PvP events with seasonal challenges and world boss hunts. Newest news is dated 13.07.2026, a Mid-Summer Sale at 30% off, which puts the content roughly eleven weeks stale. popTier left unknown rather than carrying the earlier ~285 Discord estimate as if it were a population reading",
+        "details": "Site located October 1 2026 at transcend-wow.com, so this entry is no longer rated on a Discord count alone. The site describes Transcend-WoW as a Fun 255 Server, which matches the high-stats fun realm we had recorded, on realm DAGGERSPINE with a live Server Status widget reading Online. It advertises custom classes and races, exclusive content with hand-designed spells and custom items, played-time rewards, V.I.P. ranks, and PvE plus PvP events with seasonal challenges and world boss hunts. REFRESHED Oct 18 2026 from the site: the Server Status page reads Online for DAGGERSPINE 255 FUN with Max Online 139 and a 64 percent bar, an age of 7 years 332 days, uptime of 2 days 1 hour 7 minutes, total uptime of 23,102 days, total downtime 8 percent and a 20 ms average latency, on an Intel i7-6700K host. The same page lists Instant 255, custom raid tiers, character services, custom spells and abilities, a vote and donation store, a blackmarket and daily login rewards under Fun, and world quests, custom races, custom classes, custom events, a V.I.P. system, unique user interfaces and a guild house system under Extras. The changelog is current to the day of our read, with an 18.10.2026 entry raising Black Temple loot, the Soul Cinders drop amount, by 200 percent and setting the Illidan and Black Temple Boss Token drop chances to 10 percent. The news list is still stale, its newest item dated 13.07.2026, so the changelog rather than the news page is the liveness signal here. Band raised to small on the Max Online 139 reading, which our tracker treats as small in the 139 to 145 range, and it is self-reported",
         "tag": "WotLK",
         "group": "",
-        "updated": "2026-10-01",
+        "updated": "2026-10-18",
         "url": "https://transcend-wow.com/",
-      "popTier": "unknown"
+        "popTier": "small"
     },
     {
         "name": "WowSulvus",
@@ -1335,11 +1335,11 @@ module.exports = [
     {
         "name": "Lighthaven",
         "status": "playable",
-        "details": "Educational open-source AzerothCore WotLK 3.3.5a, non-profit no shop: strict x1 defaults with opt-in personal rates (.rate per-character drop/gold/reputation/skill caps), Adventure Assistant companion NPC, AI chat moderation, PlayerBots (census ~6 human + 2004 bots)",
+        "details": "Educational open-source AzerothCore WotLK 3.3.5a, non-profit no shop: strict x1 defaults with opt-in personal rates (.rate per-character drop/gold/reputation/skill caps), Adventure Assistant companion NPC, AI chat moderation, PlayerBots (census ~6 human + 2004 bots). REFRESHED Oct 18 2026 from its own pages: the site self-describes as an educational, open-source, non-profit realm that spans strict Blizzlike at one end and a fully customized overpowered character at the other, with every customization opt-in, no shop and no microtransactions, realmlist set realmlist lighthaven.quest, game version 3.3.5a (12340) and server type general-purpose. Its capture page reads Lighthaven online 3 players and 2000 bots connected, with 2,594 human characters on record, a Humans or Bots switch, and a daily concurrent peak for humans sampled by a database trigger on every human login. It also runs an AoWoW database at aowow.lighthaven.quest and publishes its source on GitLab at gitlab.tartampluch.com. Band stays tiny on the 3 human players online, and the figure is self-reported rather than counted by us",
         "tag": "WotLK",
         "group": "",
         "url": "https://lighthaven.quest/",
-        "updated": "2026-09-12",
+        "updated": "2026-10-18",
         "popTier": "tiny"
     },
     {
