@@ -206,21 +206,21 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Gilneas",
         "status": "playable",
-        "details": "Cataclysm Classic 4.3.4 realm on Whitemane network (est. 2020, F2P, no P2W, launcher for Win/Mac/Linux/Steam Deck), QoL features, custom legendaries, solo-queue PvP, rated BG matchmaking live",
+        "details": "Cataclysm Classic 4.3.4 realm on Whitemane network (est. 2020, F2P, no P2W, launcher for Win/Mac/Linux/Steam Deck), QoL features, custom legendaries, solo-queue PvP, rated BG matchmaking live. UPDATED Oct 18 2026 from the network's own site: the top banner read 8,700 players online and the realm list read Gilneas Online at 2,090 players. Its own news dates Firelands Normal opening Oct 10 2026 alongside Arena Season 10 and a free level 85 boost with starter gear for eligible returning players, Heroic Firelands following Oct 17, and an Oct 12 post announcing Protocol Inferno, which makes nine Heroic dungeons harder and rewards raid gear",
         "tag": "Cataclysm",
         "group": "Whitemane",
         "url": "https://whitemane.gg/",
-        "updated": "2026-09-14",
+        "updated": "2026-10-18",
         "popTier": "large"
     },
     {
         "name": "Whitemane \u2014 Maelstrom",
         "status": "playable",
-        "details": "Cataclysm 4.3.4 realm on Whitemane network (est. 2020, F2P, no P2W, launcher for Win/Mac/Linux/Steam Deck), QoL features, custom legendaries, solo-queue PvP, rated BG matchmaking live",
+        "details": "Cataclysm 4.3.4 realm on Whitemane network (est. 2020, F2P, no P2W, launcher for Win/Mac/Linux/Steam Deck), QoL features, custom legendaries, solo-queue PvP, rated BG matchmaking live. UPDATED Oct 18 2026 from the network's own site: the top banner read 8,700 players online and the realm list read Maelstrom Online",
         "tag": "Cataclysm",
         "group": "Whitemane",
         "url": "https://whitemane.gg/",
-        "updated": "2026-09-14",
+        "updated": "2026-10-18",
         "popTier": "large"
     },
     {
@@ -497,12 +497,12 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Frostmourne",
         "status": "playable",
-        "details": "WotLK+ 3.3.5a realm on Whitemane network (est. 2020, F2P, no P2W), Heroic Naxxramas, Personal Loot, Collections, Vulkan, HD models, class changes, L19 twink — launched Sep 19 2026 with 8500+ peak; 30-min DDoS outage at launch, stable since",
+        "details": "WotLK+ 3.3.5a realm on Whitemane network (est. 2020, F2P, no P2W), Heroic Naxxramas, Personal Loot, Collections, Vulkan, HD models, class changes, L19 twink, launched Sep 19 2026 with 8500+ peak; 30-min DDoS outage at launch, stable since. UPDATED Oct 18 2026 from the network's own site: the top banner read 8,700 players online and the realm list read Frostmourne Online at 6,610 players, the largest realm on the network at that moment. Its own news dates Heroic Naxxramas, Eye of Eternity and Obsidian Sanctum opening Oct 7 2026 with new mechanics on most bosses, and a Sep 20 post listing launch known issues. The network FAQ states the launcher collects only the information needed to identify and resolve technical issues and nothing more, and that player data is backed up across multiple locations",
         "tag": "WotLK",
         "group": "Whitemane",
         "url": "https://whitemane.gg/",
         "popTier": "large",
-        "updated": "2026-09-20"
+        "updated": "2026-10-18"
     },
     {
         "name": "Duskhaven",
@@ -585,21 +585,21 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Stormstout",
         "status": "playable",
-        "details": "MoP 5.4.8 realm on Whitemane network (est. 2020, F2P, no P2W), QoL features, custom legendaries, solo-queue PvP — beta online, full launch delayed a few months per Jun 30 news",
+        "details": "MoP 5.4.8 realm on Whitemane network (est. 2020, F2P, no P2W), QoL features, custom legendaries, solo-queue PvP, beta online, full launch delayed a few months per Jun 30 news. UPDATED Oct 18 2026: the network banner read 8,700 players online and the realm list still read Stormstout Beta Online",
         "tag": "MoP",
         "group": "Whitemane",
         "url": "https://whitemane.gg/",
-        "updated": "2026-09-14",
+        "updated": "2026-10-18",
         "popTier": "large"
     },
     {
         "name": "Whitemane \u2014 Sunwell",
         "status": "dev",
-        "details": "TBC 2.4.3 realm on Whitemane network (est. 2020, F2P, no P2W), QoL features, custom legendaries, solo-queue PvP — coming soon",
+        "details": "TBC 2.4.3 realm on Whitemane network (est. 2020, F2P, no P2W), QoL features, custom legendaries, solo-queue PvP, coming soon. UPDATED Oct 18 2026: the network banner read 8,700 players online and the realm list read Sunwell Coming Soon, so it is still pre-launch",
         "tag": "TBC",
         "group": "Whitemane",
         "url": "https://whitemane.gg/",
-        "updated": "2026-09-14",
+        "updated": "2026-10-18",
         "popTier": "large"
     },
     {
