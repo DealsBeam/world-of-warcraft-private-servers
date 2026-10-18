@@ -22,6 +22,7 @@ It is split in two on purpose. **Verified** means we have read the date at its s
 - **October 22:** [Anachronos](/news/tempest-anachronos-launches/), a blizzlike Vanilla progressive realm.
 - **October 23:** [Project Epoch Reborn](/news/project-epoch-reborn-launches-october-23/) relaunches a Classic+ realm at 16:00 GMT.
 - **October 23:** [Stonetavern](/servers/stonetavern/) takes its progressive Project Barrens realm through its next gate, the level 60 cap, on Friday October 23 at 18:00 Vienna time (16:00 UTC). Confirmed at source on October 17: the site listed 155 changes on record with the latest dated October 13 and five open proposals.
+- **November 6:** [Project Reforged](/servers/project-reforged/) launches its Classic+ realm at **18:00 CET (17:00 UTC)**, dated by a countdown on its own front page reading "Starts 06.11.2026 18:00 CET". Its realm statistics, read October 18, show the realm reachable with 32 characters created and 0 players online. See [the launch-date note](/news/project-reforged-nov-6-evergreen-hc-oct-18/).
 - **December 15, 2027:** [Shadowburn](/servers/shadowburn/), a non-commercial custom WotLK 3.3.5a project, states this date in its own launch countdown. It is the furthest-out launch in the field and is still in development.
 
 **WoW: Forever milestones (Blizzard's own dates)**
@@ -47,4 +48,4 @@ Several projects in testing have **no launch date at all**, so they cannot go on
 
 If you want the servers rather than the dates, the [full tracker](/servers/) is the place to start, and [new and recently opened realms](/servers/) are filterable there.
 
-LAST UPDATED: October 17 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
+LAST UPDATED: October 18 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
