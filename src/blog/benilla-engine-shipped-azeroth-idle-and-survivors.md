@@ -41,7 +41,7 @@ While verifying the links for this page we found that the engine now has a wider
 - **The web build has its own maintainer and repository.** **Wenilla** (github.com/Arnesen/wenilla) is the 1.12.1 client "compiled to WebAssembly", published under a different account from benilla itself, which is what lets the roguelites run in a browser tab with no download.
 - **There is a graphics fork**, **benilla-everwood_graphics** (github.com/pkuzic/benilla-everwood_graphics), aimed at pushing the rebuilt renderer.
 - The benilla author also publishes **wow-1121-client-internals**, a documentation repository on how the retail Vanilla client renders terrain, lights a scene and decodes the wire protocol.
-- A separate clean-room Android client, **project_obsidian**, targets Vanilla on a different engine entirely (github.com/n0social/project_obsidian). And a browser-first server we added to [the tracker](/servers/jankcraft/) on the same day, **Jankcraft**, pairs its own web client with an optional local AI agent the player can pair and revoke.
+- A separate clean-room Android client, **project_obsidian**, targets Vanilla on a different engine entirely (github.com/n0social/project_obsidian). And a browser-first server we added to [the tracker](/servers/jankcraft/) on the same day, **Jankcraft**, pairs a **wowser**-based browser client (we corrected its era to WotLK 3.3.5a build 12340 on October 18, after reading the shipped client bundle) with an optional local AI agent the player can pair and revoke.
 
 The corrected short version: two finished things had our attention when we published this page, and there are at least three, under more than one maintainer, on more than one platform.
 

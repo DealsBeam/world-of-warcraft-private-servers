@@ -70,4 +70,6 @@ The method is the same one described in [the population band census](/blog/popul
 
 Next census lands in November, and the November 4 Forever launch will be the largest single variable in it.
 
+**Correction, October 18 2026:** the era split above was computed on October 17 and included Jankcraft as Vanilla. We [corrected that entry to WotLK](/servers/jankcraft/) the next day after reading its shipped client bundle, so the current split is **WotLK 124, Vanilla 57**. The October 17 snapshot is left as published.
+
 SOURCES: All counts are computed from `src/_data/servers.js` on October 17 2026 and grouped through the same era mapping the site uses. Gate results and launches named here are our own dated first-party reads recorded in the linked tracker entries and news posts. Related: [the tracker](/servers/), [the census page](/census/), [the quiet servers guide](/blog/quiet-servers-low-population-guide/), and [the launch calendar](/blog/launch-calendar/).
