@@ -521,5 +521,10 @@ module.exports = [
         "title": "forever_docker - a Dockerised Forever server with a web sign-up and a launcher",
         "url": "https://github.com/jibay442/forever_docker",
         "note": "Checked 18 Oct 2026. GPL-2.0, created 18 Oct 2026. Runs MySQL, worldserver and bnetserver over TLS in Docker with a sign-up website, plus a Windows, macOS and Linux launcher that adds the host to the hosts file and trusts its certificate. Requires the client in exactly build 1.60.1.70450 and states it includes no Blizzard assets, extracting game data from the player's own client."
+    },
+    {
+        "title": "Meld - a world editor for Vanilla WoW 1.12.1 (terrain, textures, models, water and creatures, exported straight to a client and server; built for VMaNGOS and Benilla; Apache-2.0, alpha)",
+        "url": "https://github.com/Coldensjo/Meld",
+        "note": "Checked 19 Oct 2026. Sculpts terrain, paints textures and places models, water and creatures, then exports the result into a 1.12.1 client and server, aiming at a one-stop content pipeline for private servers. Built with Wails v2 (Go), Svelte 5 and Three.js. Apache-2.0. Created 11 Oct 2026; v0.1.0-alpha.1 published 18 Oct and v0.1.0-alpha.2 on 19 Oct, 7 stars and 2 forks at our read. The author states it is alpha, that many features are untested, and not to run it on a live server yet."
     }
 ];
