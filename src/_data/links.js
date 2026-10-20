@@ -526,5 +526,15 @@ module.exports = [
         "title": "Meld - a world editor for Vanilla WoW 1.12.1 (terrain, textures, models, water and creatures, exported straight to a client and server; built for VMaNGOS and Benilla; Apache-2.0, alpha)",
         "url": "https://github.com/Coldensjo/Meld",
         "note": "Checked 19 Oct 2026. Sculpts terrain, paints textures and places models, water and creatures, then exports the result into a 1.12.1 client and server, aiming at a one-stop content pipeline for private servers. Built with Wails v2 (Go), Svelte 5 and Three.js. Apache-2.0. Created 11 Oct 2026; v0.1.0-alpha.1 published 18 Oct and v0.1.0-alpha.2 on 19 Oct, 7 stars and 2 forks at our read. The author states it is alpha, that many features are untested, and not to run it on a live server yet."
+    },
+    {
+        "title": "benilla - a World of Warcraft 1.12.1 client rewritten from scratch in Rust and Bevy (Apache-2.0)",
+        "url": "https://github.com/samwhosung/benilla",
+        "note": "Checked 20 Oct 2026. A complete 1.12.1 client written from scratch rather than a patched Blizzard binary, which is what makes it portable to other targets. It is the native engine behind Open Vanilla's desktop launcher and its browser build, and Meld targets it for content export. Apache-2.0, created 24 Jul 2026, 766 stars at our read."
+    },
+    {
+        "title": "Open Vanilla - browser-playable Vanilla realm with guest mode, Workshop, Herald bot and a public server package (component repos MIT, main repo unlicensed)",
+        "url": "https://github.com/orionopenwow/OpenVanilla",
+        "note": "Checked 20 Oct 2026. Eleven public repositories: the launcher (Python), the server package (SPP Classics CMaNGOS with playerbots, Server Studio and a GM console), the built-in addon suite, the devkit and agent kit (MIT), the Forge creator app (Rust), the Herald Discord bot and autopilot, and the Vanilla Agents side project. The main repository has no licence file in its root while most components are MIT. VERSION reads 1.30.8 and the latest release is v1.30.8, against an Alpha v0.1.8 badge on the site. The README calls it a private alpha with testers from its Discord, and states that desktop play needs the player's own 1.12 build 5875 files until its rewritten game data ships."
     }
 ];

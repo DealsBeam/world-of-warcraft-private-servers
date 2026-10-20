@@ -2464,5 +2464,15 @@ module.exports = [
     "url": "https://evergreen-hc.com/",
     "updated": "2026-10-19",
     "popTier": "unknown"
+  },
+  {
+    "name": "Open Vanilla",
+    "status": "dev",
+    "details": "Browser-playable Vanilla realm at openvanilla.app, self-described as a free, open-source, community-built MMO project. The browser client runs on a hardware accelerated WebGPU engine, and the desktop launcher runs a native engine built on benilla, the Apache-2.0 project described as a complete World of Warcraft 1.12.1 client written from scratch in Rust and Bevy, which showed 766 stars at our October 20 2026 read. Browser play installs nothing: play.openvanilla.app offers sign in with Discord, a realm username and password, or Play free as a guest, where the page states no sign-up is needed and heroes stay on that device until a Discord account is linked. The realm list shows Vanilla Remastered as the PvE realm with Warfront, Moonguard and Ascension Resurrected marked soon. The desktop launcher offers online, solo offline with playerbots and browser modes, sets up SPP Classics locally for Play Solo, and until the project's own rewritten game data ships it plays from the player's own Vanilla files, build 5875. Ships a built-in addon suite counted as 19 addons in its README while the site trailer line says 11, plus a Workshop whose packages the site says are scanned and checked. Herald is a Discord bot that runs the World chat bridge, signs in nightly to test each release and offers an autopilot that can play a character; its own characters are marked as bots and excluded from rankings, the auction house and achievements. Self-hosting is public as Open Vanilla Server, which packages SPP Classics CMaNGOS with playerbots, a realm website, Server Studio and a GM console, with a Windows host guide and a Linux VPS script in the repository. Three limits recorded: the main repository orionopenwow/OpenVanilla carries no licence file in its root, so the open-source claim rests on its component repositories, most of them MIT; security.html is a vulnerability disclosure policy rather than an audit, and the scanned wording applies to Workshop packages; and the site badges Alpha v0.1.8 while the repository VERSION file and latest release both read 1.30.8. The project's own README describes it as a private alpha with testers from its Discord, so the status stays dev. Its public census feed at play.openvanilla.app/community/feed.json read October 20 2026 at 12:03 UTC returned online false, players 0, adventurers 36, today 48, week 48, discord_members 45 and discord_online 10, so the band is unknown and the realm was down at that read. Verified first-party October 20 2026",
+    "tag": "Vanilla",
+    "group": "",
+    "url": "https://openvanilla.app",
+    "updated": "2026-10-20",
+    "popTier": "unknown"
   }
 ]
