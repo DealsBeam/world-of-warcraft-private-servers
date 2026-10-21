@@ -551,5 +551,10 @@ module.exports = [
         "title": "hordes-of-azeroth-server - the private VMaNGOS fork that runs Hordes of Azeroth locally (GPL-2.0)",
         "url": "https://github.com/jonhaldors/hordes-of-azeroth-server",
         "note": "Checked 21 Oct 2026. A fork of the VMaNGOS core kept for the Hordes of Azeroth single-player mode. GPL-2.0, created 11 Oct 2026. The upstream README is largely intact, including support for 1.12.1 build 5875 and older patches; this fork is what the launcher starts on localhost so the game mode can run with no internet connection."
+    },
+    {
+        "title": "ForeverPad - a single-page tool that generates the SDL mapping that makes a generic controller visible to WoW (MIT)",
+        "url": "https://github.com/lcx0cd/foreverpad",
+        "note": "Checked 21 Oct 2026. One HTML file, no installer, no backend. Reads any DInput pad through Chrome's Gamepad API, prompts every button and stick direction, and outputs an SDL mapping line or a ready gamecontrollerdb.txt for WTF/. Written for the Forever beta and works for retail and classic. MIT, created 18 Oct 2026. The author tested a Migu MGV2170 on a 2.4 GHz dongle on macOS 26.5.2 on an M4 against WoW 1.60.1, and notes that ConsolePort 3.3.10 is blocked by the client's addon restrictions for now, so native gamepad bindings are the working path. Pads in Bluetooth keyboard mode are invisible to SDL and macOS GameController ignores generic HID pads, which is the gap the tool fills. It writes a config line and nothing else, so back up the existing file before overwriting."
     }
 ];
