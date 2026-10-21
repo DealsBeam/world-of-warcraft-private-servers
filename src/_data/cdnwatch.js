@@ -13,9 +13,23 @@ const TRACKS = [
 ];
 
 async function get(path) {
-    const r = await fetch(BASE + path, { headers: { "User-Agent": "wowprivateservers/1.0 (+https://wowprivateservers.vercel.app)" } });
-    if (!r.ok) throw new Error(`${path} -> ${r.status}`);
-    return (await r.json()).result;
+    // The build runs this on every deploy, from a datacenter that may have
+    // no route to blizztrack at all. Without a deadline the fetch can hang
+    // for minutes and the whole deployment times out with it, which is how
+    // a push ends up never reaching the site. Twelve seconds is longer than
+    // this API needs and short enough to fail fast.
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 12000);
+    try {
+        const r = await fetch(BASE + path, {
+            headers: { "User-Agent": "wowprivateservers/1.0 (+https://wowprivateservers.vercel.app)" },
+            signal: controller.signal
+        });
+        if (!r.ok) throw new Error(`${path} -> ${r.status}`);
+        return (await r.json()).result;
+    } finally {
+        clearTimeout(timer);
+    }
 }
 
 async function readTrack(tact) {
