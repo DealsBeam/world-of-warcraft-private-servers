@@ -88,7 +88,7 @@
             const s = j.now_playing && j.now_playing.song;
             if (s) {
                 const live = j.live && j.live.is_live;
-                setNow((live ? "● LIVE — " : "Now playing: ") + s.artist + " — " + s.title, false);
+                setNow((live ? "● LIVE: " : "Now playing: ") + s.artist + " · " + s.title, false);
             }
         } catch (e) {
             if (streamOnline === true) {
