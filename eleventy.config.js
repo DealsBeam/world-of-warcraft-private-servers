@@ -45,6 +45,77 @@ const latestCheck = servers => {
 
     eleventyConfig.addFilter("take", (arr, n) => (arr || []).slice(0, n));
 
+    // The news index used to be a bare list of titles. A reader arriving
+    // from search wants to know what a post is about before clicking, and
+    // the crawler wants the words on the page, so every entry now carries
+    // a one-line summary. Most posts have a summary field; the rest fall
+    // back to their description and then to the opening paragraph of the
+    // body, with the markdown stripped out.
+    const fs = require("fs");
+    const summaryCache = new Map();
+    const stripMd = s => String(s || "")
+        .replace(/```[\s\S]*?```/g, " ")
+        .replace(/`([^`]+)`/g, "$1")
+        .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+        .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+        .replace(/^\s*[>#*+-]+\s*/gm, "")
+        .replace(/[*_~]/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+    // Cut on a word boundary and mark the cut. The trailing partial word
+    // has to be dropped only when the text was actually cut, otherwise it
+    // takes the source's own ellipsis with it and the line ends mid
+    // sentence with no sign that anything was removed.
+    const cutText = (text, max) => {
+        const t = String(text || "").trim();
+        if (t.length <= max) return t;
+        const head = t.slice(0, max);
+        const trimmed = head.replace(/\s+\S*$/, "");
+        return (trimmed || head) + "…";
+    };
+    eleventyConfig.addFilter("newsSummary", (post, limit) => {
+        const max = Number(limit) || 190;
+        const d = (post && post.data) || {};
+        if (d.summary) return cutText(stripMd(d.summary), max);
+        if (d.description) return cutText(stripMd(d.description), max);
+        const path = post && post.inputPath;
+        if (!path || !fs.existsSync(path)) return "";
+        if (!summaryCache.has(path)) {
+            const raw = fs.readFileSync(path, "utf8");
+            const body = raw.replace(/^---\n[\s\S]*?\n---\n/, "");
+            const para = body.split(/\n\s*\n/).find(p => p.trim() && !p.trim().startsWith("|") && !p.trim().startsWith("SOURCES:"));
+            summaryCache.set(path, stripMd(para || ""));
+        }
+        return cutText(summaryCache.get(path), max);
+    });
+
+    // Archived news is kept out of the main list but still listed at the
+    // bottom of the index, so the two sets can be pulled apart in a filter.
+    eleventyConfig.addFilter("rejectArchived", posts => (posts || []).filter(p => !(p.data && p.data.archived)));
+    eleventyConfig.addFilter("selectArchived", posts => (posts || []).filter(p => p.data && p.data.archived));
+
+    // Month headings for the news index, so 250 entries can be scanned.
+    eleventyConfig.addFilter("groupByMonth", (posts, reversed) => {
+        const list = (posts || []).slice();
+        // The list arrives newest first. Only reverse it when the caller
+        // explicitly asks for oldest first.
+        if (reversed === true) list.reverse();
+        const groups = [];
+        const index = new Map();
+        for (const item of list) {
+            const d = item.date instanceof Date ? item.date : new Date((item.date || "1970-01-01") + "T00:00:00Z");
+            const key = d.toISOString().slice(0, 7);
+            if (!index.has(key)) {
+                const label = d.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
+                const group = { key, label, items: [] };
+                index.set(key, group);
+                groups.push(group);
+            }
+            index.get(key).items.push(item);
+        }
+        return groups;
+    });
+
     // Tracker cards used to print the whole evidence record for every
     // server, which made the homepage document close to a megabyte and put
     // first contentful paint past six seconds on a throttled connection.

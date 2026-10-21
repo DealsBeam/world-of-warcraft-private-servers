@@ -8,32 +8,75 @@ eleventyComputed:
     canonical: "https://wowprivateservers.vercel.app/news/"
     hero: "News"
     subtitle: "Private server news & updates"
-    description: "News and updates on the World of Warcraft private server scene."
+    description: "Sourced news on the World of Warcraft private server scene: realm launches and shutdowns, legal actions, Classic+ and World of Warcraft: Forever development, client and emulator releases, and the scene's open source work. Every item is checked against a first party source and dated."
 ---
+{% set live = collections.news | reverse | rejectArchived %}
+{% set archived = collections.news | rejectArchived | selectArchived %}
 {% set present = collections.news | gamesPresent %}
+{% set latest = live | take(3) %}
+{% set months = live | groupByMonth %}
+
 {% if present.length > 1 %}
 <div class="chips" id="game-chips" role="group" aria-label="Filter by game">
     <button class="chip active" data-game="all" aria-pressed="true">All</button>
     {% for g in present %}<button class="chip" data-game="{{ g }}" aria-pressed="false">{{ g | gameLabel }}</button>{% endfor %}
 </div>
-<p class="count" id="game-count" aria-live="polite" aria-atomic="true"></p>
-<p class="empty" id="game-empty" hidden role="status">No posts match your filters.</p>
 {% endif %}
-<ul class="news-list">
-{% for n in collections.news | reverse %}
-    {% if not n.data.archived %}{% set g = n.data | gameOf %}<li data-game="{{ g }}"><time>{{ n.date | formatDate }}</time><span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span><a href="{{ n.url }}">{{ n.data.title }}</a> <span class="tag">{{ g | gameLabel }}</span></li>{% endif %}
-{% endfor %}
-</ul>
 
-{% set hasArchived = false %}
-{% for n in collections.news %}{% if n.data.archived %}{% set hasArchived = true %}{% endif %}{% endfor %}
-{% if hasArchived %}
-<section class="panel" id="archive-panel">
+<div class="news-tools">
+    <div class="news-search">
+        <label class="sr-only" for="news-filter">Search the news archive</label>
+        <input id="news-filter" type="search" placeholder="Search titles and summaries" data-news-filter autocomplete="off" spellcheck="false">
+    </div>
+    <p class="count" id="news-count" aria-live="polite" aria-atomic="true">{{ live | length }} items</p>
+</div>
+<p class="empty" id="news-empty" hidden role="status">Nothing matches that search. Try a server name, a client build, a month or a keyword.</p>
+
+{% if latest.length %}
+<section class="panel" id="latest-news">
+    <h2>Just in</h2>
+    <ul class="news-lead-list">
+        {% for n in latest %}{% set g = n.data | gameOf %}
+        <li data-game="{{ g }}" data-search="{{ (n.data.title ~ ' ' ~ (n.data.summary or n.data.description or '')) | lower }}">
+            <time datetime="{{ n.date | isoDate }}">{{ n.date | formatDate }}</time>
+            <a href="{{ n.url }}">{{ n.data.title }}</a>
+            <p>{{ n | newsSummary(220) }}</p>
+            <span class="tag">{{ g | gameLabel }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+
+<section class="panel" id="news-archive">
     <h2>Archive</h2>
+    {% for m in months %}
+    <details class="news-month" {% if loop.index <= 2 %}open{% endif %}>
+        <summary><h3>{{ m.label }}</h3><span class="count">{{ m.items | length }} items</span></summary>
+        <ul class="news-list news-list-rich">
+            {% for n in m.items %}{% set g = n.data | gameOf %}
+            <li data-game="{{ g }}" data-search="{{ (n.data.title ~ ' ' ~ (n.data.summary or n.data.description or (n | newsSummary(190)))) | lower }}">
+                <time datetime="{{ n.date | isoDate }}">{{ n.date | formatDate }}</time>
+                <span class="news-chip" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12"><use href="#ic-document"/></svg></span>
+                <span class="news-row">
+                    <a href="{{ n.url }}">{{ n.data.title }}</a>
+                    <span class="news-row-summary">{{ n | newsSummary(190) }}</span>
+                </span>
+                <span class="tag">{{ g | gameLabel }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </details>
+    {% endfor %}
+</section>
+
+{% if archived.length %}
+<section class="panel" id="archive-panel">
+    <h2>Archived</h2>
     <ul class="news-list">
-        {% for n in collections.news %}{% if n.data.archived %}{% set g = n.data | gameOf %}
-        <li data-game="{{ g }}"><time>{{ n.date | formatDate }}</time><a href="{{ n.url }}">{{ n.data.title }}</a> <span class="tag">{{ g | gameLabel }}</span></li>
-        {% endif %}{% endfor %}
+        {% for n in archived %}{% set g = n.data | gameOf %}
+        <li data-game="{{ g }}" data-search="{{ (n.data.title ~ ' ' ~ (n.data.summary or '')) | lower }}"><time>{{ n.date | formatDate }}</time><a href="{{ n.url }}">{{ n.data.title }}</a> <span class="tag">{{ g | gameLabel }}</span></li>
+        {% endfor %}
     </ul>
 </section>
 {% endif %}
@@ -41,39 +84,87 @@ eleventyComputed:
 <section class="panel" id="blog-teaser">
     <h2>From the blog</h2>
     <ul class="news-list">
-        {% for p in collections.blog | reverse | take(3) %}<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>{% endfor %}
+    {% for p in collections.blog | reverse | take(3) %}<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>{% endfor %}
     </ul>
     <p><a href="/blog/">All posts →</a></p>
 </section>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "World of Warcraft private server news",
+    "numberOfItems": {{ live | length }},
+    "itemListElement": [
+    {% for n in live %}
+    { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ n.data.title | dump | safe }}, "url": "https://wowprivateservers.vercel.app{{ n.url }}", "datePublished": {{ n.date | isoDate | dump | safe }} }{{ "," if not loop.last }}
+    {% endfor %}
+    ]
+}
+</script>
+
 <script>
 (function () {
-    const bar = document.getElementById("game-chips");
-    if (!bar) return;
+    // Only list rows, never the filter buttons, which also carry a
+    // data-game attribute and would otherwise be hidden by the filter.
     const items = Array.from(document.querySelectorAll("li[data-game]"));
-    const count = document.getElementById("game-count");
-    const empty = document.getElementById("game-empty");
+    const count = document.getElementById("news-count");
+    const empty = document.getElementById("news-empty");
     const teaser = document.getElementById("blog-teaser");
-    function render(g) {
+    const lead = document.getElementById("latest-news");
+    const input = document.querySelector("[data-news-filter]");
+    const bar = document.getElementById("game-chips");
+    let game = "all";
+    let query = "";
+
+    function apply() {
+        const q = query.trim().toLowerCase();
+        const leadHidden = lead ? lead.hidden : true;
         let n = 0;
         items.forEach(function (el) {
-            const on = g === "all" || el.getAttribute("data-game") === g;
+            const inLead = !!(lead && lead.contains(el));
+            const gameOk = game === "all" || el.getAttribute("data-game") === game;
+            const textOk = !q || (el.getAttribute("data-search") || "").indexOf(q) !== -1;
+            const on = gameOk && textOk;
             el.hidden = !on;
-            if (on) n++;
+            // A row inside a hidden lead panel is not on screen, so it does
+            // not count as a visible match.
+            if (on && !(inLead && leadHidden)) n++;
         });
-        if (teaser) teaser.hidden = g !== "all";
-        if (count) count.textContent = n + " of " + items.length + " posts";
+        document.querySelectorAll(".news-month").forEach(function (d) {
+            const shown = d.querySelectorAll("li:not([hidden])").length;
+            d.hidden = shown === 0;
+        });
+        if (lead) lead.hidden = q !== "" || game !== "all";
+        if (teaser) teaser.hidden = q !== "" || game !== "all";
+        if (count) count.textContent = n + " of " + items.length + " items";
         if (empty) empty.hidden = n > 0;
     }
-    bar.addEventListener("click", function (e) {
-        const b = e.target.closest(".chip");
-        if (!b) return;
-        bar.querySelectorAll(".chip").forEach(function (c) {
-            const on = c === b;
-            c.classList.toggle("active", on);
-            c.setAttribute("aria-pressed", on);
+
+    if (bar) {
+        bar.addEventListener("click", function (e) {
+            const b = e.target.closest(".chip");
+            if (!b) return;
+            bar.querySelectorAll(".chip").forEach(function (c) {
+                const on = c === b;
+                c.classList.toggle("active", on);
+                c.setAttribute("aria-pressed", on);
+            });
+            game = b.getAttribute("data-game");
+            apply();
         });
-        render(b.getAttribute("data-game"));
-    });
-    render("all");
+    }
+
+    if (input) {
+        let t = null;
+        input.addEventListener("input", function () {
+            clearTimeout(t);
+            t = setTimeout(function () {
+                query = input.value;
+                apply();
+            }, 120);
+        });
+    }
+    apply();
 })();
 </script>
