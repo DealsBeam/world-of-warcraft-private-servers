@@ -8,40 +8,110 @@ eleventyComputed:
     canonical: "https://wowprivateservers.vercel.app/shop/"
     hero: "Shop"
     subtitle: "Support the tracker — books, time & gear"
-    description: "Support wowprivateservers via Amazon affiliate links — WoW books, game time and collectibles. Same price for you, small cut for us."
+    description: "Support wowprivateservers via Amazon affiliate links. A curated list of World of Warcraft books, soundtracks and desk gear, picked first and linked second, with reference prices recorded at publish time."
 ---
+{% set disclosureNote = "The reference prices on this page were read from the US Amazon storefront on 21 October 2026. They are what the price was on that day, not a live quote, and Amazon moves prices and varies them by region and currency." %}
+{% include "affiliate-disclosure.njk" %}
+
 <section class="panel shop-intro">
     <div class="media-panel-head">
-        <h2>Support via Amazon</h2>
+        <h2>Picked first, linked second</h2>
         <span class="media-badge">Affiliate links</span>
     </div>
-    <p>As an Amazon Associate we earn from qualifying purchases. Same price for you, small cut keeps the tracker and CDN watcher running.</p>
+    <p>Every item below was chosen because it earns its place in a Warcraft player's shelf or desk. The price is what Amazon was charging on the day we checked it, and the rating is the one Amazon showed then. Same price for you, a small cut for us, and the tracker and its CDN watcher keep running.</p>
 </section>
 
-<div class="shop-grid" aria-label="Support categories">
-    <article class="shop-card">
-        <h3>Books & Lore</h3>
-        <p>Chronicles, novels and art books for the Warcraft timeline.</p>
-        <div class="shop-actions">
-            <a class="chip active" href="https://www.amazon.com/s?k=world+of+warcraft+chronicle&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Chronicles →</a>
-            <a class="chip" href="https://www.amazon.com/s?k=world+of+warcraft+novel&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Novels →</a>
-        </div>
-    </article>
-    <article class="shop-card">
-        <h3>Game Time & Mounts</h3>
-        <p>Time cards, expansions and collectibles for more time in Azeroth.</p>
-        <div class="shop-actions">
-            <a class="chip active" href="https://www.amazon.com/s?k=world+of+warcraft+game+time&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Game Time →</a>
-            <a class="chip" href="https://www.amazon.com/s?k=world+of+warcraft+mount&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Search mounts →</a>
-        </div>
-    </article>
-    <article class="shop-card">
-        <h3>Starter Search</h3>
-        <p>Browse the full Warcraft catalog when you know exactly what you need.</p>
-        <div class="shop-actions">
-            <a class="chip" href="https://www.amazon.com/s?k=world+of+warcraft&linkCode=ll2&tag=indkin-20&linkId=22a3f300bde3bbb1cf96c1a6857795a9&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="sponsored nofollow noopener">Full WoW search →</a>
-        </div>
-    </article>
-</div>
+<section class="panel">
+    <h2>Books and lore</h2>
+    <p class="meta-info">The Chronicle volumes are the closest thing Warcraft has to a history of the world, and they read like a history anyway. Our longer <a href="/blog/wow-books-lore-reading-guide-oct-15/">reading guide</a> covers the novels and where each book fits.</p>
+    <ul class="product-list">
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/1616558458?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">World of Warcraft: Chronicle Volume 1</a></h3>
+            <p class="product-meta"><span class="product-price">about $27</span><span class="product-rating">4.8 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>The first book of the four, and the one that starts the whole story properly: the tribal years, the Titans, the rise of the orcs and the first wars.</p>
+        </li>
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/1616558466?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">World of Warcraft: Chronicle Volume 2</a></h3>
+            <p class="product-meta"><span class="product-price">about $32</span><span class="product-rating">4.8 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>Colossus, the Dark Queen, the Age of Doubt and the Scourge. The volume most people argue about afterwards.</p>
+        </li>
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/1616558474?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">World of Warcraft: Chronicle Volume 3</a></h3>
+            <p class="product-meta"><span class="product-price">about $50</span><span class="product-rating">4.8 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>The Warcraft II and III years, the Doomhammer, and the Alliance and Horde that Forever rewinds to. The most contested volume in the set.</p>
+        </li>
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/1506731910?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">World of Warcraft: Chronicle Volume 4</a></h3>
+            <p class="product-meta"><span class="product-price">about $29</span><span class="product-rating">4.7 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>Shattrath, the WoW game itself, and the events players are still arguing about on the forums today.</p>
+        </li>
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/1945683678?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">The Cinematic Art of World of Warcraft: Volume I</a></h3>
+            <p class="product-meta"><span class="product-price">about $14</span><span class="product-rating">4.7 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>Art from the first three expansions, the kind of book that sits open on a desk and gets read for the pictures alone.</p>
+        </li>
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/1956916636?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">World of Warcraft: How To Draw Heroes and Villains</a></h3>
+            <p class="product-meta"><span class="product-price">about $25</span><span class="product-rating">4.8 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>A drawing book, for anyone who has ever wanted to sketch a draenei or a naga and given up before the eyes.</p>
+        </li>
+    </ul>
+</section>
 
-<p class="shop-disclosure">Every link is marked as sponsored. Affiliate clicks help fund site operations; they do not change the price you pay.</p>
+<section class="panel">
+    <h2>Soundtrack and desk</h2>
+    <ul class="product-list">
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/B0CPHT8TPN?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">World of Warcraft: Wrath of the Lich King original soundtrack, blue splatter vinyl</a></h3>
+            <p class="product-meta"><span class="product-price">about $78</span><span class="product-rating">4.9 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>The Wrath score on vinyl, and the closest thing to the music <a href="/news/forever-soundtrack-oct-21/">Blizzard released for Forever</a> that you can own in a sleeve.</p>
+        </li>
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/B0FSD44L5R?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Blizzard WoW themed symbol gaming mouse pad, XXL</a></h3>
+            <p class="product-meta"><span class="product-price">about $22</span><span class="product-rating">4.9 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>Big enough for a keyboard and a mouse, which is the point when you are on a private server for six hours.</p>
+        </li>
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/B08YKC54B9?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Mouse pad XXL Lich King</a></h3>
+            <p class="product-meta"><span class="product-price">about $29</span><span class="product-rating">4.8 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>For the desk of someone whose server of choice is a Wrath realm and who has stopped pretending to be neutral about it.</p>
+        </li>
+        <li class="product">
+            <h3><a href="https://www.amazon.com/dp/B0DG7R7GVG?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">"Sure Right After This Raid" World of Warcraft mug, 11 oz</a></h3>
+            <p class="product-meta"><span class="product-price">about $16</span><span class="product-rating">5.0 stars</span><span class="product-when">price seen 21 Oct 2026</span></p>
+            <p>The most accurate guild recruitment pitch ever printed on a mug.</p>
+        </li>
+    </ul>
+</section>
+
+<section class="panel">
+    <h2>Or search the catalog</h2>
+    <p class="meta-info">If you know exactly what you want, these searches are faster than scrolling a list.</p>
+    <div class="shop-grid" aria-label="Search categories">
+        <article class="shop-card">
+            <h3>Chronicles and art books</h3>
+            <p>The full set of lore and art books, including volumes we have not listed.</p>
+            <div class="shop-actions">
+                <a class="chip active" href="https://www.amazon.com/s?k=world+of+warcraft+chronicle&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Chronicles →</a>
+                <a class="chip" href="https://www.amazon.com/s?k=world+of+warcraft+art+book&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Art books →</a>
+            </div>
+        </article>
+        <article class="shop-card">
+            <h3>Game time and mounts</h3>
+            <p>Time cards, expansions and collectibles for more time in Azeroth.</p>
+            <div class="shop-actions">
+                <a class="chip active" href="https://www.amazon.com/s?k=world+of+warcraft+game+time&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Game Time →</a>
+                <a class="chip" href="https://www.amazon.com/s?k=world+of+warcraft+mount&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Search mounts →</a>
+            </div>
+        </article>
+        <article class="shop-card">
+            <h3>Starter search</h3>
+            <p>Browse the full Warcraft catalog when you know exactly what you need.</p>
+            <div class="shop-actions">
+                <a class="chip" href="https://www.amazon.com/s?k=world+of+warcraft&linkCode=ll2&tag=indkin-20&linkId=22a3f300bde3bbb1cf96c1a6857795a9&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="sponsored nofollow noopener">Full WoW search →</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<p class="meta-info">How we pick: products are chosen first for the guide, then linked. Reference prices were read from the US Amazon storefront on 21 October 2026 and are not live quotes. If a link stops working, that is on us, and we will replace it rather than leave a dead one.</p>

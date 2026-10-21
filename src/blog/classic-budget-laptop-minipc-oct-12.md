@@ -5,7 +5,10 @@ category: guides
 summary: "Forty-eight percent of the realms on our tracker run the Wrath client. None of them need a gaming PC. Three budget paths from about $300 to about $600, with tagged links and disclosure up front."
 ---
 
-*Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting each tier; the links follow. Prices below are reference ranges recorded at publish time on October 12 2026, not live quotes.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting each tier; the links follow. Prices below are reference ranges recorded at publish time on October 12 2026, not live quotes.</p>
+</aside>
 
 ## What the clients actually need
 
@@ -17,7 +20,7 @@ So this guide is not about minimum machines. It is about the sensible budget ban
 
 The best value in computing right now. A small box with an Intel N100-class processor, **16 GB RAM and a 512 GB NVMe SSD** runs Vanilla, TBC and Wrath at high settings with the CPU barely waking up. It also handles Mists of Pandaria. The integrated graphics are the ceiling: the moment you move to Legion or newer clients, an N100 starts flirting with its limits.
 
-- Mini PCs with N100, 16 GB and NVMe, around $300 to $400 ([A](https://www.amazon.com/s?k=mini+pc+n100+16gb+ssd&tag=indkin-20)).
+- Mini PCs with N100, 16 GB and NVMe, around $300 to $400 (<a href="https://www.amazon.com/s?k=mini+pc+n100+16gb+ssd&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
 
 For a dedicated Vanilla or WotLK player, this is the honest recommendation: cheaper than a laptop, more powerful than it has any right to be, and it disappears next to a monitor. The SSD alone kills the worst part of old-client play, the 30 to 60 second zone loads on spinning disks.
 
@@ -25,13 +28,13 @@ For a dedicated Vanilla or WotLK player, this is the honest recommendation: chea
 
 Same spec logic, added portability. Look for **16 GB RAM and an SSD** as non-negotiables; then a modern iGPU. Casual WoW is not a GPU game below Legion. If you plan to play MoP or anything newer, push toward the top of the band for a machine with a discrete GPU, because the integrated graphics step-up between $550 and $650 is the difference between "fine" and "playable at acceptable settings".
 
-- Budget laptops, 16 GB and SSD, around $500 to $650 ([A](https://www.amazon.com/s?k=budget+laptop+16gb+ram+ssd&tag=indkin-20)).
+- Budget laptops, 16 GB and SSD, around $500 to $650 (<a href="https://www.amazon.com/s?k=budget+laptop+16gb+ram+ssd&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
 
 ## Tier three: the pre-built desktop, about $450 to $600
 
 The most headroom per dollar, and the only genuinely upgradable path. A tower with a mid-range desktop CPU, 16 GB and an SSD leaves room to add a GPU later, which future-proofs against the moment you drift toward Legion and beyond, or toward one of the Unreal-Engine rebuilds on our tracker that genuinely want a discrete card.
 
-- Budget gaming desktops, around $450 to $600 ([A](https://www.amazon.com/s?k=budget+gaming+desktop&tag=indkin-20)).
+- Budget gaming desktops, around $450 to $600 (<a href="https://www.amazon.com/s?k=budget+gaming+desktop&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
 
 If you already own a desk setup and never travel, this is the tier to buy once.
 
@@ -39,8 +42,8 @@ If you already own a desk setup and never travel, this is the tier to buy once.
 
 Whatever you buy, two things are worth doing with or without a new machine:
 
-- **16 GB of RAM ([A](https://www.amazon.com/s?k=16gb+ram+ddr4+upgrade&tag=indkin-20))**: eight gigs runs the game but chokes on the side of life that actually matters in 2026, the browser, the Discord, the stream.
-- **An NVMe SSD ([A](https://www.amazon.com/s?k=nvme+ssd+1tb&tag=indkin-20))**: the single biggest perceived-speed improvement available for old clients, as the hardware floor guide details.
+- **16 GB of RAM (<a href="https://www.amazon.com/s?k=16gb+ram+ddr4+upgrade&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>)**: eight gigs runs the game but chokes on the side of life that actually matters in 2026, the browser, the Discord, the stream.
+- **An NVMe SSD (<a href="https://www.amazon.com/s?k=nvme+ssd+1tb&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>)**: the single biggest perceived-speed improvement available for old clients, as the hardware floor guide details.
 
 ## The honest footnote
 

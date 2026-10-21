@@ -400,3 +400,48 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
         `rated popTier on an entry with no url: ${noUrlRated.map(s => `${s.name} (${s.popTier})`).join(", ")}`);
     console.log(`OK: no population band rests on a source we cannot name (${rated.length} rated, ${noUrlRated.length} offenders)`);
 }
+// Amazon affiliate rules, enforced on the built output rather than trusted
+// to discipline: every page carrying an Amazon affiliate link has to carry
+// the disclosure box above the first one, every affiliate link has to be
+// marked sponsored and nofollow, and the tracker and the news archive must
+// stay free of affiliate links entirely. A plain link to Amazon's own
+// privacy policy is not an affiliate link and is not covered here.
+{
+    const walk = (dir, out = []) => {
+        for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+            const p = path.join(dir, entry.name);
+            if (entry.isDirectory()) walk(p, out);
+            else if (entry.name.endsWith('.html')) out.push(p);
+        }
+        return out;
+    };
+
+    const pages = walk(out);
+    const monetised = [];
+    const missingBox = [];
+    const missingRel = [];
+    const inTrackerOrNews = [];
+
+    for (const file of pages) {
+        const html = fs.readFileSync(file, 'utf8');
+        const links = html.match(/<a[^>]+href="[^"]*amazon\.com[^"]*"[^>]*>/gi) || [];
+        const affiliate = links.filter(l => /rel="[^"]*sponsored/.test(l));
+        if (!affiliate.length) continue;
+        const rel = path.relative(out, file).split(path.sep).join('/');
+        monetised.push(rel);
+        const first = html.indexOf(affiliate[0]);
+        if (!html.slice(0, first).includes('aff-disclosure')) missingBox.push(rel);
+        for (const l of affiliate) {
+            if (!/rel="[^"]*nofollow/.test(l)) missingRel.push(rel);
+        }
+        if (/^\/(servers|news)\//.test(rel)) inTrackerOrNews.push(rel);
+    }
+
+    assert.strictEqual(missingBox.length, 0,
+        `pages with an Amazon affiliate link and no disclosure box above it: ${missingBox.join(', ')}`);
+    assert.strictEqual(missingRel.length, 0,
+        `Amazon affiliate links missing rel="sponsored nofollow": ${[...new Set(missingRel)].join(', ')}`);
+    assert.strictEqual(inTrackerOrNews.length, 0,
+        `affiliate links on tracker or news pages: ${inTrackerOrNews.join(', ')}`);
+    console.log(`OK: affiliate disclosure sits above every Amazon affiliate link (${monetised.length} pages checked)`);
+}

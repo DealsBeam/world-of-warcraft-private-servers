@@ -5,7 +5,10 @@ category: guides
 summary: "Handhelds can run WoW private servers, but the launchers, patches and controls are where people get stuck. Here is the framework, the one network with native support, and the accessories that matter."
 ---
 
-*Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting the guide; the links follow. Prices vary by region and change often, so we do not quote them here.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting the guide; the links follow. Prices vary by region and change often, so we do not quote them here.</p>
+</aside>
 
 Running a WoW private server on a handheld is not hard because the clients are heavy. It is hard because the ecosystem is Windows-shaped: the game client, the realmlist, the launchers, and the per-realm patches all assume a desktop PC. That is the whole problem to solve, and once you know where the friction is, it stops being mysterious.
 
@@ -23,23 +26,23 @@ The good news is that the classic clients are light. Vanilla and Wrath date from
 
 An MMO assumes a keyboard, a mouse, and twenty keybinds. On a controller, that assumption breaks, which is why the community answer is an addon rather than a setting. **ConsolePort** is the standard controller interface for WoW clients, and it is the single most useful thing to install before you try to play on a pad. Plan on spending an evening setting up bars and binds no matter which device you use, and keep a small wireless mouse within reach for inventory and auction house work.
 
-- A compact wireless mouse for the fiddly parts ([A](https://www.amazon.com/s?k=compact+wireless+gaming+mouse&tag=indkin-20)).
-- A foldable or compact keyboard if you plan to type in chat ([A](https://www.amazon.com/s?k=foldable+bluetooth+keyboard+compact&tag=indkin-20)).
+- A compact wireless mouse for the fiddly parts (<a href="https://www.amazon.com/s?k=compact+wireless+gaming+mouse&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
+- A foldable or compact keyboard if you plan to type in chat (<a href="https://www.amazon.com/s?k=foldable+bluetooth+keyboard+compact&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
 
 ## Storage, and why you will want more of it
 
 The Steam Deck model that stores games on a microSD card is a good match for this scene, because each realm often wants its own client folder. Two things make that necessary: patches that conflict between realms, and launchers that expect a specific client. Our [storage guide](/blog/one-client-folder-per-realm/) covers the folder-per-realm habit in detail. Practically, this means:
 
-- A large, fast microSD card for Deck owners ([A](https://www.amazon.com/s?k=microsdxc+1tb+a2+card&tag=indkin-20)).
-- A portable SSD if you would rather keep clients off the internal drive and move them between machines ([A](https://www.amazon.com/s?k=portable+ssd+1tb+usb+c&tag=indkin-20)).
+- A large, fast microSD card for Deck owners (<a href="https://www.amazon.com/s?k=microsdxc+1tb+a2+card&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
+- A portable SSD if you would rather keep clients off the internal drive and move them between machines (<a href="https://www.amazon.com/s?k=portable+ssd+1tb+usb+c&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
 
 ## Power, heat, and the dock
 
 A three-hour raid night will outlast an undocked handheld's battery, and raiding is the workload where a plugged-in dock is genuinely better: sustained performance, a monitor, and a real keyboard all at once.
 
-- A USB-C dock with display output and charging ([A](https://www.amazon.com/s?k=usb+c+dock+hdmi+charging&tag=indkin-20)).
-- A high-wattage USB-C charger for long sessions ([A](https://www.amazon.com/s?k=usb+c+charger+100w+gan&tag=indkin-20)).
-- A padded carry case if the device travels ([A](https://www.amazon.com/s?k=handheld+gaming+console+carry+case&tag=indkin-20)).
+- A USB-C dock with display output and charging (<a href="https://www.amazon.com/s?k=usb+c+dock+hdmi+charging&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
+- A high-wattage USB-C charger for long sessions (<a href="https://www.amazon.com/s?k=usb+c+charger+100w+gan&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
+- A padded carry case if the device travels (<a href="https://www.amazon.com/s?k=handheld+gaming+console+carry+case&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
 
 ## The honest caveats
 

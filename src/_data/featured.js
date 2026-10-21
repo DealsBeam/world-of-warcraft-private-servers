@@ -3,7 +3,7 @@ module.exports = {
     page: "/creators/malonze-gaming/",
     image: "/images/hero-3.jpeg", // 192px thumb at /images/hero-3-192.webp must exist (index + creator use it)
     heading: "Featured Creator — Malonze Gaming",
-    blurb: "1.74k subs, 592 videos — WoW private servers (Ascension, Turtle, Octo, Epoch) + Malonze Productions Cosplay (174, leather armor, Metrocon 2019 pet dragon award).",
+    blurb: "1.74k subs and 600 videos, checked 21 Oct 2026: WoW private servers (Ascension, Turtle, Octo, Epoch, Frostmourne) plus Malonze Productions Cosplay (179 subs, leather armor, Metrocon 2019 pet dragon award).",
     links: [
         { label: "View feature →", url: "/creators/malonze-gaming/" },
         { label: "YouTube Gaming", url: "https://www.youtube.com/@MalonzeGaming", external: true },
@@ -13,7 +13,7 @@ module.exports = {
     review: {
         videoId: "cferUSIYwfw",
         title: "Awesome Private Server Tracker Website",
-        date: "2026-08-19",
-        views: 291
+        date: "2026-08-18",
+        views: 355
     }
 };

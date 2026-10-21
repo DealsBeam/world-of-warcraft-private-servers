@@ -6,7 +6,10 @@ heroImage: /images/hero-3.jpeg
 summary: "Classic clients need a fraction of what modern games ask. Published minimums per client era, the one upgrade worth buying, and affiliate disclosure up front."
 ---
 
-*Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting the guide; the links follow. Prices below were recorded at publish time.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting the guide; the links follow. Prices below were recorded at publish time.</p>
+</aside>
 
 ## The short version
 
@@ -28,8 +31,8 @@ Those are Blizzard's own published minimums, and private servers inherit them be
 
 If anything on an old machine bottlenecks a Classic client, it is the hard drive. Zone load times on spinning disks run 30 to 60 seconds; on any solid-state drive, under 10. It is the only upgrade with a perceptible effect on this workload, because the CPU and GPU requirements are already met.
 
-- Budget SATA SSDs, any reputable brand at 500 GB or above ([A](https://www.amazon.com/s?k=sata+ssd+500gb&tag=indkin-20)). Recorded reference price October 2026: typically $30 to $45.
-- External SSDs if the machine cannot be opened ([A](https://www.amazon.com/s?k=external+ssd+portable&tag=indkin-20)).
+- Budget SATA SSDs, any reputable brand at 500 GB or above (<a href="https://www.amazon.com/s?k=sata+ssd+500gb&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>). Recorded reference price October 2026: typically $30 to $45.
+- External SSDs if the machine cannot be opened (<a href="https://www.amazon.com/s?k=external+ssd+portable&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
 
 Everything else, more RAM, a newer GPU, a faster CPU, buys nothing measurable for 1.12 through 3.3.5a. Save the money.
 

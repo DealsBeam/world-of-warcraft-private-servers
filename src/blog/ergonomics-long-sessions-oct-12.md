@@ -5,7 +5,10 @@ category: guides
 summary: "Raid nights and grind sessions are hours in one position. The free fixes come first, then three tiers of actual purchases from about $40 to about $700, with tagged links and disclosure."
 ---
 
-*Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting each tier; the links follow. Prices below are reference ranges recorded at publish time on October 12 2026, not live quotes.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting each tier; the links follow. Prices below are reference ranges recorded at publish time on October 12 2026, not live quotes.</p>
+</aside>
 
 ## Why this guide exists
 
@@ -23,22 +26,22 @@ If the setup already passes those three, the free tier is done and purchases bel
 
 ## Tier one: the desk-level fixes, about $40 to $80
 
-- **A wrist rest for the mouse hand [A](https://www.amazon.com/s?k=wrist+rest+for+mouse&tag=indkin-20).** Raid bosses and long sessions load the mouse wrist more than the keyboard one. A gel rest is enough.
-- **A monitor riser or arm [A](https://www.amazon.com/s?k=monitor+riser+stand&tag=indkin-20).** The cheapest way to fix the eye-level problem when a stack of books feels undignified.
-- **A lumbar support cushion [A](https://www.amazon.com/s?k=lumbar+support+cushion&tag=indkin-20).** The single best cheap fix for an office-chair posture that most desks already have.
+- **A wrist rest for the mouse hand <a href="https://www.amazon.com/s?k=wrist+rest+for+mouse&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Raid bosses and long sessions load the mouse wrist more than the keyboard one. A gel rest is enough.
+- **A monitor riser or arm <a href="https://www.amazon.com/s?k=monitor+riser+stand&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** The cheapest way to fix the eye-level problem when a stack of books feels undignified.
+- **A lumbar support cushion <a href="https://www.amazon.com/s?k=lumbar+support+cushion&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** The single best cheap fix for an office-chair posture that most desks already have.
 
 This tier exists for the player with a fine chair and a desk that was never set up right.
 
 ## Tier two: the real upgrade, about $150 to $300
 
-- **A task chair with adjustable lumbar support [A](https://www.amazon.com/s?k=ergonomic+office+chair+lumbar&tag=indkin-20).** Not a racing-style gaming chair. A mesh-back task chair with a seat-height lever and adjustable lumbar support does more for an MMO player than any headset brand.
-- **A monitor arm with height adjustment [A](https://www.amazon.com/s?k=monitor+arm+height+adjustable&tag=indkin-20).** Frees desk space and fixes eye level permanently and precisely.
+- **A task chair with adjustable lumbar support <a href="https://www.amazon.com/s?k=ergonomic+office+chair+lumbar&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Not a racing-style gaming chair. A mesh-back task chair with a seat-height lever and adjustable lumbar support does more for an MMO player than any headset brand.
+- **A monitor arm with height adjustment <a href="https://www.amazon.com/s?k=monitor+arm+height+adjustable&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Frees desk space and fixes eye level permanently and precisely.
 
 This is the tier that actually changes things. Most players reading this who upgrade, should stop here.
 
 ## Tier three: the serious chair, about $400 to $700
 
-- **A proper ergonomic chair [A](https://www.amazon.com/s?k=high+end+ergonomic+chair&tag=indkin-20).** This is the one category where spending real money is defensible: a chair is used more hours per week than any other purchase in the setup, and a well-reviewed ergonomic chair holds its value for a decade. Buy once, sit daily.
+- **A proper ergonomic chair <a href="https://www.amazon.com/s?k=high+end+ergonomic+chair&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** This is the one category where spending real money is defensible: a chair is used more hours per week than any other purchase in the setup, and a well-reviewed ergonomic chair holds its value for a decade. Buy once, sit daily.
 
 If the budget only allows one large purchase in the whole setup, this is the one. The launch kit spends on what makes play better; this spends on what keeps playing possible.
 

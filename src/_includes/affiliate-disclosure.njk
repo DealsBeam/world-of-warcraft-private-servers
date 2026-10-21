@@ -1,0 +1,10 @@
+{# Disclosure box for pages that carry Amazon affiliate links.
+   The rule is that the disclosure has to sit above the links, so this
+   include is called before any product card, never after it.
+   Pages can pass their own note as a named argument, for example an
+   include call with note set to a sentence about how prices were
+   recorded. #}
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+    <p class="aff-disclosure-title">Affiliate disclosure</p>
+    <p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. {{ disclosureNote or "Prices shown are reference figures recorded at publish time, not live quotes, and Amazon prices move." }}</p>
+</aside>

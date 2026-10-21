@@ -8,71 +8,144 @@ eleventyComputed:
     canonical: "https://wowprivateservers.vercel.app/creators/malonze-gaming/"
     hero: "Malonze Gaming"
     subtitle: "Featured Creator — WoW private servers + handmade armor"
-    description: "Malonze Gaming reviews WoW private servers — Turtle WoW, Ascension, Octo WoW, Epoch, Emberveil — and Malonze Productions Cosplay crafts leather wolf gauntlets, miniature painting and Metrocon 2019 pet dragon award. Shop MalonzeProductions on Etsy."
+    description: "Malonze Gaming reviews WoW private servers including Ravencraft, Octo WoW, Project Epoch, Frostmourne and World of Warcraft: Forever, and Malonze Productions Cosplay crafts leather armor and miniature painting. Every link on this page was checked on 21 October 2026."
 ---
-<section class="panel">
-    <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center">
-        <img src="/images/hero-3-192.webp" alt="" decoding="async" width="140" height="90" style="object-fit:cover;border-radius:var(--r-surface);flex:0 0 auto">
-        <div>
-            <h2 style="margin:0">Malonze Gaming</h2>
-            <p class="meta-info" style="margin:4px 0 8px">Creator runs <strong>Malonze Gaming</strong> (gaming) and <strong>Malonze Productions Cosplay</strong> (crafting) — plus Excalligator Reviews. Handmade armor and leather, Metrocon 2019 pet dragon award, WoW retail + private server reviews.</p>
-            <p style="margin:0;display:flex;gap:8px;flex-wrap:wrap">
-                <a class="chip active" href="https://www.youtube.com/@MalonzeGaming" target="_blank" rel="noopener">▶ Gaming</a>
-                <a class="chip" href="https://www.youtube.com/@malonzeproductionscosplay3673" target="_blank" rel="noopener">✦ Cosplay</a>
-                <a class="chip" href="https://www.etsy.com/shop/MalonzeProductions" target="_blank" rel="noopener">Etsy Shop</a>
-                <a class="chip" href="https://www.facebook.com/MalonzeProductions" target="_blank" rel="noopener">Facebook</a>
-                <a class="chip" href="https://discord.gg/bhmpq9QnM5" target="_blank" rel="noopener">Discord</a>
-            </p>
-        </div>
+<section class="panel creator-head">
+    <img class="creator-head-image" src="/images/hero-3-192.webp" alt="" decoding="async" width="140" height="90">
+    <div class="creator-head-text">
+        <h2>Malonze Gaming</h2>
+        <p class="meta-info">Two channels and one shop: <strong>Malonze Gaming</strong> for WoW retail and private server coverage, <strong>Malonze Productions Cosplay</strong> for handmade leather and armor, plus <strong>Excalligator Reviews</strong> as a third gaming channel. The gaming channel passed <strong>1.74k subscribers and 600 videos</strong> when we checked it on 21 October 2026.</p>
+        <p class="creator-links">
+            <a class="chip active" href="https://www.youtube.com/@MalonzeGaming" target="_blank" rel="noopener">Gaming channel</a>
+            <a class="chip" href="https://www.youtube.com/@malonzeproductionscosplay3673" target="_blank" rel="noopener">Cosplay channel</a>
+            <a class="chip" href="https://www.etsy.com/shop/MalonzeProductions" target="_blank" rel="noopener">Etsy shop</a>
+            <a class="chip" href="https://www.facebook.com/MalonzeProductions" target="_blank" rel="noopener">Facebook</a>
+            <a class="chip" href="https://discord.gg/bhmpq9QnM5" target="_blank" rel="noopener">Discord</a>
+        </p>
     </div>
 </section>
 
 <section class="panel">
-    <h2>Featured — your tracker ({{ featured.review.views }} views, {{ featured.review.date | daysAgo }} days ago)</h2>
-    <div style="position:relative;padding-top:56.25%;background:#000;border-radius:var(--r-surface);overflow:hidden">
-        <iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/{{ featured.review.videoId }}" title="{{ featured.review.title }} — Malonze Gaming" allow="encrypted-media; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <h2>They reviewed this tracker</h2>
+    <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/{{ featured.review.videoId }}" title="{{ featured.review.title }}, Malonze Gaming" allow="encrypted-media; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>
     </div>
-    <p class="meta-info">Malonze Gaming reviewed our tracker {{ featured.review.date | daysAgo }} days ago — <em>{{ featured.review.title }}</em> (7:58). If you found us via that video, welcome. This page is our thank-you.</p>
+    <p class="meta-info">"{{ featured.review.title }}" was published on <strong>18 August 2026</strong> and had <strong>355 views</strong> when we counted on 21 October 2026. If you found us through that video, welcome. This page is our thank-you.</p>
 </section>
 
 <section class="panel">
-    <h2>Latest private-server coverage</h2>
-    <div style="display:grid;gap:12px">
-        <div style="position:relative;padding-top:56.25%;background:#000;border-radius:var(--r-surface);overflow:hidden">
-            <iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/N0UpQxxHTvc" title="Ascension Shutting Down — Malonze Gaming" allow="encrypted-media; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
-        <p class="meta-info"><strong>Ascension Shutting Down</strong> — matches our <a href="/news/ascension-shutdown-sep-4/">Sep 4 shutdown post</a> and <a href="/blog/ascension-shutdown-explained/">post-mortem</a>.</p>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-            <div>
-                <div style="position:relative;padding-top:56.25%;background:#000;border-radius:var(--r-surface);overflow:hidden"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/RAuKQXMz8os" title="Turtle WoW Reborn as Ravencraft" loading="lazy" allowfullscreen></iframe></div>
-                <p class="meta-info">Turtle WoW Reborn as Ravencraft</p>
+    <h2>What they are covering now</h2>
+    <p class="meta-info">Taken from the channel's own uploads feed on 21 October 2026, newest first. View counts are as they stood that day.</p>
+    <ul class="creator-video-list">
+        <li>
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/KzC6yQLGKoU" title="WoW Revelations Finally updating" loading="lazy" allowfullscreen></iframe>
             </div>
-            <div>
-                <div style="position:relative;padding-top:56.25%;background:#000;border-radius:var(--r-surface);overflow:hidden"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/LbEFxlML9IU" title="Project Epoch Reborn" loading="lazy" allowfullscreen></iframe></div>
-                <p class="meta-info">Project Epoch Reborn</p>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=KzC6yQLGKoU" target="_blank" rel="noopener">WoW Revelations Finally updating!</a></h3>
+                <p class="meta-info">20 October 2026 · 166 views. A server update, with a level 20 to 40 bracket promised. We could not match the name to an entry on our tracker, so we are not claiming it is one of ours: our closest entry is <a href="/servers/revelation-wow/">Revelation WoW</a>, which we have marked unverified since October 3 because no first party source for it could be found.</p>
+            </div>
+        </li>
+        <li>
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/BJAf4ir9Wog" title="Frostmourne endgame stream" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=BJAf4ir9Wog" target="_blank" rel="noopener">Frostmourne Endgame Relax / Chill Stream</a></h3>
+                <p class="meta-info">9 October 2026 · 257 views, after an earlier Frostmourne stream on 24 September. That is <a href="/servers/whitemane-frostmourne/">Whitemane, Frostmourne</a> on our tracker, a WotLK 3.3.5a realm on the Whitemane network.</p>
+            </div>
+        </li>
+        <li>
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/3ezpGTBo6ZY" title="What I like and dislike about WoW Forever" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=3ezpGTBo6ZY" target="_blank" rel="noopener">What I like and dislike (so far) about WoW forever. Will I Play?</a></h3>
+                <p class="meta-info">17 September 2026 · 1,162 views. A first reaction to <a href="/news/blizzcon-2026-classic-plus-reveal/">the Classic+ reveal</a>, three weeks before the beta opened and five weeks before launch.</p>
+            </div>
+        </li>
+        <li>
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/8YrQxq1uNjs" title="Octo WoW Discord shut down" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=8YrQxq1uNjs" target="_blank" rel="noopener">Octo WoW Discord Shut Down, Server Itself is Fine</a></h3>
+                <p class="meta-info">9 September 2026 · 3,496 views, the most watched video on this page. The <a href="/servers/octo-wow/">Octo WoW</a> entry on our tracker is a playable Vanilla+ realm and one of at least three brands carrying the same project.</p>
+            </div>
+        </li>
+        <li>
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/si_w0iLIry4" title="Ultimate Guide to World of Warcraft TBC Magazine" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=si_w0iLIry4" target="_blank" rel="noopener">FIRST ISSUE: Ultimate Guide to World of Warcraft TBC Magazine</a></h3>
+                <p class="meta-info">4 September 2026 · 650 views. Their own TBC magazine, which is the project that comes closest to being a book.</p>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section class="panel">
+    <h2>Private server coverage</h2>
+    <div class="creator-video-list">
+        <div class="creator-video-row">
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/RAuKQXMz8os" title="Turtle WoW Reborn as Ravencraft" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=RAuKQXMz8os" target="_blank" rel="noopener">Turtle WoW Reborn as RAVENCRAFT</a></h3>
+                <p class="meta-info">6 August 2026 · 4,249 views, the most watched video we link here. <a href="/servers/ravencraft/">Ravencraft</a> is a Turtle WoW 1.18.1 continuation run by former Turtle WoW contributors.</p>
+            </div>
+        </div>
+        <div class="creator-video-row">
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/LbEFxlML9IU" title="Project Epoch Reborn" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=LbEFxlML9IU" target="_blank" rel="noopener">Project Epoch Reborn</a></h3>
+                <p class="meta-info">10 August 2026 · 1,734 views, recorded while the realm was still closed. It <a href="/news/project-epoch-reborn-launch-time-oct-21/">launches on 23 October at 16:00 UTC</a>, so this is the video to watch if you want to see the room before it fills up.</p>
+            </div>
+        </div>
+        <div class="creator-video-row">
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/N0UpQxxHTvc" title="Ascension Shutting Down" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=N0UpQxxHTvc" target="_blank" rel="noopener">Ascension Shutting Down</a></h3>
+                <p class="meta-info">31 August 2026 · 653 views. This is the announcement video, four days before the realm went offline on 4 September. Our <a href="/news/ascension-shutdown-sep-4/">shutdown report</a> and <a href="/blog/ascension-shutdown-explained/">post-mortem</a> cover what happened next.</p>
             </div>
         </div>
     </div>
 </section>
 
 <section class="panel">
-    <h2>Crafting — Malonze Productions Cosplay</h2>
-    <p>Handmade armor and leather pieces, including tutorials and showcases like leather wolf gauntlets. Shorts: chainmail drawing, Thriller Bear furbolg, mandolorian acrylic, Celtic necklaces. Award: costume contest pet dragon prop at Metrocon 2019.</p>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        <div>
-            <div style="position:relative;padding-top:56.25%;background:#000;border-radius:var(--r-surface);overflow:hidden"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/0Z9j_W4peqY" title="Making a Tribal Bear Skull Head Dress" loading="lazy" allowfullscreen></iframe></div>
-            <p class="meta-info">Tribal Bear Skull Head Dress</p>
+    <h2>Crafting: Malonze Productions Cosplay</h2>
+    <p>Handmade leather and armor, miniature painting, chainmail, and prop work. The cosplay channel passed 179 subscribers when we checked it on 21 October 2026, and the two videos below are its most recent uploads we could confirm.</p>
+    <div class="creator-video-list">
+        <div class="creator-video-row">
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/0Z9j_W4peqY" title="Making a Tribal Bear Skull Head Dress" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=0Z9j_W4peqY" target="_blank" rel="noopener">Making a Tribal Bear Skull Head Dress</a></h3>
+                <p class="meta-info">18 February 2026 · 86 views.</p>
+            </div>
         </div>
-        <div>
-            <div style="position:relative;padding-top:56.25%;background:#000;border-radius:var(--r-surface);overflow:hidden"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/RKmIvc2SObE" title="Painting Davy Jones" loading="lazy" allowfullscreen></iframe></div>
-            <p class="meta-info">Painting Davy Jones (top cosplay)</p>
+        <div class="creator-video-row">
+            <div class="video-embed video-embed-small">
+                <iframe src="https://www.youtube.com/embed/RKmIvc2SObE" title="Painting Davy Jones" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="creator-video-text">
+                <h3><a href="https://www.youtube.com/watch?v=RKmIvc2SObE" target="_blank" rel="noopener">Painting Davy Jones</a></h3>
+                <p class="meta-info">16 July 2025 · 727 views. A top cosplay piece from their first channel.</p>
+            </div>
         </div>
     </div>
-    <p class="meta-info">More: <a href="https://www.youtube.com/@malonzeproductionscosplay3673" target="_blank" rel="noopener">youtube.com/@malonzeproductionscosplay3673</a> — shortcuts: chainmail, Warcraft miniatures (Zul'jin, Dwarf Gryphon Rider, Mag'har Orc).</p>
+    <p class="meta-info">More: <a href="https://www.youtube.com/@malonzeproductionscosplay3673" target="_blank" rel="noopener">youtube.com/@malonzeproductionscosplay3673</a>. Shortcuts to find their work: chainmail drawing, Warcraft miniatures such as Zul'jin, the Dwarf Gryphon Rider and the Mag'har Orc, and a costume contest pet dragon prop they took to Metrocon in 2019.</p>
 </section>
 
 <section class="panel">
-    <h2>Shop & Community</h2>
-    <p><a href="https://www.etsy.com/shop/MalonzeProductions" target="_blank" rel="noopener">MalonzeProductions on Etsy</a> — handmade leather and armor. <a href="https://www.facebook.com/MalonzeProductions" target="_blank" rel="noopener">Facebook: MalonzeProductions</a>. Discord: <a href="https://discord.gg/bhmpq9QnM5" target="_blank" rel="noopener">discord.gg/bhmpq9QnM5</a> (from channel header). Also <em>Excalligator Reviews</em> (third channel, gaming reviews).</p>
-    <p class="meta-info">Featured creator pages are editorial, not paid. Want to be featured? Tell us on <a href="/blog/">blog</a> contact.</p>
+    <h2>Shop and community</h2>
+    <p><a href="https://www.etsy.com/shop/MalonzeProductions" target="_blank" rel="noopener">MalonzeProductions on Etsy</a> for handmade leather and armor, <a href="https://www.facebook.com/MalonzeProductions" target="_blank" rel="noopener">Facebook: MalonzeProductions</a> and the Discord invite from the channel header. We checked every link on this page on 21 October 2026 and they all answered, with one caveat: Etsy blocks automated checks with a 403, so we can confirm the shop URL is the one they have linked but we could not read the listings ourselves.</p>
+    <p class="meta-info">Featured creator pages are editorial, not paid. If you want to be featured, get in touch through the <a href="/contact/">contact page</a>.</p>
 </section>

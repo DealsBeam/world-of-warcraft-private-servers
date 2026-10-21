@@ -5,7 +5,10 @@ category: guides
 summary: "Black Friday is November 27, after the Forever launch. That ordering decides what you should buy now and what should wait. Six categories worth watching, four to skip, and why this page quotes no prices yet."
 ---
 
-*Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting a real need; the links follow. **No prices are quoted on this page yet, on purpose**, and the reason is explained below. We will record reference prices during Black Friday week and date them there.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting a real need; the links follow. **No prices are quoted on this page yet, on purpose**, and the reason is explained below. We will record reference prices during Black Friday week and date them there.</p>
+</aside>
 
 ## The dates that decide everything
 
@@ -29,37 +32,37 @@ So the plan is dated: **we will re-check these categories during Black Friday we
 
 The private-server clients we track are old and light. A WotLK or Vanilla client does not need the fastest panel on the market, which is exactly why a panel upgrade is the most visible change most players can make. Look for **IPS, 1440p, 144 Hz or better**, and a stand that adjusts. Spending up for 4K on a 2004-era client is spending on pixels the game will not draw.
 
-[A 1440p high-refresh IPS monitor](https://www.amazon.com/s?k=1440p+144hz+ips+monitor&tag=indkin-20)
+<a href="https://www.amazon.com/s?k=1440p+144hz+ips+monitor&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A 1440p high-refresh IPS monitor</a>
 
 ### 2. An NVMe SSD, 1 TB or more
 
 This is the least glamorous useful purchase on the list. Two things have changed since original WoW: clients are downloaded rather than installed from discs, so several can sit side by side, and addon and WeakAura collections are far larger than they were. A large NVMe makes zone loads and client startup feel instant.
 
-[An NVMe SSD, 1 TB or larger](https://www.amazon.com/s?k=nvme+ssd+1tb&tag=indkin-20)
+<a href="https://www.amazon.com/s?k=nvme+ssd+1tb&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">An NVMe SSD, 1 TB or larger</a>
 
 ### 3. A real office chair
 
 If you play for hours, the chair is the gear that most affects whether you still enjoy it next year. **Buy an office chair, not a gaming chair.** Mesh back, adjustable seat depth, and a lumbar support you can actually move. The racing-seat look costs more and supports less.
 
-[A mesh ergonomic office chair](https://www.amazon.com/s?k=ergonomic+mesh+office+chair&tag=indkin-20)
+<a href="https://www.amazon.com/s?k=ergonomic+mesh+office+chair&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A mesh ergonomic office chair</a>
 
 ### 4. A hot-swap mechanical keyboard
 
 Hot-swap switches turn a keyboard into something repairable and tunable instead of disposable. If you did not follow [the launch kit](/blog/launch-kit-gear-tiers-oct-12/), this is the tier-two item most worth catching on sale.
 
-[A hot-swap mechanical keyboard](https://www.amazon.com/s?k=mechanical+keyboard+hot+swap&tag=indkin-20)
+<a href="https://www.amazon.com/s?k=mechanical+keyboard+hot+swap&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A hot-swap mechanical keyboard</a>
 
 ### 5. A controller and a dock, if you play handheld
 
 Handheld play is a real branch of this scene, and we wrote about it in [Steam Deck and handhelds](/blog/wow-private-servers-steam-deck-handhelds/). If you already have the device, the accessories are the cheap part: a spare dock and a controller with back paddles make the difference between a novelty and a way to play.
 
-[A wireless controller with back paddles](https://www.amazon.com/s?k=wireless+controller+back+paddles&tag=indkin-20)
+<a href="https://www.amazon.com/s?k=wireless+controller+back+paddles&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A wireless controller with back paddles</a>
 
 ### 6. A headset with a detachable mic
 
 Detachable mic means the headset becomes headphones after the launch rush. For voice chat it is the one feature worth paying for; everything else in the category is taste.
 
-[A headset with a detachable microphone](https://www.amazon.com/s?k=gaming+headset+detachable+mic&tag=indkin-20)
+<a href="https://www.amazon.com/s?k=gaming+headset+detachable+mic&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A headset with a detachable microphone</a>
 
 ## What to skip
 

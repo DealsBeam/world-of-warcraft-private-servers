@@ -5,7 +5,10 @@ category: guides
 summary: "Patches from different realms overwrite each other, which is why a shelf of WoW folders is normal here. What the projects themselves say about separating installs, and how to plan the space."
 ---
 
-*Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting the guide; the links follow. Prices vary by region and change often, so we do not quote them here.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting the guide; the links follow. Prices vary by region and change often, so we do not quote them here.</p>
+</aside>
 
 If you play on more than one private server, you will eventually hit a problem that has nothing to do with the game: **the clients overwrite each other.** Two Wrath realms can ship different patch files, and a patch that a realm requires can break another realm's client. The scene's answer is almost always the same, and it is worth knowing before you lose an evening to a black screen.
 
@@ -29,10 +32,10 @@ Each client copy is a separate install, so the arithmetic is simple: **one folde
 
 If you plan to run three or four realms, buy storage for four installs, not one. That is the single most useful planning rule on this page.
 
-- A roomy internal SSD if you are building or upgrading ([A](https://www.amazon.com/s?k=1tb+nvme+ssd&tag=indkin-20)).
-- A budget SATA SSD for an older desktop, which is the one upgrade with a visible effect on zone load times ([A](https://www.amazon.com/s?k=sata+ssd+1tb&tag=indkin-20)).
-- A portable SSD if you want the same client copies on a laptop and a desktop ([A](https://www.amazon.com/s?k=portable+ssd+1tb+usb+c&tag=indkin-20)).
-- A large microSD card if you are on a handheld, where per-realm folders eat capacity fast ([A](https://www.amazon.com/s?k=microsdxc+1tb+a2+card&tag=indkin-20)).
+- A roomy internal SSD if you are building or upgrading (<a href="https://www.amazon.com/s?k=1tb+nvme+ssd&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
+- A budget SATA SSD for an older desktop, which is the one upgrade with a visible effect on zone load times (<a href="https://www.amazon.com/s?k=sata+ssd+1tb&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
+- A portable SSD if you want the same client copies on a laptop and a desktop (<a href="https://www.amazon.com/s?k=portable+ssd+1tb+usb+c&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
+- A large microSD card if you are on a handheld, where per-realm folders eat capacity fast (<a href="https://www.amazon.com/s?k=microsdxc+1tb+a2+card&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>).
 
 ## Two habits that save real time
 

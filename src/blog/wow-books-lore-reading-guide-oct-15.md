@@ -5,7 +5,10 @@ category: guides
 summary: "Private-server players know the mechanics and skip the story. Here is where to start in the Warcraft novels, mapped to the expansion you actually play, with free options first and tagged links last."
 ---
 
-*Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. The books were chosen first for the story each one covers; the links follow. We deliberately do not quote book prices here, for the reason in the cost section below.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. The books were chosen first for the story each one covers; the links follow. We deliberately do not quote book prices here, for the reason in the cost section below.</p>
+</aside>
 
 ## Why lore, and why now
 
@@ -39,12 +42,12 @@ If free reading satisfies the itch, stop here. Everything below is optional.
 
 Start here if you want a shelf:
 
-- **The War of the Ancients Trilogy boxed [A](https://www.amazon.com/s?k=war+of+the+ancients+trilogy&tag=indkin-20).** The deepest lore for the least money, and the right first purchase for a Classic-era player.
-- **Arthas: Rise of the Lich King [A](https://www.amazon.com/s?k=arthas+rise+of+the+lich+king&tag=indkin-20).** The single best entry point into the whole novel line.
-- **Rise of the Horde [A](https://www.amazon.com/s?k=rise+of+the+horde+christie+golden&tag=indkin-20).** The orc story that Outland and Thrall are built on.
-- **Lord of the Clans [A](https://www.amazon.com/s?k=lord+of+the+clans+christie+golden&tag=indkin-20)** and **The Last Guardian [A](https://www.amazon.com/s?k=the+last+guardian+jeff+grubb&tag=indkin-20).** Two short Classic-era books that pair well with Forever.
-- **World of Warcraft: Chronicle Volume 1 [A](https://www.amazon.com/s?k=world+of+warcraft+chronicle+volume+1&tag=indkin-20).** The reference tome, if you want the lore bible rather than a novel.
-- **Warcraft novels, browsed [A](https://www.amazon.com/s?k=world+of+warcraft+novels&tag=indkin-20)** and **audiobook editions [A](https://www.amazon.com/s?k=world+of+warcraft+audiobooks&tag=indkin-20).** For a full shelf, or for listening through a grind.
+- **The War of the Ancients Trilogy boxed <a href="https://www.amazon.com/s?k=war+of+the+ancients+trilogy&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** The deepest lore for the least money, and the right first purchase for a Classic-era player.
+- **Arthas: Rise of the Lich King <a href="https://www.amazon.com/s?k=arthas+rise+of+the+lich+king&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** The single best entry point into the whole novel line.
+- **Rise of the Horde <a href="https://www.amazon.com/s?k=rise+of+the+horde+christie+golden&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** The orc story that Outland and Thrall are built on.
+- **Lord of the Clans <a href="https://www.amazon.com/s?k=lord+of+the+clans+christie+golden&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>** and **The Last Guardian <a href="https://www.amazon.com/s?k=the+last+guardian+jeff+grubb&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Two short Classic-era books that pair well with Forever.
+- **World of Warcraft: Chronicle Volume 1 <a href="https://www.amazon.com/s?k=world+of+warcraft+chronicle+volume+1&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** The reference tome, if you want the lore bible rather than a novel.
+- **Warcraft novels, browsed <a href="https://www.amazon.com/s?k=world+of+warcraft+novels&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>** and **audiobook editions <a href="https://www.amazon.com/s?k=world+of+warcraft+audiobooks&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** For a full shelf, or for listening through a grind.
 
 ## What this costs, honestly
 

@@ -5,7 +5,10 @@ category: guides
 summary: "First of a weekly column. We record a product's price from its Amazon page at publish time, anchor the list price against what the product is known to cost, and verdict it. Today: the DeathAdder V3 Pro."
 ---
 
-*Disclosure: this page contains an Amazon affiliate link marked [A]. We earn a commission on qualifying purchases at no cost to you. The product was chosen first; the link follows. Prices were recorded from the product page at publish time, October 12 2026, and your storefront price can differ by region and currency.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. The product was chosen first and the link follows it. Prices were recorded from the product page at publish time, October 12 2026, and your storefront price can differ by region and currency.</p>
+</aside>
 
 ## What this column is
 
@@ -41,4 +44,4 @@ Not a budget pick. A genuine deal on a flagship, which the budget guides cover f
 
 SOURCES: product page read directly October 12 2026. Launch-price anchor from the product's publicly established $149.99 USD MSRP. Related: [the launch kit](/blog/launch-kit-gear-tiers-oct-12/), [the budget roundup](/blog/classic-budget-laptop-minipc-oct-12/), and [the hardware floor guide](/blog/hardware-floor-private-servers-oct-9/).
 
-Buy it tagged: [Razer DeathAdder V3 Pro on Amazon [A]](https://www.amazon.com/dp/B0B6XZLNHQ?tag=indkin-20)
+Buy it tagged: <a href="https://www.amazon.com/dp/B0B6XZLNHQ?tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">Razer DeathAdder V3 Pro on Amazon</a>

@@ -5,7 +5,10 @@ category: guides
 summary: "World of Warcraft: Forever launches November 4. A three-tier gear kit from about $50 to about $600, with tagged links, recorded reference prices, and disclosure up front."
 ---
 
-*Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting each tier; the links follow. Prices below are reference ranges recorded at publish time on October 12 2026, not live quotes.*
+<aside class="aff-disclosure" role="note" aria-label="Affiliate disclosure">
+<p class="aff-disclosure-title">Affiliate disclosure</p>
+<p>This page contains Amazon affiliate links, marked with a sponsored tag. We earn a commission on qualifying purchases at no extra cost to you. Products were chosen first for fitting the guide, and the links follow. Disclosure: this page contains Amazon affiliate links marked [A]. We earn a commission on qualifying purchases at no cost to you. Products were chosen first for fitting each tier; the links follow. Prices below are reference ranges recorded at publish time on October 12 2026, not live quotes.</p>
+</aside>
 
 ## Why a kit for a launch
 
@@ -17,8 +20,8 @@ Three tiers, priced by what each actually buys.
 
 Nothing fancy, everything functional:
 
-- **A wired gaming mouse [A](https://www.amazon.com/s?k=wired+gaming+mouse&tag=indkin-20).** Wired beats wireless at this price. Polling rate matters more than most players think: 1000 Hz entry-level mice track clicks and movement with fewer dropped inputs, and that matters in PvP and on raid bosses. Any 1000 Hz wired mouse in this range is fine.
-- **A basic over-ear headset [A](https://www.amazon.com/s?k=gaming+headset+over+ear&tag=indkin-20).** Discords, voice chat, sound cues. At this tier, over-ear closed-back filters more background noise than anything cheaper.
+- **A wired gaming mouse <a href="https://www.amazon.com/s?k=wired+gaming+mouse&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Wired beats wireless at this price. Polling rate matters more than most players think: 1000 Hz entry-level mice track clicks and movement with fewer dropped inputs, and that matters in PvP and on raid bosses. Any 1000 Hz wired mouse in this range is fine.
+- **A basic over-ear headset <a href="https://www.amazon.com/s?k=gaming+headset+over+ear&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Discords, voice chat, sound cues. At this tier, over-ear closed-back filters more background noise than anything cheaper.
 - **Keep your keyboard.** Changing keyboards is not a performance upgrade at this tier.
 
 This tier exists to remove the one thing that actually ruins launch night: a dead headset battery or a failing mouse button discovered mid-queue.
@@ -27,9 +30,9 @@ This tier exists to remove the one thing that actually ruins launch night: a dea
 
 This is the tier that earns its money across a full expansion, not just launch week:
 
-- **A wireless gaming mouse with a solid sensor [A](https://www.amazon.com/s?k=wireless+gaming+mouse&tag=indkin-20).** Modern wireless is indistinguishable from wired and drops the cable annoyance. Look for a lightweight build and a battery that survives a full session without charging.
-- **A mechanical keyboard [A](https://www.amazon.com/s?k=mechanical+keyboard+hot+swap&tag=indkin-20).** Hot-swap switches turn a keyboard into a repairable, customizable tool instead of a consumable. This is the most-touched object in the setup; it is worth real money.
-- **A mid-range headset with a detachable mic [A](https://www.amazon.com/s?k=gaming+headset+detachable+mic&tag=indkin-20).** Detachable mic matters for a launch: it turns the headset into headphones for everything else after the launch rush ends.
+- **A wireless gaming mouse with a solid sensor <a href="https://www.amazon.com/s?k=wireless+gaming+mouse&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Modern wireless is indistinguishable from wired and drops the cable annoyance. Look for a lightweight build and a battery that survives a full session without charging.
+- **A mechanical keyboard <a href="https://www.amazon.com/s?k=mechanical+keyboard+hot+swap&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Hot-swap switches turn a keyboard into a repairable, customizable tool instead of a consumable. This is the most-touched object in the setup; it is worth real money.
+- **A mid-range headset with a detachable mic <a href="https://www.amazon.com/s?k=gaming+headset+detachable+mic&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Detachable mic matters for a launch: it turns the headset into headphones for everything else after the launch rush ends.
 
 If you play more than three sessions a week, this tier pays for itself in comfort alone.
 
@@ -37,10 +40,10 @@ If you play more than three sessions a week, this tier pays for itself in comfor
 
 For the players who raid, arena, or stream:
 
-- **A high-end wireless gaming mouse [A](https://www.amazon.com/s?k=flagship+wireless+gaming+mouse&tag=indkin-20).** Top sensors, sub-60 gram weights, and battery life measured in days. The difference from tier one is real but small; you are paying for consistency and weight, not magic.
-- **A premium mechanical keyboard with hot-swap and gasket mounting [A](https://www.amazon.com/s?k=premium+hot+swap+mechanical+keyboard&tag=indkin-20).** Gasketed boards change the typing feel completely. If you type as much as you game, this is the single best upgrade in the kit.
-- **A wireless headset with multiplatform support [A](https://www.amazon.com/s?k=wireless+gaming+headset+multiplatform&tag=indkin-20).** One headset that works on PC and whatever else you own.
-- **If anything is left, a second monitor [A](https://www.amazon.com/s?k=gaming+monitor+144hz&tag=indkin-20).** The cheapest real performance upgrade in gaming: logs, guides and Discord on one screen, the game on the other. Nothing else in this tier does as much for practical play.
+- **A high-end wireless gaming mouse <a href="https://www.amazon.com/s?k=flagship+wireless+gaming+mouse&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Top sensors, sub-60 gram weights, and battery life measured in days. The difference from tier one is real but small; you are paying for consistency and weight, not magic.
+- **A premium mechanical keyboard with hot-swap and gasket mounting <a href="https://www.amazon.com/s?k=premium+hot+swap+mechanical+keyboard&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** Gasketed boards change the typing feel completely. If you type as much as you game, this is the single best upgrade in the kit.
+- **A wireless headset with multiplatform support <a href="https://www.amazon.com/s?k=wireless+gaming+headset+multiplatform&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** One headset that works on PC and whatever else you own.
+- **If anything is left, a second monitor <a href="https://www.amazon.com/s?k=gaming+monitor+144hz&tag=indkin-20" target="_blank" rel="sponsored nofollow noopener">A</a>.** The cheapest real performance upgrade in gaming: logs, guides and Discord on one screen, the game on the other. Nothing else in this tier does as much for practical play.
 
 ## The honest footnote
 
