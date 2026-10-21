@@ -1,19 +1,21 @@
 ---
-title: "The beta closes today with nine Forever details still unresolved"
+title: "The beta closes today with nine Forever details still unresolved, two of them closed since publication"
 date: 2026-10-21
 category: analysis
-summary: "Onyxia's Lair has two first-party dates, the Heroic price was never quoted by Blizzard, and a dungeon has two names. These are the claims our verification ledger could not close before the beta shut, and the single source that would settle each one."
+summary: "Onyxia's Lair has two first-party dates, the Heroic price was never quoted by Blizzard, and a dungeon has two names. These are the claims our verification ledger could not close before the beta shut, and the single source that would settle each one. Updated 21 October: the Onyxia date and the Blackmaw Hold naming were closed by Blizzard's 20 October raid and dungeon posts, which we published this ledger without reading."
 ---
 
 The Forever beta ends today, the stress test runs this afternoon, and then the next time anyone logs in it will be for launch on **November 4**. That makes this the right moment to publish the list we have been carrying since September: the claims that never closed.
 
 None of these are scandals. They are the ordinary gaps between what a company says in a video, what a storefront prints, and what players find in a build. We are listing them because the alternative, quietly picking the answer that reads best, is how a site stops being worth reading.
 
-## 1. Onyxia's Lair: launch or December 9
+**Update, 21 October 2026, 13:00 UTC: two of these are now closed, and we missed the posts that closed them.** We published this ledger at 12:00 UTC today. Blizzard's raid overview and dungeon overview, both dated **20 October** and published in the evening, resolve item 1 and item 4 below. We did not read them before publishing this, which is our error and not a change in the underlying facts. The two items are struck through with dated notes rather than quietly rewritten.
 
-Two first-party sources disagree. Blizzard's **September 23 official video** says, at 00:03:54, that "the 40-player raid, Onyxia's Lair, is available at launch". The **September 12 What's Next recap** says new raids unlock on **December 9**, and a designer interview describes Onyxia as the 40-player raid without giving a date.
+## 1. ~~Onyxia's Lair: launch or December 9~~ RESOLVED 21 October 2026
 
-**What would close it:** a launch-day realm or a December 9 unlock post. Until then both claims stay visible, and our roadmap piece keeps them both.
+Two first-party sources disagreed. Blizzard's **September 23 official video** says, at 00:03:54, that "the 40-player raid, Onyxia's Lair, is available at launch". The **September 12 What's Next recap** says new raids unlock on **December 9**, and a designer interview describes Onyxia as the 40-player raid without giving a date.
+
+**Closed:** Blizzard's **20 October** raid overview states that on **December 9** level 60 players can play three raids, naming Barrow Deeps, Hyjal Summit and Onyxia's Lair, and repeats that all three unlock on December 9. That is a later, more specific first-party document than the September video, so **December 9 is the answer** and the launch wording in the video is superseded. Details in [our raid overview piece](/news/forever-raid-overview-dec-9-oct-21/).
 
 ## 2. The beta close date
 
@@ -25,11 +27,11 @@ The roadmap graphic read **October 22**. Blizzard's own product text reads beta 
 
 **What would close it:** the Battle.net shop page, at launch, in the buyer's own currency.
 
-## 4. Timbermaw Hold or Blackmaw Hold
+## 4. ~~Timbermaw Hold or Blackmaw Hold~~ RESOLVED 21 October 2026
 
-Blizzard's dungeon list and the beta data read **Blackmaw Hold**. In a September interview, lead designer Tim Jones referred to the gate in Azshara as "Timbermaw Hold", phrased as a question. A developer's aside is evidence, not a published list, so both names remain on our hub.
+Blizzard's dungeon list and the beta data read **Blackmaw Hold**. In a September interview, lead designer Tim Jones referred to the gate in Azshara as "Timbermaw Hold", phrased as a question. A developer's aside is evidence, not a published list, so both names remained on our hub.
 
-**What would close it:** the dungeon's own map or entrance text at launch.
+**Closed:** Blizzard's **20 October** dungeon overview lists **Blackmaw Hold**, levels 55 to 60, in Azshara, and the same evening's raid overview names Blackmaw Hold as one of the entrances into the Barrow Deeps. The published lists agree with the beta data, so **Blackmaw Hold is the name** and the Timbermaw spelling is retired.
 
 ## 5. Spearing Strike
 
