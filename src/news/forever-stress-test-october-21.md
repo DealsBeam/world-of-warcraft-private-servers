@@ -2,8 +2,10 @@
 title: "Blizzard moves the Forever stress test to October 21, and it is free to join"
 date: 2026-10-17
 category: news
-summary: "Announced October 15 for October 19, moved on October 16 to October 21. No subscription, Game Time, invitation or beta access required. Characters are wiped afterwards to clear the field for name reservation on October 27."
+summary: "Announced October 15 for October 19, moved on October 16 to October 21. No subscription, Game Time, invitation or beta access required. Characters are wiped afterwards to clear the field for name reservation on October 27. Updated 21 October: Blizzard published the window's end times and extended the beta to October 23."
 ---
+
+**Update, 21 October 2026:** Kaivax published the stress test's **end times** on October 20 at 20:30 UTC, and extended the beta. The test is a **four hour window** in every listed timezone, and the beta now closes at **10:00 a.m. PDT on Friday, October 23** rather than October 21. The times table below now carries both ends, and the full detail is in [our report](/news/forever-beta-extended-oct-23-oct-21/).
 
 Blizzard will run a **World of Warcraft: Forever server stress test on October 21**, and it is open to anyone. The company dated it **October 19** in a post on **October 15**, then changed it on **October 16**: "The WoW: Forever Server Stress Test is moving to October 21 (previously October 19)."
 

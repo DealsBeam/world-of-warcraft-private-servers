@@ -1,8 +1,8 @@
 ---
-title: "The beta closes today with nine Forever details still unresolved, two of them closed since publication"
+title: "The beta closes today with nine Forever details still unresolved, three of them closed since publication"
 date: 2026-10-21
 category: analysis
-summary: "Onyxia's Lair has two first-party dates, the Heroic price was never quoted by Blizzard, and a dungeon has two names. These are the claims our verification ledger could not close before the beta shut, and the single source that would settle each one. Updated 21 October: the Onyxia date and the Blackmaw Hold naming were closed by Blizzard's 20 October raid and dungeon posts, which we published this ledger without reading."
+summary: "Onyxia's Lair has two first-party dates, the Heroic price was never quoted by Blizzard, and a dungeon has two names. These are the claims our verification ledger could not close before the beta shut, and the single source that would settle each one. Updated 21 October: the Onyxia date, the Blackmaw Hold naming and the beta close date were closed by Blizzard's 20 October posts, which we published this ledger without reading."
 ---
 
 The Forever beta ends today, the stress test runs this afternoon, and then the next time anyone logs in it will be for launch on **November 4**. That makes this the right moment to publish the list we have been carrying since September: the claims that never closed.
@@ -17,9 +17,11 @@ Two first-party sources disagreed. Blizzard's **September 23 official video** sa
 
 **Closed:** Blizzard's **20 October** raid overview states that on **December 9** level 60 players can play three raids, naming Barrow Deeps, Hyjal Summit and Onyxia's Lair, and repeats that all three unlock on December 9. That is a later, more specific first-party document than the September video, so **December 9 is the answer** and the launch wording in the video is superseded. Details in [our raid overview piece](/news/forever-raid-overview-dec-9-oct-21/).
 
-## 2. The beta close date
+## 2. ~~The beta close date~~ RESOLVED 21 OCTOBER 2026
 
-The roadmap graphic read **October 22**. Blizzard's own product text reads beta access from **September 17 through October 21, 2026 PST**, and the beta is being taken offline for today's stress test. We are treating **October 21** as settled because the product page is the more specific document, while noting the graphic still says 22.
+The roadmap graphic read **October 22**. Blizzard's own product text read beta access from **September 17 through October 21, 2026 PST**, and the beta is being taken offline for today's stress test. We were treating **October 21** as settled because the product page is the more specific document, while noting the graphic still says 22.
+
+**Closed:** Kaivax's blue post on the evening of **20 October** says Blizzard will "close the WoW Forever Beta … forever at **10:00 a.m. PDT on Friday, October 23**". The beta comes back up after tonight's stress test and stays open until then, so the answer is **October 23**, and the 21st is the stress test rather than the end. The product page text has not caught up yet.
 
 ## 3. The Heroic price
 
