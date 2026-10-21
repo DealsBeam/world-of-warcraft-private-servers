@@ -576,5 +576,10 @@ module.exports = [
         "title": "Duskforge - a daily aggregator of Blizzard news, blue posts and editorials",
         "url": "https://www.duskforge.gg/",
         "note": "Checked 21 Oct 2026. An editorial site that republishes Blizzard's own news and forum blue posts across WoW, WoW: Forever, Diablo and Overwatch, with a daily index, author bylines and a Discord feed. Useful as a lead source: it flagged the October 20 Kaivax blue post about the stress test window and the beta extension, and the October 19 leveling video, both of which we then verified at Blizzard. It is a fan site, not Blizzard, so every claim must be confirmed at worldofwarcraft.blizzard.com or us.forums.blizzard.com before publication. Its own editorial voice is separate from the source material, and some of its posts carry community interpretation rather than sourced facts."
+    },
+    {
+        "title": "Out of Bounds Entertainment - the 24/7 gaming radio station, and the team behind Turtle WoW's in-game Everlook Broadcasting Co.",
+        "url": "https://www.outofbounds.live/",
+        "note": "Checked 21 Oct 2026. The Turtle WoW in-game station, rebranded after the server shut down on 15 May 2026 and streaming around the clock since. Direct MP3 stream at radio.outofbounds.live/listen/out_of_bounds/radio.mp3, verified live with the Icecast headers Icy-Name Out of Bounds Entertainment and Icy-Description Your Gaming Radio Station, and the stream sends CORS headers for our origin. On the day of our check the station's own site and its metadata API and playlist endpoints were all returning 503 while the audio kept streaming, which is why our radio page probes the stream instead of trusting a cached status. Our own page at /radio/ plays the stream in the browser and reports live status."
     }
 ];

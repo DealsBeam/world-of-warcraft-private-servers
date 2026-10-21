@@ -8,7 +8,7 @@ eleventyComputed:
     canonical: "https://wowprivateservers.vercel.app/radio/"
     hero: "Radio"
     subtitle: "The scene's living soundtrack"
-    description: "Out of Bounds Entertainment — the gaming radio station reborn from Turtle WoW's in-game Everlook Broadcasting Co. Tune in, read the signal's history, and follow the station that outlived its server."
+    description: "Out of Bounds Entertainment, the gaming radio station reborn from Turtle WoW's in-game Everlook Broadcasting Co. Live stream status, the station's own Icecast facts, how to tune in, and the history of the station that outlived its server."
 extraScripts:
     - /radio.js
 ---
@@ -20,31 +20,66 @@ extraScripts:
     <p>Your Gaming Radio Station, run by the old <strong>Everlook Broadcasting Co.</strong> team. Tune in through the <a href="https://www.outofbounds.live/" target="_blank" rel="noopener">Out of Bounds Ent.</a> transmitter.</p>
 
     <div class="radio-page-player">
-        <audio id="radio-audio" preload="none" src="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3"></audio>
-        <span class="radio-now" data-radio-now aria-live="polite" aria-atomic="true">Checking stream…</span>
-        <button type="button" class="chip radio-btn" data-radio-toggle aria-pressed="false">▶ Play station</button>
+        <audio id="radio-audio" preload="none" src="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3" aria-label="Out of Bounds Entertainment live stream"></audio>
+        <div class="radio-status-row">
+            <span class="radio-status" data-radio-status data-state="checking" role="status"><span class="radio-dot" aria-hidden="true"></span><span data-radio-status-text>Checking the stream…</span></span>
+            <span class="radio-now" data-radio-now aria-live="polite" aria-atomic="true">Reading the now playing feed…</span>
+        </div>
+        <div class="radio-controls">
+            <button type="button" class="chip radio-btn" data-radio-toggle aria-pressed="false">▶ Play station</button>
+            <label class="radio-volume-label" for="radio-volume">Volume</label>
+            <input id="radio-volume" class="radio-volume" type="range" min="0" max="100" value="90" data-radio-volume aria-label="Stream volume">
+        </div>
         <span class="radio-links" aria-label="Radio stream links">
             <a class="chip" href="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3" target="_blank" rel="noopener">Direct stream</a>
             <a class="chip" href="https://radio.outofbounds.live/public/out_of_bounds/playlist.pls" target="_blank" rel="noopener">Winamp .pls</a>
             <a class="chip" href="https://radio.outofbounds.live/public/out_of_bounds/playlist.m3u" target="_blank" rel="noopener">.m3u playlist</a>
             <a class="chip" href="https://radio.outofbounds.live/public/out_of_bounds" target="_blank" rel="noopener">Web player</a>
+            <a class="chip" href="https://www.outofbounds.live/" target="_blank" rel="noopener">Station site</a>
         </span>
     </div>
 </section>
 
 <section class="panel">
-    <h2>The Signal's Story</h2>
-    <p>This station is the loudest survivor in the private-server scene. What started as an in-game radio inside <a href="/servers/turtle-wow/">Turtle WoW</a> — tuned with a button on the minimap — grew into a full community operation: DJs like <strong>Zappo Zapblast</strong>, the live show <em>Living in the Past</em>, voice-acted skits and RP ads, plus a <em>WoW Radio</em> app on Google Play and a YouTube channel.</p>
-    <p>When Turtle WoW shut down on <a href="/news/turtle-wow-shutdown/">May 15, 2026</a> after Blizzard's legal action and a binding injunction, the broadcasting team kept the signal alive. It rebranded as <strong>Out of Bounds Entertainment</strong> — "Your Gaming Radio Station. From the old Everlook Broadcasting Co. team" — and has been streaming around the clock ever since. The in-game minimap tuner died with the server; the station itself did not.</p>
-    <p class="meta-info">Cross-reference: <a href="/news/turtle-wow-shutdown/">Turtle WoW shutdown news</a> · <a href="/news/blizzard-v-turtle-wow-consent-judgment/">Blizzard v. Turtle WoW</a></p>
+    <h2>What the stream tells you about itself</h2>
+    <p>The status line above is not a guess and it is not a cached copy of a page. It reads the station's own Icecast headers, which is the same handshake any player does. The values below were read from the live stream on <strong>21 October 2026</strong>.</p>
+    <ul class="plain-list radio-facts">
+        <li><strong>Station name</strong> — <code>Icy-Name: Out of Bounds Entertainment</code></li>
+        <li><strong>Tagline</strong> — <code>Icy-Description: Your Gaming Radio Station.</code></li>
+        <li><strong>Station link</strong> — <code>Icy-Url: https://www.outofbounds.live</code></li>
+        <li><strong>Format</strong> — MP3 over HTTP, served from <code>radio.outofbounds.live/listen/out_of_bounds/radio.mp3</code></li>
+        <li><strong>Public endpoints</strong> — the stream sends CORS headers for this site, which is what lets the browser read those headers at all</li>
+    </ul>
+    <p class="meta-info">Stream URL to paste into any player: <code>https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3</code></p>
 </section>
 
 <section class="panel">
-    <h2>How to Tune In</h2>
+    <h2>How to tune in</h2>
     <ul class="plain-list">
-        <li><strong>Direct stream</strong> — <a href="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3" target="_blank" rel="noopener">radio.mp3</a> works in any audio player, or grab the <a href="https://radio.outofbounds.live/public/out_of_bounds/playlist.pls" target="_blank" rel="noopener">.pls</a>/<a href="https://radio.outofbounds.live/public/out_of_bounds/playlist.m3u" target="_blank" rel="noopener">.m3u</a> playlists.</li>
-        <li><strong>Web player</strong> — the station's public <a href="https://radio.outofbounds.live/public/out_of_bounds" target="_blank" rel="noopener">player page</a>.</li>
-        <li><strong>In-game</strong> — was Turtle WoW-exclusive via the minimap button; that tuner is gone with the server.</li>
+        <li><strong>Direct stream</strong> — <a href="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3" target="_blank" rel="noopener">radio.mp3</a> works in any audio player, and it is the one link on this page that is served straight from the broadcast host.</li>
+        <li><strong>Playlist files</strong> — the <a href="https://radio.outofbounds.live/public/out_of_bounds/playlist.pls" target="_blank" rel="noopener">.pls</a> and <a href="https://radio.outofbounds.live/public/out_of_bounds/playlist.m3u" target="_blank" rel="noopener">.m3u</a> files are for players that want a saved station entry.</li>
+        <li><strong>Web player</strong> — the station's own <a href="https://radio.outofbounds.live/public/out_of_bounds" target="_blank" rel="noopener">player page</a>, plus the main <a href="https://www.outofbounds.live/" target="_blank" rel="noopener">outofbounds.live</a> site for schedules and announcements.</li>
+        <li><strong>In-game</strong> — was Turtle WoW exclusive through the minimap button. That tuner died with the server.</li>
     </ul>
-    <p class="meta-info">Links: <a href="https://www.outofbounds.live/" target="_blank" rel="noopener">outofbounds.live ↗</a> · <a href="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3" target="_blank" rel="noopener">Direct stream</a> · Want on-demand? → <a href="/music/">Azeroth Ambience — 19 playlists</a></p>
+    <p class="radio-note"><strong>One caveat about those links.</strong> The playlists, the web player and the now playing feed are served by the same host as the audio, and that host is periodically taken down for maintenance while the team updates the station's site. When that happens the metadata and playlist links stop resolving and the direct stream keeps working. The status line above tells you which state you are in, because it probes the stream itself rather than trusting a cached answer.</p>
+    <p class="meta-info">Links: <a href="https://www.outofbounds.live/" target="_blank" rel="noopener">outofbounds.live ↗</a> · <a href="https://radio.outofbounds.live/listen/out_of_bounds/radio.mp3" target="_blank" rel="noopener">Direct stream</a> · Want on-demand? → <a href="/music/">Azeroth Ambience, 19 playlists</a></p>
 </section>
+
+<section class="panel">
+    <h2>The Signal's Story</h2>
+    <p>This station is the loudest survivor in the private-server scene. What started as an in-game radio inside <a href="/servers/turtle-wow/">Turtle WoW</a>, tuned with a button on the minimap, grew into a full community operation: DJs like <strong>Zappo Zapblast</strong>, the live show <em>Living in the Past</em>, voice-acted skits and RP ads, plus a <em>WoW Radio</em> app on Google Play and a YouTube channel.</p>
+    <p>When Turtle WoW shut down on <a href="/news/turtle-wow-shutdown/">May 15, 2026</a> after Blizzard's legal action and a binding injunction, the broadcasting team kept the signal alive. It rebranded as <strong>Out of Bounds Entertainment</strong>, "Your Gaming Radio Station. From the old Everlook Broadcasting Co. team", and has been streaming around the clock ever since. The in-game minimap tuner died with the server; the station itself did not.</p>
+    <p class="meta-info">Cross-reference: <a href="/news/everlook-radio-reborn/">our piece on the station's rebirth</a> · <a href="/news/turtle-wow-shutdown/">Turtle WoW shutdown news</a> · <a href="/news/blizzard-v-turtle-wow-consent-judgment/">Blizzard v. Turtle WoW</a> · <a href="/#event-everlook-radio-reborn-2026">the radio's history entry</a></p>
+</section>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "RadioStation",
+    "name": "Out of Bounds Entertainment",
+    "alternateName": "Everlook Broadcasting Co.",
+    "url": "https://www.outofbounds.live/",
+    "description": "Gaming radio station run by the former Everlook Broadcasting Co. team from Turtle WoW, streaming 24/7.",
+    "inLanguage": "en"
+}
+</script>
