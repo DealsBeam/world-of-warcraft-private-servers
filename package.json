@@ -7,13 +7,17 @@
     "build": "rm -rf _site && eleventy && node scripts/smoke.js",
     "serve": "eleventy --serve",
     "test": "node test/server-data.test.js",
-    "lighthouse": "npx lighthouse http://localhost:8082 --output=json --output-path=./lighthouse-report.json --chrome-flags=\"--headless --no-sandbox\" 2>&1 | tail -5",
-    "check:deploy": "node scripts/check-deploy.js"
+    "lighthouse": "node scripts/lighthouse.js",
+    "check:deploy": "node scripts/check-deploy.js",
+    "check:deps": "node scripts/check-deps.js"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6"
+    "@11ty/eleventy": "^3.1.7"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

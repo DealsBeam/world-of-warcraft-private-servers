@@ -29,13 +29,21 @@
         })();
     </script>
     <link rel="preload" href="/fonts/cinzel.woff2" as="font" type="font/woff2" crossorigin>
-    {% if heroImage %}<link rel="preload" href="{{ heroImage }}" as="image" fetchpriority="high">{% endif %}
+    {% if heroImage %}<link rel="preload" href="{{ heroImage | replace('.jpeg', '.webp') }}" as="image" type="image/webp" fetchpriority="high">{% endif %}
     {% if page.url and ("/music/" in page.url or "/creators/" in page.url) %}<link rel="preconnect" href="https://www.youtube.com"><link rel="preconnect" href="https://i.ytimg.com">{% endif %}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="stylesheet" href="/style.css?v=11">
+    <!-- Bump the ?v= number whenever style.css changes: the file is served immutable for a year. -->
+    <link rel="stylesheet" href="/style.css?v=12">
 </head>
 <body class="surface-{{ surface or 'default' }}">
+
+    {# The same 27 icons were inlined into every card, which put half a
+       megabyte of path data into the homepage document. They now live in
+       one hidden sprite and each card references a symbol. #}
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true" focusable="false">
+        {% for id, d in icons.ICON_PATHS %}<symbol id="ic-{{ id }}" viewBox="{{ icons.ICON_VIEWBOX[id] }}"><path d="{{ d }}"/></symbol>{% endfor %}
+    </svg>
 
     <a class="skip-link" href="#main-content">Skip to content</a>
 
@@ -75,12 +83,12 @@
         <br><a href="/disclaimer/">Disclaimer</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/contact/">Contact</a> · <a href="/census/">Census</a> · <a href="/grading/">Grading</a> · <a href="/creators/malonze-gaming/">Creators</a> · <a href="/shop/">Shop</a>
     </div>
 
-    <script src="/theme.js"></script>
+    <script defer src="/theme.js"></script>
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
-    {% for s in extraScripts %}<script src="{{ s }}"></script>{% endfor %}
+    {% for s in extraScripts %}<script defer src="{{ s }}"></script>{% endfor %}
 
 </body>
 </html>

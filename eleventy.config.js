@@ -45,6 +45,20 @@ const latestCheck = servers => {
 
     eleventyConfig.addFilter("take", (arr, n) => (arr || []).slice(0, n));
 
+    // Tracker cards used to print the whole evidence record for every
+    // server, which made the homepage document close to a megabyte and put
+    // first contentful paint past six seconds on a throttled connection.
+    // The full text still appears on each server's own page, so cards get
+    // an excerpt that ends on a word boundary.
+    eleventyConfig.addFilter("shorten", (text, n) => {
+        const s = String(text || "").trim();
+        const limit = Number(n) || 200;
+        if (s.length <= limit) return s;
+        const cut = s.slice(0, limit);
+        const space = cut.lastIndexOf(" ");
+        return `${(space > limit * 0.6 ? cut.slice(0, space) : cut).replace(/[\s,;:.]+$/, "")}…`;
+    });
+
     eleventyConfig.addFilter("slugify", slugify);
 
     eleventyConfig.addFilter("gameOf", d => gameOf(d || {}));

@@ -8,6 +8,6 @@
         <path class="es-keep" d="M470 170 L470 108 L500 108 L500 90 L540 90 L540 108 L570 108 L570 170 Z M505 90 L505 64 L510 62 L510 90 Z M530 90 L530 62 L535 64 L535 90 Z"/>
         <circle class="es-glow" cx="870" cy="50" r="40"/>
     </svg>
-    <svg class="es-ic" viewBox="{{ icons.viewFor(ic) }}"><path d="{{ icons.pathFor(ic) }}"/></svg>
+    <svg class="es-ic" viewBox="{{ icons.viewFor(ic) }}" aria-hidden="true"><use href="#ic-{{ ic }}"/></svg>
 </div>
 {% endmacro %}

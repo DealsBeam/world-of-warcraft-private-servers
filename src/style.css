@@ -1564,6 +1564,14 @@ textarea {
     text-align: center;
 }
 
+/* Links inside a paragraph of text need more than colour to be readable.
+   Lighthouse flagged the footer attribution link for this. */
+.footer a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;

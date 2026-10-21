@@ -6,3 +6,6 @@ baseline-dark-*.png
 serve.log
 .planning/
 automation_bot/out/
+
+# Lighthouse artifacts are local, and the report embeds a base64 screenshot
+lighthouse-report.json

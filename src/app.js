@@ -116,7 +116,7 @@ const cardHtml = s => {
     <article class="card card-st-${["playable","dev","dead"].includes(s.status)?s.status:"unknown"}${s.status === "dead" ? " card-dead" : ""}">
         <div class="card-head">
             <span class="card-head-left">
-                <span class="card-emblem emblem-${slugify(ERA[s.tag] || "Other")}" aria-hidden="true"><svg viewBox="${vb}"><path d="${ICONPATHS[ic]}"/></svg></span>
+                <span class="card-emblem emblem-${slugify(ERA[s.tag] || "Other")}" aria-hidden="true"><svg viewBox="${vb}" aria-hidden="true"><use href="#ic-${ic}"/></svg></span>
                 <span class="server-name"><a class="server-link" href="/servers/${slugify(s.name)}/">${scr(s.name)}</a>${group}</span>
             </span>
             <span class="badge ${(STATUS[s.status]||{cls:"",label:scr(s.status)}).cls}">${(STATUS[s.status]||{cls:"",label:scr(s.status)}).label}</span>
