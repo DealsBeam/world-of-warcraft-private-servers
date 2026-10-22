@@ -24,3 +24,5 @@ Two reputation tracks, one per faction, selling **trinkets, rings, cloaks, weapo
 Levels 30 to 60 is the levelling band, not the endgame. A battleground tuned for it, with its own gear track, is a statement that PvP progression starts before cap rather than after it. Combined with the Honor and Rank Point system, Forever is building PvP as a parallel levelling path, which original WoW never quite did.
 
 SOURCES: Blizzard's "Battle for the Darkspear Islands" post, dated October 7 2026, read October 8 2026. Format, scoring, levels and reward structure quoted or transcribed. Related: [how PvP progression works](/news/forever-pvp-progression-oct-8/), [the Legacy System](/news/forever-legacy-system-breakdown-sep-23/), and [the grading scale](/grading/).
+
+UPDATED October 22 2026: the same October 7 article carries one reward detail this piece originally left out: **reaching Exalted** with your faction's track unlocks a **short questline that rewards the faction's exclusive tabard**, the Darkspear or Theramore one, and that questline can be **completed at any level**. The rest of the reward structure above was already recorded.

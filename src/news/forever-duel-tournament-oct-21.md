@@ -39,6 +39,8 @@ The plan is for **day two of the tournament, for the top 32**, to use a purpose-
 
 A tournament with 6,000 signups inside a beta is a signal about what kind of audience Forever has attracted. It is also the clearest example yet of the beta acting as a venue rather than a test rig, with players using their time to queue for a prize instead of levelling to 30.
 
+UPDATED October 22 2026: the tournament has a winner. [**Warlockguy** took the title on October 18](/news/forever-open-duel-winner-oct-22/), beating fellow Warlock Neepzen 3-1 in the grand final for the 50,000 dollar first prize and the Death's Duelist title, with the 5,555 dollar class prizes listed in the follow up piece.
+
 Two caveats, stated plainly. The episode was recorded on **15 October**, so the sign-up number is a week old and is almost certainly higher now. And none of this is official Blizzard content. It is a community event that Blizzard's developers were asked about, that Blizzard's beta host, and that a Blizzard-built arena will be used for, and the developers themselves flagged the risk that comes with money on the line: "as the stakes get higher and higher, certain things do become... we have to make sure all of our bases are covered."
 
 ## Where to watch it

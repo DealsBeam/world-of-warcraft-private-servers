@@ -54,3 +54,5 @@ Practically: pick three names you would genuinely accept, have a second tier rea
 For the rest of the launch sequence, see [the last fifteen days](/blog/forever-last-fifteen-days-oct-20/).
 
 SOURCES: Blizzard's "Claim Your World of Warcraft: Forever Character Names" post dated 20 October 2026, read from the official news page on 21 October 2026. Region start times, the three-character-across-all-rulesets rule, the purchase requirement and account restriction, the first-come-first-served wording and the install checklist are the post's own.
+
+UPDATED October 22 2026: the ruleset picture changed today. In [Aggrend's forum post](/news/forever-rp-pvp-ruleset-oct-22/), a **Roleplay-PvP ruleset** was added for launch, and Blizzard is "working hard" to make it **selectable for name reservation** when the window opens on October 27. That is a commitment tied to the same window, not a shipped feature, so if you are reserving on an RP-PvP realm, verify the ruleset appears in the list before the hour matters, because names there will also be first come, first served.
