@@ -2979,3 +2979,14 @@ textarea {
         width: 100%;
     }
 }
+
+/* ---------- guides index ---------- */
+
+.guide-index li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.guide-index a {
+    font-weight: 600;
+}
