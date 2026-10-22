@@ -26,7 +26,7 @@ module.exports = [
         "tag": "WotLK",
         "group": "",
         "url": "https://eternalgaming.site/",
-        "updated": "2026-10-17",
+        "updated": "2026-10-22",
         "popTier": "tiny"
     },
     {
@@ -2000,11 +2000,11 @@ module.exports = [
   {
     "name": "Anachronos",
     "status": "playable",
-    "details": "Brazilian Vanilla project that opened early access today, October 8 2026, capped at level 10, with official launch October 22 capped at 20 and progression continuing to 60 with 45 days of preparation before the first raid across seven content phases. XP 1x with 2x optional, improved drops, accelerated rest and partybot assistance. Verified first-party October 8 2026. No player count is published on the pages read, so popTier is unknown rather than read from a launch-day crowd. UPDATED Oct 17 2026: pre-gate read of the project's own site confirms its schedule panel verbatim, reading early access from 08/10 at a maximum level of 10 and official launch on 22/10 at a maximum level of 20, with progression to 60 and seven content phases. Still no player counter anywhere on the pages read, so the band remains unknown ahead of the gate",
+    "details": "Brazilian Vanilla project that opened early access today, October 8 2026, capped at level 10, with official launch October 22 capped at 20 and progression continuing to 60 with 45 days of preparation before the first raid across seven content phases. XP 1x with 2x optional, improved drops, accelerated rest and partybot assistance. Verified first-party October 8 2026. No player count is published on the pages read, so popTier is unknown rather than read from a launch-day crowd. UPDATED Oct 17 2026: pre-gate read of the project's own site confirms its schedule panel verbatim, reading early access from 08/10 at a maximum level of 10 and official launch on 22/10 at a maximum level of 20, with progression to 60 and seven content phases. Still no player counter anywhere on the pages read, so the band remains unknown ahead of the gate. UPDATED Oct 22 2026: launch-day read of the project's own front page confirms the gate arrived on schedule: the schedule panel reads 08/10 early access at a maximum level of 10 and 22/10 official launch at a maximum level of 20, with the March to the 60 panel describing progression to level 60 across seven content phases and 45 days of preparation before the first raid. The client is Vanilla 1.12.1 build 5875, downloaded from the project's own Google Drive link, and the front page itemizes XP 1x with an optional 2x toggle, improved drops, accelerated rest and partybot assistance, plus a Discord community channel. The site still publishes no player counter, so popTier stays unknown on launch day rather than read from a crowd",
     "tag": "Vanilla",
     "popTier": "unknown",
     "url": "https://wowclassico.com.br/",
-    "updated": "2026-10-17"
+    "updated": "2026-10-22"
   },
   {
     "name": "Uldaris",
