@@ -348,8 +348,12 @@ module.exports = [
         "url": "https://bronzebeard.bendo.lol/"
     },
     {
-        "title": "azerothcore-wotlk-coa — Conquest of AzerothCore fork (12★, CoA classes native)",
+        "title": "azerothcore-wotlk-coa - Conquest of AzerothCore fork (272★/193 forks read Oct 23, CoA classes native, GPL-2.0)",
         "url": "https://github.com/jealous-sound/azerothcore-wotlk-coa"
+    },
+    {
+        "title": "CoA-Hosting-Guide - community step-by-step guide to self-hosting an Ascension CoA repack (Windows, local/LAN/online, acore realmlist via Manage.py; posted Sep 16-19 2026, 12 days after the C&D)",
+        "url": "https://github.com/ScikuVRC/CoA-Hosting-Guide"
     },
     {
         "title": "ascension-db — 464k-row AzerothCore SQL from Exiles offline mirror, converter + verifier + gap audit (Sep 10)",

@@ -115,13 +115,13 @@ module.exports = [
     {
         "name": "Conquest of Azeroth",
         "status": "dead",
-        "details": "21 custom lore-derived classes ×3 specs (Alpha) — shut down Sep 4, 2026 as part of Ascension network (Blizzard C&D). Do not confuse this with either of the other two Conquest projects we track: Conquest of AzerothCore, the live open-source continuation on the AzerothCore core, and Conquest Reborn, an independent non-commercial 3.3.5a realm. All three are separate projects and this is the only one that is shut",
+        "details": "21 custom lore-derived classes ×3 specs (Alpha) - shut down Sep 4, 2026 as part of Ascension network (Blizzard C&D). Do not confuse this with either of the other two Conquest projects we track: Conquest of AzerothCore, the live open-source continuation on the AzerothCore core, and Conquest Reborn, an independent non-commercial 3.3.5a realm. All three are separate projects and this is the only one that is shut. UPDATED Oct 23 2026: the files did not stay down. A community self-hosting guide for an Ascension CoA repack went up on GitHub Sep 16-19 2026, twelve days after the shutdown, walking anyone through running the repack locally or online on Windows, with a separate CoA bots package, and pointing at the files distributed through Discord channels; a Reddit thread on r/ProjectAscension relays an open implementation posted to RageZone, full client and repack. We have not obtained or run any of these files, nothing about their provenance is verifiable from here, and the shutdown status refers to the operated Ascension realms, which remain shut",
         "tag": "Vanilla+",
         "group": "Ascension",
         "popTier": "unknown",
         "shutdown": "2026-09-04",
         "shutdownReason": "C&D",
-        "updated": "2026-08-30"
+        "updated": "2026-10-23"
     },
     {
         "name": "Area 52",
