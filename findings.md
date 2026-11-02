@@ -46,3 +46,7 @@
 Live site: 266 news / new pages 404. Empty redeploy commits (b2ddc58) did not revive Vercel; no token/CLI. Build passes (741 files, smoke OK), dashes/test OK. Content pushed correctly.
 New overnight: "Class Tuning Incoming - October 27" (US 2390748 / EU 637262) overlaps name reservation window. TheWoWDB ruleset feed ([Updated 10/22]) lists all four rulesets; selectable-state confirmation still pending for Oct 27 window.
 Tracker sweep backlog (pre-Sep 15 entries) not completed; deploy blockage is priority.
+
+### Nov 2 (mon) - direct-link purge complete, deploy recovered
+Removed the last tracked-server hyperlinks: project-epoch.org and chat.project-epoch.org in the Epoch Reborn story, zugcraft.cc/population in the Ravencraft guide. smoke.js now scans every published HTML/XML/text file, matches subdomains of tracked hosts, catches markdown-style and bare URLs in the llms files, and the reference-link check uses the same subdomain rule. Strict scan of src and _site reports 0 hits; live audit of all 726 sitemap URLs plus feed/llms/api/data/app/style reports 0 tracked-host links; api/servers.json has 0 urls across 255 entries.
+Deploy: the b2ddc58..39e876b push did trigger Vercel after all (GitHub commit status showed pending then success). check:deploy now reports live matches build at 269 news. IndexNow submitted 5 changed URLs (HTTP 200).
