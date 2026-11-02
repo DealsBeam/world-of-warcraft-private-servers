@@ -41,3 +41,8 @@
 - Shop improves with three real category cards and explicit affiliate disclosure.
 - Contact preserves its joke while giving visitors a concrete correction/tip/takedown checklist.
 - A second CSS cache bump to `v=6` was required after this batch; live v6 control sizing passed.
+
+### Oct 24 (sat) - deploy still stuck, work continues
+Live site: 266 news / new pages 404. Empty redeploy commits (b2ddc58) did not revive Vercel; no token/CLI. Build passes (741 files, smoke OK), dashes/test OK. Content pushed correctly.
+New overnight: "Class Tuning Incoming - October 27" (US 2390748 / EU 637262) overlaps name reservation window. TheWoWDB ruleset feed ([Updated 10/22]) lists all four rulesets; selectable-state confirmation still pending for Oct 27 window.
+Tracker sweep backlog (pre-Sep 15 entries) not completed; deploy blockage is priority.

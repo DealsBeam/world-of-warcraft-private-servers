@@ -221,14 +221,19 @@ console.log(`OK: ${SERVERS.length} servers, ${newsFiles.length} news, ${LINKS.le
     const w = await CDNWATCH();
     // Two tracks: beta (what players download) and dev (internal). At least
     // one must read, and every version string anywhere must be well-formed.
+    // Beta builds get pruned from the CDN after a beta cycle closes, so the
+    // depth floor applies to the fuller of the two tracks rather than both.
     assert.ok(w.beta && w.dev, "cdnwatch missing beta/dev tracks");
     assert.ok(w.beta.ok || w.dev.ok, `both CDN tracks failed: beta=${w.beta.error} dev=${w.dev.error}`);
+    let deepest = 0;
     for (const t of [w.beta, w.dev]) {
         if (!t.ok) continue;
         assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(t.current), `bad current version on ${t.tact}: ${t.current}`);
-        assert.ok(Array.isArray(t.history) && t.history.length >= 4, `cdn history too thin on ${t.tact}`);
+        assert.ok(Array.isArray(t.history) && t.history.length >= 1, `cdn history empty on ${t.tact}`);
+        deepest = Math.max(deepest, t.history.length);
         for (const h of t.history) assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(h.version), `bad history version on ${t.tact}: ${h.version}`);
     }
+    assert.ok(deepest >= 4, `cdn history too thin on both tracks (deepest ${deepest})`);
     if (w.ok) {
         assert.ok(/^\d+\.\d+\.\d+\.\d+$/.test(w.current), `bad top-level current version: ${w.current}`);
     }

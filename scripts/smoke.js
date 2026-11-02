@@ -330,16 +330,38 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
         if (!s.url) continue;
         hosts.add(new URL(s.url).hostname.replace(/^www\./, ""));
     }
+    // A tracked domain can appear as an exact host or as a subdomain
+    // (chat.example.org, forum.example.org) and in markdown-style links inside
+    // the plain-text llms files as well as in HTML anchors. Check every file we
+    // publish, not just index.html, so a stray link cannot hide on one page.
+    const isTracked = h => [...hosts].some(base => h === base || h.endsWith("." + base));
     const hits = [];
     const scan = dir => {
         for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
             const p = path.join(dir, e.name);
             if (e.isDirectory()) { scan(p); continue; }
-            if (e.name !== "index.html") continue;
-            const html = fs.readFileSync(p, "utf8");
-            for (const m of html.matchAll(/(?:href|src)="https?:\/\/([^"'#/?]+)/g)) {
-                const h = m[1].replace(/^www\./, "");
-                if (hosts.has(h)) hits.push(`${path.relative(out, p)} -> ${m[0]}"`);
+            const isText = /\.(html|xml|txt|md|json)$/.test(e.name);
+            if (!isText) continue;
+            const text = fs.readFileSync(p, "utf8");
+            const rel = path.relative(out, p);
+            for (const m of text.matchAll(/(?:href|src)="(https?:\/\/[^"'#]+)/g)) {
+                let h;
+                try { h = new URL(m[1]).hostname.replace(/^www\./, ""); } catch { continue; }
+                if (isTracked(h)) hits.push(`${rel} -> ${m[1]}`);
+            }
+            // Markdown links and bare URLs only matter in rendered text files.
+            if (/\.(txt|md)$/.test(e.name)) {
+                for (const m of text.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)) {
+                    let h;
+                    try { h = new URL(m[1]).hostname.replace(/^www\./, ""); } catch { continue; }
+                    if (isTracked(h)) hits.push(`${rel} [md] -> ${m[1]}`);
+                }
+                for (const m of text.matchAll(/(?<![("])\bhttps?:\/\/[^\s)"'<>]+/g)) {
+                    if (m[0].includes("](")) continue;
+                    let h;
+                    try { h = new URL(m[0]).hostname.replace(/^www\./, ""); } catch { continue; }
+                    if (isTracked(h)) hits.push(`${rel} [bare] -> ${m[0]}`);
+                }
             }
         }
     };
@@ -356,7 +378,7 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     const LINKS = require("../src/_data/links.js");
     const stale = LINKS.filter(l => {
         try {
-            return hosts.has(new URL(l.url).hostname.replace(/^www\./, ""));
+            return isTracked(new URL(l.url).hostname.replace(/^www\./, ""));
         } catch {
             return false;
         }

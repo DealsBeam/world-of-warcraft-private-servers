@@ -13,10 +13,10 @@ Reborn is a community-run continuation restoring Epoch's custom content: origina
 
 ## Where to meet
 
-The community has moved to a self-hosted platform: **[Fluxer](https://chat.project-epoch.org)**, replacing their previous Discord as the front door to the team. The forums, bug tracker and changelog remain on the site.
+The community has moved to a self-hosted platform, Fluxer (chat.project-epoch.org), replacing their previous Discord as the front door to the team. The forums, bug tracker and changelog remain on the site.
 
 ## Notes for the tracker
 
 We had Epoch marked as **dev** with "LAUNCHES 23 OCTOBER 2026" and no player counter published. After the gate it is now live at the published time, but a public population figure is still not visible on the homepage; until one is verifiably published we are keeping **popTier: unknown** and flipping the status framing from "closed" to "live/launched" in the tracker entry.
 
-SOURCES: [project-epoch.org](https://project-epoch.org/) read immediately after the 16:00 UTC gate (Oct 23 2026), the site's features/classes/challenges/PvP pages, and the Fluxer invite linked from the homepage. Related: [the Epoch entry in our tracker](/servers/), [the WoW Forever beta closing today](/news/forever-beta-closed-oct-23/), and [the grading scale](/grading/).
+SOURCES: project-epoch.org read immediately after the 16:00 UTC gate (Oct 23 2026), the site's features/classes/challenges/PvP pages, and the Fluxer invite linked from the homepage. Related: [the Epoch entry in our tracker](/servers/), [the WoW Forever beta closing today](/news/forever-beta-closed-oct-23/), and [the grading scale](/grading/).

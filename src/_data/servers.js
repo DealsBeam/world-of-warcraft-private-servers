@@ -92,13 +92,12 @@ module.exports = [
     },
     {
         "name": "Project Epoch: Reborn",
-        "status": "dev",
-        "details": "Community-run continuation of Project Epoch, the custom Classic+ realm, on its own 3.3.5a build 12340 client. LAUNCHED 23 OCTOBER 2026 at 16:00 UTC (reopened after being closed). Restoring Epoch's custom quests, reworked classes, dungeons and raids; adds Soul of Iron (reach 60 without dying) and Explorer's Contract (half XP for slower routes) challenges, Racial Knowledge racial questlines unlocking alternate racial sets at 60, and Warmode world PvP with Bloody Tokens. Free to play, no pay-to-win and no donor gear; registration open. Community moved to self-hosted Fluxer (chat.project-epoch.org). UPDATED Oct 23 2026: gate passed at 16:00 UTC, realm status moved from Closed to live. No player counter is published, so band stays unknown until verifiable population data emerges.",
+        "status": "playable",
+        "details": "Community-run continuation of Project Epoch, the custom Classic+ realm, on the 3.3.5a client (12340 enUS; they do NOT distribute the client, players bring their own clean install). LAUNCHED 23 OCTOBER 2026 at 16:00 UTC. Restoring Epoch's custom quests, reworked classes, dungeons and raids; adds Soul of Iron (reach 60 without dying) and Explorer's Contract (half XP for slower routes) challenges, Racial Knowledge racial questlines unlocking alternate racial sets at 60, and Warmode world PvP with Bloody Tokens. Free to play, no pay-to-win and no donor gear; registration open. Community on self-hosted Fluxer (chat.project-epoch.org). UPDATED Oct 25 2026: connection is via their own launcher (Windows/Linux) that verifies/repairs files and needs no access key or realmlist edit; ~20 GB required for the client plus custom patches. No player counter is published, so band stays unknown.",
         "tag": "Vanilla+",
         "group": "",
-        "updated": "2026-10-23",
+        "updated": "2026-10-25",
         "url": "https://project-epoch.org/",
-        "release": "TBD",
         "popTier": "unknown"
     },
     {
@@ -1002,11 +1001,11 @@ module.exports = [
     {
         "name": "Stonetavern",
         "status": "playable",
-        "details": "Now a single progression realm, EU-hosted. ELWYNN is the preserved Vanilla realm: Vanilla 1.12.1 at final patch, never wiped, x1 rates, level cap 60, no shop, no dungeon finder, no layering. One deliberate departure from 2006 is Horde/Alliance sharing chat, groups and dungeons. Raid doors are readiness-gated, not calendar-gated: Molten Core and Onyxia open 2 weeks after 80 accounts reach level 60, then Dire Maul (~month 2), Blackwing Lair (~month 5), Zul'Gurub (~month 8), Ahn'Qiraj (~month 11), Naxxramas (~month 15), then full Vanilla permanently. The BARRENS progressive realm merged into Elwynn on October 23, 2026. Going forward Elwynn stays Vanilla and after Naxxramas TBC begins on a NEW realm, with every character copied 1:1 to it (Vanilla character remains on Elwynn), then Wrath follows TBC. Changes go to a vote; public changelog, AI-assisted detection with human appealable bans, daily rehearsed backups. Publishes a free addon shelf for 1.14.2 and 1.12.1. Markets itself as Turtle WoW and WoW Forever alternative. Confirmed first-party Oct 23 2026: 922 Discord members, changelog 156 changes (latest Oct 23), 1 open proposal, Barrens merged into Elwynn with TBC to follow on a separate realm. popTier tiny, sourced to published Discord figure.",
+        "details": "Now a single progression realm, EU-hosted. ELWYNN is the preserved Vanilla realm: Vanilla 1.12.1 at final patch, never wiped, x1 rates, level cap 60, no shop, no dungeon finder, no layering. One deliberate departure from 2006 is Horde/Alliance sharing chat, groups and dungeons. Raid doors are readiness-gated, not calendar-gated: Molten Core and Onyxia open 2 weeks after 80 accounts reach level 60, then Dire Maul (~month 2), Blackwing Lair (~month 5), Zul'Gurub (~month 8), Ahn'Qiraj (~month 11), Naxxramas (~month 15), then full Vanilla permanently. The BARRENS progressive realm merged into Elwynn on October 23, 2026. Going forward Elwynn stays Vanilla and after Naxxramas TBC begins on a NEW realm, with every character copied 1:1 to it (Vanilla character remains on Elwynn), then Wrath follows TBC. Changes go to a vote; public changelog, AI-assisted detection with human appealable bans, daily rehearsed backups. Publishes a free addon shelf for 1.14.2 and 1.12.1. Markets itself as Turtle WoW and WoW Forever alternative. Confirmed first-party Oct 23 2026: Barrens merged into Elwynn, TBC pre-patch to follow on a separate realm after Naxxramas with 1:1 copies, Wrath after TBC. Re-read Oct 25 2026: 927 Discord members, changelog 156 changes (latest Oct 23), 1 open proposal, and the site names the next staged chapter as Dire Maul, opening two months after MC and Onyxia open; the 1:1 copy to the TBC realm includes the same login. popTier stays tiny, sourced to the 927 published Discord figure.",
         "tag": "Vanilla",
         "group": "",
         "url": "https://stonetavern.app/",
-        "updated": "2026-10-23",
+        "updated": "2026-10-25",
         "popTier": "tiny"
     },
     {
