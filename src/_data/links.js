@@ -477,6 +477,11 @@ module.exports = [
         "note": "Fan reference, checked 17 Oct 2026: the front page reported 187 servers listed, 147 active, 21 coming soon and 19 closed, with per-expansion, per-type and per-feature filters and a Renown reputation system for reviewers. It runs its own versions of the same ranked lists we publish, including best hardcore, best blizzlike, no pay-to-win and servers with bots. Populations are quoted as ranges and the site itself labels them estimates from servers and communities rather than exact counts, so use it for discovery and cross-checking, and treat its figures as the operator's or the community's claims. Useful for finding projects we have not yet verified; not a substitute for a first-party read."
     },
     {
+        "title": "WoW Projects Hub: community directory of private servers, emulators and playable projects",
+        "url": "https://wow-projects-hub.github.io/",
+        "note": "Fan reference, checked 2 Nov 2026: its data feed carries 44 projects (20 private servers, 5 server emulators, 17 playable projects, 2 misc; 21 Vanilla, 14 WotLK, 5 multi-expansion, 1 MoP, 3 unknown) with expansion, client version, region, language, tags, custom-content flag and status, plus a player count and checked date on 14 of them. Filters cover expansion, region, language, status and tags, with grid/list views and sorting. The GitHub repo was created 30 Oct 2026, last pushed 31 Oct 2026, one star, no licence. Sixteen of its 20 private servers are already in our tracker; the four we do not track are Rising Gods, Hyjal, Lasthavens and Keldurn. Discovery only: each entry links straight to the project's own site and the player figures are operator or community claims, so nothing here is graded until we read it first party."
+    },
+    {
         "title": "benilla - a complete World of Warcraft 1.12.1 client written from scratch in Rust and Bevy",
         "url": "https://github.com/samwhosung/benilla",
         "note": "Checked 17 Oct 2026. The engine behind two finished products we now cover. MIT and Apache licensed, builds on macOS, Linux and Windows, and plays the whole game from character creation through questing. The author also publishes wow-1121-client-internals, a documentation repo on how the retail Vanilla client renders terrain, lights a scene and decodes the wire protocol."
