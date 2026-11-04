@@ -41,7 +41,20 @@ function main() {
         console.log("outdated: nothing");
     }
 
-    const audit = run("npm audit --json");
+    const auditEnv = { ...process.env };
+    delete auditEnv.npm_config_allow_scripts;
+    let audit = "";
+    try {
+        audit = execSync("npm audit --json", {
+            encoding: "utf8",
+            stdio: ["ignore", "pipe", "pipe"],
+            env: auditEnv
+        });
+    } catch (e) {
+        // npm audit exits 1 when it finds vulnerabilities; its JSON is still on
+        // stdout. Only fall back to the combined streams when there is no JSON.
+        audit = (e.stdout || "") + (e.stderr || "");
+    }
     if (audit.trim()) {
         try {
             const parsed = JSON.parse(audit);
@@ -57,7 +70,10 @@ function main() {
                 }
             }
         } catch (e) {
+            // An unreadable audit is not a clean audit. The old code printed a
+            // note and still exited 0, which hid a broken nested npm call.
             console.log("audit: could not parse npm output");
+            failed = true;
         }
     }
 
