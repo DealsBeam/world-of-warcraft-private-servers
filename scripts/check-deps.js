@@ -36,6 +36,7 @@ function main() {
             }
         } catch (e) {
             console.log("outdated: could not parse npm output");
+            failed = true;
         }
     } else {
         console.log("outdated: nothing");

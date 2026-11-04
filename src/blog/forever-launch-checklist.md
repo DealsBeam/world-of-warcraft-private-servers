@@ -1,11 +1,13 @@
 ---
-title: "WoW Forever launch checklist: what to do in the 38 days before November 4"
+title: "WoW Forever launch checklist: what to do in the 39 days before November 4"
 date: 2026-09-26
 category: guides
 summary: "A dated runbook for the Forever launch window, built only from first-party announcements: beta testing priorities, addons, character planning, name reservations, and the four dates that are still unresolved."
 ---
 
-The Forever beta ends October 21. Launch is November 4 at 3 p.m. PST. That gives you a 38-day window to make decisions, and most of the useful decisions have to be made before launch day rather than during the queue.
+The Forever beta ends October 21. Launch is November 4 at 3 p.m. PST. That gives you a 39-day window to make decisions, and most of the useful decisions have to be made before launch day rather than during the queue.
+
+**Update, 23 October 2026:** the beta was extended and closed at **10:00 a.m. PDT on October 23**, not October 21. The four dates this runbook called unresolved were all closed before launch: the beta close date is October 23, and Onyxia's Lair unlocks on December 9 with the other two raids. Server Slam and the level-30 cap were beta events and no longer block a launch plan. The sections below are left in their original form with dated notes where they changed.
 
 This is a runbook, not a prediction. Every date and system below is from Blizzard. Where a claim is still contested, it is marked and left open rather than guessed.
 
@@ -38,14 +40,14 @@ Two-part names are required, unique per region. Early name reservation runs Octo
 
 **Do not wait for launch day.** The reservation window is before the queue, which is the only time you can guarantee a name. And note that [beta naming enforcement has already bitten testers](/news/forever-beta-name-enforcement/): Blizzard has forced changes on beta characters and removed access from some accounts, with no appeals. Pick something you would be happy to keep.
 
-## The four dates still unresolved
+## The four dates that were unresolved
 
-These are open on our [verification hit list](/news/forever-beta-verification-hit-list/) and we are not going to invent them:
+These were open on our [verification hit list](/news/forever-beta-verification-hit-list/) when this runbook was written. Items 3 and 4 were closed before launch; items 1 and 2 were beta scheduling questions that the closure made moot.
 
 1. **The Server Slam window.** Blizzard confirmed the beta opens to everyone for several hours later in the test. No date.
 2. **Level-30 activation.** The cap rises from 20 during the test. No date.
-3. **The beta close date.** Purchase terms say October 21, the roadmap graphic says October 22. Unresolved as of our last check.
-4. **Onyxia's Lair timing.** Blizzard's explainer video says the 40-player raid is available at launch. The official recap says new raids unlock December 9. Both are first-party and they disagree. Four signals lean launch, one says December 9, and no source names a date.
+3. **The beta close date.** <del>Purchase terms say October 21, the roadmap graphic says October 22. Unresolved as of our last check.</del> **Resolved 21 October:** Kaivax extended the close to **10:00 a.m. PDT on October 23**, and the beta closed then.
+4. **Onyxia's Lair timing.** <del>Blizzard's explainer video says the 40-player raid is available at launch. The official recap says new raids unlock December 9.</del> **Resolved 21 October:** Blizzard's October 20 raid overview puts Onyxia's Lair on **December 9** with Barrow Deeps and Hyjal Summit. See [the raid overview](/news/forever-raid-overview-dec-9-oct-21/).
 
 If your plan depends on any of these, plan for the later date.
 

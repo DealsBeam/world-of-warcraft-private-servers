@@ -2,7 +2,7 @@
 title: "The last fifteen days before Forever: every date from the beta's final day to the first raid"
 date: 2026-10-20
 category: guides
-summary: "The beta ends October 21. Name reservation runs October 27 to November 3. Launch is November 4 at 3:00 p.m. PST, invite codes work November 4 to 11, and the first raids unlock December 9. Here is the order, and what to do in it. Updated 21 October: Blizzard extended the beta to October 23 and published the stress test end times."
+summary: "Updated 21 October: Blizzard extended the beta to October 23, so the final day is Friday, not tonight. Name reservation runs October 27 to November 3. Launch is November 4 at 3:00 p.m. PST, invite codes work November 4 to 11, and the first raids unlock December 9. Here is the order, and what to do in it."
 ---
 
 **Update, 21 October 2026:** this guide was written on October 20, the day before the stress test. Two things changed overnight, and this page is updated rather than rewritten.

@@ -208,6 +208,8 @@ Server Slam date, Onyxia launch-versus-December-9, the beta close-date split, Sp
 
 ## How we'll work it
 
+**Update, 4 November 2026:** this page is the round-by-round ledger through 9 October, not a current status list. Two items still shown above as open were closed before launch: Onyxia's Lair unlocks **December 9** with Barrow Deeps and Hyjal Summit (Blizzard's October 20 raid overview), and the beta closed at **10:00 a.m. PDT on October 23** after Kaivax extended it. The Server Slam ran on October 21. The [classic-plus hub](/classic-plus/) and [launch-day brief](/news/forever-launch-day-nov-4/) carry the resolved values.
+
 As each item resolves, the [Forever hub](/classic-plus/) updates same-day and flags come off. Anything the beta contradicts gets corrected with the old claim struck through, not silently rewritten.
 
 Related: [Deep Dive + Found Photos recap](/news/forever-deep-dive-found-photos-recap/), [Q&A questions we're asking Sep 17](/news/wow-forever-live-qa-questions/), [Q&A answers Sep 17](/news/forever-qna-answers-sep-17/), [day-one known issues](/news/forever-beta-live-day-one/), [round-one datamine](/news/forever-beta-datamine-round-one/).

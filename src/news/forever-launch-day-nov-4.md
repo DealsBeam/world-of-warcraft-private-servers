@@ -5,7 +5,7 @@ category: news
 summary: "World of Warcraft: Forever opens today at 3:00 p.m. PST (23:00 UTC). Blizzard's final pre-launch posts add Classic and Enhanced Experience Presets, detail gamepad play, and reconfirm that Hardcore arrives after launch."
 ---
 
-World of Warcraft: Forever opens today, **November 4, 2026, at 3:00 p.m. PST**, which is **23:00 UTC**. The name reservation window that ran October 27 through November 3 is over, so there is no reservation step left today: the next gate is the login screen. Blizzard Watch reported a longer Forever maintenance window scheduled for this morning ahead of the launch, on top of the hourly maintenance that took reservation offline on November 3.
+World of Warcraft: Forever opens today, **November 4, 2026, at 3:00 p.m. PST**, which is **23:00 UTC**. The name reservation window that ran October 27 through November 3 is over, so there is no reservation step left today: the next gate is the login screen. Blizzard Watch reported a longer Forever maintenance window scheduled for this morning ahead of the launch, on top of the one-hour maintenance that took reservation offline on November 3.
 
 The last two first-party posts before the gate are worth reading before you queue. They add two systems that our beta coverage did not have in this form: Experience Presets at first login, and a full official gamepad layout.
 
@@ -14,7 +14,7 @@ The last two first-party posts before the gate are worth reading before you queu
 The first time you log in, Blizzard now asks you to **Choose Your Experience Preset** before choosing a Ruleset. The preset bundles the initial visual and interface settings; it does **not** decide which ruleset you play on.
 
 - **Classic** starts with standard-definition character models, quest points of interest and objective areas off, one-bag view off, transmog off, camera turning on the keyboard, and the classic screen layout.
-- **Enhanced** starts with high-definition character models, quest guidance on, one-bag view on, transmog on, strafing on the keyboard, and a centralised screen layout. Blizzard's advice is to start here if you are unsure, because every individual setting can be changed later under Game Menu > Options.
+- **Enhanced** starts with high-definition character models, quest guidance on, one-bag view on, transmog on, strafing on the keyboard, and a centralized screen layout. Blizzard's advice is to start here if you are unsure, because every individual setting can be changed later under Game Menu > Options.
 
 The preset disappears after that first login. Each new character still gets a separate choice between high-definition and standard-definition models and animations at creation, which changes appearance only and can be changed later in Options or at a barbershop. Advanced options also expose the Cooldown Manager and the built-in Damage Meter.
 
@@ -33,7 +33,7 @@ Blizzard's November 3 gamepad article is the first full first-party description 
 - **Hardware:** all XInput-compatible controllers work, with Xbox and PlayStation button icons. On controllers with supported lighting, the light turns red for a Horde character and blue for an Alliance character.
 - **Setup:** Game Menu > Options > Gameplay > Gamepad switches input. Camera, HUD modifier, frame focus style, action bars, targeting and raid targeting are all adjustable.
 - **Targeting and movement:** left stick moves, right stick controls the camera, left bumper selects a friendly target and right bumper selects a hostile one.
-- **Action bars:** three action bar sets, four bars per set, 28 slots per set, **84 customisable slots** in total. Hold LB + RB and press left or right on the D-pad to change set; hold LT, RT or both to reach the other bars inside a set.
+- **Action bars:** three action bar sets, four bars per set, 28 slots per set, **84 customizable slots** in total. Hold LB + RB and press left or right on the D-pad to change set; hold LT, RT or both to reach the other bars inside a set.
 - **Shortcuts:** LB + RB plus B opens the backpack, Up opens the quest tracker, Down opens chat and Y manages buffs. Chat still needs a keyboard, and Blizzard calls the support a "functional beta" with interface updates ongoing.
 
 That is a more complete picture than "controller support exists", but it is still pre-launch documentation. We will re-read the live gamepad settings after the servers open rather than treat the article as proof that every screen has a footer.

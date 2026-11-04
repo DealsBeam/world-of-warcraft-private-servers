@@ -5,7 +5,7 @@ category: analysis
 summary: "Onyxia's Lair has two first-party dates, the Heroic price was never quoted by Blizzard, and a dungeon has two names. These are the claims our verification ledger could not close before the beta shut, and the single source that would settle each one. Updated 21 October: the Onyxia date, the Blackmaw Hold naming and the beta close date were closed by Blizzard's 20 October posts, which we published this ledger without reading."
 ---
 
-The Forever beta ends today, the stress test runs this afternoon, and then the next time anyone logs in it will be for launch on **November 4**. That makes this the right moment to publish the list we have been carrying since September: the claims that never closed.
+The Forever beta goes offline today for the stress test, reopens afterwards, and closes for good at **10:00 a.m. PDT on October 23**. Then the next time anyone logs in it will be for launch on **November 4**. That makes this the right moment to publish the list we have been carrying since September: the claims that never closed.
 
 None of these are scandals. They are the ordinary gaps between what a company says in a video, what a storefront prints, and what players find in a build. We are listing them because the alternative, quietly picking the answer that reads best, is how a site stops being worth reading.
 
