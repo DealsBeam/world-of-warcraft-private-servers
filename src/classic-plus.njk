@@ -42,8 +42,8 @@ eleventyComputed:
 
 <section class="panel cp-countdown" aria-label="Key dates">
     <div>
-        <div class="cd-title">Beta live now · end date disputed</div>
-        <div class="cd-when">Name reservation Oct 27 · Raids Dec 9</div>
+        <div class="cd-title">Global launch · Nov 4, 3:00 p.m. PST</div>
+        <div class="cd-when">Name reservation closed Nov 3 · Raids Dec 9</div>
     </div>
     <div>
         <div class="cd-num" data-countdown="2026-11-04T23:00:00Z">Nov 4</div>
@@ -643,10 +643,10 @@ eleventyComputed:
         var target = new Date(el.dataset.countdown).getTime();
         function tick() {
             var diff = target - Date.now();
-            if (diff <= 0) { el.textContent = "This week"; return; }
+            if (diff <= 0) { el.textContent = "Live now"; return; }
             var d = Math.floor(diff / 86400000);
             var h = Math.floor((diff % 86400000) / 3600000);
-            el.textContent = "in " + d + "d " + h + "h";
+            el.textContent = d === 0 ? "in " + h + "h" : "in " + d + "d " + h + "h";
         }
         tick();
         setInterval(tick, 60000);
