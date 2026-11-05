@@ -472,7 +472,7 @@ eleventyComputed:
 {% if cdnwatch.ok %}
 <section class="panel cp-span-full">
     <h2>Blizzard CDN Build Watch</h2>
-    <p><span class="badge badge-yellow">Live</span> Beta build {% if cdnwatch.beta and cdnwatch.beta.ok %}<code>{{ cdnwatch.beta.current }}</code> on <a href="https://blizztrack.com/view/wow_classic_beta" target="_blank" rel="noopener">BlizzTrack</a> (the client testers download){% else %}unreachable{% endif %}{% if cdnwatch.dev and cdnwatch.dev.ok %}; dev track <code>{{ cdnwatch.dev.current }}</code> on <a href="https://blizztrack.com/view/wowdev2" target="_blank" rel="noopener">BlizzTrack</a> (internal, usually ahead){% endif %} · detected {{ cdnwatch.updated }} by our automated build watcher. This is Blizzard's own CDN, not a leak; a new build here means real progress on Forever's Patch 1.60 branch.</p>
+    <p><span class="badge badge-yellow">Live</span> World of Warcraft: Forever launches globally November 4, 2026 at 3:00 p.m. PST (23:00 UTC). Four rulesets are selectable at launch: Normal, PvP, Roleplay and Roleplay-PvP. Hardcore ruleset arrives after launch. This is Blizzard's own CDN, not a leak; a new build here means real progress on Forever's Patch 1.60 branch.</p>
     <p class="meta-info">Recent beta bumps:</p>
     <ul class="news-list">
     {% for h in cdnwatch.beta.history %}
