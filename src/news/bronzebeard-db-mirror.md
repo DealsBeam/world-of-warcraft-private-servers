@@ -22,7 +22,7 @@ The preservation wave keeps growing. The [Ascension Archive](/news/ascension-arc
 - **Snapshot, not live.** The realm is [dead](/news/ascension-shutdown-sep-4/); the DB preserves, it does not update.
 - Worth checking before trusting any single entry: cross-reference against the Ascension Archive's recovered datasets and the [CoA AzerothCore port](/news/ascension-classes-azerothcore-port/) where items matter.
 
-Link added to the homepage [tools list](/).
+Link added to the homepage [tools list](/) on September 17, 2026; removed on November 4, 2026 after the domain stopped resolving. The figures above are from the September read and are kept as the record of that snapshot.
 
 <!--
 SOURCES: bronzebeard.bendo.lol (Sep 17 read: header 'Project Ascension · Bronzebeard Realm', 12,874 / 1,633 / 1,642 / 83 counters, phase-3 banner, Custom-item tags, footer 'Unofficial community mirror · Not affiliated with Project Ascension or Blizzard Entertainment'). Cross-referenced: ascension-archive-opens.md (Sep 15) and ascension-shutdown-sep-4.md for network context.

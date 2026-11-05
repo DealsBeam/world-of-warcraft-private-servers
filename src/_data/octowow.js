@@ -9,7 +9,7 @@ module.exports = {
         { "name": "Reshade", "desc": "Graphics overhaul, shaders, and setup.", "url": "https://reshade.me/" }
     ],
     essential: [
-        { "name": "ShaguTweaks", "desc": "Lightweight QoL tweaks for the default UI.", "url": "https://github.com/Dusk-92/ShaguTweaks" },
+        { "name": "ShaguTweaks", "desc": "Lightweight QoL tweaks for the default UI.", "url": "https://github.com/shagu/ShaguTweaks" },
         { "name": "pfUI", "desc": "Full user interface replacement for 1.12 clients.", "url": "https://github.com/brues-code/pfUI" }
     ],
     recommended: [
@@ -31,7 +31,7 @@ module.exports = {
         { "name": "Chronometer", "desc": "Buff/debuff timers", "url": "https://github.com/Judo101/Chronometer" },
         { "name": "GreedMeter", "desc": "DPS meter", "url": "https://github.com/iGreed1993/GreedMeter" },
         { "name": "LevelRange", "desc": "Level range display", "url": "https://github.com/Spartelfant/LevelRange-Turtle" },
-        { "name": "Mik's Scrolling Battle Text", "desc": "Scrolling combat text", "url": "https://github.com/roby-brok/MikScrollingBattleText" },
+        { "name": "Mik's Scrolling Battle Text", "desc": "Scrolling combat text", "url": "https://github.com/AtheneGenesis/Vanilla_MikScrollingBattleText" },
         { "name": "MinimapButtonBag", "desc": "Minimap button management", "url": "https://github.com/McPewPew/MinimapButtonBag" },
         { "name": "ModernSpellBook", "desc": "Modern spell book layout", "url": "https://github.com/vegeta1k95/ModernSpellBook" },
         { "name": "NiceDamage", "desc": "Damage display", "url": "https://github.com/Wurmschwanz/NiceDamage-1.12" },
@@ -42,7 +42,6 @@ module.exports = {
         { "name": "Puppeteer", "desc": "Unit frames addon (healer-friendly, VuhDo/Healbot alternative)", "url": "https://github.com/OldManAlpha/Puppeteer" },
         { "name": "QuestAnnouncer", "desc": "Quest progress announcements (download via download-directory)", "url": "https://github.com/crazypoultry/Wow1.12.1_Addons_Collection/tree/master/QuestAnnouncer_r17551" },
         { "name": "QuestItem", "desc": "Quest item use", "url": "https://github.com/wow-vanilla-addons/QuestItem" },
-        { "name": "RestedXP", "desc": "Leveling guide", "url": "https://github.com/tyllyn/Octo-Rested" },
         { "name": "TurtleMail", "desc": "Mail addon", "url": "https://github.com/sica42/TurtleMail" },
         { "name": "AegisCourier", "desc": "Mail addon (recommended)", "url": "https://github.com/Torchlite-bit/Aegis_Courier" },
         { "name": "MatrixMaps", "desc": "Map display", "url": "https://github.com/dabblez/MatrixMaps" }

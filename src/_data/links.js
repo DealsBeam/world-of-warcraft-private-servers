@@ -73,11 +73,7 @@ module.exports = [
     },
     {
         "title": "Tortoise-WoW - community restoration of the 1.18.1 Turtle-WoW patch, with solo-play additions",
-        "url": "https://github.com/Penqle/tortoise-wow"
-    },
-    {
-        "title": "Shyalya - Tortoise-WoW fork with PlayerBots — run the 1.18.1 world populated with bots",
-        "url": "https://github.com/Shyalya/tortoise-wow"
+        "url": "https://github.com/tortoise-wow/tortoise-wow"
     },
     {
         "title": "Nescabir - tortoise-docker - Docker packaging for Shyalya's Tortoise-WoW + PlayerBots fork",
@@ -94,10 +90,6 @@ module.exports = [
     {
         "title": "Tortoise DB Viewer - Tortoise WoW database viewer — items, NPCs, drops, quests, crafting",
         "url": "https://github.com/Xian55/tortoise-db-viewer"
-    },
-    {
-        "title": "Warband - Vanilla-compatible UI for controlling PlayerBots — roster, bags, groups, raid fill",
-        "url": "https://github.com/Shyalya/warband"
     },
     {
         "title": "TortoiseGMManager - in-game UI for Tortoise WoW GM commands",
@@ -132,10 +124,6 @@ module.exports = [
         "url": "https://github.com/Kelsidavis/WoWee"
     },
     {
-        "title": "benilla - from-scratch 1.12.1 client (Rust + Bevy)",
-        "url": "https://github.com/samwhosung/benilla"
-    },
-    {
         "title": "WoW Emulation - preserves & tools for WoW clients (Rust)",
         "url": "https://github.com/wowemulation-dev"
     },
@@ -158,10 +146,6 @@ module.exports = [
     {
         "title": "Unreal Azeroth - from-scratch UE5 client with Legacy Mode",
         "url": "https://unrealazeroth.ru"
-    },
-    {
-        "title": "WarcraftXL - modular modding framework for the 3.3.5a client",
-        "url": "https://github.com/WarcraftXL/wxl-core"
     },
     {
         "title": "hexdbc - code-based DBC editor for 3.3.5a modding",
@@ -188,7 +172,7 @@ module.exports = [
         "url": "https://projectreforged.github.io/"
     },
     {
-        "title": "OpenRealm - open-source WC3/WoW/SC2 engine in C (MPQ, Linux/macOS)",
+        "title": "open-realm - WC3-primary C/MIT engine reimpl (WoW/SC2 exploratory, tools mpqtool/maptool)",
         "url": "https://github.com/corepunch/open-realm"
     },
     {
@@ -202,10 +186,6 @@ module.exports = [
     {
         "title": "DestinyCore — Legion 7.3.5.26972 TrinityCore fork with PlayerBots (C++20, GPL-2.0)",
         "url": "https://github.com/slash-design/DestinyCore"
-    },
-    {
-        "title": "open-realm — WC3-primary C/MIT engine reimpl (WoW/SC2 exploratory, tools mpqtool/maptool)",
-        "url": "https://github.com/corepunch/open-realm"
     },
     {
         "title": "wowlib - C++26 library for reading/writing WoW client files, Python-bound via welder",
@@ -241,7 +221,7 @@ module.exports = [
     },
     {
         "title": "Game-Launcher — modern WoW launcher (TLS cert, custom CDN, MIT, supports Mainline/Classic/Anniversary/Titan)",
-        "url": "https://github.com/Burralis/Game-Launcher"
+        "url": "https://github.com/SatyPardus/Game-Launcher"
     },
     {
         "title": "SuperApi - required dependency for SuperWoW functionality",
@@ -312,10 +292,6 @@ module.exports = [
         "url": "https://github.com/MrGreenCheezz/tswow-web-client"
     },
     {
-        "title": "Worldforged ascension.help — community Mystic Enchant database (184 enchants), dungeon routes, M+ upgrades, WeakAuras",
-        "url": "https://ascension.help/"
-    },
-    {
         "title": "Open Ascension — Flutter companion app: classless builder, enchant/gear DB, M+ tools (web, Android, Linux, MIT)",
         "url": "https://github.com/synthalorian/open_ascension"
     },
@@ -344,10 +320,6 @@ module.exports = [
         "url": "https://ascension-db.ascension-archive.workers.dev/"
     },
     {
-        "title": "Bronzebeard DB — unofficial item database mirror of Ascension's Bronzebeard (Warcraft Reborn) realm: 12.8k items incl. Worldforged/Bloodforged gear, Mystic Scrolls, phase-3 snapshot (BWL/ZG open)",
-        "url": "https://bronzebeard.bendo.lol/"
-    },
-    {
         "title": "azerothcore-wotlk-coa - Conquest of AzerothCore fork (272★/193 forks read Oct 23, CoA classes native, GPL-2.0)",
         "url": "https://github.com/jealous-sound/azerothcore-wotlk-coa"
     },
@@ -357,7 +329,7 @@ module.exports = [
     },
     {
         "title": "ascension-db — 464k-row AzerothCore SQL from Exiles offline mirror, converter + verifier + gap audit (Sep 10)",
-        "url": "https://github.com/Nighthawk42/ascension-db"
+        "url": "https://github.com/DealsBeam/ascension-db"
     },
     {
         "title": "AcensionOfflineDatabase — 12.8 GB / 517k-file Ascension baseline, multipart archives under Releases (Aug 2026)",
@@ -382,10 +354,6 @@ module.exports = [
     {
         "title": "The Lab — one-click offline WotLK server + bot party manager for Steam Deck (27★, support halted Sep 2026, releases work)",
         "url": "https://github.com/0xVe1L/the-lab"
-    },
-    {
-        "title": "AscensionDB archive browser — searchable preserved items/spells/quests with provenance (companion to ascension-data)",
-        "url": "https://ascension-db.ascension-archive.workers.dev/"
     },
     {
         "title": "Bronzebeard Atlas — Ascension interactive map: mystic enchants, Worldforge, bosses, zones",
@@ -424,8 +392,8 @@ module.exports = [
         "url": "https://github.com/PentSec/DragonUI-CoA"
     },
     {
-        "title": "ACORE Quest Creator — desktop quest chains, scripting, NPCs and patrols for AzerothCore exported as reviewable SQL patches (GPL-3.0-or-later, v0.1.0)",
-        "url": "https://github.com/DMCK96/acore-quest-creator"
+        "title": "Azeroth World Editor - desktop quest chains, scripting, NPCs and patrols for AzerothCore exported as reviewable SQL patches (renamed from ACORE Quest Creator; GPL-3.0-or-later)",
+        "url": "https://github.com/DMCK96/azeroth-world-editor"
     },
     {
         "title": "Atlas Inspector — local app resolving WoW texture atlases by FileDataID into Lua region tables, with an MCP server for agents",
@@ -482,11 +450,6 @@ module.exports = [
         "note": "Fan reference, checked 2 Nov 2026: its data feed carries 44 projects (20 private servers, 5 server emulators, 17 playable projects, 2 misc; 21 Vanilla, 14 WotLK, 5 multi-expansion, 1 MoP, 3 unknown) with expansion, client version, region, language, tags, custom-content flag and status, plus a player count and checked date on 14 of them. Filters cover expansion, region, language, status and tags, with grid/list views and sorting. The GitHub repo was created 30 Oct 2026, last pushed 31 Oct 2026, one star, no licence. Sixteen of its 20 private servers are already in our tracker; the four we do not track are Rising Gods, Hyjal, Lasthavens and Keldurn. Discovery only: each entry links straight to the project's own site and the player figures are operator or community claims, so nothing here is graded until we read it first party."
     },
     {
-        "title": "benilla - a complete World of Warcraft 1.12.1 client written from scratch in Rust and Bevy",
-        "url": "https://github.com/samwhosung/benilla",
-        "note": "Checked 17 Oct 2026. The engine behind two finished products we now cover. MIT and Apache licensed, builds on macOS, Linux and Windows, and plays the whole game from character creation through questing. The author also publishes wow-1121-client-internals, a documentation repo on how the retail Vanilla client renders terrain, lights a scene and decodes the wire protocol."
-    },
-    {
         "title": "wenilla - benilla compiled to WebAssembly, so the 1.12.1 client runs in a browser",
         "url": "https://github.com/Arnesen/wenilla",
         "note": "Checked 17 Oct 2026. Maintained under a different account from benilla itself. This is what lets a full 1.12.1 client run in a browser tab, which is how the survivors-mode roguelites reach players without a download."
@@ -518,8 +481,8 @@ module.exports = [
     },
     {
         "title": "wowdecomp15595 - a decompilation of the WoW 4.3.4 client",
-        "url": "https://github.com/SatyPardus/wowdecomp15595",
-        "note": "Checked 18 Oct 2026. Rebuilds the Cataclysm 4.3.4 client (build 15595) from both the x86 and x64 originals. The repo's own count on 16 Oct 2026 was 30,790 of 31,300 x86 functions (98.4%) and 26,401 of 38,179 x64 functions (69.2%). It states the figures measure how much of the binary has a counterpart, not how much of the game works. 27 stars, no license stated, no game data."
+        "url": "https://github.com/mimalicious/wowdecomp15595",
+        "note": "Checked 18 Oct 2026; link updated 4 Nov 2026 after SatyPardus emptied the original repository and replaced it with a cease-and-desist notice. Rebuilds the Cataclysm 4.3.4 client (build 15595) from both the x86 and x64 originals. The repo's own count on 16 Oct 2026 was 30,790 of 31,300 x86 functions (98.4%) and 26,401 of 38,179 x64 functions (69.2%). It states the figures measure how much of the binary has a counterpart, not how much of the game works. 27 stars, no license stated, no game data."
     },
     {
         "title": "advocaite/TrinityCore, the forever branch - a server for the Forever beta client",
@@ -573,8 +536,8 @@ module.exports = [
     },
     {
         "title": "wotlk-browser - browser delivery, WebSocket-to-TCP bridge and SRP account backend for a 3.3.5a client (MIT, but see the note)",
-        "url": "https://github.com/Pucur/wotlk-browser",
-        "note": "Checked 21 Oct 2026. Not a client engine: a bridge that serves client files over HTTPS in 64 KB blocks, a slicer that cuts an enUS 3.3.5a install into those blocks, a WebSocket-to-TCP tunnel with configurable realm hosts, ports and redirects, and an SRP account backend on MySQL that its own README labels Untested. MIT, created 21 Oct 2026. The bundled web client is a 323 KB Emscripten glue file plus an 8.7 MB Wow.wasm whose embedded build paths point at a local copy of SatyPardus/wowdecomp, a C++ decompilation of the 3.3.5a client that carries no licence, and the wasm also contains the strings 3.3.5a, 12340 and AzerothCore. The repository does not attribute or mention that source, so its MIT grant cannot cover the bundled binary; treat the licence as unresolved. No demo and no playability claim, the index page still hardcodes a private 192.168.50.46 address, and a public WebSocket-to-TCP tunnel plus an account service needs its destinations locked down before exposure. We do not link to it as a recommended client."
+        "url": "https://github.com/AbyssalRealm/wotlk-browser",
+        "note": "Checked 21 Oct 2026; link updated 4 Nov 2026 after the original Pucur repository was removed. The current copy keeps the same README and feature set. Not a client engine: a bridge that serves client files over HTTPS in 64 KB blocks, a slicer that cuts an enUS 3.3.5a install into those blocks, a WebSocket-to-TCP tunnel with configurable realm hosts, ports and redirects, and an SRP account backend on MySQL that its own README labels Untested. MIT, created 21 Oct 2026. The bundled web client is a 323 KB Emscripten glue file plus an 8.7 MB Wow.wasm whose embedded build paths point at a local copy of SatyPardus/wowdecomp, a C++ decompilation of the 3.3.5a client that carries no licence, and the wasm also contains the strings 3.3.5a, 12340 and AzerothCore. The repository does not attribute or mention that source, so its MIT grant cannot cover the bundled binary; treat the licence as unresolved. No demo and no playability claim, the index page still hardcodes a private 192.168.50.46 address, and a public WebSocket-to-TCP tunnel plus an account service needs its destinations locked down before exposure. We do not link to it as a recommended client."
     },
     {
         "title": "CoA Server Manager - a Windows app that installs, updates, backs up and runs your own Conquest of Azeroth server (AGPL-3.0)",

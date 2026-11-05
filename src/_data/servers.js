@@ -2,11 +2,10 @@ module.exports = [
     {
         "name": "Classic Forever",
         "status": "dev",
-        "details": "Personal 1.60.1 beta-client project, level 20 cap, shared-account access, no donations or shop, public source and status repo, login and world verified reachable Sep 26, launcher v1.1.2 (565 downloads) with GitHub Actions reproducible builds and a published SHA-256 sidecar that matches the binary byte for byte, unsigned Windows binary that writes 32 bytes into the beta client heap to swap the region-8 Ed25519 key, no other network surface found in source, supports builds 1.60.1.69913/69977/70009 plus a Linux Proton/Wine script, build not reproduced locally",
+        "details": "Personal 1.60.1 beta-client project, level 20 cap, shared-account access, no donations or shop, public source and status repo at the time, login and world verified reachable Sep 26, launcher v1.1.2 (565 downloads) with GitHub Actions reproducible builds and a published SHA-256 sidecar that matches the binary byte for byte, unsigned Windows binary that writes 32 bytes into the beta client heap to swap the region-8 Ed25519 key, no other network surface found in source, supports builds 1.60.1.69913/69977/70009 plus a Linux Proton/Wine script, build not reproduced locally. The original defexnicolas repository and its status feed were removed by November 4, 2026; the September 26 liveness reading is no longer independently re-checkable and current status is unverified.",
         "tag": "Vanilla+",
         "group": "",
-        "url": "https://raw.githubusercontent.com/defexnicolas/wow-classic-launcher/status/status.json",
-        "updated": "2026-09-26",
+        "updated": "2026-11-04",
         "popTier": "unknown"
     },
     {
@@ -2367,11 +2366,11 @@ module.exports = [
   {
     "name": "Helix-WoW",
     "status": "playable",
-    "details": "Wrath of the Lich King 3.3.5a realm on the Helix Network at helix-network.com/wow/en, presented in English and German at x5 experience. Its own notice reads that open beta is live: registration, the Helix client download and the bug tracker are open while development continues. It advertises 18 new races and a custom Caller class, a cross-armor transmog system with legendary weapons and artifacts for VIP accounts, and a VIP system and shop described as comfort features, toys and services delivered in game. An October 12 2026 patch note added an account-wide collections window covering transmog, mounts, pets, toys and heirlooms, built into the game without an addon, with transmog free of gold cost. Leaderboard, changelog and armory are published. Its header read 1 player online at our October 17 2026 read. popTier tiny, sourced to that counter",
+    "details": "Wrath of the Lich King 3.3.5a realm on the Helix Network at helix-network.com/wow, presented in English and German at x5 experience (the /wow/en locale route returned 404 on our November 4 2026 check; the main /wow page is English by default, with a DE toggle). Its own notice reads that open beta is live: registration, the Helix client download and the bug tracker are open while development continues. It advertises 18 new races and a custom Caller class, a cross-armor transmog system with legendary weapons and artifacts for VIP accounts, and a VIP system and shop described as comfort features, toys and services delivered in game. An October 12 2026 patch note added an account-wide collections window covering transmog, mounts, pets, toys and heirlooms, built into the game without an addon, with transmog free of gold cost. Leaderboard, changelog and armory are published. Its header read 1 player online at our October 17 2026 read. popTier tiny, sourced to that counter",
     "tag": "WotLK",
     "group": "",
-    "url": "https://helix-network.com/wow/en",
-    "updated": "2026-10-17",
+    "url": "https://helix-network.com/wow",
+    "updated": "2026-11-04",
     "popTier": "tiny"
   },
   {

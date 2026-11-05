@@ -10,6 +10,8 @@ Two AzerothCore-ecosystem developer tools were created and released within about
 
 ## ACORE Quest Creator v0.1.0
 
+**Update November 4, 2026:** the project has since been renamed **Azeroth World Editor** and the repository moved to `DMCK96/azeroth-world-editor`; the documentation site moved with it. The release described below shipped under the old name and remains the record of that version.
+
 DMCK96 published v0.1.0 on September 25 after roughly 250 commits. It is a GPL-3.0-or-later Electron desktop app for Windows, macOS and Linux, and it targets AzerothCore including the Conquest of AzerothCore fork.
 
 The pitch is describing a quest the way a player sees it rather than as a set of SQL rows: who offers it, what they ask for, what the NPC says, where the chest stands, how the boss fights. The app lays quest chains out on a canvas, pulls in existing chains from your database to build on, and covers givers, objectives, rewards, quest scripting as scenes, a combat wizard for NPC fights with phases and adds, new NPCs and objects with looks and factions, readable books and chests with loot, spawn placement on zone art, and patrol routes with per-point actions. It emits the GM commands to reload and test in game.
@@ -34,4 +36,4 @@ Neither tool changes any realm we list, and neither is a candidate for the track
 
 We also keep a [client tooling roundup](/news/client-tooling-update/) for the client side, cover the [open-source core ecosystem](/news/modern-qol-classic-cores/), and track individual AzerothCore realms on the [server directory](/servers/) including solo and playerbot-driven projects.
 
-SOURCES: [DMCK96/acore-quest-creator](https://github.com/DMCK96/acore-quest-creator) repository, its v0.1.0 release, and the first-party [documentation site](https://dmck96.github.io/acore-quest-creator/); [PentSec/atlas-inspector](https://github.com/PentSec/atlas-inspector) repository README, docs, and the GitHub API for commit, star and license metadata. All read September 26, 2026. No binary from either project was downloaded or executed.
+SOURCES: [DMCK96/azeroth-world-editor](https://github.com/DMCK96/azeroth-world-editor) repository (renamed from `acore-quest-creator`; link and docs updated November 4 2026), its v0.1.0 release, and the first-party [documentation site](https://dmck96.github.io/azeroth-world-editor/); [PentSec/atlas-inspector](https://github.com/PentSec/atlas-inspector) repository README, docs, and the GitHub API for commit, star and license metadata. All read September 26, 2026. No binary from either project was downloaded or executed.

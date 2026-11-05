@@ -7,7 +7,7 @@ summary: "World of Warcraft: Forever opens today at 3:00 p.m. PST (23:00 UTC). B
 
 World of Warcraft: Forever opens today, **November 4, 2026, at 3:00 p.m. PST**, which is **23:00 UTC**. The name reservation window that ran October 27 through November 3 is over, so there is no reservation step left today: the next gate is the login screen. Blizzard Watch reported a longer Forever maintenance window scheduled for this morning ahead of the launch, on top of the one-hour maintenance that took reservation offline on November 3.
 
-The last two first-party posts before the gate are worth reading before you queue. They add two systems that our beta coverage did not have in this form: Experience Presets at first login, and a full official gamepad layout.
+The two systems posts Blizzard published on November 3 are worth reading before you queue. They add two systems that our beta coverage did not have in this form: Experience Presets at first login, and a full official gamepad layout.
 
 ## Two presets, one ruleset
 
@@ -20,9 +20,9 @@ The preset disappears after that first login. Each new character still gets a se
 
 ## The ruleset list is now four, and Hardcore is not one of them yet
 
-The October 29 launch article lists the four rulesets players can choose today: **Normal, PvP, Roleplay and Roleplay-PvP**. That closes the question we left open in October about whether Roleplay-PvP would actually be selectable at launch: it is in Blizzard's own launch list, with strict naming and behaviour rules and open-world PvP.
+The October 29 launch article lists the four rulesets players can choose today: **Normal, PvP, Roleplay and Roleplay-PvP**. That confirms the working commitment in Aggrend's October 22 post: Roleplay-PvP ships at launch and is selectable from the start, rather than waiting on a later patch. It carries strict naming and behaviour rules and open-world PvP; see [the RP-PvP piece](/news/forever-rp-pvp-ruleset-oct-22/).
 
-Hardcore is explicitly **not** available today. Both the October 29 article and the November 3 systems article say the Hardcore ruleset will become available "sometime after launch", with no date attached. That matches our beta read and [the RP-PvP piece](/news/forever-rp-pvp-ruleset-oct-22/): the fourth ruleset ships now, the fifth comes later.
+Hardcore is explicitly **not** available today. The October 29 article says the Hardcore ruleset will become available "sometime after launch", and the November 3 systems article repeats that it is planned to follow a little after launch. Neither attaches a date. That matches our beta read: the fourth ruleset ships now, the fifth comes later.
 
 Two grouping rules are worth repeating because they decide where your friends roll. Characters can group, join guilds, run dungeons and raid only within the **same ruleset and faction**, and PvP realms restrict players to a single faction. Agree on both before character creation.
 
