@@ -363,6 +363,38 @@ const entries = [
         "summary": "Automated CDN watch ticked WoW Dev 2 from 1.60.1.69638 (Sep 3) to 1.60.1.69704 (Sep 5). Encrypted, contents unknown. Steady pre-show cadence continues into final week.",
         "source": "tracker cdn-watch",
         "url": "https://wowprivateservers.vercel.app/news/camelot-build-69704-seven-days-out/"
+    },
+    {
+        "date": "2026-11-04",
+        "category": "news",
+        "title": "World of Warcraft: Forever launches globally",
+        "summary": "Forever went live at 3:00 p.m. PST (23:00 UTC) on four rulesets: Normal, PvP, Roleplay and Roleplay-PvP. Hardcore is planned to follow after launch. The launch-day live build was 1.60.1.70790.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-launch-day-nov-4/"
+    },
+    {
+        "date": "2026-11-06",
+        "category": "news",
+        "title": "Blizzard hotfixes Forever and dates class tuning for November 10",
+        "summary": "The November 6 hotfix pass fixed Druid, Mage, Rogue, Warlock and Warrior abilities, dungeon and quest bugs, and several world issues. Blizzard also named Taldramir as Forever's first legendary and dated Hunter pet, Voidwalker, Affliction and Enhancement changes for November 10.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-first-weekend-nov-8/"
+    },
+    {
+        "date": "2026-11-07",
+        "category": "news",
+        "title": "Live client reaches 1.60.1.70862 as the first five players hit 60",
+        "summary": "The live wowf track moved from 1.60.1.70790 to 1.60.1.70840 and then 1.60.1.70862. ForeverDB later compared 70862 with 70790 and counted 147 new items and 474 changed. A five-player group reached level 60 in 52 hours on the EU Normal ruleset.",
+        "source": "tracker cdn-watch",
+        "url": "https://wowprivateservers.vercel.app/news/forever-first-weekend-nov-8/"
+    },
+    {
+        "date": "2026-11-08",
+        "category": "news",
+        "title": "First solo level 60 reported as the launch weekend closes",
+        "summary": "KSuper2, a Night Elf Beast Mastery Hunter, was reported as Forever's first solo level 60. Icy Veins noted assistance from players outside the party. The tracker also added Lasthavens and recorded Warmane's live Ruby Sanctum phase.",
+        "source": "icy-veins.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-first-weekend-nov-8/"
     }
 ];
 

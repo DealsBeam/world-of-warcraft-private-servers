@@ -1,13 +1,14 @@
 const BASE = "https://blizztrack.com/api";
 
-// Two tracks carry Forever 1.60 builds, and they are not the same thing.
-// wow_classic_beta is the client beta testers download. wowdev2 is internal
-// development, usually ahead and occasionally different per version number.
-// Until October 7 2026 this watcher read only wowdev2, which meant every
-// "latest build" we published was the dev build, not the player build, and
-// three beta builds (70124, 70235, 70245) passed through without us ever
-// seeing them. Both tracks are now read.
+// Three tracks carry Forever 1.60 builds, and they are not the same thing.
+// wowf is the live player client. wow_classic_beta is the client beta testers
+// download. wowdev2 is internal development, usually ahead and occasionally
+// different per version number. Until October 7 2026 this watcher read only
+// wowdev2, which meant every "latest build" we published was the dev build,
+// not the player build. On November 8 2026 the live track was added, because
+// after launch the player build is the one readers need first.
 const TRACKS = [
+    { key: "wowf", tact: "wowf" },
     { key: "beta", tact: "wow_classic_beta" },
     { key: "dev", tact: "wowdev2" },
 ];
@@ -63,7 +64,7 @@ async function readTrack(tact) {
 }
 
 module.exports = async () => {
-    const out = { ok: false, tact: "wowdev2", updated: null };
+    const out = { ok: false, tact: "wowf", updated: null };
     for (const { key, tact } of TRACKS) {
         try {
             const r = await readTrack(tact);
@@ -74,17 +75,13 @@ module.exports = async () => {
             out[key] = { ok: false, tact, error: String(e.message || e) };
         }
     }
-    // Legacy top-level fields mirror the beta track: the player-facing build
-    // is what "latest build" means. The dev track lives under `dev`.
-    const b = out.beta;
-    if (b && b.ok) {
-        out.current = b.current;
-        out.updated = b.updated;
-        out.history = b.history;
-    } else if (out.dev && out.dev.ok) {
-        out.current = out.dev.current;
-        out.updated = out.dev.updated;
-        out.history = out.dev.history;
+    // Top-level fields mirror the live player track first, then beta, then
+    // dev. The player-facing build is what "latest build" means.
+    const primary = [out.wowf, out.beta, out.dev].find(t => t && t.ok);
+    if (primary) {
+        out.current = primary.current;
+        out.updated = primary.updated;
+        out.history = primary.history;
     }
     return out;
 };

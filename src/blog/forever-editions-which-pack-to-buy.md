@@ -2,14 +2,14 @@
 title: "WoW: Forever editions — which Skyborne pack to buy and whether any of them are worth it"
 date: 2026-09-13
 category: guides
-summary: "Heroic, Epic and Warcraft Collection compared against the always-free base game. Which Forever pack is worth the money, which one buys beta access, and who should just use the sub."
+summary: "Heroic, Epic and Warcraft Collection compared against the always-free base game. Which Forever pack is worth the money, which one bought beta access, and who should just use the sub."
 ---
 
 ## TL;DR
 
 - Base Forever is included with any active WoW subscription or game time; all three packs are optional extras.
 - **Heroic** buys the Skyborne race and Zephras Isle start. It is the cheapest way to race access.
-- **Epic** is the only logical beta path for most players - Heroic has no beta, Collection is heavy.
+- **Epic** was the only logical beta path for most players: Heroic had no beta and the Collection was heavy. The beta closed on October 23, so that reason has expired.
 - **Warcraft Forever Collection** is Epic plus Warcraft III Reforged and the Forsaken Kingdom campaign, limited to January 11, 2027.
 - Recommendation: subscribers who only want the sea of gameplay skip all packs; race-serious players buy Epic.
 
@@ -39,7 +39,7 @@ The Heroic price is storefront-reported at $29.99 / €29.99 (per Icy Veins, con
 
 **Case one: you just want to play Forever.** Skip every pack. Your sub covers the full level 1-60 world, all nine dungeons, the launch raids, the Darkspear Islands battleground and the post-launch roadmap. Nothing in the packs gates a twentieth of that. This is the correct answer for most players who mainly play the existing Classic/Modern lines.
 
-**Case two: you want the Skyborne race and its starting zone.** This is the pack decision, because the race is not part of the base sub. Between Heroic and Epic the only practical difference for race content is beta access and the extra cosmetics. If you want to race your Skyborne on day one of beta, Epic does two jobs. If you only want the race at launch, Heroic is the cheaper same-month outcome.
+**Case two: you want the Skyborne race and its starting zone.** This is the pack decision, because the race is not part of the base sub. Between Heroic and Epic the only practical difference for race content was beta access and the extra cosmetics. With the beta closed, that part of the Epic pack no longer has a use; the race itself comes with either pack at launch.
 
 **Case three: you are the classic WoW theorycrafting crowd.** The Collection is the premium pick, because it ties Forever to the Warcraft III story via the Forsaken Kingdom campaign and the origins of the Forsaken Paladin. It is a limited-time bundle through January 11, 2027. If you play the RTS side at all, buying Reforged separately plus a pack is strictly worse than the bundle.
 
@@ -48,7 +48,7 @@ The Heroic price is storefront-reported at $29.99 / €29.99 (per Icy Veins, con
 - They do not buy the level cap. It is permanently 60 for everyone.
 - They do not buy Hardcore. It sits on the winter 2026-27 roadmap for all players.
 - They do not buy exclusive combat power. The mount, toy, garb and decor are cosmetic; the rucksack and housing items are convenience and vanity.
-- They do not replace game time. Epic's 30 days start November 4 and the subscription is on top after that.
+- They do not replace game time. Epic's 30 days started November 4 and the subscription is on top after that.
 
 ## The one purchase worth making twice
 
@@ -58,6 +58,8 @@ The Invite-A-Friend codes are the sleeper value: one code (Heroic) or three (Epi
 
 ## Bottom Line
 
-Buy Heroic if you want Skyborne and nothing else matters. Buy Epic if you want beta access or launch-week guest codes, or both. Buy the Collection only if Warcraft III Reforged and Forsaken Kingdom are a real part of your plans. And if you are a sub-above-all player, remember the cheapest option - zero packs - is correct and fully viable.
+Buy Heroic if you want Skyborne and nothing else matters. Buy Epic if you want the extra cosmetics and three launch-week guest codes; the beta access it once carried closed on October 23. Buy the Collection only if Warcraft III Reforged and Forsaken Kingdom are a real part of your plans. And if you are a sub-above-all player, remember the cheapest option - zero packs - is correct and fully viable.
+
+**Update November 8 2026:** Forever is live and the beta is over. Epic's beta access is spent; what remains is the 30 days of game time, the extra cosmetics, and the three Invite-A-Friend codes, which let friends play from November 4 to 11 with no subscription.
 
 Full editions table, the beta window and Invite-A-Friend rules on the [Forever hub](/classic-plus/), plus the reveal deep-dive on [WoW: Forever - every confirmed detail](/news/blizzcon-2026-classic-plus-reveal/).

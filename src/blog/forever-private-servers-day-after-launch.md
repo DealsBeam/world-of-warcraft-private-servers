@@ -30,7 +30,7 @@ That is a mechanism, and we can point at where it ran: **Luntares**, the only Mi
 
 ## The claim we can support: what we publish after launch is the operators' data, not ours
 
-This is the one that governs everything else we do on 33 November.
+This is the one that governs everything else we do on 4 November.
 
 On launch day we will have: Blizzard's build number, whether regions are in parity, and whatever dated notes exist. We will not have played the game.
 
@@ -53,5 +53,7 @@ A dead server with a live-looking widget is the specific failure that cost us fo
 **All three of those failure modes get worse in the 33 days before a launch and the weeks after**, because that is when the most projects are moving at once.
 
 So our launch coverage will be built around the correction policy rather than around excitement: dated readings, struck-through values, and "we could not verify this" where that is the truth. It is less engaging than a launch-day top ten and it is the only version of it we would be willing to sign.
+
+**Update November 8 2026:** The 148-server figure and the October 2 snapshot above are kept as written. The tracker held 256 entries on November 8, after Forever's launch week and the addition of Lasthavens. This note exists so the older count is not read as current.
 
 SOURCES: all figures are from our own tracker data on 2 October 2026: 148 entries, 13 dead with their recorded shutdown dates and reasons, and the six entries downgraded to unverifiable this week. The Luntares changelog count is from its own site, read on 1 October 2026. We have played no private server and have no beta client, so every statement about player behaviour is a prediction and is labelled as one. Related: [the 33-day launch guide](/blog/forever-launch-33-days-reading-guide/), [how we review a private server](/blog/how-we-review-a-private-server/), and [what our beta coverage cannot tell you](/blog/what-forever-beta-coverage-can-and-cannot-tell-you/).
