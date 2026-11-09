@@ -391,6 +391,14 @@ const entries = [
     {
         "date": "2026-11-08",
         "category": "news",
+        "title": "Blizzard raises dungeon kill experience by 50 percent",
+        "summary": "Kaivax announced a hotfix deployed at about 11:05 PST that increased kill experience in dungeons by 50 percent, telling players to go back in for more runs. The live client stayed on build 1.60.1.70862, so the change shipped server-side.",
+        "source": "us.forums.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-dungeon-xp-50-percent-nov-8/"
+    },
+    {
+        "date": "2026-11-08",
+        "category": "news",
         "title": "First solo level 60 reported as the launch weekend closes",
         "summary": "KSuper2, a Night Elf Beast Mastery Hunter, was reported as Forever's first solo level 60. Icy Veins noted assistance from players outside the party. The tracker also added Lasthavens and recorded Warmane's live Ruby Sanctum phase.",
         "source": "icy-veins.com",

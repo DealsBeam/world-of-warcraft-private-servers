@@ -33,7 +33,7 @@ It is split in two on purpose. **Verified** means we have read the date at its s
 - **October 21:** the **free server stress test**, open to anyone with no subscription, Game Time, invitation or beta access. Blizzard announced it for **October 19** in an October 15 post, then moved it to **October 21** in an October 16 update. Windows are North America 2:00 p.m. PDT and Europe 19:00 CEST, with Korea 06:00 KST and Taiwan 05:00 CST on October 22. The beta is taken offline shortly before it starts and is expected back shortly after it ends, the window may shift, and every stress test character, name and guild is wiped afterwards. See [the stress test note](/news/forever-stress-test-october-21/).
 - **October 27 to November 3:** early name reservation, three characters, first come first served. The stress test wipe clears the field for it.
 - **November 4:** global launch at 3:00 p.m. PST (23:00 UTC). The live client was 1.60.1.70790 on launch day and reached 1.60.1.70862 on November 7.
-- **November 8:** Blizzard's revised Known Issues list, the November 6 hotfix pass, and the first group and solo level 60s. See [the first weekend brief](/news/forever-first-weekend-nov-8/).
+- **November 8:** Blizzard's November 6 hotfix pass, the November 8 dungeon kill experience increase, and the first group and solo level 60s. The Known Issues thread is dated November 5. See [the first weekend brief](/news/forever-first-weekend-nov-8/) and [the dungeon XP brief](/news/forever-dungeon-xp-50-percent-nov-8/).
 - **December 9:** first Forever raids: the 10-player Barrow Deeps, the 20-player Hyjal Summit and the 40-player Onyxia's Lair. In Wowhead's November 8 interview coverage, Blizzard said all three open simultaneously in every region. Earlier roadmap text named only two, and the tracker had carried Onyxia as unconfirmed.
 
 The full Forever timeline and its sourcing sit in our [roadmap post](/news/forever-roadmap-2026-2027/), and the October private server cluster is rounded up in [the October dates post](/news/october-dates-calendar-oct-8/).
@@ -50,4 +50,4 @@ Several projects in testing have **no launch date at all**, so they cannot go on
 
 If you want the servers rather than the dates, the [full tracker](/servers/) is the place to start, and [new and recently opened realms](/servers/) are filterable there.
 
-LAST UPDATED: November 8 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
+LAST UPDATED: November 9 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
