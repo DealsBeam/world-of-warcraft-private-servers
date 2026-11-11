@@ -10,6 +10,8 @@ Wrath of the Lich King (patch 3.3.5a) is still the default home for private-serv
 
 This guide rounds up the WotLK servers we track as of August 2026, split by what they offer. Current status for every server is on [the tracker](/), where the list is updated as realms open, merge, or shut down.
 
+**Update November 11 2026:** two WotLK additions since this guide was published. **[Origins WoW Asia](/servers/origins-wow-asia/)** relaunched from a Vanilla progressive realm to Wrath on November 7 2026, with its own news confirming the new realm and a site counter reading 496 online at our November 11 read; it sits in the progressive lane, with normal and heroic dungeons open and Naxxramas dated next. **[WOTLK5](/servers/wotlk5/)** runs every Wrath raid scaled to a five-player group, moved into Phase 2 with Ulduar on November 11 2026, and publishes a realmlist of `logon.wotlk5.com`; its peak was 153 online. Both are tagged WotLK on the tracker. The August list below is kept as written.
+
 ## Blizzlike WotLK
 
 - **[Warmane](/servers/warmane/)** — the long-running giant of the scene, tracing its roots to Molten-WoW. One of the largest WotLK populations in the world, with Icecrown and Lordaeron covering high-rate and 1x play. The safest pick if you want a big, stable community.

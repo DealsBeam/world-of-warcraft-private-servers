@@ -44,6 +44,8 @@ Most of the entries that state a client state the original one.
 
 If you want the vanilla client specifically, this is the list to shop from.
 
+**Update November 11 2026:** the table above records our October 19 reading and is kept as written. Origins WoW Asia has since relaunched as a Wrath of the Lich King 3.3.5a realm on November 7 2026, so its row is no longer current and its tracker entry now carries the WotLK tag.
+
 ## The newer-vanilla group is real too
 
 Three entries name **both** 1.12 and 1.14, which means the modern Classic Era client is now a normal option on the vanilla side rather than an experiment.

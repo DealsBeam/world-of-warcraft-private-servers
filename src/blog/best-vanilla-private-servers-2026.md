@@ -9,13 +9,14 @@ Vanilla is the smallest column on [the tracker](/), and the one that keeps comin
 
 This guide rounds up the Vanilla (not Vanilla+) servers we track as of October 2026, split by what you are actually looking for. For the modified side of the same era, see [the Vanilla+ hub](/blog/best-vanilla-plus-private-servers-2026/). Population bands come straight from the tracker and stay **unknown** wherever a project publishes no counter, which on this list is more often than not.
 
+**Update November 11 2026:** Origins WoW Asia, listed below when this guide was published, relaunched as a Wrath of the Lich King realm on November 7 2026 and is no longer a Vanilla server. Its tracker entry now carries the WotLK tag, so it has been removed from this list. The tracker holds 257 entries on this date, with 24 tagged Vanilla and 28 tagged Vanilla+. The October counts in the paragraph above are kept as written.
+
 ## Blizzlike x1: the purist lane
 
 - **[Kronos V](/servers/kronos-v/)** is the oldest name still standing in the column, a TwinStar project running both the 1.12 and 1.14 clients with a localization update in July 2026. Login and server were online at our last read with 19 days uptime, an even faction split, and a donate shop that sells no gear. Tagged small.
 - **[Stonetavern](/servers/stonetavern/)** runs two free, non-commercial, EU-hosted Vanilla realms on one account. Its museum realm holds unaltered 1.12.1 at the final content patch with no XP boost, no automation, and no dungeon finder; its progressive realm is at level cap 50 and puts every change to a player vote. It publishes a 51-addon shelf for the 1.14.2 client. Its one stated departure from 2006 is shared faction chat, groups, and dungeons.
 - **[Ashen WoW](/servers/ashen-wow/)** runs the original 2004 to 2006 patch timeline: patch 1.8 went live in September 2026 and 1.12 is due September 2027. x1, no pay-to-win, EN/RU/ZH, launched September 2025. Player reports of developer turnover are recorded in the entry.
 - **[Elderhide](/servers/elderhide/)** is a 1.12.1 PvP realm on VMaNGOS at x1 with open registration and continuing development. Tagged tiny.
-- **[Origins WoW Asia](/servers/origins-wow-asia/)** is a free Vanilla realm for Asia and SEA, hosted in Singapore and progressing patch by patch from 1.2 toward 1.12.1. Its newest dated news was patch 1.7, which added Arathi Basin and Zul'Gurub as a 20-player raid.
 - **[Greyhaven](/servers/greyhaven/)** launched August 14 2026 as a progressive 1.12.1 PvP realm and has held its level cap at 40 since September 4, with staged brackets, no world buffs in raids, a unified auction house, unlimited debuff slots, and free respecs.
 
 ## If you play solo
@@ -68,7 +69,7 @@ All three were downgraded to an unknown population band in October so that a ser
 
 ## Picking a Vanilla realm
 
-1. **Decide how slow you want it.** Ashen WoW's 2004 to 2006 timeline and Stonetavern's museum realm are the slowest; Greyhaven and Origins WoW Asia walk you through the patches in stages.
+1. **Decide how slow you want it.** Ashen WoW's 2004 to 2006 timeline and Stonetavern's museum realm are the slowest; Greyhaven walks you through the patches in stages.
 2. **Decide whether you need other people.** Elysium Project is the biggest community; SoloCraft and NycterMoon are built for playing alone.
 3. **Treat unknown population as unknown.** More than half the tracker publishes no counter we can read, and that includes several realms here. A small honest number beats a big unverifiable one.
 4. **Check the date, not the listing.** Vanilla projects open and close fast, and a directory that shows a realm as live may be months behind. Every entry above carries the date we last read it.
