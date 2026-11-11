@@ -14,12 +14,12 @@ The change is to dungeon enemy kill experience, not quest experience and not the
 
 The post arrived after a weekend of player threads arguing that dungeon leveling was slower than open-world grinding. The announcement gives Blizzard's reason plainly: dungeon runs should feel worth repeating.
 
-## What is still dated
+## The tuning that followed
 
-The larger class pass is still set for **Tuesday, November 10**, as Kaivax announced on November 6: Hunter pets and Warlock Voidwalkers toward Classic Era durability, Affliction Wracks adjusted against other damage over time effects without changing total output, and Enhancement Shaman moved toward Strength over Intellect and spellpower. Those are still planned changes, not shipped ones.
+The larger class pass is still set for **Tuesday, November 10**, as Kaivax announced on November 6: Hunter pets and Warlock Voidwalkers toward Classic Era durability, Affliction Wracks adjusted against other damage over time effects without changing total output, and Enhancement Shaman moved toward Strength over Intellect and spellpower. Those are still planned changes, not shipped ones. **Update November 11:** Blizzard shipped the November 10 pass, with more changes than the preview named. See [the November 10 tuning brief](/news/forever-tuning-nov-10/).
 
 ## What we are not claiming
 
-We are not treating the 50 percent figure as a measured XP table. It is Blizzard's own description of the hotfix. We also have no new ForeverDB comparison for this change, because no new client build shipped with it.
+We are not treating the 50 percent figure as a measured XP table. It is Blizzard's own description of the hotfix. We also have no new ForeverDB comparison for this change, because no new client build shipped with it. The live build later moved to **1.60.1.70888** on November 11, but ForeverDB has no comparison for that build yet.
 
 SOURCES: Kaivax's November 8 post "Dungeon Enemy XP Increased - November 8" on the US forums at us.forums.blizzard.com/en/wow/t/2406595 and the EU forum copy at eu.forums.blizzard.com/en/wow/t/640598, both read November 9 2026; Kaivax's November 6 "Class Tuning Incoming - November 10" post; our own CDN watch for build 1.60.1.70862. Related: [the first weekend brief](/news/forever-first-weekend-nov-8/), [the launch-day brief](/news/forever-launch-day-nov-4/), [the Forever hub](/forever/), and [the launch calendar](/blog/launch-calendar/).

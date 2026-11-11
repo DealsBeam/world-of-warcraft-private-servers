@@ -22,7 +22,7 @@ Blizzard's **November 6** hotfix pass fixed Druid, Mage, Rogue, Warlock and Warr
 
 ## Tuning dated for November 10
 
-Per Kaivax's post, the next tuning pass brings **Hunter pets and Voidwalkers to Classic Era durability**, adjusts **Affliction's Wracks** against other damage over time effects without changing total output, and moves **Enhancement Shaman** toward Strength over Intellect and spellpower. Those are statements about the next build, not changes already live.
+Per Kaivax's post, the next tuning pass brings **Hunter pets and Voidwalkers to Classic Era durability**, adjusts **Affliction's Wracks** against other damage over time effects without changing total output, and moves **Enhancement Shaman** toward Strength over Intellect and spellpower. Those are statements about the next build, not changes already live. **Update November 11:** the pass shipped in Blizzard's November 10 hotfix notes, with a Wrack mechanic change and additional Hunter, Shaman and auction house changes. See [the November 10 tuning brief](/news/forever-tuning-nov-10/).
 
 ## The current Known Issues list
 

@@ -761,12 +761,12 @@ module.exports = [
     {
         "name": "Origins WoW Asia",
         "status": "playable",
-        "details": "Free Vanilla WoW for Asia and SEA, hosted in Singapore, progressing patch by patch from 1.2 to 1.12.1. CONFIRMED Oct 3: the realm status page reads Online, the published realmlist is set realmlist play.originswow.asia, and the newest dated news is 'Patch 1.7 is Live' on 2026-09-01, adding Arathi Basin, Zul'Gurub as a 20-player raid and the Stranglethorn Fishing Extravaganza. A dated patch five weeks old on a progressive realm is a healthy sign and is now recorded. The 0-50 figure is carried from our August 30 read; no counter was visible",
-        "tag": "Vanilla",
+        "details": "Free WotLK 3.3.5a realm for Asia and SEA, hosted in Singapore, realmlist play.originswow.asia. RELAUNCHED as a Wrath realm: the site's own news dated November 7 2026 reads 'The new Wrath of the Lich King realm is now live!' and its server-info page lists the current phase as Wrath of the Lich King Launch, the next phase as Tier 7: Naxxramas, rates at 1x with 2x weekends, PvP type, English language, and random dungeon finder enabled. Our November 11 2026 read of the front-page status showed 236 Alliance and 260 Horde, 496 online, with level 80 characters at the top of the ladder. The entry previously described a Vanilla 1.12.1 progressive realm, last confirmed October 3 2026 on the Patch 1.7 news; that description is superseded by the relaunch, and the old Vanilla tag and tiny band are retired. popTier medium on the site's own 496 figure, self-reported as all such counters are.",
+        "tag": "WotLK",
         "group": "",
         "url": "https://originswow.asia/",
-        "updated": "2026-10-03",
-        "popTier": "tiny"
+        "updated": "2026-11-11",
+        "popTier": "medium"
     },
     {
         "name": "Titans League",
@@ -2482,5 +2482,15 @@ module.exports = [
     "url": "https://lasthavens.com/",
     "updated": "2026-11-08",
     "popTier": "large"
+  },
+  {
+    "name": "WOTLK5",
+    "status": "playable",
+    "details": "WotLK 3.3.5a server built around scaling every raid to a five-player group; its own wiki says the game's default 10-man and 25-man difficulties are reused as 5-man Normal and Hard modes. Season 2 launched August 5 2026, and the site's news dated November 4 2026 reads 'Phase 1 ends today, Phase 2 will be starting 11.11.2026' with Ulduar opening at 19:00. A separate post dated August 12 2026 puts the opening weekend at more than 600 unique players and a peak of 153 online, and a July 6 2026 post counts more than 4,500 accounts, 19,800 characters and 1,350 Discord members. Our November 11 2026 read found a live registration page and a How To Connect page giving the realmlist logon.wotlk5.com plus a launcher and required custom patches and addons; no live player counter was visible, so current reachability rests on the active season schedule rather than a connection check. popTier small on the 153 peak figure.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://wotlk5.com/",
+    "updated": "2026-11-11",
+    "popTier": "small"
   }
 ]

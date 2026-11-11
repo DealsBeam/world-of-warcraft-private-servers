@@ -403,6 +403,14 @@ const entries = [
         "summary": "KSuper2, a Night Elf Beast Mastery Hunter, was reported as Forever's first solo level 60. Icy Veins noted assistance from players outside the party. The tracker also added Lasthavens and recorded Warmane's live Ruby Sanctum phase.",
         "source": "icy-veins.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-first-weekend-nov-8/"
+    },
+    {
+        "date": "2026-11-10",
+        "category": "news",
+        "title": "Blizzard ships the November 10 class tuning pass",
+        "summary": "The promised Hunter pet, Affliction Warlock and Enhancement Shaman changes went live with the November 10 hotfix notes, along with a Wrack rewrite, an Auction House minimum deposit cut to 1 copper, and gold rewards on level 48 and higher quests. The live client reached 1.60.1.70888 on November 11.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
     }
 ];
 
