@@ -408,7 +408,7 @@ const entries = [
         "date": "2026-11-10",
         "category": "news",
         "title": "Blizzard ships the November 10 class tuning pass",
-        "summary": "The promised Hunter pet, Affliction Warlock and Enhancement Shaman changes went live with the November 10 hotfix notes, along with a Wrack rewrite, an Auction House minimum deposit cut to 1 copper, and gold rewards on level 48 and higher quests. The live client reached 1.60.1.70888 on November 11.",
+        "summary": "The promised Hunter pet, Affliction Warlock and Enhancement Shaman changes went live with the November 10 hotfix notes, along with a Wrack rewrite and gold rewards on level 48 and higher quests. The Auction House changes listed in that update were removed on November 11 and delayed to November 17. The live client reached 1.60.1.70888 on November 11.",
         "source": "worldofwarcraft.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
     },
@@ -427,6 +427,14 @@ const entries = [
         "summary": "Kaivax confirmed that Forever removed the XP-to-gold conversion original WoW added before The Burning Crusade, to stop players banking completed quests for level 60. The November 10 hotfix instead adds gold to most quests level 48 and higher, with exceptions for repeatable and already valuable quests.",
         "source": "us.forums.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-quest-gold-nov-10/"
+    },
+    {
+        "date": "2026-11-11",
+        "category": "news",
+        "title": "Blizzard delays Forever's Auction House changes to November 17",
+        "summary": "The November 11 hotfix notes add bigger profession bags, Paladin, Hunter, Druid and Shaman fixes, and Riverglades damage reductions. Blizzard also removed the Auction House changes from the November 10 update, delaying them to the November 17 weekly maintenance, and disabled Item Restoration during a critical bug investigation.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-11/"
     }
 ];
 
