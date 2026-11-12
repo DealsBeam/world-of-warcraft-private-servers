@@ -411,6 +411,22 @@ const entries = [
         "summary": "The promised Hunter pet, Affliction Warlock and Enhancement Shaman changes went live with the November 10 hotfix notes, along with a Wrack rewrite, an Auction House minimum deposit cut to 1 copper, and gold rewards on level 48 and higher quests. The live client reached 1.60.1.70888 on November 11.",
         "source": "worldofwarcraft.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
+    },
+    {
+        "date": "2026-11-10",
+        "category": "news",
+        "title": "Blizzard throttles character creation on the crowded PvP faction",
+        "summary": "Kaivax said the character creation system now reads regional faction balance and makes the larger side harder to join, currently Horde on North American PvP rulesets and Alliance on EU Roleplay-PvP. The stated goal is a 50/50 split from a worst case near 55/45.",
+        "source": "us.forums.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-pvp-faction-balance-nov-10/"
+    },
+    {
+        "date": "2026-11-10",
+        "category": "news",
+        "title": "Forever confirms no level 60 quest gold conversion",
+        "summary": "Kaivax confirmed that Forever removed the XP-to-gold conversion original WoW added before The Burning Crusade, to stop players banking completed quests for level 60. The November 10 hotfix instead adds gold to most quests level 48 and higher, with exceptions for repeatable and already valuable quests.",
+        "source": "us.forums.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-quest-gold-nov-10/"
     }
 ];
 
