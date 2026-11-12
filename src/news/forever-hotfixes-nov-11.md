@@ -3,7 +3,7 @@ title: "Blizzard pulls Forever's Auction House changes to November 17 and disabl
 date: 2026-11-11
 category: news
 game: wow
-summary: "The November 11 hotfix notes add bag slots and class fixes, but Blizzard removed the Auction House changes it listed a day earlier and turned off Item Restoration while it investigates a critical bug."
+summary: "The November 11 hotfix notes add bag slots, profession fixes and class changes, but Blizzard removed the Auction House changes it listed a day earlier and turned off Item Restoration while it investigates a critical bug."
 ---
 
 Blizzard's November 11 hotfix notes bring another class pass, bigger profession bags and a round of quest repairs. They also carry a reversal. The Auction House changes published in the November 10 update have been taken out and pushed to the November 17 weekly maintenance.
@@ -35,6 +35,14 @@ Tailoring bags that were "unintentionally smaller than intended" are corrected, 
 - **Red Woolen Bag**: 10 slots, requires 5 bolts of wool (was 4).
 
 Blizzard does not say what the old slot counts were. The notes give the new sizes only, so we are not reconstructing the previous numbers.
+
+## Other profession fixes
+
+- **Enchanting:** Arcane Salvager now requires the **Runed Golden Rod** tool (was Runed Truesilver Rod) and correctly applies its disenchanting bonus to lower-level enchanters. Enchant Boots and Bracer **Lesser Spirit** now give their stated Spirit bonus instead of Resist All.
+- **Blacksmithing:** **Coarse Grinding Stone** now provides skill-ups to **90** (was 75).
+- **Cooking:** the **Journeyman Campfire Kit** now requires **Cooking 90** to place, matching its recipe requirement (was 140).
+- **Engineering:** **Iron Grenades** vendor price falls to **1 silver 25 copper** (was 5 silver). **Swiftstrike Shot** and **Swiftfeather Arrow** are no longer Bind-on-Pickup; Blizzard notes they are not available until raids unlock and says the change may influence profession choice.
+- **Alchemy:** **Minor Arcane Elixir** sells for **5 copper** (was 25 copper), and "Recipe: Elixir of Greater Firepower" is renamed **"Recipe: Elixir of Holy Power"**, with the aura renamed to match.
 
 ## Class changes that touch rotations
 

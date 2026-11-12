@@ -46,6 +46,8 @@ A first solo level 60 was reported on **November 8**: **KSuper2**, a Night Elf B
 
 In Wowhead's **November 6** coverage, Kris Zierhut told Crix that the auction house minimum deposit will drop from **1 silver to 1 copper** soon, and that Shaman talents will be revisited no sooner than **early next year**. In Wowhead's **November 8** interview coverage from MrGM, Blizzard said the **December 9 raids open simultaneously in every region** and that a **Black Market Auction House** is planned. These are developer statements. None of them is a shipped change yet.
 
+**Update November 11 2026:** Blizzard did list the 1 copper deposit in its November 10 hotfix notes, then removed it the next day and moved the Auction House changes to the November 17 weekly maintenance. It is still not live. [Details](/news/forever-hotfixes-nov-11/).
+
 ## What we are not claiming
 
 Two things stay out of this record. First, the 70840 build has no published diff, so we do not describe its contents. Second, community claims about duplicate NPCs and mobs, an Origins WoW Asia directory listing, and the Hyjal and Greyhaven projects did not meet our first-party bar this week and are withheld rather than repeated. The correction policy is the same as it was before launch: dated readings, visible corrections, and no invented detail.
