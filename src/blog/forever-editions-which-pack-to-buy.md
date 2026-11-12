@@ -62,4 +62,6 @@ Buy Heroic if you want Skyborne and nothing else matters. Buy Epic if you want t
 
 **Update November 8 2026:** Forever is live and the beta is over. Epic's beta access is spent; what remains is the 30 days of game time, the extra cosmetics, and the three Invite-A-Friend codes, which let friends play from November 4 to 11 with no subscription.
 
+**Update November 11 2026:** Blizzard published a new post-launch purchase article, "Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth", re-listing the same three editions. It confirms that Forever access is included with a WoW subscription or Game Time, that the Warcraft Forever Collection is available through January 11 2027, and that the Forsaken Kingdom campaign is also sold separately. The post does not print pack prices, so the pricing notes above stand. The launch-week Invite-A-Friend window described in this guide ends today, which spends the last part of the Epic and Collection value that was tied to launch week.
+
 Full editions table, the beta window and Invite-A-Friend rules on the [Forever hub](/classic-plus/), plus the reveal deep-dive on [WoW: Forever - every confirmed detail](/news/blizzcon-2026-classic-plus-reveal/).

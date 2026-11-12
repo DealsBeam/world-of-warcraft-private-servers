@@ -20,9 +20,11 @@ Blizzard acknowledges the friction directly, calling the restriction frustrating
 
 ## The thread is not convinced
 
-The announcement drew 859 posts by our November 11 read. A recurring response disputes the official ratio: players say contested leveling zones feel far more lopsided than 55/45, and some allege that trial accounts or abandoned characters inflate the smaller faction's count. Others ask for incentives or layering changes instead of creation limits.
+The announcement drew 859 posts by our November 11 read. A recurring response disputes the official ratio: players say contested leveling zones feel far more lopsided than 55/45, and some allege that trial accounts or abandoned characters inflate the smaller faction's count. Others ask for incentives, free faction changes or layering changes instead of creation limits.
 
-Those are player claims in the thread, not statements from Blizzard, and we are not treating the 55/45 figure or the workaround stories as measured facts. What is first-party is the policy: creation on the larger faction is now throttled by region, and the named cases are Horde on NA PvP and Alliance on EU Roleplay-PvP.
+Blizzard answered two of those points in the thread. Kaivax said the team investigated the trial-account claim and found "no evidence that trial characters had any impact at all," and that the 55/45 figure counts the active logged-in population across all levels over a specific period. He also pointed to a congestion change made earlier on November 10, which lowered player population in crowded zones, with a bigger reduction on the PvP ruleset.
+
+The remaining complaints are player claims, not Blizzard statements, and we are not treating the 55/45 figure as independently measured. What is first-party is the policy and Blizzard's definition of the ratio: creation on the larger faction is throttled by region, and the named cases are Horde on NA PvP and Alliance on EU Roleplay-PvP.
 
 ## What it means if you are starting now
 
@@ -30,4 +32,4 @@ If you are rolling on a PvP or RP-PvP ruleset, check faction availability before
 
 For the four Forever rulesets and what separates them, see [the launch-day brief](/news/forever-launch-day-nov-4/) and [the RP-PvP ruleset explainer](/news/forever-rp-pvp-ruleset-oct-22/).
 
-SOURCES: Kaivax, "PvP Faction Balance Updates - November 10", on the US World of Warcraft forums at us.forums.blizzard.com/en/wow/t/2408781, read November 11 2026, including the 859-post count and player replies quoted as claims; our [launch-day brief](/news/forever-launch-day-nov-4/) for the ruleset list; our [RP-PvP ruleset explainer](/news/forever-rp-pvp-ruleset-oct-22/). Related: [the November 10 tuning brief](/news/forever-tuning-nov-10/) and [the Forever hub](/forever/).
+SOURCES: Kaivax, "PvP Faction Balance Updates - November 10", on the US World of Warcraft forums at us.forums.blizzard.com/en/wow/t/2408781, read November 11 2026, including the 859-post count, Kaivax's follow-up replies at posts 158 and 174, and player replies quoted as claims; our [launch-day brief](/news/forever-launch-day-nov-4/) for the ruleset list; our [RP-PvP ruleset explainer](/news/forever-rp-pvp-ruleset-oct-22/). Related: [the November 10 tuning brief](/news/forever-tuning-nov-10/) and [the Forever hub](/forever/).
