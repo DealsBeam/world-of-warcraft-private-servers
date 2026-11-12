@@ -26,7 +26,7 @@ eleventyComputed:
         {{ eraMedallion(eraGroup.era) }}
         <div>
             <h2>{{ eraGroup.era }}</h2>
-            <p>{{ eraGroup.servers.length }} tracked server{{ "s" if eraGroup.servers.length != 1 }} · status reviewed {{ site.reviewed }}</p>
+            <p>{{ eraGroup.servers.length }} tracked server{{ "s" if eraGroup.servers.length != 1 }} · newest entry check {{ eraGroup.servers | latestCheck | prettyDate }}</p>
         </div>
     </div>
 </div>
@@ -44,4 +44,4 @@ eleventyComputed:
 {% endfor %}
 </div>
 
-<p class="meta-info">List reviewed {{ site.reviewed }}. Statuses subject to change.</p>
+<p class="meta-info">Newest entry check {{ eraGroup.servers | latestCheck | prettyDate }}. Statuses subject to change.</p>

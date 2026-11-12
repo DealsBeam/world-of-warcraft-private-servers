@@ -55,7 +55,7 @@ eleventyComputed:
 {% endfor %}
 </div>
 
-<p class="meta-info">Directory is alphabetical. For status, population, era and full search with cards, use the <a href="/">main tracker</a>. Statuses last reviewed {{ site.reviewed }}.</p>
+<p class="meta-info">Directory is alphabetical. For status, population, era and full search with cards, use the <a href="/">main tracker</a>. Each entry carries the date it was last checked; the newest is {{ servers | latestCheck | prettyDate }}.</p>
 
 <script>
 (function () {

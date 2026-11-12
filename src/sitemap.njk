@@ -6,16 +6,16 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>https://wowprivateservers.vercel.app/</loc><lastmod>{{ site.built }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/servers/</loc><lastmod>{{ site.built }}</lastmod></url>
-    <url><loc>https://wowprivateservers.vercel.app/news/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
-    <url><loc>https://wowprivateservers.vercel.app/blog/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
-    <url><loc>https://wowprivateservers.vercel.app/classic-plus/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
-    <url><loc>https://wowprivateservers.vercel.app/forever/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/news/</loc><lastmod>{{ servers | latestCheck }}</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/blog/</loc><lastmod>{{ servers | latestCheck }}</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/classic-plus/</loc><lastmod>{{ classicplus.latest.date }}</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/forever/</loc><lastmod>{{ servers | latestCheck }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/guides/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/guides/octowow/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/guides/ravencraft/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/guides/spp-classics/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/grading/</loc><lastmod>{{ site.built }}</lastmod></url>
-    <url><loc>https://wowprivateservers.vercel.app/census/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/census/</loc><lastmod>{{ servers | latestCheck }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/radio/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/music/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/creators/malonze-gaming/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
@@ -23,7 +23,7 @@ eleventyExcludeFromCollections: true
     <url><loc>https://wowprivateservers.vercel.app/disclaimer/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/contact/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     {% for g in vocab.GAMES %}
-    <url><loc>https://wowprivateservers.vercel.app/category/{{ g }}/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
+    <url><loc>https://wowprivateservers.vercel.app/category/{{ g }}/</loc><lastmod>{{ servers | latestCheck }}</lastmod></url>
 {% endfor %}
     <url><loc>https://wowprivateservers.vercel.app/privacy/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
     <url><loc>https://wowprivateservers.vercel.app/terms/</loc><lastmod>{{ site.reviewedIso }}</lastmod></url>
