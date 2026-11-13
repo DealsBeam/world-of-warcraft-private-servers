@@ -365,6 +365,14 @@ const entries = [
         "url": "https://wowprivateservers.vercel.app/news/camelot-build-69704-seven-days-out/"
     },
     {
+        "date": "2026-10-29",
+        "category": "news",
+        "title": "Podcast episode 6 goes behind Forever's technology",
+        "summary": "Host Countdown To Classic and guest Shobek talk tech with Josh Greenfield, Lead Software Engineer Ana Resendez and Principal Software Engineer Frank Williams, six days before launch. Our podcast coverage skipped this episode at the time; this entry and the linked brief record it on November 13.",
+        "source": "news.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-podcast-ep6-tech-catchup-nov-13/"
+    },
+    {
         "date": "2026-11-04",
         "category": "news",
         "title": "World of Warcraft: Forever launches globally",
@@ -407,8 +415,8 @@ const entries = [
     {
         "date": "2026-11-10",
         "category": "news",
-        "title": "Blizzard ships the November 10 class tuning pass",
-        "summary": "The promised Hunter pet, Affliction Warlock and Enhancement Shaman changes went live with the November 10 hotfix notes, along with a Wrack rewrite and gold rewards on level 48 and higher quests. The Auction House changes listed in that update were removed on November 11 and delayed to November 17. The live client reached 1.60.1.70888 on November 11.",
+        "title": "Blizzard publishes the November 10 class tuning pass",
+        "summary": "The promised Hunter pet, Affliction Warlock and Enhancement Shaman changes were published in the November 10 hotfix notes, along with a Wrack rewrite and gold rewards on level 48 and higher quests. Blizzard later said the Shaman changes were delayed and went live at 10:45 a.m. PST on November 12. The Auction House changes listed in that update were removed on November 11 and delayed to November 17. The live client reached 1.60.1.70888 on November 11.",
         "source": "worldofwarcraft.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
     },
@@ -435,6 +443,30 @@ const entries = [
         "summary": "The November 11 hotfix notes add bigger profession bags, Paladin, Hunter, Druid and Shaman fixes, and Riverglades damage reductions. Blizzard also removed the Auction House changes from the November 10 update, delaying them to the November 17 weekly maintenance, and disabled Item Restoration during a critical bug investigation.",
         "source": "worldofwarcraft.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-11/"
+    },
+    {
+        "date": "2026-11-12",
+        "category": "news",
+        "title": "Blizzard confirms the Shaman changes went live a day late",
+        "summary": "Kaivax said an unexpected deployment delay meant the November 10 Shaman changes, including the Stormstrike and Maelstrom Weapon adjustments, went live at 10:45 a.m. PST on November 12. The notice names only the Shaman changes.",
+        "source": "us.forums.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
+    },
+    {
+        "date": "2026-11-12",
+        "category": "news",
+        "title": "Blizzard's Forever podcast turns to lore with Copeland and Greenfield",
+        "summary": "The seventh episode of the Forever podcast, 'Turbo Nerds Lore-ing Out', pairs host Countdown To Classic with PlatinumWoW and Nobbel for a conversation with Senior Game Designer Josh Greenfield and Lore Historian Lead Sean Copeland. Blizzard's article describes it as a deeper look at Forever's lore and story.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-lore-podcast-nov-12/"
+    },
+    {
+        "date": "2026-11-13",
+        "category": "news",
+        "title": "Live client reaches 1.60.1.70938 with no Blizzard notes attached",
+        "summary": "The live wowf track moved from 1.60.1.70888 to 1.60.1.70938 on November 13. ForeverDB has published its 70888 comparison, counting 539 items (295 added, 244 changed) and 52 spells (11 added, 41 changed), and says it has extracted 70938 data but has not posted that comparison yet. Blizzard has published no notes for 70938.",
+        "source": "tracker cdn-watch",
+        "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
     }
 ];
 
