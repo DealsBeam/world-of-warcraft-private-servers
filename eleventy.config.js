@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-    const { slugify, groupByEra, countByStatus, uniqueTags, gameOf, gameLabel, GAMES, cardFor } = require("./src/_data/vocab.js");
+    const { slugify, groupByEra, countByStatus, uniqueTags, gameOf, gameLabel, GAMES, cardFor, excerpt } = require("./src/_data/vocab.js");
 
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag) || p.data.category === tag);
 // Nunjucks selectattr with a boolean test value is unreliable across versions
@@ -121,14 +121,7 @@ const latestCheck = servers => {
     // first contentful paint past six seconds on a throttled connection.
     // The full text still appears on each server's own page, so cards get
     // an excerpt that ends on a word boundary.
-    eleventyConfig.addFilter("shorten", (text, n) => {
-        const s = String(text || "").trim();
-        const limit = Number(n) || 200;
-        if (s.length <= limit) return s;
-        const cut = s.slice(0, limit);
-        const space = cut.lastIndexOf(" ");
-        return `${(space > limit * 0.6 ? cut.slice(0, space) : cut).replace(/[\s,;:.]+$/, "")}…`;
-    });
+    eleventyConfig.addFilter("shorten", (text, n) => excerpt(text, n));
 
     eleventyConfig.addFilter("slugify", slugify);
 

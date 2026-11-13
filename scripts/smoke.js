@@ -245,13 +245,14 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
         .filter(Boolean);
     const absent = destructured.filter(n => !(n in ctx.VOCAB));
     assert.strictEqual(absent.length, 0, `app.js destructures from VOCAB but data.js does not define: ${absent.join(", ")}`);
+    assert.strictEqual(typeof ctx.VOCAB.excerpt, "function", "VOCAB.excerpt is not a function in the built bundle");
 
     // And the serialised functions must not close over anything the browser lacks.
     const unbound = [];
     // groupByEra and countByStatus are deliberately NOT here: they close over ERA
     // and ERA_ORDER, which do not exist in the browser, and the browser render
     // path does not call them. Server-side templates use the real filter.
-    for (const name of ["statusRank", "matches"]) {
+    for (const name of ["statusRank", "matches", "excerpt"]) {
         assert.strictEqual(typeof ctx.VOCAB[name], "function", `VOCAB.${name} is not a function in the built bundle`);
         const body = ctx.VOCAB[name].toString();
         for (const id of body.match(/\b([A-Z][A-Z0-9_]{2,})\b/g) || []) {
@@ -265,7 +266,17 @@ console.log(`OK: build smoke test passed (${SERVERS.length} server pages + core 
     for (const s2 of SERVERS) assert.ok(typeof ctx.VOCAB.statusRank(s2) === "number", `statusRank returned non-number for ${s2.name}`);
     const ranked = SERVERS.map(s2 => ctx.VOCAB.statusRank(s2));
     assert.ok(ranked.filter(r => r === 0).length > 0, "no server ranks as playable in the browser bundle");
-    console.log(`OK: browser bundle runs (${destructured.length} VOCAB names, all ${SERVERS.length} servers ranked)`);
+
+    // The browser card renderer must clip long evidence records with the same
+    // helper the server template uses, or it replaces a compact first paint
+    // with full 400 to 4,700 character descriptions.
+    for (const s2 of SERVERS) {
+        const clipped = ctx.VOCAB.excerpt(s2.details, 200);
+        assert.ok(clipped.length <= 201, `excerpt for ${s2.name} is ${clipped.length} characters`);
+    }
+    const longest = SERVERS.reduce((a, s2) => s2.details.length > a.length ? s2.details : a, "");
+    assert.ok(ctx.VOCAB.excerpt(longest, 200).endsWith("…"), "longest excerpt does not end on the ellipsis");
+    console.log(`OK: browser bundle runs (${destructured.length} VOCAB names, all ${SERVERS.length} servers ranked, excerpts clipped)`);
 }
 
 // A control row with a min-content floor (a select with white-space: pre, two

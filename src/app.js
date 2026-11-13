@@ -1,4 +1,4 @@
-const { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, ICONPATHS, ICONVIEW, ERA_ICON, SERVER_ICON, slugify, matches, statusRank } = VOCAB;
+const { STATUS, HTYPE, ERA, ERA_ORDER, ICONS, ICONPATHS, ICONVIEW, ERA_ICON, SERVER_ICON, slugify, matches, statusRank, excerpt } = VOCAB;
 
 const eraIcon = era => ERA_ICON[era] || "question";
 const iconFor = (name, tag) => SERVER_ICON[name] || ERA_ICON[ERA[tag] || "Other"] || "question";
@@ -121,7 +121,7 @@ const cardHtml = s => {
             </span>
             <span class="badge ${(STATUS[s.status]||{cls:"",label:scr(s.status)}).cls}">${(STATUS[s.status]||{cls:"",label:scr(s.status)}).label}</span>
         </div>
-        <div class="card-details">${scr(s.details)}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${pop}${rel}${down}${visit}</div>
+        <div class="card-details">${scr(excerpt(s.details, 200))}${s.tag ? ` <span class="tag">${scr(s.tag)}</span>` : ""}${pop}${rel}${down}${visit}</div>
     </article>`;
 };
 

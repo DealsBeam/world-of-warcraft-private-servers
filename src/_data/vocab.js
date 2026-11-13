@@ -52,6 +52,19 @@ const STATUS_ORDER = { playable: 0, dev: 1, dead: 2 };
 // filter showed 0 cards instead of 56.
 const statusRank = s => { const r = { playable: 0, dev: 1, dead: 2 }[s.status]; return r === undefined ? 3 : r; };
 
+// Card excerpts. Self-contained on purpose: data.11ty.js serialises this
+// function into data.js, so the browser renderer and the server template use
+// the same 200-character word-boundary rule. The full text stays on each
+// server's own page.
+const excerpt = (text, n = 200) => {
+    const s = String(text || "").trim();
+    const limit = Number(n) || 200;
+    if (s.length <= limit) return s;
+    const cut = s.slice(0, limit);
+    const space = cut.lastIndexOf(" ");
+    return `${(space > limit * 0.6 ? cut.slice(0, space) : cut).replace(/[\s,;:.]+$/, "")}…`;
+};
+
 const groupByEra = servers => {
     const groups = {};
     servers.forEach(s => {
@@ -83,4 +96,4 @@ const cardFor = key => {
 
 const filterBlogByTag = (posts, tag) => posts.filter(p => (p.data.tags || []).includes(tag));
 
-module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag, GAMES, GAME_LABELS, gameOf, gameLabel, cardFor, statusRank };
+module.exports = { STATUS, POPTIER, HTYPE, ERA, ERA_ORDER, ICONS, slugify, matches, groupByEra, countByStatus, filterBlogByTag, GAMES, GAME_LABELS, gameOf, gameLabel, cardFor, statusRank, excerpt };
