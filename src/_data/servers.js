@@ -9,6 +9,17 @@ module.exports = [
         "popTier": "unknown"
     },
     {
+        "name": "ForeverWoW",
+        "status": "dev",
+        "details": "English-language WoW: Forever server on its own ForeverCore, in open beta since October 1 2026, open to all with a wipe before launch. On November 15 2026 it postponed its November 22 launch to December 21 2026, with January 20 2027 as the final fallback if the core fixes are not done. It said nothing shuts down on November 22, the beta continues, accounts stay and beta rewards stand. First-party site read November 16 2026: the homepage counter showed 59 players online, the project page said ForeverCore reads world data from the 1.60.1 client, and it listed rates and ruleset as coming in the news. The same team runs the Russian-language nvord.com. Site recorded, not linked.",
+        "tag": "Vanilla+",
+        "group": "",
+        "url": "https://foreverwow.biz/",
+        "release": "December 21, 2026",
+        "updated": "2026-11-16",
+        "popTier": "small"
+    },
+    {
 "name": "SandWorlds",
         "status": "playable",
         "details": "Vanilla PVP, 213 Discord online",

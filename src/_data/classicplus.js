@@ -467,6 +467,54 @@ const entries = [
         "summary": "The live wowf track moved from 1.60.1.70888 to 1.60.1.70938 on November 13. ForeverDB has published its 70888 comparison, counting 539 items (295 added, 244 changed) and 52 spells (11 added, 41 changed), and says it has extracted 70938 data but has not posted that comparison yet. Blizzard has published no notes for 70938.",
         "source": "tracker cdn-watch",
         "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
+    },
+    {
+        "date": "2026-11-13",
+        "category": "news",
+        "title": "Forever's November 13 hotfixes repair stun diminishing returns and Command",
+        "summary": "Blizzard's November 13 pass fixed creature-stun diminishing returns in both directions, stopped Wild Growth from being cast while moving, raised its healing coefficient to 6.6 percent, made Judgement of Command count as melee again, and added a zero-XP rule for trivial dungeon enemies. Item, quest and fishing fixes are in the same set.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-13/"
+    },
+    {
+        "date": "2026-11-13",
+        "category": "news",
+        "title": "Blizzard publishes the Forever short story 'Cost of Honor'",
+        "summary": "Written by Jonathan Maberry, illustrated by Surfside 3D and narrated by Peter Jessop as Demar Brant, the story is framed as a fireside telling in the Riverglades. Blizzard published it on November 13 with a downloadable PDF.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-cost-of-honor-nov-13/"
+    },
+    {
+        "date": "2026-11-14",
+        "category": "news",
+        "title": "Blizzard refunds Forever training lost in the November 9 outage",
+        "summary": "In-game mail went out to players who lost purchased skills during the November 9 server trouble, refunding the cost of training bought between 1:17 and 2:17 p.m. PST. Blizzard dates the notice November 13 in Pacific time.",
+        "source": "us.forums.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-training-refunds-nov-14/"
+    },
+    {
+        "date": "2026-11-15",
+        "category": "news",
+        "title": "Blizzard limits Forever's dungeon XP nullification to a 12-level gap",
+        "summary": "After the November 13 rule zeroed dungeon experience whenever an enemy was trivial to any party member, Kaivax said the nullification now applies only when the high-level player is more than 12 levels above the enemy. Runs already underway kept the old rule.",
+        "source": "us.forums.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-dungeon-xp-12-level-gate-nov-15/"
+    },
+    {
+        "date": "2026-11-15",
+        "category": "news",
+        "title": "ForeverWoW moves its launch to December 21",
+        "summary": "The English-language Forever private server postponed its November 22 launch on November 15, citing more core problems than expected. It names December 21 as the target and January 20, 2027 as the final fallback, and says the open beta continues with no wipe until launch.",
+        "source": "foreverwow.biz",
+        "url": "https://wowprivateservers.vercel.app/news/foreverwow-launch-december-21-nov-15/"
+    },
+    {
+        "date": "2026-11-16",
+        "category": "news",
+        "title": "ForeverDB publishes its comparison for build 1.60.1.70938",
+        "summary": "Against 70888, ForeverDB counts 2 changed class abilities, 4 changed talents, 11 changed spells and 135 items (52 added, 83 changed). It dates the extraction November 16.",
+        "source": "foreverdb.net",
+        "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
     }
 ];
 
