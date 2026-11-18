@@ -515,6 +515,22 @@ const entries = [
         "summary": "Against 70888, ForeverDB counts 2 changed class abilities, 4 changed talents, 11 changed spells and 135 items (52 added, 83 changed). It dates the extraction November 16.",
         "source": "foreverdb.net",
         "url": "https://wowprivateservers.vercel.app/news/forever-tuning-nov-10/"
+    },
+    {
+        "date": "2026-11-16",
+        "category": "news",
+        "title": "Forever's November 16 hotfixes clean up Windfury and halve group Vampiric Embrace",
+        "summary": "Windfury Totem no longer ignores armor or skips its internal cooldown, and several abilities stop rolling the proc. Cleave and Heroic Strike no longer eat Flurry or skip Unbridled Wrath and Reckless Swings. Vampiric Embrace drops from 20 to 10 percent of Shadow damage for the group, with the caster's own healing unchanged.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-16/"
+    },
+    {
+        "date": "2026-11-17",
+        "category": "news",
+        "title": "Live client reaches 1.60.1.70959 on November 17",
+        "summary": "The live wowf track moved to 1.60.1.70959 on November 17, the first new build since November 13. It arrived the same UTC day as the November 16 hotfix notes, though Blizzard does not key the notes to a build. ForeverDB still showed 70938 as its newest extracted build at our November 18 read.",
+        "source": "tracker cdn-watch",
+        "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-16/"
     }
 ];
 

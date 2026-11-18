@@ -305,12 +305,12 @@ module.exports = [
     {
         "name": "Firestorm",
         "status": "playable",
-        "details": "TWW (Dornogal) plus BFA: Reforged, MoP and Legion realms with a live changelog for each. BFA: Reforged LAUNCHED, correcting our entry which still described it as pending: the PTR closed and the official realm opened, announced on their own site, with Season 1 beginning immediately on release and Uldir Mythic opening one week later. Reforged launches with Patch 8.0 content on 8.3.7 class tuning, everyone starts fresh, and Rank 1 Essences are available from the start with later ranks unlocked per season on a deliberately dynamic schedule. New hub zone Plunderforged Bay handles all vendors, quests and NPCs. FIRST WEEK LOGIN REWARDS are offered. Felsong cosmetics can now be merged into a Firestorm account, and account-wide cosmetics carry across TWW and BFA where the item exists. Corrected Sep 29: we were carrying a launch date of Aug 31 as though it were still in the future, which is the same stale-pending-date failure this sweep exists to catch",
-        "tag": "TWW",
+        "details": "Retail-mirror network: Midnight on the Silvermoon realm from November 23 2026, replacing the TWW Dornogal realm, plus BFA: Reforged, MoP and Legion realms with a live changelog for each. BFA: Reforged LAUNCHED, correcting our entry which still described it as pending: the PTR closed and the official realm opened, announced on their own site, with Season 1 beginning immediately on release and Uldir Mythic opening one week later. Reforged launches with Patch 8.0 content on 8.3.7 class tuning, everyone starts fresh, and Rank 1 Essences are available from the start with later ranks unlocked per season on a deliberately dynamic schedule. New hub zone Plunderforged Bay handles all vendors, quests and NPCs. FIRST WEEK LOGIN REWARDS are offered. Felsong cosmetics can now be merged into a Firestorm account, and account-wide cosmetics carry across TWW and BFA where the item exists. Corrected Sep 29: we were carrying a launch date of Aug 31 as though it were still in the future, which is the same stale-pending-date failure this sweep exists to catch. November 17 2026: Firestorm's own news page dates Midnight to Monday November 23, when the Dornogal TWW realm becomes the Midnight realm Silvermoon. Characters, gold, items and guild bank contents move automatically; auction house listings end and return by mail; the client runs 12.0.7 with 12.0.2 content and 12.0.7 class balance; the level cap rises to 90; The War Within stops being available. Season 1 follows December 7, and logging in between November 23 and 30 grants a reward plus a level 80 boost. Tag moved from TWW to Multi on this date because no TWW realm remains after the move.",
+        "tag": "Multi",
         "group": "",
         "url": "https://firestorm-servers.com",
         "popTier": "large",
-        "updated": "2026-09-29"
+        "updated": "2026-11-17"
     },
     {
         "name": "Sirus",

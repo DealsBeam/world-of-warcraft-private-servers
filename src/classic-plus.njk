@@ -43,7 +43,7 @@ eleventyComputed:
 <section class="panel cp-countdown" aria-label="Key dates">
     <div>
         <div class="cd-title">Live since Nov 4, 3:00 p.m. PST</div>
-        <div class="cd-when">Live build 70862 · Raids Dec 9</div>
+        <div class="cd-when">Live build {% if cdnwatch.wowf and cdnwatch.wowf.ok %}{{ cdnwatch.wowf.current }}{% else %}unavailable{% endif %} · Raids Dec 9</div>
     </div>
     <div>
         <div class="cd-num" data-countdown="2026-11-04T23:00:00Z">Live now</div>
@@ -488,7 +488,7 @@ eleventyComputed:
 {% else %}
 <section class="panel cp-span-full">
     <h2>Blizzard CDN Build Watch</h2>
-    <p class="meta-info">Watcher unreachable: the BlizzTrack API has returned errors since September 18, 2026, so the last confirmed build (1.60.1.70862, November 7 2026) is shown as the latest known, not live, data. This note replaces the live panel until the feed recovers.</p>
+    <p class="meta-info">Watcher unreachable at this build. The live build number is not being read right now, so this panel stays empty rather than showing a build we cannot confirm. The tracker's CDN history is restored on the next successful read.</p>
 </section>
 {% endif %}
 
