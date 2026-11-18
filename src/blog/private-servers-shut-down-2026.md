@@ -44,4 +44,6 @@ A closed server is not deleted from the tracker. The entry stays, marked dead, w
 
 The wider enforcement story, from the May actions through the autumn economy holds, is in [our crackdown explainer](/blog/blizzard-2026-private-server-crackdown/).
 
+**Correction November 18 2026:** the Everlook entry in the tracker has been corrected. It now records the original EU realm closing on 22 September 2025 after Blizzard's request, not an abandonment in December 2023. The separate Everlook Asia realm is still online and is not covered by that entry. The figures above are left as the dated snapshot. See [the tracker entry](/servers/everlook/).
+
 SOURCES: our own tracker entries, each carrying a dated shutdown and a reason, read October 16 2026. Related: [the crackdown explainer](/blog/blizzard-2026-private-server-crackdown/), [how we review a private server](/blog/how-we-review-a-private-server/), and [the correction policy](/blog/tracker-correction-policy-explained/).

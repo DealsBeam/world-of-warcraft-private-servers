@@ -74,4 +74,6 @@ All three were downgraded to an unknown population band in October so that a ser
 3. **Treat unknown population as unknown.** More than half the tracker publishes no counter we can read, and that includes several realms here. A small honest number beats a big unverifiable one.
 4. **Check the date, not the listing.** Vanilla projects open and close fast, and a directory that shows a realm as live may be months behind. Every entry above carries the date we last read it.
 
+**Correction November 18 2026:** the Everlook entry in the tracker has been corrected. It now records the original EU realm closing on 22 September 2025 after Blizzard's request, not an abandonment in December 2023. The separate Everlook Asia realm is still online and is not covered by that entry. The figures above are left as the dated snapshot. See [the tracker entry](/servers/everlook/).
+
 Current status for every server on this list is on [the tracker](/). Picks by expansion: [WotLK](/blog/best-wotlk-private-servers-2026/), [TBC](/blog/best-tbc-private-servers-2026/), [Cataclysm](/blog/best-cataclysm-private-servers-2026/), [Mists of Pandaria](/blog/best-mop-private-servers-2026/), [Legion](/blog/best-legion-private-servers-2026/), and [Vanilla+](/blog/best-vanilla-plus-private-servers-2026/).

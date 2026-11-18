@@ -81,4 +81,6 @@ The private scene has already answered the question this raises, in the shape of
 
 Read together: a scene that is **broad and shallow**, half of it Wrath, more than half of it unmeasured, most of its large realms owned by a handful of networks, and its death column now dominated by cease-and-desist. It is not shrinking. It is consolidating, while a wave of small projects keeps opening into a month that ends with Blizzard launching the thing they all emulate. The next count will say whether that wave survives the fourth of November.
 
+**Correction November 18 2026:** the Everlook entry in the tracker has been corrected. It now records the original EU realm closing on 22 September 2025 after Blizzard's request, not an abandonment in December 2023. The separate Everlook Asia realm is still online and is not covered by that entry. The figures above are left as the dated snapshot. See [the tracker entry](/servers/everlook/).
+
 Current figures are always on [the tracker](/). Earlier reads: [August 2026](/blog/tracker-snapshot-august-2026/) and [the October 5 census](/blog/tracker-census-185-entries-oct-5/).
