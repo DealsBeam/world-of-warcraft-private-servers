@@ -41,6 +41,7 @@ It is split in two on purpose. **Verified** means we have read the date at its s
 - **November 14 (November 15 UTC):** Blizzard narrowed the dungeon XP nullification so it applies only when a high-level player is more than **12 levels** above the enemy, and said runs already underway would keep the old rule. See [the 12-level note](/news/forever-dungeon-xp-12-level-gate-nov-15/).
 - **November 16 (November 17 UTC):** Blizzard's November 16 hotfix pass fixed Windfury Totem's armor bypass and missing internal cooldown, stopped Cleave and Heroic Strike from consuming Flurry stacks and from skipping Unbridled Wrath and Reckless Swings, and bracketed a Vampiric Embrace change for the November 17 maintenance. See [the November 16 brief](/news/forever-hotfixes-nov-16/).
 - **November 17:** the live client moved to **1.60.1.70959**, the first new build since November 13. The Auction House changes Blizzard pulled from the November 11 notes were due with the November 17 weekly maintenance; at our read on November 18 at 00:55 UTC they had not reappeared in the running hotfix article. See [the November 16 brief](/news/forever-hotfixes-nov-16/).
+- **November 17 (November 18 UTC):** Blizzard's November 17 hotfix pass corrected Upper Blackrock Spire's low enemy health and damage, changed Soulforge Armor from Strength to Spell Power for Paladin tanks, repaired Reagent Economy and the Cozy Sleeping Bag, and fixed a long list of profession, quest and UI bugs. The Auction House and Item Restoration were still absent from the notes. See [the November 17 brief](/news/forever-hotfixes-nov-17/).
 - **December 9:** first Forever raids: the 10-player Barrow Deeps, the 20-player Hyjal Summit and the 40-player Onyxia's Lair. In Wowhead's November 8 interview coverage, Blizzard said all three open simultaneously in every region. Earlier roadmap text named only two, and the tracker had carried Onyxia as unconfirmed.
 
 The full Forever timeline and its sourcing sit in our [roadmap post](/news/forever-roadmap-2026-2027/), and the October private server cluster is rounded up in [the October dates post](/news/october-dates-calendar-oct-8/).
@@ -57,6 +58,8 @@ Several projects in testing have **no launch date at all**, so they cannot go on
 
 If you want the servers rather than the dates, the [full tracker](/servers/) is the place to start, and [new and recently opened realms](/servers/) are filterable there.
 
+Added November 18 2026: the November 17 Forever hotfix pass.
+
 Added November 17 2026: the November 16 Forever hotfix pass, the November 17 build, and Firestorm's November 23 Midnight release.
 
-LAST UPDATED: November 17 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
+LAST UPDATED: November 18 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.

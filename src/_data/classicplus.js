@@ -531,6 +531,14 @@ const entries = [
         "summary": "The live wowf track moved to 1.60.1.70959 on November 17, the first new build since November 13. It arrived the same UTC day as the November 16 hotfix notes, though Blizzard does not key the notes to a build. ForeverDB still showed 70938 as its newest extracted build at our November 18 read.",
         "source": "tracker cdn-watch",
         "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-16/"
+    },
+    {
+        "date": "2026-11-17",
+        "category": "news",
+        "title": "The November 17 hotfixes restore UBRS difficulty and give Paladin tanks Spell Power",
+        "summary": "Published November 18 at 03:23 UTC, the pass restores Upper Blackrock Spire's intended enemy health and damage, switches Soulforge Armor from Strength to Spell Power, repairs Reagent Economy and the Cozy Sleeping Bag, and fixes profession, quest and UI issues. The Auction House and Item Restoration remain absent from the notes.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-17/"
     }
 ];
 
