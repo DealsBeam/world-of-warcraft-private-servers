@@ -32,6 +32,13 @@ eleventyComputed:
     </ul>
 </section>
 {% endif %}
+<section class="panel" id="latest-news">
+    <h2>Latest from the newsroom</h2>
+    <ul class="news-list">
+    {% for n in collections.news | reverse | take(4) %}<li><time>{{ n.date | formatDate }}</time> <a href="{{ n.url }}">{{ n.data.title }}</a></li>{% endfor %}
+    </ul>
+    <p><a href="/news/">All news →</a></p>
+</section>
 <ul class="blog-grid">
 {% for p in collections.blog | reverse %}
     {% set g = p.data | gameOf %}
