@@ -528,7 +528,7 @@ const entries = [
         "date": "2026-11-17",
         "category": "news",
         "title": "Live client reaches 1.60.1.70959 on November 17",
-        "summary": "The live wowf track moved to 1.60.1.70959 on November 17, the first new build since November 13. It arrived the same UTC day as the November 16 hotfix notes, though Blizzard does not key the notes to a build. ForeverDB still showed 70938 as its newest extracted build at our November 18 read.",
+        "summary": "The live wowf track moved to 1.60.1.70959 on November 17, the first new build since November 13. It arrived the same UTC day as the November 16 hotfix notes, though Blizzard does not key the notes to a build. ForeverDB still showed 70938 as its newest extracted build at our November 18 read. Update November 19 2026: ForeverDB has now published the 70959 extraction; see the dated entry below.",
         "source": "tracker cdn-watch",
         "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-16/"
     },
@@ -539,6 +539,14 @@ const entries = [
         "summary": "Published November 18 at 03:23 UTC, the pass restores Upper Blackrock Spire's intended enemy health and damage, switches Soulforge Armor from Strength to Spell Power, repairs Reagent Economy and the Cozy Sleeping Bag, and fixes profession, quest and UI issues. The Auction House and Item Restoration remain absent from the notes.",
         "source": "worldofwarcraft.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-17/"
+    },
+    {
+        "date": "2026-11-19",
+        "category": "news",
+        "title": "ForeverDB publishes its comparison for build 1.60.1.70959",
+        "summary": "The new extraction is dated November 18. Against 70938 it counts 1 changed class ability, 2 changed talents, 60 spells (10 added, 50 changed), 226 items (117 added, 109 changed) and 10 changed armor sets. These are client file diffs, not Blizzard notes, and we do not pair them with individual hotfix lines.",
+        "source": "foreverdb.net",
+        "url": "https://wowprivateservers.vercel.app/news/foreverdb-70959-nov-19/"
     }
 ];
 
