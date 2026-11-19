@@ -594,11 +594,11 @@ module.exports = [
     {
         "name": "Whitemane \u2014 Stormstout",
         "status": "playable",
-        "details": "MoP 5.4.8 realm on Whitemane network (est. 2020, F2P, no P2W), QoL features, custom legendaries, solo-queue PvP, beta online, full launch delayed a few months per Jun 30 news. UPDATED Oct 18 2026: the network banner read 8,700 players online and the realm list still read Stormstout Beta Online",
+        "details": "MoP 5.4.8 realm on Whitemane network (est. 2020, F2P, no P2W), QoL features, custom legendaries, solo-queue PvP, beta online, full launch delayed a few months per Jun 30 news. UPDATED Oct 18 2026: the network banner read 8,700 players online and the realm list still read Stormstout Beta Online. CHECKED NOVEMBER 19 2026: Whitemane's own site still lists Stormstout as Beta Online, and the realm's own page says Coming Soon with no launch date; its news index has no post later than October 21. A third-party hub reports a December 12 2026 launch and the later closure of Maelstrom and Frostmourne Legacy, but we have not found that announcement on Whitemane's site, so we are not dating it here.",
         "tag": "MoP",
         "group": "Whitemane",
         "url": "https://whitemane.gg/",
-        "updated": "2026-10-18",
+        "updated": "2026-11-19",
         "popTier": "large"
     },
     {
