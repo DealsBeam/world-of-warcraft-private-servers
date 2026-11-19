@@ -43,6 +43,8 @@ Also live alongside the devlog: a **Dungeon Finder and Group Browser**, a **data
 
 **The devlog's newest post is dated 15 September**, which is 18 days ago. Nothing has shipped publicly in that window, and for a project whose headline is a monthly engineering pace, an 18-day silence is the first thing worth watching.
 
+**Correction November 19 2026:** this was true at our October 3 read and is no longer current. Emberveil posted "Two Months of Emberveil" on October 15 and "One Date, Three Launches" on November 18, which sets November 20 for the Android open beta, an in-game shop and phase two. See [the new report](/news/emberveil-november-20-android-shop-phase-two/).
+
 Our population tier stays `tiny` on the basis of the site's own positioning as a small realm. We have no live counter from it.
 
 SOURCES: Emberveil's own homepage and `/news` devlog, read October 3 2026 in a browser with a control domain probed in the same batch. Every date, post title, count and quoted phrase above is transcribed from those pages. We did not download the launcher, did not execute anything, and did not play. Related: [how we review a private server](/blog/how-we-review-a-private-server/), [the correction policy](/blog/tracker-correction-policy-explained/), and the [grading scale](/grading/).
