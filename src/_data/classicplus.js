@@ -563,6 +563,22 @@ const entries = [
         "summary": "Blizzard's first-party post confirms Aidan Moon and Kris Zierhut discussed class design. Warcraft Tavern reports the detail: spellpower gear is behind while leveling, the healer shortage has no immediate fix, and the team wants biome and creature-specific gear instead of one best item per slot.",
         "source": "worldofwarcraft.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-podcast-class-design-nov-19/"
+    },
+    {
+        "date": "2026-11-20",
+        "category": "news",
+        "title": "Forever's first two weeks: 15.2 million characters and a 15-year player record",
+        "summary": "Blizzard's own counters: 15,160,147 characters, 1.48 billion quests, 9.79 billion enemies, 140,764 guilds and 196.9 million deaths. Holly Longdale said weekly players are at a 15-year high for World of Warcraft. These are activity counters, not a population estimate.",
+        "source": "official World of Warcraft account",
+        "url": "https://wowprivateservers.vercel.app/news/forever-two-week-statistics-nov-20/"
+    },
+    {
+        "date": "2026-11-20",
+        "category": "news",
+        "title": "Blizzard defends flavor items and promises Merchant's Favor recipes every patch",
+        "summary": "More from episode 8 as reported by Warcraft Tavern: Aidan Moon argued that optimisation is the enemy of fun in itemization and teased an item that scales with full bags, while Kris Zierhut said the crate factions will get new recipes in every future patch.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-flavor-items-merchants-favor-nov-20/"
     }
 ];
 
