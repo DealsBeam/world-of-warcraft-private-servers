@@ -25,6 +25,8 @@ The site states plainly that Blizzard has posted no notes for them.
 
 There is some independent context for the quest item. WarcraftMaps logged a **player** bug report on November 17: two players on "The Big Payback" killing the Venture Co. Agent together could not both loot the package, and the second had to wait about ten minutes for the next spawn. That is a player report, not a Blizzard confirmation, and it does not establish that a fix shipped.
 
+**Update November 20 2026:** Blizzard's November 19 hotfix pass, published at 04:00 UTC today, now documents the Paladin change: "Two-Handed Weapon Specialization now correctly increases all Holy Damage you deal while a two-handed weapon is equipped." That half of the report is resolved. The Ruzzgot's Shipment party-drop change is still absent from Blizzard's notes, so we continue to hold it. See [the November 19 brief](/news/forever-hotfixes-nov-19/).
+
 ## Why we are holding
 
 This is the same rule we applied to the Auction House changes. A cache observation is evidence that something changed in the data a realm serves. It is not the same as a first-party note, and we have not tested either change in game.

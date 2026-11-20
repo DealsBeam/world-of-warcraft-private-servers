@@ -547,6 +547,22 @@ const entries = [
         "summary": "The new extraction is dated November 18. Against 70938 it counts 1 changed class ability, 2 changed talents, 60 spells (10 added, 50 changed), 226 items (117 added, 109 changed) and 10 changed armor sets. These are client file diffs, not Blizzard notes, and we do not pair them with individual hotfix lines.",
         "source": "foreverdb.net",
         "url": "https://wowprivateservers.vercel.app/news/foreverdb-70959-nov-19/"
+    },
+    {
+        "date": "2026-11-19",
+        "category": "news",
+        "title": "Blizzard's November 19 hotfixes re-enable the Seed Hybridizer",
+        "summary": "Published November 20 at 04:00 UTC. Seed Hybridizer returns with adjusted values and a failure chance, Scarce Herb Seeds are excluded, Two-Handed Weapon Specialization now applies to all Holy damage, and Shaper's Terrace, City of Dalaran, quest, item and racial bugs are fixed.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-19/"
+    },
+    {
+        "date": "2026-11-19",
+        "category": "news",
+        "title": "The class design podcast puts spellpower gear and Best-in-Slot under discussion",
+        "summary": "Blizzard's first-party post confirms Aidan Moon and Kris Zierhut discussed class design. Warcraft Tavern reports the detail: spellpower gear is behind while leveling, the healer shortage has no immediate fix, and the team wants biome and creature-specific gear instead of one best item per slot.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-podcast-class-design-nov-19/"
     }
 ];
 

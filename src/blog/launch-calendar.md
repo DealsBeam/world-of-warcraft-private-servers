@@ -59,10 +59,12 @@ Several projects in testing have **no launch date at all**, so they cannot go on
 
 If you want the servers rather than the dates, the [full tracker](/servers/) is the place to start, and [new and recently opened realms](/servers/) are filterable there.
 
+Added November 20 2026: the November 19 Forever hotfix pass and the Blackmaw Hold enforcement explainer.
+
 Added November 19 2026: Emberveil's November 20 Android, shop and phase two date.
 
 Added November 18 2026: the November 17 Forever hotfix pass.
 
 Added November 17 2026: the November 16 Forever hotfix pass, the November 17 build, and Firestorm's November 23 Midnight release.
 
-LAST UPDATED: November 19 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
+LAST UPDATED: November 20 2026. Dates in this field move; this page is rechecked as part of our normal cycle, and corrections are shown with a date rather than made silently.
