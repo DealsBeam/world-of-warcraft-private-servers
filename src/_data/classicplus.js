@@ -579,6 +579,14 @@ const entries = [
         "summary": "More from episode 8 as reported by Warcraft Tavern: Aidan Moon argued that optimisation is the enemy of fun in itemization and teased an item that scales with full bags, while Kris Zierhut said the crate factions will get new recipes in every future patch.",
         "source": "worldofwarcraft.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-flavor-items-merchants-favor-nov-20/"
+    },
+    {
+        "date": "2026-11-20",
+        "category": "news",
+        "title": "The November 20 hotfixes cut dungeon resets to five an hour",
+        "summary": "Published November 21 at 00:18 UTC. Dungeon resets drop from ten to five per hour, Stormshroud Armor's 3-piece proc falls from 4 percent and 30 energy to 3 percent and 18, Demonic Aegis snapshotting is fixed, and the Summit of Eternity forge is repaired. The live client moved to 1.60.1.71037.",
+        "source": "worldofwarcraft.blizzard.com",
+        "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-20/"
     }
 ];
 

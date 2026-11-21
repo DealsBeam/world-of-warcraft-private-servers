@@ -58,6 +58,8 @@ The Skyborne and Tauren lines are the first racial fixes in a hotfix pass since 
 
 ## What is still outstanding
 
-The Auction House changes promised for the November 17 maintenance and the return of Item Restoration are both still absent from the notes. The live client remains **1.60.1.70959**.
+The Auction House changes promised for the November 17 maintenance and the return of Item Restoration are both still absent from the notes. The live client was **1.60.1.70959** at the time of this pass.
+
+**Update November 21 2026:** a new hotfix pass was published at 00:18 UTC today and the live client moved to **1.60.1.71037**. The Auction House and Item Restoration are still absent. See [the November 20 brief](/news/forever-hotfixes-nov-20/).
 
 SOURCES: Blizzard's running "WoW: Forever Hotfixes" article at worldofwarcraft.blizzard.com/en-us/news/24315281, retitled "WoW: Forever Hotfixes - November 19, 2026", published November 20 2026 at 04:00 UTC and read November 20 2026; Kaivax's matching forum post at us.forums.blizzard.com/en/wow/t/2403040, post 13, timestamped November 20 2026 at 04:00 UTC. Related: [the November 17 brief](/news/forever-hotfixes-nov-17/), [the November 16 brief](/news/forever-hotfixes-nov-16/), [the undocumented change report](/news/undocumented-forever-hotfixes-nov-19/) and [the Forever hub](/forever/).
