@@ -587,6 +587,14 @@ const entries = [
         "summary": "Published November 21 at 00:18 UTC. Dungeon resets drop from ten to five per hour, Stormshroud Armor's 3-piece proc falls from 4 percent and 30 energy to 3 percent and 18, Demonic Aegis snapshotting is fixed, and the Summit of Eternity forge is repaired. The live client moved to 1.60.1.71037.",
         "source": "worldofwarcraft.blizzard.com",
         "url": "https://wowprivateservers.vercel.app/news/forever-hotfixes-nov-20/"
+    },
+    {
+        "date": "2026-11-22",
+        "category": "news",
+        "title": "Blizzard hides realm IDs from Forever addons, ending targeted layer swapping",
+        "summary": "Addon API notes from Blizzard engineer Daniel Yates say realm names and IDs now return empty values in Forever and realm IDs in GUIDs are obfuscated. Layer Swap can still move you but cannot target a layer. Reported through Wowhead and Warcraft Tavern with links to the Discord notes; not a public Blizzard article.",
+        "source": "WoWUIDev notes, relayed",
+        "url": "https://wowprivateservers.vercel.app/news/forever-layer-addon-api-nov-22/"
     }
 ];
 

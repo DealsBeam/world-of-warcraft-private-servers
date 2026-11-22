@@ -41,6 +41,8 @@ Blizzard ships several of the things Classic players used addons for:
 
 Add one addon at a time, use the feature you installed it for, then add the next. That makes conflicts obvious instead of cumulative.
 
+**Update November 22 2026:** Blizzard changed the Forever addon API after this guide was written. `GetRealmName`, `GetRealmID` and related calls now return empty values, and realm IDs in GUIDs are obfuscated. That ends targeted layer swapping through addons such as Layer Swap. The change is described in [our November 22 report](/news/forever-layer-addon-api-nov-22/). The testing method below still applies; the information available to an addon has changed.
+
 ## What we are not saying
 
 We are not naming current addon versions. The fan guide's version checks date from October 7, and a version that was current then is not automatically current now. Check the author's page for the supported game version before installing. We also have not run these addons in the live game, so everything above is a testing method rather than a compatibility claim.
