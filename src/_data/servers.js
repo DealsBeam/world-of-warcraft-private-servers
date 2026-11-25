@@ -2616,5 +2616,36 @@ module.exports = [
     "url": "https://psychofun.eu/",
     "updated": "2026-11-25",
     "popTier": "unknown"
+  },
+  {
+    "name": "Everglow",
+    "status": "playable",
+    "details": "WotLK 3.3.5a realm where every class, including Death Knights, starts at level 255. First-party read November 25 2026: the site names Darnassus as the hub, offers email verified registration and a Windows launcher at version 1.26 on .NET Framework 4.8, publishes the realmlist line in its guide, and says a full client download is about 37.5 GB. No concurrent player counter is published, so popTier unknown. Status playable.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://everglow-wow.com/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
+  },
+  {
+    "name": "World of Immortality",
+    "status": "playable",
+    "details": "WotLK 3.3.5a build 12340 network with two realms under one account: Immortality at 10x kill and quest XP, 10x gold and 5x honor, and Fury at 3x XP, gold and honor. First-party read November 25 2026: two news posts dated November 23 say the original realm is back with old accounts and characters restored and new registration open. The About page says guild houses, custom event zones and the vote shop are being rolled out, and the news post says the vote shop is reopening very shortly. The connect guide publishes the realmlist line. No concurrent counter is shown, so popTier unknown. Status playable.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://worldofimmortality.com/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Midgard",
+    "status": "dev",
+    "details": "Spanish first progressive WotLK 3.3.5a project from the Vanaheim team. First-party read November 25 2026: it starts at level 1 with x1 experience, describes 14 phases through Classic, TBC and Wrath, advertises an open beta, and sets the official launch for December 19 2026 at 12:00 Peru time with a full wipe before launch. The page contradicts itself on registration, saying both that accounts can be created and entered now and that registration opens very soon, so no account availability claim is made. No concurrent counter is published, so popTier unknown. Status dev by the site's own beta and launch framing.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://wow-vanaheim.com/",
+    "release": "December 19, 2026",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
   }
 ]
