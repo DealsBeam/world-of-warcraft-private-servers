@@ -2555,5 +2555,66 @@ module.exports = [
     "url": "https://legacy-of-azeroth.com/",
     "updated": "2026-11-25",
     "popTier": "tiny"
+  },
+  {
+    "name": "Alpaca WoW",
+    "status": "dev",
+    "details": "Latin American Wrath of the Lich King Classic 3.4.5 PvP realm Rasganorte with x3 experience, x2 gold and professions, phased unlocks from Naxxramas through the Ruby Sanctum and a no pay to win statement. First-party read November 25 2026: the homepage gives the opening as November 28 2026 at 14:00 Lima time, offers account creation and a preconfigured 3.4.5 client ZIP, and says the ZIP already points at the realm. Status dev because the realm has not opened at our read; release 2026-11-28. No live count is published, so popTier unknown.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://alpacawow.com/",
+    "updated": "2026-11-25",
+    "release": "2026-11-28",
+    "popTier": "unknown"
+  },
+  {
+    "name": "FrostEvil",
+    "status": "playable",
+    "details": "Browser-playable WotLK 3.3.5a at x5 experience and TBC 2.4.3 at x10 experience under one account. First-party read November 25 2026: both realm cards read Online, the homepage offers account creation, its news dates TBC live and a WotLK quality of life update on November 21, and the live page says both realms are in the browser on PC and phone. A realmlist is published for players using their own WotLK client; TBC is browser only. Both the homepage and live page render the online field as a dash, so popTier unknown. Status playable.",
+    "tag": "Multi",
+    "group": "",
+    "url": "https://frostevil.eu/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
+  },
+  {
+    "name": "World of Arthemis - WotLK",
+    "status": "playable",
+    "details": "Separate Wrath of the Lich King 3.3.5a build 12340 branch of World of Arthemis, with its own accounts, login port 3725 and a prepared 17.9 GB client that points at the realm. First-party read November 25 2026: the registration page creates a web account and then a linked game account; the dated news index shows a November 17 post for new level 60 starts at x5 experience and a November 22 WotLK VIP catalogue. No concurrent counter is shown, so popTier unknown. Status playable. Do not merge with the separate Pandaria branch.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://worldofarthemis.online/wotlk/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Zone WoW",
+    "status": "playable",
+    "details": "WotLK 3.3.5a persistent sandbox built around gathering, crafting, housing, placed objects and player trade. First-party read November 25 2026: the status page stamped 18:26:18 read Online with 1d 13h 20m current uptime, 107 accounts, 122 characters, 7 guilds and 26 new accounts and characters in 30 days; the homepage showed 1 active rental, 4 placed objects, 4 placed NPCs, 4 farms, 0 market listings and 2 builders online. Recent changelogs are dated November 19, 15 and 12. Those are totals and category figures, not a concurrent count, so popTier unknown. Status playable.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://zone-wow.com/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Project Eclipse",
+    "status": "dev",
+    "details": "Upcoming WotLK 3.3.5a roguelite whose site calls itself a placeholder for accounts ahead of tests. First-party read November 25 2026: its only news post is dated June 29 2026; the status panel read Realm Eclipse Online, Players 0 and 3d 3h 38m uptime, with a published connect address. Zero is a test-panel value, not a measured public crowd, so popTier unknown. Status dev by the project's own description.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://project-eclipse.org/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
+  },
+  {
+    "name": "PsychoFun",
+    "status": "dev",
+    "details": "MoP 5.4.8 project also branded Project Psycho. First-party read November 25 2026: the site showed a system maintenance banner with no estimated end time, locked registration and a realm locked for GM and test mode. The status block read 0 players online, 1d 23h 27m uptime, with realmd and world server online; the newest news was dated October 6 2026 and the roadmap still had V19.1 and V19.3 in development. Status dev, not playable. popTier unknown because a GM test lock is not a public population.",
+    "tag": "MoP",
+    "group": "",
+    "url": "https://psychofun.eu/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
   }
 ]
