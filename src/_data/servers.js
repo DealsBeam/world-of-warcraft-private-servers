@@ -275,11 +275,11 @@ module.exports = [
     {
         "name": "Triumvirate-WoW",
         "status": "playable",
-        "details": "WotLK 3.3.5a level-60 endgame, free with no store found, 1-3x XP and 3x crafting. Mythic+ rebuilt across TBC and WotLK dungeons in waves of 8, loot tuned to 10-player raid level, plus artifact weapons you forge and flex raids. Guilds of 10+ can apply for a free transfer package with a full heirloom set per member. Five dated phases through 20 March 2027, which the project says may move with realm health. Corrected Sep 28: we dated Phase 2 to Aug 22; their own news says Molten Core and Zul'Aman opened 25 July, Gruul's Lair 8 August, and Icecrown Citadel went live 20:00 on 28 August. Re-read first-party October 17 2026: the site header still shows Current State Phase 2 and now reports 12,125 accounts, 15,679 Alliance and 15,073 Horde characters and 145 online, up from the 11,706 accounts and 139 online we recorded on September 28. Band stays small",
+        "details": "WotLK 3.3.5a level-60 endgame, free with no store found, 1-3x XP and 3x crafting. Mythic+ rebuilt across TBC and WotLK dungeons in waves of 8, loot tuned to 10-player raid level, plus artifact weapons you forge and flex raids. Guilds of 10+ can apply for a free transfer package with a full heirloom set per member. Five dated phases through 20 March 2027, which the project says may move with realm health. Corrected Sep 28: we dated Phase 2 to Aug 22; their own news says Molten Core and Zul'Aman opened 25 July, Gruul's Lair 8 August, and Icecrown Citadel went live 20:00 on 28 August. Re-read first-party October 17 2026: the site header still shows Current State Phase 2 and now reports 12,125 accounts, 15,679 Alliance and 15,073 Horde characters and 145 online, up from the 11,706 accounts and 139 online we recorded on September 28. Band stays small. REFRESHED November 25 2026: the first-party header now reads 256 players online and 12,851 accounts, with 17,141 Alliance and 16,296 Horde characters, and the Phase 2 status line still says ICECROWN CITADEL IS LIVE. Band stays small on the 256 reading",
         "tag": "WotLK",
         "group": "",
         "url": "https://triumvirate-wow.com/",
-        "updated": "2026-10-17",
+        "updated": "2026-11-25",
         "popTier": "small"
     },
     {
@@ -2369,12 +2369,12 @@ module.exports = [
   {
     "name": "SaberTooth",
     "status": "playable",
-    "details": "Brazilian Cataclysm 4.3.4 realm, build 15595, presented in Portuguese and English at sabertoothwow.com, realmlist play.sabertoothwow.com. Rates are x3 to x7 experience, x2 to x10 gold, x1 item drop, x3 professions and x1.3 reputation. Its feature list claims Gilneas and Kezan fully implemented with vehicle scenes and phasing, more than 900 quests checked one by one by the team, all classes and races playable, DungeonBots that fill a missing dungeon tank, healer or DPS, a Prestige system at level 85 that returns a character to 15 for permanent gathering, profession and drop bonuses and a currency spent on mounts and cosmetics, and a VIP subscription adding experience, reputation, free talent changes and a faster prestige hourglass while explicitly not touching drop rates. Patch notes at our read were dated 15 October 2026 (a Jedoga Shadowseeker fix in Ahn'Kahet, and Stripe payments), and 7 October 2026 (an open-world bot combat revision with PvP builds and correct glyphs). popTier unknown, and the reason is worth stating: the header at our October 17 2026 read claimed 119 players online while the statistics panel on the same page read 0 players, 0 accounts and 0 guilds against 2,081 characters and about 21 hours of uptime. We cannot reconcile those from outside, so we do not band it",
+    "details": "Brazilian Cataclysm 4.3.4 realm, build 15595, presented in Portuguese and English at sabertoothwow.com, realmlist play.sabertoothwow.com. Rates are x3 to x7 experience, x2 to x10 gold, x1 item drop, x3 professions and x1.3 reputation. Its feature list claims Gilneas and Kezan fully implemented with vehicle scenes and phasing, more than 900 quests checked one by one by the team, all classes and races playable, DungeonBots that fill a missing dungeon tank, healer or DPS, a Prestige system at level 85 that returns a character to 15 for permanent gathering, profession and drop bonuses and a currency spent on mounts and cosmetics, and a VIP subscription adding experience, reputation, free talent changes and a faster prestige hourglass while explicitly not touching drop rates. Patch notes at our read were dated 15 October 2026 (a Jedoga Shadowseeker fix in Ahn'Kahet, and Stripe payments), and 7 October 2026 (an open-world bot combat revision with PvP builds and correct glyphs). popTier unknown, and the reason is worth stating: the header at our October 17 2026 read claimed 119 players online while the statistics panel on the same page read 0 players, 0 accounts and 0 guilds against 2,081 characters and about 21 hours of uptime. We cannot reconcile those from outside, so we do not band it. CORRECTION AND REFRESH November 25 2026: the first-party homepage now reads 108 online, 372 accounts, 2,288 characters, 4 guilds and 2d 21h uptime. That resolves the earlier 119-versus-0 conflict in favour of the live counter, so the band moves from unknown to tiny on the 108 first-party reading. New dated posts list Saber Housing on November 14, three new professions on November 13 and a vote roulette tiger mount on November 1",
     "tag": "Cataclysm",
     "group": "",
     "url": "https://sabertoothwow.com/",
-    "updated": "2026-10-17",
-    "popTier": "unknown"
+    "updated": "2026-11-25",
+    "popTier": "tiny"
   },
   {
     "name": "Helix-WoW",
@@ -2533,6 +2533,26 @@ module.exports = [
     "tag": "Vanilla+",
     "group": "",
     "url": "https://twistedapo.com/",
+    "updated": "2026-11-25",
+    "popTier": "tiny"
+  },
+  {
+    "name": "Gravespire",
+    "status": "playable",
+    "details": "Browser-playable WotLK 3.3.5a PvP realm at 3x experience, playable on desktop, iPhone and Android with no install. First-party read November 25 2026: its own account API is enabled for registration and login, and the play host redirects unsigned visitors to the login page. The armory feed reported 89 characters, 71 accounts, 0 level 80s, 248 played hours, 0 guilds and a 39 Alliance and 50 Horde split at our read, so the realm has real activity, but no concurrent counter is published. Status playable rests on the account endpoints, the play host and that populated armory feed; popTier unknown because those totals are not concurrency. Spirebook and Armory pages say they are live while filters and leaderboards are still being polished. We did not create an account or play.",
+    "tag": "WotLK",
+    "group": "",
+    "url": "https://gravespire.com/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Legacy of Azeroth",
+    "status": "playable",
+    "details": "Private World of Warcraft Forever realm on build 1.60.1.70959, with a launcher that sets the server address, certificate and automatic login on Windows, Linux and macOS. First-party read November 25 2026: the site offers public account creation and downloads, its homepage showed Online with 40 players, and /api/status returned online true with 41 players at our read. Visible update posts name Launcher 1.3.6 and server WoWForever 0.1.39. popTier tiny on the 41-player first-party API figure. We did not create an account, download the launcher or connect.",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://legacy-of-azeroth.com/",
     "updated": "2026-11-25",
     "popTier": "tiny"
   }
