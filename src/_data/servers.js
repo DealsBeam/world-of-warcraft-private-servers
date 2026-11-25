@@ -2505,5 +2505,35 @@ module.exports = [
     "url": "https://wotlk5.com/",
     "updated": "2026-11-11",
     "popTier": "small"
+  },
+  {
+    "name": "SoloShell",
+    "status": "playable",
+    "details": "Solo-friendly Vanilla+ realm running Mysteries of Azeroth 1.18.1 content on the classic 1.12 client, with AI companions for every role and a Warband made from the player's own characters. First-party site read November 25 2026: its feature page marks hired companions and the Warband Live and defines Live as in the game and ready today, and the play page offers account creation plus launcher and direct client downloads. The published launcher feed was version 1.4.4, dated November 23 2026, with SHA-256 values for the installer, portable launcher and source zip; the direct client zip is about 10.1 GB with no hash in the feed. No concurrent player counter is published, so the band is unknown. We have not created an account, downloaded a client or played.",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://soloshell.st/",
+    "updated": "2026-11-25",
+    "popTier": "unknown"
+  },
+  {
+    "name": "Azeroth Ascended",
+    "status": "playable",
+    "details": "Custom Vanilla content on the 3.3.5a client at x1, with a PvP realm, custom Gilneas content and optional visual enhancements; the launcher handles login with no realmlist edit. First-party API read November 25 2026: the health endpoint reported registration, database, web login and donations enabled, and the server status endpoint reported online true, 3430 total characters, 643 online characters, highest level 80, mayIncludeBots true and statusSource world_tcp, timestamped 2026-11-25T12:55:39Z. The 643 figure is characters and may include bots, so it is not a human headcount. The site's own roadmap marks Phase 1 Azeroth Reborn done and Phase 2 A Living World current. The launcher is distributed through a third-party file link with no published hash.",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://azeroth-ascended.org/",
+    "updated": "2026-11-25",
+    "popTier": "medium"
+  },
+  {
+    "name": "Twisted",
+    "status": "playable",
+    "details": "Community-run Vanilla realm Antique on VMaNGOS, 1.12.1 build 5875, at x1 with double XP weekends. First-party site read November 25 2026: the timeline marks the Vanilla era Live Now with T1 Molten Core and Onyxia checked, T2 and later unchecked, and lists meeting stones as summon stones, an AH bot and faster ghost run speed. The download page offers a full client, a realmlist file and addons. Every page's realm snapshot read Antique Online, 39 total accounts, realm age 29 days and 0 active players, 0 Alliance and 0 Horde. That zero is a first-party snapshot, not a claim that nobody ever plays. Future TBC, WotLK, Cataclysm and MoP stages are marked planned, with Legacy realms promised so characters remain. popTier tiny on the published zero-online snapshot.",
+    "tag": "Vanilla+",
+    "group": "",
+    "url": "https://twistedapo.com/",
+    "updated": "2026-11-25",
+    "popTier": "tiny"
   }
 ]
